@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Not Such A Tough Quiz Also</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- SETUP SCREEN -->
+  <section id="setup-screen" class="screen active">
+    <h1>Not Such A Tough Quiz Also</h1>
+    <p class="tagline">A family quiz, India-soaked.</p>
+
+    <div class="card">
+      <h2>Players</h2>
+      <div id="player-list"></div>
+      <button id="add-player-btn" class="ghost small">+ Add Player</button>
+    </div>
+
+    <div class="card">
+      <h2>Rounds</h2>
+      <p class="muted small">Drag isn't supported — remove and re-add to reorder.</p>
+      <div id="round-list"></div>
+      <div class="round-add">
+        <button class="add-round-btn ghost small" data-type="long">+ Long Question</button>
+        <button class="add-round-btn ghost small" data-type="theme">+ Theme Round</button>
+        <button class="add-round-btn ghost small" data-type="bid">+ Bid Round</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Settings</h2>
+      <label>
+        <input type="checkbox" id="voice-host" checked>
+        Voice host reads questions aloud
+      </label>
+      <label class="block">
+        <span class="label-text">Voice</span>
+        <select id="voice-select"><option>(loading...)</option></select>
+        <button id="voice-test-btn" class="ghost small" type="button" style="margin-top:0.4rem;">▶ Test voice</button>
+      </label>
+      <label>
+        <input type="checkbox" id="auto-judge" checked>
+        Listen for spoken answers (host always has the final say)
+      </label>
+      <p class="muted small">Voice + listening work best in Chrome or Edge. To install Indian English voices on Windows: Settings → Time &amp; Language → Speech → Add voices → search "English (India)".</p>
+    </div>
+
+    <button id="start-game-btn" class="big">Start Quiz</button>
+    <p id="question-count" class="muted small center"></p>
+  </section>
+
+  <!-- GAME SCREEN -->
+  <section id="game-screen" class="screen">
+    <header class="game-header">
+      <div id="round-info"></div>
+      <div id="scoreboard"></div>
+    </header>
+
+    <main id="game-main"></main>
+
+    <footer class="game-footer">
+      <button id="back-to-setup-btn" class="ghost small">⟵ Back to Setup</button>
+    </footer>
+  </section>
+
+  <!-- END SCREEN -->
+  <section id="end-screen" class="screen">
+    <h1>Final Score</h1>
+    <ol id="final-scoreboard"></ol>
+    <button id="play-again-btn" class="big">Play Again</button>
+  </section>
+
+</div>
+
+<script src="questions.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

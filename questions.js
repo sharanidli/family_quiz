@@ -1,0 +1,1677 @@
+window.QUESTIONS_DATA = {
+  "version": 1,
+  "questions": [
+
+    { "id": "c001", "topic": "cricket", "bid_eligible": true,
+      "question": "On a balmy June afternoon at Lord's in 1983, with India defending a modest 183 against a West Indies side gunning for a third straight World Cup title, this man took a steady running catch over his shoulder to dismiss Vivian Richards. Many regard that catch as the moment the final tilted India's way. Name him.",
+      "answer": "Kapil Dev",
+      "accept": ["kapil dev", "kapil"],
+      "explanation": "Kapil's catch off Madan Lal's bowling is widely seen as the turning point of the 1983 final."
+    },
+    { "id": "c002", "topic": "cricket", "bid_eligible": true,
+      "question": "He was the first batsman in Test cricket to cross 10,000 runs, the original Little Master, and a Mumbai opener whose 774 runs in his debut series against the West Indies in 1971 still shines on the record books. Name him.",
+      "answer": "Sunil Gavaskar",
+      "accept": ["sunil gavaskar", "gavaskar", "sunny gavaskar", "sunny"]
+    },
+    { "id": "c003", "topic": "cricket",
+      "question": "On 10 February 1999 at the Feroz Shah Kotla in Delhi, this Karnataka leg-spinner became only the second bowler in Test history — after Jim Laker — to take all ten wickets in a single innings, dismissing the Pakistanis. Name him.",
+      "answer": "Anil Kumble",
+      "accept": ["anil kumble", "kumble", "jumbo"]
+    },
+    { "id": "c004", "topic": "cricket",
+      "question": "She captained India to the final of the 2017 ODI Women's World Cup at Lord's, where England won by just nine runs. The most-capped batter in women's ODIs, she is from Hyderabad. Name her.",
+      "answer": "Mithali Raj",
+      "accept": ["mithali raj", "mithali"]
+    },
+    { "id": "c005", "topic": "cricket", "bid_eligible": true,
+      "question": "Bengaluru-born; over thirteen thousand Test runs; nicknamed 'The Wall'. Who?",
+      "answer": "Rahul Dravid",
+      "accept": ["rahul dravid", "dravid", "the wall"]
+    },
+    { "id": "c006", "topic": "cricket", "bid_eligible": true,
+      "question": "World T20 final, the Wanderers, September 2007. Pakistan need 13 off the last over to win. India's young captain from Ranchi tosses the ball to medium-pacer Joginder Sharma rather than his strike bowlers. India win by five runs. Who was the captain?",
+      "answer": "MS Dhoni",
+      "accept": ["ms dhoni", "dhoni", "mahendra singh dhoni", "mahi"]
+    },
+    { "id": "c007", "topic": "cricket", "bid_eligible": true,
+      "question": "Najafgarh-born opener; first Indian to score a triple century in Tests, against Pakistan at Multan in 2004; nicknamed 'Viru'. Who?",
+      "answer": "Virender Sehwag",
+      "accept": ["virender sehwag", "sehwag", "viru", "veeru"]
+    },
+    { "id": "c008", "topic": "cricket",
+      "question": "Right-handed batsman, born in Mumbai in 1973, who retired in November 2013 as Test cricket's all-time highest run-scorer with 15,921 runs. His Test debut came at the age of sixteen, in Karachi, against Pakistan.",
+      "answer": "Sachin Tendulkar",
+      "accept": ["sachin tendulkar", "sachin", "tendulkar", "the little master", "the master blaster"]
+    },
+    { "id": "c009", "topic": "cricket",
+      "question": "On 24 February 2010 at Gwalior, against South Africa, this man became the first cricketer in history to score a double century in a One Day International — finishing on 200 not out off 147 balls.",
+      "answer": "Sachin Tendulkar",
+      "accept": ["sachin tendulkar", "sachin", "tendulkar"]
+    },
+    { "id": "c010", "topic": "cricket", "bid_eligible": true,
+      "question": "Tamil Nadu off-spinner; master of the carrom ball; over 500 Test wickets and a useful lower-order bat. Initials RA.",
+      "answer": "Ravichandran Ashwin",
+      "accept": ["ravichandran ashwin", "r ashwin", "ashwin"]
+    },
+    { "id": "c011", "topic": "cricket", "bid_eligible": true,
+      "question": "Hyderabad-born middle-order batter; nicknamed 'VVS'; his 281 against Australia at Eden Gardens in March 2001, alongside Dravid's 180, is part of cricket folklore.",
+      "answer": "VVS Laxman",
+      "accept": ["vvs laxman", "laxman", "very very special laxman"]
+    },
+    { "id": "c012", "topic": "cricket",
+      "question": "Bengali southpaw; India's Test captain from 2000 to 2005; widely credited with rebuilding the team after the match-fixing scandal; nicknamed 'Dada'.",
+      "answer": "Sourav Ganguly",
+      "accept": ["sourav ganguly", "ganguly", "dada", "saurav ganguly"]
+    },
+    { "id": "c013", "topic": "cricket",
+      "question": "On the night of 2 April 2011 at the Wankhede, with India needing 4 to win the World Cup, this player from Ranchi launched Nuwan Kulasekara over long-on for six. India's first ODI World Cup in twenty-eight years.",
+      "answer": "MS Dhoni",
+      "accept": ["ms dhoni", "dhoni", "mahendra singh dhoni"]
+    },
+    { "id": "c014", "topic": "cricket", "bid_eligible": true,
+      "question": "Born 5 November 1988 in Delhi; took over India's Test captaincy in 2014; led India to a maiden Test series win in Australia in 2018-19; the modern Indian batting talisman.",
+      "answer": "Virat Kohli",
+      "accept": ["virat kohli", "kohli", "king kohli"]
+    },
+    { "id": "c015", "topic": "cricket",
+      "question": "Punjab off-spinner who, in March 2001 at the Wankhede, took the first hat-trick by an Indian in Test cricket — dismissing Ponting, Gilchrist and Warne in successive deliveries.",
+      "answer": "Harbhajan Singh",
+      "accept": ["harbhajan singh", "harbhajan", "bhajji"]
+    },
+    { "id": "c016", "topic": "cricket", "bid_eligible": true,
+      "question": "Mumbai-born opener and 'Hitman'; captain of India's 2024 T20 World Cup-winning side in Barbados.",
+      "answer": "Rohit Sharma",
+      "accept": ["rohit sharma", "rohit", "hitman"]
+    },
+    { "id": "c017", "topic": "cricket",
+      "question": "Maharashtra-born left-arm fast bowler; opened India's bowling in the 2011 World Cup final; one of the architects of India's reverse-swing era.",
+      "answer": "Zaheer Khan",
+      "accept": ["zaheer khan", "zaheer", "zak"]
+    },
+    { "id": "c018", "topic": "cricket",
+      "question": "He played 200 Tests — more than any other cricketer — finishing his career at the Wankhede in November 2013 against the West Indies. Same Mumbai player as before.",
+      "answer": "Sachin Tendulkar",
+      "accept": ["sachin tendulkar", "sachin", "tendulkar"]
+    },
+    { "id": "c019", "topic": "cricket", "bid_eligible": true,
+      "question": "First Indian batsman to hit a century in a T20 international, against South Africa in 2010. UP-born, played for CSK in IPL. First name Suresh.",
+      "answer": "Suresh Raina",
+      "accept": ["suresh raina", "raina"]
+    },
+    { "id": "c020", "topic": "cricket",
+      "question": "Indian fast bowler from Ahmedabad with a unique slingshot action; toe-crushing yorkers; ICC Men's Cricketer of the Year 2024.",
+      "answer": "Jasprit Bumrah",
+      "accept": ["jasprit bumrah", "bumrah"]
+    },
+    { "id": "c021", "topic": "cricket",
+      "question": "All-rounder from Moga, Punjab; scored 171 not out off 115 balls against Australia in the 2017 Women's World Cup semi-final at Derby; later India's T20 captain.",
+      "answer": "Harmanpreet Kaur",
+      "accept": ["harmanpreet kaur", "harmanpreet", "harman"]
+    },
+    { "id": "c022", "topic": "cricket",
+      "question": "Indian wicketkeeper-batter and Karnataka stylist; opener and finisher; replaced Dhoni as India's premier white-ball keeper. Initials KL.",
+      "answer": "KL Rahul",
+      "accept": ["kl rahul", "rahul", "lokesh rahul", "k l rahul"]
+    },
+    { "id": "c023", "topic": "cricket", "bid_eligible": true,
+      "question": "He led India to the inaugural ICC World Test Championship final in 2021 at Southampton, where New Zealand won. Mumbai-born opener (same player as Q16).",
+      "answer": "Virat Kohli",
+      "accept": ["virat kohli", "kohli"]
+    },
+    { "id": "c024", "topic": "cricket",
+      "question": "Born in Bhopal in 1941; appointed India's Test captain at twenty-one, the youngest in Test history at the time; led India to its first Test series win overseas, in New Zealand in 1967-68. The 'Tiger'.",
+      "answer": "Mansur Ali Khan Pataudi",
+      "accept": ["mansur ali khan pataudi", "tiger pataudi", "pataudi", "mansoor ali khan pataudi", "nawab of pataudi"]
+    },
+    { "id": "c025", "topic": "cricket", "bid_eligible": true,
+      "question": "On 19 September 2007 at Kingsmead, Durban, in a Twenty20 international against England, this Punjab left-hander hit Stuart Broad for six sixes in an over. Name him.",
+      "answer": "Yuvraj Singh",
+      "accept": ["yuvraj singh", "yuvraj", "yuvi"]
+    },
+
+    { "id": "f001", "topic": "cinema", "bid_eligible": true,
+      "question": "Born Yusuf Khan in Peshawar in 1922, he was given his screen name by Devika Rani when he joined Bombay Talkies. Films like 'Mughal-e-Azam' and 'Devdas' earned him the title 'Tragedy King'. By what stage name did the world know him?",
+      "answer": "Dilip Kumar",
+      "accept": ["dilip kumar", "dilip"]
+    },
+    { "id": "f002", "topic": "cinema", "bid_eligible": true,
+      "question": "Born in Allahabad in 1942; failed an All India Radio audition in his youth for having an unsuitable voice; that same voice would go on to define an industry. The Big B.",
+      "answer": "Amitabh Bachchan",
+      "accept": ["amitabh bachchan", "amitabh", "big b", "bachchan"]
+    },
+    { "id": "f003", "topic": "cinema",
+      "question": "1975. Sholay releases. The film features a dacoit so iconic that his line 'Kitne aadmi the?' is still parodied. The character's name is one word — what is it?",
+      "answer": "Gabbar",
+      "accept": ["gabbar", "gabbar singh"]
+    },
+    { "id": "f004", "topic": "cinema",
+      "question": "Mehboob Khan's 1957 epic about a peasant woman who refuses to compromise her dignity even as her family falls to ruin; nominated for the Academy Award for Best Foreign Language Film. Two-word title.",
+      "answer": "Mother India",
+      "accept": ["mother india"]
+    },
+    { "id": "f005", "topic": "cinema", "bid_eligible": true,
+      "question": "Bengali polymath; directed 'Pather Panchali' (1955), the first film in the Apu Trilogy; won an honorary Oscar in 1992. Calcutta-born.",
+      "answer": "Satyajit Ray",
+      "accept": ["satyajit ray", "ray"]
+    },
+    { "id": "f006", "topic": "cinema",
+      "question": "Mani Ratnam's 1992 film, set against the backdrop of insurgency in Kashmir, broke ground with AR Rahman's debut Hindi-dubbed soundtrack and a young Manisha Koirala. One-word Tamil title also used in the Hindi release.",
+      "answer": "Roja",
+      "accept": ["roja"]
+    },
+    { "id": "f007", "topic": "cinema", "bid_eligible": true,
+      "question": "Delhi-born actor, born 1965, who became the face of the diaspora-romance era of Hindi cinema with films like 'Dilwale Dulhania Le Jayenge' (1995) and 'Kuch Kuch Hota Hai' (1998). King Khan.",
+      "answer": "Shah Rukh Khan",
+      "accept": ["shah rukh khan", "shahrukh khan", "srk", "shahrukh", "shah rukh"]
+    },
+    { "id": "f008", "topic": "cinema",
+      "question": "Aditya Chopra's 1995 directorial debut, in which Raj and Simran's romance plays out across the Swiss Alps and a Punjab mustard field. The film ran continuously at Mumbai's Maratha Mandir cinema for over twenty-five years.",
+      "answer": "Dilwale Dulhania Le Jayenge",
+      "accept": ["dilwale dulhania le jayenge", "ddlj"]
+    },
+    { "id": "f009", "topic": "cinema",
+      "question": "K. Asif's 1960 epic about the doomed romance of Prince Salim and the courtesan Anarkali, made over more than a decade with Dilip Kumar and Madhubala. Released in colour, then re-released colourised in 2004.",
+      "answer": "Mughal-e-Azam",
+      "accept": ["mughal e azam", "mughal-e-azam", "mughal azam"]
+    },
+    { "id": "f010", "topic": "cinema", "bid_eligible": true,
+      "question": "Bollywood actress and former Miss World 1994; later won the Padma Shri; now an established Hollywood presence. Initials AR.",
+      "answer": "Aishwarya Rai",
+      "accept": ["aishwarya rai", "aishwarya rai bachchan", "aishwarya"]
+    },
+    { "id": "f011", "topic": "cinema",
+      "question": "Tamil superstar born Shivaji Rao Gaekwad in Bangalore in 1950; once a bus conductor in Bengaluru; his stylised flicks of cigarettes and sunglasses are imitated across South India. Stage name?",
+      "answer": "Rajinikanth",
+      "accept": ["rajinikanth", "rajni", "thalaivar", "superstar rajinikanth"]
+    },
+    { "id": "f012", "topic": "cinema", "bid_eligible": true,
+      "question": "Telugu film released in 2015 (Part 1) and 2017 (Part 2), directed by SS Rajamouli; the second film's release inspired the catchphrase 'Why did Kattappa kill...'?",
+      "answer": "Baahubali",
+      "accept": ["baahubali", "bahubali"]
+    },
+    { "id": "f013", "topic": "cinema",
+      "question": "Director of 'Lagaan' (2001), 'Swades' (2004) and 'Jodhaa Akbar' (2008); his films often weave history and music. First name Ashutosh.",
+      "answer": "Ashutosh Gowariker",
+      "accept": ["ashutosh gowariker", "gowariker"]
+    },
+    { "id": "f014", "topic": "cinema",
+      "question": "Aamir Khan's 2001 film, set in 1893 Champaner, in which villagers play cricket against their British rulers to escape the lagaan. Director?",
+      "answer": "Ashutosh Gowariker",
+      "accept": ["ashutosh gowariker", "gowariker"]
+    },
+    { "id": "f015", "topic": "cinema",
+      "question": "Born Mumtaz Jehan Begum Dehlavi in Bombay in 1933; her stage name was given by Devika Rani; she starred opposite Dilip Kumar in 'Mughal-e-Azam' as Anarkali. Stage name?",
+      "answer": "Madhubala",
+      "accept": ["madhubala"]
+    },
+    { "id": "f016", "topic": "cinema", "bid_eligible": true,
+      "question": "Music director and singer from Madras, born A.S. Dileep Kumar; won two Oscars in 2009 for 'Slumdog Millionaire'. Stage name?",
+      "answer": "AR Rahman",
+      "accept": ["ar rahman", "a r rahman", "rahman", "allah rakha rahman"]
+    },
+    { "id": "f017", "topic": "cinema",
+      "question": "1972 Hindi film by Hrishikesh Mukherjee about a terminally ill young man who chooses cheer over self-pity. Rajesh Khanna in the lead, Amitabh Bachchan in support; the title is also the protagonist's nickname.",
+      "answer": "Anand",
+      "accept": ["anand"]
+    },
+    { "id": "f018", "topic": "cinema",
+      "question": "Filmmaker brothers from Mumbai whose production house has dominated Hindi cinema since the 1970s — banner now used for 'Yeh Jawaani Hai Deewani', 'Brahmastra' and many others. Surname?",
+      "answer": "Kapoor",
+      "accept": ["kapoor"]
+    },
+    { "id": "f019", "topic": "cinema",
+      "question": "1988 Mira Nair film about street children in Bombay, which won the Camera d'Or at Cannes. Two-word title, beginning with 'Salaam'.",
+      "answer": "Salaam Bombay",
+      "accept": ["salaam bombay", "salaam bombay!"]
+    },
+    { "id": "f020", "topic": "cinema",
+      "question": "1994 Shekhar Kapur film, based on the life of a Chambal Valley dacoit who became a folk legend before being elected to the Lok Sabha. Title is the protagonist's nickname.",
+      "answer": "Bandit Queen",
+      "accept": ["bandit queen", "phoolan devi"]
+    },
+    { "id": "f021", "topic": "cinema",
+      "question": "Malayalam-language director who has won the National Film Award for Best Director multiple times; films include 'Elippathayam' and 'Mathilukal'. Initials Adoor.",
+      "answer": "Adoor Gopalakrishnan",
+      "accept": ["adoor gopalakrishnan", "adoor"]
+    },
+    { "id": "f022", "topic": "cinema",
+      "question": "Sanjay Leela Bhansali's 2002 film, a lavish retelling of the Sharat Chandra novel, with Shah Rukh Khan, Madhuri Dixit and Aishwarya Rai. Title shared with the 1955 Bimal Roy classic.",
+      "answer": "Devdas",
+      "accept": ["devdas"]
+    },
+    { "id": "f023", "topic": "cinema",
+      "question": "Telugu actor and political icon, founder of the Telugu Desam Party, who served as Andhra Pradesh's Chief Minister three times in the 1980s. Initials NTR.",
+      "answer": "NT Rama Rao",
+      "accept": ["ntr", "nt rama rao", "n t rama rao", "nandamuri taraka rama rao"]
+    },
+    { "id": "f024", "topic": "cinema",
+      "question": "1979 Hindi film, Salim-Javed's penultimate collaboration, in which a porter at Bombay's docks discovers his roots; Amitabh Bachchan in the title role. Two-word title, character's first name + 'bhai'.",
+      "answer": "Don",
+      "accept": ["don"]
+    },
+    { "id": "f025", "topic": "cinema",
+      "question": "Manmohan Desai's 1977 multi-starrer about three brothers separated at birth and raised in three different faiths — Hindu, Muslim, Christian. Three-name title.",
+      "answer": "Amar Akbar Anthony",
+      "accept": ["amar akbar anthony"]
+    },
+
+    { "id": "h001", "topic": "history", "bid_eligible": true,
+      "question": "On the night of 14-15 August 1947, this man delivered the 'Tryst with Destiny' speech to the Constituent Assembly in Delhi. India's first Prime Minister.",
+      "answer": "Jawaharlal Nehru",
+      "accept": ["jawaharlal nehru", "nehru", "pandit nehru", "panditji"]
+    },
+    { "id": "h002", "topic": "history", "bid_eligible": true,
+      "question": "On 12 March 1930, this man set out from Sabarmati Ashram with 78 followers on a 240-mile march to a coastal village in Gujarat to break the British salt laws. The destination village?",
+      "answer": "Dandi",
+      "accept": ["dandi"]
+    },
+    { "id": "h003", "topic": "history",
+      "question": "Born Mohandas Karamchand Gandhi in Porbandar in 1869; trained as a barrister in London; assassinated at Birla House on 30 January 1948. Honorific by which the world knew him?",
+      "answer": "Mahatma",
+      "accept": ["mahatma", "mahatma gandhi", "the mahatma"]
+    },
+    { "id": "h004", "topic": "history", "bid_eligible": true,
+      "question": "On 13 April 1919, Brigadier Reginald Dyer ordered his troops to fire on a crowd assembled in a walled garden at Amritsar. Hundreds were killed. The garden's name?",
+      "answer": "Jallianwala Bagh",
+      "accept": ["jallianwala bagh", "jalianwala bagh", "jallianwala"]
+    },
+    { "id": "h005", "topic": "history",
+      "question": "The Mughal emperor who built the Taj Mahal in memory of his wife Mumtaz Mahal, who died in childbirth in 1631. He himself was later imprisoned at Agra Fort by his son Aurangzeb.",
+      "answer": "Shah Jahan",
+      "accept": ["shah jahan", "shahjahan"]
+    },
+    { "id": "h006", "topic": "history", "bid_eligible": true,
+      "question": "Mughal emperor who reigned from 1556 to 1605, expanded the empire across the subcontinent, and is remembered for his religious tolerance and the syncretic 'Din-i-Ilahi'. Born Jalal-ud-din.",
+      "answer": "Akbar",
+      "accept": ["akbar", "akbar the great"]
+    },
+    { "id": "h007", "topic": "history",
+      "question": "The Maratha leader, born 1630 at Shivneri Fort, who founded the Maratha Empire and was crowned Chhatrapati at Raigad in 1674. Title and name in three words.",
+      "answer": "Chhatrapati Shivaji Maharaj",
+      "accept": ["chhatrapati shivaji maharaj", "shivaji maharaj", "shivaji", "shivaji bhosale"]
+    },
+    { "id": "h008", "topic": "history", "bid_eligible": true,
+      "question": "She was Rani of Jhansi when the British annexed her kingdom under the Doctrine of Lapse, and led a defence of the city during the 1857 Uprising. She fell in battle near Gwalior in June 1858. Name her.",
+      "answer": "Lakshmi Bai",
+      "accept": ["lakshmi bai", "rani lakshmi bai", "lakshmibai", "rani of jhansi", "jhansi ki rani"]
+    },
+    { "id": "h009", "topic": "history",
+      "question": "On 23 March 1931, three young revolutionaries were hanged at Lahore Central Jail by the British, for the killing of an Assistant Superintendent of Police. The most famous of the three was Bhagat Singh; name either of the other two.",
+      "answer": "Sukhdev",
+      "accept": ["sukhdev", "rajguru", "shivaram rajguru", "sukhdev thapar"]
+    },
+    { "id": "h010", "topic": "history",
+      "question": "Indian National Congress leader who broke with Gandhi over methods, founded the Forward Bloc in 1939, slipped out of British house arrest, and during World War II raised the Indian National Army. Honorific 'Netaji'. Name him.",
+      "answer": "Subhas Chandra Bose",
+      "accept": ["subhas chandra bose", "subhash chandra bose", "netaji", "subhas bose", "bose"]
+    },
+    { "id": "h011", "topic": "history",
+      "question": "On 23 June 1757, the East India Company's troops under Robert Clive defeated the forces of Siraj-ud-Daulah, the Nawab of Bengal, decisively. The battle is named after a mango grove on the banks of the Bhagirathi.",
+      "answer": "Plassey",
+      "accept": ["plassey", "battle of plassey", "palashi"]
+    },
+    { "id": "h012", "topic": "history", "bid_eligible": true,
+      "question": "On 21 October 1764, Mir Qasim, Shuja-ud-Daula and the Mughal emperor Shah Alam II together lost a decisive battle to East India Company forces. The town in Bihar that names that battle?",
+      "answer": "Buxar",
+      "accept": ["buxar", "battle of buxar", "baksar"]
+    },
+    { "id": "h013", "topic": "history",
+      "question": "Sultan of Mysore who fought four wars against the British and was killed defending Srirangapatna in May 1799. Tiger-themed throne, mechanical tiger automaton in his palace. Name him.",
+      "answer": "Tipu Sultan",
+      "accept": ["tipu sultan", "tipu", "fateh ali tipu", "tiger of mysore"]
+    },
+    { "id": "h014", "topic": "history",
+      "question": "Bengali poet, novelist and Nobel laureate (1913) for his collection 'Gitanjali'; composed the national anthems of two countries. Born 1861 in Calcutta.",
+      "answer": "Rabindranath Tagore",
+      "accept": ["rabindranath tagore", "tagore", "rabindra nath tagore", "kabiguru"]
+    },
+    { "id": "h015", "topic": "history", "bid_eligible": true,
+      "question": "Often called the 'Iron Man of India'; Home Minister and Deputy PM in the first Cabinet; chiefly responsible for the integration of more than 500 princely states into the Indian Union after 1947.",
+      "answer": "Sardar Vallabhbhai Patel",
+      "accept": ["vallabhbhai patel", "sardar patel", "sardar vallabhbhai patel", "patel", "vallabh bhai patel"]
+    },
+    { "id": "h016", "topic": "history",
+      "question": "Architect of the Indian Constitution; chairman of the Drafting Committee of the Constituent Assembly; first Law Minister of independent India. Mahar by caste, he led the Dalit movement.",
+      "answer": "BR Ambedkar",
+      "accept": ["br ambedkar", "b r ambedkar", "ambedkar", "babasaheb ambedkar", "bhimrao ambedkar", "babasaheb"]
+    },
+    { "id": "h017", "topic": "history",
+      "question": "Indian National Congress moderate leader who first coined the slogan 'Swaraj is my birthright, and I shall have it'; born in Ratnagiri in 1856; the 'Lokmanya'.",
+      "answer": "Bal Gangadhar Tilak",
+      "accept": ["bal gangadhar tilak", "tilak", "lokmanya tilak", "lokmanya"]
+    },
+    { "id": "h018", "topic": "history",
+      "question": "On 8 August 1942, the All India Congress Committee at Bombay's Gowalia Tank passed a resolution drafted by Gandhi calling on the British to leave India. Two-word name of the movement.",
+      "answer": "Quit India",
+      "accept": ["quit india", "quit india movement", "bharat chodo"]
+    },
+    { "id": "h019", "topic": "history",
+      "question": "The 1857 Uprising began with a sepoy mutiny on 10 May 1857 in this town near Delhi, sparked partly by rumours about cartridges greased with cow and pig fat.",
+      "answer": "Meerut",
+      "accept": ["meerut"]
+    },
+    { "id": "h020", "topic": "history",
+      "question": "On 1 May 1960, Bombay state was split into two linguistic states. Name either of the two new states formed.",
+      "answer": "Maharashtra",
+      "accept": ["maharashtra", "gujarat"]
+    },
+    { "id": "h021", "topic": "history", "bid_eligible": true,
+      "question": "First woman Prime Minister of India; daughter of Jawaharlal Nehru; assassinated by her own bodyguards on 31 October 1984 at her residence on Safdarjung Road.",
+      "answer": "Indira Gandhi",
+      "accept": ["indira gandhi", "indira", "mrs gandhi"]
+    },
+    { "id": "h022", "topic": "history",
+      "question": "On 18 May 1974, India conducted its first nuclear test at a desert range in Rajasthan. The operation's codename — taking its name from a peaceful festival — was?",
+      "answer": "Smiling Buddha",
+      "accept": ["smiling buddha", "operation smiling buddha", "pokhran 1", "buddha"]
+    },
+    { "id": "h023", "topic": "history",
+      "question": "Mughal emperor who succeeded Akbar in 1605 and gave his name to a quarter of Lahore; loved Persian art, opium, and his wife Nur Jahan, who effectively ran the empire toward the end of his reign.",
+      "answer": "Jahangir",
+      "accept": ["jahangir", "nur ud din muhammad jahangir"]
+    },
+    { "id": "h024", "topic": "history",
+      "question": "Last Mughal emperor; deposed and exiled to Rangoon by the British after the failure of the 1857 Uprising; remembered also as a poet who wrote ghazals under the takhallus 'Zafar'.",
+      "answer": "Bahadur Shah Zafar",
+      "accept": ["bahadur shah zafar", "bahadur shah ii", "zafar", "bahadur shah", "bahadur shah 2"]
+    },
+    { "id": "h025", "topic": "history",
+      "question": "First non-Indian Governor-General of independent India (1947-48), and uncle of the man who became Queen Elizabeth's husband. Surname.",
+      "answer": "Mountbatten",
+      "accept": ["mountbatten", "lord mountbatten", "louis mountbatten"]
+    },
+
+    { "id": "g001", "topic": "geography", "bid_eligible": true,
+      "question": "The longest river that lies entirely within India, flowing eastwards across the Deccan plateau into the Bay of Bengal. The river that gives its name to the city of Rajahmundry.",
+      "answer": "Godavari",
+      "accept": ["godavari", "godavari river"]
+    },
+    { "id": "g002", "topic": "geography",
+      "question": "Highest peak entirely within India (Kanchenjunga is on the border, so it doesn't count). Located in Uttarakhand, it stands at 7,816 metres. The 'Goddess Peak'.",
+      "answer": "Nanda Devi",
+      "accept": ["nanda devi"]
+    },
+    { "id": "g003", "topic": "geography", "bid_eligible": true,
+      "question": "Indian state with the longest coastline along the Arabian Sea — over 1,600 km. Capital is Gandhinagar.",
+      "answer": "Gujarat",
+      "accept": ["gujarat"]
+    },
+    { "id": "g004", "topic": "geography",
+      "question": "Largest freshwater lake in India by surface area; located in the Kashmir Valley near Srinagar; famed for shikaras and houseboats.",
+      "answer": "Wular Lake",
+      "accept": ["wular lake", "wular", "wullar"]
+    },
+    { "id": "g005", "topic": "geography",
+      "question": "Capital of Arunachal Pradesh — and arguably the easternmost state capital of India proper.",
+      "answer": "Itanagar",
+      "accept": ["itanagar"]
+    },
+    { "id": "g006", "topic": "geography", "bid_eligible": true,
+      "question": "City on the banks of the Ganga, sometimes called Kashi or Banaras; one of the oldest continuously inhabited cities in the world.",
+      "answer": "Varanasi",
+      "accept": ["varanasi", "banaras", "benares", "kashi"]
+    },
+    { "id": "g007", "topic": "geography",
+      "question": "Strait that separates India from Sri Lanka, named after a 17th-century Dutch governor of Ceylon.",
+      "answer": "Palk Strait",
+      "accept": ["palk strait", "palk"]
+    },
+    { "id": "g008", "topic": "geography",
+      "question": "Indian island chain in the Bay of Bengal where the indigenous Sentinelese people still live in voluntary isolation. Two-word name of the union territory.",
+      "answer": "Andaman and Nicobar Islands",
+      "accept": ["andaman and nicobar", "andaman and nicobar islands", "andaman nicobar", "andamans"]
+    },
+    { "id": "g009", "topic": "geography",
+      "question": "Smallest Indian state by area (since the 1987 reorganisation). Tucked into the northeast, capital Gangtok.",
+      "answer": "Sikkim",
+      "accept": ["sikkim"]
+    },
+    { "id": "g010", "topic": "geography", "bid_eligible": true,
+      "question": "The 'pink city' of India — its old buildings were painted pink in 1876 to welcome the Prince of Wales.",
+      "answer": "Jaipur",
+      "accept": ["jaipur"]
+    },
+    { "id": "g011", "topic": "geography",
+      "question": "Indian state where the famous Loktak floating lake — with its phumdis — is located. Capital Imphal.",
+      "answer": "Manipur",
+      "accept": ["manipur"]
+    },
+    { "id": "g012", "topic": "geography",
+      "question": "The salt marsh of western India, partly in India and partly in Pakistan, that floods seasonally and supports the world's only breeding population of greater flamingos in South Asia. Two-word name.",
+      "answer": "Rann of Kutch",
+      "accept": ["rann of kutch", "rann of kachchh", "kutch", "kachchh"]
+    },
+    { "id": "g013", "topic": "geography",
+      "question": "Indian state created in 2000, carved out of Madhya Pradesh; capital Raipur; rich in coal and iron ore.",
+      "answer": "Chhattisgarh",
+      "accept": ["chhattisgarh", "chattisgarh"]
+    },
+    { "id": "g014", "topic": "geography",
+      "question": "The river that originates near Mansarovar in Tibet, flows through Ladakh, and gives its name to a civilisation and to a country.",
+      "answer": "Indus",
+      "accept": ["indus", "indus river", "sindhu"]
+    },
+    { "id": "g015", "topic": "geography",
+      "question": "Indian city famous for its Charminar, biryani, and the Hussain Sagar lake at its heart. Capital of Telangana.",
+      "answer": "Hyderabad",
+      "accept": ["hyderabad"]
+    },
+
+    { "id": "b001", "topic": "business", "bid_eligible": true,
+      "question": "Founded in 1868 by a Parsi entrepreneur in Bombay; now India's largest conglomerate by revenue, with operations from steel to software to salt. Surname of the family.",
+      "answer": "Tata",
+      "accept": ["tata", "tatas", "tata group"]
+    },
+    { "id": "b002", "topic": "business",
+      "question": "Founder of Reliance Industries; the man who took the company from a polyester yarn trader to India's largest private enterprise; born in Gujarat in 1932.",
+      "answer": "Dhirubhai Ambani",
+      "accept": ["dhirubhai ambani", "dhirubhai", "dhirajlal hirachand ambani"]
+    },
+    { "id": "b003", "topic": "business", "bid_eligible": true,
+      "question": "Indian IT services giant founded in 1981 in Pune by seven engineers led by N.R. Narayana Murthy; now headquartered in Bengaluru.",
+      "answer": "Infosys",
+      "accept": ["infosys"]
+    },
+    { "id": "b004", "topic": "business",
+      "question": "India's largest IT services firm by revenue; part of the Tata group; founded in 1968. Three-letter abbreviation.",
+      "answer": "TCS",
+      "accept": ["tcs", "tata consultancy services"]
+    },
+    { "id": "b005", "topic": "business",
+      "question": "Founder of the Mahindra & Mahindra automotive group's modern transformation; chairman emeritus; cousin of Anand Mahindra.",
+      "answer": "Keshub Mahindra",
+      "accept": ["keshub mahindra"]
+    },
+    { "id": "b006", "topic": "business", "bid_eligible": true,
+      "question": "The Marwari business family from Pilani, Rajasthan, that built one of India's oldest industrial empires from textiles and cement; founded BITS Pilani.",
+      "answer": "Birla",
+      "accept": ["birla", "birlas", "birla family"]
+    },
+    { "id": "b007", "topic": "business",
+      "question": "Indian e-commerce company founded in 2007 by two Bansals (no relation); acquired by Walmart in 2018 for $16 billion.",
+      "answer": "Flipkart",
+      "accept": ["flipkart"]
+    },
+    { "id": "b008", "topic": "business",
+      "question": "Indian budget hotel chain founded by Ritesh Agarwal in 2013; the name is an acronym ending in 'On Your Own'.",
+      "answer": "OYO",
+      "accept": ["oyo", "oyo rooms"]
+    },
+    { "id": "b009", "topic": "business",
+      "question": "Indian unified payments interface that enabled instant bank-to-bank transfers via mobile, launched by NPCI in 2016. Three-letter acronym.",
+      "answer": "UPI",
+      "accept": ["upi", "unified payments interface"]
+    },
+    { "id": "b010", "topic": "business", "bid_eligible": true,
+      "question": "Founder of Wipro; transformed the company from a vegetable-oil business into an IT services giant; signed the Giving Pledge.",
+      "answer": "Azim Premji",
+      "accept": ["azim premji", "premji"]
+    },
+    { "id": "b011", "topic": "business",
+      "question": "Banker who, as Chairman of HDFC, oversaw its merger with HDFC Bank in 2023; widely credited with building India's housing finance sector. First name Deepak.",
+      "answer": "Deepak Parekh",
+      "accept": ["deepak parekh", "parekh"]
+    },
+    { "id": "b012", "topic": "business",
+      "question": "Indian telecommunications and energy conglomerate launched in 2016, that disrupted the mobile data market with free 4G; subsidiary of Reliance.",
+      "answer": "Jio",
+      "accept": ["jio", "reliance jio"]
+    },
+    { "id": "b013", "topic": "business",
+      "question": "Cooperative dairy brand from Anand, Gujarat, whose 'utterly butterly' mascot has been a fixture of Indian billboards since 1966.",
+      "answer": "Amul",
+      "accept": ["amul"]
+    },
+    { "id": "b014", "topic": "business",
+      "question": "The 'Milkman of India'; architect of Operation Flood, which made India the world's largest milk producer; founder-chairman of Amul's parent organisation GCMMF.",
+      "answer": "Verghese Kurien",
+      "accept": ["verghese kurien", "kurien", "varghese kurien"]
+    },
+    { "id": "b015", "topic": "business",
+      "question": "Indian airline founded in 1932 by JRD Tata as Tata Air Services; nationalised in 1953; re-acquired by the Tata Group in 2022.",
+      "answer": "Air India",
+      "accept": ["air india"]
+    },
+
+    { "id": "p001", "topic": "polity", "bid_eligible": true,
+      "question": "Article of the Indian Constitution that abolishes untouchability and forbids its practice in any form.",
+      "answer": "Article 17",
+      "accept": ["article 17", "17"]
+    },
+    { "id": "p002", "topic": "polity",
+      "question": "The Indian Constitution came into effect on this date in 1950 — celebrated each year as Republic Day.",
+      "answer": "26 January",
+      "accept": ["26 january", "january 26", "twenty sixth january", "26th january", "twenty six january"]
+    },
+    { "id": "p003", "topic": "polity", "bid_eligible": true,
+      "question": "Lower house of India's Parliament — the directly-elected chamber.",
+      "answer": "Lok Sabha",
+      "accept": ["lok sabha", "house of the people"]
+    },
+    { "id": "p004", "topic": "polity",
+      "question": "The Indian state that, in 2019, was reorganised under the abrogation of Article 370 into two Union Territories. Erstwhile state name.",
+      "answer": "Jammu and Kashmir",
+      "accept": ["jammu and kashmir", "j and k", "jammu kashmir", "j&k"]
+    },
+    { "id": "p005", "topic": "polity",
+      "question": "Body that conducts elections at all levels in India; a constitutional body headed by a Chief Commissioner.",
+      "answer": "Election Commission of India",
+      "accept": ["election commission of india", "election commission", "eci"]
+    },
+    { "id": "p006", "topic": "polity",
+      "question": "First woman President of India, who served from 2007 to 2012.",
+      "answer": "Pratibha Patil",
+      "accept": ["pratibha patil", "pratibha devisingh patil"]
+    },
+    { "id": "p007", "topic": "polity", "bid_eligible": true,
+      "question": "Highest civilian award of the Republic of India.",
+      "answer": "Bharat Ratna",
+      "accept": ["bharat ratna"]
+    },
+    { "id": "p008", "topic": "polity",
+      "question": "The Indian Constitution divides legislative subjects into three lists. Name any one of the three.",
+      "answer": "Union List",
+      "accept": ["union list", "state list", "concurrent list"]
+    },
+    { "id": "p009", "topic": "polity",
+      "question": "First Indian Prime Minister to lose a no-confidence motion in the Lok Sabha; held office for less than a year before losing it in 1979.",
+      "answer": "Morarji Desai",
+      "accept": ["morarji desai", "desai", "morarji"]
+    },
+    { "id": "p010", "topic": "polity",
+      "question": "The 73rd Constitutional Amendment, passed in 1992, gave constitutional status to which tier of local government?",
+      "answer": "Panchayati Raj",
+      "accept": ["panchayati raj", "panchayats", "gram panchayat", "panchayat raj"]
+    },
+
+    { "id": "m001", "topic": "mythology", "bid_eligible": true,
+      "question": "In the Mahabharata, this Pandava is the eldest brother and the embodiment of dharma; eldest son of Kunti by Yama.",
+      "answer": "Yudhishthira",
+      "accept": ["yudhishthira", "yudhisthira", "yudhister", "dharmaraj"]
+    },
+    { "id": "m002", "topic": "mythology",
+      "question": "Vishnu's avatar who is the central figure of the Ramayana; prince of Ayodhya; son of Dasharatha.",
+      "answer": "Rama",
+      "accept": ["rama", "ram", "shri ram", "lord ram"]
+    },
+    { "id": "m003", "topic": "mythology", "bid_eligible": true,
+      "question": "In the Mahabharata, the charioteer of Arjuna at Kurukshetra, who delivers the Bhagavad Gita to him on the eve of battle.",
+      "answer": "Krishna",
+      "accept": ["krishna", "shri krishna", "lord krishna"]
+    },
+    { "id": "m004", "topic": "mythology",
+      "question": "Elephant-headed deity, son of Shiva and Parvati; remover of obstacles; invoked at the start of any new venture.",
+      "answer": "Ganesha",
+      "accept": ["ganesha", "ganesh", "ganpati", "vinayaka", "ganpati bappa"]
+    },
+    { "id": "m005", "topic": "mythology",
+      "question": "Demon king of Lanka in the Ramayana; abducts Sita; defeated by Rama. Name him.",
+      "answer": "Ravana",
+      "accept": ["ravana", "raavan", "raavana"]
+    },
+    { "id": "m006", "topic": "mythology",
+      "question": "The five-headed serpent on whom Lord Vishnu reclines on the cosmic ocean.",
+      "answer": "Shesha",
+      "accept": ["shesha", "shesh", "sheshnag", "ananta", "anantha"]
+    },
+    { "id": "m007", "topic": "mythology",
+      "question": "Goddess of learning, music and the arts; consort of Brahma; depicted with a veena.",
+      "answer": "Saraswati",
+      "accept": ["saraswati", "sarasvati"]
+    },
+    { "id": "m008", "topic": "mythology", "bid_eligible": true,
+      "question": "Hindu goddess of wealth and prosperity; consort of Vishnu; worshipped during Diwali.",
+      "answer": "Lakshmi",
+      "accept": ["lakshmi", "laxmi", "mahalakshmi"]
+    },
+    { "id": "m009", "topic": "mythology",
+      "question": "In the Ramayana, the monkey-god devotee of Rama who leaps across the ocean to find Sita in Lanka.",
+      "answer": "Hanuman",
+      "accept": ["hanuman", "anjaneya", "bajrangbali"]
+    },
+    { "id": "m010", "topic": "mythology",
+      "question": "Brother of Krishna and seventh avatar of Vishnu (in some traditions); known for his strength and his plough as a weapon.",
+      "answer": "Balarama",
+      "accept": ["balarama", "balaram", "baldev"]
+    },
+
+    { "id": "u001", "topic": "music", "bid_eligible": true,
+      "question": "Bharat Ratna playback singer with over six decades of work in Hindi cinema; sang 'Aye Mere Watan Ke Logon' at Delhi's National Stadium in January 1963 in the presence of Nehru, who is said to have wept.",
+      "answer": "Lata Mangeshkar",
+      "accept": ["lata mangeshkar", "lata", "lataji", "didi"]
+    },
+    { "id": "u002", "topic": "music",
+      "question": "Sitar maestro who introduced Indian classical music to a global audience through his work with Yehudi Menuhin and the Beatles' George Harrison. Father of the singer Norah Jones.",
+      "answer": "Ravi Shankar",
+      "accept": ["ravi shankar", "pandit ravi shankar", "panditji"]
+    },
+    { "id": "u003", "topic": "music",
+      "question": "Tabla virtuoso, born in Mumbai in 1951, son of Ustad Allah Rakha. He won three Grammys and was awarded the Padma Vibhushan in 2023.",
+      "answer": "Zakir Hussain",
+      "accept": ["zakir hussain", "zakir", "ustad zakir hussain"]
+    },
+    { "id": "u004", "topic": "music",
+      "question": "Younger sister of Lata Mangeshkar, also a Bharat Ratna playback singer with songs like 'Piya Tu Ab To Aaja' and 'Dum Maro Dum'.",
+      "answer": "Asha Bhosle",
+      "accept": ["asha bhosle", "asha bhonsle", "asha", "asha tai"]
+    },
+    { "id": "u005", "topic": "music", "bid_eligible": true,
+      "question": "Pakistani qawwal whose voice carried into Bollywood through 'Tere Bina Jiya Jaye Na' and many others, before his early death in 1997. Initials NFAK.",
+      "answer": "Nusrat Fateh Ali Khan",
+      "accept": ["nusrat fateh ali khan", "nusrat", "ustad nusrat fateh ali khan", "nfak"]
+    },
+    { "id": "u006", "topic": "music",
+      "question": "Carnatic vocalist from Madurai; first musician to receive the Bharat Ratna (1998); known affectionately as 'MS'.",
+      "answer": "MS Subbulakshmi",
+      "accept": ["ms subbulakshmi", "subbulakshmi", "m s subbulakshmi"]
+    },
+    { "id": "u007", "topic": "music",
+      "question": "Hindustani vocalist of the Kirana gharana; one of the foremost classical singers of the 20th century; nicknamed 'Bharat Ratna of Pune' before he actually became one in 2008.",
+      "answer": "Bhimsen Joshi",
+      "accept": ["bhimsen joshi", "bhimsen", "pandit bhimsen joshi"]
+    },
+    { "id": "u008", "topic": "music",
+      "question": "Composer who scored the music for 'Sholay', 'Sholay' again, and 'Don'; the 'Pancham' of Hindi film music.",
+      "answer": "RD Burman",
+      "accept": ["rd burman", "r d burman", "pancham", "panchamda", "rahul dev burman"]
+    },
+    { "id": "u009", "topic": "music",
+      "question": "Father of RD Burman, also a music director; composed the haunting 'Mera Sundar Sapna Beet Gaya' and other classics.",
+      "answer": "SD Burman",
+      "accept": ["sd burman", "s d burman", "sachin dev burman"]
+    },
+    { "id": "u010", "topic": "music",
+      "question": "Punjabi singer, often the playback voice of romance in 1990s Hindi cinema; 'Tujhe Dekha To Yeh Jaana Sanam' from DDLJ; first name Kumar.",
+      "answer": "Kumar Sanu",
+      "accept": ["kumar sanu", "sanu"]
+    },
+
+    { "id": "k001", "topic": "books", "bid_eligible": true,
+      "question": "1997 Booker-winning debut novel set in Ayemenem, Kerala, about twins Rahel and Estha; the author's only fiction for nearly two decades after.",
+      "answer": "The God of Small Things",
+      "accept": ["god of small things", "the god of small things"]
+    },
+    { "id": "k002", "topic": "books",
+      "question": "Author of 'A Suitable Boy', a 1,349-page novel set in 1950s North India about Mrs Rupa Mehra's hunt for a husband for her daughter Lata.",
+      "answer": "Vikram Seth",
+      "accept": ["vikram seth", "seth"]
+    },
+    { "id": "k003", "topic": "books", "bid_eligible": true,
+      "question": "1981 Booker-winning novel by Salman Rushdie, told by Saleem Sinai, born at the stroke of independence — at midnight on 15 August 1947.",
+      "answer": "Midnight's Children",
+      "accept": ["midnight's children", "midnights children"]
+    },
+    { "id": "k004", "topic": "books",
+      "question": "Author of the 'Malgudi Days' stories and 'The Guide'; created the fictional South Indian town of Malgudi.",
+      "answer": "RK Narayan",
+      "accept": ["rk narayan", "r k narayan", "narayan", "rasipuram krishnaswami iyer narayanaswami"]
+    },
+    { "id": "k005", "topic": "books",
+      "question": "Bengali novelist whose 'Pather Panchali' was adapted by Satyajit Ray; the Apu Trilogy is based on his work.",
+      "answer": "Bibhutibhushan Bandyopadhyay",
+      "accept": ["bibhutibhushan bandyopadhyay", "bibhutibhushan", "bibhuti bhushan bandyopadhyay"]
+    },
+    { "id": "k006", "topic": "books",
+      "question": "Trinidad-born writer of Indian descent; won the Booker for 'In a Free State' (1971) and the Nobel Prize for Literature in 2001. Surname.",
+      "answer": "Naipaul",
+      "accept": ["naipaul", "vs naipaul", "v s naipaul", "sir vidiadhar surajprasad naipaul"]
+    },
+    { "id": "k007", "topic": "books",
+      "question": "Author of 'The White Tiger' (Booker 2008) and 'Selection Day'; set his Booker novel as a letter from Balram Halwai to the Chinese premier.",
+      "answer": "Aravind Adiga",
+      "accept": ["aravind adiga", "adiga", "arvind adiga"]
+    },
+    { "id": "k008", "topic": "books", "bid_eligible": true,
+      "question": "Bengali polymath whose play 'Dak Ghar' (The Post Office) and song collections 'Gitanjali' (which won him the Nobel) shaped modern Indian literature.",
+      "answer": "Rabindranath Tagore",
+      "accept": ["rabindranath tagore", "tagore"]
+    },
+    { "id": "k009", "topic": "books",
+      "question": "Author of 'Train to Pakistan', 'I Shall Not Hear the Nightingale' and a long-running newspaper column; lived in Kasauli; died in 2014 at the age of 99.",
+      "answer": "Khushwant Singh",
+      "accept": ["khushwant singh", "khushwant"]
+    },
+    { "id": "k010", "topic": "books",
+      "question": "Author of 'The Shadow Lines' and 'The Hungry Tide'; his 'Ibis Trilogy' opens with 'Sea of Poppies'. Calcutta-born.",
+      "answer": "Amitav Ghosh",
+      "accept": ["amitav ghosh", "ghosh"]
+    },
+
+    { "id": "n001", "topic": "general", "bid_eligible": true,
+      "question": "Indian space agency that successfully landed Chandrayaan-3 near the lunar south pole on 23 August 2023.",
+      "answer": "ISRO",
+      "accept": ["isro", "indian space research organisation", "indian space research organization"]
+    },
+    { "id": "n002", "topic": "general",
+      "question": "Indian-American astronaut, born in Karnal, Haryana, who died in the Space Shuttle Columbia disaster on 1 February 2003.",
+      "answer": "Kalpana Chawla",
+      "accept": ["kalpana chawla", "kalpana"]
+    },
+    { "id": "n003", "topic": "general",
+      "question": "Indian mathematician, born 1887 in Erode, who travelled to Cambridge to work with G.H. Hardy and made startling contributions to number theory before dying at 32.",
+      "answer": "Srinivasa Ramanujan",
+      "accept": ["srinivasa ramanujan", "ramanujan", "srinivas ramanujan"]
+    },
+    { "id": "n004", "topic": "general",
+      "question": "Indian-origin chess Grandmaster who became World Champion in December 2024 at the age of 18, the youngest ever to do so. Initials D.G.",
+      "answer": "Gukesh Dommaraju",
+      "accept": ["gukesh", "d gukesh", "dommaraju gukesh", "gukesh dommaraju", "gukesh d"]
+    },
+    { "id": "n005", "topic": "general",
+      "question": "Indian boxer from Manipur; six-time World Amateur Champion; Olympic bronze medallist at London 2012; Rajya Sabha MP. Goes by the nickname 'Magnificent Mary'.",
+      "answer": "Mary Kom",
+      "accept": ["mary kom", "mc mary kom", "mangte chungneijang mary kom", "mary"]
+    },
+
+    { "id": "hc01", "topic": "cricket", "difficulty": 3,
+      "question": "He was Champion of Champions at the 1985 Benson & Hedges World Championship of Cricket in Melbourne, where India beat Pakistan in the final. The Audi car he won — driving it around the MCG with team-mates clinging on — became one of the iconic images of Indian cricket. Bombay all-rounder, later India coach.",
+      "answer": "Ravi Shastri",
+      "accept": ["ravi shastri", "shastri"]
+    },
+    { "id": "hc02", "topic": "cricket", "difficulty": 3,
+      "question": "Man of the Match in both the semi-final and the final of the 1983 World Cup; took 3 for 12 against the West Indies at Lord's. Punjab-born medium-pacer and middle-order batter; son of one Test cricketer, brother of another.",
+      "answer": "Mohinder Amarnath",
+      "accept": ["mohinder amarnath", "amarnath", "jimmy amarnath", "jimmy"]
+    },
+    { "id": "hc03", "topic": "cricket", "difficulty": 3,
+      "question": "On 12 December 2003 at the MCG, this Indian opener struck 195 in the second innings — at the time the highest individual Test score by an Indian on Australian soil. Najafgarh man, but a different innings to the one we've already heard about.",
+      "answer": "Virender Sehwag",
+      "accept": ["virender sehwag", "sehwag", "viru"]
+    },
+    { "id": "hc04", "topic": "cricket", "difficulty": 3,
+      "question": "He took the boundary catch — juggled, stepped over the rope, then stepped back in to complete the dismissal of David Miller — in the final over of the 2024 T20 World Cup final at Bridgetown. Mumbai-born middle-order batter, T20 specialist, nicknamed 'SKY'.",
+      "answer": "Suryakumar Yadav",
+      "accept": ["suryakumar yadav", "suryakumar", "surya kumar yadav", "sky", "surya"]
+    },
+
+    { "id": "hf01", "topic": "cinema", "difficulty": 3,
+      "question": "Bengali director, contemporary of Satyajit Ray and Mrinal Sen; films 'Meghe Dhaka Tara' (1960) and 'Subarnarekha' are part of his Partition trilogy. He died young, in 1976, his work largely under-recognised in his lifetime.",
+      "answer": "Ritwik Ghatak",
+      "accept": ["ritwik ghatak", "ghatak"]
+    },
+    { "id": "hf02", "topic": "cinema", "difficulty": 3,
+      "question": "1959 Guru Dutt film, considered by many his masterpiece; tells the story of a film director whose unfortunate timing means he is celebrated only after his death. Flopped on release; today regularly listed among the greatest Indian films ever made.",
+      "answer": "Kaagaz Ke Phool",
+      "accept": ["kaagaz ke phool", "kagaz ke phool"]
+    },
+    { "id": "hf03", "topic": "cinema", "difficulty": 3,
+      "question": "M.S. Sathyu's 1973 art-house film, set during Partition, about a Muslim shoemaker family in Agra torn between staying in India and leaving for Pakistan. Title is two Urdu words meaning 'hot winds'.",
+      "answer": "Garm Hava",
+      "accept": ["garm hava", "garam hawa", "garm hawa", "garam hava"]
+    },
+
+    { "id": "hh01", "topic": "history", "difficulty": 3,
+      "question": "On 4 February 1922, a mob of Non-Cooperation protesters at this UP village set fire to a police station, killing 22 policemen. Gandhi promptly suspended the entire Non-Cooperation Movement.",
+      "answer": "Chauri Chaura",
+      "accept": ["chauri chaura"]
+    },
+    { "id": "hh02", "topic": "history", "difficulty": 3,
+      "question": "He founded the Hindustan Republican Association in 1924, was a key planner of the Kakori train robbery in August 1925, and was hanged at Gorakhpur Jail on 19 December 1927. His Urdu ghazal 'Sarfaroshi ki Tamanna' became a revolutionary anthem.",
+      "answer": "Ram Prasad Bismil",
+      "accept": ["ram prasad bismil", "bismil", "ramprasad bismil"]
+    },
+    { "id": "hh03", "topic": "history", "difficulty": 3,
+      "question": "Retired British civil servant and ornithologist who was the prime mover behind the founding of the Indian National Congress in 1885, and served as its first General Secretary. Surname.",
+      "answer": "Hume",
+      "accept": ["hume", "allan octavian hume", "ao hume"]
+    },
+    { "id": "hh04", "topic": "history", "difficulty": 3,
+      "question": "19th-century Bengali polymath; fierce campaigner for widow remarriage in Hindu society; his Sanskrit reforms and primer 'Borno Porichoy' shaped Bengali education for generations.",
+      "answer": "Ishwar Chandra Vidyasagar",
+      "accept": ["ishwar chandra vidyasagar", "vidyasagar", "iswar chandra vidyasagar"]
+    },
+    { "id": "hh05", "topic": "history", "difficulty": 3,
+      "question": "Bengali reformer of the early 19th century; founded the Brahmo Sabha in 1828; campaigned successfully against sati; honoured with the title 'Raja' by the Mughal emperor though he was not royalty.",
+      "answer": "Raja Ram Mohan Roy",
+      "accept": ["ram mohan roy", "raja ram mohan roy", "rammohun roy", "ram mohan", "raja rammohan roy"]
+    },
+
+    { "id": "hg01", "topic": "geography", "difficulty": 3,
+      "question": "Highest peak in South India, in Tamil Nadu's Nilgiri district, at 2,637 metres. The name in Kannada means 'big peak'.",
+      "answer": "Doddabetta",
+      "accept": ["doddabetta", "dodabetta"]
+    },
+    { "id": "hg02", "topic": "geography", "difficulty": 3,
+      "question": "Southernmost tip of Indian territory, on Great Nicobar Island, named after a Prime Minister.",
+      "answer": "Indira Point",
+      "accept": ["indira point"]
+    },
+
+    { "id": "hb01", "topic": "business", "difficulty": 3,
+      "question": "Indian-American CEO of Microsoft from 2014; born in Hyderabad in 1967; alumnus of Manipal Institute of Technology and the University of Wisconsin-Milwaukee.",
+      "answer": "Satya Nadella",
+      "accept": ["satya nadella", "nadella"]
+    },
+    { "id": "hb02", "topic": "business", "difficulty": 3,
+      "question": "Indian-origin CEO of Alphabet (Google's parent) since 2019, after running Google itself from 2015; born in Madurai in 1972; alumnus of IIT Kharagpur and Stanford.",
+      "answer": "Sundar Pichai",
+      "accept": ["sundar pichai", "pichai", "sundararajan pichai"]
+    },
+
+    { "id": "hp01", "topic": "polity", "difficulty": 3,
+      "question": "He coined the term 'Hindutva' in his 1923 essay of that name, written while imprisoned in the Andaman Cellular Jail; later President of the Hindu Mahasabha.",
+      "answer": "Vinayak Damodar Savarkar",
+      "accept": ["vinayak damodar savarkar", "vd savarkar", "v d savarkar", "savarkar", "veer savarkar"]
+    },
+
+    { "id": "hm01", "topic": "mythology", "difficulty": 3,
+      "question": "In the Mahabharata, the great-grandfather of the Pandavas — son of King Shantanu and the goddess Ganga — who is granted the boon of choosing his own time of death, and finally falls on a bed of arrows at Kurukshetra.",
+      "answer": "Bhishma",
+      "accept": ["bhishma", "bhishma pitamah", "bheeshma", "bhishma pitamaha", "devavrata"]
+    },
+    { "id": "hm02", "topic": "mythology", "difficulty": 3,
+      "question": "Asura king who, through severe penance, wins from Brahma a boon of near-immortality — cannot be killed by man or beast, by day or by night, indoors or outdoors. Vishnu finally slays him as Narasimha, on a threshold, at twilight.",
+      "answer": "Hiranyakashipu",
+      "accept": ["hiranyakashipu", "hiranyakashyap", "hiranya kashipu", "hiranyakashyapu"]
+    },
+
+    { "id": "hu01", "topic": "music", "difficulty": 3,
+      "question": "Sarod maestro who founded the Maihar gharana of Hindustani classical music; teacher of Pandit Ravi Shankar and Ustad Ali Akbar Khan (his son). Born in 1862, lived past 100.",
+      "answer": "Allauddin Khan",
+      "accept": ["allauddin khan", "alauddin khan", "ustad allauddin khan", "baba allauddin khan"]
+    },
+    { "id": "hu02", "topic": "music", "difficulty": 3,
+      "question": "Bengali polymath who composed the song 'Vande Mataram', taken from his 1882 novel 'Anandamath'.",
+      "answer": "Bankim Chandra Chattopadhyay",
+      "accept": ["bankim chandra chattopadhyay", "bankim chandra chatterjee", "bankim", "bankimchandra chattopadhyay"]
+    },
+
+    { "id": "hk01", "topic": "books", "difficulty": 3,
+      "question": "Author of 'The Discovery of India', written largely in jail at Ahmednagar Fort between 1942 and 1946. Allahabad-born politician we've met before.",
+      "answer": "Jawaharlal Nehru",
+      "accept": ["jawaharlal nehru", "nehru", "pandit nehru"]
+    },
+    { "id": "hk02", "topic": "books", "difficulty": 3,
+      "question": "Tamil novelist who serialised 'Ponniyin Selvan' in the magazine Kalki from 1950 to 1954 — the historical epic about the Cholas, adapted by Mani Ratnam in 2022. Pen name shared with the magazine.",
+      "answer": "Kalki Krishnamurthy",
+      "accept": ["kalki krishnamurthy", "kalki krishnamurti", "kalki", "krishnamurthy"]
+    },
+    { "id": "hk03", "topic": "books", "difficulty": 3,
+      "question": "Booker Prize winner 2006 for 'The Inheritance of Loss', set in Kalimpong against the backdrop of the Gorkhaland movement. Daughter of the novelist Anita Desai.",
+      "answer": "Kiran Desai",
+      "accept": ["kiran desai"]
+    },
+
+    { "id": "hn01", "topic": "general", "difficulty": 3,
+      "question": "First Indian to win an individual Olympic gold medal — at Beijing 2008, in the men's 10m air rifle. From Chandigarh.",
+      "answer": "Abhinav Bindra",
+      "accept": ["abhinav bindra", "bindra"]
+    },
+    { "id": "hn02", "topic": "general", "difficulty": 3,
+      "question": "Five-time World Chess Champion (between 2000 and 2013); a Padma Vibhushan; nicknamed 'Vishy' or 'the Madras Tiger'.",
+      "answer": "Viswanathan Anand",
+      "accept": ["viswanathan anand", "vishy anand", "anand", "vishwanathan anand", "vishy"]
+    },
+
+    { "id": "c026", "topic": "cricket",
+      "question": "Right-arm medium-pacer who took 3 for 31 in the 1983 World Cup final at Lord's, dismissing both Greenidge and Vivian Richards. Delhi-born; later India coach.",
+      "answer": "Madan Lal",
+      "accept": ["madan lal", "madanlal"]
+    },
+    { "id": "c027", "topic": "cricket",
+      "question": "Karnataka all-rounder who took the most wickets — 18 — at the 1983 Prudential World Cup, more than any other bowler in the tournament. Often overshadowed by his more famous team-mates.",
+      "answer": "Roger Binny",
+      "accept": ["roger binny", "binny"]
+    },
+    { "id": "c028", "topic": "cricket",
+      "question": "Maharashtra batter who scored a blazing 174 against England at Old Trafford in 1982, including a sequence of six fours in an over off Bob Willis. Later, MP from Solapur for Shiv Sena.",
+      "answer": "Sandeep Patil",
+      "accept": ["sandeep patil", "patil"]
+    },
+    { "id": "c029", "topic": "cricket",
+      "question": "Hyderabad-born middle-order batter; scored hundreds in each of his first three Test innings against England in 1984-85; captained India in 47 Tests; banned for life in 2000 over match-fixing.",
+      "answer": "Mohammad Azharuddin",
+      "accept": ["mohammad azharuddin", "azharuddin", "azhar", "mohammed azharuddin"]
+    },
+    { "id": "c030", "topic": "cricket",
+      "question": "Mumbai opener who, alongside Gavaskar, formed one of Indian cricket's iconic opening pairs. He top-scored with 38 in the 1983 World Cup final at Lord's. Initials K.S.",
+      "answer": "Krishnamachari Srikkanth",
+      "accept": ["krishnamachari srikkanth", "srikkanth", "k srikkanth", "kris srikkanth"]
+    },
+    { "id": "c031", "topic": "cricket", "bid_eligible": true,
+      "question": "Mumbai-born middle-order batter who scored three Test centuries at Lord's — in 1979, 1982 and 1986. The 'Colonel'.",
+      "answer": "Dilip Vengsarkar",
+      "accept": ["dilip vengsarkar", "vengsarkar", "the colonel"]
+    },
+    { "id": "c032", "topic": "cricket",
+      "question": "Karnataka fast bowler with a textbook action; 236 Test wickets, the most by any Indian fast bowler at the time of his retirement in 2002. Initials J.S.",
+      "answer": "Javagal Srinath",
+      "accept": ["javagal srinath", "srinath", "j srinath"]
+    },
+    { "id": "c033", "topic": "cricket",
+      "question": "Mumbai-born medium-pacer and lower-order batter; fastest Indian to 50 ODI wickets at the time; later chairman of selectors from 2023.",
+      "answer": "Ajit Agarkar",
+      "accept": ["ajit agarkar", "agarkar"]
+    },
+    { "id": "c034", "topic": "cricket", "bid_eligible": true,
+      "question": "Maharashtra-born left-handed opener; the cornerstone of the Indian women's batting lineup in the 2010s and 2020s; ICC Women's Cricketer of the Year 2018 and 2021.",
+      "answer": "Smriti Mandhana",
+      "accept": ["smriti mandhana", "mandhana", "smriti"]
+    },
+    { "id": "c035", "topic": "cricket",
+      "question": "Bengal-born right-arm medium pacer; the most prolific wicket-taker in women's ODIs ever, with over 250 wickets. Padma Shri.",
+      "answer": "Jhulan Goswami",
+      "accept": ["jhulan goswami", "jhulan", "goswami"]
+    },
+
+    { "id": "hc05", "topic": "cricket", "difficulty": 3,
+      "question": "Karnataka leg-spinner whose right arm was withered by polio in childhood; he went on to take 242 Test wickets between 1964 and 1979, often spearheading India's famous spin quartet. Initials B.S.",
+      "answer": "BS Chandrasekhar",
+      "accept": ["bs chandrasekhar", "b s chandrasekhar", "chandrasekhar", "chandra"]
+    },
+    { "id": "hc06", "topic": "cricket", "difficulty": 3,
+      "question": "Punjab-born left-arm orthodox spinner; one of India's famous spin quartet of the 1960s and 70s, alongside Chandra, Prasanna and Venkat; captained India in 22 Tests.",
+      "answer": "Bishan Singh Bedi",
+      "accept": ["bishan singh bedi", "bedi", "bishan bedi"]
+    },
+    { "id": "hc07", "topic": "cricket", "difficulty": 3,
+      "question": "Mumbai all-rounder; scored 231 against New Zealand at Madras in February 1956 — the first Test double century by an Indian. He's also remembered as the man who gave 'Mankading' its name.",
+      "answer": "Vinoo Mankad",
+      "accept": ["vinoo mankad", "mankad", "vinoomankad", "mulvantrai mankad"]
+    },
+    { "id": "hc08", "topic": "cricket", "difficulty": 3,
+      "question": "He led India in their inaugural Test match — at Lord's in June 1932, against England. The first Indian Test captain. Nagpur-born.",
+      "answer": "CK Nayudu",
+      "accept": ["ck nayudu", "c k nayudu", "nayudu", "cottari kanakaiya nayudu"]
+    },
+    { "id": "hc09", "topic": "cricket", "difficulty": 3,
+      "question": "Bengal opener whose 413-run partnership with Vinoo Mankad against New Zealand at Madras in 1956 stood as a Test world record opening stand for over fifty years.",
+      "answer": "Pankaj Roy",
+      "accept": ["pankaj roy", "roy"]
+    },
+    { "id": "hc10", "topic": "cricket", "difficulty": 3,
+      "question": "Mumbai right-hander, twelve Test centuries, India captain in eight Tests in the 1950s; also the man who hit Frank Tyson for the only six in the 1955 Madras Test. Affectionately, the 'Palm Tree Hitter'.",
+      "answer": "Polly Umrigar",
+      "accept": ["polly umrigar", "umrigar", "pahlan umrigar"]
+    },
+    { "id": "hc11", "topic": "cricket", "difficulty": 3,
+      "question": "Bombay leg-spinner of the 1950s; 9 for 102 against the West Indies at Kanpur in 1958-59 — the only nine-wicket haul by an Indian in Tests until Kumble's ten in 1999.",
+      "answer": "Subhash Gupte",
+      "accept": ["subhash gupte", "gupte"]
+    },
+    { "id": "hc12", "topic": "cricket", "difficulty": 3,
+      "question": "Hyderabadi stylist of the 1960s; played 39 Tests; brother-in-law of MAK Pataudi. Initials M.L.",
+      "answer": "ML Jaisimha",
+      "accept": ["ml jaisimha", "m l jaisimha", "jaisimha", "motganhalli laxminarsu jaisimha"]
+    },
+    { "id": "hc13", "topic": "cricket", "difficulty": 3,
+      "question": "India's premier first-class domestic trophy, established in 1934-35 and named after the prince of Nawanagar (1872-1933) who became one of the great batsmen of his era at Sussex and England.",
+      "answer": "Ranji Trophy",
+      "accept": ["ranji trophy", "ranji"]
+    },
+    { "id": "hc14", "topic": "cricket", "difficulty": 3,
+      "question": "Karnataka-born off-spinner of the famous quartet; took 189 Test wickets between 1962 and 1978; surname begins with 'P'.",
+      "answer": "EAS Prasanna",
+      "accept": ["eas prasanna", "e a s prasanna", "prasanna", "erapalli prasanna"]
+    },
+
+    { "id": "f026", "topic": "cinema",
+      "question": "Madhya Pradesh-born actor (1935-); the 'He-Man' of Bollywood; Veeru in 'Sholay'; husband of Hema Malini; later a BJP MP from Bikaner.",
+      "answer": "Dharmendra",
+      "accept": ["dharmendra", "dharmendra deol"]
+    },
+    { "id": "f027", "topic": "cinema",
+      "question": "Bengali actor who played the adult Apu in Ray's 'Apur Sansar' (1959), and went on to be Ray's most frequent collaborator across 14 films.",
+      "answer": "Soumitra Chatterjee",
+      "accept": ["soumitra chatterjee", "soumitra", "chatterjee"]
+    },
+    { "id": "f028", "topic": "cinema", "bid_eligible": true,
+      "question": "Tamil actor who founded the AIADMK in 1972; Chief Minister of Tamil Nadu three times in the late 70s and 80s; introduced the mid-day meal scheme. Three letters by which he is known.",
+      "answer": "MGR",
+      "accept": ["mgr", "m g ramachandran", "mg ramachandran", "marudhur gopalan ramachandran"]
+    },
+    { "id": "f029", "topic": "cinema",
+      "question": "He directed 'Sholay' (1975) — the most-watched Hindi film of its era — bringing to life the Salim-Javed screenplay. Mumbai filmmaker; later directed 'Shaan' and 'Saagar'.",
+      "answer": "Ramesh Sippy",
+      "accept": ["ramesh sippy", "sippy"]
+    },
+    { "id": "f030", "topic": "cinema",
+      "question": "Director of 'Neecha Nagar' (1946), the only Indian film ever to win the top prize at Cannes (then the Grand Prize, predecessor to the Palme d'Or). Brother of Dev and Vijay.",
+      "answer": "Chetan Anand",
+      "accept": ["chetan anand"]
+    },
+    { "id": "f031", "topic": "cinema",
+      "question": "Tamil-born Bollywood actress, the 'Dream Girl' after her 1977 film of that name; opposite Dharmendra in many films and later his wife; also a Bharatanatyam dancer and BJP MP.",
+      "answer": "Hema Malini",
+      "accept": ["hema malini", "hema"]
+    },
+    { "id": "f032", "topic": "cinema",
+      "question": "Anglo-Burmese dancer-actor who became the most famous cabaret performer in Hindi cinema; songs include 'Piya Tu Ab To Aaja' and 'Mehbooba Mehbooba'. Single name.",
+      "answer": "Helen",
+      "accept": ["helen", "helen richardson", "helen ann richardson"]
+    },
+    { "id": "f033", "topic": "cinema", "bid_eligible": true,
+      "question": "Mumbai-born actress; her 'Dhak Dhak' number from 'Beta' (1992) is iconic; films include 'Tezaab', 'Hum Aapke Hain Koun', 'Devdas'. Padma Shri 2008.",
+      "answer": "Madhuri Dixit",
+      "accept": ["madhuri dixit", "madhuri", "dixit", "madhuri dixit nene"]
+    },
+    { "id": "f034", "topic": "cinema",
+      "question": "Indian-American director of 'Salaam Bombay!' (1988), 'Mississippi Masala' (1991), and 'Monsoon Wedding' (2001), which won the Golden Lion at Venice. Surname?",
+      "answer": "Mira Nair",
+      "accept": ["mira nair", "nair"]
+    },
+    { "id": "f035", "topic": "cinema",
+      "question": "Director of 'Deewaar' (1975), 'Kabhi Kabhie' (1976), 'Silsila' (1981) and 'Veer-Zaara' (2004); founder of Yash Raj Films.",
+      "answer": "Yash Chopra",
+      "accept": ["yash chopra", "chopra"]
+    },
+
+    { "id": "hf04", "topic": "cinema", "difficulty": 3,
+      "question": "Punjab-born actor of parallel cinema; films 'Aakrosh' (1980), 'Ardh Satya' (1983), 'Mirch Masala' (1987), 'Maachis' (1996); also crossed over to Hollywood and British cinema.",
+      "answer": "Om Puri",
+      "accept": ["om puri", "puri"]
+    },
+    { "id": "hf05", "topic": "cinema", "difficulty": 3,
+      "question": "Maharashtra-born actress, considered the bridge between parallel cinema and the mainstream; 'Bhumika' (1977), 'Manthan' (1976), 'Arth' (1982). Died in December 1986 at the age of 31.",
+      "answer": "Smita Patil",
+      "accept": ["smita patil", "smita"]
+    },
+    { "id": "hf06", "topic": "cinema", "difficulty": 3,
+      "question": "Bengali director, contemporary of Ray and Ghatak; his 'Bhuvan Shome' (1969), about a stiff bureaucrat softened by a village girl, is widely seen as the start of Indian parallel cinema.",
+      "answer": "Mrinal Sen",
+      "accept": ["mrinal sen", "sen"]
+    },
+    { "id": "hf07", "topic": "cinema", "difficulty": 3,
+      "question": "Adoor Gopalakrishnan's 1981 Malayalam film about a feudal landlord trapped in his own decaying mansion, slowly losing his hold on reality. Title means 'rat-trap'.",
+      "answer": "Elippathayam",
+      "accept": ["elippathayam", "the rat trap", "rat trap"]
+    },
+    { "id": "hf08", "topic": "cinema", "difficulty": 3,
+      "question": "1937 Marathi devotional film by V. Shantaram; the first Indian sound film to be screened at an international film festival, in Venice. Title is the name of a 17th-century saint-poet.",
+      "answer": "Sant Tukaram",
+      "accept": ["sant tukaram", "tukaram"]
+    },
+    { "id": "hf09", "topic": "cinema", "difficulty": 3,
+      "question": "Bimal Roy's 1953 film about a peasant who loses his land to a moneylender and migrates to Calcutta to work as a rickshaw-puller. Title literally means 'two acres of land'.",
+      "answer": "Do Bigha Zamin",
+      "accept": ["do bigha zamin", "do bigha zameen"]
+    },
+    { "id": "hf10", "topic": "cinema", "difficulty": 3,
+      "question": "1957 Guru Dutt film, often paired with 'Kaagaz Ke Phool' as his masterpiece; about a poet, Vijay, struggling for recognition in a hostile society. The Sahir Ludhianvi-Burman soundtrack alone — 'Yeh Duniya Agar Mil Bhi Jaaye To Kya Hai' — is a classic. Hindi title means 'thirsty'.",
+      "answer": "Pyaasa",
+      "accept": ["pyaasa", "pyasa"]
+    },
+    { "id": "hf11", "topic": "cinema", "difficulty": 3,
+      "question": "Satyajit Ray's 1963 film, set in 1950s Calcutta, about a housewife who becomes a working woman to support her family. Title is the Bengali word for 'big city'.",
+      "answer": "Mahanagar",
+      "accept": ["mahanagar", "the big city"]
+    },
+    { "id": "hf12", "topic": "cinema", "difficulty": 3,
+      "question": "UP-born actor, FTII alumnus; National Film Award for Best Actor three times — for 'Sparsh' (1979), 'Paar' (1984) and 'Iqbal' (2005); also a celebrated stage actor.",
+      "answer": "Naseeruddin Shah",
+      "accept": ["naseeruddin shah", "naseer", "naseeruddin"]
+    },
+    { "id": "hf13", "topic": "cinema", "difficulty": 3,
+      "question": "Telangana-born director, the leading figure of Indian parallel cinema in the 70s and 80s; films include 'Ankur' (1974), 'Manthan' (1976), 'Bhumika' (1977), 'Mandi' (1983).",
+      "answer": "Shyam Benegal",
+      "accept": ["shyam benegal", "benegal"]
+    },
+
+    { "id": "h026", "topic": "history", "bid_eligible": true,
+      "question": "Three battles, three centuries, one Haryana town: Babur defeated Ibrahim Lodi here in 1526, the Mughals defeated Hemu here in 1556, and Abdali defeated the Marathas here in 1761. The town?",
+      "answer": "Panipat",
+      "accept": ["panipat"]
+    },
+    { "id": "h027", "topic": "history",
+      "question": "Tenth and last human Guru of Sikhism; founded the Khalsa at Anandpur Sahib on Baisakhi 1699; declared the Guru Granth Sahib his eternal successor in 1708.",
+      "answer": "Guru Gobind Singh",
+      "accept": ["guru gobind singh", "gobind singh"]
+    },
+    { "id": "h028", "topic": "history",
+      "question": "Founder of Sikhism, born around 1469 at Talwandi (now in Pakistan); the first Sikh Guru.",
+      "answer": "Guru Nanak",
+      "accept": ["guru nanak", "guru nanak dev", "nanak"]
+    },
+    { "id": "h029", "topic": "history",
+      "question": "Founder of the Sikh Empire (1799-1839) with its capital at Lahore; one-eyed; called the 'Lion of Punjab'; claimant of the Koh-i-Noor in his lifetime.",
+      "answer": "Ranjit Singh",
+      "accept": ["ranjit singh", "maharaja ranjit singh", "sher e punjab"]
+    },
+    { "id": "h030", "topic": "history",
+      "question": "She presided over the 1925 Kanpur session of the Indian National Congress, becoming the first Indian woman to be Congress president. Poet too — 'Nightingale of India'.",
+      "answer": "Sarojini Naidu",
+      "accept": ["sarojini naidu", "sarojini", "naidu"]
+    },
+    { "id": "h031", "topic": "history",
+      "question": "First Indian to be elected to the British House of Commons, in 1892, on a Liberal ticket from Finsbury Central; nicknamed the 'Grand Old Man of India'; mentor to Gokhale, Tilak and Gandhi.",
+      "answer": "Dadabhai Naoroji",
+      "accept": ["dadabhai naoroji", "naoroji", "dadabhai"]
+    },
+    { "id": "h032", "topic": "history",
+      "question": "Bharatiya Janata Party founder; lawyer and President of the All India Trinamool Congress... wait, mixed it up. Let me try again. He led the Khilafat Movement (1919-22) along with his elder brother Shaukat Ali. Indian Muslim leader and journalist. Honorific 'Maulana'.",
+      "answer": "Mohammad Ali Jauhar",
+      "accept": ["mohammad ali jauhar", "maulana mohammad ali", "mohammed ali jauhar", "mohammad ali"]
+    },
+    { "id": "h033", "topic": "history",
+      "question": "He founded Banaras Hindu University in 1916 with the support of the British Crown after years of fundraising across princely states; later President of the INC; honorific 'Mahamana'.",
+      "answer": "Madan Mohan Malaviya",
+      "accept": ["madan mohan malaviya", "malaviya", "mahamana"]
+    },
+    { "id": "h034", "topic": "history",
+      "question": "Punjabi nationalist leader, the 'Lion of Punjab' (Punjab Kesari); died in November 1928 of injuries sustained from a police lathi-charge during protests against the Simon Commission in Lahore.",
+      "answer": "Lala Lajpat Rai",
+      "accept": ["lala lajpat rai", "lajpat rai", "punjab kesari"]
+    },
+    { "id": "h035", "topic": "history", "bid_eligible": true,
+      "question": "Bengali revolutionary; 'Master Da'; led the Chittagong armoury raid on 18 April 1930, an attempt to seize British arms in the Chittagong arsenal. Hanged in 1934.",
+      "answer": "Surya Sen",
+      "accept": ["surya sen", "masterda", "master da"]
+    },
+    { "id": "h036", "topic": "history",
+      "question": "Maratha queen who, after her husband's death, ruled the kingdom of Indore from 1767 to 1795; renowned for her piety, temple-building and just governance. Initials A.H.",
+      "answer": "Ahilyabai Holkar",
+      "accept": ["ahilyabai holkar", "ahilyabai", "ahilya bai holkar"]
+    },
+    { "id": "h037", "topic": "history",
+      "question": "Irish-British theosophist who became Indian National Congress president in 1917, the first woman to do so; founder of the Home Rule League with Tilak.",
+      "answer": "Annie Besant",
+      "accept": ["annie besant", "besant"]
+    },
+    { "id": "h038", "topic": "history",
+      "question": "On 13 March 1940, this Punjabi revolutionary shot dead Michael O'Dwyer at Caxton Hall in London — the British official who had endorsed the Jallianwala Bagh massacre 21 years earlier.",
+      "answer": "Udham Singh",
+      "accept": ["udham singh", "udham"]
+    },
+
+    { "id": "hh06", "topic": "history", "difficulty": 3,
+      "question": "Bengali nationalist who founded the revolutionary group Anushilan Samiti in 1902, was tried for the Alipore bomb case (1908), and later renounced politics for spiritual life at Pondicherry, where he founded an ashram.",
+      "answer": "Sri Aurobindo",
+      "accept": ["sri aurobindo", "aurobindo", "aurobindo ghose"]
+    },
+    { "id": "hh07", "topic": "history", "difficulty": 3,
+      "question": "Tribal leader of the Mundas; led an uprising against British and missionary encroachment in Chota Nagpur (now Jharkhand) in 1899-1900; died in jail at Ranchi in June 1900 at age 25; called 'Bhagwan' by his followers.",
+      "answer": "Birsa Munda",
+      "accept": ["birsa munda", "birsa", "bhagwan birsa munda"]
+    },
+    { "id": "hh08", "topic": "history", "difficulty": 3,
+      "question": "Begum of Awadh; led the rebel forces in Lucknow during the 1857 Uprising while her husband Wajid Ali Shah was in British exile in Calcutta; later fled to Nepal.",
+      "answer": "Begum Hazrat Mahal",
+      "accept": ["begum hazrat mahal", "hazrat mahal"]
+    },
+    { "id": "hh09", "topic": "history", "difficulty": 3,
+      "question": "Persian invader who, in 1739, defeated Mughal emperor Muhammad Shah at Karnal, sacked Delhi, and carried the Peacock Throne and the Koh-i-Noor diamond back to Persia.",
+      "answer": "Nadir Shah",
+      "accept": ["nadir shah"]
+    },
+    { "id": "hh10", "topic": "history", "difficulty": 3,
+      "question": "Afghan ruler who defeated the Marathas at the Third Battle of Panipat on 14 January 1761, halting Maratha expansion. Founder of the Durrani Empire.",
+      "answer": "Ahmad Shah Abdali",
+      "accept": ["ahmad shah abdali", "ahmad shah durrani", "abdali", "ahmed shah abdali"]
+    },
+    { "id": "hh11", "topic": "history", "difficulty": 3,
+      "question": "Two brothers founded the Vijayanagara Empire in 1336, declaring independence from the Delhi Sultanate and establishing a capital at Hampi. Name either.",
+      "answer": "Harihara",
+      "accept": ["harihara", "bukka", "harihara raya", "bukka raya", "harihara i", "bukka i"]
+    },
+    { "id": "hh12", "topic": "history", "difficulty": 3,
+      "question": "Bengali revolutionary who threw bombs at the Imperial Legislative Assembly in Delhi on 8 April 1929 alongside Bhagat Singh; both surrendered to be tried; he survived prison and died in 1965. Initials B.K.",
+      "answer": "Batukeshwar Dutt",
+      "accept": ["batukeshwar dutt", "bk dutt", "b k dutt", "dutt"]
+    },
+    { "id": "hh13", "topic": "history", "difficulty": 3,
+      "question": "First female ruler of the Delhi Sultanate; daughter of Iltutmish; reigned from 1236 to 1240 before being deposed by the nobles. The film Hema Malini played her in 1983.",
+      "answer": "Razia Sultan",
+      "accept": ["razia sultan", "razia sultana", "razia", "razziya"]
+    },
+    { "id": "hh14", "topic": "history", "difficulty": 3,
+      "question": "Father of Tipu Sultan; the de facto ruler of Mysore from 1761; modernised the Mysore army with French help; fought the First and Second Anglo-Mysore Wars.",
+      "answer": "Hyder Ali",
+      "accept": ["hyder ali", "haider ali"]
+    },
+    { "id": "hh15", "topic": "history", "difficulty": 3,
+      "question": "Sufi saint of the Chishti order, based in Delhi; lived 1238-1325; spiritual mentor of Amir Khusrau; his dargah remains a pilgrimage site for all faiths.",
+      "answer": "Nizamuddin Auliya",
+      "accept": ["nizamuddin auliya", "nizamuddin", "hazrat nizamuddin"]
+    },
+    { "id": "hh16", "topic": "history", "difficulty": 3,
+      "question": "Bengali statistician and physicist who founded the Indian Statistical Institute at Calcutta in 1931; lent his name to a measure of distance still used in multivariate statistics. Initials P.C.",
+      "answer": "PC Mahalanobis",
+      "accept": ["pc mahalanobis", "p c mahalanobis", "mahalanobis", "prasanta chandra mahalanobis"]
+    },
+    { "id": "hh17", "topic": "history", "difficulty": 3,
+      "question": "First Education Minister of independent India (1947-58); a leader of the Khilafat Movement before independence; the man whose birthday (11 November) is celebrated as National Education Day.",
+      "answer": "Maulana Abul Kalam Azad",
+      "accept": ["maulana abul kalam azad", "abul kalam azad", "azad", "maulana azad"]
+    },
+
+    { "id": "g016", "topic": "geography",
+      "question": "Mighty river that originates as the Yarlung Tsangpo in Tibet, enters India through Arunachal Pradesh, and forms the great delta with the Ganga before emptying into the Bay of Bengal.",
+      "answer": "Brahmaputra",
+      "accept": ["brahmaputra", "brahmaputra river"]
+    },
+    { "id": "g017", "topic": "geography", "bid_eligible": true,
+      "question": "Mountain range that runs roughly parallel to India's west coast for about 1,600 km, from Gujarat to Tamil Nadu; one of the world's eight 'hottest hotspots' of biological diversity.",
+      "answer": "Western Ghats",
+      "accept": ["western ghats", "sahyadri"]
+    },
+    { "id": "g018", "topic": "geography",
+      "question": "Hill town and tea-growing centre in West Bengal; toy train; views of Kanchenjunga.",
+      "answer": "Darjeeling",
+      "accept": ["darjeeling"]
+    },
+    { "id": "g019", "topic": "geography",
+      "question": "Northeastern Indian state, capital Kohima; site of one of the most decisive World War II battles, where Indian and British troops halted the Japanese advance in 1944.",
+      "answer": "Nagaland",
+      "accept": ["nagaland"]
+    },
+    { "id": "g020", "topic": "geography",
+      "question": "Southernmost mainland point of India; in Tamil Nadu; the meeting place of the Arabian Sea, the Bay of Bengal and the Indian Ocean. The Vivekananda Rock Memorial sits offshore.",
+      "answer": "Kanyakumari",
+      "accept": ["kanyakumari", "cape comorin"]
+    },
+    { "id": "g021", "topic": "geography",
+      "question": "Mangrove forest in the Ganges-Brahmaputra delta, shared between India and Bangladesh; home of the Royal Bengal tiger.",
+      "answer": "Sundarbans",
+      "accept": ["sundarbans", "sunderbans"]
+    },
+    { "id": "g022", "topic": "geography",
+      "question": "Indian Union Territory carved out of Goa, Daman and Diu in 2020 — wait, the other way: the UT formed by merging Daman and Diu with Dadra and Nagar Haveli in 2020.",
+      "answer": "Dadra and Nagar Haveli and Daman and Diu",
+      "accept": ["dadra and nagar haveli and daman and diu", "daman and diu and dadra and nagar haveli", "dnh dd", "daman diu"]
+    },
+
+    { "id": "hg03", "topic": "geography", "difficulty": 3,
+      "question": "Highest peak in the Western Ghats, located in Kerala's Idukki district at 2,695 metres. The name in Malayalam means 'elephant peak'.",
+      "answer": "Anamudi",
+      "accept": ["anamudi", "anaimudi"]
+    },
+    { "id": "hg04", "topic": "geography", "difficulty": 3,
+      "question": "Highest point of the Andaman & Nicobar Islands, at 732 metres on North Andaman Island.",
+      "answer": "Saddle Peak",
+      "accept": ["saddle peak"]
+    },
+    { "id": "hg05", "topic": "geography", "difficulty": 3,
+      "question": "Indian high-altitude pass, at 4,170 metres, between Tawang and Bomdila in Arunachal Pradesh; site of fierce fighting in the 1962 war with China.",
+      "answer": "Sela Pass",
+      "accept": ["sela pass", "se la", "sela"]
+    },
+    { "id": "hg06", "topic": "geography", "difficulty": 3,
+      "question": "Longest lake in India, in Kerala; an expanded estuary that runs parallel to the Arabian Sea behind the coastal sandbar; 96 km long; gives Alappuzha its houseboat tourism.",
+      "answer": "Vembanad Lake",
+      "accept": ["vembanad lake", "vembanad", "vembanad kayal"]
+    },
+    { "id": "hg07", "topic": "geography", "difficulty": 3,
+      "question": "Maharashtra crater lake, in Buldhana district; formed by a meteor impact roughly 50,000 years ago in basaltic rock — geologically rare.",
+      "answer": "Lonar Lake",
+      "accept": ["lonar lake", "lonar"]
+    },
+    { "id": "hg08", "topic": "geography", "difficulty": 3,
+      "question": "Indian state where the Living Root Bridges of the Khasi and Jaintia people are found; capital Shillong.",
+      "answer": "Meghalaya",
+      "accept": ["meghalaya"]
+    },
+    { "id": "hg09", "topic": "geography", "difficulty": 3,
+      "question": "Indian high-altitude pass, in Sikkim's Himalayan range, that connects to Tibet; reopened for limited border trade with China in 2006.",
+      "answer": "Nathula Pass",
+      "accept": ["nathula pass", "nathu la", "nathula", "nathu la pass"]
+    },
+    { "id": "hg10", "topic": "geography", "difficulty": 3,
+      "question": "Capital of the Indian Union Territory of Lakshadweep — also the name of one of its inhabited islands.",
+      "answer": "Kavaratti",
+      "accept": ["kavaratti"]
+    },
+
+    { "id": "b016", "topic": "business", "bid_eligible": true,
+      "question": "Eldest son of Dhirubhai Ambani; chairman of Reliance Industries since his father's death in 2002; took control of the petrochemicals, refining, telecom and retail businesses after splitting with his younger brother in 2005.",
+      "answer": "Mukesh Ambani",
+      "accept": ["mukesh ambani", "mukesh"]
+    },
+    { "id": "b017", "topic": "business",
+      "question": "Chairman of the Mahindra Group since 2012; grandson of one of the founders; Harvard MBA; well-known for thoughtful tweets and championing Indian manufacturing.",
+      "answer": "Anand Mahindra",
+      "accept": ["anand mahindra", "mahindra"]
+    },
+    { "id": "b018", "topic": "business",
+      "question": "Indian-American business executive; CEO of PepsiCo from 2006 to 2018; born and raised in Chennai; alumna of IIM Calcutta and Yale.",
+      "answer": "Indra Nooyi",
+      "accept": ["indra nooyi", "nooyi"]
+    },
+    { "id": "b019", "topic": "business",
+      "question": "Rajasthan-born steel magnate; chairman of ArcelorMittal; one-time richest Indian and richest Asian in the UK.",
+      "answer": "Lakshmi Mittal",
+      "accept": ["lakshmi mittal", "mittal"]
+    },
+    { "id": "b020", "topic": "business",
+      "question": "Founder of the Future Group; the man who pioneered the Indian organised retail story with Big Bazaar and Pantaloons in the 2000s; later filed for bankruptcy.",
+      "answer": "Kishore Biyani",
+      "accept": ["kishore biyani", "biyani"]
+    },
+    { "id": "b021", "topic": "business",
+      "question": "Founded Jet Airways in 1993; once India's largest private airline. The carrier collapsed in April 2019; he later faced legal troubles in Britain.",
+      "answer": "Naresh Goyal",
+      "accept": ["naresh goyal", "goyal"]
+    },
+    { "id": "b022", "topic": "business",
+      "question": "Mangalore-born business tycoon who founded Kingfisher Airlines and ran the United Breweries Group; declared a fugitive economic offender in 2019; resident in the UK.",
+      "answer": "Vijay Mallya",
+      "accept": ["vijay mallya", "mallya"]
+    },
+    { "id": "b023", "topic": "business",
+      "question": "Mysore-born co-founder and former chairman of Infosys; came up with the line 'powered by intellect, driven by values'; husband of Sudha Murthy, father-in-law of UK's Rishi Sunak.",
+      "answer": "NR Narayana Murthy",
+      "accept": ["nr narayana murthy", "narayana murthy", "n r narayana murthy", "murthy", "infosys narayana murthy"]
+    },
+
+    { "id": "hb03", "topic": "business", "difficulty": 3,
+      "question": "Chaired the Tata Group from 1991 to 2012, and again briefly in 2016-17; oversaw the acquisitions of Tetley (2000), Corus (2007) and Jaguar Land Rover (2008); ran the Tata Trusts. Bharat Ratna 2024 (posthumous-ish) — actually awarded shortly before his death; died October 2024.",
+      "answer": "Ratan Tata",
+      "accept": ["ratan tata", "ratan naval tata"]
+    },
+    { "id": "hb04", "topic": "business", "difficulty": 3,
+      "question": "First Indian to receive a commercial pilot's licence (1929); chaired the Tata Group for 50 years (1938-91); founded Tata Air Services in 1932, India's first airline. Bharat Ratna 1992.",
+      "answer": "JRD Tata",
+      "accept": ["jrd tata", "j r d tata", "jehangir ratanji dadabhoy tata"]
+    },
+    { "id": "hb05", "topic": "business", "difficulty": 3,
+      "question": "Marwari businessman from Pilani who built one of India's earliest industrial empires from textiles, cement and aluminium; close associate of Gandhi; the Birla House (now Gandhi Smriti) in Delhi was his residence.",
+      "answer": "Ghanshyam Das Birla",
+      "accept": ["ghanshyam das birla", "gd birla", "g d birla", "birla", "ghanshyamdas birla"]
+    },
+    { "id": "hb06", "topic": "business", "difficulty": 3,
+      "question": "Pune-born industrialist of the early 20th century; founded Hindustan Aircraft (now HAL) and Premier Automobiles; pioneer of Indian shipbuilding too. Surname?",
+      "answer": "Hirachand",
+      "accept": ["walchand hirachand", "hirachand", "walchand"]
+    },
+    { "id": "hb07", "topic": "business", "difficulty": 3,
+      "question": "Bangalore-based entrepreneur; founded Biocon in 1978 from a garage with seed capital of ten thousand rupees; today one of India's leading biopharmaceutical figures.",
+      "answer": "Kiran Mazumdar-Shaw",
+      "accept": ["kiran mazumdar shaw", "kiran mazumdar", "mazumdar shaw", "mazumdar"]
+    },
+    { "id": "hb08", "topic": "business", "difficulty": 3,
+      "question": "Mumbai-born entrepreneur; was an investment banker with Kotak Mahindra; founded Nykaa in 2012 at the age of 50; rang the bell when the company listed on the BSE in 2021.",
+      "answer": "Falguni Nayar",
+      "accept": ["falguni nayar", "nayar"]
+    },
+    { "id": "hb09", "topic": "business", "difficulty": 3,
+      "question": "IIT Bombay alumnus; co-founded Ola Cabs in 2010 and later Ola Electric; both companies disrupted Indian transport sectors.",
+      "answer": "Bhavish Aggarwal",
+      "accept": ["bhavish aggarwal", "aggarwal", "bhavish"]
+    },
+
+    { "id": "p011", "topic": "polity",
+      "question": "Second President of India (1962-67) and a philosopher of Hinduism; his birthday, 5 September, is celebrated as Teachers' Day.",
+      "answer": "Sarvepalli Radhakrishnan",
+      "accept": ["sarvepalli radhakrishnan", "radhakrishnan", "s radhakrishnan"]
+    },
+    { "id": "p012", "topic": "polity", "bid_eligible": true,
+      "question": "11th President of India (2002-07); aerospace scientist who led the development of India's first SLV-3 and later directed the IGMDP missile programme; the 'People's President'.",
+      "answer": "APJ Abdul Kalam",
+      "accept": ["apj abdul kalam", "abdul kalam", "kalam", "a p j abdul kalam"]
+    },
+    { "id": "p013", "topic": "polity",
+      "question": "First Dalit President of India (1997-2002); a Kerala-born diplomat-turned-politician who served as ambassador to Thailand, China and the US.",
+      "answer": "KR Narayanan",
+      "accept": ["kr narayanan", "k r narayanan", "narayanan", "kocheril raman narayanan"]
+    },
+    { "id": "p014", "topic": "polity",
+      "question": "Economist; Finance Minister 1991-96; PM 2004-2014; widely credited as the architect of India's 1991 economic liberalisation. Born in pre-Partition Punjab in 1932.",
+      "answer": "Manmohan Singh",
+      "accept": ["manmohan singh", "manmohan", "dr manmohan singh"]
+    },
+    { "id": "p015", "topic": "polity",
+      "question": "BJP leader; Prime Minister of India three times — for 13 days in 1996, then 1998-99, then 1999-2004; Hindi poet; signed the Lahore Bus declaration with Nawaz Sharif in 1999.",
+      "answer": "Atal Bihari Vajpayee",
+      "accept": ["atal bihari vajpayee", "vajpayee", "atal vajpayee", "atalji"]
+    },
+
+    { "id": "hp02", "topic": "polity", "difficulty": 3,
+      "question": "Bihar-born; first President of India (1950-62); served two consecutive terms; before that, the President of the Constituent Assembly of India that drafted the Constitution.",
+      "answer": "Rajendra Prasad",
+      "accept": ["rajendra prasad", "dr rajendra prasad", "prasad"]
+    },
+    { "id": "hp03", "topic": "polity", "difficulty": 3,
+      "question": "Constitutional adviser to the Constituent Assembly of India; prepared the initial draft of what became the Indian Constitution; later judge of the International Court of Justice. Initials B.N.",
+      "answer": "BN Rau",
+      "accept": ["bn rau", "b n rau", "benegal narsing rau", "benegal rau"]
+    },
+    { "id": "hp04", "topic": "polity", "difficulty": 3,
+      "question": "Tamil Nadu-born civil servant; Chief Election Commissioner of India from 1990 to 1996; transformed the conduct of Indian elections by enforcing the Model Code of Conduct and curbing booth capturing.",
+      "answer": "TN Seshan",
+      "accept": ["tn seshan", "t n seshan", "seshan", "t n seshachari"]
+    },
+    { "id": "hp05", "topic": "polity", "difficulty": 3,
+      "question": "Andhra-born Congress leader; Prime Minister 1991-96; appointed Manmohan Singh as Finance Minister and oversaw the dismantling of the licence-permit raj.",
+      "answer": "PV Narasimha Rao",
+      "accept": ["pv narasimha rao", "p v narasimha rao", "narasimha rao", "rao"]
+    },
+    { "id": "hp06", "topic": "polity", "difficulty": 3,
+      "question": "He served as the fifth Prime Minister of India for less than six months in 1979-80, never having to face Parliament after his appointment. Jat leader from western UP.",
+      "answer": "Charan Singh",
+      "accept": ["charan singh", "chaudhary charan singh"]
+    },
+
+    { "id": "m011", "topic": "mythology",
+      "question": "Trinity-of-three: Brahma the creator, Shiva the destroyer, and the third — preserver of the universe — who incarnates as Rama, Krishna and Buddha (per some traditions). Name him.",
+      "answer": "Vishnu",
+      "accept": ["vishnu", "lord vishnu", "narayana"]
+    },
+    { "id": "m012", "topic": "mythology",
+      "question": "The destroyer in the Hindu trinity; lord of the cosmic dance; abode at Mount Kailash; consort Parvati.",
+      "answer": "Shiva",
+      "accept": ["shiva", "shiv", "mahadev", "mahadeva", "lord shiva"]
+    },
+    { "id": "m013", "topic": "mythology",
+      "question": "Wife of Shiva; mother of Ganesha and Kartikeya; daughter of Himavan, king of the Himalayas. Also worshipped as Gauri.",
+      "answer": "Parvati",
+      "accept": ["parvati", "uma", "gauri"]
+    },
+    { "id": "m014", "topic": "mythology", "bid_eligible": true,
+      "question": "Warrior goddess; slays the buffalo demon Mahishasura; depicted with ten arms, riding a lion. Her ten-day festival is celebrated as Navaratri, ending in Vijayadashami.",
+      "answer": "Durga",
+      "accept": ["durga", "ma durga", "mahishasura mardini"]
+    },
+    { "id": "m015", "topic": "mythology",
+      "question": "Six-headed son of Shiva and Parvati; god of war; also called Murugan in the Tamil tradition; Skanda in the Sanskritic.",
+      "answer": "Kartikeya",
+      "accept": ["kartikeya", "murugan", "skanda", "subrahmanya", "kumara", "kartikey"]
+    },
+
+    { "id": "hm03", "topic": "mythology", "difficulty": 3,
+      "question": "In the Mahabharata, eldest son of Kunti — born of the sun-god Surya before her marriage; raised by a charioteer family; sworn ally of Duryodhana; killed by Arjuna at Kurukshetra.",
+      "answer": "Karna",
+      "accept": ["karna", "karn"]
+    },
+    { "id": "hm04", "topic": "mythology", "difficulty": 3,
+      "question": "Tribal prince in the Mahabharata; learned archery before a clay idol of Drona, who later asked for his right thumb as guru-dakshina to ensure Arjuna's primacy.",
+      "answer": "Eklavya",
+      "accept": ["eklavya", "ekalavya"]
+    },
+    { "id": "hm05", "topic": "mythology", "difficulty": 3,
+      "question": "Son of Arjuna and Subhadra in the Mahabharata; killed at age 16 on the 13th day of Kurukshetra after entering the Chakravyuha — the rotating military formation he had only learned how to enter, not how to exit.",
+      "answer": "Abhimanyu",
+      "accept": ["abhimanyu"]
+    },
+    { "id": "hm06", "topic": "mythology", "difficulty": 3,
+      "question": "Common wife of the five Pandavas in the Mahabharata; daughter of King Drupada; born of fire from the yagna fire-pit; also called Panchali and Krishnaa.",
+      "answer": "Draupadi",
+      "accept": ["draupadi", "panchali", "krishnaa"]
+    },
+    { "id": "hm07", "topic": "mythology", "difficulty": 3,
+      "question": "24th and last of the Jain Tirthankaras; born around 599 BCE in Bihar; gave Jainism its modern philosophical form. Birth name Vardhamana.",
+      "answer": "Mahavira",
+      "accept": ["mahavira", "mahavir", "vardhamana", "lord mahavira"]
+    },
+
+    { "id": "u011", "topic": "music", "bid_eligible": true,
+      "question": "Punjabi Hindi-cinema playback singer (1924-1980); the dominant male voice of the 1950s-70s; over 7,000 songs; Padma Shri 1967.",
+      "answer": "Mohammed Rafi",
+      "accept": ["mohammed rafi", "rafi", "mohammad rafi"]
+    },
+    { "id": "u012", "topic": "music",
+      "question": "Hindi-cinema playback singer (1923-76); the singing voice for Raj Kapoor; songs like 'Mera Joota Hai Japani' and 'Awara Hoon'.",
+      "answer": "Mukesh",
+      "accept": ["mukesh", "mukesh chand mathur"]
+    },
+    { "id": "u013", "topic": "music",
+      "question": "Bengali-Hindi playback singer (1929-87); from Khandwa, MP; younger brother of Ashok Kumar; sang 'Mere Sapnon Ki Rani', 'Roop Tera Mastana', and his own 'Aane Wala Pal'. Also acted, directed, produced.",
+      "answer": "Kishore Kumar",
+      "accept": ["kishore kumar", "kishore", "abhas kumar ganguly"]
+    },
+    { "id": "u014", "topic": "music",
+      "question": "Bengali playback singer (1919-2013) with strong classical Hindustani training; songs like 'Lagi Tumse Mann Ki Lagan' and 'Pucho Na Kaise Maine Rain Bitayi'.",
+      "answer": "Manna Dey",
+      "accept": ["manna dey", "manna", "prabodh chandra dey"]
+    },
+    { "id": "u015", "topic": "music",
+      "question": "Lucknow-born playback singer (1924-1998), known for the slight tremor in his voice; songs like 'Jalte Hain Jiske Liye' and 'Hum Pyar Mein Jalne Walon Ko'. The 'King of Ghazal' before Jagjit Singh.",
+      "answer": "Talat Mahmood",
+      "accept": ["talat mahmood", "talat"]
+    },
+
+    { "id": "hu03", "topic": "music", "difficulty": 3,
+      "question": "Hindustani classical and ghazal vocalist (1914-74); 'Mallika-e-Ghazal'; born Akhtari Bai in Faizabad, UP; Padma Bhushan 1968.",
+      "answer": "Begum Akhtar",
+      "accept": ["begum akhtar", "akhtari bai", "akhtari", "akhtaribai"]
+    },
+    { "id": "hu04", "topic": "music", "difficulty": 3,
+      "question": "Hindustani classical vocalist of the Jaipur-Atrauli gharana; her 1953 recording of 'Jaat Kahan Ho' was selected by Carl Sagan to fly aboard NASA's Voyager Golden Record into deep space.",
+      "answer": "Kesarbai Kerkar",
+      "accept": ["kesarbai kerkar", "kesarbai", "kerkar"]
+    },
+    { "id": "hu05", "topic": "music", "difficulty": 3,
+      "question": "Bansuri (bamboo flute) maestro; Padma Vibhushan; played for Yash Chopra's 'Silsila' and 'Lamhe' soundtracks alongside Shiv Kumar Sharma — together credited as Shiv-Hari.",
+      "answer": "Hariprasad Chaurasia",
+      "accept": ["hariprasad chaurasia", "pandit hariprasad chaurasia", "chaurasia"]
+    },
+    { "id": "hu06", "topic": "music", "difficulty": 3,
+      "question": "Shehnai maestro from Varanasi (1916-2006); played the shehnai at the Red Fort on the night of 15 August 1947 to mark India's independence; Bharat Ratna 2001.",
+      "answer": "Bismillah Khan",
+      "accept": ["bismillah khan", "ustad bismillah khan", "bismillah"]
+    },
+    { "id": "hu07", "topic": "music", "difficulty": 3,
+      "question": "Hindustani classical vocalist of the Mewati gharana (1930-2020); known for singing the rare 'morning' raga 'Haveli Sangeet'; Padma Vibhushan 2000.",
+      "answer": "Pandit Jasraj",
+      "accept": ["pandit jasraj", "jasraj"]
+    },
+
+    { "id": "k011", "topic": "books",
+      "question": "Indian writer best known for popular fiction targeting young Indians; his debut, 'Five Point Someone' (2004), was loosely adapted as '3 Idiots'; later wrote 'Two States' and 'Half Girlfriend'.",
+      "answer": "Chetan Bhagat",
+      "accept": ["chetan bhagat", "bhagat"]
+    },
+    { "id": "k012", "topic": "books",
+      "question": "Indian-American author; won the Pulitzer for Fiction in 2000 for her debut short-story collection 'Interpreter of Maladies'. Born in London, raised in Rhode Island.",
+      "answer": "Jhumpa Lahiri",
+      "accept": ["jhumpa lahiri", "lahiri", "nilanjana sudeshna lahiri"]
+    },
+    { "id": "k013", "topic": "books",
+      "question": "Indian English novelist of the 1930s; his 'Untouchable' (1935) follows a single day in the life of a Dalit sweeper, Bakha; one of the founders of Indian English fiction.",
+      "answer": "Mulk Raj Anand",
+      "accept": ["mulk raj anand", "anand", "mulkraj anand"]
+    },
+    { "id": "k014", "topic": "books",
+      "question": "Karnataka-born Indian English novelist; his 'Kanthapura' (1938) is set in a Mysore village's Gandhian awakening; later 'The Serpent and the Rope'. Sahitya Akademi Fellow.",
+      "answer": "Raja Rao",
+      "accept": ["raja rao"]
+    },
+    { "id": "k015", "topic": "books",
+      "question": "Bengal-born novelist who wrote in English; 'Clear Light of Day', 'In Custody', 'Fasting Feasting'; Booker shortlist three times. Mother of a more recent Booker winner.",
+      "answer": "Anita Desai",
+      "accept": ["anita desai", "desai"]
+    },
+    { "id": "k016", "topic": "books",
+      "question": "Indian politician, diplomat, and author of 'The Great Indian Novel' (1989), 'An Era of Darkness' (2016) and 'Why I Am a Hindu' (2018). Trinity College, Cambridge; UN; Lok Sabha MP for Thiruvananthapuram.",
+      "answer": "Shashi Tharoor",
+      "accept": ["shashi tharoor", "tharoor"]
+    },
+
+    { "id": "hk04", "topic": "books", "difficulty": 3,
+      "question": "Hindi-Urdu novelist (1880-1936); pen name meaning 'moon of love'; novels like 'Godaan' (1936), 'Karmabhoomi' and 'Rangbhoomi' shaped modern Hindi prose.",
+      "answer": "Premchand",
+      "accept": ["premchand", "munshi premchand", "dhanpat rai shrivastava"]
+    },
+    { "id": "hk05", "topic": "books", "difficulty": 3,
+      "question": "Urdu short-story writer (1912-55); his Partition stories, especially 'Toba Tek Singh', remain among the most-cited literary responses to 1947. Migrated to Lahore in 1948.",
+      "answer": "Saadat Hasan Manto",
+      "accept": ["saadat hasan manto", "manto", "sadat hasan manto"]
+    },
+    { "id": "hk06", "topic": "books", "difficulty": 3,
+      "question": "Urdu writer (1915-91); her 1942 short story 'Lihaaf' (The Quilt) was tried for obscenity in a Lahore court; remembered as a fearless feminist voice in mid-century Indian literature.",
+      "answer": "Ismat Chughtai",
+      "accept": ["ismat chughtai", "chughtai", "ismat"]
+    },
+    { "id": "hk07", "topic": "books", "difficulty": 3,
+      "question": "Bengali writer and activist (1926-2016); 'Hajar Churashir Ma' (Mother of 1084) and 'Aranyer Adhikar' confronted the Naxalite era and tribal land rights; Jnanpith Award 1996.",
+      "answer": "Mahasweta Devi",
+      "accept": ["mahasweta devi", "mahasweta"]
+    },
+    { "id": "hk08", "topic": "books", "difficulty": 3,
+      "question": "Kannada novelist (1932-2014); his 1965 novel 'Samskara' (rendered into a landmark film by Pattabhirama Reddy) is one of modern Indian literature's defining works; Jnanpith 1994.",
+      "answer": "UR Ananthamurthy",
+      "accept": ["ur ananthamurthy", "u r ananthamurthy", "ananthamurthy", "udupi rajagopalacharya ananthamurthy"]
+    },
+    { "id": "hk09", "topic": "books", "difficulty": 3,
+      "question": "Urdu poet (1877-1938); his 'Sare Jahan Se Achha Hindostan Hamara' (1904) is sung as a patriotic anthem in India; later wrote 'Bang-i-Dara' and articulated the idea of a separate Muslim state.",
+      "answer": "Allama Iqbal",
+      "accept": ["allama iqbal", "iqbal", "muhammad iqbal", "mohammad iqbal"]
+    },
+
+    { "id": "n006", "topic": "general",
+      "question": "Father of the Indian nuclear programme; founded the Tata Institute of Fundamental Research (TIFR) in 1945; died in a plane crash on Mont Blanc in January 1966.",
+      "answer": "Homi Bhabha",
+      "accept": ["homi bhabha", "bhabha", "homi jehangir bhabha"]
+    },
+    { "id": "n007", "topic": "general",
+      "question": "Father of the Indian space programme; founder of the Physical Research Laboratory at Ahmedabad and of ISRO; died unexpectedly at Kovalam in December 1971.",
+      "answer": "Vikram Sarabhai",
+      "accept": ["vikram sarabhai", "sarabhai"]
+    },
+    { "id": "n008", "topic": "general", "bid_eligible": true,
+      "question": "Tamil-born physicist; Nobel Prize for Physics 1930 for his discovery, while at Calcutta in 1928, that light scattered by a transparent material changes wavelength. The phenomenon bears his name.",
+      "answer": "CV Raman",
+      "accept": ["cv raman", "c v raman", "raman", "chandrasekhara venkata raman", "sir cv raman"]
+    },
+    { "id": "n009", "topic": "general",
+      "question": "Bengali polymath; pioneered research on plant physiology and demonstrated that plants respond to stimuli; invented the crescograph; founded the Bose Institute at Calcutta in 1917. Initials J.C.",
+      "answer": "JC Bose",
+      "accept": ["jc bose", "j c bose", "jagadish chandra bose", "jagdish chandra bose"]
+    },
+    { "id": "n010", "topic": "general",
+      "question": "Punjab-born molecular biologist; shared the Nobel Prize for Physiology or Medicine 1968 for deciphering the genetic code and its function in protein synthesis.",
+      "answer": "Hargobind Khorana",
+      "accept": ["hargobind khorana", "har gobind khorana", "khorana"]
+    },
+    { "id": "n011", "topic": "general",
+      "question": "Astrophysicist; Nobel Prize for Physics 1983 for his theoretical work on the structure and evolution of stars; the limit of stable mass for a white dwarf carries his name.",
+      "answer": "Subrahmanyan Chandrasekhar",
+      "accept": ["subrahmanyan chandrasekhar", "chandrasekhar", "chandra"]
+    },
+
+    { "id": "hn03", "topic": "general", "difficulty": 3,
+      "question": "Mumbai-born ornithologist (1896-1987); the 'Birdman of India'; surveyed birds of every region from Kashmir to Kerala; the bird sanctuary at Bharatpur is now named after him.",
+      "answer": "Salim Ali",
+      "accept": ["salim ali", "saleem ali"]
+    },
+    { "id": "hn04", "topic": "general", "difficulty": 3,
+      "question": "First Field Marshal of India (1973); Indian Army Chief during the 1971 war that led to the creation of Bangladesh; born in Amritsar in 1914 to a Parsi family.",
+      "answer": "Sam Manekshaw",
+      "accept": ["sam manekshaw", "manekshaw", "sam bahadur"]
+    },
+    { "id": "hn05", "topic": "general", "difficulty": 3,
+      "question": "Mysore-born civil engineer and statesman; Diwan of Mysore (1912-18); designed the Krishna Raja Sagara dam; his birthday, 15 September, is celebrated as Engineer's Day in India. Bharat Ratna 1955.",
+      "answer": "M Visvesvaraya",
+      "accept": ["m visvesvaraya", "visvesvaraya", "mokshagundam visvesvaraya", "sir m visvesvaraya", "viswesvaraya"]
+    },
+    { "id": "hn06", "topic": "general", "difficulty": 3,
+      "question": "Garhwali environmentalist who, in the 1970s, led the Chipko movement — villagers hugging trees to prevent logging contractors from felling them. Indian-government honour Padma Vibhushan 2009.",
+      "answer": "Sundar Lal Bahuguna",
+      "accept": ["sunder lal bahuguna", "sundar lal bahuguna", "sundarlal bahuguna", "bahuguna"]
+    },
+    { "id": "hn07", "topic": "general", "difficulty": 3,
+      "question": "Kerala-born track athlete; the 'Payyoli Express'; missed an Olympic 400m hurdles bronze at Los Angeles 1984 by one-hundredth of a second. Initials P.T.",
+      "answer": "PT Usha",
+      "accept": ["pt usha", "p t usha", "usha", "pilavullakandi thekkeparambil usha"]
+    },
+    { "id": "hn08", "topic": "general", "difficulty": 3,
+      "question": "He scored a hat-trick in the gold-medal match of the 1936 Berlin Olympics, where India crushed Germany 8-1; said to have refused offers from Hitler to join the German army; his birthday, 29 August, is India's National Sports Day.",
+      "answer": "Dhyan Chand",
+      "accept": ["dhyan chand", "major dhyan chand"]
+    },
+    { "id": "hn09", "topic": "general", "difficulty": 3,
+      "question": "Andhra-born weightlifter; first Indian woman to win an Olympic medal — bronze in the 69 kg category at Sydney 2000. Padma Shri.",
+      "answer": "Karnam Malleswari",
+      "accept": ["karnam malleswari", "malleswari"]
+    }
+
+  ]
+};
