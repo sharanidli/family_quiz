@@ -4,13 +4,17 @@
 // =============================================================
 
 const THEME_OPTIONS = [
-  { id: 'cricket',   label: 'Cricket' },
-  { id: 'cinema',    label: 'Cinema & Bollywood' },
-  { id: 'history',   label: 'History & Freedom' },
-  { id: 'geography', label: 'Geography' },
-  { id: 'business',  label: 'Business & Brands' },
-  { id: 'polity',    label: 'Polity & Constitution' },
+  { id: 'cricket',     label: 'Cricket' },
+  { id: 'cinema',      label: 'Cinema & Bollywood' },
+  { id: 'history',     label: 'History & Freedom' },
+  { id: 'geography',   label: 'Geography' },
+  { id: 'business',    label: 'Business & Brands' },
+  { id: 'polity',      label: 'Polity & Constitution' },
+  { id: 'south_india', label: 'South India' },
+  { id: 'languages',   label: 'Languages & Literature' },
 ];
+
+const TIMER_SECONDS = 120;
 
 // Joy's Postcard — rotating openers the host says before each Long/Theme question
 const JOY_OPENERS = [
@@ -43,11 +47,17 @@ const state = {
   currentBid: 0,
   voiceHost: true,
   autoJudge: true,
+  timerEnabled: false,
+  avoidRepeats: true,
   listening: false,
   recognition: null,
   heard: '',
   matchAnnounced: false,
+  partySeen: new Set(),
 };
+
+let timerInterval = null;
+let timerSecondsLeft = 0;
 
 // ----- DOM helpers -----
 const $ = (sel) => document.querySelector(sel);
@@ -80,16 +90,17 @@ function renderPlayers() {
     const row = el('div', { class: 'player-row' }, [
       el('input', {
         type: 'text', value: p.name, placeholder: 'Player ' + (i + 1),
-        oninput: (e) => { p.name = e.target.value; },
+        oninput: (e) => { p.name = e.target.value; updatePartyHint(); },
       }),
       el('button', {
         class: 'remove',
         title: 'Remove',
-        onclick: () => { state.players.splice(i, 1); renderPlayers(); }
+        onclick: () => { state.players.splice(i, 1); renderPlayers(); updatePartyHint(); }
       }, '×'),
     ]);
     list.appendChild(row);
   });
+  updatePartyHint();
 }
 
 function addPlayer() {
@@ -156,13 +167,34 @@ function addRound(type) {
 // ----- Question pool -----
 function buildPool() {
   state.pool.byTopic = {};
+  state.pool.byTheme = {};
   state.questions.forEach(q => {
     const t = q.topic;
     if (!state.pool.byTopic[t]) state.pool.byTopic[t] = [];
     state.pool.byTopic[t].push(q);
+    if (Array.isArray(q.themes)) {
+      for (const th of q.themes) {
+        if (!state.pool.byTheme[th]) state.pool.byTheme[th] = [];
+        state.pool.byTheme[th].push(q);
+      }
+    }
   });
   Object.values(state.pool.byTopic).forEach(arr => shuffle(arr));
+  Object.values(state.pool.byTheme).forEach(arr => shuffle(arr));
   state.pool.all = shuffle([...state.questions]);
+}
+
+// Combine questions matching a theme key by either `topic` or `themes`
+function poolForTheme(key) {
+  const a = state.pool.byTopic[key] || [];
+  const b = state.pool.byTheme[key] || [];
+  if (!b.length) return a;
+  if (!a.length) return b;
+  const seen = new Set();
+  const out = [];
+  for (const q of a) { if (!seen.has(q.id)) { seen.add(q.id); out.push(q); } }
+  for (const q of b) { if (!seen.has(q.id)) { seen.add(q.id); out.push(q); } }
+  return out;
 }
 
 function shuffle(arr) {
@@ -175,15 +207,26 @@ function shuffle(arr) {
 
 function nextQuestion(opts = {}) {
   const { topic, bidEligible } = opts;
-  const pool = topic ? (state.pool.byTopic[topic] || []) : state.pool.all;
+  const pool = topic ? poolForTheme(topic) : state.pool.all;
 
+  // Pass 1: unused this game AND unseen by this party
+  if (state.avoidRepeats) {
+    for (const q of pool) {
+      if (state.used.has(q.id)) continue;
+      if (state.partySeen.has(q.id)) continue;
+      if (bidEligible && !q.bid_eligible) continue;
+      state.used.add(q.id);
+      return q;
+    }
+  }
+  // Pass 2: unused this game (allow repeats from history if needed)
   for (const q of pool) {
     if (state.used.has(q.id)) continue;
     if (bidEligible && !q.bid_eligible) continue;
     state.used.add(q.id);
     return q;
   }
-  // Relax bid filter
+  // Pass 3: relax bid filter
   if (bidEligible) {
     for (const q of pool) {
       if (state.used.has(q.id)) continue;
@@ -191,11 +234,106 @@ function nextQuestion(opts = {}) {
       return q;
     }
   }
-  // Final fallback: any unused, any topic
+  // Pass 4: any unused, any topic
   for (const q of state.questions) {
+    if (q.callback) continue;
     if (!state.used.has(q.id)) { state.used.add(q.id); return q; }
   }
   return null;
+}
+
+// ----- Party history (localStorage) -----
+function getPartyKey() {
+  const names = state.players
+    .map(p => p.name.trim().toLowerCase())
+    .filter(n => n)
+    .sort();
+  return names.length ? 'quiz_seen_' + names.join('|') : null;
+}
+
+function loadPartySeen() {
+  const key = getPartyKey();
+  if (!key) return new Set();
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? new Set(JSON.parse(raw)) : new Set();
+  } catch (e) { return new Set(); }
+}
+
+function savePartySeen() {
+  const key = getPartyKey();
+  if (!key || !state.partySeen) return;
+  try {
+    localStorage.setItem(key, JSON.stringify([...state.partySeen]));
+  } catch (e) {}
+}
+
+function resetPartySeen() {
+  const key = getPartyKey();
+  if (!key) return;
+  try { localStorage.removeItem(key); } catch (e) {}
+  state.partySeen = new Set();
+  updatePartyHint();
+}
+
+function updatePartyHint() {
+  const hint = $('#party-hint');
+  if (!hint) return;
+  const names = state.players.map(p => p.name.trim()).filter(n => n);
+  if (names.length < 1) { hint.textContent = ''; return; }
+  const seen = loadPartySeen();
+  if (seen.size === 0) {
+    hint.textContent = '✨ A new party. No history yet.';
+  } else {
+    hint.innerHTML = `📚 This party has seen <strong>${seen.size}</strong> question${seen.size === 1 ? '' : 's'} across previous games. <a href="#" id="reset-history">Reset history</a>`;
+    const link = $('#reset-history');
+    if (link) link.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (confirm('Forget all questions this party has seen? They will be eligible again.')) resetPartySeen();
+    });
+  }
+}
+
+// ----- Timer -----
+function startTimer() {
+  if (!state.timerEnabled) return;
+  clearTimer();
+  timerSecondsLeft = TIMER_SECONDS;
+  renderTimer();
+  timerInterval = setInterval(() => {
+    timerSecondsLeft--;
+    renderTimer();
+    if (timerSecondsLeft <= 0) {
+      clearTimer();
+      onTimerExpire();
+    }
+  }, 1000);
+}
+
+function clearTimer() {
+  if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+  const t = $('#timer');
+  if (t) { t.classList.remove('warn', 'danger', 'expired'); }
+}
+
+function renderTimer() {
+  const t = $('#timer');
+  if (!t) return;
+  const m = Math.floor(timerSecondsLeft / 60);
+  const s = Math.max(0, timerSecondsLeft % 60);
+  t.textContent = `⏱ ${m}:${String(s).padStart(2, '0')}`;
+  t.classList.toggle('warn',   timerSecondsLeft <= 30 && timerSecondsLeft > 10);
+  t.classList.toggle('danger', timerSecondsLeft <= 10 && timerSecondsLeft > 0);
+}
+
+function onTimerExpire() {
+  const t = $('#timer');
+  if (t) {
+    t.textContent = '⏱ Time!';
+    t.classList.add('expired');
+  }
+  speak("Time's up.");
+  stopListening();
 }
 
 // ----- Voice (TTS) -----
@@ -450,6 +588,7 @@ function startGame() {
   state.questionInRound = 0;
   state.currentPlayerIdx = 0;
   state.used.clear();
+  state.partySeen = loadPartySeen();
   buildPool();
 
   // Prime TTS — some browsers require a user gesture before speech works
@@ -512,6 +651,7 @@ async function nextQuestionInRound() {
     await speak(opener);
   }
   await speak(q.question);
+  startTimer();
   startListening();
 }
 
@@ -573,17 +713,33 @@ function renderQuestion(q, opts = {}) {
   const main = $('#game-main');
   main.innerHTML = '';
 
+  const headerEl = el('div', { class: 'player-up' });
   const headerBits = [player.name];
   if (opts.bid) headerBits.push(`Wager: ${opts.bid}`);
   if (opts.passing) headerBits.push('Pass attempt — 5 pts');
-  main.appendChild(el('div', { class: 'player-up' }, headerBits.join(' • ')));
+  headerEl.appendChild(document.createTextNode(headerBits.join(' • ') + ' '));
+  if (state.timerEnabled) {
+    headerEl.appendChild(el('span', { id: 'timer', class: 'timer-chip' }, '⏱ 2:00'));
+  }
+  main.appendChild(headerEl);
 
   main.appendChild(el('div', { class: 'question-text' }, q.question));
+
+  // Typed answer — always available; the reliable input
+  main.appendChild(el('input', {
+    type: 'text',
+    class: 'typed-answer',
+    id: 'typed-answer',
+    placeholder: 'Or type your answer here…',
+    autocomplete: 'off',
+    spellcheck: 'false',
+    oninput: (e) => onTyped(e.target.value, e.target),
+  }));
 
   if (state.autoJudge) {
     main.appendChild(el('div', { id: 'heard-text', class: 'heard-text' }, [
       el('span', { class: 'mic-indicator live' }),
-      el('span', { class: 'heard-label' }, 'Listening...'),
+      el('span', { class: 'heard-label' }, 'Listening…'),
     ]));
   }
 
@@ -598,9 +754,21 @@ function renderQuestion(q, opts = {}) {
   main.appendChild(el('div', { class: 'controls' }, ctrls));
 }
 
+// Typed-answer match — same fuzzy-match logic that the listener uses
+function onTyped(text, inputEl) {
+  if (state.matchAnnounced || !state.currentQuestion) return;
+  if (fuzzyMatch(text, state.currentQuestion.accept)) {
+    state.matchAnnounced = true;
+    if (inputEl) inputEl.classList.add('match');
+    playChime();
+    const rightBtn = document.querySelector('.controls button.right');
+    if (rightBtn) rightBtn.classList.add('pulse');
+  }
+}
+
 function markRight() {
   if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
-  stopListening(); stopSpeaking();
+  stopListening(); stopSpeaking(); clearTimer();
   const r = state.rounds[state.currentRoundIdx];
   const player = state.players[state.currentPlayerIdx];
   if (r.type === 'bid') player.score += state.currentBid;
@@ -611,7 +779,7 @@ function markRight() {
 
 function markWrong() {
   if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
-  stopListening(); stopSpeaking();
+  stopListening(); stopSpeaking(); clearTimer();
   const r = state.rounds[state.currentRoundIdx];
   const player = state.players[state.currentPlayerIdx];
   if (r.type === 'bid') player.score -= state.currentBid;
@@ -620,13 +788,15 @@ function markWrong() {
 
 function markPass() {
   if (state.phase !== 'question') return;
-  stopListening(); stopSpeaking();
+  stopListening(); stopSpeaking(); clearTimer();
   const r = state.rounds[state.currentRoundIdx];
   if (r.type === 'long' && state.players.length > 1) {
     state.currentPlayerIdx = (state.currentPlayerIdx + 1) % state.players.length;
     state.phase = 'pass-attempt';
+    state.matchAnnounced = false;
     renderQuestion(state.currentQuestion, { passing: true });
     speak(`Pass! ${state.players[state.currentPlayerIdx].name}, would you like to try? Five points if you get it.`);
+    startTimer();
     startListening();
   } else {
     reveal('pass');
@@ -656,7 +826,7 @@ async function reveal(outcome) {
 }
 
 function endRound() {
-  stopListening(); stopSpeaking();
+  stopListening(); stopSpeaking(); clearTimer();
   state.phase = 'round-end';
   state.currentRoundIdx++;
   if (state.currentRoundIdx >= state.rounds.length) return startLongTailOrEnd();
@@ -715,10 +885,21 @@ async function askLongTail() {
   main.appendChild(el('div', { class: 'player-up' }, '⊰ The Long Tail ⊱'));
   main.appendChild(el('div', { class: 'question-text' }, q.question));
 
+  // Typed-answer input — same as in regular questions
+  main.appendChild(el('input', {
+    type: 'text',
+    class: 'typed-answer',
+    id: 'typed-answer',
+    placeholder: 'Or type your answer here…',
+    autocomplete: 'off',
+    spellcheck: 'false',
+    oninput: (e) => onTyped(e.target.value, e.target),
+  }));
+
   if (state.autoJudge) {
     main.appendChild(el('div', { id: 'heard-text', class: 'heard-text' }, [
       el('span', { class: 'mic-indicator live' }),
-      el('span', { class: 'heard-label' }, 'Listening...'),
+      el('span', { class: 'heard-label' }, 'Listening…'),
     ]));
   }
 
@@ -762,6 +943,10 @@ async function settleLongTail(playerIdx, correct) {
 }
 
 function endGame() {
+  // Persist this session's questions into the party's seen-set
+  state.used.forEach(id => state.partySeen.add(id));
+  savePartySeen();
+
   showScreen('end');
   const sorted = [...state.players].sort((a, b) => b.score - a.score);
   const ol = $('#final-scoreboard');
@@ -817,6 +1002,8 @@ function init() {
   });
   $('#voice-host').addEventListener('change', e => state.voiceHost = e.target.checked);
   $('#auto-judge').addEventListener('change', e => state.autoJudge = e.target.checked);
+  $('#timer-enabled').addEventListener('change', e => state.timerEnabled = e.target.checked);
+  $('#avoid-repeats').addEventListener('change', e => state.avoidRepeats = e.target.checked);
 
   $('#voice-select').addEventListener('change', e => {
     const v = getAllVoices().find(x => x.voiceURI === e.target.value);

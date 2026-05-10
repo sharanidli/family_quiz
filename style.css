@@ -236,6 +236,55 @@ label.block .label-text { display: block; margin-bottom: 0.3rem; color: var(--mu
   min-height: 2.5rem;
   display: flex; align-items: center;
 }
+
+/* Typed-answer input — the reliable alternative to mic listening */
+.typed-answer {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 1.1rem;
+  width: 100%;
+  margin: 0.6rem 0 1rem;
+  transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
+}
+.typed-answer:focus { outline: none; border-color: var(--accent); }
+.typed-answer.match {
+  border-color: var(--right);
+  background: rgba(88, 214, 141, 0.12);
+  box-shadow: 0 0 0 4px rgba(88, 214, 141, 0.18);
+  color: var(--right);
+}
+
+/* Timer chip */
+.timer-chip {
+  display: inline-block;
+  background: rgba(255,255,255,0.08);
+  color: var(--muted);
+  border-radius: 14px;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.95rem;
+  font-variant-numeric: tabular-nums;
+  margin-left: 0.6rem;
+  border: 1px solid var(--border);
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.timer-chip.warn { background: rgba(245, 176, 65, 0.15); color: var(--gold); border-color: rgba(245, 176, 65, 0.4); }
+.timer-chip.danger { background: rgba(231, 76, 60, 0.18); color: #ff8b7d; border-color: rgba(231, 76, 60, 0.5); animation: btn-pulse 0.7s ease-in-out infinite; }
+.timer-chip.expired { background: var(--wrong); color: white; }
+
+/* Party hint */
+.party-hint {
+  margin: 0.7rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+  min-height: 1.2rem;
+}
+.party-hint strong { color: var(--gold); font-weight: bold; }
+.party-hint a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+.party-hint a:hover { color: var(--accent-hover); border-color: var(--accent-hover); }
 .heard-text.match {
   background: rgba(88, 214, 141, 0.15);
   color: var(--right);
