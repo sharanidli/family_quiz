@@ -12,6 +12,22 @@ const THEME_OPTIONS = [
   { id: 'polity',    label: 'Polity & Constitution' },
 ];
 
+// Joy's Postcard — rotating openers the host says before each Long/Theme question
+const JOY_OPENERS = [
+  "Picture this.",
+  "Now then.",
+  "On a balmy afternoon, somewhere in our subcontinent.",
+  "Cast your mind back.",
+  "Here's one for you.",
+  "Settle in for a moment.",
+  "Across the years.",
+  "From the dusty by-lanes of memory.",
+  "Listen carefully.",
+  "And now.",
+  "A small puzzle, this one.",
+  "Try this on for size.",
+];
+
 // ----- State -----
 const state = {
   players: [],
@@ -400,6 +416,29 @@ function playChime() {
   } catch (e) { /* ignore */ }
 }
 
+// Joy's Postcard cue — soft warm three-note arpeggio (C-E-G) that reads as a "stage curtain"
+function playPostcardCue() {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const masterGain = ctx.createGain();
+    masterGain.gain.value = 0.18;
+    masterGain.connect(ctx.destination);
+    [523.25, 659.25, 783.99].forEach((freq, i) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = i === 0 ? 'triangle' : 'sine';
+      osc.frequency.value = freq;
+      const start = ctx.currentTime + i * 0.06;
+      gain.gain.setValueAtTime(0.0001, start);
+      gain.gain.exponentialRampToValueAtTime(0.4, start + 0.04);
+      gain.gain.exponentialRampToValueAtTime(0.0001, start + 0.85);
+      osc.connect(gain).connect(masterGain);
+      osc.start(start);
+      osc.stop(start + 0.9);
+    });
+  } catch (e) { /* ignore */ }
+}
+
 // ----- Game flow -----
 function startGame() {
   state.players = state.players.filter(p => p.name.trim().length);
@@ -464,7 +503,14 @@ async function nextQuestionInRound() {
   state.phase = 'question';
   renderQuestion(q);
 
-  await speak(`${state.players[state.currentPlayerIdx].name}, your question.`);
+  const playerName = state.players[state.currentPlayerIdx].name;
+  await speak(playerName + '.');
+  // Joy's Postcard — only for Long & Theme rounds (Bid has its own theatre via wager)
+  if (r.type === 'long' || r.type === 'theme') {
+    const opener = JOY_OPENERS[Math.floor(Math.random() * JOY_OPENERS.length)];
+    playPostcardCue();
+    await speak(opener);
+  }
   await speak(q.question);
   startListening();
 }
@@ -613,7 +659,7 @@ function endRound() {
   stopListening(); stopSpeaking();
   state.phase = 'round-end';
   state.currentRoundIdx++;
-  if (state.currentRoundIdx >= state.rounds.length) return endGame();
+  if (state.currentRoundIdx >= state.rounds.length) return startLongTailOrEnd();
 
   renderHeader();
   const main = $('#game-main');
@@ -627,6 +673,92 @@ function endRound() {
 
   main.appendChild(el('button', { class: 'big', onclick: startRound }, 'Next Round →'));
   speak('End of round.');
+}
+
+// ----- Long Tail (end-of-game callback round) -----
+async function startLongTailOrEnd() {
+  const callbacks = state.questions.filter(q => q.callback && !state.used.has(q.id));
+  if (!callbacks.length) return endGame();
+
+  const q = callbacks[Math.floor(Math.random() * callbacks.length)];
+  state.used.add(q.id);
+  state.currentQuestion = q;
+  state.phase = 'long-tail-intro';
+
+  // Header reflects "the long tail"
+  const ri = $('#round-info');
+  if (ri) ri.textContent = '⊰ THE LONG TAIL · ONE LAST QUESTION ⊱';
+
+  const sb = $('#scoreboard');
+  if (sb) {
+    sb.innerHTML = '';
+    state.players.forEach(p => sb.appendChild(el('div', { class: 'score-chip' }, `${p.name}: ${p.score}`)));
+  }
+
+  const main = $('#game-main');
+  main.innerHTML = '';
+  main.appendChild(el('div', { class: 'player-up' }, '⊰ The Long Tail ⊱'));
+  main.appendChild(el('div', { class: 'question-text' },
+    'A bonus connection question to close the night. First player to answer wins +25. Wrong answers cost nothing.'));
+  main.appendChild(el('button', { class: 'big', onclick: askLongTail }, 'Ask the question →'));
+
+  playPostcardCue();
+  await speak('And one last thing for tonight. A bonus connection question to close us out. First player to answer wins twenty-five.');
+}
+
+async function askLongTail() {
+  state.phase = 'long-tail-question';
+  state.matchAnnounced = false;
+  const q = state.currentQuestion;
+  const main = $('#game-main');
+  main.innerHTML = '';
+  main.appendChild(el('div', { class: 'player-up' }, '⊰ The Long Tail ⊱'));
+  main.appendChild(el('div', { class: 'question-text' }, q.question));
+
+  if (state.autoJudge) {
+    main.appendChild(el('div', { id: 'heard-text', class: 'heard-text' }, [
+      el('span', { class: 'mic-indicator live' }),
+      el('span', { class: 'heard-label' }, 'Listening...'),
+    ]));
+  }
+
+  const ctrls = el('div', { class: 'controls' });
+  state.players.forEach((p, i) => {
+    ctrls.appendChild(el('button', {
+      class: 'gold',
+      style: 'font-size: 1rem;',
+      onclick: () => settleLongTail(i, true),
+    }, `${p.name} got it`));
+  });
+  ctrls.appendChild(el('button', {
+    class: 'ghost',
+    onclick: () => settleLongTail(-1, false),
+  }, 'Nobody got it'));
+  main.appendChild(ctrls);
+
+  playPostcardCue();
+  await speak(q.question);
+  startListening();
+}
+
+async function settleLongTail(playerIdx, correct) {
+  stopListening(); stopSpeaking();
+  if (correct && playerIdx >= 0) state.players[playerIdx].score += 25;
+
+  state.phase = 'reveal';
+  const q = state.currentQuestion;
+  const main = $('#game-main');
+  main.innerHTML = '';
+
+  const head = correct
+    ? `✓ ${state.players[playerIdx].name} — +25!`
+    : '— Nobody got it.';
+  main.appendChild(el('div', { class: 'player-up' }, head));
+  main.appendChild(el('div', { class: 'answer-reveal' }, q.answer));
+  if (q.explanation) main.appendChild(el('div', { class: 'explanation' }, q.explanation));
+  main.appendChild(el('button', { class: 'big', onclick: endGame }, 'See Final Scores →'));
+
+  await speak(`The connection: ${q.answer}.`);
 }
 
 function endGame() {

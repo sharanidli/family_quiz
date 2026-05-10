@@ -35,7 +35,10 @@ Goal: a static HTML page (no backend, hostable on GitHub Pages) that:
 ## Status (2026-05-09)
 
 - v1 played at home. Voice host works; listening is mediocre on Indian English (no fix without paid backend).
-- **Question bank expanded to 326** (101 tagged `difficulty: 3` "hard" / Doddabetta-tricky, 59 `bid_eligible`).
+- **Question bank: 488** (181 hard, 69 bid-eligible, **12 callback** for Long Tail).
+- **Joy's Postcard** (2026-05-10): rotating openers (12) plus a soft 3-note arpeggio cue (`playPostcardCue` — Web Audio, no asset) play before each Long & Theme question, after the player's name. Bid skipped to keep its own wager-theatre.
+- **Long Tail** (2026-05-10): after the last round ends, `startLongTailOrEnd()` picks an unused `callback: true` question and runs it as a bonus connection round. First-to-answer scoring (host clicks `[Player] got it` / `Nobody got it`); +25 right, 0 wrong. Then end screen.
+- **Design pass 1** (2026-05-10): repalette — `--accent` rose-red → deep teal `#0d8c8c`; `--wrong` → maroon `#9b2226`; `button.big` is now gold-on-dark with letter-spaced uppercase. **Yatra One** (Google Fonts) display face for `h1`, `.player-up`, `.answer-reveal` only; Georgia retained for body copy. `--muted` lifted from `#a0a0a0` to `#b8b8b8` for elder readability.
 - Voice picker added in Settings; choice persists in localStorage. Mic permission re-prompts on `file://` (will be remembered on HTTPS once on Pages).
 - Auto-reveal-on-match removed — green highlight + chime + pulsing Right button now, but the host always confirms.
 - **Not yet pushed to GitHub Pages** — Sharan to do this when ready.
