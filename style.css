@@ -275,6 +275,13 @@ label.block .label-text { display: block; margin-bottom: 0.3rem; color: var(--mu
 .timer-chip.danger { background: rgba(231, 76, 60, 0.18); color: #ff8b7d; border-color: rgba(231, 76, 60, 0.5); animation: btn-pulse 0.7s ease-in-out infinite; }
 .timer-chip.expired { background: var(--wrong); color: white; }
 
+/* Voice info line under the picker */
+.voice-info { margin-top: 0.5rem; line-height: 1.4; font-size: 0.9rem; }
+.voice-info .good { color: var(--right); }
+.voice-info .warn { color: var(--gold); }
+.voice-info a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+.voice-info a:hover { color: var(--accent-hover); border-color: var(--accent-hover); }
+
 /* Party hint */
 .party-hint {
   margin: 0.7rem 0 0;

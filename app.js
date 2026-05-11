@@ -343,12 +343,22 @@ function getAllVoices() {
   return window.speechSynthesis ? window.speechSynthesis.getVoices() : [];
 }
 
+// Normalise lang code: handle 'en-IN', 'en_IN', 'en-IN-x-foo' etc.
+function isIndianEnglish(v) {
+  if (!v) return false;
+  const lang = (v.lang || '').replace('_', '-').toLowerCase();
+  if (lang === 'en-in' || lang.startsWith('en-in-')) return true;
+  // Some Android/iOS voices encode the locale only in the name
+  if (/\b(india|indian|hindi)\b/i.test(v.name || '')) return true;
+  // Common Indian-English voice names across OSes
+  if (/\b(veena|rishi|heera|ravi|isha|prabhat|priya|aditi|kalpana|shruti)\b/i.test(v.name || '')) return true;
+  return false;
+}
+
 function pickDefaultVoice(voices) {
-  return voices.find(v => v.lang === 'en-IN')
-      || voices.find(v => /india|heera|ravi|isha|prabhat/i.test(v.name))
-      || voices.find(v => /^Google.*english/i.test(v.name) && v.lang === 'en-IN')
+  return voices.find(isIndianEnglish)
       || voices.find(v => v.lang === 'en-GB')
-      || voices.find(v => v.lang && v.lang.startsWith('en'))
+      || voices.find(v => v.lang && v.lang.toLowerCase().startsWith('en'))
       || voices[0]
       || null;
 }
@@ -359,28 +369,69 @@ function loadVoices() {
   const saved = localStorage.getItem('quizVoiceURI');
   preferredVoice = (saved && voices.find(v => v.voiceURI === saved)) || pickDefaultVoice(voices);
   populateVoicePicker(voices);
+  renderVoiceInfo(voices);
 }
 
 function populateVoicePicker(voices) {
   const select = $('#voice-select');
   if (!select) return;
-  const englishVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('en'));
-  const otherVoices  = voices.filter(v => !v.lang || !v.lang.toLowerCase().startsWith('en'));
+  const indianVoices  = voices.filter(isIndianEnglish);
+  const otherEn       = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('en') && !isIndianEnglish(v));
+  const otherVoices   = voices.filter(v => !v.lang || !v.lang.toLowerCase().startsWith('en'));
   select.innerHTML = '';
-  const addOpt = (v) => {
+  const addOpt = (v, prefix = '') => {
     const opt = document.createElement('option');
     opt.value = v.voiceURI;
-    opt.textContent = `${v.name} (${v.lang})`;
+    opt.textContent = prefix + `${v.name} (${v.lang})`;
     if (preferredVoice && v.voiceURI === preferredVoice.voiceURI) opt.selected = true;
     select.appendChild(opt);
   };
-  englishVoices.forEach(addOpt);
+  if (indianVoices.length) {
+    const sep = document.createElement('option');
+    sep.disabled = true; sep.textContent = '— Indian English (recommended) —';
+    select.appendChild(sep);
+    indianVoices.forEach(v => addOpt(v));
+  }
+  if (otherEn.length) {
+    const sep = document.createElement('option');
+    sep.disabled = true; sep.textContent = '— other English —';
+    select.appendChild(sep);
+    otherEn.forEach(v => addOpt(v));
+  }
   if (otherVoices.length) {
     const sep = document.createElement('option');
     sep.disabled = true; sep.textContent = '— other languages —';
     select.appendChild(sep);
-    otherVoices.forEach(addOpt);
+    otherVoices.forEach(v => addOpt(v));
   }
+}
+
+function renderVoiceInfo(voices) {
+  const info = $('#voice-info');
+  if (!info) return;
+  const indianCount = voices.filter(isIndianEnglish).length;
+  const cur = preferredVoice ? `${preferredVoice.name} (${preferredVoice.lang})` : '(none)';
+  const isIndian = isIndianEnglish(preferredVoice);
+  let msg = `<span class="${isIndian ? 'good' : 'warn'}">Now using: <strong>${cur}</strong></span>`;
+  msg += `<br><span class="muted small">${voices.length} voices available; ${indianCount} Indian English. `;
+  if (!indianCount) {
+    msg += `No Indian English voice on this device. <a href="#" id="install-voice-help">How to install one</a>`;
+  }
+  msg += `</span>`;
+  info.innerHTML = msg;
+  const help = $('#install-voice-help');
+  if (help) help.addEventListener('click', (e) => {
+    e.preventDefault();
+    alert(
+      'No Indian English voice is installed on this device.\n\n' +
+      'Android: Settings → System → Languages & input → Text-to-speech → ' +
+      'Google → Install voice data → English (India). Reload this page after install.\n\n' +
+      'iOS / iPhone: Settings → Accessibility → Spoken Content → Voices → English → ' +
+      'choose English (India) and download "Veena" or "Rishi". Reload this page after.\n\n' +
+      'Windows: Settings → Time & Language → Speech → Add voices → search "English (India)".\n\n' +
+      'Until then, the host falls back to British / American English.'
+    );
+  });
 }
 
 if (typeof speechSynthesis !== 'undefined') {
@@ -1010,6 +1061,7 @@ function init() {
     if (v) {
       preferredVoice = v;
       localStorage.setItem('quizVoiceURI', v.voiceURI);
+      renderVoiceInfo(getAllVoices());
     }
   });
   $('#voice-test-btn').addEventListener('click', () => {

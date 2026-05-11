@@ -49,6 +49,34 @@ Goal: a static HTML page (no backend, hostable on GitHub Pages) that:
 - Auto-reveal-on-match removed — green highlight + chime + pulsing Right button now, but the host always confirms.
 - **Not yet pushed to GitHub Pages** — Sharan to do this when ready.
 
+## Status (2026-05-10, evening)
+
+Live at https://sharanidli.github.io/family_quiz/ at commit `ff8519c`. All four "v3" features shipped: 2-min timer, typed-answer input alongside listening, party history (localStorage), and South India + Languages themes.
+
+**Question bank now at 979** after fact-check (was 985; 6 broken questions dropped, ~85 patched). 349 hard (~36%), 95 bid-eligible, 12 callbacks. Coverage: Cricket 112, Cinema 116, History 143, Geography 110, Business 94, Polity 68, Mythology 69, Music 73, Books 84, General 110. Theme tags: South India 147, Languages 74.
+
+### Fact-check pass (2026-05-10)
+
+Five parallel research agents (one per category-pair) reviewed all 985 questions against training knowledge + Wikipedia/ESPNcricinfo. Found ~95 factual errors. Applied 91 corrections across ~85 questions; dropped 6:
+- `c023`, `c075` — Virat Kohli questions with broken/contradictory descriptors (wrong birthplace and role).
+- `h032`, `h093` — unfinished thinking-out-loud text accidentally left in question fields ("wait, mixed it up. Let me try again.")
+- `u041` — duplicate of `u039`.
+- `n060` — self-contradictory Param Vir Chakra question.
+
+Notable factual fixes:
+- **Cricket**: c015 (Harbhajan hat-trick Eden Gardens, not Wankhede), c067 (Hanuma Vihari 23* off 161 balls — I'd confused balls-faced with runs), c065 (Chahal 6/42 vs Aus, not 6/25 vs SA), c066 (Manish Pandey debut vs Zim not SL), hc03 (Sehwag 195 first innings not second), hc19 (Sandhu didn't dismiss Greenidge first-ball).
+- **Cinema**: f024 (Don 1978 not 1979), f039/f044 (Salman Khan Indore-born 1965, not Mumbai/Punjab 1947), hf24 (Ben Kingsley's father Gujarati, not mother), hf25 (Pran Delhi 1920-2013, not Karachi 1934-2020), hf26 (Amjad Khan Peshawar not Banaras), hf28 (Vyjayanthimala Madras 1933 not Mumbai 1929), hf40 (Joy Mukherjee Jhansi 1939-2012).
+- **History**: h094 (Second Battle of Panipat 5 Nov 1556 not 25 Dec), hh02 (Sarfaroshi by Bismil Azimabadi, popularised by Ram Prasad Bismil), hh36 (Tarabai descriptors rewritten), hp01 (Savarkar wrote Hindutva at Ratnagiri not Andamans), hp14 (Emergency signed 25 June not 26), hp19 (Meira Kumar from Bihar not AP — south_india tag removed).
+- **Polity**: p005 (Chief Election Commissioner not Chief Commissioner), p009 (Morarji didn't lose no-confidence; resigned).
+- **Geography**: g043 (Pangong Tso ~40/50 not 1/3-2/3), hg15 (Sambhar produces far less than 9% of salt).
+- **Business**: b005 (Keshub Mahindra is uncle not cousin of Anand; chairman 1963-2012), b022 (Vijay Mallya Kolkata-born not Mangalore), b037 (Cipla founded by KA Hamied not Yusuf), b041 (Bajaj 1945 not 1944), b042 (Hero Honda at Delhi/Dharuhera not Ludhiana), hb16 (JC Mahindra co-founded M&M itself), hb27 (Sumant Moolgaokar was TELCO not Tata Group chair), hb30 (Ajay Banga joined Mastercard 2009, CEO 2010-20), hb32 (Arvind Krishna AP 1962 not Chennai 1965).
+- **Mythology**: m010 (Balarama as 8th not 7th avatar), m026 (Kamsa killed 6 not 7), m028 (Indrajit wounded Lakshmana, didn't kill him).
+- **Music**: heavy fixes — u008 (RD Burman films corrected; "Don" was Kalyanji-Anandji), u014 (Manna Dey song fixed; "Lagi Tumse Mann Ki Lagan" is Rahat Fateh Ali Khan), u027 (Anuradha Paudwal year + songs), u028 ("Tujhe Dekha Toh" is Kumar Sanu, not Udit Narayan), u031/u032/u033/u034/u035/u036/u037/u042 (many birth-death years and credits corrected), hu01 (Allauddin Khan c. 1881 not 1862), hu03 (Begum Akhtar Padma Shri 1968 + Padma Bhushan 1975 posthumous), hu07 (Haveli Sangeet is a tradition, not a raga), hu19 (Kishori Amonkar Jaipur-Atrauli not Kirana; 1932-2017 not 1931-2009), hu20 (Mallikarjun Mansur 1910-1992), hu21 (Kumar Gandharva died 1992 not 2009), hu24 (Jaidev 1918-1987, not brother of Madan Mohan).
+- **Books**: k015 (Anita Desai Mussoorie-born, Bengali father German mother), k017 (Vikram Chandra's sister is Tanuja, not Anuradha), k036 (Karanth died 1997), k037 (Tarashankar 1898-1971; Ganadevta 1943), k041 (Nirala 1899-1961), k045 (Dharmavir Bharati 1926-1997, chief editor not founder), k046 (Buddhadeva Bose 1908-1974; Kavita Bhavan at Rasbehari Avenue), hk30 (Bibhutibhushan 1894-1950).
+- **General**: hn30 (JN Chaudhuri East Bengal not Karnataka; reached General not Major General), n040 (Devendra Jhajharia gold Athens 2004 + gold Rio 2016 + silver Tokyo 2020), n041 (Mariyappan silver Tokyo 2020 not gold).
+
+All 12 Long Tail callback questions verified factually correct.
+
 ## Multiplayer "next level" idea (not yet built)
 
 Everyone opens the page on their phone; only the active player can buzz / mark the answer; everyone sees the same question and live scores. Requires real-time state sync — static HTML alone can't do this. Cleanest path: **Firebase Realtime Database** (free tier; SDK runs in the browser; ~1-2 hours to wire). Adds: a room-code join flow, a per-device player identity, conditional UI (active player sees buttons, others see "waiting"). Decision deferred — revisit if the family-quiz format becomes a tradition.
