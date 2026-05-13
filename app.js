@@ -798,7 +798,9 @@ function renderQuestion(q, opts = {}) {
     el('button', { class: 'right', onclick: markRight }, '✓ Right'),
     el('button', { class: 'wrong', onclick: markWrong }, '✗ Wrong'),
   ];
-  if (!opts.passing && state.rounds[state.currentRoundIdx].type === 'long' && state.players.length > 1) {
+  const _r = state.rounds[state.currentRoundIdx];
+  const _canPass = (_r.type === 'long' || _r.type === 'theme') && state.players.length > 1;
+  if (_canPass) {
     ctrls.push(el('button', { class: 'ghost', onclick: markPass }, 'Pass'));
   }
   ctrls.push(el('button', { class: 'ghost', onclick: () => speak(q.question) }, '🔁 Repeat'));
@@ -838,20 +840,29 @@ function markWrong() {
 }
 
 function markPass() {
-  if (state.phase !== 'question') return;
+  if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
   stopListening(); stopSpeaking(); clearTimer();
   const r = state.rounds[state.currentRoundIdx];
-  if (r.type === 'long' && state.players.length > 1) {
-    state.currentPlayerIdx = (state.currentPlayerIdx + 1) % state.players.length;
-    state.phase = 'pass-attempt';
-    state.matchAnnounced = false;
-    renderQuestion(state.currentQuestion, { passing: true });
-    speak(`Pass! ${state.players[state.currentPlayerIdx].name}, would you like to try? Five points if you get it.`);
-    startTimer();
-    startListening();
-  } else {
-    reveal('pass');
+  const canPass = (r.type === 'long' || r.type === 'theme') && state.players.length > 1;
+  if (!canPass) { reveal('pass'); return; }
+
+  // First pass: remember who the question was originally asked to
+  if (state.phase === 'question') {
+    state.originalPlayerIdx = state.currentPlayerIdx;
   }
+  // Move to next player in rotation
+  state.currentPlayerIdx = (state.currentPlayerIdx + 1) % state.players.length;
+  // If we've cycled back to the original, every other player has passed — reveal
+  if (state.currentPlayerIdx === state.originalPlayerIdx) {
+    reveal('pass');
+    return;
+  }
+  state.phase = 'pass-attempt';
+  state.matchAnnounced = false;
+  renderQuestion(state.currentQuestion, { passing: true });
+  speak(`Pass! ${state.players[state.currentPlayerIdx].name}, would you like to try? Five points if you get it.`);
+  startTimer();
+  startListening();
 }
 
 async function reveal(outcome) {

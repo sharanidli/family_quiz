@@ -53,7 +53,27 @@ Goal: a static HTML page (no backend, hostable on GitHub Pages) that:
 
 Live at https://sharanidli.github.io/family_quiz/ at commit `ff8519c`. All four "v3" features shipped: 2-min timer, typed-answer input alongside listening, party history (localStorage), and South India + Languages themes.
 
-**Question bank now at 979** after fact-check (was 985; 6 broken questions dropped, ~85 patched). 349 hard (~36%), 95 bid-eligible, 12 callbacks. Coverage: Cricket 112, Cinema 116, History 143, Geography 110, Business 94, Polity 68, Mythology 69, Music 73, Books 84, General 110. Theme tags: South India 147, Languages 74.
+**Question bank now at 1,234** (was 979 after first fact-check; 400 attempted today, ~145 dropped after second fact-check, ~65 patched, net 255 actually-new). 480 hard (~39%), 102 bid-eligible, 12 callbacks. Coverage: Cricket 147, Cinema 139, History 184, Geography 143, Business 117, Polity 93, Mythology 92, Music 89, Books 111, General 119. Theme tags: South India ~155, Languages ~75. Schema now includes `created` (date) on every question.
+
+### Pass cascade (2026-05-11)
+- Pass mechanic now cascades through ALL players instead of just the next one. Long Question AND Theme Round rounds support Pass; Bid Round does not (by design — wager already covers risk).
+- If player 1 passes, the question goes to 2, then 3, then 4; first player to answer correctly gets +5; if none catch it, question ends.
+- Implementation: tracks `state.originalPlayerIdx` so that when rotation returns to the original, the question is revealed.
+
+### Specialist-agent batch (2026-05-11)
+- Launched 10 topic-specialist agents in parallel — one per topic — each tasked with writing 40 fresh questions (20 hard + 20 standard), reading the existing bank first to avoid duplicates and WebFetch-verifying any uncertain fact.
+- First wave (7 of 10) added 280 questions cleanly (Geography, History, Cinema, Cricket, Mythology, Polity, Business); 2 subsequently dropped (1 leftover from earlier batch with drafting commentary, 1 cross-category Yesudas duplicate). Sanity sweep on first wave: 3 flagged for drafting commentary.
+- Three agents hit a Claude account rate-limit at ~2pm; relaunched after reset; Books / Music / General added 120 more questions. Zero drafting-commentary flags on the second wave.
+- **Net specialist-batch additions: +398** (out of 400 attempted; 2 dropped). All 10 topics now well-stocked.
+- Bank now at **1,632 questions** total; 679 hard (~42%); today's adds total 653 (255 from morning all-in-one batch + 398 from specialist batch).
+- The specialist-agent approach proved markedly better than the morning's all-in-one Python script: cleaner output, no hallucinated people, no song-attribution errors, no leaked drafting commentary in the second wave.
+
+### 400-question batch and fact-check 2 (2026-05-11)
+- 400 new questions written and added (200 hard + 200 standard, distributed across categories).
+- 5 verification agents (Cricket+Cinema, History+Polity, Geo+Business, Myth+Music, Books+General) checked both **novelty** (vs the pre-existing bank) and **accuracy** (with Wikipedia/ESPNcricinfo WebFetch).
+- Reports surfaced ~90 accuracy issues + ~60 duplicates. Quality drop versus earlier batches: roughly 35% of the 400 were either factually wrong or already covered.
+- Notable patterns: drafting commentary leaked into question text (~10 instances); fabricated people (Meg Whitman as Indian-American, "Maurice Sami" Chanel CEO, SP Charan as deceased); wrong birth-death years across 20+ music biographies; ~20 famous-person duplicates with earlier batches (Pichai, Nadella, Sen, Roy, Tagore, etc.).
+- Aggressive cleanup applied: 145 dropped (clear duplicates + fabricated questions), 68 patched (simple factual fixes). Net useful additions: 255.
 
 ### Fact-check pass (2026-05-10)
 
