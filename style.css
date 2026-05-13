@@ -282,16 +282,36 @@ label.block .label-text { display: block; margin-bottom: 0.3rem; color: var(--mu
 .voice-info a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
 .voice-info a:hover { color: var(--accent-hover); border-color: var(--accent-hover); }
 
-/* Party hint */
+/* Party hint — per-player chips */
 .party-hint {
   margin: 0.7rem 0 0;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   color: var(--muted);
   min-height: 1.2rem;
+  line-height: 1.9;
 }
 .party-hint strong { color: var(--gold); font-weight: bold; }
 .party-hint a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
 .party-hint a:hover { color: var(--accent-hover); border-color: var(--accent-hover); }
+.player-history-chip {
+  display: inline-block;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 0.15rem 0.7rem;
+  margin-right: 0.25rem;
+  white-space: nowrap;
+}
+.player-history-chip.new {
+  background: rgba(245, 176, 65, 0.06);
+  border-color: rgba(245, 176, 65, 0.25);
+}
+.player-history-chip em {
+  color: var(--gold);
+  font-style: italic;
+  font-size: 0.85em;
+}
+.player-history-chip .reset-link { margin-left: 0.35rem; font-size: 0.8em; }
 .heard-text.match {
   background: rgba(88, 214, 141, 0.15);
   color: var(--right);
@@ -344,19 +364,193 @@ button.pulse {
   display: flex; justify-content: flex-start;
 }
 
-#final-scoreboard {
-  font-size: 1.4rem;
-  list-style-position: inside;
-  padding: 0;
+/* ===== End-of-game recap ===== */
+
+/* Winner card */
+.winner-card {
+  background: linear-gradient(160deg, rgba(245, 176, 65, 0.18) 0%, rgba(245, 176, 65, 0.04) 100%);
+  border: 1px solid rgba(245, 176, 65, 0.45);
+  border-radius: 16px;
+  padding: 2rem 1.5rem 1.6rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 32px rgba(245, 176, 65, 0.15);
 }
-#final-scoreboard li { margin: 0.6rem 0; padding: 0.5rem 1rem; background: rgba(255,255,255,0.04); border-radius: 8px; }
-#final-scoreboard li:first-child {
+.winner-crown { font-size: 3rem; line-height: 1; margin-bottom: 0.5rem; }
+.winner-name {
+  font-family: var(--display);
   color: var(--gold);
-  font-size: 2rem;
-  font-weight: bold;
-  background: rgba(245, 176, 65, 0.1);
-  border: 1px solid var(--gold);
+  font-size: clamp(2rem, 6vw, 3.6rem);
+  margin: 0.2rem 0;
+  text-shadow: 0 2px 18px rgba(245, 176, 65, 0.3);
 }
+.winner-score {
+  font-family: var(--display);
+  font-size: clamp(1.4rem, 3.5vw, 2rem);
+  color: var(--text);
+  letter-spacing: 1px;
+}
+.winner-tagline {
+  color: var(--muted);
+  font-style: italic;
+  margin: 0.6rem 0 0;
+}
+
+/* Recap sections (Top moments + collapsible Wrong/Passed) */
+.recap-section {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.8rem 1.1rem;
+  margin-bottom: 0.9rem;
+}
+.recap-section h2, .recap-section summary {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  font-size: 1.05rem;
+  color: var(--gold);
+  letter-spacing: 0.4px;
+  cursor: default;
+}
+.recap-section summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.2rem 0;
+  display: flex;
+  align-items: center;
+}
+.recap-section summary::-webkit-details-marker { display: none; }
+.recap-section summary::before {
+  content: '▸';
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: var(--muted);
+  transition: transform 0.15s;
+}
+.recap-section[open] summary::before { transform: rotate(90deg); }
+.recap-section .count { color: var(--muted); font-weight: normal; font-size: 0.9em; }
+
+/* Answer list (Q → A entries) */
+.answers-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.7rem 0 0;
+}
+.answers-list li {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--border);
+}
+.answers-list li:first-child { border-top: none; padding-top: 0.3rem; }
+.answers-list li.empty {
+  display: block;
+  color: var(--muted);
+  font-style: italic;
+  padding: 0.4rem 0;
+  border-top: none;
+}
+.answers-list .badge {
+  flex: 0 0 auto;
+  display: inline-block;
+  min-width: 2.6rem;
+  text-align: center;
+  background: rgba(88, 214, 141, 0.18);
+  color: var(--right);
+  border: 1px solid rgba(88, 214, 141, 0.45);
+  border-radius: 10px;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.85rem;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+}
+.answers-list li.wrong .badge,
+.answers-list li.passed .badge { display: none; }
+.answers-list .qa { flex: 1; min-width: 0; }
+.answers-list .q {
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 0.2rem;
+}
+.answers-list .a {
+  color: var(--gold);
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+.answers-list li.wrong .a { color: #ff8b7d; }
+.answers-list li.passed .a { color: var(--muted); }
+
+/* All-players view */
+.all-players-title {
+  text-align: center;
+  color: var(--gold);
+  font-family: var(--display);
+}
+.player-recap-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+}
+.player-recap-card.winner {
+  border-color: rgba(245, 176, 65, 0.5);
+  background: linear-gradient(160deg, rgba(245, 176, 65, 0.10) 0%, var(--card) 60%);
+}
+.player-recap-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+.player-recap-header .rank {
+  font-family: var(--display);
+  font-size: 1.6rem;
+  color: var(--gold);
+  min-width: 2.5rem;
+}
+.player-recap-header .p-name {
+  font-family: var(--display);
+  font-size: 1.4rem;
+  color: var(--text);
+}
+.player-recap-header .p-score {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.player-stats {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.player-recap-card details {
+  margin-top: 0.4rem;
+  border-top: 1px solid var(--border);
+  padding-top: 0.4rem;
+}
+.player-recap-card summary {
+  cursor: pointer;
+  list-style: none;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.player-recap-card summary::before {
+  content: '▸';
+  display: inline-block;
+  margin-right: 0.4rem;
+  transition: transform 0.15s;
+}
+.player-recap-card details[open] summary::before { transform: rotate(90deg); }
+.answers-list.compact li { padding: 0.35rem 0; font-size: 0.88rem; }
+.answers-list.compact .q-short { color: var(--text); }
+.answers-list.compact .a-short { color: var(--gold); font-weight: bold; margin-left: 0.4rem; }
+
+.block-btn { width: 100%; margin-top: 1rem; }
 
 @media (max-width: 600px) {
   .screen { padding: 1rem 1rem 3rem; }

@@ -83,9 +83,43 @@
 
   <!-- END SCREEN -->
   <section id="end-screen" class="screen">
-    <h1>Final Score</h1>
-    <ol id="final-scoreboard"></ol>
-    <button id="play-again-btn" class="big">Play Again</button>
+
+    <!-- Winner view (default) -->
+    <div id="winner-view">
+      <div class="winner-card">
+        <div class="winner-crown">🏆</div>
+        <h1 id="winner-name" class="winner-name"></h1>
+        <div id="winner-score" class="winner-score"></div>
+        <p class="winner-tagline">Tonight's family quiz champion.</p>
+      </div>
+
+      <div class="recap-section open">
+        <h2>Your top moments <span class="count">(<span id="count-correct">0</span>)</span></h2>
+        <ul id="winner-correct" class="answers-list"></ul>
+      </div>
+
+      <details class="recap-section">
+        <summary>You got these wrong (<span id="count-wrong">0</span>)</summary>
+        <ul id="winner-wrong" class="answers-list"></ul>
+      </details>
+
+      <details class="recap-section">
+        <summary>You passed on (<span id="count-passed">0</span>)</summary>
+        <ul id="winner-passed" class="answers-list"></ul>
+      </details>
+
+      <button id="see-all-players" class="ghost block-btn">See how everyone else did →</button>
+      <button id="play-again-btn" class="big">Play Again</button>
+    </div>
+
+    <!-- All-players view (shown after clicking "See everyone else") -->
+    <div id="all-players-view" style="display:none;">
+      <h1 class="all-players-title">Everyone's Night</h1>
+      <div id="player-recaps"></div>
+      <button id="back-to-winner" class="ghost block-btn">← Back to winner</button>
+      <button id="play-again-btn-2" class="big">Play Again</button>
+    </div>
+
   </section>
 
 </div>

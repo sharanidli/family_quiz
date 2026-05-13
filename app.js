@@ -104,7 +104,7 @@ function renderPlayers() {
 }
 
 function addPlayer() {
-  state.players.push({ id: Date.now() + Math.random(), name: '', score: 0 });
+  state.players.push({ id: Date.now() + Math.random(), name: '', score: 0, log: [] });
   renderPlayers();
   const inputs = $$('#player-list input');
   if (inputs.length) inputs[inputs.length - 1].focus();
@@ -242,17 +242,21 @@ function nextQuestion(opts = {}) {
   return null;
 }
 
-// ----- Party history (localStorage) -----
-function getPartyKey() {
-  const names = state.players
-    .map(p => p.name.trim().toLowerCase())
-    .filter(n => n)
-    .sort();
-  return names.length ? 'quiz_seen_' + names.join('|') : null;
+// ----- Per-player history (localStorage) -----
+// Each player has their own seen-set keyed by lowercase name.
+// The session's "exclude" set is the union of all current players' individual sets.
+// After each game, the session's questions are added to EACH current player's set,
+// so a returning player carries their history into any future group they join.
+
+const PLAYER_KEY_PREFIX = 'quiz_player_seen_';
+
+function getPlayerKey(name) {
+  const norm = (name || '').trim().toLowerCase();
+  return norm ? PLAYER_KEY_PREFIX + norm : null;
 }
 
-function loadPartySeen() {
-  const key = getPartyKey();
+function loadPlayerSeen(name) {
+  const key = getPlayerKey(name);
   if (!key) return new Set();
   try {
     const raw = localStorage.getItem(key);
@@ -260,38 +264,105 @@ function loadPartySeen() {
   } catch (e) { return new Set(); }
 }
 
-function savePartySeen() {
-  const key = getPartyKey();
-  if (!key || !state.partySeen) return;
-  try {
-    localStorage.setItem(key, JSON.stringify([...state.partySeen]));
-  } catch (e) {}
+function savePlayerSeenSet(name, set) {
+  const key = getPlayerKey(name);
+  if (!key) return;
+  try { localStorage.setItem(key, JSON.stringify([...set])); } catch (e) {}
 }
 
-function resetPartySeen() {
-  const key = getPartyKey();
+function loadAllPlayersSeen() {
+  // Union of every currently-listed player's individual seen-set
+  const union = new Set();
+  state.players.forEach(p => {
+    const name = (p.name || '').trim();
+    if (!name) return;
+    loadPlayerSeen(name).forEach(qid => union.add(qid));
+  });
+  return union;
+}
+
+function persistSessionToPlayers() {
+  // Add every question used this session to each named player's history
+  const newQs = [...state.used];
+  state.players.forEach(p => {
+    const name = (p.name || '').trim();
+    if (!name) return;
+    const set = loadPlayerSeen(name);
+    newQs.forEach(qid => set.add(qid));
+    savePlayerSeenSet(name, set);
+  });
+}
+
+function resetPlayerSeen(name) {
+  const key = getPlayerKey(name);
   if (!key) return;
   try { localStorage.removeItem(key); } catch (e) {}
-  state.partySeen = new Set();
+  state.partySeen = loadAllPlayersSeen();  // recompute union without this player's data
   updatePartyHint();
+}
+
+// One-time migration from the old whole-party storage scheme to per-player.
+// Old keys: `quiz_seen_alice|bob|carol`  →  individual `quiz_player_seen_alice`, etc.
+function migrateLegacyHistoryKeys() {
+  const migrated = [];
+  const oldKeys = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (k && k.startsWith('quiz_seen_') && !k.startsWith(PLAYER_KEY_PREFIX)) {
+      oldKeys.push(k);
+    }
+  }
+  oldKeys.forEach(k => {
+    let ids;
+    try { ids = JSON.parse(localStorage.getItem(k) || '[]'); } catch (e) { return; }
+    if (!Array.isArray(ids) || !ids.length) {
+      localStorage.removeItem(k);
+      return;
+    }
+    const names = k.replace('quiz_seen_', '').split('|').map(s => s.trim()).filter(Boolean);
+    names.forEach(name => {
+      const set = loadPlayerSeen(name);
+      ids.forEach(qid => set.add(qid));
+      savePlayerSeenSet(name, set);
+    });
+    localStorage.removeItem(k);
+    migrated.push({ key: k, names, count: ids.length });
+  });
+  if (migrated.length) {
+    console.log(`Migrated ${migrated.length} legacy party-history key(s) to per-player.`);
+  }
 }
 
 function updatePartyHint() {
   const hint = $('#party-hint');
   if (!hint) return;
-  const names = state.players.map(p => p.name.trim()).filter(n => n);
-  if (names.length < 1) { hint.textContent = ''; return; }
-  const seen = loadPartySeen();
-  if (seen.size === 0) {
-    hint.textContent = '✨ A new party. No history yet.';
-  } else {
-    hint.innerHTML = `📚 This party has seen <strong>${seen.size}</strong> question${seen.size === 1 ? '' : 's'} across previous games. <a href="#" id="reset-history">Reset history</a>`;
-    const link = $('#reset-history');
-    if (link) link.addEventListener('click', (e) => {
+  const names = state.players.map(p => (p.name || '').trim()).filter(n => n);
+  if (!names.length) { hint.innerHTML = ''; return; }
+
+  // Build per-player chips
+  const parts = names.map(name => {
+    const safe = name.replace(/</g, '&lt;');
+    const seen = loadPlayerSeen(name);
+    if (seen.size === 0) {
+      return `<span class="player-history-chip new"><strong>${safe}</strong>: <em>new</em></span>`;
+    }
+    return `<span class="player-history-chip">
+      <strong>${safe}</strong>: ${seen.size} seen
+      <a href="#" class="reset-link" data-name="${safe}">reset</a>
+    </span>`;
+  });
+
+  hint.innerHTML = parts.join(' · ');
+
+  hint.querySelectorAll('.reset-link').forEach(a => {
+    a.addEventListener('click', (e) => {
       e.preventDefault();
-      if (confirm('Forget all questions this party has seen? They will be eligible again.')) resetPartySeen();
+      const name = a.dataset.name;
+      if (confirm(`Forget all questions "${name}" has seen? They will be eligible again.`)) {
+        resetPlayerSeen(name);
+      }
     });
-  }
+  });
 }
 
 // ----- Timer -----
@@ -634,12 +705,12 @@ function startGame() {
   if (!state.players.length) { alert('Add at least one player.'); return; }
   if (!state.rounds.length) { alert('Add at least one round.'); return; }
 
-  state.players.forEach(p => p.score = 0);
+  state.players.forEach(p => { p.score = 0; p.log = []; });
   state.currentRoundIdx = 0;
   state.questionInRound = 0;
   state.currentPlayerIdx = 0;
   state.used.clear();
-  state.partySeen = loadPartySeen();
+  state.partySeen = loadAllPlayersSeen();
   buildPool();
 
   // Prime TTS — some browsers require a user gesture before speech works
@@ -819,14 +890,31 @@ function onTyped(text, inputEl) {
   }
 }
 
+// Push a single Q-outcome entry to the given player's log
+function logEntry(player, outcome, points) {
+  if (!state.currentQuestion) return;
+  if (!Array.isArray(player.log)) player.log = [];
+  const r = state.rounds[state.currentRoundIdx];
+  player.log.push({
+    qid: state.currentQuestion.id,
+    qtext: state.currentQuestion.question,
+    answer: state.currentQuestion.answer,
+    outcome,
+    points,
+    roundType: r ? r.type : 'long-tail',
+  });
+}
+
 function markRight() {
   if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
   stopListening(); stopSpeaking(); clearTimer();
   const r = state.rounds[state.currentRoundIdx];
   const player = state.players[state.currentPlayerIdx];
-  if (r.type === 'bid') player.score += state.currentBid;
-  else if (state.phase === 'pass-attempt') player.score += 5;
-  else player.score += 10;
+  let pts = 10;
+  if (r.type === 'bid') pts = state.currentBid;
+  else if (state.phase === 'pass-attempt') pts = 5;
+  player.score += pts;
+  logEntry(player, 'right', pts);
   reveal('right');
 }
 
@@ -835,7 +923,9 @@ function markWrong() {
   stopListening(); stopSpeaking(); clearTimer();
   const r = state.rounds[state.currentRoundIdx];
   const player = state.players[state.currentPlayerIdx];
-  if (r.type === 'bid') player.score -= state.currentBid;
+  let pts = 0;
+  if (r.type === 'bid') { pts = -state.currentBid; player.score += pts; }
+  logEntry(player, 'wrong', pts);
   reveal('wrong');
 }
 
@@ -844,6 +934,10 @@ function markPass() {
   stopListening(); stopSpeaking(); clearTimer();
   const r = state.rounds[state.currentRoundIdx];
   const canPass = (r.type === 'long' || r.type === 'theme') && state.players.length > 1;
+
+  // Log the current player's pass (whether or not the cascade continues)
+  logEntry(state.players[state.currentPlayerIdx], 'passed', 0);
+
   if (!canPass) { reveal('pass'); return; }
 
   // First pass: remember who the question was originally asked to
@@ -986,7 +1080,10 @@ async function askLongTail() {
 
 async function settleLongTail(playerIdx, correct) {
   stopListening(); stopSpeaking();
-  if (correct && playerIdx >= 0) state.players[playerIdx].score += 25;
+  if (correct && playerIdx >= 0) {
+    state.players[playerIdx].score += 25;
+    logEntry(state.players[playerIdx], 'right', 25);
+  }
 
   state.phase = 'reveal';
   const q = state.currentQuestion;
@@ -1005,16 +1102,132 @@ async function settleLongTail(playerIdx, correct) {
 }
 
 function endGame() {
-  // Persist this session's questions into the party's seen-set
-  state.used.forEach(id => state.partySeen.add(id));
-  savePartySeen();
+  // Persist this session's questions into each named player's individual seen-set
+  persistSessionToPlayers();
 
   showScreen('end');
+  renderWinnerView();
+
   const sorted = [...state.players].sort((a, b) => b.score - a.score);
-  const ol = $('#final-scoreboard');
-  ol.innerHTML = '';
-  sorted.forEach(p => ol.appendChild(el('li', {}, `${p.name} — ${p.score}`)));
   if (sorted.length) speak(`That's a wrap. Winner: ${sorted[0].name}, with ${sorted[0].score} points. Well played, everyone.`);
+}
+
+function truncate(s, n) {
+  if (!s) return '';
+  return s.length > n ? s.slice(0, n - 1) + '…' : s;
+}
+
+function renderAnswerList(container, entries, outcome) {
+  if (!container) return;
+  container.innerHTML = '';
+  if (!entries.length) {
+    container.appendChild(el('li', { class: 'empty' }, 'Nothing here.'));
+    return;
+  }
+  entries.forEach(e => {
+    const li = el('li', { class: 'entry ' + outcome });
+    const badgeText = (e.points > 0 ? '+' : '') + e.points;
+    li.appendChild(el('span', { class: 'badge' }, badgeText));
+    li.appendChild(el('div', { class: 'qa' }, [
+      el('div', { class: 'q' }, truncate(e.qtext, 160)),
+      el('div', { class: 'a' }, '→ ' + e.answer),
+    ]));
+    container.appendChild(li);
+  });
+}
+
+function renderWinnerView() {
+  $('#winner-view').style.display = '';
+  $('#all-players-view').style.display = 'none';
+
+  const sorted = [...state.players].sort((a, b) => b.score - a.score);
+  if (!sorted.length) return;
+  const winner = sorted[0];
+
+  $('#winner-name').textContent = winner.name || 'You';
+  $('#winner-score').textContent = `${winner.score} point${winner.score === 1 ? '' : 's'}`;
+
+  const correct = (winner.log || []).filter(e => e.outcome === 'right');
+  const wrong   = (winner.log || []).filter(e => e.outcome === 'wrong');
+  const passed  = (winner.log || []).filter(e => e.outcome === 'passed');
+
+  // Top moments: correct answers sorted by points descending
+  const topMoments = [...correct].sort((a, b) => b.points - a.points);
+  renderAnswerList($('#winner-correct'), topMoments, 'right');
+  renderAnswerList($('#winner-wrong'), wrong, 'wrong');
+  renderAnswerList($('#winner-passed'), passed, 'passed');
+
+  $('#count-correct').textContent = correct.length;
+  $('#count-wrong').textContent = wrong.length;
+  $('#count-passed').textContent = passed.length;
+}
+
+function renderAllPlayersView() {
+  $('#winner-view').style.display = 'none';
+  $('#all-players-view').style.display = '';
+
+  const sorted = [...state.players].sort((a, b) => b.score - a.score);
+  const container = $('#player-recaps');
+  container.innerHTML = '';
+
+  sorted.forEach((p, idx) => {
+    const correct = (p.log || []).filter(e => e.outcome === 'right');
+    const wrong   = (p.log || []).filter(e => e.outcome === 'wrong');
+    const passed  = (p.log || []).filter(e => e.outcome === 'passed');
+
+    const card = el('div', { class: 'player-recap-card' + (idx === 0 ? ' winner' : '') });
+
+    card.appendChild(el('div', { class: 'player-recap-header' }, [
+      el('div', { class: 'rank' }, '#' + (idx + 1)),
+      el('div', { class: 'name-and-score' }, [
+        el('div', { class: 'p-name' }, p.name || `Player ${idx + 1}`),
+        el('div', { class: 'p-score' }, p.score + ' pts'),
+      ]),
+    ]));
+
+    card.appendChild(el('div', { class: 'player-stats' }, [
+      el('span', {}, `✓ ${correct.length}`),
+      el('span', {}, `✗ ${wrong.length}`),
+      el('span', {}, `↳ ${passed.length}`),
+    ]));
+
+    const compactList = (entries, outcome) => {
+      const ul = el('ul', { class: 'answers-list compact' });
+      entries.forEach(e => {
+        const li = el('li', { class: outcome });
+        if (outcome === 'right') {
+          li.appendChild(el('span', { class: 'badge' }, '+' + e.points));
+        }
+        li.appendChild(el('div', { class: 'qa' }, [
+          el('div', { class: 'q' }, truncate(e.qtext, 120)),
+          el('div', { class: 'a' }, '→ ' + e.answer),
+        ]));
+        ul.appendChild(li);
+      });
+      return ul;
+    };
+
+    if (correct.length) {
+      const det = el('details', {});
+      det.appendChild(el('summary', {}, `Got right (${correct.length})`));
+      det.appendChild(compactList(correct, 'right'));
+      card.appendChild(det);
+    }
+    if (wrong.length) {
+      const det = el('details', {});
+      det.appendChild(el('summary', {}, `Got wrong (${wrong.length})`));
+      det.appendChild(compactList(wrong, 'wrong'));
+      card.appendChild(det);
+    }
+    if (passed.length) {
+      const det = el('details', {});
+      det.appendChild(el('summary', {}, `Passed (${passed.length})`));
+      det.appendChild(compactList(passed, 'passed'));
+      card.appendChild(det);
+    }
+
+    container.appendChild(card);
+  });
 }
 
 // ----- Init -----
@@ -1038,9 +1251,12 @@ async function loadQuestions() {
 }
 
 function init() {
+  // One-time migration from old whole-party history keys to per-player keys
+  try { migrateLegacyHistoryKeys(); } catch (e) { console.warn('history migration failed:', e); }
+
   state.players = [
-    { id: 1, name: '', score: 0 },
-    { id: 2, name: '', score: 0 },
+    { id: 1, name: '', score: 0, log: [] },
+    { id: 2, name: '', score: 0, log: [] },
   ];
   state.rounds = [
     { type: 'long',  count: 2 },
@@ -1057,11 +1273,18 @@ function init() {
     stopListening(); stopSpeaking();
     showScreen('setup');
   });
-  $('#play-again-btn').addEventListener('click', () => {
-    state.players.forEach(p => p.score = 0);
+  const restartToSetup = () => {
+    state.players.forEach(p => { p.score = 0; p.log = []; });
     state.used.clear();
     showScreen('setup');
-  });
+  };
+  $('#play-again-btn').addEventListener('click', restartToSetup);
+  const playAgain2 = $('#play-again-btn-2');
+  if (playAgain2) playAgain2.addEventListener('click', restartToSetup);
+  const seeAll = $('#see-all-players');
+  if (seeAll) seeAll.addEventListener('click', renderAllPlayersView);
+  const backWinner = $('#back-to-winner');
+  if (backWinner) backWinner.addEventListener('click', renderWinnerView);
   $('#voice-host').addEventListener('change', e => state.voiceHost = e.target.checked);
   $('#auto-judge').addEventListener('change', e => state.autoJudge = e.target.checked);
   $('#timer-enabled').addEventListener('change', e => state.timerEnabled = e.target.checked);
