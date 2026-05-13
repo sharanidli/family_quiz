@@ -55,6 +55,32 @@ Live at https://sharanidli.github.io/family_quiz/ at commit `ff8519c`. All four 
 
 **Question bank now at 1,234** (was 979 after first fact-check; 400 attempted today, ~145 dropped after second fact-check, ~65 patched, net 255 actually-new). 480 hard (~39%), 102 bid-eligible, 12 callbacks. Coverage: Cricket 147, Cinema 139, History 184, Geography 143, Business 117, Polity 93, Mythology 92, Music 89, Books 111, General 119. Theme tags: South India ~155, Languages ~75. Schema now includes `created` (date) on every question.
 
+### End-game recap + per-player question history (2026-05-13)
+
+**Live at commit `8ef9e48`. Bank unchanged at 1,632 questions.**
+
+Two new features shipped:
+
+1. **End-of-game recap screen.** Replaced the old `<ol>` of final scores with a richer two-view layout.
+   - Default view: gold "🏆 Congrats <name>!" winner card with final score; "Your top moments" (correct answers sorted by points descending); collapsible "You got these wrong (N)" and "You passed on (N)" sections; "See how everyone else did →" link; Play Again.
+   - All-players view (toggle): one card per player ranked by score, winner highlighted with gold tint, quick stats line (`✓ N  ✗ N  ↳ N`), and per-player collapsible right/wrong/passed lists. "← Back to winner" returns.
+   - To support the recap, each player now carries a `log: []` of per-question entries `{qid, qtext, answer, outcome, points, roundType}`. Logging happens in `markRight` / `markWrong` / `markPass` / `settleLongTail`. Pass cascade through the player ring correctly logs each pass per player.
+   - Files: `index.html` (new end-screen markup), `style.css` (recap styles — winner card, answer lists with badges, all-players cards), `app.js` (log tracking + `renderWinnerView` + `renderAllPlayersView`).
+
+2. **Per-player question history (replaces party-keyed history).** Previously, "seen" questions were stored under a single key derived from the whole party's joined names (`quiz_seen_alice|bob|carol|dave`). This meant that if any one player joined a different group, their previously-seen questions could recycle. Fix:
+   - One localStorage key per player: `quiz_player_seen_<name>`.
+   - On game start, `loadAllPlayersSeen()` unions the seen-sets of all current players — that's the exclusion set used when picking questions.
+   - On game end, `persistSessionToPlayers()` adds the session's used questions to *each* named player's seen-set.
+   - Setup screen now shows one chip per named player with a per-person "[reset]" link, plus a chip-style "new" badge for unrecognised names.
+   - Migration: on `init()`, `migrateLegacyHistoryKeys()` scans for any old `quiz_seen_<joined-names>` keys, distributes their question IDs into each named player's new individual key, then removes the old key. Idempotent.
+   - **Known limitation**: two different people with the same name on the same device collide (e.g., two different Sharans share one history bucket). For a family playing on a shared laptop the practical collision risk is low; the per-player reset link is the escape hatch. True cross-device per-person history needs a backend (Firebase) — not built.
+
+### Failed third-round generation attempt (2026-05-13)
+
+Attempted to add another 300 questions (10 specialist writers × 30 each, Wave 1) followed by peer review (Wave 2: 10 reviewers cross-checking each others' output, circular mapping). All 10 writers completed and wrote 300 questions to `/tmp/new_questions_<topic>.json`. First reviewer wave hit rate limit immediately (was right after Wave 1 — no headroom). Re-launched reviewers later, but by then **WSL had rebooted overnight and wiped `/tmp`**, taking the 300 questions with it. Confirmed irrecoverable — agent transcripts contained only summaries, not question text. Bank remained at 1,632.
+
+**Lesson for next time:** writer agents should output directly to the project folder (a persistent Dropbox-synced path), not `/tmp`, so /tmp wipes / VM reboots don't kill the work. The reviewer-result files can stay in /tmp (cheap to regenerate), but the question content is the work product and must persist.
+
 ### Pass cascade (2026-05-11)
 - Pass mechanic now cascades through ALL players instead of just the next one. Long Question AND Theme Round rounds support Pass; Bid Round does not (by design — wager already covers risk).
 - If player 1 passes, the question goes to 2, then 3, then 4; first player to answer correctly gets +5; if none catch it, question ends.
