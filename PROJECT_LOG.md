@@ -123,6 +123,48 @@ Notable factual fixes:
 
 All 12 Long Tail callback questions verified factually correct.
 
+### Iranian Mode (2026-05-23)
+
+**Bank now at 1,944 questions** (was 1,632). Net add: **+312** new internationally-friendly questions across five new theme tags.
+
+Designed for playing with two Iranian friends (Telli + Taymaz) plus mixed Indian + Iranian + international company. A manual "Iranian Mode" toggle in Settings (default OFF) flips the picker into an internationally-friendly pool.
+
+**New themes added:**
+- `iran_only` — 60 questions (Persian history, literature, cinema, sport, science, geography, food)
+- `india_iran_bridge` — 69 questions (Parsis, Mughal-era Persian, Indo-Persian poetry, Persian loanwords, Nadir Shah/Kohinoor, Indo-Persian cuisine, Chabahar)
+- `etymology` — 30 questions (English-word origins from Persian / Arabic / Hindi / Tamil / Sanskrit — verified via etymonline)
+- `world` — 112 questions (world geography, world history, world cinema, world music, world sport, world business, world science, world books)
+- `usa` — 50 questions (presidents, NBA / NFL / MLB, Hollywood, US history & geography, Silicon Valley)
+
+**Mode mechanics** (in `app.js`):
+- `state.iranianMode` boolean, default false. Toggle in Settings: `#iranian-mode` checkbox.
+- When ON, `nextQuestion()` filters every pass through `iranianModeFilter()`:
+  - If current player's name (case-insensitive) is in `IRANIAN_PLAYERS = ['telli', 'taymaz']`, allowed themes = `{iran_only, india_iran_bridge, world, usa, etymology}`.
+  - Other players: allowed = `{india_iran_bridge, world, usa, etymology}` — no pure Iran.
+  - India-specific topics (cricket, cinema, history etc.) are excluded entirely.
+- Theme-round dropdown swaps to `IRANIAN_THEME_OPTIONS` (World / USA / Word Origins / India ↔ Iran). If a previously-picked India theme is no longer valid, it snaps to the first available.
+- Long Tail / callback round is **skipped** at end of game in Iranian Mode (existing callbacks are India-anchored connections).
+- Existing 1,632 questions stay in the off-mode pool unchanged. Toggle is non-destructive.
+
+**Production process:** 6 batches (`iran_only`, `bridge`, `etymology`, `world_a`, `world_b`, `usa`) generated in two waves of 3, each batch through a paired **writer-then-fact-checker** agent (Wikipedia / etymonline WebFetch verification). All draft and review JSON files preserved in `iran_mode_batches/`. Cross-batch dedupe caught 9 answer collisions (mostly American figures appearing in both `world_b` and `usa`); resolved by dropping the world-batch versions (kept "Amazon" in both — river vs company).
+
+**Wave totals:**
+- Writer outputs: 320 (60 + 60 + 30 + 60 + 60 + 50)
+- After fact-check patches: still 320 (no drops by reviewers)
+- After cross-batch dedupe: **312** appended to `questions.json` (and regenerated `questions.js`)
+- One forced override: `ir008` (Darius wrongly framed as Cyrus's son — checker marked borderline accept; I patched to factual phrasing)
+
+**Files changed:**
+- `questions.json` (+312 questions; backup at `questions.json.bak_before_iran_mode`)
+- `questions.js` (regenerated from updated JSON; backup at `questions.js.bak_before_iran_mode`)
+- `app.js` (added Iranian-mode state, picker filter, theme-option swap, Long Tail skip, change listener)
+- `index.html` (Iranian-mode checkbox + hint in Settings card)
+- `iran_mode_batches/` (workspace with all 6 draft + review + staged JSON files + `apply_fixes.py`)
+
+**Smoke-tested (headless, in Python):** filter excludes 0 India-topic questions for non-Iranian players, 60-question delta between Telli/Taymaz and non-Iranian pools (= iran_only count), 252 questions available to non-Iranian player in Iranian Mode, 312 to Telli/Taymaz. Not yet click-tested in a browser — Sharan to verify on next play-test.
+
+**Not yet pushed to GitHub Pages.**
+
 ## Multiplayer "next level" idea (not yet built)
 
 Everyone opens the page on their phone; only the active player can buzz / mark the answer; everyone sees the same question and live scores. Requires real-time state sync — static HTML alone can't do this. Cleanest path: **Firebase Realtime Database** (free tier; SDK runs in the browser; ~1-2 hours to wire). Adds: a room-code join flow, a per-device player identity, conditional UI (active player sees buttons, others see "waiting"). Decision deferred — revisit if the family-quiz format becomes a tradition.

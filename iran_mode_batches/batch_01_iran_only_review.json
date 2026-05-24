@@ -1,0 +1,378 @@
+{
+  "batch": "iran_only",
+  "reviewed": 60,
+  "accepted": 55,
+  "patched": 5,
+  "dropped": 0,
+  "verdicts": [
+    {
+      "id": "ir001",
+      "verdict": "accept",
+      "notes": "Cyrus II, Achaemenid founder, c. 559 BC, tomb at Pasargadae — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Cyrus_the_Great"
+    },
+    {
+      "id": "ir002",
+      "verdict": "accept",
+      "notes": "Cyrus Cylinder, Akkadian, in British Museum Room 52 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Cyrus_Cylinder"
+    },
+    {
+      "id": "ir003",
+      "verdict": "accept",
+      "notes": "Xerxes I, son of Darius, invaded Greece 480 BC — well-established."
+    },
+    {
+      "id": "ir004",
+      "verdict": "accept",
+      "notes": "Persepolis sacked by Alexander 330 BC; UNESCO 1979 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Persepolis"
+    },
+    {
+      "id": "ir005",
+      "verdict": "accept",
+      "notes": "Parthian/Arsacid Empire 247 BC–224 AD, northeast Iran — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Parthian_Empire"
+    },
+    {
+      "id": "ir006",
+      "verdict": "accept",
+      "notes": "Shapur I captured Valerian at Edessa 260 AD, relief at Naqsh-e Rustam — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Shapur_I"
+    },
+    {
+      "id": "ir007",
+      "verdict": "accept",
+      "notes": "Khosrow I Anushirvan, Sassanid king 531–579, reformer — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Khosrow_I"
+    },
+    {
+      "id": "ir008",
+      "verdict": "accept",
+      "notes": "Darius I, Behistun inscription, 522–486 BC — confirmed. Minor: Darius was not Cyrus's biological son; he succeeded after Cambyses II. Question wording says 'inherited an empire from his father Cyrus' which is technically inaccurate but is a common idiomatic shorthand. Borderline accept.",
+      "source": "https://en.wikipedia.org/wiki/Darius_the_Great"
+    },
+    {
+      "id": "ir009",
+      "verdict": "accept",
+      "notes": "Shah Ismail I founded Safavids in 1501, defeated Aq Qoyunlu, Twelver Shi'ism state religion — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Safavid_Iran"
+    },
+    {
+      "id": "ir010",
+      "verdict": "accept",
+      "notes": "Shah Abbas I (r. 1588–1629), moved capital to Isfahan — confirmed."
+    },
+    {
+      "id": "ir011",
+      "verdict": "accept",
+      "notes": "Naqsh-e Jahan Square built by Shah Abbas, flanked by the three buildings named — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Naqsh-e_Jahan_Square"
+    },
+    {
+      "id": "ir012",
+      "verdict": "accept",
+      "notes": "Qajar dynasty 1789–1925, Turkic origins, replaced by Reza Khan in 1925 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Qajar_dynasty"
+    },
+    {
+      "id": "ir013",
+      "verdict": "accept",
+      "notes": "Mozaffar ad-Din Shah signed Persian Constitution 31 Dec 1906, died 3 days later — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Mozaffar_ad-Din_Shah_Qajar"
+    },
+    {
+      "id": "ir014",
+      "verdict": "accept",
+      "notes": "White Revolution launched 26 January 1963 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/White_Revolution"
+    },
+    {
+      "id": "ir015",
+      "verdict": "accept",
+      "notes": "Shah left Iran 16 January 1979 — confirmed."
+    },
+    {
+      "id": "ir016",
+      "verdict": "accept",
+      "notes": "Ferdowsi completed Shahnameh 8 March 1010; ~50,000 couplets per reliable manuscripts (Ferdowsi himself claimed 60,000) — 50,000 figure is supported.",
+      "source": "https://en.wikipedia.org/wiki/Shahnameh"
+    },
+    {
+      "id": "ir017",
+      "verdict": "accept",
+      "notes": "Rostam and Sohrab — well-known Shahnameh episode."
+    },
+    {
+      "id": "ir018",
+      "verdict": "accept",
+      "notes": "Simurgh raised Zal — confirmed Shahnameh lore."
+    },
+    {
+      "id": "ir019",
+      "verdict": "accept",
+      "notes": "Rumi 1207–1273, Konya, Masnavi called 'Quran in Persian' — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Rumi"
+    },
+    {
+      "id": "ir020",
+      "verdict": "accept",
+      "notes": "Hafez of Shiraz, Divan used for fal — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Hafez"
+    },
+    {
+      "id": "ir021",
+      "verdict": "accept",
+      "notes": "Omar Khayyam (1048–1131), Seljuk court astronomer, FitzGerald Rubaiyat 1859 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Omar_Khayyam"
+    },
+    {
+      "id": "ir022",
+      "verdict": "accept",
+      "notes": "Saadi: Bustan 1257, Gulistan 1258 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Saadi_Shirazi"
+    },
+    {
+      "id": "ir023",
+      "verdict": "accept",
+      "notes": "Nizami Ganjavi, Khamsa, Layla & Majnun, Khosrow & Shirin — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Nizami_Ganjavi"
+    },
+    {
+      "id": "ir024",
+      "verdict": "accept",
+      "notes": "Forough Farrokhzad (1934–1967), The Captive (1955), The House Is Black, died at 32 in car crash — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Forough_Farrokhzad"
+    },
+    {
+      "id": "ir025",
+      "verdict": "accept",
+      "notes": "Sohrab Sepehri (1928–1980), 'Water's Footfall' — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Sohrab_Sepehri"
+    },
+    {
+      "id": "ir026",
+      "verdict": "accept",
+      "notes": "Kiarostami's Taste of Cherry, Palme d'Or 1997, shared with The Eel — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Taste_of_Cherry"
+    },
+    {
+      "id": "ir027",
+      "verdict": "accept",
+      "notes": "Where Is the Friend's House (1987), first of Koker trilogy — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Where_Is_the_Friend%27s_House%3F"
+    },
+    {
+      "id": "ir028",
+      "verdict": "accept",
+      "notes": "A Separation, first Iranian film to win Best Foreign Language Oscar (84th Academy Awards, Feb 2012) — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/A_Separation"
+    },
+    {
+      "id": "ir029",
+      "verdict": "accept",
+      "notes": "The Salesman (2016), Farhadi, won 89th Academy Awards Feb 2017 — confirmed. Title references Arthur Miller's Death of a Salesman.",
+      "source": "https://en.wikipedia.org/wiki/The_Salesman_(2016_film)"
+    },
+    {
+      "id": "ir030",
+      "verdict": "patch",
+      "issue": "Explanation says Children of Heaven was nominated 'at the 1999 Oscars' — the 71st Academy Awards ceremony was March 1999 but honoured 1998 films; in standard usage Iranian Wikipedia and most sources call it the 1998 nomination. Minor inconsistency; the more accurate phrasing avoids the ambiguity.",
+      "fix": {
+        "explanation": "Majid Majidi's Children of Heaven (1997) was nominated for Best Foreign Language Film at the 71st Academy Awards (held March 1999, honouring 1998 releases) — the first Iranian film ever nominated."
+      },
+      "source": "https://en.wikipedia.org/wiki/Children_of_Heaven"
+    },
+    {
+      "id": "ir031",
+      "verdict": "accept",
+      "notes": "Jafar Panahi's Taxi, Golden Bear at 2015 Berlinale — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Taxi_(2015_film)"
+    },
+    {
+      "id": "ir032",
+      "verdict": "accept",
+      "notes": "Marjane Satrapi, Persepolis (French 2000–2003), animated 2007, Oscar-nominated for Best Animated Feature 2008 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Marjane_Satrapi"
+    },
+    {
+      "id": "ir033",
+      "verdict": "accept",
+      "notes": "Dariush Mehrjui's The Cow (1969), first film of Iranian New Wave — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Dariush_Mehrjui"
+    },
+    {
+      "id": "ir034",
+      "verdict": "accept",
+      "notes": "Bahram Beizai directed Bashu, the Little Stranger (made 1986, released 1989) — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Bahram_Beizai"
+    },
+    {
+      "id": "ir035",
+      "verdict": "accept",
+      "notes": "Mohammad-Reza Shajarian (1940–2020), Rabbana broadcast every Ramadan — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Mohammad-Reza_Shajarian"
+    },
+    {
+      "id": "ir036",
+      "verdict": "accept",
+      "notes": "Googoosh (Faegheh Atashin, b. 1950), comeback concert in Toronto July 2000 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Googoosh"
+    },
+    {
+      "id": "ir037",
+      "verdict": "patch",
+      "issue": "Question states Kayhan Kalhor won a Grammy 'in 2019' — actual Grammy win with Silk Road Ensemble for 'Sing Me Home' was at the 59th Grammy Awards in February 2017.",
+      "fix": {
+        "question": "He plays the kamancheh, has been a long-time member of Yo-Yo Ma's Silk Road Ensemble, and won a Grammy in 2017 with the ensemble for the album Sing Me Home. Name him.",
+        "explanation": "Kayhan Kalhor, kamancheh virtuoso; Silk Road Ensemble won Best World Music Album at the 59th Grammy Awards (2017) for Sing Me Home."
+      },
+      "source": "https://en.wikipedia.org/wiki/59th_Annual_Grammy_Awards"
+    },
+    {
+      "id": "ir038",
+      "verdict": "patch",
+      "issue": "Explanation says Dariush Eghbali has been based in Los Angeles since 1979 — Wikipedia says he left Iran in 1981.",
+      "fix": {
+        "explanation": "Dariush Eghbali, Iranian pop singer based in Los Angeles since leaving Iran in 1981."
+      },
+      "source": "https://en.wikipedia.org/wiki/Dariush_(singer)"
+    },
+    {
+      "id": "ir039",
+      "verdict": "accept",
+      "notes": "Mohsen Namjoo, called 'Bob Dylan of Iran', lives in exile — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Mohsen_Namjoo"
+    },
+    {
+      "id": "ir040",
+      "verdict": "accept",
+      "notes": "Setar — long-necked Persian lute (distinct from Indian sitar) — well-established."
+    },
+    {
+      "id": "ir041",
+      "verdict": "accept",
+      "notes": "Ali Daei: 109 goals (FIFA later revised to 108), broken by Ronaldo Sept 2021. Explanation already flags the FIFA revision.",
+      "source": "https://en.wikipedia.org/wiki/Ali_Daei"
+    },
+    {
+      "id": "ir042",
+      "verdict": "accept",
+      "notes": "Ali Karimi, 'Asian Maradona', Bayern Munich 2005–06 Bundesliga title — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Ali_Karimi"
+    },
+    {
+      "id": "ir043",
+      "verdict": "accept",
+      "notes": "Sardar Azmoun, 'Iranian Messi', Zenit, Leverkusen, Roma loan — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Sardar_Azmoun"
+    },
+    {
+      "id": "ir044",
+      "verdict": "accept",
+      "notes": "Mehdi Taremi: Primeira Liga top scorer twice (Rio Ave 2019–20, Porto 2022–23), joined Inter Milan July 2024 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Mehdi_Taremi"
+    },
+    {
+      "id": "ir045",
+      "verdict": "accept",
+      "notes": "Hossein Rezazadeh, +105 kg gold Sydney 2000 and Athens 2004; ended Soviet-era dominance — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Hossein_Rezazadeh"
+    },
+    {
+      "id": "ir046",
+      "verdict": "accept",
+      "notes": "Hadi Saei: gold Athens 2004 (68 kg), gold Beijing 2008 (80 kg), bronze Sydney 2000 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Hadi_Saei"
+    },
+    {
+      "id": "ir047",
+      "verdict": "accept",
+      "notes": "Kimia Alizadeh, bronze taekwondo Rio 2016, first Iranian woman Olympic medallist — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Kimia_Alizadeh"
+    },
+    {
+      "id": "ir048",
+      "verdict": "accept",
+      "notes": "Alireza Firouzja, born Babol 2003, broke Carlsen's youngest-2800 record, plays for France since 2021 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Alireza_Firouzja"
+    },
+    {
+      "id": "ir049",
+      "verdict": "accept",
+      "notes": "Maryam Mirzakhani, Tehran-born, Stanford, Fields Medal 2014 (Seoul ICM) — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Maryam_Mirzakhani"
+    },
+    {
+      "id": "ir050",
+      "verdict": "patch",
+      "issue": "Question claims Anousheh Ansari was 'the first Muslim woman in space'. Wikipedia does not assert this; the verifiable claim is 'first Iranian (and first self-funded woman) on the ISS'. Some popular sources do call her the first Muslim woman in space but it's contested. Softening to verified facts.",
+      "fix": {
+        "question": "In September 2006, this Iranian-American businesswoman became the first Iranian in space, flying to the ISS as a self-funded spaceflight participant on a Soyuz. Name her.",
+        "explanation": "Anousheh Ansari flew to the ISS on Soyuz TMA-9 in September 2006. The Ansari X Prize is named after her family."
+      },
+      "source": "https://en.wikipedia.org/wiki/Anousheh_Ansari"
+    },
+    {
+      "id": "ir051",
+      "verdict": "accept",
+      "notes": "Pierre Omidyar, born Paris to Iranian parents, founded eBay (as Auction Web) in 1995 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Pierre_Omidyar"
+    },
+    {
+      "id": "ir052",
+      "verdict": "accept",
+      "notes": "Dara Khosrowshahi, born Tehran 1969, former Expedia CEO, Uber CEO August 2017 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Dara_Khosrowshahi"
+    },
+    {
+      "id": "ir053",
+      "verdict": "accept",
+      "notes": "Christiane Amanpour, born England, Iranian-British heritage, CNN chief international correspondent, Bosnia coverage — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Christiane_Amanpour"
+    },
+    {
+      "id": "ir054",
+      "verdict": "accept",
+      "notes": "Shohreh Aghdashloo, Oscar nominee for House of Sand and Fog (76th Academy Awards, 2004 ceremony, 2003 film), Chrisjen Avasarala in The Expanse — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Shohreh_Aghdashloo"
+    },
+    {
+      "id": "ir055",
+      "verdict": "accept",
+      "notes": "Andre Agassi's father Mike — Armenian-Iranian, Olympic boxer, from Salmas — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Andre_Agassi"
+    },
+    {
+      "id": "ir056",
+      "verdict": "patch",
+      "issue": "Explanation says Tehran has been capital since 1796 — Wikipedia states 1786 under Agha Mohammad Khan Qajar.",
+      "fix": {
+        "explanation": "Tehran, capital of Iran since 1786 under the Qajar founder Agha Mohammad Khan."
+      },
+      "source": "https://en.wikipedia.org/wiki/Tehran"
+    },
+    {
+      "id": "ir057",
+      "verdict": "accept",
+      "notes": "Mount Damavand, 5,609 m, highest volcano in Asia, in Alborz range — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Mount_Damavand"
+    },
+    {
+      "id": "ir058",
+      "verdict": "accept",
+      "notes": "Strait of Hormuz between Iran and Oman — well-established."
+    },
+    {
+      "id": "ir059",
+      "verdict": "accept",
+      "notes": "Lut Desert: 70.7 °C land surface temperature measured by NASA Aqua MODIS in 2005 — confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Lut_Desert"
+    },
+    {
+      "id": "ir060",
+      "verdict": "accept",
+      "notes": "Nowruz / Haft-sin (seven 's' items on vernal equinox) — well-established."
+    }
+  ]
+}

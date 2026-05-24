@@ -1,0 +1,972 @@
+{
+  "batch": "world_a",
+  "count": 59,
+  "accepted": 56,
+  "patched": 3,
+  "dropped": 1,
+  "overrides": 0,
+  "questions": [
+    {
+      "id": "wa001",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "It's a city that sits on the Pacific coast of Honshu island, was once known as Edo, and became the seat of the Japanese emperor in 1868. Name the capital.",
+      "answer": "Tokyo",
+      "accept": [
+        "tokyo",
+        "tokyo japan"
+      ],
+      "explanation": "Edo was renamed Tokyo, meaning 'eastern capital', when Emperor Meiji moved his court there from Kyoto.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa002",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Sydney is bigger, Melbourne is more cultured, but the federal capital of Australia is a planned city tucked between them. Which city?",
+      "answer": "Canberra",
+      "accept": [
+        "canberra"
+      ],
+      "explanation": "Canberra was chosen as a compromise capital in 1908 to settle the Sydney-Melbourne rivalry.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa003",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Rio de Janeiro had the beaches and the carnival, but in 1960 Brazil moved its capital to a brand new, purpose-built inland city. Which city?",
+      "answer": "Brasilia",
+      "accept": [
+        "brasilia",
+        "brasília"
+      ],
+      "explanation": "Brasilia, designed by Oscar Niemeyer and Lúcio Costa, was built to develop Brazil's interior.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa004",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Toronto is the largest city in Canada, but the capital is a quieter place on the Ottawa River. Which city?",
+      "answer": "Ottawa",
+      "accept": [
+        "ottawa"
+      ],
+      "explanation": "Queen Victoria picked Ottawa as the capital in 1857 partly because it sat between English and French Canada.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa005",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Auckland is the biggest city in New Zealand, but the capital sits at the southwestern tip of the North Island and is famously windy. Which city?",
+      "answer": "Wellington",
+      "accept": [
+        "wellington"
+      ],
+      "explanation": "Wellington became the capital in 1865 because of its central location between the two main islands.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa006",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Nigeria moved its capital from the coastal megacity of Lagos to a planned city in the country's centre in 1991. Name the current capital.",
+      "answer": "Abuja",
+      "accept": [
+        "abuja"
+      ],
+      "explanation": "Abuja was built as a neutral capital between Nigeria's competing regions; Lagos remains the largest city.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa007",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "It runs north for nearly 6,650 km through Egypt and Sudan, and ancient civilisations rose on its banks. Name the river.",
+      "answer": "Nile",
+      "accept": [
+        "nile",
+        "the nile",
+        "river nile"
+      ],
+      "explanation": "The Nile is traditionally considered the longest river in the world, though the Amazon's length is sometimes disputed.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa008",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "It carries more water than any other river on Earth, draining a vast rainforest before emptying into the Atlantic. Which river?",
+      "answer": "Amazon",
+      "accept": [
+        "amazon",
+        "the amazon",
+        "river amazon"
+      ],
+      "explanation": "The Amazon discharges more water than the next seven largest rivers combined.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa009",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "It's the longest river in Asia, runs through Chongqing and Shanghai, and is home to the Three Gorges Dam. Name the river.",
+      "answer": "Yangtze",
+      "accept": [
+        "yangtze",
+        "yangzi",
+        "chang jiang",
+        "changjiang"
+      ],
+      "explanation": "The Yangtze is the third-longest river in the world after the Nile and Amazon.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa010",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Born in Germany's Black Forest, it flows east through Vienna, Budapest, and Belgrade before emptying into the Black Sea. Name this river that touches ten countries.",
+      "answer": "Danube",
+      "accept": [
+        "danube",
+        "the danube"
+      ],
+      "explanation": "The Danube flows through or borders ten countries, more than any other river.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa011",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "At 8,849 metres, it is the highest point on Earth and sits on the border of Nepal and China. Name it.",
+      "answer": "Mount Everest",
+      "accept": [
+        "everest",
+        "mount everest",
+        "mt everest",
+        "qomolangma",
+        "sagarmatha"
+      ],
+      "explanation": "Tibetans call it Qomolangma; Nepalis call it Sagarmatha. It was first summited by Tenzing Norgay and Edmund Hillary in 1953.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa012",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "The second-highest mountain in the world has no romantic local name in common use, just a surveyor's code. Name it.",
+      "answer": "K2",
+      "accept": [
+        "k2",
+        "k-2",
+        "mount godwin-austen",
+        "chhogori"
+      ],
+      "explanation": "K2 stands at 8,611 metres on the China-Pakistan border. The name comes from the Karakoram survey.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa013",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "It's the highest free-standing mountain in the world and the tallest in Africa, with a snowy summit just south of the equator in Tanzania. Name it.",
+      "answer": "Mount Kilimanjaro",
+      "accept": [
+        "kilimanjaro",
+        "mount kilimanjaro",
+        "mt kilimanjaro"
+      ],
+      "explanation": "Kilimanjaro rises to 5,895 metres and is a dormant volcano with three cones.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa014",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Symmetrical, snow-capped, and sacred to its country, this 3,776-metre volcano is the highest mountain in Japan. Name it.",
+      "answer": "Mount Fuji",
+      "accept": [
+        "fuji",
+        "mount fuji",
+        "mt fuji",
+        "fujisan",
+        "fujiyama"
+      ],
+      "explanation": "Mount Fuji last erupted in 1707 and is a UNESCO World Heritage Site.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa015",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This vast desert stretches across North Africa from the Atlantic to the Red Sea, covering parts of more than ten countries. Name it.",
+      "answer": "Sahara",
+      "accept": [
+        "sahara",
+        "sahara desert",
+        "the sahara"
+      ],
+      "explanation": "The Sahara is the largest hot desert in the world, roughly the size of the United States.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa016",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "It stretches across northern China and southern Mongolia, and gave its name to a desert horse and a famous Mongolian dish-of-sorts. Name the desert.",
+      "answer": "Gobi",
+      "accept": [
+        "gobi",
+        "gobi desert",
+        "the gobi"
+      ],
+      "explanation": "The Gobi is famous for fossil discoveries, including the first confirmed dinosaur eggs.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa017",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Lying in a strip along the Pacific coast of Chile, some weather stations here have never recorded a drop of rain. Name the driest non-polar desert on Earth.",
+      "answer": "Atacama Desert",
+      "accept": [
+        "atacama",
+        "atacama desert",
+        "the atacama"
+      ],
+      "explanation": "Parts of the Atacama receive less than 1 mm of rain per year on average.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa018",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Mostly covered in ice but governed by Denmark, this is the world's largest island. Name it.",
+      "answer": "Greenland",
+      "accept": [
+        "greenland"
+      ],
+      "explanation": "Greenland is about three times the size of Texas; Australia is not counted as it is a continent.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa019",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Off the southeast coast of Africa, this island nation is famous for lemurs found nowhere else. Name it.",
+      "answer": "Madagascar",
+      "accept": [
+        "madagascar"
+      ],
+      "explanation": "Madagascar is the world's fourth-largest island and broke away from the African mainland tens of millions of years ago.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa020",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "The world's third-largest island is divided between three countries: Indonesia, Malaysia, and Brunei. Name it.",
+      "answer": "Borneo",
+      "accept": [
+        "borneo"
+      ],
+      "explanation": "Borneo is home to ancient rainforests and the endangered orangutan.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa021",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "It looks like a lake on the map but is officially called a sea, and despite being landlocked it is the largest enclosed inland body of water on Earth. Name it.",
+      "answer": "Caspian Sea",
+      "accept": [
+        "caspian sea",
+        "caspian",
+        "the caspian"
+      ],
+      "explanation": "The Caspian is bordered by Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa022",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "It's the largest of the Great Lakes by surface area, sits between Canada and the United States, and its name simply tells you it's at the top. Name it.",
+      "answer": "Lake Superior",
+      "accept": [
+        "lake superior",
+        "superior"
+      ],
+      "explanation": "Lake Superior is the largest freshwater lake in the world by surface area.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa023",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Its shores are the lowest point on dry land, more than 400 metres below sea level, and its waters are so salty you float effortlessly. Name this body of water.",
+      "answer": "Dead Sea",
+      "accept": [
+        "dead sea",
+        "the dead sea"
+      ],
+      "explanation": "The Dead Sea sits between Israel, Jordan and the Palestinian territories at about 430 metres below sea level.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa024",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Designed by Gustave Eiffel for the 1889 World's Fair, it was meant to be temporary. In which year was it completed?",
+      "answer": "1889",
+      "accept": [
+        "1889"
+      ],
+      "explanation": "The Eiffel Tower was inaugurated on 31 March 1889. Many Parisians initially hated it.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa025",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "France gifted the United States a colossal copper statue, dedicated in 1886, that has stood in New York Harbor ever since. Name the statue.",
+      "answer": "Statue of Liberty",
+      "accept": [
+        "statue of liberty",
+        "lady liberty",
+        "liberty"
+      ],
+      "explanation": "Designed by Frédéric Auguste Bartholdi with internal framework by Gustave Eiffel.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa026",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Built more than 4,500 years ago as tombs for pharaohs, these are the only surviving wonder of the ancient world. Name and place them.",
+      "answer": "Pyramids of Giza",
+      "accept": [
+        "pyramids of giza",
+        "great pyramids",
+        "pyramids",
+        "giza pyramids",
+        "egyptian pyramids"
+      ],
+      "explanation": "The Great Pyramid of Khufu was the tallest man-made structure for nearly 3,800 years.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa027",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Designed by Danish architect Jørn Utzon, with its famous shell-like roof, this landmark on Bennelong Point was opened by Queen Elizabeth II in 1973. Name it.",
+      "answer": "Sydney Opera House",
+      "accept": [
+        "sydney opera house",
+        "opera house sydney"
+      ],
+      "explanation": "Utzon resigned during construction and never saw the finished building.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa028",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Carved into rose-red sandstone cliffs in what is now Jordan, it was the capital of the Nabataean kingdom. Name this ancient city.",
+      "answer": "Petra",
+      "accept": [
+        "petra"
+      ],
+      "explanation": "Petra was famously rediscovered for Europeans by Swiss explorer Johann Burckhardt in 1812.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa029",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Perched high in the Peruvian Andes, this 15th-century Inca citadel was brought to world attention by Hiram Bingham in 1911. Name it.",
+      "answer": "Machu Picchu",
+      "accept": [
+        "machu picchu",
+        "machupicchu"
+      ],
+      "explanation": "Machu Picchu sits at about 2,430 metres above sea level and was probably an estate of emperor Pachacuti.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa030",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "The smallest independent country in the world, both by area and population, sits inside the city of Rome. Name it.",
+      "answer": "Vatican City",
+      "accept": [
+        "vatican city",
+        "vatican",
+        "the vatican"
+      ],
+      "explanation": "Vatican City covers about 0.49 square kilometres and was created by the Lateran Treaty of 1929.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa031",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "This tiny mountain kingdom in southern Africa is completely surrounded by a single other country: South Africa. Name it.",
+      "answer": "Lesotho",
+      "accept": [
+        "lesotho",
+        "kingdom of lesotho"
+      ],
+      "explanation": "Lesotho is one of only three countries entirely enclosed by another country, along with San Marino and Vatican City.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa032",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "It is the only country in the world named after a family — the dynasty that founded it in 1932. Name the country.",
+      "answer": "Saudi Arabia",
+      "accept": [
+        "saudi arabia",
+        "saudi",
+        "kingdom of saudi arabia",
+        "ksa"
+      ],
+      "explanation": "The Kingdom takes its name from the House of Saud, founded by Muhammad bin Saud in the 18th century.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa033",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "He was the Macedonian king who, by the age of 30, had conquered an empire stretching from Greece to the edge of India. Name him.",
+      "answer": "Alexander the Great",
+      "accept": [
+        "alexander",
+        "alexander the great",
+        "alexander iii of macedon",
+        "alexander iii"
+      ],
+      "explanation": "Alexander died in Babylon in 323 BC at just 32, and his empire fragmented soon after.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa034",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "The Athenian philosopher who never wrote a book, taught Plato, and was sentenced to death by drinking hemlock in 399 BC. Name him.",
+      "answer": "Socrates",
+      "accept": [
+        "socrates"
+      ],
+      "explanation": "Almost everything we know about Socrates comes from the writings of his student Plato.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa035",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Julius Caesar was assassinated on a famous date in the Roman calendar in 44 BC. What is the date known as?",
+      "answer": "Ides of March",
+      "accept": [
+        "ides of march",
+        "the ides of march",
+        "march 15",
+        "15 march",
+        "15th march",
+        "march 15 44 bc"
+      ],
+      "explanation": "Caesar was stabbed in the Senate on 15 March 44 BC, immortalised by Shakespeare's 'Beware the Ides of March'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa036",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "In 49 BC, a Roman general defied the Senate by leading his army across a small river into Italy, triggering civil war. Name the river or the general.",
+      "answer": "Rubicon (or Julius Caesar)",
+      "accept": [
+        "rubicon",
+        "the rubicon",
+        "julius caesar",
+        "caesar"
+      ],
+      "explanation": "Caesar's words 'alea iacta est' (the die is cast) gave us the phrase 'crossing the Rubicon'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa037",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "In 1215, English barons forced a king to sign a charter at Runnymede that limited royal power and became a foundation of constitutional law. Name the document.",
+      "answer": "Magna Carta",
+      "accept": [
+        "magna carta",
+        "the magna carta",
+        "great charter"
+      ],
+      "explanation": "King John signed the Magna Carta under duress; it is often considered an ancestor of modern bills of rights.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa038",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Between roughly 1347 and 1351, a pandemic killed perhaps a third of Europe's population. By what name is it usually known?",
+      "answer": "Black Death",
+      "accept": [
+        "black death",
+        "the black death",
+        "bubonic plague",
+        "the plague"
+      ],
+      "explanation": "The Black Death was caused by the bacterium Yersinia pestis, spread mainly by fleas on rats.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa039",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This 13th-century Mongol leader built the largest contiguous land empire in history. Name him.",
+      "answer": "Genghis Khan",
+      "accept": [
+        "genghis khan",
+        "chinggis khan",
+        "chingis khan"
+      ],
+      "explanation": "Born Temujin around 1162, Genghis Khan was proclaimed leader of all the Mongols in 1206.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa040",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "This Venetian merchant claimed to have spent years at the court of Kublai Khan, and his book inspired Europe's fascination with the East. Name him.",
+      "answer": "Marco Polo",
+      "accept": [
+        "marco polo",
+        "polo"
+      ],
+      "explanation": "Polo's 'Travels', dictated to a fellow prisoner in Genoa, was one of the most influential travel books ever written.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa041",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "An Italian sailing for Spain, he made landfall in the Caribbean in 1492 thinking he had reached the Indies. Name him.",
+      "answer": "Christopher Columbus",
+      "accept": [
+        "columbus",
+        "christopher columbus",
+        "cristoforo colombo",
+        "cristobal colon"
+      ],
+      "explanation": "Columbus made four voyages but never realised he had reached a continent unknown to Europeans.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa042",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "In May 1498, a Portuguese navigator dropped anchor near Calicut on the Malabar coast, opening a sea route from Europe to India. Name him.",
+      "answer": "Vasco da Gama",
+      "accept": [
+        "vasco da gama",
+        "da gama",
+        "vasco de gama"
+      ],
+      "explanation": "His voyage around the Cape of Good Hope began centuries of Portuguese trade with Asia.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa043",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "His expedition was the first to circumnavigate the globe, though he himself was killed in the Philippines before the journey ended. Name him.",
+      "answer": "Ferdinand Magellan",
+      "accept": [
+        "magellan",
+        "ferdinand magellan",
+        "fernao de magalhaes"
+      ],
+      "explanation": "Magellan died in 1521; Juan Sebastián Elcano completed the circumnavigation in 1522.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa044",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "He painted the ceiling of the Sistine Chapel between 1508 and 1512, and sculpted David. Name this Renaissance master.",
+      "answer": "Michelangelo",
+      "accept": [
+        "michelangelo",
+        "michelangelo buonarroti"
+      ],
+      "explanation": "Michelangelo worked largely alone on the ceiling, lying on his back on a scaffold for years.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa045",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Painter, anatomist, engineer, and the man behind the Mona Lisa and The Last Supper. Name him.",
+      "answer": "Leonardo da Vinci",
+      "accept": [
+        "leonardo da vinci",
+        "leonardo",
+        "da vinci"
+      ],
+      "explanation": "Leonardo embodied the Renaissance ideal of the 'universal man'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa046",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "On 14 July 1789, a Parisian crowd stormed a royal fortress and prison, an event still celebrated as France's national day. Name the fortress.",
+      "answer": "Bastille",
+      "accept": [
+        "bastille",
+        "the bastille"
+      ],
+      "explanation": "The storming of the Bastille has come to symbolise the start of the French Revolution.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa047",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "A Corsican-born artillery officer who crowned himself Emperor of the French in 1804 and was finally defeated at Waterloo in 1815. Name him.",
+      "answer": "Napoleon Bonaparte",
+      "accept": [
+        "napoleon",
+        "napoleon bonaparte",
+        "bonaparte"
+      ],
+      "explanation": "Napoleon was exiled twice — first to Elba, then permanently to Saint Helena after Waterloo.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa049",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "In 1917, two revolutions in this country toppled the Tsar and brought the Bolsheviks to power under Lenin. Which country?",
+      "answer": "Russia",
+      "accept": [
+        "russia"
+      ],
+      "explanation": "The February Revolution ended the monarchy; the October Revolution brought the Bolsheviks to power.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa050",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "On 28 June 1914, the heir to the Austro-Hungarian throne was assassinated in a Bosnian city, triggering World War I. In which city?",
+      "answer": "Sarajevo",
+      "accept": [
+        "sarajevo"
+      ],
+      "explanation": "Archduke Franz Ferdinand and his wife Sophie were shot by Gavrilo Princip near the Latin Bridge.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa051",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "World War II in Europe began when one country invaded Poland on 1 September 1939. Which country invaded?",
+      "answer": "Germany",
+      "accept": [
+        "germany",
+        "nazi germany",
+        "the third reich",
+        "third reich"
+      ],
+      "explanation": "Britain and France declared war on Germany two days later, on 3 September.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa052",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Allied forces landed on the beaches of Normandy in the largest seaborne invasion in history. On what date?",
+      "answer": "6 June 1944",
+      "accept": [
+        "6 june 1944",
+        "june 6 1944",
+        "6/6/1944",
+        "june 6, 1944",
+        "d-day",
+        "d day"
+      ],
+      "explanation": "Five beaches were targeted: Utah, Omaha, Gold, Juno and Sword.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa053",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "On 6 August 1945, an American B-29 named the Enola Gay dropped an atomic bomb on a Japanese city. Which city?",
+      "answer": "Hiroshima",
+      "accept": [
+        "hiroshima"
+      ],
+      "explanation": "A second bomb was dropped three days later on Nagasaki, hastening Japan's surrender.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa054",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "On 9 November 1989, crowds began chipping away at a barrier that had divided a European city since 1961. Name the wall.",
+      "answer": "Berlin Wall",
+      "accept": [
+        "berlin wall",
+        "the berlin wall"
+      ],
+      "explanation": "The fall of the Wall was a key moment in the end of the Cold War; East and West Germany reunified in 1990.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa055",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "After 27 years in prison, this anti-apartheid leader walked free in 1990 and went on to become South Africa's first Black president in 1994. Name him.",
+      "answer": "Nelson Mandela",
+      "accept": [
+        "mandela",
+        "nelson mandela",
+        "madiba"
+      ],
+      "explanation": "Mandela shared the 1993 Nobel Peace Prize with F. W. de Klerk.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa056",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "In August 1963, an American civil rights leader delivered the 'I Have a Dream' speech on the steps of the Lincoln Memorial. Name him.",
+      "answer": "Martin Luther King Jr.",
+      "accept": [
+        "martin luther king",
+        "martin luther king jr",
+        "mlk",
+        "dr king",
+        "king"
+      ],
+      "explanation": "King drew explicitly on Gandhi's philosophy of non-violent resistance. He was assassinated in Memphis in 1968.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa057",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "This British Prime Minister led his country through World War II and is remembered for the line 'We shall fight on the beaches'. Name him.",
+      "answer": "Winston Churchill",
+      "accept": [
+        "churchill",
+        "winston churchill",
+        "sir winston churchill"
+      ],
+      "explanation": "Churchill served as PM 1940-45 and again 1951-55, and won the Nobel Prize in Literature in 1953.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa058",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Britain's first woman Prime Minister, who led the Conservative Party from 1979 to 1990 and was nicknamed the 'Iron Lady'. Name her.",
+      "answer": "Margaret Thatcher",
+      "accept": [
+        "margaret thatcher",
+        "thatcher",
+        "maggie thatcher"
+      ],
+      "explanation": "The 'Iron Lady' nickname was given to her by a Soviet journalist in 1976.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa059",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "He was the Polish electrician who led the Solidarity trade union and later became president of post-communist Poland in 1990. Name him.",
+      "answer": "Lech Walesa",
+      "accept": [
+        "lech walesa",
+        "walesa",
+        "lech wałęsa",
+        "wałęsa"
+      ],
+      "explanation": "Walesa, an electrician at the Lenin Shipyard in Gdansk, won the Nobel Peace Prize in 1983 for his role in Solidarity's struggle.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa060",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Elected in 1978, he was the first non-Italian pope in over 450 years and is credited with helping bring down communism in Eastern Europe. Name him.",
+      "answer": "Pope John Paul II",
+      "accept": [
+        "pope john paul ii",
+        "john paul ii",
+        "john paul the second",
+        "karol wojtyla",
+        "karol wojtyła"
+      ],
+      "explanation": "Born Karol Wojtyła in Poland, John Paul II served until his death in 2005.",
+      "created": "2026-05-23"
+    }
+  ]
+}

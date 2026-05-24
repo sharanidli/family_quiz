@@ -1,0 +1,169 @@
+{
+  "batch": "etymology",
+  "reviewed": 30,
+  "accepted": 28,
+  "patched": 2,
+  "dropped": 0,
+  "verdicts": [
+    {
+      "id": "ey001",
+      "verdict": "accept",
+      "notes": "Persian paejamah (pae 'leg' + jamah 'garment'); via Hindi to British India c.1800. Matches etymonline."
+    },
+    {
+      "id": "ey002",
+      "verdict": "accept",
+      "notes": "Etymonline gives Avestan pairidaeza (literally 'enclosure'), pairi- 'around' + diz 'to make/form a wall'. Question calls it 'Old Persian' — Avestan is an Old Iranian language closely related to Old Persian; defensible for a quiz."
+    },
+    {
+      "id": "ey003",
+      "verdict": "accept",
+      "notes": "Etymonline notes both readings: Arabic 'the king died' and Persian 'the king is left helpless/stumped'. Question commits to 'helpless/stumped' but accept array includes 'the king is dead'. Safe."
+    },
+    {
+      "id": "ey004",
+      "verdict": "accept",
+      "notes": "Persian bazar via Italian bazarra, English 1580s. Matches etymonline."
+    },
+    {
+      "id": "ey005",
+      "verdict": "accept",
+      "notes": "Persian karwan via Arabic qairawan, French caravane during Crusades. Matches etymonline."
+    },
+    {
+      "id": "ey006",
+      "verdict": "accept",
+      "notes": "Urdu khaki ('dusty') from Persian khak ('dust'). Etymonline gives 1846 for military adoption by Guide Corps; question says 1857 (close to wider adoption). Acceptable approximation."
+    },
+    {
+      "id": "ey007",
+      "verdict": "accept",
+      "notes": "Persian kushk -> Turkish kosk -> French kiosque -> English 1620s. Matches etymonline."
+    },
+    {
+      "id": "ey008",
+      "verdict": "patch",
+      "issue": "Question says 'From the Persian sharbat' but etymonline traces ultimate root to Arabic shariba ('he drank'), with Persian sharbat as intermediate (and Turkish serbet to English). Persian is in the chain but not the ultimate source.",
+      "fix": {
+        "question": "From the Arabic root 'shariba' meaning 'he drank' — via Persian 'sharbat' (a drink) and Turkish 'serbet' — comes which English word for a fruity frozen dessert?",
+        "explanation": "Arabic shariba ('he drank') gave Persian sharbat and Turkish serbet; English from the 1580s. Also gave us 'syrup' and 'sorbet'."
+      },
+      "source": "https://www.etymonline.com/word/sherbet"
+    },
+    {
+      "id": "ey009",
+      "verdict": "accept",
+      "notes": "Persian gulab (gul 'rose' + ab 'water') -> Arabic julab -> Medieval Latin julapium -> Old French julep -> English late 14c. Matches etymonline."
+    },
+    {
+      "id": "ey010",
+      "verdict": "accept",
+      "notes": "Persian shal, 'sometimes said to be named for Shaliat, town in India where it was first manufactured' (etymonline). Question correctly hedges with 'possibly'."
+    },
+    {
+      "id": "ey011",
+      "verdict": "accept",
+      "notes": "Persian pistah -> Greek pistakion -> Latin pistacium -> Italian pistacchio -> English 1590s. Matches etymonline."
+    },
+    {
+      "id": "ey012",
+      "verdict": "patch",
+      "issue": "Question gives the Persian source word as 'espinaj' but etymonline gives the Persian as 'aspanakh' (the explanation correctly uses 'aspanakh', so the question and explanation contradict each other). 'espinaj' looks like a back-formation from Spanish/Catalan espinac.",
+      "fix": {
+        "question": "From the Persian 'aspanakh', through Arabic and Spanish, comes which English word for the leafy green Popeye is famous for eating?",
+        "explanation": "Persian aspanakh -> Arabic isbanakh / Andalusian isbinakh -> Catalan/Provencal espinac/espinarc -> Old French espinache -> English by the late 13th century."
+      },
+      "source": "https://www.etymonline.com/word/spinach"
+    },
+    {
+      "id": "ey013",
+      "verdict": "accept",
+      "notes": "Sanskrit naranga -> Persian narang -> Arabic naranj -> Italian arancia (originally narancia) -> Old French orange. Initial n- lost via confusion with definite article (una narancia -> un'arancia). Matches etymonline."
+    },
+    {
+      "id": "ey014",
+      "verdict": "accept",
+      "notes": "Sanskrit khanda -> Persian qand -> Arabic qandi -> Old French cucre candi -> English. Matches etymonline."
+    },
+    {
+      "id": "ey015",
+      "verdict": "accept",
+      "notes": "Arabic al-jabr 'reunion of broken parts' from al-Khwarizmi's 9th-c. Baghdad treatise. Matches etymonline."
+    },
+    {
+      "id": "ey016",
+      "verdict": "accept",
+      "notes": "Medieval Latin algorismus, mangled transliteration of al-Khwarizmi's name; later refashioned via Greek arithmos. Matches etymonline."
+    },
+    {
+      "id": "ey017",
+      "verdict": "accept",
+      "notes": "Arabic al-kuhul = powdered antimony used as eye cosmetic (kohl). Sense broadened to 'pure spirit' (Paracelsus 1540s onward); 'intoxicating ingredient' sense by 1753. Matches etymonline."
+    },
+    {
+      "id": "ey018",
+      "verdict": "accept",
+      "notes": "Arabic sifr ('empty/cipher'), translation of Sanskrit sunya, gave English both 'zero' and 'cipher' via Medieval Latin zephirum and Italian/French zero. Question is correct; minor footnote — etymonline's intermediate form is 'zephirum', not 'zefiro' (zefiro is Italian for 'zephyr/wind'). But the question text itself doesn't mention zefiro, only the explanation paraphrases, so no fix needed."
+    },
+    {
+      "id": "ey019",
+      "verdict": "accept",
+      "notes": "Arabic makhazin (plural of makhzan, 'storehouse') -> Italian magazzino -> French magasin -> English 1580s. Matches etymonline."
+    },
+    {
+      "id": "ey020",
+      "verdict": "accept",
+      "notes": "Arabic suffah ('bench/couch') -> Turkish sofa -> English 1620s. Matches etymonline."
+    },
+    {
+      "id": "ey021",
+      "verdict": "accept",
+      "notes": "Arabic hashishin, nickname for Nizari Ismaili sect during Crusades; English 1530s via Italian. Etymonline notes hashish-drug connection is disputed ('no evidence the medieval Ismailis used hashish'), but the question carefully sticks to the name of the sect without endorsing the drug-eating story, so it is safe."
+    },
+    {
+      "id": "ey022",
+      "verdict": "accept",
+      "notes": "Hindi champo, imperative of champna 'to press, knead the muscles', possibly from Sanskrit capayati. Massage sense 1762; hair-washing sense by 1860. Matches etymonline."
+    },
+    {
+      "id": "ey023",
+      "verdict": "accept",
+      "notes": "Hindi bangla 'low thatched house, Bengalese' via Gujarati bangalo; Anglo-Indian use from 1670s. Matches etymonline."
+    },
+    {
+      "id": "ey024",
+      "verdict": "accept",
+      "notes": "Sanskrit jagat 'the world' + natha 'lord' -> Hindi Jagannath, title of Krishna; English 1630s referring to the Puri chariot, figurative sense by 1854. Matches etymonline."
+    },
+    {
+      "id": "ey025",
+      "verdict": "accept",
+      "notes": "Hindi lut, from Sanskrit loptram 'booty'; English noun 1802 (Charles James's Military Dictionary). Matches etymonline."
+    },
+    {
+      "id": "ey026",
+      "verdict": "accept",
+      "notes": "Marathi thag/thak, Hindi thag 'cheat, swindler'; English c.1810, generalised by 1839; British suppression of thuggee from 1831. Matches etymonline."
+    },
+    {
+      "id": "ey027",
+      "verdict": "accept",
+      "notes": "Tamil kattu 'tie/binding' + maram 'wood/tree'; English 1670s for East Indies log raft. Matches etymonline."
+    },
+    {
+      "id": "ey028",
+      "verdict": "accept",
+      "notes": "From Calicut (modern Kozhikode), Malabar coast; English 1530s. Matches etymonline."
+    },
+    {
+      "id": "ey029",
+      "verdict": "accept",
+      "notes": "Italian Mussolo (= Mosul) -> Italian mussolina -> French mousseline -> English c.1600. Matches etymonline."
+    },
+    {
+      "id": "ey030",
+      "verdict": "accept",
+      "notes": "Turkish ordu 'camp, army' / Tatar urda; same Turkish root gives the language name Urdu (short for zaban-i-urdu 'language of the camp'). Matches etymonline."
+    }
+  ]
+}

@@ -1,0 +1,841 @@
+{
+  "batch": "world_b",
+  "count": 53,
+  "accepted": 51,
+  "patched": 2,
+  "dropped": 7,
+  "overrides": 0,
+  "questions": [
+    {
+      "id": "wb002",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Francis Ford Coppola's 1972 epic about the Corleone family won Best Picture and gave Marlon Brando his second Oscar. Name the film.",
+      "answer": "The Godfather",
+      "accept": [
+        "The Godfather",
+        "Godfather"
+      ],
+      "explanation": "Brando famously refused the Oscar, sending Sacheen Littlefeather to decline it on his behalf.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb003",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "George Lucas's 1977 space opera introduced the world to Luke Skywalker, Princess Leia, and a hooded mentor played by Alec Guinness. Name the film.",
+      "answer": "Star Wars",
+      "accept": [
+        "Star Wars",
+        "Star Wars: A New Hope",
+        "A New Hope"
+      ],
+      "explanation": "Later retitled Episode IV: A New Hope. Lucas built an empire from a single film almost no studio wanted to make.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb004",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This 1997 James Cameron film won 11 Oscars including Best Picture and made Leonardo DiCaprio a global star. Name it.",
+      "answer": "Titanic",
+      "accept": [
+        "Titanic"
+      ],
+      "explanation": "Tied the record of 11 Oscars (with Ben-Hur, and later The Return of the King). Held the all-time box-office record until Avatar.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb005",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Steven Spielberg's stark, mostly black-and-white 1993 film about a German industrialist who saved over a thousand Jewish workers during the Holocaust. Which film?",
+      "answer": "Schindler's List",
+      "accept": [
+        "Schindler's List",
+        "Schindlers List"
+      ],
+      "explanation": "Won seven Oscars including Best Picture and Director. Based on Thomas Keneally's novel about Oskar Schindler.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb006",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "At the 92nd Academy Awards, this South Korean film became the first non-English-language film ever to win Best Picture. Name the film and its director.",
+      "answer": "Parasite, directed by Bong Joon-ho",
+      "accept": [
+        "Parasite / Bong Joon-ho",
+        "Parasite, Bong Joon-ho",
+        "Parasite — Bong Joon-ho"
+      ],
+      "explanation": "It also won Best Director, Best Original Screenplay, and Best International Feature — a clean sweep of four Oscars in 2020.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb007",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Christopher Nolan's 2023 biopic about the 'father of the atomic bomb' won seven Oscars including Best Picture and Best Director. Name the film.",
+      "answer": "Oppenheimer",
+      "accept": [
+        "Oppenheimer"
+      ],
+      "explanation": "Cillian Murphy won Best Actor as J. Robert Oppenheimer; Robert Downey Jr. won Best Supporting Actor as Lewis Strauss.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb008",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "This Japanese director's 1954 film about a village hiring seven warriors to fend off bandits has been remade and homaged endlessly, including as a Hollywood Western. Name the director and the film.",
+      "answer": "Akira Kurosawa, Seven Samurai",
+      "accept": [
+        "Kurosawa / Seven Samurai",
+        "Akira Kurosawa — Seven Samurai",
+        "Seven Samurai, Kurosawa"
+      ],
+      "explanation": "John Sturges remade it as The Magnificent Seven in 1960. Kurosawa also directed Rashomon, Yojimbo, and Ran.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb009",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Japanese animator who co-founded Studio Ghibli and won the 2003 Best Animated Feature Oscar for Spirited Away. Name him.",
+      "answer": "Hayao Miyazaki",
+      "accept": [
+        "Hayao Miyazaki",
+        "Miyazaki"
+      ],
+      "explanation": "Also directed My Neighbour Totoro, Princess Mononoke, Howl's Moving Castle and, most recently, The Boy and the Heron.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb010",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "The top prize at the Cannes Film Festival is named after a flowering plant — specifically, this golden version of a leaf. What's the prize called?",
+      "answer": "The Palme d'Or",
+      "accept": [
+        "Palme d'Or",
+        "Golden Palm"
+      ],
+      "explanation": "Berlin awards the Golden Bear, Venice the Golden Lion — three festivals, three suitably gilded symbols.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb012",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This actor played the lead in Forrest Gump, Cast Away, Philadelphia and Saving Private Ryan, and voiced Sheriff Woody in the Toy Story films. Name him.",
+      "answer": "Tom Hanks",
+      "accept": [
+        "Tom Hanks",
+        "Hanks"
+      ],
+      "explanation": "Back-to-back Best Actor Oscars for Philadelphia (1993) and Forrest Gump (1994) — a feat only Spencer Tracy had managed before him.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb013",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Four young men from Liverpool — John, Paul, George and Ringo. Name the band, and the year they finally went their separate ways.",
+      "answer": "The Beatles, 1970",
+      "accept": [
+        "The Beatles / 1970",
+        "Beatles, 1970",
+        "Beatles — 1970"
+      ],
+      "explanation": "Formed in Liverpool around 1960; Ringo joined in 1962; broke up in 1970 after Let It Be.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb014",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Paul McCartney has said the melody for this Beatles song came to him in a dream, and he initially called it 'Scrambled Eggs.' Which song?",
+      "answer": "Yesterday",
+      "accept": [
+        "Yesterday"
+      ],
+      "explanation": "One of the most covered songs in popular music history.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb016",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "In 2016, the Swedish Academy gave the Nobel Prize in Literature to a musician 'for having created new poetic expressions within the great American song tradition.' Name him.",
+      "answer": "Bob Dylan",
+      "accept": [
+        "Bob Dylan",
+        "Dylan"
+      ],
+      "explanation": "Blowin' in the Wind, Like a Rolling Stone, The Times They Are a-Changin'. He famously took weeks to acknowledge the prize.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb017",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Released in 1982 and produced by Quincy Jones, this album is widely cited as the best-selling album of all time. Name the album and the artist.",
+      "answer": "Thriller, by Michael Jackson",
+      "accept": [
+        "Thriller / Michael Jackson",
+        "Michael Jackson, Thriller",
+        "Thriller — MJ"
+      ],
+      "explanation": "Beat It, Billie Jean, Wanna Be Startin' Somethin', and the title track with its 14-minute music video.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb018",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Queen's six-minute single from 1975, with its operatic middle section, was famously revived in popularity by the 1992 film Wayne's World. Name the song.",
+      "answer": "Bohemian Rhapsody",
+      "accept": [
+        "Bohemian Rhapsody"
+      ],
+      "explanation": "Sometimes called 'mock opera.' Number one in the UK twice — on release and again after Freddie Mercury's death in 1991.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb019",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "difficulty": 3,
+      "question": "On 13 July 1985, two concerts ran simultaneously at Wembley and JFK Stadium, Philadelphia, to raise money for Ethiopian famine relief. Queen's set is often cited as the greatest live performance ever. Name the event.",
+      "answer": "Live Aid",
+      "accept": [
+        "Live Aid"
+      ],
+      "explanation": "Organised by Bob Geldof and Midge Ure. An estimated 1.9 billion people watched live.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb020",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Roger Waters, David Gilmour, Nick Mason and Rick Wright. The Dark Side of the Moon, The Wall, Wish You Were Here. Name the band.",
+      "answer": "Pink Floyd",
+      "accept": [
+        "Pink Floyd",
+        "Floyd"
+      ],
+      "explanation": "The Dark Side of the Moon spent over 900 weeks on the Billboard 200 — a record nobody else is close to.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb021",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Swedish quartet, won Eurovision 1974 with 'Waterloo', and resurfaced four decades later as a 'voyage' of digital avatars. Name the band.",
+      "answer": "ABBA",
+      "accept": [
+        "ABBA"
+      ],
+      "explanation": "Agnetha, Björn, Benny, Anni-Frid. The Mamma Mia musical and films keep the songs in every karaoke night to this day.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb022",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "This Austrian child prodigy composed his first symphony at the age of eight and died in Vienna in 1791 aged just 35, leaving behind The Magic Flute and Don Giovanni. Name him.",
+      "answer": "Wolfgang Amadeus Mozart",
+      "accept": [
+        "Mozart",
+        "Wolfgang Amadeus Mozart"
+      ],
+      "explanation": "Buried in an unmarked grave; Salieri got an unfair amount of the blame thanks to the film Amadeus.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb023",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This composer wrote his ninth and final symphony — including the choral 'Ode to Joy' — after he had gone completely deaf. Name him.",
+      "answer": "Ludwig van Beethoven",
+      "accept": [
+        "Beethoven",
+        "Ludwig van Beethoven"
+      ],
+      "explanation": "The Ninth's choral finale uses Schiller's poem; the EU adopted it as its anthem in 1972.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb024",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "difficulty": 3,
+      "question": "This famous opera house in Milan, which opened in 1778 and rebuilt after WWII, takes its name from the church of Santa Maria della Scala that once stood on the site. Name it.",
+      "answer": "La Scala",
+      "accept": [
+        "La Scala",
+        "Teatro alla Scala"
+      ],
+      "explanation": "Pavarotti, Callas, Toscanini — the great names of opera all passed through La Scala.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb025",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Jamaican reggae icon whose songs 'No Woman, No Cry', 'One Love' and 'Redemption Song' made him a global figure. Name him.",
+      "answer": "Bob Marley",
+      "accept": [
+        "Bob Marley",
+        "Marley"
+      ],
+      "explanation": "Died of cancer in 1981 at just 36. The compilation Legend has sold over 30 million copies.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb026",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "On 22 June 1986, in a World Cup quarter-final against England in Mexico City, an Argentine forward scored twice — once with his fist, once after dribbling past half the team. Name him.",
+      "answer": "Diego Maradona",
+      "accept": [
+        "Diego Maradona",
+        "Maradona"
+      ],
+      "explanation": "The 'Hand of God' and the 'Goal of the Century' — both in the same six-minute spell. Argentina won the tournament.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb027",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Brazil has won the football World Cup more times than any other country. How many times?",
+      "answer": "Five",
+      "accept": [
+        "5",
+        "Five",
+        "5 times"
+      ],
+      "explanation": "1958, 1962, 1970, 1994 and 2002. Germany and Italy have four each; Argentina three.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb028",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "In December 2022, this Argentine forward finally lifted the World Cup at the Lusail Stadium in Qatar, beating France on penalties. Name him.",
+      "answer": "Lionel Messi",
+      "accept": [
+        "Lionel Messi",
+        "Messi"
+      ],
+      "explanation": "Eight Ballons d'Or, a Copa América title in 2021, and finally the World Cup at his fifth attempt.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb029",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "In the 90th minute of the 2006 World Cup final, this French captain was sent off for headbutting Italy's Marco Materazzi in the chest. France went on to lose on penalties. Name him.",
+      "answer": "Zinedine Zidane",
+      "accept": [
+        "Zinedine Zidane",
+        "Zidane"
+      ],
+      "explanation": "It was the final act of his career. Italy won; Zidane was strangely still awarded the Golden Ball.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb030",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "The modern Olympic Games were revived in this European capital in 1896, chosen because it was the spiritual home of the ancient games. Which city?",
+      "answer": "Athens",
+      "accept": [
+        "Athens",
+        "Athens, Greece"
+      ],
+      "explanation": "Organised by Pierre de Coubertin, held at the rebuilt Panathenaic Stadium. The marathon was won, fittingly, by a Greek.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb031",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This Jamaican sprinter holds the world records for both the 100m and 200m, and won eight Olympic gold medals across three Games. Name him.",
+      "answer": "Usain Bolt",
+      "accept": [
+        "Usain Bolt",
+        "Bolt"
+      ],
+      "explanation": "100m record 9.58s, 200m record 19.19s, both set in Berlin 2009. The lightning-bolt pose is now universal shorthand for victory.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb033",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Federer, Nadal, Djokovic — between them they dominated men's tennis for two decades. What collective nickname did the sport's media give them?",
+      "answer": "The Big Three",
+      "accept": [
+        "The Big Three",
+        "Big Three"
+      ],
+      "explanation": "Combined, they have won over 60 Grand Slam singles titles.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb034",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Of the four tennis Grand Slams, only one is still played on grass courts. Name it, and the suburb of London where it's held.",
+      "answer": "Wimbledon (in the suburb of Wimbledon)",
+      "accept": [
+        "Wimbledon",
+        "Wimbledon, London"
+      ],
+      "explanation": "The All England Lawn Tennis and Croquet Club; oldest of the four Slams, founded in 1877.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb035",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This American tennis player won 23 Grand Slam singles titles in the Open Era, including a famous 2017 Australian Open won while in the early stages of pregnancy. Name her.",
+      "answer": "Serena Williams",
+      "accept": [
+        "Serena Williams",
+        "Serena"
+      ],
+      "explanation": "Sister Venus has seven; together they revolutionised the women's game from the late 1990s onward.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb036",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "The biennial Test cricket series between England and Australia is named after the burnt remains of a bail kept in a small urn at Lord's. What's the series called?",
+      "answer": "The Ashes",
+      "accept": [
+        "The Ashes",
+        "Ashes"
+      ],
+      "explanation": "First played in 1882-83 after a mock obituary in The Sporting Times declared English cricket dead.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb037",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "He needed only four runs from his final Test innings to retire with a career batting average of 100 — but was bowled by Eric Hollies for a duck, leaving him on 99.94. Name him.",
+      "answer": "Don Bradman",
+      "accept": [
+        "Don Bradman",
+        "Bradman",
+        "Sir Donald Bradman"
+      ],
+      "explanation": "The Oval, August 1948. A statistical outlier the sport will probably never see again.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb038",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This German driver and this British driver share the all-time Formula One record for most World Championships — seven each. Name both.",
+      "answer": "Michael Schumacher and Lewis Hamilton",
+      "accept": [
+        "Schumacher and Hamilton",
+        "Michael Schumacher / Lewis Hamilton"
+      ],
+      "explanation": "Schumacher: 1994-95, 2000-04. Hamilton: 2008, 2014-15, 2017-20.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb039",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "On 1 May 1994, this three-time F1 world champion crashed at the Tamburello corner of the San Marino Grand Prix at Imola and died from his injuries. Name him.",
+      "answer": "Ayrton Senna",
+      "accept": [
+        "Ayrton Senna",
+        "Senna"
+      ],
+      "explanation": "Brazilian, champion in 1988, 1990 and 1991. His death prompted the biggest safety overhaul in F1 history.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb040",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "On 30 October 1974, in Kinshasa, this American boxer reclaimed the world heavyweight title from George Foreman using a 'rope-a-dope' tactic. Name the boxer and the famous nickname for the fight.",
+      "answer": "Muhammad Ali — the Rumble in the Jungle",
+      "accept": [
+        "Muhammad Ali / Rumble in the Jungle",
+        "Ali, Rumble in the Jungle"
+      ],
+      "explanation": "Ali was a 4-1 underdog. Promoter Don King put it together in what was then Zaire.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb042",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "difficulty": 3,
+      "question": "Apple was founded in 1976 by Steve Jobs, Steve Wozniak and a third co-founder who famously sold his 10 percent stake within weeks for $800. Name him.",
+      "answer": "Ronald Wayne",
+      "accept": [
+        "Ronald Wayne",
+        "Ron Wayne",
+        "Wayne"
+      ],
+      "explanation": "That stake would today be worth hundreds of billions. Wayne has said he doesn't regret it.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb043",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Microsoft was co-founded in 1975 by Bill Gates and this childhood friend, who left the company in 1983 after a Hodgkin's lymphoma diagnosis. Name him.",
+      "answer": "Paul Allen",
+      "accept": [
+        "Paul Allen",
+        "Allen"
+      ],
+      "explanation": "Allen later owned the Portland Trail Blazers and the Seattle Seahawks; died in 2018.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb044",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Larry Page and Sergey Brin founded this company in 1998 while PhD students at Stanford, originally calling their search project 'BackRub'. Name the company.",
+      "answer": "Google",
+      "accept": [
+        "Google",
+        "Google (Alphabet)"
+      ],
+      "explanation": "Restructured under the holding company Alphabet in 2015.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb045",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This American company was founded by Jeff Bezos in 1994 in a Bellevue, Washington garage as an online bookseller, named after the world's largest river. Name it.",
+      "answer": "Amazon",
+      "accept": [
+        "Amazon",
+        "Amazon.com"
+      ],
+      "explanation": "Bezos relocated from New York to Bellevue (just east of Seattle) and started the company as 'Cadabra' in July 1994 before renaming it Amazon. He chose the name partly so the company would appear early in alphabetical listings.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb048",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Walt Disney and his brother founded their animation studio in 1923. What was his brother's name, and in what year did Mickey Mouse make his debut in Steamboat Willie?",
+      "answer": "Roy O. Disney; 1928",
+      "accept": [
+        "Roy Disney, 1928",
+        "Roy / 1928"
+      ],
+      "explanation": "Roy ran the business side for decades while Walt handled the creative end.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb049",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Henry Ford's affordable mass-produced car, launched in 1908 and built on a moving assembly line, came in any colour as long as it was black. Name it.",
+      "answer": "Ford Model T",
+      "accept": [
+        "Model T",
+        "Ford Model T"
+      ],
+      "explanation": "Over 15 million sold by the time production ended in 1927.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb050",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "This French fashion designer, born in 1883, gave the world the little black dress, costume jewellery, and a perfume known by her name and the number five. Name her.",
+      "answer": "Coco Chanel",
+      "accept": [
+        "Coco Chanel",
+        "Chanel",
+        "Gabrielle Chanel"
+      ],
+      "explanation": "Born Gabrielle Bonheur Chanel; the No. 5 perfume launched in 1921.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb051",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "His equation E=mc² and his theory of relativity made him a household name; the 1921 Nobel Prize in Physics he received was actually for explaining the photoelectric effect. Name him.",
+      "answer": "Albert Einstein",
+      "accept": [
+        "Albert Einstein",
+        "Einstein"
+      ],
+      "explanation": "Special relativity (1905), general relativity (1915), Nobel announced in 1922 for 1921.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb052",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "English physicist and mathematician who set out three laws of motion and is said to have been inspired by an apple falling in his mother's garden. Name him.",
+      "answer": "Isaac Newton",
+      "accept": [
+        "Isaac Newton",
+        "Newton",
+        "Sir Isaac Newton"
+      ],
+      "explanation": "Principia Mathematica (1687); also co-invented calculus, more or less simultaneously with Leibniz.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb053",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Polish-French scientist who won the Nobel in Physics in 1903 and the Nobel in Chemistry in 1911 — the first person ever to win Nobels in two different sciences. Name her.",
+      "answer": "Marie Curie",
+      "accept": [
+        "Marie Curie",
+        "Marie Skłodowska-Curie",
+        "Curie"
+      ],
+      "explanation": "Discovered polonium (named for her native Poland) and radium. She remains the only person to have won Nobel Prizes in two different sciences; Linus Pauling also won two unshared Nobels but his second was the Peace Prize.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb054",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "This English naturalist's voyage aboard HMS Beagle, especially his observations of finches in the Galápagos Islands, led to On the Origin of Species in 1859. Name him.",
+      "answer": "Charles Darwin",
+      "accept": [
+        "Charles Darwin",
+        "Darwin"
+      ],
+      "explanation": "Alfred Russel Wallace independently arrived at a similar theory — which was what finally pushed Darwin to publish.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb055",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "On 12 April 1961, this Soviet cosmonaut became the first human to journey into outer space, completing one orbit of Earth aboard Vostok 1. Name him.",
+      "answer": "Yuri Gagarin",
+      "accept": [
+        "Yuri Gagarin",
+        "Gagarin"
+      ],
+      "explanation": "The flight lasted 108 minutes. Gagarin died in a plane crash seven years later.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb056",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "On 20 July 1969, this Apollo 11 commander became the first human to set foot on the Moon, with Buzz Aldrin joining him soon after. Name him.",
+      "answer": "Neil Armstrong",
+      "accept": [
+        "Neil Armstrong",
+        "Armstrong"
+      ],
+      "explanation": "Michael Collins stayed in lunar orbit aboard the command module Columbia.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb057",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Scottish bacteriologist who, returning from holiday in 1928, noticed that a mould had killed bacteria in a forgotten Petri dish, leading to the discovery of penicillin. Name him.",
+      "answer": "Alexander Fleming",
+      "accept": [
+        "Alexander Fleming",
+        "Fleming",
+        "Sir Alexander Fleming"
+      ],
+      "explanation": "Shared the 1945 Nobel in Physiology or Medicine with Howard Florey and Ernst Chain, who developed it into a usable drug.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb058",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "The double-helix structure of DNA was published in Nature in 1953 by these two scientists at Cambridge, drawing crucially on Rosalind Franklin's X-ray data. Name both.",
+      "answer": "James Watson and Francis Crick",
+      "accept": [
+        "Watson and Crick",
+        "James Watson / Francis Crick"
+      ],
+      "explanation": "Franklin's 'Photo 51' was shown to them without her permission; she died in 1958 and never shared the 1962 Nobel.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb059",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "English playwright born in Stratford-upon-Avon in 1564, credited with around 37 plays including Hamlet, Macbeth and Romeo and Juliet. Name him.",
+      "answer": "William Shakespeare",
+      "accept": [
+        "William Shakespeare",
+        "Shakespeare"
+      ],
+      "explanation": "Also wrote 154 sonnets. Died on 23 April 1616 — quite possibly his own birthday, though we can't be sure.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb060",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "This Colombian novelist's 1967 masterpiece One Hundred Years of Solitude, about seven generations of the Buendía family in the town of Macondo, won him the 1982 Nobel Prize in Literature. Name him.",
+      "answer": "Gabriel García Márquez",
+      "accept": [
+        "Gabriel García Márquez",
+        "García Márquez",
+        "Garcia Marquez",
+        "Gabo"
+      ],
+      "explanation": "The defining work of magical realism. Affectionately known throughout the Spanish-speaking world as 'Gabo.'",
+      "created": "2026-05-23"
+    }
+  ]
+}

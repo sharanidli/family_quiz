@@ -1,0 +1,258 @@
+{
+  "batch": "world_b",
+  "reviewed": 60,
+  "accepted": 58,
+  "patched": 2,
+  "dropped": 0,
+  "verdicts": [
+    {
+      "id": "wb001",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb002",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb003",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb004",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb005",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb006",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb007",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb008",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb009",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb010",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb011",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb012",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb013",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb014",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb015",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb016",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb017",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb018",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb019",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb020",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb021",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb022",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb023",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb024",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb025",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb026",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb027",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb028",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb029",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb030",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb031",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb032",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb033",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb034",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb035",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb036",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb037",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb038",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb039",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb040",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb041",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb042",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb043",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb044",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb045",
+      "verdict": "patch",
+      "issue": "Amazon was founded in Bellevue, WA (Bezos's rented house garage there), not Seattle. The Seattle-garage claim is a common misconception.",
+      "fix": {
+        "question": "This American company was founded by Jeff Bezos in 1994 in a Bellevue, Washington garage as an online bookseller, named after the world's largest river. Name it.",
+        "explanation": "Bezos relocated from New York to Bellevue (just east of Seattle) and started the company as 'Cadabra' in July 1994 before renaming it Amazon. He chose the name partly so the company would appear early in alphabetical listings."
+      }
+    },
+    {
+      "id": "wb046",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb047",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb048",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb049",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb050",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb051",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb052",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb053",
+      "verdict": "patch",
+      "issue": "The explanation is self-contradictory and factually wrong about Pauling. Pauling's two Nobels were Chemistry (1954) and Peace (1962) — Peace is not a science. Marie Curie remains the ONLY person to have won Nobels in two different sciences.",
+      "fix": {
+        "explanation": "Discovered polonium (named for her native Poland) and radium. She remains the only person to have won Nobel Prizes in two different sciences; Linus Pauling also won two unshared Nobels but his second was the Peace Prize."
+      }
+    },
+    {
+      "id": "wb054",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb055",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb056",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb057",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb058",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb059",
+      "verdict": "accept"
+    },
+    {
+      "id": "wb060",
+      "verdict": "accept"
+    }
+  ]
+}

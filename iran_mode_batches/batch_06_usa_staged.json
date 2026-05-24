@@ -1,0 +1,840 @@
+{
+  "batch": "usa",
+  "count": 50,
+  "accepted": 48,
+  "patched": 2,
+  "dropped": 0,
+  "overrides": 0,
+  "questions": [
+    {
+      "id": "us001",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "He was the first President of the United States, refused to belong to any political party, and his face is on the one-dollar bill. Name him.",
+      "answer": "George Washington",
+      "accept": [
+        "george washington",
+        "washington"
+      ],
+      "explanation": "President 1789-1797; the only US president elected without a party affiliation.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us002",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "16th US President, he issued the Emancipation Proclamation in 1863 and was shot at Ford's Theatre in Washington on April 14, 1865. Name him.",
+      "answer": "Abraham Lincoln",
+      "accept": [
+        "abraham lincoln",
+        "lincoln",
+        "abe lincoln"
+      ],
+      "explanation": "Shot by John Wilkes Booth on Good Friday 1865; died the next morning.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us003",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "3rd US President, principal author of the Declaration of Independence in 1776, and the man behind the 1803 Louisiana Purchase that doubled the size of the country. Name him.",
+      "answer": "Thomas Jefferson",
+      "accept": [
+        "thomas jefferson",
+        "jefferson"
+      ],
+      "explanation": "Bought 828,000 square miles from Napoleon for about 15 million dollars.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us004",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "He led a volunteer cavalry unit called the Rough Riders in the Spanish-American War, became the youngest US president at 42, and his face is one of the four on Mount Rushmore. Name him.",
+      "answer": "Theodore Roosevelt",
+      "accept": [
+        "theodore roosevelt",
+        "teddy roosevelt",
+        "t. roosevelt",
+        "roosevelt"
+      ],
+      "explanation": "President 1901-1909, after McKinley's assassination; the teddy bear is named after him.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us005",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "The only US president elected to four terms, he led the country through the Great Depression with his New Deal programmes and through most of World War II from a wheelchair, having been paralysed by polio. Name him.",
+      "answer": "Franklin D. Roosevelt",
+      "accept": [
+        "franklin d roosevelt",
+        "franklin roosevelt",
+        "fdr",
+        "franklin delano roosevelt"
+      ],
+      "explanation": "Elected 1932, 1936, 1940, 1944; died April 1945 just before VE Day.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us006",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "35th US President, he stared down the Soviets in the Cuban Missile Crisis of 1962 and was assassinated in Dallas the following year. Name him.",
+      "answer": "John F. Kennedy",
+      "accept": [
+        "john f kennedy",
+        "jfk",
+        "john kennedy",
+        "kennedy",
+        "john fitzgerald kennedy"
+      ],
+      "explanation": "Shot on November 22, 1963 while riding in an open car through Dealey Plaza.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us007",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Brought down by the Watergate scandal, he became the only US president ever to resign from office, in August 1974. Name him.",
+      "answer": "Richard Nixon",
+      "accept": [
+        "richard nixon",
+        "nixon",
+        "richard m nixon"
+      ],
+      "explanation": "Resigned rather than face certain impeachment over the cover-up of the 1972 break-in at the Democratic HQ.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us008",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Former Hollywood actor and California governor, this 40th US president stood at the Brandenburg Gate in 1987 and challenged Mikhail Gorbachev with the line, 'Tear down this wall!' Name him.",
+      "answer": "Ronald Reagan",
+      "accept": [
+        "ronald reagan",
+        "reagan"
+      ],
+      "explanation": "President 1981-1989; the Berlin Wall fell two years later, in November 1989.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us009",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Elected in 2008 and again in 2012, this Hawaii-born former senator from Illinois became the first Black president of the United States. Name him.",
+      "answer": "Barack Obama",
+      "accept": [
+        "barack obama",
+        "obama",
+        "barack hussein obama"
+      ],
+      "explanation": "44th US president; previously a constitutional law lecturer at the University of Chicago.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us010",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Carved into a granite mountain in South Dakota, this monument shows the 60-foot faces of Washington, Jefferson, Theodore Roosevelt and Lincoln. Name the monument.",
+      "answer": "Mount Rushmore",
+      "accept": [
+        "mount rushmore",
+        "mt rushmore",
+        "rushmore",
+        "mount rushmore national memorial"
+      ],
+      "explanation": "Sculpted by Gutzon Borglum and his son between 1927 and 1941.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us011",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "He wore number 23 for the Chicago Bulls, won six NBA championships in the 1990s, and is widely regarded as the greatest basketball player of all time. Name him.",
+      "answer": "Michael Jordan",
+      "accept": [
+        "michael jordan",
+        "jordan",
+        "mj",
+        "his airness"
+      ],
+      "explanation": "Two three-peats with the Bulls: 1991-93 and 1996-98; six Finals MVPs.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us012",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Drafted straight out of high school in 1996, this Los Angeles Lakers great won five NBA titles before dying in a helicopter crash in January 2020 alongside his daughter Gianna. Name him.",
+      "answer": "Kobe Bryant",
+      "accept": [
+        "kobe bryant",
+        "kobe",
+        "bryant",
+        "black mamba"
+      ],
+      "explanation": "Spent his entire 20-year career with the Lakers; jerseys 8 and 24 both retired by the team.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us013",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Point guard for the Golden State Warriors, he has redefined basketball by shooting threes from absurd distances and holds the NBA's all-time three-point record. Name him.",
+      "answer": "Stephen Curry",
+      "accept": [
+        "stephen curry",
+        "steph curry",
+        "curry",
+        "steph"
+      ],
+      "explanation": "Four-time NBA champion with the Warriors; son of former NBA player Dell Curry.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us014",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "The championship game of the NFL, first played in 1967 and now an unofficial American national holiday, with the winners lifting the Vince Lombardi Trophy. Name the game.",
+      "answer": "The Super Bowl",
+      "accept": [
+        "super bowl",
+        "the super bowl",
+        "superbowl"
+      ],
+      "explanation": "Super Bowl I in January 1967 was won by Vince Lombardi's Green Bay Packers, hence the trophy name.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us015",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "Quarterback who won seven Super Bowls, six with the New England Patriots and a seventh with the Tampa Bay Buccaneers, making him the most successful player in NFL history. Name him.",
+      "answer": "Tom Brady",
+      "accept": [
+        "tom brady",
+        "brady",
+        "thomas brady"
+      ],
+      "explanation": "Drafted in the 6th round in 2000 as the 199th pick; retired in 2023.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us016",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Known as the Sultan of Swat, this New York Yankees slugger of the 1920s and '30s remains baseball's most iconic figure. Name him.",
+      "answer": "Babe Ruth",
+      "accept": [
+        "babe ruth",
+        "ruth",
+        "george herman ruth",
+        "the babe"
+      ],
+      "explanation": "714 career home runs, a .342 lifetime batting average and seven World Series titles.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us017",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "African-American sprinter and long jumper who infuriated Adolf Hitler by winning four gold medals at the 1936 Berlin Olympics. Name him.",
+      "answer": "Jesse Owens",
+      "accept": [
+        "jesse owens",
+        "owens",
+        "james cleveland owens"
+      ],
+      "explanation": "Won 100m, 200m, long jump and 4x100m relay; born in Alabama, ran for Ohio State.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us018",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "American swimmer with 28 Olympic medals, including 23 golds, across four Games from 2004 to 2016 — the most decorated Olympian in history. Name him.",
+      "answer": "Michael Phelps",
+      "accept": [
+        "michael phelps",
+        "phelps"
+      ],
+      "explanation": "Famously won eight golds at a single Games in Beijing 2008.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us019",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "Born Cassius Clay in Louisville, Kentucky, this three-time world heavyweight boxing champion converted to Islam in 1964 and refused to fight in Vietnam. Name him.",
+      "answer": "Muhammad Ali",
+      "accept": [
+        "muhammad ali",
+        "ali",
+        "cassius clay"
+      ],
+      "explanation": "'Float like a butterfly, sting like a bee'; light heavyweight gold at Rome 1960.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us020",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Golfer with 15 major championships, second only to Jack Nicklaus, who returned to win the Masters in 2019 after years of back surgery. Name him.",
+      "answer": "Tiger Woods",
+      "accept": [
+        "tiger woods",
+        "tiger",
+        "eldrick woods"
+      ],
+      "explanation": "Won his first Masters in 1997 at age 21 by a record 12 strokes.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us021",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Annual Hollywood ceremony, first held in 1929, where the film industry hands out small gold statuettes for Best Picture and other awards. Name the awards.",
+      "answer": "The Academy Awards (Oscars)",
+      "accept": [
+        "the oscars",
+        "oscars",
+        "academy awards",
+        "the academy awards"
+      ],
+      "explanation": "Officially the Academy Awards; the nickname 'Oscar' for the statuette has been used since the 1930s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us022",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "1942 film set in a Moroccan cafe during World War II, starring Humphrey Bogart and Ingrid Bergman, with the immortal line, 'Here's looking at you, kid.' Which film?",
+      "answer": "Casablanca",
+      "accept": [
+        "casablanca"
+      ],
+      "explanation": "Directed by Michael Curtiz; won the Academy Award for Best Picture.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us023",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Orson Welles directed, co-wrote and starred in this 1941 film about a newspaper tycoon whose dying word is 'Rosebud'. Often called the greatest American film ever made. Which film?",
+      "answer": "Citizen Kane",
+      "accept": [
+        "citizen kane",
+        "kane"
+      ],
+      "explanation": "Welles was only 25 when he made it; the character Charles Foster Kane was loosely based on William Randolph Hearst.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us024",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "1994 film in which Tom Hanks plays a slow-witted Alabama man who somehow ends up at every major event in late 20th-century American history, and whose mother famously compared life to a box of chocolates. Which film?",
+      "answer": "Forrest Gump",
+      "accept": [
+        "forrest gump",
+        "gump"
+      ],
+      "explanation": "Directed by Robert Zemeckis; won six Oscars including Best Picture and Best Actor.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us025",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "Quentin Tarantino's 1994 crime film featuring interwoven Los Angeles stories, John Travolta and Samuel L. Jackson reciting Bible verses, and a memorable dance scene to Chuck Berry. Which film?",
+      "answer": "Pulp Fiction",
+      "accept": [
+        "pulp fiction"
+      ],
+      "explanation": "Won the Palme d'Or at Cannes and the Oscar for Best Original Screenplay.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us026",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "NBC sitcom that ran from 1994 to 2004, following six twenty-something friends in Manhattan hanging out in an apartment and a coffee shop called Central Perk. Name the show.",
+      "answer": "Friends",
+      "accept": [
+        "friends"
+      ],
+      "explanation": "Created by David Crane and Marta Kauffman; theme song 'I'll Be There for You' by The Rembrandts.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us027",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "AMC drama in which a high-school chemistry teacher in Albuquerque, diagnosed with cancer, begins cooking blue methamphetamine under the alias Heisenberg. Name the show.",
+      "answer": "Breaking Bad",
+      "accept": [
+        "breaking bad"
+      ],
+      "explanation": "Created by Vince Gilligan; ran 2008-2013, starring Bryan Cranston as Walter White.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us028",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Born Norma Jeane Mortenson in 1926, this Hollywood blonde sang 'Diamonds Are a Girl's Best Friend' and died in Los Angeles in 1962, aged just 36. Name her.",
+      "answer": "Marilyn Monroe",
+      "accept": [
+        "marilyn monroe",
+        "monroe",
+        "norma jeane mortenson",
+        "norma jeane baker"
+      ],
+      "explanation": "Famously sang 'Happy Birthday, Mr President' to JFK in May 1962.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us029",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "American actress with more Oscar nominations than anyone in history — 21 and counting — known for roles in Sophie's Choice, The Devil Wears Prada and Kramer vs. Kramer. Name her.",
+      "answer": "Meryl Streep",
+      "accept": [
+        "meryl streep",
+        "streep"
+      ],
+      "explanation": "Three Oscar wins: Kramer vs. Kramer (1979), Sophie's Choice (1982) and The Iron Lady (2011).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us030",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "The pavement stretch in Los Angeles, lined with more than 2,700 pink terrazzo-and-brass stars honouring entertainers, that tourists walk along by the thousand. Name it.",
+      "answer": "Hollywood Walk of Fame",
+      "accept": [
+        "hollywood walk of fame",
+        "walk of fame",
+        "the walk of fame"
+      ],
+      "explanation": "Stretches about 1.3 miles along Hollywood Boulevard and 0.4 miles of Vine Street; more than 2,800 stars; first permanent star laid in 1960.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us031",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Document adopted on July 4, 1776 in Philadelphia, in which 13 American colonies announced they were breaking away from Great Britain. Name the document.",
+      "answer": "The Declaration of Independence",
+      "accept": [
+        "declaration of independence",
+        "the declaration of independence",
+        "us declaration of independence"
+      ],
+      "explanation": "Drafted mainly by Thomas Jefferson; July 4 is celebrated as Independence Day.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us032",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Fought from 1861 to 1865 between the Union and the Confederacy, with a turning-point battle at Gettysburg in July 1863. Name this war.",
+      "answer": "The American Civil War",
+      "accept": [
+        "american civil war",
+        "the american civil war",
+        "us civil war",
+        "civil war"
+      ],
+      "explanation": "Ended with Confederate general Robert E. Lee's surrender to Ulysses S. Grant at Appomattox Court House in April 1865.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us033",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "These two became the 49th and 50th US states within months of each other in 1959, making the United States complete. Name both.",
+      "answer": "Alaska and Hawaii",
+      "accept": [
+        "alaska and hawaii",
+        "hawaii and alaska",
+        "alaska, hawaii",
+        "hawaii, alaska"
+      ],
+      "explanation": "Alaska admitted Jan 3, 1959; Hawaii admitted Aug 21, 1959.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us034",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "The largest US state by area is this Arctic giant bought from Russia in 1867; the largest by population is this sunny west-coast state. Name both.",
+      "answer": "Alaska (largest by area) and California (largest by population)",
+      "accept": [
+        "alaska and california",
+        "california and alaska",
+        "alaska, california",
+        "california, alaska"
+      ],
+      "explanation": "Alaska covers about 663,000 square miles; California has roughly 39 million people.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us035",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "A gift from France dedicated in 1886, this 305-foot copper figure stands on a small island in New York Harbour holding a torch and a tablet inscribed July 4, 1776. Name it.",
+      "answer": "The Statue of Liberty",
+      "accept": [
+        "statue of liberty",
+        "the statue of liberty",
+        "lady liberty",
+        "liberty enlightening the world"
+      ],
+      "explanation": "Designed by Frederic Auguste Bartholdi; the internal iron framework was built by Gustave Eiffel.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us036",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Carved over millions of years by a river of the same name in northern Arizona, this 277-mile-long gash in the Earth is one of America's most spectacular natural sights. Name it.",
+      "answer": "The Grand Canyon",
+      "accept": [
+        "grand canyon",
+        "the grand canyon"
+      ],
+      "explanation": "Up to 18 miles wide and over a mile deep; carved by the Colorado River.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us037",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Established in 1872 across parts of Wyoming, Montana and Idaho, this was the world's first national park, famous for the geyser Old Faithful. Name the park.",
+      "answer": "Yellowstone National Park",
+      "accept": [
+        "yellowstone",
+        "yellowstone national park"
+      ],
+      "explanation": "Signed into law by President Ulysses S. Grant; sits atop a giant volcanic caldera.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us038",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Longest river system in North America (with its main tributary the Missouri), it drains all or parts of 32 US states and flows down through Memphis and New Orleans into the Gulf of Mexico. Name it.",
+      "answer": "The Mississippi River",
+      "accept": [
+        "mississippi",
+        "mississippi river",
+        "the mississippi",
+        "the mississippi river"
+      ],
+      "explanation": "About 2,340 miles long; with the Missouri it forms the longest river system in North America; immortalised by Mark Twain in his Huck Finn stories.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us039",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "December 1773 act of protest in which American colonists, disguised as Mohawks, dumped 342 chests of East India Company tea into a Massachusetts harbour. Name the event.",
+      "answer": "The Boston Tea Party",
+      "accept": [
+        "boston tea party",
+        "the boston tea party"
+      ],
+      "explanation": "A protest against the Tea Act and the slogan 'no taxation without representation'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us040",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Co-founder of Apple, born in San Francisco in 1955 and adopted as a baby, he introduced the iPhone in 2007 and died of pancreatic cancer in 2011. Name him.",
+      "answer": "Steve Jobs",
+      "accept": [
+        "steve jobs",
+        "jobs",
+        "steven jobs",
+        "steven paul jobs"
+      ],
+      "explanation": "His biological father, Abdulfattah Jandali, was a Syrian immigrant.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us041",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Born in Seattle in 1955, he co-founded Microsoft with Paul Allen in 1975 and went on to lead one of the world's biggest philanthropic foundations with his then-wife Melinda. Name him.",
+      "answer": "Bill Gates",
+      "accept": [
+        "bill gates",
+        "gates",
+        "william gates",
+        "william henry gates"
+      ],
+      "explanation": "Same year of birth as Steve Jobs; Microsoft's first big break was selling MS-DOS to IBM.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us042",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "He launched 'Thefacebook' from his Harvard dorm room in February 2004 and is now the CEO of the parent company Meta. Name him.",
+      "answer": "Mark Zuckerberg",
+      "accept": [
+        "mark zuckerberg",
+        "zuckerberg",
+        "zuck"
+      ],
+      "explanation": "Facebook went public in 2012 and rebranded its parent as Meta in 2021.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us043",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "Eight-block-long street in Lower Manhattan that has become a global byword for American finance and the home of the New York Stock Exchange. Name the street.",
+      "answer": "Wall Street",
+      "accept": [
+        "wall street",
+        "wallstreet"
+      ],
+      "explanation": "Named after a 17th-century Dutch defensive wall on the northern edge of New Amsterdam.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us044",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Created in Atlanta, Georgia in 1886 by pharmacist John Pemberton as a patent medicine, this fizzy brown drink is now sold in more than 200 countries. Name the brand.",
+      "answer": "Coca-Cola",
+      "accept": [
+        "coca-cola",
+        "coca cola",
+        "coke",
+        "cocacola"
+      ],
+      "explanation": "Originally contained a small amount of cocaine, removed by the early 1900s; the secret formula is reputedly kept in a vault in Atlanta.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us045",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Travelling salesman who saw a small burger stand run by two brothers in San Bernardino, California, bought the franchising rights in 1955, and turned the golden arches into a global empire. Name him.",
+      "answer": "Ray Kroc",
+      "accept": [
+        "ray kroc",
+        "kroc",
+        "raymond kroc"
+      ],
+      "explanation": "The brothers were Richard and Maurice McDonald; Kroc later bought them out for 2.7 million dollars.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us046",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Singer born in Tupelo, Mississippi in 1935 and crowned the King of Rock and Roll; his Memphis mansion Graceland is now a museum. Name him.",
+      "answer": "Elvis Presley",
+      "accept": [
+        "elvis presley",
+        "elvis",
+        "presley",
+        "the king"
+      ],
+      "explanation": "Died at Graceland in August 1977, aged 42.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us047",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Singer born in Hoboken, New Jersey in 1915, Rat Pack frontman and crooner of 'My Way', 'New York, New York' and 'Fly Me to the Moon'. Name him.",
+      "answer": "Frank Sinatra",
+      "accept": [
+        "frank sinatra",
+        "sinatra",
+        "ol blue eyes",
+        "ol' blue eyes"
+      ],
+      "explanation": "Nicknamed Ol' Blue Eyes and The Voice; also won an Oscar for From Here to Eternity.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us048",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Houston-born singer who shot to fame with the group Destiny's Child before going solo with hits like 'Crazy in Love' and 'Single Ladies'. Name her.",
+      "answer": "Beyonce",
+      "accept": [
+        "beyonce",
+        "beyoncé",
+        "beyonce knowles",
+        "beyoncé knowles",
+        "queen bey"
+      ],
+      "explanation": "Married to rapper Jay-Z since 2008; the most Grammy-decorated artist in history.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us049",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "American holiday on the fourth Thursday of November, traditionally featuring a turkey dinner and supposedly commemorating a 1621 harvest feast shared by Pilgrims and Wampanoag at Plymouth. Name the holiday.",
+      "answer": "Thanksgiving",
+      "accept": [
+        "thanksgiving",
+        "thanksgiving day"
+      ],
+      "explanation": "Made a federal holiday by Abraham Lincoln in 1863; the day after is the shopping bonanza known as Black Friday.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us050",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "Founded in 1923 by two brothers in Hollywood, this entertainment company gave the world Mickey Mouse, Snow White and an empire of theme parks. Name the company.",
+      "answer": "The Walt Disney Company",
+      "accept": [
+        "disney",
+        "walt disney",
+        "the walt disney company",
+        "walt disney company",
+        "disney company"
+      ],
+      "explanation": "Founded by brothers Walt and Roy Disney; Mickey Mouse debuted in Steamboat Willie in 1928.",
+      "created": "2026-05-23"
+    }
+  ]
+}

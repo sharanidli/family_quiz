@@ -1,0 +1,323 @@
+{
+  "batch": "etymology",
+  "count": 30,
+  "questions": [
+    {
+      "id": "ey001",
+      "topic": "etymology",
+      "themes": ["etymology", "india_iran_bridge"],
+      "bid_eligible": true,
+      "question": "From the Persian 'pae-jamah' meaning 'leg-garment', and picked up by the British in colonial India, comes which English word for soft sleepwear?",
+      "answer": "Pajamas",
+      "accept": ["pajamas", "pyjamas", "pajama", "pyjama"],
+      "explanation": "Persian pae (leg) + jamah (garment); entered English from Hindi via British India around 1800.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey002",
+      "topic": "etymology",
+      "themes": ["etymology", "india_iran_bridge"],
+      "difficulty": 3,
+      "question": "Our English word 'paradise' comes from an Old Persian word, 'pairidaeza'. What did 'pairidaeza' literally mean?",
+      "answer": "A walled garden or enclosure",
+      "accept": ["walled garden", "enclosure", "enclosed garden", "walled park", "park", "garden"],
+      "explanation": "Avestan pairi- (around) + diz (to make a wall); travelled through Greek paradeisos to English.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey003",
+      "topic": "etymology",
+      "themes": ["etymology", "india_iran_bridge"],
+      "difficulty": 3,
+      "question": "Chess came to Europe from India via Persia. Our word 'checkmate' is a worn-down version of the Persian 'shah mat'. What does 'shah mat' literally mean?",
+      "answer": "The king is helpless (or stumped)",
+      "accept": ["the king is helpless", "king is helpless", "the king is stumped", "king is stumped", "the king is dead", "king is dead", "the king is defeated", "shah is helpless"],
+      "explanation": "Persian shah (king) + mat (helpless, astonished); often retold as 'the king is dead'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey004",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "bid_eligible": true,
+      "question": "From the Persian 'bazar' meaning 'a market', comes which English word for a busy marketplace or a charity fundraiser stall?",
+      "answer": "Bazaar",
+      "accept": ["bazaar", "bazar"],
+      "explanation": "From Persian bazar (market), via Italian bazarra, into English in the 1580s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey005",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "bid_eligible": true,
+      "question": "From the Persian 'karwan' meaning 'a group of desert travellers', comes which English word now used for both a procession of vehicles and a holiday trailer?",
+      "answer": "Caravan",
+      "accept": ["caravan"],
+      "explanation": "Persian karwan, picked up during the Crusades via Arabic qairawan.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey006",
+      "topic": "etymology",
+      "themes": ["etymology", "india_iran_bridge"],
+      "difficulty": 3,
+      "question": "When British army officers in India wanted a dust-coloured uniform that wouldn't show dirt, they borrowed the Persian word for 'dust' itself. What English word for a brownish-yellow colour did this give us?",
+      "answer": "Khaki",
+      "accept": ["khaki"],
+      "explanation": "From Urdu khaki ('dusty'), from Persian khak ('dust'); adopted for uniforms around 1857.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey007",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "question": "From the Persian 'kushk' meaning a pavilion or summer house, comes which English word now used for a small street stall selling newspapers or a touch-screen ordering booth?",
+      "answer": "Kiosk",
+      "accept": ["kiosk"],
+      "explanation": "Persian kushk to Turkish koshk to French kiosque; arrived in English in the 1620s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey008",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "question": "From the Persian 'sharbat' meaning 'a drink', comes which English word for a fruity frozen dessert?",
+      "answer": "Sherbet",
+      "accept": ["sherbet", "sherbert"],
+      "explanation": "Persian sharbat (from Arabic shariba, 'he drank'); also gave us 'syrup' and 'sorbet'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey009",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "difficulty": 3,
+      "question": "Our English word 'julep' comes from the Persian 'gulab'. What does 'gulab' literally mean? (Hint: 'gul' is a flower, 'ab' is water.)",
+      "answer": "Rose water",
+      "accept": ["rose water", "rosewater", "water of roses"],
+      "explanation": "Persian gul (rose) + ab (water); entered medical Latin as a syrupy medicine, later a minty drink.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey010",
+      "topic": "etymology",
+      "themes": ["etymology", "india_iran_bridge"],
+      "question": "From the Persian 'shal' (possibly named after a town in India where it was first made), comes which English word for a long piece of cloth worn around the shoulders?",
+      "answer": "Shawl",
+      "accept": ["shawl"],
+      "explanation": "Persian shal, possibly from Shaliat in India; English from the 1660s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey011",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "bid_eligible": true,
+      "question": "From the Persian 'pistah', through Greek and Italian, comes which English word for a green nut often used in ice cream and baklava?",
+      "answer": "Pistachio",
+      "accept": ["pistachio", "pistachios"],
+      "explanation": "Persian pistah, via Greek pistakion and Italian pistacchio; English from the 1590s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey012",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "question": "From the Persian 'espinaj', through Arabic and Spanish, comes which English word for the leafy green Popeye is famous for eating?",
+      "answer": "Spinach",
+      "accept": ["spinach"],
+      "explanation": "Persian aspanakh, via Arabic isbanakh and Andalusian Spanish.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey013",
+      "topic": "etymology",
+      "themes": ["etymology", "india_iran_bridge"],
+      "question": "From Sanskrit, through Persian 'narang' and Arabic 'naranj', comes which English word for a sweet citrus fruit? (The leading 'n' got eaten by a confused definite article along the way.)",
+      "answer": "Orange",
+      "accept": ["orange"],
+      "explanation": "Sanskrit naranga to Persian narang to Arabic naranj to Italian arancia; n- lost via confusion with articles.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey014",
+      "topic": "etymology",
+      "themes": ["etymology", "india_iran_bridge"],
+      "difficulty": 3,
+      "question": "From Sanskrit 'khanda' for a piece of sugar, through Persian 'qand' and Arabic 'qandi', we get the English word for sweets. What is it?",
+      "answer": "Candy",
+      "accept": ["candy", "candies"],
+      "explanation": "Sanskrit khanda to Persian qand (cane sugar) to Arabic qandi to Old French sucre candi.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey015",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "question": "From the Arabic 'al-jabr', meaning roughly 'the reunion of broken parts', and from a 9th-century treatise by the Baghdad mathematician al-Khwarizmi, comes which English word that strikes fear into school students everywhere?",
+      "answer": "Algebra",
+      "accept": ["algebra"],
+      "explanation": "From al-Khwarizmi's treatise on al-jabr wa al-muqabala (restoring and balancing).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey016",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "difficulty": 3,
+      "question": "The same 9th-century Baghdad mathematician al-Khwarizmi, whose name means 'native of Khwarazm', gave his name, in a mangled Latin form, to which modern English word now central to computing?",
+      "answer": "Algorithm",
+      "accept": ["algorithm", "algorithms"],
+      "explanation": "Medieval Latin algorismus, a garbled transliteration of al-Khwarizmi's name.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey017",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "difficulty": 3,
+      "question": "Our English word 'alcohol' comes from the Arabic 'al-kuhul'. What did 'al-kuhul' originally mean?",
+      "answer": "A fine powder (kohl, used as eye make-up)",
+      "accept": ["a fine powder", "fine powder", "kohl", "eye make-up", "eye makeup", "eye liner", "eyeliner", "powder for the eyes", "powder"],
+      "explanation": "Arabic al-kuhul meant the powdered antimony used as eye cosmetic; the meaning broadened to 'pure spirit of anything'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey018",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "question": "From the Arabic 'sifr', meaning 'empty' or 'nothing' (itself a translation of the Sanskrit 'shunya'), come two English words. One means 'a secret code'. What's the other, more numerical one?",
+      "answer": "Zero",
+      "accept": ["zero"],
+      "explanation": "Arabic sifr gave English both 'zero' and 'cipher'; the Arabs translated the Sanskrit concept shunya.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey019",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "question": "From the Arabic 'makhazin' meaning 'storehouses', comes which English word now used both for a periodical you read on the beach and for the part of a gun that holds bullets?",
+      "answer": "Magazine",
+      "accept": ["magazine", "magazines"],
+      "explanation": "Arabic makhazin (plural of makhzan, 'storehouse'), via Italian and French.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey020",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "bid_eligible": true,
+      "question": "From the Arabic 'suffah' meaning a bench of stone or wood with cushions, comes which English word for the long soft seat in your living room?",
+      "answer": "Sofa",
+      "accept": ["sofa", "sofas"],
+      "explanation": "Arabic suffah ('bench, couch'), via Turkish, in English from the 1620s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey021",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "difficulty": 3,
+      "question": "From the Arabic 'hashishin', the name Europeans gave to a particular Nizari Ismaili sect during the Crusades, comes which English word for someone who murders an important person?",
+      "answer": "Assassin",
+      "accept": ["assassin", "assassins"],
+      "explanation": "Arabic hashishin, name for the Nizari Ismaili sect; English from the 1530s via Italian.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey022",
+      "topic": "etymology",
+      "themes": ["etymology", "india_iran_bridge"],
+      "question": "From the Hindi verb 'champna' meaning 'to press or knead the muscles' (the imperative is 'champo'), comes which English word now found on every bottle in your bathroom?",
+      "answer": "Shampoo",
+      "accept": ["shampoo"],
+      "explanation": "Originally meant therapeutic head/body massage in Anglo-Indian English (1762); shifted to hair-washing by 1860.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey023",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "question": "From the Hindi 'bangla', literally meaning 'in the style of Bengal', referring to a low thatched house with a verandah, comes which English word for a single-storey house?",
+      "answer": "Bungalow",
+      "accept": ["bungalow", "bungalows"],
+      "explanation": "Hindi bangla via Gujarati bangalo; in Anglo-Indian use from the 1670s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey024",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "difficulty": 3,
+      "question": "From Hindi 'Jagannath', a title of Krishna meaning 'lord of the world', and the huge chariot at Puri that bears his image in procession, comes which English word for an unstoppable, crushing force?",
+      "answer": "Juggernaut",
+      "accept": ["juggernaut", "juggernauts"],
+      "explanation": "Sanskrit jagat (the world) + natha (lord); from the Puri chariot procession.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey025",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "bid_eligible": true,
+      "question": "From the Hindi 'lut' meaning 'to plunder', comes which short English word for stolen goods?",
+      "answer": "Loot",
+      "accept": ["loot"],
+      "explanation": "Hindi lut, from Sanskrit loptram ('booty'); entered English from Anglo-Indian usage in 1802.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey026",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "question": "From the Hindi 'thag' meaning a cheat or swindler, and the gangs of stranglers and robbers in India whom the British suppressed in the 1830s, comes which English word for a violent ruffian?",
+      "answer": "Thug",
+      "accept": ["thug", "thugs"],
+      "explanation": "Hindi/Marathi thag; the meaning generalised from the Indian gangs to any cutthroat by 1839.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey027",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "question": "From the Tamil 'kattu-maram', literally 'tied wood', comes which English word for a boat with two parallel hulls?",
+      "answer": "Catamaran",
+      "accept": ["catamaran", "catamarans"],
+      "explanation": "Tamil kattu (to tie) + maram (wood, tree); English from the 1670s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey028",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "question": "Named after the Indian seaport of Calicut, now called Kozhikode, on the Malabar coast, comes which English word for a printed cotton cloth?",
+      "answer": "Calico",
+      "accept": ["calico"],
+      "explanation": "From Calicut, an alternative form of the port-city name; English from the 1530s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey029",
+      "topic": "etymology",
+      "themes": ["etymology"],
+      "difficulty": 3,
+      "question": "Named after the city in northern Iraq where it was made, comes which English word for a fine, lightweight cotton fabric?",
+      "answer": "Muslin",
+      "accept": ["muslin"],
+      "explanation": "From Italian Mussolo, the Italian name for Mosul; English from around 1600.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey030",
+      "topic": "etymology",
+      "themes": ["etymology", "india_iran_bridge"],
+      "difficulty": 3,
+      "question": "From the Turkish 'ordu' meaning 'a camp or army' (the same word that gives the name of a language spoken in Pakistan), comes which English word for a vast, unruly crowd?",
+      "answer": "Horde",
+      "accept": ["horde", "hordes"],
+      "explanation": "Tatar urda / Turkish ordu ('camp, army'); same root gives the language name Urdu.",
+      "created": "2026-05-23"
+    }
+  ]
+}

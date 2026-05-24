@@ -14,6 +14,32 @@ const THEME_OPTIONS = [
   { id: 'languages',   label: 'Languages & Literature' },
 ];
 
+// Theme options shown when Iranian Mode is on. Picker filters out everything India-specific.
+const IRANIAN_THEME_OPTIONS = [
+  { id: 'world',              label: 'World / International' },
+  { id: 'usa',                label: 'USA' },
+  { id: 'etymology',          label: 'Word Origins' },
+  { id: 'india_iran_bridge',  label: 'India ↔ Iran' },
+];
+
+// In Iranian Mode, only questions tagged with these themes are eligible.
+// `iran_only` is further restricted to players in IRANIAN_PLAYERS below.
+const IRANIAN_MODE_THEMES = ['iran_only', 'india_iran_bridge', 'world', 'usa', 'etymology'];
+const IRANIAN_MODE_NON_IRANIAN_THEMES = ['india_iran_bridge', 'world', 'usa', 'etymology'];
+
+// Iranian player names (case-insensitive). Only these players can be served `iran_only`
+// questions. Other players in the game get bridge/world/usa/etymology only.
+const IRANIAN_PLAYERS = ['telli', 'taymaz'];
+
+function isIranianPlayer(player) {
+  if (!player) return false;
+  return IRANIAN_PLAYERS.includes((player.name || '').trim().toLowerCase());
+}
+
+function currentThemeOptions() {
+  return state.iranianMode ? IRANIAN_THEME_OPTIONS : THEME_OPTIONS;
+}
+
 const TIMER_SECONDS = 120;
 
 // Joy's Postcard — rotating openers the host says before each Long/Theme question
@@ -49,6 +75,7 @@ const state = {
   autoJudge: true,
   timerEnabled: false,
   avoidRepeats: true,
+  iranianMode: false,
   listening: false,
   recognition: null,
   heard: '',
@@ -117,10 +144,14 @@ function renderRounds() {
     const cells = [el('div', { class: 'label' }, roundLabel(r))];
 
     if (r.type === 'theme') {
+      const themeOpts = currentThemeOptions();
+      // If the round's theme isn't in the current option set (e.g. mode just toggled),
+      // snap to the first available theme to keep the round playable.
+      if (!themeOpts.some(o => o.id === r.theme)) r.theme = themeOpts[0].id;
       const sel = el('select', {
         onchange: (e) => { r.theme = e.target.value; },
       });
-      THEME_OPTIONS.forEach(opt => {
+      themeOpts.forEach(opt => {
         const o = el('option', { value: opt.id }, opt.label);
         if (opt.id === r.theme) o.selected = true;
         sel.appendChild(o);
@@ -205,9 +236,20 @@ function shuffle(arr) {
   return arr;
 }
 
+// When Iranian Mode is on, restricts the question pool to the Iranian-mode themes,
+// and further restricts `iran_only` to Telli/Taymaz turns.
+function iranianModeFilter() {
+  if (!state.iranianMode) return null;
+  const allowed = isIranianPlayer(state.players[state.currentPlayerIdx])
+    ? IRANIAN_MODE_THEMES
+    : IRANIAN_MODE_NON_IRANIAN_THEMES;
+  return (q) => Array.isArray(q.themes) && q.themes.some(t => allowed.includes(t));
+}
+
 function nextQuestion(opts = {}) {
   const { topic, bidEligible } = opts;
   const pool = topic ? poolForTheme(topic) : state.pool.all;
+  const modeFilter = iranianModeFilter();
 
   // Pass 1: unused this game AND unseen by this party
   if (state.avoidRepeats) {
@@ -215,6 +257,7 @@ function nextQuestion(opts = {}) {
       if (state.used.has(q.id)) continue;
       if (state.partySeen.has(q.id)) continue;
       if (bidEligible && !q.bid_eligible) continue;
+      if (modeFilter && !modeFilter(q)) continue;
       state.used.add(q.id);
       return q;
     }
@@ -223,6 +266,7 @@ function nextQuestion(opts = {}) {
   for (const q of pool) {
     if (state.used.has(q.id)) continue;
     if (bidEligible && !q.bid_eligible) continue;
+    if (modeFilter && !modeFilter(q)) continue;
     state.used.add(q.id);
     return q;
   }
@@ -230,14 +274,19 @@ function nextQuestion(opts = {}) {
   if (bidEligible) {
     for (const q of pool) {
       if (state.used.has(q.id)) continue;
+      if (modeFilter && !modeFilter(q)) continue;
       state.used.add(q.id);
       return q;
     }
   }
-  // Pass 4: any unused, any topic
+  // Pass 4: any unused, any topic — still honour the mode filter so we never
+  // serve an India-specific question in Iranian Mode.
   for (const q of state.questions) {
     if (q.callback) continue;
-    if (!state.used.has(q.id)) { state.used.add(q.id); return q; }
+    if (state.used.has(q.id)) continue;
+    if (modeFilter && !modeFilter(q)) continue;
+    state.used.add(q.id);
+    return q;
   }
   return null;
 }
@@ -731,7 +780,7 @@ async function startRound() {
   if (r.type === 'long') {
     intro = `Long Question round. ${r.count} question${r.count > 1 ? 's' : ''} per player.`;
   } else if (r.type === 'theme') {
-    const t = THEME_OPTIONS.find(t => t.id === r.theme);
+    const t = [...THEME_OPTIONS, ...IRANIAN_THEME_OPTIONS].find(t => t.id === r.theme);
     intro = `Theme round: ${t ? t.label : r.theme}. ${r.count} questions, taken in turn.`;
   } else {
     intro = `Bid round. ${r.count} per player. Wager 5, 10, or 20 — right answer wins your wager, wrong loses it.`;
@@ -812,7 +861,7 @@ function renderHeader() {
   if (r) {
     let label = `Round ${state.currentRoundIdx + 1} of ${state.rounds.length} • ${roundLabel(r)}`;
     if (r.type === 'theme') {
-      const t = THEME_OPTIONS.find(t => t.id === r.theme);
+      const t = [...THEME_OPTIONS, ...IRANIAN_THEME_OPTIONS].find(t => t.id === r.theme);
       label += ` • ${t ? t.label : r.theme}`;
     }
     ri.textContent = label;
@@ -1003,6 +1052,8 @@ function endRound() {
 
 // ----- Long Tail (end-of-game callback round) -----
 async function startLongTailOrEnd() {
+  // Iranian Mode skips Long Tail — callbacks are India-anchored connections.
+  if (state.iranianMode) return endGame();
   const callbacks = state.questions.filter(q => q.callback && !state.used.has(q.id));
   if (!callbacks.length) return endGame();
 
@@ -1289,6 +1340,14 @@ function init() {
   $('#auto-judge').addEventListener('change', e => state.autoJudge = e.target.checked);
   $('#timer-enabled').addEventListener('change', e => state.timerEnabled = e.target.checked);
   $('#avoid-repeats').addEventListener('change', e => state.avoidRepeats = e.target.checked);
+  $('#iranian-mode').addEventListener('change', e => {
+    state.iranianMode = e.target.checked;
+    // Re-render rounds so the theme dropdown swaps to the right option set,
+    // and snap any India-only theme back to a valid one.
+    renderRounds();
+    const hint = $('#iranian-mode-hint');
+    if (hint) hint.style.display = state.iranianMode ? 'block' : 'none';
+  });
 
   $('#voice-select').addEventListener('change', e => {
     const v = getAllVoices().find(x => x.voiceURI === e.target.value);

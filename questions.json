@@ -21280,6 +21280,5167 @@
       ],
       "created": "2026-05-11",
       "difficulty": 3
+    },
+    {
+      "id": "ir001",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "He founded the Achaemenid Empire around 559 BC, made Pasargadae his capital, and is the king whose tomb still stands there. Name him.",
+      "answer": "Cyrus the Great",
+      "accept": [
+        "cyrus the great",
+        "cyrus",
+        "kourosh",
+        "kurosh",
+        "cyrus ii"
+      ],
+      "explanation": "Cyrus II, founder of the first Persian Empire, ruled c. 559–530 BC from Pasargadae.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir002",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "This baked-clay artefact from around 539 BC, inscribed in Akkadian after Cyrus took Babylon, sits today in Room 52 of the British Museum and is sometimes called the first charter of human rights. What is it?",
+      "answer": "The Cyrus Cylinder",
+      "accept": [
+        "cyrus cylinder",
+        "the cyrus cylinder",
+        "cylinder of cyrus"
+      ],
+      "explanation": "Foundation deposit commissioned by Cyrus after the conquest of Babylon; now in the British Museum.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir003",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "In 480 BC, the Persian king who led the invasion of Greece and faced Leonidas at Thermopylae was the son of Darius the Great. Name him.",
+      "answer": "Xerxes I",
+      "accept": [
+        "xerxes",
+        "xerxes i",
+        "khashayar",
+        "khashayar shah"
+      ],
+      "explanation": "Xerxes I, son of Darius, led the second Persian invasion of Greece.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir004",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The ceremonial capital of the Achaemenid kings, sacked and burned by Alexander in 330 BC, became a UNESCO World Heritage Site in 1979. Name the place.",
+      "answer": "Persepolis",
+      "accept": [
+        "persepolis",
+        "takht-e jamshid",
+        "takht e jamshid"
+      ],
+      "explanation": "Persepolis, near Shiraz, was inscribed by UNESCO in 1979.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir005",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "Between the Achaemenids and the Sassanids, a horse-riding dynasty from the northeast ruled Iran for nearly five centuries and gave the Romans their most persistent eastern headache. Name the dynasty.",
+      "answer": "The Parthians",
+      "accept": [
+        "parthians",
+        "the parthians",
+        "parthian",
+        "arsacid",
+        "arsacids",
+        "arsacid dynasty"
+      ],
+      "explanation": "The Parthian (Arsacid) Empire ruled Iran roughly 247 BC–224 AD.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir006",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "He was the Sassanid king who captured the Roman emperor Valerian in 260 AD at the Battle of Edessa, an event carved into a famous rock relief at Naqsh-e Rustam. Name him.",
+      "answer": "Shapur I",
+      "accept": [
+        "shapur i",
+        "shapur",
+        "shapur the first",
+        "shapour"
+      ],
+      "explanation": "Shapur I captured Valerian in 260 AD, commemorated at Naqsh-e Rustam.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir007",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The Sassanid king nicknamed Anushirvan, \"the immortal soul,\" is remembered as a model of just rule and reformer of taxation. Name him.",
+      "answer": "Khosrow I",
+      "accept": [
+        "khosrow i",
+        "khosrow",
+        "khosrow anushirvan",
+        "anushirvan",
+        "khusro",
+        "khosrow the first"
+      ],
+      "explanation": "Khosrow I Anushirvan ruled the Sassanid Empire 531–579, famous for his reforms.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir008",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "He came to the throne of the Achaemenid Empire in 522 BC after putting down a rebellion, and at Behistun he left a trilingual rock inscription boasting of his victories. Name him.",
+      "answer": "Darius the Great",
+      "accept": [
+        "darius",
+        "darius the great",
+        "darius i",
+        "dariush"
+      ],
+      "explanation": "Darius I (r. 522–486 BC); the Behistun Inscription, in Old Persian, Elamite and Babylonian, helped decipher cuneiform.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir009",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "In 1501, this teenage warrior-poet defeated the Aq Qoyunlu and founded the dynasty that would make Twelver Shi'ism the state religion of Iran. Name him.",
+      "answer": "Shah Ismail I",
+      "accept": [
+        "ismail i",
+        "shah ismail",
+        "shah ismail i",
+        "ismail safavi",
+        "ismail"
+      ],
+      "explanation": "Ismail I founded the Safavid dynasty in 1501.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir010",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "He was the greatest of the Safavid rulers, moved his capital to Isfahan, and rebuilt it into one of the most magnificent cities of the seventeenth century. Name him.",
+      "answer": "Shah Abbas the Great",
+      "accept": [
+        "shah abbas",
+        "abbas the great",
+        "abbas i",
+        "shah abbas i",
+        "shah abbas the great"
+      ],
+      "explanation": "Shah Abbas I (r. 1588–1629) moved the Safavid capital to Isfahan.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir011",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "This vast Isfahan square — flanked by the Shah Mosque, the Sheikh Lotfollah Mosque and Ali Qapu — was built by Shah Abbas and inspired the saying \"half the world.\" Name it.",
+      "answer": "Naqsh-e Jahan Square",
+      "accept": [
+        "naqsh-e jahan",
+        "naqsh e jahan square",
+        "naqsh-e jahan square",
+        "imam square",
+        "shah square",
+        "meydan-e naqsh-e jahan"
+      ],
+      "explanation": "Naqsh-e Jahan (\"Image of the World\") Square in Isfahan, built 1598–1629.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir012",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "Reza Khan deposed Ahmad Shah in 1925 and founded a new dynasty — the dynasty he replaced had ruled Iran since 1789 and was originally a Turkic tribal confederation. Name that older dynasty.",
+      "answer": "Qajar dynasty",
+      "accept": [
+        "qajar",
+        "qajar dynasty",
+        "qajars",
+        "the qajars"
+      ],
+      "explanation": "Reza Shah Pahlavi replaced the Qajar dynasty in 1925.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir013",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "A constitutional revolution erupted in Iran in 1905, forcing the shah to grant a parliament — the Majlis. Within one year, which of the five Pahlavi or Qajar shahs signed the constitution just days before his death? (Hint: a Qajar.)",
+      "answer": "Mozaffar ad-Din Shah",
+      "accept": [
+        "mozaffar al-din shah",
+        "mozaffar ad-din shah",
+        "mozaffar al-din",
+        "mozaffar ad din shah",
+        "muzaffar al-din shah"
+      ],
+      "explanation": "Mozaffar ad-Din Shah Qajar signed the 1906 constitution and died days later.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir014",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The Mohammad Reza Shah launched a sweeping programme of land reform, women's suffrage and literacy corps in January 1963. What was it called?",
+      "answer": "The White Revolution",
+      "accept": [
+        "white revolution",
+        "the white revolution",
+        "enghelab-e sefid"
+      ],
+      "explanation": "The White Revolution (Enghelab-e Sefid) launched 26 January 1963.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir015",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "In 1979, the Pahlavi monarchy was overthrown after a year of mass protests. In which month of that year did the Shah leave Iran, never to return?",
+      "answer": "January",
+      "accept": [
+        "january",
+        "january 1979",
+        "jan",
+        "jan 1979"
+      ],
+      "explanation": "Mohammad Reza Shah left Iran on 16 January 1979.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir016",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "Around the year 1000, in the eastern city of Tus, a poet finished a 50,000-couplet epic that became the national epic of Iran. Name the poet and the work — either will do.",
+      "answer": "Ferdowsi / Shahnameh",
+      "accept": [
+        "ferdowsi",
+        "shahnameh",
+        "shahnama",
+        "ferdosi",
+        "firdausi",
+        "firdawsi",
+        "book of kings"
+      ],
+      "explanation": "Ferdowsi composed the Shahnameh between c. 977 and 1010 CE.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir017",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "In the Shahnameh, the greatest hero unwittingly kills his own son in single combat, not knowing the young warrior is his child. Name either the father or the son.",
+      "answer": "Rostam (father) / Sohrab (son)",
+      "accept": [
+        "rostam",
+        "rustam",
+        "sohrab",
+        "rostam and sohrab",
+        "rustam and sohrab"
+      ],
+      "explanation": "The tragic episode of Rostam and Sohrab is one of the most famous in the Shahnameh.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir018",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "The white-haired hero Zal was abandoned on a mountainside as an infant and raised by a mythical bird with healing feathers. Name the bird.",
+      "answer": "Simurgh",
+      "accept": [
+        "simurgh",
+        "simorgh",
+        "the simurgh"
+      ],
+      "explanation": "The Simurgh raised Zal in the Alborz mountains in the Shahnameh.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir019",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "The 13th-century Persian poet whose mausoleum in Konya, Turkey, is one of the great pilgrimage sites of Sufism — and whose Masnavi has been called the Persian Qur'an. Name him.",
+      "answer": "Rumi",
+      "accept": [
+        "rumi",
+        "molana",
+        "mawlana",
+        "jalaluddin rumi",
+        "jalal al-din rumi",
+        "mevlana"
+      ],
+      "explanation": "Jalal al-Din Rumi (1207–1273), Sufi poet author of the Masnavi.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir020",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The Shirazi poet whose Divan is so revered that Iranians still take fal — divination — by opening it at random. Name him.",
+      "answer": "Hafez",
+      "accept": [
+        "hafez",
+        "hafiz",
+        "hafez shirazi",
+        "hafez of shiraz",
+        "khwaja hafez"
+      ],
+      "explanation": "Hafez of Shiraz (c. 1325–1390), whose Divan is used for fal-e Hafez.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir021",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "He was an astronomer and mathematician at the Seljuk court who reformed the calendar — but the West knows him as a poet because of a free English translation published in 1859 by Edward FitzGerald. Name the Persian, and the translated work for full credit.",
+      "answer": "Omar Khayyam — the Rubaiyat",
+      "accept": [
+        "omar khayyam",
+        "khayyam",
+        "omar khayyam and rubaiyat",
+        "rubaiyat of omar khayyam",
+        "khayyám"
+      ],
+      "explanation": "FitzGerald's Rubaiyat of Omar Khayyam was published in 1859.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir022",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The 13th-century Shirazi poet whose two great works — a verse one and a prose-with-verse one — are still taught to Iranian schoolchildren. Name him.",
+      "answer": "Saadi",
+      "accept": [
+        "saadi",
+        "sa'di",
+        "saadi shirazi",
+        "sadi",
+        "sheikh saadi"
+      ],
+      "explanation": "Saadi of Shiraz, author of the Bustan (1257) and Gulistan (1258).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir023",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "His Khamsa — five long narrative poems — included the romance of two Arab lovers and the romance of a Sasanian king and an Armenian princess. Name the poet from Ganja.",
+      "answer": "Nizami Ganjavi",
+      "accept": [
+        "nizami",
+        "nizami ganjavi",
+        "nezami",
+        "nezami ganjavi"
+      ],
+      "explanation": "Nizami Ganjavi (c. 1141–1209), author of Layla and Majnun and Khosrow and Shirin.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir024",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "She published her first collection The Captive at twenty, made a remarkable documentary about a leper colony called The House Is Black, and was killed in a car crash in 1967 at just 32. Name her.",
+      "answer": "Forough Farrokhzad",
+      "accept": [
+        "forough farrokhzad",
+        "forugh farrokhzad",
+        "farrokhzad",
+        "forough"
+      ],
+      "explanation": "Forough Farrokhzad (1934–1967), modernist poet and filmmaker.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir025",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The modern Iranian poet whose collection The Sound of Water's Footsteps and gentle, nature-soaked lines made him a favourite of Iranian readers. Name him.",
+      "answer": "Sohrab Sepehri",
+      "accept": [
+        "sohrab sepehri",
+        "sepehri",
+        "sohrab"
+      ],
+      "explanation": "Sohrab Sepehri (1928–1980), modernist poet and painter.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir026",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "His film Taste of Cherry won the Palme d'Or at Cannes in 1997. Name him.",
+      "answer": "Abbas Kiarostami",
+      "accept": [
+        "abbas kiarostami",
+        "kiarostami"
+      ],
+      "explanation": "Kiarostami won the 1997 Palme d'Or jointly with Shohei Imamura's The Eel.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir027",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "A small boy in a remote village tries to return his classmate's notebook before he gets in trouble. Name this 1987 Kiarostami film that put Iranian cinema on the world map.",
+      "answer": "Where Is the Friend's Home",
+      "accept": [
+        "where is the friend's home",
+        "where is the friend's house",
+        "where is the friends home",
+        "khaneh-ye doost kojast",
+        "where is my friend's home"
+      ],
+      "explanation": "Where Is the Friend's Home (1987) — the first in Kiarostami's Koker trilogy.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir028",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "In 2012, this film became the first Iranian movie ever to win the Oscar for Best Foreign Language Film. Name it.",
+      "answer": "A Separation",
+      "accept": [
+        "a separation",
+        "jodaeiye nader az simin",
+        "nader and simin a separation",
+        "separation"
+      ],
+      "explanation": "A Separation by Asghar Farhadi won the Oscar in 2012.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir029",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "Five years after A Separation, the same director won the same Oscar a second time, in 2017, for a film whose title references an Arthur Miller play. Name the film.",
+      "answer": "The Salesman",
+      "accept": [
+        "the salesman",
+        "salesman",
+        "forushande"
+      ],
+      "explanation": "Farhadi's The Salesman won Best Foreign Language Film at the 2017 Oscars.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir030",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "His 1997 film about a boy who loses his sister's shoes and tries to win a race for a pair of sneakers became Iran's first ever Oscar nomination for Best Foreign Language Film. Name the director.",
+      "answer": "Majid Majidi",
+      "accept": [
+        "majid majidi",
+        "majidi"
+      ],
+      "explanation": "Majid Majidi's Children of Heaven (1997) was nominated for Best Foreign Language Film at the 71st Academy Awards (held March 1999, honouring 1998 releases) — the first Iranian film ever nominated.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir031",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "In 2015, banned from making films and from leaving Iran, this director shot a movie entirely from inside a Tehran taxi using dashboard cameras — and it won the Golden Bear at Berlin. Name the director.",
+      "answer": "Jafar Panahi",
+      "accept": [
+        "jafar panahi",
+        "panahi"
+      ],
+      "explanation": "Jafar Panahi's Taxi won the Golden Bear at the 2015 Berlin Film Festival.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir032",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "Her black-and-white graphic memoir about growing up during the Iranian revolution was published in French between 2000 and 2003 and turned into an Oscar-nominated animated film in 2007. Name her.",
+      "answer": "Marjane Satrapi",
+      "accept": [
+        "marjane satrapi",
+        "satrapi"
+      ],
+      "explanation": "Marjane Satrapi's Persepolis, co-directed with Vincent Paronnaud (2007).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir033",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "His 1969 film about a villager's obsessive love for his cow is considered the first masterpiece of the Iranian New Wave. Name the director.",
+      "answer": "Dariush Mehrjui",
+      "accept": [
+        "dariush mehrjui",
+        "mehrjui",
+        "daryush mehrjui"
+      ],
+      "explanation": "Dariush Mehrjui's The Cow (Gaav, 1969).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir034",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "He was a playwright, screenwriter and director, one of the central figures of pre-revolutionary Iranian cinema, who directed Bashu, the Little Stranger. Name him.",
+      "answer": "Bahram Beizai",
+      "accept": [
+        "bahram beizai",
+        "beizai",
+        "bahram beyzai",
+        "beyzai"
+      ],
+      "explanation": "Bahram Beizai directed Bashu, the Little Stranger (1989).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir035",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "The undisputed master of Persian classical vocal music, whose recording of the Rabbana prayer aired on Iranian radio every Ramadan for decades until his death in 2020. Name him.",
+      "answer": "Mohammad-Reza Shajarian",
+      "accept": [
+        "mohammad-reza shajarian",
+        "shajarian",
+        "mohammad reza shajarian",
+        "ostad shajarian"
+      ],
+      "explanation": "Mohammad-Reza Shajarian (1940–2020), master of avaz singing.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir036",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The pop diva who was the biggest star in Iran in the 1970s, fell silent for over twenty years after the revolution, and came roaring back with a comeback concert in Toronto in 2000. Name her.",
+      "answer": "Googoosh",
+      "accept": [
+        "googoosh",
+        "gogoosh",
+        "faegheh atashin"
+      ],
+      "explanation": "Googoosh (Faegheh Atashin), pre-revolutionary pop icon.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir037",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "He plays the kamancheh, has been a long-time member of Yo-Yo Ma's Silk Road Ensemble, and won a Grammy in 2017 with the ensemble for the album Sing Me Home. Name him.",
+      "answer": "Kayhan Kalhor",
+      "accept": [
+        "kayhan kalhor",
+        "kalhor"
+      ],
+      "explanation": "Kayhan Kalhor, kamancheh virtuoso; Silk Road Ensemble won Best World Music Album at the 59th Grammy Awards (2017) for Sing Me Home.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir038",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The Los Angeles–based Iranian pop singer with one of the deepest voices in Persian music — \"Cheshmaye Man\" and \"Don't Leave Me Alone\" among his hits. Name him.",
+      "answer": "Dariush Eghbali",
+      "accept": [
+        "dariush eghbali",
+        "dariush",
+        "daryoush eghbali",
+        "dariush eqbali"
+      ],
+      "explanation": "Dariush Eghbali, Iranian pop singer based in Los Angeles since leaving Iran in 1981.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir039",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "He has been called the Bob Dylan of Iran — a singer-songwriter who mixes classical Persian poetry with rock, blues and hip-hop, and lives in self-imposed exile. Name him.",
+      "answer": "Mohsen Namjoo",
+      "accept": [
+        "mohsen namjoo",
+        "namjoo"
+      ],
+      "explanation": "Mohsen Namjoo, experimental Iranian musician based abroad.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir040",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "Long-necked, three-stringed (sometimes four), plucked with the index fingernail — the small Persian lute beloved by mystics and the favoured instrument of Sufi musicians. Name it.",
+      "answer": "Setar",
+      "accept": [
+        "setar",
+        "se-tar",
+        "se tar"
+      ],
+      "explanation": "The setar, a small long-necked Persian lute. (Distinct from the Indian sitar.)",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir041",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "Iranian striker who scored 109 international goals for his country, holding the all-time men's record until Cristiano Ronaldo broke it in 2021. Name him.",
+      "answer": "Ali Daei",
+      "accept": [
+        "ali daei",
+        "daei",
+        "ali daie",
+        "daie"
+      ],
+      "explanation": "Ali Daei held the men's record of 109 international goals until 2021. (Now revised to 108 by FIFA, but 109 is the figure most fans remember.)",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir042",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The Iranian midfielder whose dribbling earned him the nickname \"the Asian Maradona,\" and who won the Bundesliga with Bayern Munich in 2005–06. Name him.",
+      "answer": "Ali Karimi",
+      "accept": [
+        "ali karimi",
+        "karimi"
+      ],
+      "explanation": "Ali Karimi played for Bayern Munich and Schalke 04.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir043",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "Often dubbed the \"Iranian Messi\" by the British press, he scored a hatful of goals at Zenit St. Petersburg and later played for Bayer Leverkusen and Roma. Name him.",
+      "answer": "Sardar Azmoun",
+      "accept": [
+        "sardar azmoun",
+        "azmoun"
+      ],
+      "explanation": "Sardar Azmoun, Iranian striker.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir044",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The Iranian striker who finished as Primeira Liga top scorer twice at FC Porto and then joined Inter Milan in 2024. Name him.",
+      "answer": "Mehdi Taremi",
+      "accept": [
+        "mehdi taremi",
+        "taremi"
+      ],
+      "explanation": "Mehdi Taremi, Iranian striker now at Olympiacos via Inter Milan.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir045",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "He won super-heavyweight weightlifting gold at the Sydney 2000 Olympics — breaking decades of Soviet dominance in the event — and retained the title at Athens 2004. Name him.",
+      "answer": "Hossein Rezazadeh",
+      "accept": [
+        "hossein rezazadeh",
+        "rezazadeh",
+        "hosein rezazadeh"
+      ],
+      "explanation": "Hossein Rezazadeh won +105 kg Olympic gold in 2000 and 2004.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir046",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "Iranian taekwondo fighter who won gold at Athens 2004 in the 68 kg class and gold again at Beijing 2008 at 80 kg. Name him.",
+      "answer": "Hadi Saei",
+      "accept": [
+        "hadi saei",
+        "saei",
+        "hadi sai"
+      ],
+      "explanation": "Hadi Saei: gold Athens 2004 (68 kg), gold Beijing 2008 (80 kg), bronze Sydney 2000.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir047",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "At Rio 2016, this taekwondo fighter became the first Iranian woman ever to win an Olympic medal. Name her.",
+      "answer": "Kimia Alizadeh",
+      "accept": [
+        "kimia alizadeh",
+        "alizadeh",
+        "kimia"
+      ],
+      "explanation": "Kimia Alizadeh won bronze in taekwondo at Rio 2016.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir048",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "Born in Babol in 2003, he became the youngest player to cross a FIDE rating of 2800, breaking Magnus Carlsen's record. He now plays for France. Name him.",
+      "answer": "Alireza Firouzja",
+      "accept": [
+        "alireza firouzja",
+        "firouzja",
+        "ali reza firouzja"
+      ],
+      "explanation": "Alireza Firouzja, chess grandmaster, switched federation to France in 2021.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir049",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "In 2014, this Tehran-born mathematician at Stanford became the first woman ever to win the Fields Medal. Name her.",
+      "answer": "Maryam Mirzakhani",
+      "accept": [
+        "maryam mirzakhani",
+        "mirzakhani"
+      ],
+      "explanation": "Maryam Mirzakhani won the Fields Medal in 2014.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir050",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "In September 2006, this Iranian-American businesswoman became the first Iranian in space, flying to the ISS as a self-funded spaceflight participant on a Soyuz. Name her.",
+      "answer": "Anousheh Ansari",
+      "accept": [
+        "anousheh ansari",
+        "ansari",
+        "anoushe ansari"
+      ],
+      "explanation": "Anousheh Ansari flew to the ISS on Soyuz TMA-9 in September 2006. The Ansari X Prize is named after her family.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir051",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "Born in Paris to Iranian parents, he founded an online auction site in 1995 that became a household name. Name him.",
+      "answer": "Pierre Omidyar",
+      "accept": [
+        "pierre omidyar",
+        "omidyar"
+      ],
+      "explanation": "Pierre Omidyar founded eBay in 1995.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir052",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "Born in Tehran in 1969, this former Expedia CEO took over as Uber's CEO in August 2017. Name him.",
+      "answer": "Dara Khosrowshahi",
+      "accept": [
+        "dara khosrowshahi",
+        "khosrowshahi",
+        "dara"
+      ],
+      "explanation": "Dara Khosrowshahi became Uber CEO in August 2017.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir053",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "Born in England to an Iranian father and a British mother, raised partly in Tehran, she became CNN's chief international correspondent and made her name reporting from Bosnia. Name her.",
+      "answer": "Christiane Amanpour",
+      "accept": [
+        "christiane amanpour",
+        "amanpour"
+      ],
+      "explanation": "Christiane Amanpour, CNN journalist of Iranian-British heritage.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir054",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "She was nominated for Best Supporting Actress at the 2004 Oscars for House of Sand and Fog, and is also known to sci-fi fans for her role as Chrisjen Avasarala in The Expanse. Name her.",
+      "answer": "Shohreh Aghdashloo",
+      "accept": [
+        "shohreh aghdashloo",
+        "aghdashloo",
+        "shoreh aghdashloo"
+      ],
+      "explanation": "Shohreh Aghdashloo, Oscar-nominated for House of Sand and Fog (2003).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir055",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "Eight-time Grand Slam tennis champion Andre Agassi's father — an Olympic boxer who emigrated from Iran via Salmas — was of what heritage?",
+      "answer": "Armenian",
+      "accept": [
+        "armenian",
+        "armenian iranian",
+        "iranian armenian"
+      ],
+      "explanation": "Emmanuel \"Mike\" Agassi was an Armenian-Iranian Olympic boxer from Salmas.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir056",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "The capital of Iran. Just name it.",
+      "answer": "Tehran",
+      "accept": [
+        "tehran",
+        "teheran"
+      ],
+      "explanation": "Tehran, capital of Iran since 1786 under the Qajar founder Agha Mohammad Khan.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir057",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "At 5,609 metres, this dormant stratovolcano in the Alborz range is Iran's highest peak and the highest volcano in Asia. Name it.",
+      "answer": "Mount Damavand",
+      "accept": [
+        "damavand",
+        "mount damavand",
+        "mt damavand",
+        "demavend"
+      ],
+      "explanation": "Mount Damavand, 5,609 m, in the Alborz range north of Tehran.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir058",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "The narrow strait at the mouth of the Persian Gulf, between Iran and Oman, through which roughly a fifth of the world's oil passes. Name it.",
+      "answer": "Strait of Hormuz",
+      "accept": [
+        "strait of hormuz",
+        "hormuz",
+        "hormuz strait",
+        "the strait of hormuz"
+      ],
+      "explanation": "The Strait of Hormuz connects the Persian Gulf to the Gulf of Oman.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir059",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The desert in southeastern Iran that, in 2005, was recorded by a NASA satellite as the hottest place ever measured on Earth's surface — 70.7°C. Name it.",
+      "answer": "Lut Desert",
+      "accept": [
+        "lut desert",
+        "dasht-e lut",
+        "dasht e lut",
+        "lut",
+        "the lut"
+      ],
+      "explanation": "The Lut Desert (Dasht-e Lut) recorded a surface temperature of 70.7 °C in 2005.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir060",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "On the night of the spring equinox, Iranian families gather around a table laid with seven items beginning with the Persian letter \"sin\" — a sprouted dish of wheat, vinegar, garlic, apple and more. Name either the festival or the table — either will do.",
+      "answer": "Nowruz / Haft-sin",
+      "accept": [
+        "nowruz",
+        "norooz",
+        "noruz",
+        "haft-sin",
+        "haft sin",
+        "haftsin",
+        "nowruz haft-sin"
+      ],
+      "explanation": "Nowruz, Persian New Year on the vernal equinox; haft-sin is the symbolic table.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd001",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "Around the 8th to 10th century, a group of Zoroastrians fleeing Greater Khorasan landed on the coast of Gujarat. Legend says the local king, Jadi Rana, sent them a brimming pot of milk to indicate his land was full. Their high priest stirred in a spoonful of sugar to promise they would sweeten the kingdom without displacing anyone. By what name is the community that grew from this landing now known?",
+      "answer": "Parsis",
+      "accept": [
+        "parsis",
+        "parsi",
+        "parsi community"
+      ],
+      "explanation": "The migrants named their first settlement Sanjan after a town in Khorasan; their descendants came to be called Parsis, from Pars/Persia.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd002",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "In a quiet village in coastal Gujarat sits the holiest fire of Indian Zoroastrians, kept continuously burning since long before the temple itself was consecrated in 1742. Pilgrims travel from Mumbai, Karachi and even Yazd to pay respects to this sacred flame. Name the village.",
+      "answer": "Udvada",
+      "accept": [
+        "udvada",
+        "udwada"
+      ],
+      "explanation": "The Udvada Atash Behram houses the Iranshah, the oldest continuously burning Zoroastrian fire in India.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd003",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "Born in 1839 to a family of Parsi priests in Navsari, this man dreamed of an Indian steel industry, a hydroelectric plant and a science institute, but only lived to see the first of his great projects open in 1903 — the Taj Mahal hotel in Bombay. Name him.",
+      "answer": "Jamsetji Tata",
+      "accept": [
+        "jamsetji tata",
+        "jamshedji tata",
+        "jamsetji nusserwanji tata",
+        "j n tata"
+      ],
+      "explanation": "Jamsetji Nusserwanji Tata, the founder of the Tata Group, was born into a Parsi mobed family in Navsari.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd004",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "He was born in Paris in 1904 to a Parsi father and a French mother, became India's first licensed pilot in 1929, and the airline he founded in 1932 was nationalised in 1953 to become Air India. Name him.",
+      "answer": "JRD Tata",
+      "accept": [
+        "jrd tata",
+        "j r d tata",
+        "jehangir ratanji dadabhoy tata",
+        "jehangir tata"
+      ],
+      "explanation": "Jehangir Ratanji Dadabhoy Tata received the first pilot's licence issued in India and is called the father of Indian civil aviation.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd005",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "In 1897, in a small shed near the Bombay Gas Works, two Parsi brothers began making locks that they claimed could defeat the best burglars in the world. They went on to make safes, soaps made from vegetable oil, and refrigerators that became fixtures in middle-class Indian homes. Which family business did they found?",
+      "answer": "Godrej",
+      "accept": [
+        "godrej",
+        "godrej brothers",
+        "godrej group"
+      ],
+      "explanation": "Ardeshir and Pirojsha Godrej started with springless locks in 1897 and built one of India's most recognisable Parsi-owned conglomerates.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd006",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "In 1736 a Parsi master shipwright from Surat moved to Bombay to build docks and warships for the East India Company. The textile arm of the dynasty he founded still produces bedsheets that almost every Indian household knows. Which Parsi business family?",
+      "answer": "Wadia family",
+      "accept": [
+        "wadia",
+        "wadia family",
+        "wadias",
+        "bombay dyeing family"
+      ],
+      "explanation": "Lovji Nusserwanjee Wadia laid the foundation; his descendants built Bombay Dyeing and the wider Wadia Group.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd007",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "His father bought a small stake in Tata Sons in the 1930s; by 2011 he was the single largest individual shareholder in India's biggest conglomerate, with construction interests stretching from the Brabourne Stadium to the Sultan of Oman's palace. The Irish-Indian Parsi businessman was nicknamed the Phantom of Bombay House. Name him.",
+      "answer": "Pallonji Mistry",
+      "accept": [
+        "pallonji mistry",
+        "pallonji shapoorji mistry",
+        "shapoorji pallonji mistry"
+      ],
+      "explanation": "Pallonji Mistry chaired the Shapoorji Pallonji group and held about 18 percent of Tata Sons at his peak.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd008",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "Born in Bombay in 1909 to a wealthy Parsi family, he set up TIFR in 1945 and the Atomic Energy Establishment at Trombay in 1954, and is universally called the father of India's nuclear programme. Name him.",
+      "answer": "Homi Bhabha",
+      "accept": [
+        "homi bhabha",
+        "homi jehangir bhabha",
+        "homi j bhabha"
+      ],
+      "explanation": "Homi Jehangir Bhabha, a Parsi physicist, shaped India's three-stage nuclear plan; the Trombay centre was renamed BARC after him.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd009",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "In 1973 he became the first Indian officer ever promoted to Field Marshal, two years after orchestrating the 12-day campaign that liberated Bangladesh. Famously, when Indira Gandhi pressed him to attack East Pakistan in spring 1971, he replied that he would only do so when he was ready. Name this Parsi soldier.",
+      "answer": "Sam Manekshaw",
+      "accept": [
+        "sam manekshaw",
+        "sam bahadur",
+        "manekshaw",
+        "field marshal manekshaw"
+      ],
+      "explanation": "Sam Hormusji Framji Jamshedji Manekshaw, known as Sam Bahadur, came from a Parsi family that had moved from Gujarat to Amritsar.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd010",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "Born in 1866 to a Parsi family that had converted to Christianity, she became the first woman to study law at Oxford and the first female advocate in India, spending much of her career fighting for purdahnashin women whom no male lawyer could meet. Name her.",
+      "answer": "Cornelia Sorabji",
+      "accept": [
+        "cornelia sorabji",
+        "sorabji"
+      ],
+      "explanation": "Cornelia Sorabji also became the first woman to graduate from Bombay University and worked as legal adviser to the Court of Wards in Bengal.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd011",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "He was born in Zanzibar in 1946 to Parsi parents from Gujarat, sent at age eight to St Peter's, a British-style boarding school in the Maharashtra hill town of Panchgani, and would later front one of the biggest rock bands in history under a stage name. By what name do we know Farrokh Bulsara?",
+      "answer": "Freddie Mercury",
+      "accept": [
+        "freddie mercury",
+        "farrokh bulsara",
+        "mercury"
+      ],
+      "explanation": "The Queen frontman kept his Zoroastrian funeral rites; his sister has spoken of his pride in his Parsi-Gujarati roots.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd012",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "Born in Bombay in 1936 to a Parsi family — his father Mehli founded the Bombay Symphony Orchestra — he went on to lead the Los Angeles Philharmonic, the New York Philharmonic and the Israel Philharmonic. Name this conductor.",
+      "answer": "Zubin Mehta",
+      "accept": [
+        "zubin mehta",
+        "mehta"
+      ],
+      "explanation": "Zubin Mehta, now Music Director Emeritus of the Israel Philharmonic, is among the most decorated conductors of the last half-century.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd013",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "Before turning to films in his late thirties, this Parsi from Mumbai sold wafers at Grant Road station and worked as a waiter at the Taj. He is now better known as Dr Asthana in Munna Bhai MBBS and the principal Viru Sahastrabuddhe — Virus — in 3 Idiots. Name him.",
+      "answer": "Boman Irani",
+      "accept": [
+        "boman irani",
+        "boman"
+      ],
+      "explanation": "Boman Irani, born in 1959 to an Irani Zoroastrian family, became one of Hindi cinema's most reliable character actors.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd014",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "The last male Parsi to play cricket for India, this flamboyant wicket-keeper-batsman from Bombay shared a Lancashire dressing room with Clive Lloyd through much of the 1970s and helped them lift the Gillette Cup four times. Name him.",
+      "answer": "Farokh Engineer",
+      "accept": [
+        "farokh engineer",
+        "farrokh engineer",
+        "engineer"
+      ],
+      "explanation": "Farokh Engineer played 46 Tests for India between 1961 and 1975 and nine seasons at Lancashire.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd015",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "From Akbar in the late 16th century right down to Bahadur Shah Zafar in 1857, the official court language of the Mughal empire — used for revenue records, diplomatic letters and court poetry — was not Hindi, Urdu or Turkish. Which language?",
+      "answer": "Persian",
+      "accept": [
+        "persian",
+        "farsi"
+      ],
+      "explanation": "Akbar formalised Persian as the language of administration; it remained so until the British replaced it with English and vernaculars in the 1830s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd016",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "Between 1589 and 1596, Abul Fazl finished a vast Persian work in three volumes describing the reign of his patron — the third volume, a kind of administrative gazetteer, lists everything from imperial revenue to the prices of vegetables and the rules of polo. Name this third volume.",
+      "answer": "Ain-i-Akbari",
+      "accept": [
+        "ain-i-akbari",
+        "ain i akbari",
+        "ain e akbari",
+        "aini akbari"
+      ],
+      "explanation": "The Ain-i-Akbari forms the third volume of Abul Fazl's Akbarnama and is our richest source on Akbar's administration.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd017",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "Shah Jahan's eldest son, an unabashed mystic, gathered Sanskrit pandits in Delhi and in 1657 produced a Persian translation of fifty Upanishads. He called the work Sirr-i-Akbar, the Greatest Mystery, and argued that this was the hidden book the Quran spoke of. Name this prince.",
+      "answer": "Dara Shukoh",
+      "accept": [
+        "dara shukoh",
+        "dara shikoh",
+        "dara"
+      ],
+      "explanation": "Dara Shikoh's Sirr-i-Akbar later reached Europe via a Latin translation and shaped Schopenhauer's reading of Indian thought.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd018",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "Babur wrote his frank, gossipy autobiography in his Central Asian mother tongue Chagatai Turkish, but his grandson Akbar had it translated into the language of his court. By what name is this autobiography of the founder of the Mughal dynasty known?",
+      "answer": "Baburnama",
+      "accept": [
+        "baburnama",
+        "babur nama",
+        "tuzk-i-baburi",
+        "tuzuk-i-baburi"
+      ],
+      "explanation": "Abdul Rahim Khan-i-Khanan produced the Persian translation of the Baburnama in 1589 for Akbar's library.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd019",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "Jahangir followed his great-grandfather's example and wrote his own memoirs in Persian, recording everything from his sightings of dodos to his honest admission of his addictions. By what Persian name is this autobiography known?",
+      "answer": "Tuzuk-i-Jahangiri",
+      "accept": [
+        "tuzuk-i-jahangiri",
+        "tuzuk i jahangiri",
+        "jahangirnama",
+        "tuzk-i-jahangiri"
+      ],
+      "explanation": "Also called the Jahangirnama, the Tuzuk-i-Jahangiri is admired for its candour and natural-history detail.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd020",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "Born in 1253 in Patiyali, this disciple of Nizamuddin Auliya fused Persian, Arabic, Turkic and Indian musical traditions to create qawwali, mixed Persian with the local Hindavi in playful poems like Zeehal-e-Miskeen, and earned the nickname Tuti-e-Hind, the Parrot of India. Name him.",
+      "answer": "Amir Khusrau",
+      "accept": [
+        "amir khusrau",
+        "amir khusro",
+        "khusrau",
+        "khusro"
+      ],
+      "explanation": "Khusrau died in Delhi in 1325 and lies buried near his pir's shrine at Nizamuddin.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd021",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "This 17th-century Sufi from Delhi wrote a famously dense, difficult Persian — so layered that there is still a saying in Kabul and Dushanbe that you cannot understand him properly until your beard is white. To this day he is read more in Tajikistan and Afghanistan than in his own city. Name this Indo-Persian poet.",
+      "answer": "Bedil",
+      "accept": [
+        "bedil",
+        "abdul qadir bedil",
+        "bidel",
+        "mirza bedil",
+        "abdul-qadir bedil"
+      ],
+      "explanation": "Abdul-Qadir Bedil (1642-1720) lived and died in Delhi but became the patron poet of the Persianate world east of Iran.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd022",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "He wrote more than 11,000 verses in Persian and only a slim divan in Urdu, and once told his readers to look at his Persian work for its colourful pictures and to pass over his Urdu collection as a mere sketch. Yet it is the Urdu ghazals of this Delhi poet that the subcontinent now sings. Name him.",
+      "answer": "Mirza Ghalib",
+      "accept": [
+        "mirza ghalib",
+        "ghalib",
+        "asadullah khan ghalib",
+        "mirza asadullah khan ghalib"
+      ],
+      "explanation": "Ghalib valued his Persian work above his Urdu, but it is the Urdu divan that became canonical after his death in 1869.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd023",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "Of the roughly 12,000 verses written by this Sialkot-born thinker, around 7,000 are in Persian — including Asrar-i-Khudi and Payam-i-Mashriq, his answer to Goethe's West-Eastern Divan. In Iran he is so revered that even Ayatollah Khamenei has praised his Persian poetry. Name him.",
+      "answer": "Allama Iqbal",
+      "accept": [
+        "allama iqbal",
+        "muhammad iqbal",
+        "iqbal",
+        "sir muhammad iqbal"
+      ],
+      "explanation": "Iqbal's Persian work made him a household name in Iran, where his verses were recited during the 1979 revolution.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd024",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "The last Mughal — exiled to Rangoon after 1857 — was himself a respected poet who wrote ghazals in both Urdu and Persian and gathered around him Ghalib, Zauq and Momin. Name this poet-emperor.",
+      "answer": "Bahadur Shah Zafar",
+      "accept": [
+        "bahadur shah zafar",
+        "zafar",
+        "bahadur shah ii",
+        "bahadur shah 2"
+      ],
+      "explanation": "Bahadur Shah II took the pen name Zafar; his lament Lagta nahin hai jee mera was written in exile in Burma.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd025",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "In February 1739, a Persian shah of humble nomadic origins routed the Mughal army at Karnal, occupied Delhi, and a month later ordered a massacre that killed tens of thousands. Name this Persian invader of India.",
+      "answer": "Nadir Shah",
+      "accept": [
+        "nadir shah",
+        "nader shah",
+        "nadir shah afshar",
+        "nader shah afshar"
+      ],
+      "explanation": "Nadir Shah Afshar, who rose from a poor herding family in Khorasan to become Shah of Iran, sacked Delhi in March 1739, shattering Mughal prestige and effectively ending Mughal power outside the Doab.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd026",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "Which fabulously gem-encrusted throne — commissioned by Shah Jahan, inaugurated in 1635 after seven years of work, and carried off to Iran in 1739 as war loot — became so symbolic of Iranian monarchy that later Shahs of Iran were popularly said to sit on it?",
+      "answer": "Peacock Throne",
+      "accept": [
+        "peacock throne",
+        "takht-i-tavus",
+        "takht-e tavoos",
+        "takht i taus"
+      ],
+      "explanation": "The Takht-i-Tavus was looted by Nadir Shah in 1739; the phrase 'Peacock Throne' came to symbolise the Iranian monarchy, and Pahlavi-era shahs were popularly said to sit on it (though the Pahlavi dynasty's name actually derives from Middle Persian Pahlavi script, not the throne).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd027",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "After Nadir Shah's 1739 invasion, this great diamond — set into the Peacock Throne by Shah Jahan — went briefly to Iran, then to Afghanistan, was won back by Ranjit Singh, and was finally surrendered to the British after the annexation of Punjab. Name the diamond.",
+      "answer": "Kohinoor",
+      "accept": [
+        "kohinoor",
+        "koh-i-noor",
+        "koh i noor",
+        "kohinoor diamond",
+        "kuh-i-nur"
+      ],
+      "explanation": "Koh-i-Noor means Mountain of Light in Persian; it now sits in the Crown of Queen Elizabeth the Queen Mother in the Tower of London.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd028",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "When Mumtaz Mahal died in childbirth in 1631, Shah Jahan summoned a board of architects to design her tomb. Most historians credit the overall plan to the emperor's chief architect, who later supervised the Red Fort in Delhi. Name this architect of the Taj Mahal.",
+      "answer": "Ustad Ahmad Lahauri",
+      "accept": [
+        "ustad ahmad lahauri",
+        "ustad ahmad lahori",
+        "ahmad lahauri",
+        "ahmad lahori"
+      ],
+      "explanation": "Ustad Ahmad Lahauri led a multinational team that included Persian and Ottoman specialists in calligraphy, gardens and domes.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd029",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "After Humayun died in 1556, his widow Bega Begum commissioned a tomb in Delhi from a Persian architect she summoned from Herat. The double-domed result became the prototype for the Taj. Name this architect.",
+      "answer": "Mirak Mirza Ghiyas",
+      "accept": [
+        "mirak mirza ghiyas",
+        "mirak mirza ghiyath",
+        "mirza ghiyas",
+        "mirak ghiyas",
+        "mirak mirza ghiyathuddin"
+      ],
+      "explanation": "Mirak Mirza Ghiyas died before Humayun's Tomb was finished in 1572; his son Sayyed Muhammad completed it.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd030",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "The Taj Mahal, Humayun's Tomb and Babur's own garden in Kabul all share a single Persian quadripartite garden layout, with four water channels meeting at a central pool to symbolise the four rivers of Paradise. What is this layout called?",
+      "answer": "Charbagh",
+      "accept": [
+        "charbagh",
+        "chahar bagh",
+        "char bagh",
+        "chaharbagh"
+      ],
+      "explanation": "Charbagh literally means four-garden; Babur is credited with introducing it from Iran to the Indian subcontinent.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd031",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "Mughal miniature painting really begins when Humayun, returning from his exile at the court of Shah Tahmasp, brought two great Persian masters back to Delhi: Abd al-Samad and Mir Sayyid Ali. They had been trained in which Persian dynasty's royal atelier?",
+      "answer": "Safavid",
+      "accept": [
+        "safavid",
+        "safavids",
+        "safavid dynasty",
+        "safavid empire"
+      ],
+      "explanation": "The Safavid Tabriz school under Shah Tahmasp shaped the early Mughal atelier that Akbar later expanded.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd032",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "Jahangir, an obsessive naturalist, kept one court painter on a tight leash because he was the only one who could capture a turkey, a zebra or a Himalayan pheasant with the right scientific accuracy. The emperor gave him the title Nadir-ul-Asr, the Wonder of the Age. Name this painter.",
+      "answer": "Ustad Mansur",
+      "accept": [
+        "ustad mansur",
+        "mansur",
+        "mansur naqqash"
+      ],
+      "explanation": "Ustad Mansur's bird, animal and flower studies for Jahangir are now considered the apex of Mughal natural-history painting.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd033",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "The dynasty that ruled Awadh from the 1720s came originally from the Iranian city of Nishapur and brought with them their Twelver Shia faith and a love of Persian arts and food, transforming Lucknow and Faizabad. By what title were these rulers known?",
+      "answer": "Nawabs of Awadh",
+      "accept": [
+        "nawabs of awadh",
+        "nawabs of oudh",
+        "nawabs of avadh",
+        "awadh nawabs"
+      ],
+      "explanation": "Saadat Khan Burhan-ul-Mulk, the first Nawab, was a Sayyid from Nishapur in eastern Iran.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd034",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "Begun in 1780 by a Nawab of Awadh as a famine-relief project, this great Lucknow building employed labourers by day and noblemen by night for almost a decade, and houses a vast central hall along with the maze-like Bhulbhulaiya. Name the building.",
+      "answer": "Bara Imambara",
+      "accept": [
+        "bara imambara",
+        "asafi imambara",
+        "bara imambara lucknow"
+      ],
+      "explanation": "Asaf-ud-Daula built the Bara Imambara between 1780 and 1784 to provide work during a brutal famine.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd035",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "Born in 1800, this Lucknow poet is said to have composed more than ten thousand marsiyas — elegies on the martyrs of Karbala — turning a religious form of Persian origin into the bedrock of serious Urdu poetry. Name him.",
+      "answer": "Mir Anees",
+      "accept": [
+        "mir anees",
+        "mir babar ali anees",
+        "anees",
+        "anis"
+      ],
+      "explanation": "Mir Babar Ali Anees is regarded as the supreme marsiya poet of Urdu, drawing on a tradition rooted in Shia Iran.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd036",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "Kitab for book, qalam for pen, kursi for chair, darvaza for door, bazaar for market, dost for friend, dushman for enemy. From which single language did Hindi-Urdu borrow all of these everyday words?",
+      "answer": "Persian",
+      "accept": [
+        "persian",
+        "farsi"
+      ],
+      "explanation": "Persian was the prestige and administrative language of north India for centuries, leaving a thick layer of loanwords in Hindustani.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd037",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "When a north Indian says goodbye with Khuda hafiz, gestures at the aasmaan, calls life zindagi or thanks you with shukriya, which language is doing the heavy lifting?",
+      "answer": "Persian",
+      "accept": [
+        "persian",
+        "farsi"
+      ],
+      "explanation": "Khuda, aasmaan, zindagi and shukriya are all classic Persian loanwords absorbed into Hindi-Urdu vocabulary.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd038",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "The biryani of Hyderabad and Awadh probably gets its very name from a Persian word that simply means to fry or to roast, applied to a phrase that literally translates as fried rice. What is that Persian root word?",
+      "answer": "biryan",
+      "accept": [
+        "biryan",
+        "biriyan",
+        "berian",
+        "birian"
+      ],
+      "explanation": "The Persian phrase birinj biryan, fried rice, gives both the name and the basic technique of biryani.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd039",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "Crisp, triangular, deep-fried and stuffed — the everyday Indian street snack we call by one name was already being praised by Amir Khusrau around 1300, who called it by its Persian original. From which Persian word does the name samosa derive?",
+      "answer": "sambusa",
+      "accept": [
+        "sambusa",
+        "sambosa",
+        "sambosag",
+        "sanbusag",
+        "sambusak"
+      ],
+      "explanation": "The Middle Persian sambosag, a triangular pastry, gave Hindi-Urdu samosa and Arabic sambusak.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd040",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "The bright orange, syrup-soaked Indian sweet eaten at every wedding and on every Independence Day morning takes its name from a Persian word that turns into the Arabic zulabiya in 10th-century cookbooks. Which Indian sweet?",
+      "answer": "Jalebi",
+      "accept": [
+        "jalebi",
+        "jilebi",
+        "jilipi",
+        "zalabiya",
+        "zulbia"
+      ],
+      "explanation": "The Persian zolbiya and Arabic zulabiya are both attested in medieval cookbooks; the dish reached India by the late medieval period.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd041",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "A tall glass of vermicelli noodles, sweet basil seeds, milk, rose syrup and sometimes a scoop of kulfi — a staple of Bombay and Hyderabad ice-cream parlours, it descends directly from the Persian rose-and-vermicelli sorbet faloodeh. Name the Indian dessert.",
+      "answer": "Falooda",
+      "accept": [
+        "falooda",
+        "faluda",
+        "phaluda",
+        "faloodeh"
+      ],
+      "explanation": "Faloodeh is the Persian original, made of thin frozen noodles, rose syrup and lemon; the Indo-Pak falooda adds milk and kulfi.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd042",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "Persian pilav, Awadhi pulao, Hyderabadi yakhni pulao, Kashmiri pulao — all are versions of a rice-and-stock dish that the Mughals brought from Iran and Central Asia. What is the family name of this technique, attested in Persian since at least the 10th century?",
+      "answer": "Pulao",
+      "accept": [
+        "pulao",
+        "pilaf",
+        "pilau",
+        "pulav",
+        "pilav",
+        "pilaff"
+      ],
+      "explanation": "Pilaf, pulao and pilav are regional names for the same Persian technique of cooking rice in spiced stock.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd043",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "The cool sweet drinks of an Indian summer — rose, khus, badam, bel — are still called by a Persian word that English then borrowed twice over, once as the soft drink and once as the frozen dessert. What is the Persian word?",
+      "answer": "Sharbat",
+      "accept": [
+        "sharbat",
+        "sherbet",
+        "sharbet"
+      ],
+      "explanation": "From sharbat we get both sherbet and the cocktail-bar sorbet, and in India the whole family of rose, khus and almond drinks.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd044",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "The soft, slightly sweet flatbread of Awadhi cuisine, baked in a tandoor and brushed with milk and saffron — a Lucknow specialty whose name simply means milk-bread in Persian. Name it.",
+      "answer": "Sheermal",
+      "accept": [
+        "sheermal",
+        "shirmal",
+        "shirmaal"
+      ],
+      "explanation": "Sheer means milk and the second element comes from Persian 'malidan' (to rub/knead); sheermal is a Lucknow Awadhi specialty popularised under the Nawabs.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd045",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "Skewered, marinated and grilled — the family of meats that Indians call kebab takes its very name from a word that travelled along with cooks from Iran and Central Asia. Seekh, shami, galouti, boti — what is the umbrella term?",
+      "answer": "Kebab",
+      "accept": [
+        "kebab",
+        "kabab",
+        "kabob"
+      ],
+      "explanation": "Kebab entered Hindi-Urdu from Persian-Arabic and now covers everything from Lucknowi galouti to Punjabi seekh.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd046",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "In May 2016, Prime Minister Narendra Modi, Iranian President Hassan Rouhani and Afghan President Ashraf Ghani signed a trilateral transit agreement around an Iranian deep-water port, giving India sea-and-land access to Afghanistan and Central Asia that bypasses Pakistan. Name the port.",
+      "answer": "Chabahar Port",
+      "accept": [
+        "chabahar",
+        "chabahar port",
+        "shahid beheshti port"
+      ],
+      "explanation": "Chabahar, on the Gulf of Oman in southeastern Iran, is roughly 800 km closer to Afghanistan than Pakistan's Karachi port.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd047",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "Linking Mumbai to Bandar Abbas, on to the Caspian, then up through Russia to Moscow — the multimodal trade corridor that India, Iran and Russia have promoted since 2000 is meant to cut shipping times to Europe roughly in half. Name this corridor, often abbreviated INSTC.",
+      "answer": "International North-South Transport Corridor",
+      "accept": [
+        "instc",
+        "international north-south transport corridor",
+        "north-south transport corridor",
+        "north south transport corridor",
+        "international north south transport corridor"
+      ],
+      "explanation": "The INSTC was conceived by India, Iran and Russia in 2000 (formally signed 2002) as an alternative to the Suez Canal route to northern Europe; its northern terminus is Moscow, with onward connections to Europe.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd048",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "Discovered by ONGC Videsh in 2008 in the Persian Gulf, this giant Iranian gas field — whose name carries a B for the block — became the subject of long, frustrating negotiations between Delhi and Tehran throughout the 2010s. Name the field.",
+      "answer": "Farzad-B",
+      "accept": [
+        "farzad-b",
+        "farzad b",
+        "farzad b gas field",
+        "farzad-b gas field"
+      ],
+      "explanation": "Farzad-B was discovered by ONGC Videsh in 2008 but its development contract was eventually given to an Iranian company in 2021.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd049",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "K Asif spent more than a decade and famously bankrupted several producers making a 1960 Hindi epic set in Akbar's court, with Madhubala as the courtesan Anarkali, Dilip Kumar as Prince Salim and a young Lata singing Pyaar Kiya Toh Darna Kya. Name the film.",
+      "answer": "Mughal-e-Azam",
+      "accept": [
+        "mughal-e-azam",
+        "mughal e azam",
+        "mughal-e-aazam",
+        "mughal e aazam"
+      ],
+      "explanation": "Mughal-e-Azam premiered in 1960 and stands as the towering Hindi-cinema portrait of the Persian-speaking Mughal court.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd050",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "Ashutosh Gowariker's 2008 historical drama paired Hrithik Roshan as the Persian-speaking third Mughal emperor with Aishwarya Rai as a Rajput princess from Amber, telling a love story that crosses faith and language. Name the film.",
+      "answer": "Jodhaa Akbar",
+      "accept": [
+        "jodhaa akbar",
+        "jodha akbar"
+      ],
+      "explanation": "Jodhaa Akbar dramatises the marriage of Akbar to the Kachhwaha princess from Amber, with extensive Persian court detail.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd051",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "Akbar's reign saw a Maktab Khana, a translation bureau, where Sanskrit classics — the Mahabharata, the Ramayana, the Bhagavata, the Yoga Vasishtha — were rendered into the court language. The Persian Mahabharata that came out of this bureau was given a name meaning the Book of War. What was it called?",
+      "answer": "Razmnama",
+      "accept": [
+        "razmnama",
+        "razm nama",
+        "razm-nama",
+        "razm namah"
+      ],
+      "explanation": "Razmnama, completed in the 1580s under Akbar, is the great Persian translation of the Mahabharata, lavishly illustrated.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd052",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "In the Persian-derived vocabulary of Mughal architecture, this is the great vaulted hall, open on one side, that you see fronting Iranian mosques and tombs from Isfahan to Agra. The Taj's central facade is essentially a giant one. What is this architectural element called?",
+      "answer": "Iwan",
+      "accept": [
+        "iwan",
+        "ivan",
+        "eyvan",
+        "liwan"
+      ],
+      "explanation": "The iwan, a Persian invention, became a defining feature of Indo-Islamic mosques, tombs and palaces.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd053",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "Framing the great iwan of a Mughal tomb or mosque you almost always find a rectangular portal screen, often inlaid with calligraphy and pietra dura — a Persian device that gives the facade its monumental scale. What is this rectangular framing portal called?",
+      "answer": "Pishtaq",
+      "accept": [
+        "pishtaq",
+        "pish taq",
+        "pish-taq"
+      ],
+      "explanation": "The pishtaq frames the iwan; the Taj Mahal's south face is dominated by an enormous calligraphy-rimmed pishtaq.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd054",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "A defining feature of mature Mughal tombs from Humayun's onwards: an inner shell that gives the chamber a comfortable interior height, and an outer shell that soars high enough to dominate the skyline. What is this two-layered Persian-style dome called?",
+      "answer": "Double dome",
+      "accept": [
+        "double dome",
+        "double-dome",
+        "double-shell dome",
+        "bulbous double dome"
+      ],
+      "explanation": "The double dome was perfected in Timurid Central Asia and reached India with Humayun's Tomb in the 1570s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd055",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "In Lucknow's Husainabad complex, Muhammad Ali Shah built a smaller and more delicately decorated imambara than his predecessor Asaf-ud-Daula's giant — a building full of chandeliers, mirrors and silver tazias used in the Muharram processions of this Persian-influenced Shia court. Name it.",
+      "answer": "Chota Imambara",
+      "accept": [
+        "chota imambara",
+        "chhota imambara",
+        "husainabad imambara",
+        "imambara husainabad"
+      ],
+      "explanation": "The Chota Imambara, built in 1838, served both as a congregation hall and as a mausoleum for Muhammad Ali Shah.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd056",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "Within the Awadhi court the Persian-origin word for the small replica tomb of Imam Husain came to denote both decorative model tombs and the ceremonial structures carried in Muharram processions. Around the time of Muharram, every neighbourhood of Lucknow puts out one of these. Which Persian-origin word?",
+      "answer": "Taziya",
+      "accept": [
+        "taziya",
+        "tazia",
+        "tazieh",
+        "ta'ziyah",
+        "taaziya"
+      ],
+      "explanation": "Taziya, from the Persian ta'ziyeh (mourning), refers in India to the replica tombs of Imam Husain and the Muharram processions central to Shia Awadhi practice.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd057",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "Sitting in Persian gardens and Lutyens' Delhi alike, this Hindi word for a garden — also surviving in place names like Lalbagh in Bangalore and Karol Bagh in Delhi — came straight from Persian. What is the word?",
+      "answer": "Bagh",
+      "accept": [
+        "bagh",
+        "baagh"
+      ],
+      "explanation": "Bagh, Persian for garden, lives on in Indian place names from Shalimar Bagh to Lal Bagh.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd058",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "A slow-cooked breakfast stew of meat and bone marrow, eaten with naan or sheermal in old Delhi and Lucknow — its very name is Persian for trotters. What is the dish?",
+      "answer": "Paya",
+      "accept": [
+        "paya",
+        "paaya",
+        "paye"
+      ],
+      "explanation": "Paya means foot or trotter in Persian and Urdu; the breakfast paya of Delhi and Lucknow descends from Persian slow-cooked stews.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd059",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "The Indian wedding-feast bread served straight out of the tandoor — soft, leavened, often shaped like a teardrop. Its very name is the Persian word for bread. Name it.",
+      "answer": "Naan",
+      "accept": [
+        "naan",
+        "nan"
+      ],
+      "explanation": "Naan simply means bread in Persian; in India it now denotes the leavened tandoor flatbread.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "bd060",
+      "topic": "bridge",
+      "themes": [
+        "india_iran_bridge"
+      ],
+      "question": "When Humayun was driven out of India in 1540 by Sher Shah Suri, he spent years in exile at the court of which Persian shah, who not only restored him to his throne with Persian troops but also sent back with him the artists who would seed Mughal painting?",
+      "answer": "Shah Tahmasp",
+      "accept": [
+        "shah tahmasp",
+        "tahmasp",
+        "shah tahmasp i",
+        "shah tahmasp 1"
+      ],
+      "explanation": "Shah Tahmasp I of the Safavid dynasty hosted Humayun in Tabriz and sent him back to India with troops and master painters.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey001",
+      "topic": "etymology",
+      "themes": [
+        "etymology",
+        "india_iran_bridge"
+      ],
+      "bid_eligible": true,
+      "question": "From the Persian 'pae-jamah' meaning 'leg-garment', and picked up by the British in colonial India, comes which English word for soft sleepwear?",
+      "answer": "Pajamas",
+      "accept": [
+        "pajamas",
+        "pyjamas",
+        "pajama",
+        "pyjama"
+      ],
+      "explanation": "Persian pae (leg) + jamah (garment); entered English from Hindi via British India around 1800.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey002",
+      "topic": "etymology",
+      "themes": [
+        "etymology",
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "Our English word 'paradise' comes from an Old Persian word, 'pairidaeza'. What did 'pairidaeza' literally mean?",
+      "answer": "A walled garden or enclosure",
+      "accept": [
+        "walled garden",
+        "enclosure",
+        "enclosed garden",
+        "walled park",
+        "park",
+        "garden"
+      ],
+      "explanation": "Avestan pairi- (around) + diz (to make a wall); travelled through Greek paradeisos to English.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey003",
+      "topic": "etymology",
+      "themes": [
+        "etymology",
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "Chess came to Europe from India via Persia. Our word 'checkmate' is a worn-down version of the Persian 'shah mat'. What does 'shah mat' literally mean?",
+      "answer": "The king is helpless (or stumped)",
+      "accept": [
+        "the king is helpless",
+        "king is helpless",
+        "the king is stumped",
+        "king is stumped",
+        "the king is dead",
+        "king is dead",
+        "the king is defeated",
+        "shah is helpless"
+      ],
+      "explanation": "Persian shah (king) + mat (helpless, astonished); often retold as 'the king is dead'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey004",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "bid_eligible": true,
+      "question": "From the Persian 'bazar' meaning 'a market', comes which English word for a busy marketplace or a charity fundraiser stall?",
+      "answer": "Bazaar",
+      "accept": [
+        "bazaar",
+        "bazar"
+      ],
+      "explanation": "From Persian bazar (market), via Italian bazarra, into English in the 1580s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey005",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "bid_eligible": true,
+      "question": "From the Persian 'karwan' meaning 'a group of desert travellers', comes which English word now used for both a procession of vehicles and a holiday trailer?",
+      "answer": "Caravan",
+      "accept": [
+        "caravan"
+      ],
+      "explanation": "Persian karwan, picked up during the Crusades via Arabic qairawan.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey006",
+      "topic": "etymology",
+      "themes": [
+        "etymology",
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "When British army officers in India wanted a dust-coloured uniform that wouldn't show dirt, they borrowed the Persian word for 'dust' itself. What English word for a brownish-yellow colour did this give us?",
+      "answer": "Khaki",
+      "accept": [
+        "khaki"
+      ],
+      "explanation": "From Urdu khaki ('dusty'), from Persian khak ('dust'); adopted for uniforms around 1857.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey007",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "question": "From the Persian 'kushk' meaning a pavilion or summer house, comes which English word now used for a small street stall selling newspapers or a touch-screen ordering booth?",
+      "answer": "Kiosk",
+      "accept": [
+        "kiosk"
+      ],
+      "explanation": "Persian kushk to Turkish koshk to French kiosque; arrived in English in the 1620s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey008",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "question": "From the Arabic root 'shariba' meaning 'he drank' — via Persian 'sharbat' (a drink) and Turkish 'serbet' — comes which English word for a fruity frozen dessert?",
+      "answer": "Sherbet",
+      "accept": [
+        "sherbet",
+        "sherbert"
+      ],
+      "explanation": "Arabic shariba ('he drank') gave Persian sharbat and Turkish serbet; English from the 1580s. Also gave us 'syrup' and 'sorbet'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey009",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "difficulty": 3,
+      "question": "Our English word 'julep' comes from the Persian 'gulab'. What does 'gulab' literally mean? (Hint: 'gul' is a flower, 'ab' is water.)",
+      "answer": "Rose water",
+      "accept": [
+        "rose water",
+        "rosewater",
+        "water of roses"
+      ],
+      "explanation": "Persian gul (rose) + ab (water); entered medical Latin as a syrupy medicine, later a minty drink.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey010",
+      "topic": "etymology",
+      "themes": [
+        "etymology",
+        "india_iran_bridge"
+      ],
+      "question": "From the Persian 'shal' (possibly named after a town in India where it was first made), comes which English word for a long piece of cloth worn around the shoulders?",
+      "answer": "Shawl",
+      "accept": [
+        "shawl"
+      ],
+      "explanation": "Persian shal, possibly from Shaliat in India; English from the 1660s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey011",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "bid_eligible": true,
+      "question": "From the Persian 'pistah', through Greek and Italian, comes which English word for a green nut often used in ice cream and baklava?",
+      "answer": "Pistachio",
+      "accept": [
+        "pistachio",
+        "pistachios"
+      ],
+      "explanation": "Persian pistah, via Greek pistakion and Italian pistacchio; English from the 1590s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey012",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "question": "From the Persian 'aspanakh', through Arabic and Spanish, comes which English word for the leafy green Popeye is famous for eating?",
+      "answer": "Spinach",
+      "accept": [
+        "spinach"
+      ],
+      "explanation": "Persian aspanakh -> Arabic isbanakh / Andalusian isbinakh -> Catalan/Provencal espinac/espinarc -> Old French espinache -> English by the late 13th century.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey013",
+      "topic": "etymology",
+      "themes": [
+        "etymology",
+        "india_iran_bridge"
+      ],
+      "question": "From Sanskrit, through Persian 'narang' and Arabic 'naranj', comes which English word for a sweet citrus fruit? (The leading 'n' got eaten by a confused definite article along the way.)",
+      "answer": "Orange",
+      "accept": [
+        "orange"
+      ],
+      "explanation": "Sanskrit naranga to Persian narang to Arabic naranj to Italian arancia; n- lost via confusion with articles.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey014",
+      "topic": "etymology",
+      "themes": [
+        "etymology",
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "From Sanskrit 'khanda' for a piece of sugar, through Persian 'qand' and Arabic 'qandi', we get the English word for sweets. What is it?",
+      "answer": "Candy",
+      "accept": [
+        "candy",
+        "candies"
+      ],
+      "explanation": "Sanskrit khanda to Persian qand (cane sugar) to Arabic qandi to Old French sucre candi.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey015",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "question": "From the Arabic 'al-jabr', meaning roughly 'the reunion of broken parts', and from a 9th-century treatise by the Baghdad mathematician al-Khwarizmi, comes which English word that strikes fear into school students everywhere?",
+      "answer": "Algebra",
+      "accept": [
+        "algebra"
+      ],
+      "explanation": "From al-Khwarizmi's treatise on al-jabr wa al-muqabala (restoring and balancing).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey016",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "difficulty": 3,
+      "question": "The same 9th-century Baghdad mathematician al-Khwarizmi, whose name means 'native of Khwarazm', gave his name, in a mangled Latin form, to which modern English word now central to computing?",
+      "answer": "Algorithm",
+      "accept": [
+        "algorithm",
+        "algorithms"
+      ],
+      "explanation": "Medieval Latin algorismus, a garbled transliteration of al-Khwarizmi's name.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey017",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "difficulty": 3,
+      "question": "Our English word 'alcohol' comes from the Arabic 'al-kuhul'. What did 'al-kuhul' originally mean?",
+      "answer": "A fine powder (kohl, used as eye make-up)",
+      "accept": [
+        "a fine powder",
+        "fine powder",
+        "kohl",
+        "eye make-up",
+        "eye makeup",
+        "eye liner",
+        "eyeliner",
+        "powder for the eyes",
+        "powder"
+      ],
+      "explanation": "Arabic al-kuhul meant the powdered antimony used as eye cosmetic; the meaning broadened to 'pure spirit of anything'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey018",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "question": "From the Arabic 'sifr', meaning 'empty' or 'nothing' (itself a translation of the Sanskrit 'shunya'), come two English words. One means 'a secret code'. What's the other, more numerical one?",
+      "answer": "Zero",
+      "accept": [
+        "zero"
+      ],
+      "explanation": "Arabic sifr gave English both 'zero' and 'cipher'; the Arabs translated the Sanskrit concept shunya.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey019",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "question": "From the Arabic 'makhazin' meaning 'storehouses', comes which English word now used both for a periodical you read on the beach and for the part of a gun that holds bullets?",
+      "answer": "Magazine",
+      "accept": [
+        "magazine",
+        "magazines"
+      ],
+      "explanation": "Arabic makhazin (plural of makhzan, 'storehouse'), via Italian and French.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey020",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "bid_eligible": true,
+      "question": "From the Arabic 'suffah' meaning a bench of stone or wood with cushions, comes which English word for the long soft seat in your living room?",
+      "answer": "Sofa",
+      "accept": [
+        "sofa",
+        "sofas"
+      ],
+      "explanation": "Arabic suffah ('bench, couch'), via Turkish, in English from the 1620s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey021",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "difficulty": 3,
+      "question": "From the Arabic 'hashishin', the name Europeans gave to a particular Nizari Ismaili sect during the Crusades, comes which English word for someone who murders an important person?",
+      "answer": "Assassin",
+      "accept": [
+        "assassin",
+        "assassins"
+      ],
+      "explanation": "Arabic hashishin, name for the Nizari Ismaili sect; English from the 1530s via Italian.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey022",
+      "topic": "etymology",
+      "themes": [
+        "etymology",
+        "india_iran_bridge"
+      ],
+      "question": "From the Hindi verb 'champna' meaning 'to press or knead the muscles' (the imperative is 'champo'), comes which English word now found on every bottle in your bathroom?",
+      "answer": "Shampoo",
+      "accept": [
+        "shampoo"
+      ],
+      "explanation": "Originally meant therapeutic head/body massage in Anglo-Indian English (1762); shifted to hair-washing by 1860.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey023",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "question": "From the Hindi 'bangla', literally meaning 'in the style of Bengal', referring to a low thatched house with a verandah, comes which English word for a single-storey house?",
+      "answer": "Bungalow",
+      "accept": [
+        "bungalow",
+        "bungalows"
+      ],
+      "explanation": "Hindi bangla via Gujarati bangalo; in Anglo-Indian use from the 1670s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey024",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "difficulty": 3,
+      "question": "From Hindi 'Jagannath', a title of Krishna meaning 'lord of the world', and the huge chariot at Puri that bears his image in procession, comes which English word for an unstoppable, crushing force?",
+      "answer": "Juggernaut",
+      "accept": [
+        "juggernaut",
+        "juggernauts"
+      ],
+      "explanation": "Sanskrit jagat (the world) + natha (lord); from the Puri chariot procession.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey025",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "bid_eligible": true,
+      "question": "From the Hindi 'lut' meaning 'to plunder', comes which short English word for stolen goods?",
+      "answer": "Loot",
+      "accept": [
+        "loot"
+      ],
+      "explanation": "Hindi lut, from Sanskrit loptram ('booty'); entered English from Anglo-Indian usage in 1802.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey026",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "question": "From the Hindi 'thag' meaning a cheat or swindler, and the gangs of stranglers and robbers in India whom the British suppressed in the 1830s, comes which English word for a violent ruffian?",
+      "answer": "Thug",
+      "accept": [
+        "thug",
+        "thugs"
+      ],
+      "explanation": "Hindi/Marathi thag; the meaning generalised from the Indian gangs to any cutthroat by 1839.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey027",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "question": "From the Tamil 'kattu-maram', literally 'tied wood', comes which English word for a boat with two parallel hulls?",
+      "answer": "Catamaran",
+      "accept": [
+        "catamaran",
+        "catamarans"
+      ],
+      "explanation": "Tamil kattu (to tie) + maram (wood, tree); English from the 1670s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey028",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "question": "Named after the Indian seaport of Calicut, now called Kozhikode, on the Malabar coast, comes which English word for a printed cotton cloth?",
+      "answer": "Calico",
+      "accept": [
+        "calico"
+      ],
+      "explanation": "From Calicut, an alternative form of the port-city name; English from the 1530s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey029",
+      "topic": "etymology",
+      "themes": [
+        "etymology"
+      ],
+      "difficulty": 3,
+      "question": "Named after the city in northern Iraq where it was made, comes which English word for a fine, lightweight cotton fabric?",
+      "answer": "Muslin",
+      "accept": [
+        "muslin"
+      ],
+      "explanation": "From Italian Mussolo, the Italian name for Mosul; English from around 1600.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ey030",
+      "topic": "etymology",
+      "themes": [
+        "etymology",
+        "india_iran_bridge"
+      ],
+      "difficulty": 3,
+      "question": "From the Turkish 'ordu' meaning 'a camp or army' (the same word that gives the name of a language spoken in Pakistan), comes which English word for a vast, unruly crowd?",
+      "answer": "Horde",
+      "accept": [
+        "horde",
+        "hordes"
+      ],
+      "explanation": "Tatar urda / Turkish ordu ('camp, army'); same root gives the language name Urdu.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa001",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "It's a city that sits on the Pacific coast of Honshu island, was once known as Edo, and became the seat of the Japanese emperor in 1868. Name the capital.",
+      "answer": "Tokyo",
+      "accept": [
+        "tokyo",
+        "tokyo japan"
+      ],
+      "explanation": "Edo was renamed Tokyo, meaning 'eastern capital', when Emperor Meiji moved his court there from Kyoto.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa002",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Sydney is bigger, Melbourne is more cultured, but the federal capital of Australia is a planned city tucked between them. Which city?",
+      "answer": "Canberra",
+      "accept": [
+        "canberra"
+      ],
+      "explanation": "Canberra was chosen as a compromise capital in 1908 to settle the Sydney-Melbourne rivalry.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa003",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Rio de Janeiro had the beaches and the carnival, but in 1960 Brazil moved its capital to a brand new, purpose-built inland city. Which city?",
+      "answer": "Brasilia",
+      "accept": [
+        "brasilia",
+        "brasília"
+      ],
+      "explanation": "Brasilia, designed by Oscar Niemeyer and Lúcio Costa, was built to develop Brazil's interior.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa004",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Toronto is the largest city in Canada, but the capital is a quieter place on the Ottawa River. Which city?",
+      "answer": "Ottawa",
+      "accept": [
+        "ottawa"
+      ],
+      "explanation": "Queen Victoria picked Ottawa as the capital in 1857 partly because it sat between English and French Canada.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa005",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Auckland is the biggest city in New Zealand, but the capital sits at the southwestern tip of the North Island and is famously windy. Which city?",
+      "answer": "Wellington",
+      "accept": [
+        "wellington"
+      ],
+      "explanation": "Wellington became the capital in 1865 because of its central location between the two main islands.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa006",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Nigeria moved its capital from the coastal megacity of Lagos to a planned city in the country's centre in 1991. Name the current capital.",
+      "answer": "Abuja",
+      "accept": [
+        "abuja"
+      ],
+      "explanation": "Abuja was built as a neutral capital between Nigeria's competing regions; Lagos remains the largest city.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa007",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "It runs north for nearly 6,650 km through Egypt and Sudan, and ancient civilisations rose on its banks. Name the river.",
+      "answer": "Nile",
+      "accept": [
+        "nile",
+        "the nile",
+        "river nile"
+      ],
+      "explanation": "The Nile is traditionally considered the longest river in the world, though the Amazon's length is sometimes disputed.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa008",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "It carries more water than any other river on Earth, draining a vast rainforest before emptying into the Atlantic. Which river?",
+      "answer": "Amazon",
+      "accept": [
+        "amazon",
+        "the amazon",
+        "river amazon"
+      ],
+      "explanation": "The Amazon discharges more water than the next seven largest rivers combined.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa009",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "It's the longest river in Asia, runs through Chongqing and Shanghai, and is home to the Three Gorges Dam. Name the river.",
+      "answer": "Yangtze",
+      "accept": [
+        "yangtze",
+        "yangzi",
+        "chang jiang",
+        "changjiang"
+      ],
+      "explanation": "The Yangtze is the third-longest river in the world after the Nile and Amazon.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa010",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Born in Germany's Black Forest, it flows east through Vienna, Budapest, and Belgrade before emptying into the Black Sea. Name this river that touches ten countries.",
+      "answer": "Danube",
+      "accept": [
+        "danube",
+        "the danube"
+      ],
+      "explanation": "The Danube flows through or borders ten countries, more than any other river.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa011",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "At 8,849 metres, it is the highest point on Earth and sits on the border of Nepal and China. Name it.",
+      "answer": "Mount Everest",
+      "accept": [
+        "everest",
+        "mount everest",
+        "mt everest",
+        "qomolangma",
+        "sagarmatha"
+      ],
+      "explanation": "Tibetans call it Qomolangma; Nepalis call it Sagarmatha. It was first summited by Tenzing Norgay and Edmund Hillary in 1953.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa012",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "The second-highest mountain in the world has no romantic local name in common use, just a surveyor's code. Name it.",
+      "answer": "K2",
+      "accept": [
+        "k2",
+        "k-2",
+        "mount godwin-austen",
+        "chhogori"
+      ],
+      "explanation": "K2 stands at 8,611 metres on the China-Pakistan border. The name comes from the Karakoram survey.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa013",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "It's the highest free-standing mountain in the world and the tallest in Africa, with a snowy summit just south of the equator in Tanzania. Name it.",
+      "answer": "Mount Kilimanjaro",
+      "accept": [
+        "kilimanjaro",
+        "mount kilimanjaro",
+        "mt kilimanjaro"
+      ],
+      "explanation": "Kilimanjaro rises to 5,895 metres and is a dormant volcano with three cones.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa014",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Symmetrical, snow-capped, and sacred to its country, this 3,776-metre volcano is the highest mountain in Japan. Name it.",
+      "answer": "Mount Fuji",
+      "accept": [
+        "fuji",
+        "mount fuji",
+        "mt fuji",
+        "fujisan",
+        "fujiyama"
+      ],
+      "explanation": "Mount Fuji last erupted in 1707 and is a UNESCO World Heritage Site.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa015",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This vast desert stretches across North Africa from the Atlantic to the Red Sea, covering parts of more than ten countries. Name it.",
+      "answer": "Sahara",
+      "accept": [
+        "sahara",
+        "sahara desert",
+        "the sahara"
+      ],
+      "explanation": "The Sahara is the largest hot desert in the world, roughly the size of the United States.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa016",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "It stretches across northern China and southern Mongolia, and gave its name to a desert horse and a famous Mongolian dish-of-sorts. Name the desert.",
+      "answer": "Gobi",
+      "accept": [
+        "gobi",
+        "gobi desert",
+        "the gobi"
+      ],
+      "explanation": "The Gobi is famous for fossil discoveries, including the first confirmed dinosaur eggs.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa017",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Lying in a strip along the Pacific coast of Chile, some weather stations here have never recorded a drop of rain. Name the driest non-polar desert on Earth.",
+      "answer": "Atacama Desert",
+      "accept": [
+        "atacama",
+        "atacama desert",
+        "the atacama"
+      ],
+      "explanation": "Parts of the Atacama receive less than 1 mm of rain per year on average.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa018",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Mostly covered in ice but governed by Denmark, this is the world's largest island. Name it.",
+      "answer": "Greenland",
+      "accept": [
+        "greenland"
+      ],
+      "explanation": "Greenland is about three times the size of Texas; Australia is not counted as it is a continent.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa019",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Off the southeast coast of Africa, this island nation is famous for lemurs found nowhere else. Name it.",
+      "answer": "Madagascar",
+      "accept": [
+        "madagascar"
+      ],
+      "explanation": "Madagascar is the world's fourth-largest island and broke away from the African mainland tens of millions of years ago.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa020",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "The world's third-largest island is divided between three countries: Indonesia, Malaysia, and Brunei. Name it.",
+      "answer": "Borneo",
+      "accept": [
+        "borneo"
+      ],
+      "explanation": "Borneo is home to ancient rainforests and the endangered orangutan.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa021",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "It looks like a lake on the map but is officially called a sea, and despite being landlocked it is the largest enclosed inland body of water on Earth. Name it.",
+      "answer": "Caspian Sea",
+      "accept": [
+        "caspian sea",
+        "caspian",
+        "the caspian"
+      ],
+      "explanation": "The Caspian is bordered by Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa022",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "It's the largest of the Great Lakes by surface area, sits between Canada and the United States, and its name simply tells you it's at the top. Name it.",
+      "answer": "Lake Superior",
+      "accept": [
+        "lake superior",
+        "superior"
+      ],
+      "explanation": "Lake Superior is the largest freshwater lake in the world by surface area.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa023",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Its shores are the lowest point on dry land, more than 400 metres below sea level, and its waters are so salty you float effortlessly. Name this body of water.",
+      "answer": "Dead Sea",
+      "accept": [
+        "dead sea",
+        "the dead sea"
+      ],
+      "explanation": "The Dead Sea sits between Israel, Jordan and the Palestinian territories at about 430 metres below sea level.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa024",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Designed by Gustave Eiffel for the 1889 World's Fair, it was meant to be temporary. In which year was it completed?",
+      "answer": "1889",
+      "accept": [
+        "1889"
+      ],
+      "explanation": "The Eiffel Tower was inaugurated on 31 March 1889. Many Parisians initially hated it.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa025",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "France gifted the United States a colossal copper statue, dedicated in 1886, that has stood in New York Harbor ever since. Name the statue.",
+      "answer": "Statue of Liberty",
+      "accept": [
+        "statue of liberty",
+        "lady liberty",
+        "liberty"
+      ],
+      "explanation": "Designed by Frédéric Auguste Bartholdi with internal framework by Gustave Eiffel.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa026",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Built more than 4,500 years ago as tombs for pharaohs, these are the only surviving wonder of the ancient world. Name and place them.",
+      "answer": "Pyramids of Giza",
+      "accept": [
+        "pyramids of giza",
+        "great pyramids",
+        "pyramids",
+        "giza pyramids",
+        "egyptian pyramids"
+      ],
+      "explanation": "The Great Pyramid of Khufu was the tallest man-made structure for nearly 3,800 years.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa027",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Designed by Danish architect Jørn Utzon, with its famous shell-like roof, this landmark on Bennelong Point was opened by Queen Elizabeth II in 1973. Name it.",
+      "answer": "Sydney Opera House",
+      "accept": [
+        "sydney opera house",
+        "opera house sydney"
+      ],
+      "explanation": "Utzon resigned during construction and never saw the finished building.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa028",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Carved into rose-red sandstone cliffs in what is now Jordan, it was the capital of the Nabataean kingdom. Name this ancient city.",
+      "answer": "Petra",
+      "accept": [
+        "petra"
+      ],
+      "explanation": "Petra was famously rediscovered for Europeans by Swiss explorer Johann Burckhardt in 1812.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa029",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Perched high in the Peruvian Andes, this 15th-century Inca citadel was brought to world attention by Hiram Bingham in 1911. Name it.",
+      "answer": "Machu Picchu",
+      "accept": [
+        "machu picchu",
+        "machupicchu"
+      ],
+      "explanation": "Machu Picchu sits at about 2,430 metres above sea level and was probably an estate of emperor Pachacuti.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa030",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "The smallest independent country in the world, both by area and population, sits inside the city of Rome. Name it.",
+      "answer": "Vatican City",
+      "accept": [
+        "vatican city",
+        "vatican",
+        "the vatican"
+      ],
+      "explanation": "Vatican City covers about 0.49 square kilometres and was created by the Lateran Treaty of 1929.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa031",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "This tiny mountain kingdom in southern Africa is completely surrounded by a single other country: South Africa. Name it.",
+      "answer": "Lesotho",
+      "accept": [
+        "lesotho",
+        "kingdom of lesotho"
+      ],
+      "explanation": "Lesotho is one of only three countries entirely enclosed by another country, along with San Marino and Vatican City.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa032",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "It is the only country in the world named after a family — the dynasty that founded it in 1932. Name the country.",
+      "answer": "Saudi Arabia",
+      "accept": [
+        "saudi arabia",
+        "saudi",
+        "kingdom of saudi arabia",
+        "ksa"
+      ],
+      "explanation": "The Kingdom takes its name from the House of Saud, founded by Muhammad bin Saud in the 18th century.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa033",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "He was the Macedonian king who, by the age of 30, had conquered an empire stretching from Greece to the edge of India. Name him.",
+      "answer": "Alexander the Great",
+      "accept": [
+        "alexander",
+        "alexander the great",
+        "alexander iii of macedon",
+        "alexander iii"
+      ],
+      "explanation": "Alexander died in Babylon in 323 BC at just 32, and his empire fragmented soon after.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa034",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "The Athenian philosopher who never wrote a book, taught Plato, and was sentenced to death by drinking hemlock in 399 BC. Name him.",
+      "answer": "Socrates",
+      "accept": [
+        "socrates"
+      ],
+      "explanation": "Almost everything we know about Socrates comes from the writings of his student Plato.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa035",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Julius Caesar was assassinated on a famous date in the Roman calendar in 44 BC. What is the date known as?",
+      "answer": "Ides of March",
+      "accept": [
+        "ides of march",
+        "the ides of march",
+        "march 15",
+        "15 march",
+        "15th march",
+        "march 15 44 bc"
+      ],
+      "explanation": "Caesar was stabbed in the Senate on 15 March 44 BC, immortalised by Shakespeare's 'Beware the Ides of March'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa036",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "In 49 BC, a Roman general defied the Senate by leading his army across a small river into Italy, triggering civil war. Name the river or the general.",
+      "answer": "Rubicon (or Julius Caesar)",
+      "accept": [
+        "rubicon",
+        "the rubicon",
+        "julius caesar",
+        "caesar"
+      ],
+      "explanation": "Caesar's words 'alea iacta est' (the die is cast) gave us the phrase 'crossing the Rubicon'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa037",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "In 1215, English barons forced a king to sign a charter at Runnymede that limited royal power and became a foundation of constitutional law. Name the document.",
+      "answer": "Magna Carta",
+      "accept": [
+        "magna carta",
+        "the magna carta",
+        "great charter"
+      ],
+      "explanation": "King John signed the Magna Carta under duress; it is often considered an ancestor of modern bills of rights.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa038",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Between roughly 1347 and 1351, a pandemic killed perhaps a third of Europe's population. By what name is it usually known?",
+      "answer": "Black Death",
+      "accept": [
+        "black death",
+        "the black death",
+        "bubonic plague",
+        "the plague"
+      ],
+      "explanation": "The Black Death was caused by the bacterium Yersinia pestis, spread mainly by fleas on rats.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa039",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This 13th-century Mongol leader built the largest contiguous land empire in history. Name him.",
+      "answer": "Genghis Khan",
+      "accept": [
+        "genghis khan",
+        "chinggis khan",
+        "chingis khan"
+      ],
+      "explanation": "Born Temujin around 1162, Genghis Khan was proclaimed leader of all the Mongols in 1206.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa040",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "This Venetian merchant claimed to have spent years at the court of Kublai Khan, and his book inspired Europe's fascination with the East. Name him.",
+      "answer": "Marco Polo",
+      "accept": [
+        "marco polo",
+        "polo"
+      ],
+      "explanation": "Polo's 'Travels', dictated to a fellow prisoner in Genoa, was one of the most influential travel books ever written.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa041",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "An Italian sailing for Spain, he made landfall in the Caribbean in 1492 thinking he had reached the Indies. Name him.",
+      "answer": "Christopher Columbus",
+      "accept": [
+        "columbus",
+        "christopher columbus",
+        "cristoforo colombo",
+        "cristobal colon"
+      ],
+      "explanation": "Columbus made four voyages but never realised he had reached a continent unknown to Europeans.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa042",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "In May 1498, a Portuguese navigator dropped anchor near Calicut on the Malabar coast, opening a sea route from Europe to India. Name him.",
+      "answer": "Vasco da Gama",
+      "accept": [
+        "vasco da gama",
+        "da gama",
+        "vasco de gama"
+      ],
+      "explanation": "His voyage around the Cape of Good Hope began centuries of Portuguese trade with Asia.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa043",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "His expedition was the first to circumnavigate the globe, though he himself was killed in the Philippines before the journey ended. Name him.",
+      "answer": "Ferdinand Magellan",
+      "accept": [
+        "magellan",
+        "ferdinand magellan",
+        "fernao de magalhaes"
+      ],
+      "explanation": "Magellan died in 1521; Juan Sebastián Elcano completed the circumnavigation in 1522.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa044",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "He painted the ceiling of the Sistine Chapel between 1508 and 1512, and sculpted David. Name this Renaissance master.",
+      "answer": "Michelangelo",
+      "accept": [
+        "michelangelo",
+        "michelangelo buonarroti"
+      ],
+      "explanation": "Michelangelo worked largely alone on the ceiling, lying on his back on a scaffold for years.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa045",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Painter, anatomist, engineer, and the man behind the Mona Lisa and The Last Supper. Name him.",
+      "answer": "Leonardo da Vinci",
+      "accept": [
+        "leonardo da vinci",
+        "leonardo",
+        "da vinci"
+      ],
+      "explanation": "Leonardo embodied the Renaissance ideal of the 'universal man'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa046",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "On 14 July 1789, a Parisian crowd stormed a royal fortress and prison, an event still celebrated as France's national day. Name the fortress.",
+      "answer": "Bastille",
+      "accept": [
+        "bastille",
+        "the bastille"
+      ],
+      "explanation": "The storming of the Bastille has come to symbolise the start of the French Revolution.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa047",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "A Corsican-born artillery officer who crowned himself Emperor of the French in 1804 and was finally defeated at Waterloo in 1815. Name him.",
+      "answer": "Napoleon Bonaparte",
+      "accept": [
+        "napoleon",
+        "napoleon bonaparte",
+        "bonaparte"
+      ],
+      "explanation": "Napoleon was exiled twice — first to Elba, then permanently to Saint Helena after Waterloo.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa049",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "In 1917, two revolutions in this country toppled the Tsar and brought the Bolsheviks to power under Lenin. Which country?",
+      "answer": "Russia",
+      "accept": [
+        "russia"
+      ],
+      "explanation": "The February Revolution ended the monarchy; the October Revolution brought the Bolsheviks to power.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa050",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "On 28 June 1914, the heir to the Austro-Hungarian throne was assassinated in a Bosnian city, triggering World War I. In which city?",
+      "answer": "Sarajevo",
+      "accept": [
+        "sarajevo"
+      ],
+      "explanation": "Archduke Franz Ferdinand and his wife Sophie were shot by Gavrilo Princip near the Latin Bridge.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa051",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "World War II in Europe began when one country invaded Poland on 1 September 1939. Which country invaded?",
+      "answer": "Germany",
+      "accept": [
+        "germany",
+        "nazi germany",
+        "the third reich",
+        "third reich"
+      ],
+      "explanation": "Britain and France declared war on Germany two days later, on 3 September.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa052",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Allied forces landed on the beaches of Normandy in the largest seaborne invasion in history. On what date?",
+      "answer": "6 June 1944",
+      "accept": [
+        "6 june 1944",
+        "june 6 1944",
+        "6/6/1944",
+        "june 6, 1944",
+        "d-day",
+        "d day"
+      ],
+      "explanation": "Five beaches were targeted: Utah, Omaha, Gold, Juno and Sword.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa053",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "On 6 August 1945, an American B-29 named the Enola Gay dropped an atomic bomb on a Japanese city. Which city?",
+      "answer": "Hiroshima",
+      "accept": [
+        "hiroshima"
+      ],
+      "explanation": "A second bomb was dropped three days later on Nagasaki, hastening Japan's surrender.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa054",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "On 9 November 1989, crowds began chipping away at a barrier that had divided a European city since 1961. Name the wall.",
+      "answer": "Berlin Wall",
+      "accept": [
+        "berlin wall",
+        "the berlin wall"
+      ],
+      "explanation": "The fall of the Wall was a key moment in the end of the Cold War; East and West Germany reunified in 1990.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa055",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "After 27 years in prison, this anti-apartheid leader walked free in 1990 and went on to become South Africa's first Black president in 1994. Name him.",
+      "answer": "Nelson Mandela",
+      "accept": [
+        "mandela",
+        "nelson mandela",
+        "madiba"
+      ],
+      "explanation": "Mandela shared the 1993 Nobel Peace Prize with F. W. de Klerk.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa056",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "In August 1963, an American civil rights leader delivered the 'I Have a Dream' speech on the steps of the Lincoln Memorial. Name him.",
+      "answer": "Martin Luther King Jr.",
+      "accept": [
+        "martin luther king",
+        "martin luther king jr",
+        "mlk",
+        "dr king",
+        "king"
+      ],
+      "explanation": "King drew explicitly on Gandhi's philosophy of non-violent resistance. He was assassinated in Memphis in 1968.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa057",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "This British Prime Minister led his country through World War II and is remembered for the line 'We shall fight on the beaches'. Name him.",
+      "answer": "Winston Churchill",
+      "accept": [
+        "churchill",
+        "winston churchill",
+        "sir winston churchill"
+      ],
+      "explanation": "Churchill served as PM 1940-45 and again 1951-55, and won the Nobel Prize in Literature in 1953.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa058",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Britain's first woman Prime Minister, who led the Conservative Party from 1979 to 1990 and was nicknamed the 'Iron Lady'. Name her.",
+      "answer": "Margaret Thatcher",
+      "accept": [
+        "margaret thatcher",
+        "thatcher",
+        "maggie thatcher"
+      ],
+      "explanation": "The 'Iron Lady' nickname was given to her by a Soviet journalist in 1976.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa059",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "He was the Polish electrician who led the Solidarity trade union and later became president of post-communist Poland in 1990. Name him.",
+      "answer": "Lech Walesa",
+      "accept": [
+        "lech walesa",
+        "walesa",
+        "lech wałęsa",
+        "wałęsa"
+      ],
+      "explanation": "Walesa, an electrician at the Lenin Shipyard in Gdansk, won the Nobel Peace Prize in 1983 for his role in Solidarity's struggle.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wa060",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Elected in 1978, he was the first non-Italian pope in over 450 years and is credited with helping bring down communism in Eastern Europe. Name him.",
+      "answer": "Pope John Paul II",
+      "accept": [
+        "pope john paul ii",
+        "john paul ii",
+        "john paul the second",
+        "karol wojtyla",
+        "karol wojtyła"
+      ],
+      "explanation": "Born Karol Wojtyła in Poland, John Paul II served until his death in 2005.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb002",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Francis Ford Coppola's 1972 epic about the Corleone family won Best Picture and gave Marlon Brando his second Oscar. Name the film.",
+      "answer": "The Godfather",
+      "accept": [
+        "The Godfather",
+        "Godfather"
+      ],
+      "explanation": "Brando famously refused the Oscar, sending Sacheen Littlefeather to decline it on his behalf.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb003",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "George Lucas's 1977 space opera introduced the world to Luke Skywalker, Princess Leia, and a hooded mentor played by Alec Guinness. Name the film.",
+      "answer": "Star Wars",
+      "accept": [
+        "Star Wars",
+        "Star Wars: A New Hope",
+        "A New Hope"
+      ],
+      "explanation": "Later retitled Episode IV: A New Hope. Lucas built an empire from a single film almost no studio wanted to make.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb004",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This 1997 James Cameron film won 11 Oscars including Best Picture and made Leonardo DiCaprio a global star. Name it.",
+      "answer": "Titanic",
+      "accept": [
+        "Titanic"
+      ],
+      "explanation": "Tied the record of 11 Oscars (with Ben-Hur, and later The Return of the King). Held the all-time box-office record until Avatar.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb005",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Steven Spielberg's stark, mostly black-and-white 1993 film about a German industrialist who saved over a thousand Jewish workers during the Holocaust. Which film?",
+      "answer": "Schindler's List",
+      "accept": [
+        "Schindler's List",
+        "Schindlers List"
+      ],
+      "explanation": "Won seven Oscars including Best Picture and Director. Based on Thomas Keneally's novel about Oskar Schindler.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb006",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "At the 92nd Academy Awards, this South Korean film became the first non-English-language film ever to win Best Picture. Name the film and its director.",
+      "answer": "Parasite, directed by Bong Joon-ho",
+      "accept": [
+        "Parasite / Bong Joon-ho",
+        "Parasite, Bong Joon-ho",
+        "Parasite — Bong Joon-ho"
+      ],
+      "explanation": "It also won Best Director, Best Original Screenplay, and Best International Feature — a clean sweep of four Oscars in 2020.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb007",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Christopher Nolan's 2023 biopic about the 'father of the atomic bomb' won seven Oscars including Best Picture and Best Director. Name the film.",
+      "answer": "Oppenheimer",
+      "accept": [
+        "Oppenheimer"
+      ],
+      "explanation": "Cillian Murphy won Best Actor as J. Robert Oppenheimer; Robert Downey Jr. won Best Supporting Actor as Lewis Strauss.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb008",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "This Japanese director's 1954 film about a village hiring seven warriors to fend off bandits has been remade and homaged endlessly, including as a Hollywood Western. Name the director and the film.",
+      "answer": "Akira Kurosawa, Seven Samurai",
+      "accept": [
+        "Kurosawa / Seven Samurai",
+        "Akira Kurosawa — Seven Samurai",
+        "Seven Samurai, Kurosawa"
+      ],
+      "explanation": "John Sturges remade it as The Magnificent Seven in 1960. Kurosawa also directed Rashomon, Yojimbo, and Ran.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb009",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Japanese animator who co-founded Studio Ghibli and won the 2003 Best Animated Feature Oscar for Spirited Away. Name him.",
+      "answer": "Hayao Miyazaki",
+      "accept": [
+        "Hayao Miyazaki",
+        "Miyazaki"
+      ],
+      "explanation": "Also directed My Neighbour Totoro, Princess Mononoke, Howl's Moving Castle and, most recently, The Boy and the Heron.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb010",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "The top prize at the Cannes Film Festival is named after a flowering plant — specifically, this golden version of a leaf. What's the prize called?",
+      "answer": "The Palme d'Or",
+      "accept": [
+        "Palme d'Or",
+        "Golden Palm"
+      ],
+      "explanation": "Berlin awards the Golden Bear, Venice the Golden Lion — three festivals, three suitably gilded symbols.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb012",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This actor played the lead in Forrest Gump, Cast Away, Philadelphia and Saving Private Ryan, and voiced Sheriff Woody in the Toy Story films. Name him.",
+      "answer": "Tom Hanks",
+      "accept": [
+        "Tom Hanks",
+        "Hanks"
+      ],
+      "explanation": "Back-to-back Best Actor Oscars for Philadelphia (1993) and Forrest Gump (1994) — a feat only Spencer Tracy had managed before him.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb013",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Four young men from Liverpool — John, Paul, George and Ringo. Name the band, and the year they finally went their separate ways.",
+      "answer": "The Beatles, 1970",
+      "accept": [
+        "The Beatles / 1970",
+        "Beatles, 1970",
+        "Beatles — 1970"
+      ],
+      "explanation": "Formed in Liverpool around 1960; Ringo joined in 1962; broke up in 1970 after Let It Be.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb014",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Paul McCartney has said the melody for this Beatles song came to him in a dream, and he initially called it 'Scrambled Eggs.' Which song?",
+      "answer": "Yesterday",
+      "accept": [
+        "Yesterday"
+      ],
+      "explanation": "One of the most covered songs in popular music history.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb016",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "In 2016, the Swedish Academy gave the Nobel Prize in Literature to a musician 'for having created new poetic expressions within the great American song tradition.' Name him.",
+      "answer": "Bob Dylan",
+      "accept": [
+        "Bob Dylan",
+        "Dylan"
+      ],
+      "explanation": "Blowin' in the Wind, Like a Rolling Stone, The Times They Are a-Changin'. He famously took weeks to acknowledge the prize.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb017",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Released in 1982 and produced by Quincy Jones, this album is widely cited as the best-selling album of all time. Name the album and the artist.",
+      "answer": "Thriller, by Michael Jackson",
+      "accept": [
+        "Thriller / Michael Jackson",
+        "Michael Jackson, Thriller",
+        "Thriller — MJ"
+      ],
+      "explanation": "Beat It, Billie Jean, Wanna Be Startin' Somethin', and the title track with its 14-minute music video.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb018",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Queen's six-minute single from 1975, with its operatic middle section, was famously revived in popularity by the 1992 film Wayne's World. Name the song.",
+      "answer": "Bohemian Rhapsody",
+      "accept": [
+        "Bohemian Rhapsody"
+      ],
+      "explanation": "Sometimes called 'mock opera.' Number one in the UK twice — on release and again after Freddie Mercury's death in 1991.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb019",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "difficulty": 3,
+      "question": "On 13 July 1985, two concerts ran simultaneously at Wembley and JFK Stadium, Philadelphia, to raise money for Ethiopian famine relief. Queen's set is often cited as the greatest live performance ever. Name the event.",
+      "answer": "Live Aid",
+      "accept": [
+        "Live Aid"
+      ],
+      "explanation": "Organised by Bob Geldof and Midge Ure. An estimated 1.9 billion people watched live.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb020",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Roger Waters, David Gilmour, Nick Mason and Rick Wright. The Dark Side of the Moon, The Wall, Wish You Were Here. Name the band.",
+      "answer": "Pink Floyd",
+      "accept": [
+        "Pink Floyd",
+        "Floyd"
+      ],
+      "explanation": "The Dark Side of the Moon spent over 900 weeks on the Billboard 200 — a record nobody else is close to.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb021",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Swedish quartet, won Eurovision 1974 with 'Waterloo', and resurfaced four decades later as a 'voyage' of digital avatars. Name the band.",
+      "answer": "ABBA",
+      "accept": [
+        "ABBA"
+      ],
+      "explanation": "Agnetha, Björn, Benny, Anni-Frid. The Mamma Mia musical and films keep the songs in every karaoke night to this day.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb022",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "This Austrian child prodigy composed his first symphony at the age of eight and died in Vienna in 1791 aged just 35, leaving behind The Magic Flute and Don Giovanni. Name him.",
+      "answer": "Wolfgang Amadeus Mozart",
+      "accept": [
+        "Mozart",
+        "Wolfgang Amadeus Mozart"
+      ],
+      "explanation": "Buried in an unmarked grave; Salieri got an unfair amount of the blame thanks to the film Amadeus.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb023",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This composer wrote his ninth and final symphony — including the choral 'Ode to Joy' — after he had gone completely deaf. Name him.",
+      "answer": "Ludwig van Beethoven",
+      "accept": [
+        "Beethoven",
+        "Ludwig van Beethoven"
+      ],
+      "explanation": "The Ninth's choral finale uses Schiller's poem; the EU adopted it as its anthem in 1972.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb024",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "difficulty": 3,
+      "question": "This famous opera house in Milan, which opened in 1778 and rebuilt after WWII, takes its name from the church of Santa Maria della Scala that once stood on the site. Name it.",
+      "answer": "La Scala",
+      "accept": [
+        "La Scala",
+        "Teatro alla Scala"
+      ],
+      "explanation": "Pavarotti, Callas, Toscanini — the great names of opera all passed through La Scala.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb025",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Jamaican reggae icon whose songs 'No Woman, No Cry', 'One Love' and 'Redemption Song' made him a global figure. Name him.",
+      "answer": "Bob Marley",
+      "accept": [
+        "Bob Marley",
+        "Marley"
+      ],
+      "explanation": "Died of cancer in 1981 at just 36. The compilation Legend has sold over 30 million copies.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb026",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "On 22 June 1986, in a World Cup quarter-final against England in Mexico City, an Argentine forward scored twice — once with his fist, once after dribbling past half the team. Name him.",
+      "answer": "Diego Maradona",
+      "accept": [
+        "Diego Maradona",
+        "Maradona"
+      ],
+      "explanation": "The 'Hand of God' and the 'Goal of the Century' — both in the same six-minute spell. Argentina won the tournament.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb027",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Brazil has won the football World Cup more times than any other country. How many times?",
+      "answer": "Five",
+      "accept": [
+        "5",
+        "Five",
+        "5 times"
+      ],
+      "explanation": "1958, 1962, 1970, 1994 and 2002. Germany and Italy have four each; Argentina three.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb028",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "In December 2022, this Argentine forward finally lifted the World Cup at the Lusail Stadium in Qatar, beating France on penalties. Name him.",
+      "answer": "Lionel Messi",
+      "accept": [
+        "Lionel Messi",
+        "Messi"
+      ],
+      "explanation": "Eight Ballons d'Or, a Copa América title in 2021, and finally the World Cup at his fifth attempt.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb029",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "In the 90th minute of the 2006 World Cup final, this French captain was sent off for headbutting Italy's Marco Materazzi in the chest. France went on to lose on penalties. Name him.",
+      "answer": "Zinedine Zidane",
+      "accept": [
+        "Zinedine Zidane",
+        "Zidane"
+      ],
+      "explanation": "It was the final act of his career. Italy won; Zidane was strangely still awarded the Golden Ball.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb030",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "The modern Olympic Games were revived in this European capital in 1896, chosen because it was the spiritual home of the ancient games. Which city?",
+      "answer": "Athens",
+      "accept": [
+        "Athens",
+        "Athens, Greece"
+      ],
+      "explanation": "Organised by Pierre de Coubertin, held at the rebuilt Panathenaic Stadium. The marathon was won, fittingly, by a Greek.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb031",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This Jamaican sprinter holds the world records for both the 100m and 200m, and won eight Olympic gold medals across three Games. Name him.",
+      "answer": "Usain Bolt",
+      "accept": [
+        "Usain Bolt",
+        "Bolt"
+      ],
+      "explanation": "100m record 9.58s, 200m record 19.19s, both set in Berlin 2009. The lightning-bolt pose is now universal shorthand for victory.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb033",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Federer, Nadal, Djokovic — between them they dominated men's tennis for two decades. What collective nickname did the sport's media give them?",
+      "answer": "The Big Three",
+      "accept": [
+        "The Big Three",
+        "Big Three"
+      ],
+      "explanation": "Combined, they have won over 60 Grand Slam singles titles.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb034",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Of the four tennis Grand Slams, only one is still played on grass courts. Name it, and the suburb of London where it's held.",
+      "answer": "Wimbledon (in the suburb of Wimbledon)",
+      "accept": [
+        "Wimbledon",
+        "Wimbledon, London"
+      ],
+      "explanation": "The All England Lawn Tennis and Croquet Club; oldest of the four Slams, founded in 1877.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb035",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This American tennis player won 23 Grand Slam singles titles in the Open Era, including a famous 2017 Australian Open won while in the early stages of pregnancy. Name her.",
+      "answer": "Serena Williams",
+      "accept": [
+        "Serena Williams",
+        "Serena"
+      ],
+      "explanation": "Sister Venus has seven; together they revolutionised the women's game from the late 1990s onward.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb036",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "The biennial Test cricket series between England and Australia is named after the burnt remains of a bail kept in a small urn at Lord's. What's the series called?",
+      "answer": "The Ashes",
+      "accept": [
+        "The Ashes",
+        "Ashes"
+      ],
+      "explanation": "First played in 1882-83 after a mock obituary in The Sporting Times declared English cricket dead.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb037",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "He needed only four runs from his final Test innings to retire with a career batting average of 100 — but was bowled by Eric Hollies for a duck, leaving him on 99.94. Name him.",
+      "answer": "Don Bradman",
+      "accept": [
+        "Don Bradman",
+        "Bradman",
+        "Sir Donald Bradman"
+      ],
+      "explanation": "The Oval, August 1948. A statistical outlier the sport will probably never see again.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb038",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This German driver and this British driver share the all-time Formula One record for most World Championships — seven each. Name both.",
+      "answer": "Michael Schumacher and Lewis Hamilton",
+      "accept": [
+        "Schumacher and Hamilton",
+        "Michael Schumacher / Lewis Hamilton"
+      ],
+      "explanation": "Schumacher: 1994-95, 2000-04. Hamilton: 2008, 2014-15, 2017-20.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb039",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "On 1 May 1994, this three-time F1 world champion crashed at the Tamburello corner of the San Marino Grand Prix at Imola and died from his injuries. Name him.",
+      "answer": "Ayrton Senna",
+      "accept": [
+        "Ayrton Senna",
+        "Senna"
+      ],
+      "explanation": "Brazilian, champion in 1988, 1990 and 1991. His death prompted the biggest safety overhaul in F1 history.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb040",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "On 30 October 1974, in Kinshasa, this American boxer reclaimed the world heavyweight title from George Foreman using a 'rope-a-dope' tactic. Name the boxer and the famous nickname for the fight.",
+      "answer": "Muhammad Ali — the Rumble in the Jungle",
+      "accept": [
+        "Muhammad Ali / Rumble in the Jungle",
+        "Ali, Rumble in the Jungle"
+      ],
+      "explanation": "Ali was a 4-1 underdog. Promoter Don King put it together in what was then Zaire.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb042",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "difficulty": 3,
+      "question": "Apple was founded in 1976 by Steve Jobs, Steve Wozniak and a third co-founder who famously sold his 10 percent stake within weeks for $800. Name him.",
+      "answer": "Ronald Wayne",
+      "accept": [
+        "Ronald Wayne",
+        "Ron Wayne",
+        "Wayne"
+      ],
+      "explanation": "That stake would today be worth hundreds of billions. Wayne has said he doesn't regret it.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb043",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Microsoft was co-founded in 1975 by Bill Gates and this childhood friend, who left the company in 1983 after a Hodgkin's lymphoma diagnosis. Name him.",
+      "answer": "Paul Allen",
+      "accept": [
+        "Paul Allen",
+        "Allen"
+      ],
+      "explanation": "Allen later owned the Portland Trail Blazers and the Seattle Seahawks; died in 2018.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb044",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Larry Page and Sergey Brin founded this company in 1998 while PhD students at Stanford, originally calling their search project 'BackRub'. Name the company.",
+      "answer": "Google",
+      "accept": [
+        "Google",
+        "Google (Alphabet)"
+      ],
+      "explanation": "Restructured under the holding company Alphabet in 2015.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb045",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "This American company was founded by Jeff Bezos in 1994 in a Bellevue, Washington garage as an online bookseller, named after the world's largest river. Name it.",
+      "answer": "Amazon",
+      "accept": [
+        "Amazon",
+        "Amazon.com"
+      ],
+      "explanation": "Bezos relocated from New York to Bellevue (just east of Seattle) and started the company as 'Cadabra' in July 1994 before renaming it Amazon. He chose the name partly so the company would appear early in alphabetical listings.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb048",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Walt Disney and his brother founded their animation studio in 1923. What was his brother's name, and in what year did Mickey Mouse make his debut in Steamboat Willie?",
+      "answer": "Roy O. Disney; 1928",
+      "accept": [
+        "Roy Disney, 1928",
+        "Roy / 1928"
+      ],
+      "explanation": "Roy ran the business side for decades while Walt handled the creative end.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb049",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "Henry Ford's affordable mass-produced car, launched in 1908 and built on a moving assembly line, came in any colour as long as it was black. Name it.",
+      "answer": "Ford Model T",
+      "accept": [
+        "Model T",
+        "Ford Model T"
+      ],
+      "explanation": "Over 15 million sold by the time production ended in 1927.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb050",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "This French fashion designer, born in 1883, gave the world the little black dress, costume jewellery, and a perfume known by her name and the number five. Name her.",
+      "answer": "Coco Chanel",
+      "accept": [
+        "Coco Chanel",
+        "Chanel",
+        "Gabrielle Chanel"
+      ],
+      "explanation": "Born Gabrielle Bonheur Chanel; the No. 5 perfume launched in 1921.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb051",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "His equation E=mc² and his theory of relativity made him a household name; the 1921 Nobel Prize in Physics he received was actually for explaining the photoelectric effect. Name him.",
+      "answer": "Albert Einstein",
+      "accept": [
+        "Albert Einstein",
+        "Einstein"
+      ],
+      "explanation": "Special relativity (1905), general relativity (1915), Nobel announced in 1922 for 1921.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb052",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "English physicist and mathematician who set out three laws of motion and is said to have been inspired by an apple falling in his mother's garden. Name him.",
+      "answer": "Isaac Newton",
+      "accept": [
+        "Isaac Newton",
+        "Newton",
+        "Sir Isaac Newton"
+      ],
+      "explanation": "Principia Mathematica (1687); also co-invented calculus, more or less simultaneously with Leibniz.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb053",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "Polish-French scientist who won the Nobel in Physics in 1903 and the Nobel in Chemistry in 1911 — the first person ever to win Nobels in two different sciences. Name her.",
+      "answer": "Marie Curie",
+      "accept": [
+        "Marie Curie",
+        "Marie Skłodowska-Curie",
+        "Curie"
+      ],
+      "explanation": "Discovered polonium (named for her native Poland) and radium. She remains the only person to have won Nobel Prizes in two different sciences; Linus Pauling also won two unshared Nobels but his second was the Peace Prize.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb054",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "This English naturalist's voyage aboard HMS Beagle, especially his observations of finches in the Galápagos Islands, led to On the Origin of Species in 1859. Name him.",
+      "answer": "Charles Darwin",
+      "accept": [
+        "Charles Darwin",
+        "Darwin"
+      ],
+      "explanation": "Alfred Russel Wallace independently arrived at a similar theory — which was what finally pushed Darwin to publish.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb055",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "On 12 April 1961, this Soviet cosmonaut became the first human to journey into outer space, completing one orbit of Earth aboard Vostok 1. Name him.",
+      "answer": "Yuri Gagarin",
+      "accept": [
+        "Yuri Gagarin",
+        "Gagarin"
+      ],
+      "explanation": "The flight lasted 108 minutes. Gagarin died in a plane crash seven years later.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb056",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "bid_eligible": true,
+      "question": "On 20 July 1969, this Apollo 11 commander became the first human to set foot on the Moon, with Buzz Aldrin joining him soon after. Name him.",
+      "answer": "Neil Armstrong",
+      "accept": [
+        "Neil Armstrong",
+        "Armstrong"
+      ],
+      "explanation": "Michael Collins stayed in lunar orbit aboard the command module Columbia.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb057",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "Scottish bacteriologist who, returning from holiday in 1928, noticed that a mould had killed bacteria in a forgotten Petri dish, leading to the discovery of penicillin. Name him.",
+      "answer": "Alexander Fleming",
+      "accept": [
+        "Alexander Fleming",
+        "Fleming",
+        "Sir Alexander Fleming"
+      ],
+      "explanation": "Shared the 1945 Nobel in Physiology or Medicine with Howard Florey and Ernst Chain, who developed it into a usable drug.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb058",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "The double-helix structure of DNA was published in Nature in 1953 by these two scientists at Cambridge, drawing crucially on Rosalind Franklin's X-ray data. Name both.",
+      "answer": "James Watson and Francis Crick",
+      "accept": [
+        "Watson and Crick",
+        "James Watson / Francis Crick"
+      ],
+      "explanation": "Franklin's 'Photo 51' was shown to them without her permission; she died in 1958 and never shared the 1962 Nobel.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb059",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "question": "English playwright born in Stratford-upon-Avon in 1564, credited with around 37 plays including Hamlet, Macbeth and Romeo and Juliet. Name him.",
+      "answer": "William Shakespeare",
+      "accept": [
+        "William Shakespeare",
+        "Shakespeare"
+      ],
+      "explanation": "Also wrote 154 sonnets. Died on 23 April 1616 — quite possibly his own birthday, though we can't be sure.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "wb060",
+      "topic": "world",
+      "themes": [
+        "world"
+      ],
+      "difficulty": 3,
+      "question": "This Colombian novelist's 1967 masterpiece One Hundred Years of Solitude, about seven generations of the Buendía family in the town of Macondo, won him the 1982 Nobel Prize in Literature. Name him.",
+      "answer": "Gabriel García Márquez",
+      "accept": [
+        "Gabriel García Márquez",
+        "García Márquez",
+        "Garcia Marquez",
+        "Gabo"
+      ],
+      "explanation": "The defining work of magical realism. Affectionately known throughout the Spanish-speaking world as 'Gabo.'",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us001",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "He was the first President of the United States, refused to belong to any political party, and his face is on the one-dollar bill. Name him.",
+      "answer": "George Washington",
+      "accept": [
+        "george washington",
+        "washington"
+      ],
+      "explanation": "President 1789-1797; the only US president elected without a party affiliation.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us002",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "16th US President, he issued the Emancipation Proclamation in 1863 and was shot at Ford's Theatre in Washington on April 14, 1865. Name him.",
+      "answer": "Abraham Lincoln",
+      "accept": [
+        "abraham lincoln",
+        "lincoln",
+        "abe lincoln"
+      ],
+      "explanation": "Shot by John Wilkes Booth on Good Friday 1865; died the next morning.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us003",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "3rd US President, principal author of the Declaration of Independence in 1776, and the man behind the 1803 Louisiana Purchase that doubled the size of the country. Name him.",
+      "answer": "Thomas Jefferson",
+      "accept": [
+        "thomas jefferson",
+        "jefferson"
+      ],
+      "explanation": "Bought 828,000 square miles from Napoleon for about 15 million dollars.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us004",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "He led a volunteer cavalry unit called the Rough Riders in the Spanish-American War, became the youngest US president at 42, and his face is one of the four on Mount Rushmore. Name him.",
+      "answer": "Theodore Roosevelt",
+      "accept": [
+        "theodore roosevelt",
+        "teddy roosevelt",
+        "t. roosevelt",
+        "roosevelt"
+      ],
+      "explanation": "President 1901-1909, after McKinley's assassination; the teddy bear is named after him.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us005",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "The only US president elected to four terms, he led the country through the Great Depression with his New Deal programmes and through most of World War II from a wheelchair, having been paralysed by polio. Name him.",
+      "answer": "Franklin D. Roosevelt",
+      "accept": [
+        "franklin d roosevelt",
+        "franklin roosevelt",
+        "fdr",
+        "franklin delano roosevelt"
+      ],
+      "explanation": "Elected 1932, 1936, 1940, 1944; died April 1945 just before VE Day.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us006",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "35th US President, he stared down the Soviets in the Cuban Missile Crisis of 1962 and was assassinated in Dallas the following year. Name him.",
+      "answer": "John F. Kennedy",
+      "accept": [
+        "john f kennedy",
+        "jfk",
+        "john kennedy",
+        "kennedy",
+        "john fitzgerald kennedy"
+      ],
+      "explanation": "Shot on November 22, 1963 while riding in an open car through Dealey Plaza.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us007",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Brought down by the Watergate scandal, he became the only US president ever to resign from office, in August 1974. Name him.",
+      "answer": "Richard Nixon",
+      "accept": [
+        "richard nixon",
+        "nixon",
+        "richard m nixon"
+      ],
+      "explanation": "Resigned rather than face certain impeachment over the cover-up of the 1972 break-in at the Democratic HQ.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us008",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Former Hollywood actor and California governor, this 40th US president stood at the Brandenburg Gate in 1987 and challenged Mikhail Gorbachev with the line, 'Tear down this wall!' Name him.",
+      "answer": "Ronald Reagan",
+      "accept": [
+        "ronald reagan",
+        "reagan"
+      ],
+      "explanation": "President 1981-1989; the Berlin Wall fell two years later, in November 1989.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us009",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Elected in 2008 and again in 2012, this Hawaii-born former senator from Illinois became the first Black president of the United States. Name him.",
+      "answer": "Barack Obama",
+      "accept": [
+        "barack obama",
+        "obama",
+        "barack hussein obama"
+      ],
+      "explanation": "44th US president; previously a constitutional law lecturer at the University of Chicago.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us010",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Carved into a granite mountain in South Dakota, this monument shows the 60-foot faces of Washington, Jefferson, Theodore Roosevelt and Lincoln. Name the monument.",
+      "answer": "Mount Rushmore",
+      "accept": [
+        "mount rushmore",
+        "mt rushmore",
+        "rushmore",
+        "mount rushmore national memorial"
+      ],
+      "explanation": "Sculpted by Gutzon Borglum and his son between 1927 and 1941.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us011",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "He wore number 23 for the Chicago Bulls, won six NBA championships in the 1990s, and is widely regarded as the greatest basketball player of all time. Name him.",
+      "answer": "Michael Jordan",
+      "accept": [
+        "michael jordan",
+        "jordan",
+        "mj",
+        "his airness"
+      ],
+      "explanation": "Two three-peats with the Bulls: 1991-93 and 1996-98; six Finals MVPs.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us012",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Drafted straight out of high school in 1996, this Los Angeles Lakers great won five NBA titles before dying in a helicopter crash in January 2020 alongside his daughter Gianna. Name him.",
+      "answer": "Kobe Bryant",
+      "accept": [
+        "kobe bryant",
+        "kobe",
+        "bryant",
+        "black mamba"
+      ],
+      "explanation": "Spent his entire 20-year career with the Lakers; jerseys 8 and 24 both retired by the team.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us013",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Point guard for the Golden State Warriors, he has redefined basketball by shooting threes from absurd distances and holds the NBA's all-time three-point record. Name him.",
+      "answer": "Stephen Curry",
+      "accept": [
+        "stephen curry",
+        "steph curry",
+        "curry",
+        "steph"
+      ],
+      "explanation": "Four-time NBA champion with the Warriors; son of former NBA player Dell Curry.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us014",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "The championship game of the NFL, first played in 1967 and now an unofficial American national holiday, with the winners lifting the Vince Lombardi Trophy. Name the game.",
+      "answer": "The Super Bowl",
+      "accept": [
+        "super bowl",
+        "the super bowl",
+        "superbowl"
+      ],
+      "explanation": "Super Bowl I in January 1967 was won by Vince Lombardi's Green Bay Packers, hence the trophy name.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us015",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "Quarterback who won seven Super Bowls, six with the New England Patriots and a seventh with the Tampa Bay Buccaneers, making him the most successful player in NFL history. Name him.",
+      "answer": "Tom Brady",
+      "accept": [
+        "tom brady",
+        "brady",
+        "thomas brady"
+      ],
+      "explanation": "Drafted in the 6th round in 2000 as the 199th pick; retired in 2023.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us016",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Known as the Sultan of Swat, this New York Yankees slugger of the 1920s and '30s remains baseball's most iconic figure. Name him.",
+      "answer": "Babe Ruth",
+      "accept": [
+        "babe ruth",
+        "ruth",
+        "george herman ruth",
+        "the babe"
+      ],
+      "explanation": "714 career home runs, a .342 lifetime batting average and seven World Series titles.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us017",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "African-American sprinter and long jumper who infuriated Adolf Hitler by winning four gold medals at the 1936 Berlin Olympics. Name him.",
+      "answer": "Jesse Owens",
+      "accept": [
+        "jesse owens",
+        "owens",
+        "james cleveland owens"
+      ],
+      "explanation": "Won 100m, 200m, long jump and 4x100m relay; born in Alabama, ran for Ohio State.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us018",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "American swimmer with 28 Olympic medals, including 23 golds, across four Games from 2004 to 2016 — the most decorated Olympian in history. Name him.",
+      "answer": "Michael Phelps",
+      "accept": [
+        "michael phelps",
+        "phelps"
+      ],
+      "explanation": "Famously won eight golds at a single Games in Beijing 2008.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us019",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "Born Cassius Clay in Louisville, Kentucky, this three-time world heavyweight boxing champion converted to Islam in 1964 and refused to fight in Vietnam. Name him.",
+      "answer": "Muhammad Ali",
+      "accept": [
+        "muhammad ali",
+        "ali",
+        "cassius clay"
+      ],
+      "explanation": "'Float like a butterfly, sting like a bee'; light heavyweight gold at Rome 1960.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us020",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Golfer with 15 major championships, second only to Jack Nicklaus, who returned to win the Masters in 2019 after years of back surgery. Name him.",
+      "answer": "Tiger Woods",
+      "accept": [
+        "tiger woods",
+        "tiger",
+        "eldrick woods"
+      ],
+      "explanation": "Won his first Masters in 1997 at age 21 by a record 12 strokes.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us021",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Annual Hollywood ceremony, first held in 1929, where the film industry hands out small gold statuettes for Best Picture and other awards. Name the awards.",
+      "answer": "The Academy Awards (Oscars)",
+      "accept": [
+        "the oscars",
+        "oscars",
+        "academy awards",
+        "the academy awards"
+      ],
+      "explanation": "Officially the Academy Awards; the nickname 'Oscar' for the statuette has been used since the 1930s.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us022",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "1942 film set in a Moroccan cafe during World War II, starring Humphrey Bogart and Ingrid Bergman, with the immortal line, 'Here's looking at you, kid.' Which film?",
+      "answer": "Casablanca",
+      "accept": [
+        "casablanca"
+      ],
+      "explanation": "Directed by Michael Curtiz; won the Academy Award for Best Picture.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us023",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Orson Welles directed, co-wrote and starred in this 1941 film about a newspaper tycoon whose dying word is 'Rosebud'. Often called the greatest American film ever made. Which film?",
+      "answer": "Citizen Kane",
+      "accept": [
+        "citizen kane",
+        "kane"
+      ],
+      "explanation": "Welles was only 25 when he made it; the character Charles Foster Kane was loosely based on William Randolph Hearst.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us024",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "1994 film in which Tom Hanks plays a slow-witted Alabama man who somehow ends up at every major event in late 20th-century American history, and whose mother famously compared life to a box of chocolates. Which film?",
+      "answer": "Forrest Gump",
+      "accept": [
+        "forrest gump",
+        "gump"
+      ],
+      "explanation": "Directed by Robert Zemeckis; won six Oscars including Best Picture and Best Actor.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us025",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "Quentin Tarantino's 1994 crime film featuring interwoven Los Angeles stories, John Travolta and Samuel L. Jackson reciting Bible verses, and a memorable dance scene to Chuck Berry. Which film?",
+      "answer": "Pulp Fiction",
+      "accept": [
+        "pulp fiction"
+      ],
+      "explanation": "Won the Palme d'Or at Cannes and the Oscar for Best Original Screenplay.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us026",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "NBC sitcom that ran from 1994 to 2004, following six twenty-something friends in Manhattan hanging out in an apartment and a coffee shop called Central Perk. Name the show.",
+      "answer": "Friends",
+      "accept": [
+        "friends"
+      ],
+      "explanation": "Created by David Crane and Marta Kauffman; theme song 'I'll Be There for You' by The Rembrandts.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us027",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "AMC drama in which a high-school chemistry teacher in Albuquerque, diagnosed with cancer, begins cooking blue methamphetamine under the alias Heisenberg. Name the show.",
+      "answer": "Breaking Bad",
+      "accept": [
+        "breaking bad"
+      ],
+      "explanation": "Created by Vince Gilligan; ran 2008-2013, starring Bryan Cranston as Walter White.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us028",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Born Norma Jeane Mortenson in 1926, this Hollywood blonde sang 'Diamonds Are a Girl's Best Friend' and died in Los Angeles in 1962, aged just 36. Name her.",
+      "answer": "Marilyn Monroe",
+      "accept": [
+        "marilyn monroe",
+        "monroe",
+        "norma jeane mortenson",
+        "norma jeane baker"
+      ],
+      "explanation": "Famously sang 'Happy Birthday, Mr President' to JFK in May 1962.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us029",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "American actress with more Oscar nominations than anyone in history — 21 and counting — known for roles in Sophie's Choice, The Devil Wears Prada and Kramer vs. Kramer. Name her.",
+      "answer": "Meryl Streep",
+      "accept": [
+        "meryl streep",
+        "streep"
+      ],
+      "explanation": "Three Oscar wins: Kramer vs. Kramer (1979), Sophie's Choice (1982) and The Iron Lady (2011).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us030",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "The pavement stretch in Los Angeles, lined with more than 2,700 pink terrazzo-and-brass stars honouring entertainers, that tourists walk along by the thousand. Name it.",
+      "answer": "Hollywood Walk of Fame",
+      "accept": [
+        "hollywood walk of fame",
+        "walk of fame",
+        "the walk of fame"
+      ],
+      "explanation": "Stretches about 1.3 miles along Hollywood Boulevard and 0.4 miles of Vine Street; more than 2,800 stars; first permanent star laid in 1960.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us031",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Document adopted on July 4, 1776 in Philadelphia, in which 13 American colonies announced they were breaking away from Great Britain. Name the document.",
+      "answer": "The Declaration of Independence",
+      "accept": [
+        "declaration of independence",
+        "the declaration of independence",
+        "us declaration of independence"
+      ],
+      "explanation": "Drafted mainly by Thomas Jefferson; July 4 is celebrated as Independence Day.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us032",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Fought from 1861 to 1865 between the Union and the Confederacy, with a turning-point battle at Gettysburg in July 1863. Name this war.",
+      "answer": "The American Civil War",
+      "accept": [
+        "american civil war",
+        "the american civil war",
+        "us civil war",
+        "civil war"
+      ],
+      "explanation": "Ended with Confederate general Robert E. Lee's surrender to Ulysses S. Grant at Appomattox Court House in April 1865.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us033",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "These two became the 49th and 50th US states within months of each other in 1959, making the United States complete. Name both.",
+      "answer": "Alaska and Hawaii",
+      "accept": [
+        "alaska and hawaii",
+        "hawaii and alaska",
+        "alaska, hawaii",
+        "hawaii, alaska"
+      ],
+      "explanation": "Alaska admitted Jan 3, 1959; Hawaii admitted Aug 21, 1959.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us034",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "The largest US state by area is this Arctic giant bought from Russia in 1867; the largest by population is this sunny west-coast state. Name both.",
+      "answer": "Alaska (largest by area) and California (largest by population)",
+      "accept": [
+        "alaska and california",
+        "california and alaska",
+        "alaska, california",
+        "california, alaska"
+      ],
+      "explanation": "Alaska covers about 663,000 square miles; California has roughly 39 million people.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us035",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "A gift from France dedicated in 1886, this 305-foot copper figure stands on a small island in New York Harbour holding a torch and a tablet inscribed July 4, 1776. Name it.",
+      "answer": "The Statue of Liberty",
+      "accept": [
+        "statue of liberty",
+        "the statue of liberty",
+        "lady liberty",
+        "liberty enlightening the world"
+      ],
+      "explanation": "Designed by Frederic Auguste Bartholdi; the internal iron framework was built by Gustave Eiffel.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us036",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Carved over millions of years by a river of the same name in northern Arizona, this 277-mile-long gash in the Earth is one of America's most spectacular natural sights. Name it.",
+      "answer": "The Grand Canyon",
+      "accept": [
+        "grand canyon",
+        "the grand canyon"
+      ],
+      "explanation": "Up to 18 miles wide and over a mile deep; carved by the Colorado River.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us037",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Established in 1872 across parts of Wyoming, Montana and Idaho, this was the world's first national park, famous for the geyser Old Faithful. Name the park.",
+      "answer": "Yellowstone National Park",
+      "accept": [
+        "yellowstone",
+        "yellowstone national park"
+      ],
+      "explanation": "Signed into law by President Ulysses S. Grant; sits atop a giant volcanic caldera.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us038",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Longest river system in North America (with its main tributary the Missouri), it drains all or parts of 32 US states and flows down through Memphis and New Orleans into the Gulf of Mexico. Name it.",
+      "answer": "The Mississippi River",
+      "accept": [
+        "mississippi",
+        "mississippi river",
+        "the mississippi",
+        "the mississippi river"
+      ],
+      "explanation": "About 2,340 miles long; with the Missouri it forms the longest river system in North America; immortalised by Mark Twain in his Huck Finn stories.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us039",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "December 1773 act of protest in which American colonists, disguised as Mohawks, dumped 342 chests of East India Company tea into a Massachusetts harbour. Name the event.",
+      "answer": "The Boston Tea Party",
+      "accept": [
+        "boston tea party",
+        "the boston tea party"
+      ],
+      "explanation": "A protest against the Tea Act and the slogan 'no taxation without representation'.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us040",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Co-founder of Apple, born in San Francisco in 1955 and adopted as a baby, he introduced the iPhone in 2007 and died of pancreatic cancer in 2011. Name him.",
+      "answer": "Steve Jobs",
+      "accept": [
+        "steve jobs",
+        "jobs",
+        "steven jobs",
+        "steven paul jobs"
+      ],
+      "explanation": "His biological father, Abdulfattah Jandali, was a Syrian immigrant.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us041",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Born in Seattle in 1955, he co-founded Microsoft with Paul Allen in 1975 and went on to lead one of the world's biggest philanthropic foundations with his then-wife Melinda. Name him.",
+      "answer": "Bill Gates",
+      "accept": [
+        "bill gates",
+        "gates",
+        "william gates",
+        "william henry gates"
+      ],
+      "explanation": "Same year of birth as Steve Jobs; Microsoft's first big break was selling MS-DOS to IBM.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us042",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "He launched 'Thefacebook' from his Harvard dorm room in February 2004 and is now the CEO of the parent company Meta. Name him.",
+      "answer": "Mark Zuckerberg",
+      "accept": [
+        "mark zuckerberg",
+        "zuckerberg",
+        "zuck"
+      ],
+      "explanation": "Facebook went public in 2012 and rebranded its parent as Meta in 2021.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us043",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "Eight-block-long street in Lower Manhattan that has become a global byword for American finance and the home of the New York Stock Exchange. Name the street.",
+      "answer": "Wall Street",
+      "accept": [
+        "wall street",
+        "wallstreet"
+      ],
+      "explanation": "Named after a 17th-century Dutch defensive wall on the northern edge of New Amsterdam.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us044",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Created in Atlanta, Georgia in 1886 by pharmacist John Pemberton as a patent medicine, this fizzy brown drink is now sold in more than 200 countries. Name the brand.",
+      "answer": "Coca-Cola",
+      "accept": [
+        "coca-cola",
+        "coca cola",
+        "coke",
+        "cocacola"
+      ],
+      "explanation": "Originally contained a small amount of cocaine, removed by the early 1900s; the secret formula is reputedly kept in a vault in Atlanta.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us045",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Travelling salesman who saw a small burger stand run by two brothers in San Bernardino, California, bought the franchising rights in 1955, and turned the golden arches into a global empire. Name him.",
+      "answer": "Ray Kroc",
+      "accept": [
+        "ray kroc",
+        "kroc",
+        "raymond kroc"
+      ],
+      "explanation": "The brothers were Richard and Maurice McDonald; Kroc later bought them out for 2.7 million dollars.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us046",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Singer born in Tupelo, Mississippi in 1935 and crowned the King of Rock and Roll; his Memphis mansion Graceland is now a museum. Name him.",
+      "answer": "Elvis Presley",
+      "accept": [
+        "elvis presley",
+        "elvis",
+        "presley",
+        "the king"
+      ],
+      "explanation": "Died at Graceland in August 1977, aged 42.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us047",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "difficulty": 3,
+      "question": "Singer born in Hoboken, New Jersey in 1915, Rat Pack frontman and crooner of 'My Way', 'New York, New York' and 'Fly Me to the Moon'. Name him.",
+      "answer": "Frank Sinatra",
+      "accept": [
+        "frank sinatra",
+        "sinatra",
+        "ol blue eyes",
+        "ol' blue eyes"
+      ],
+      "explanation": "Nicknamed Ol' Blue Eyes and The Voice; also won an Oscar for From Here to Eternity.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us048",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "Houston-born singer who shot to fame with the group Destiny's Child before going solo with hits like 'Crazy in Love' and 'Single Ladies'. Name her.",
+      "answer": "Beyonce",
+      "accept": [
+        "beyonce",
+        "beyoncé",
+        "beyonce knowles",
+        "beyoncé knowles",
+        "queen bey"
+      ],
+      "explanation": "Married to rapper Jay-Z since 2008; the most Grammy-decorated artist in history.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us049",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "question": "American holiday on the fourth Thursday of November, traditionally featuring a turkey dinner and supposedly commemorating a 1621 harvest feast shared by Pilgrims and Wampanoag at Plymouth. Name the holiday.",
+      "answer": "Thanksgiving",
+      "accept": [
+        "thanksgiving",
+        "thanksgiving day"
+      ],
+      "explanation": "Made a federal holiday by Abraham Lincoln in 1863; the day after is the shopping bonanza known as Black Friday.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "us050",
+      "topic": "usa",
+      "themes": [
+        "usa"
+      ],
+      "bid_eligible": true,
+      "question": "Founded in 1923 by two brothers in Hollywood, this entertainment company gave the world Mickey Mouse, Snow White and an empire of theme parks. Name the company.",
+      "answer": "The Walt Disney Company",
+      "accept": [
+        "disney",
+        "walt disney",
+        "the walt disney company",
+        "walt disney company",
+        "disney company"
+      ],
+      "explanation": "Founded by brothers Walt and Roy Disney; Mickey Mouse debuted in Steamboat Willie in 1928.",
+      "created": "2026-05-23"
     }
   ]
 }

@@ -1,0 +1,1042 @@
+{
+  "batch": "iran_only",
+  "count": 60,
+  "accepted": 55,
+  "patched": 5,
+  "dropped": 0,
+  "overrides": 1,
+  "questions": [
+    {
+      "id": "ir001",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "He founded the Achaemenid Empire around 559 BC, made Pasargadae his capital, and is the king whose tomb still stands there. Name him.",
+      "answer": "Cyrus the Great",
+      "accept": [
+        "cyrus the great",
+        "cyrus",
+        "kourosh",
+        "kurosh",
+        "cyrus ii"
+      ],
+      "explanation": "Cyrus II, founder of the first Persian Empire, ruled c. 559–530 BC from Pasargadae.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir002",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "This baked-clay artefact from around 539 BC, inscribed in Akkadian after Cyrus took Babylon, sits today in Room 52 of the British Museum and is sometimes called the first charter of human rights. What is it?",
+      "answer": "The Cyrus Cylinder",
+      "accept": [
+        "cyrus cylinder",
+        "the cyrus cylinder",
+        "cylinder of cyrus"
+      ],
+      "explanation": "Foundation deposit commissioned by Cyrus after the conquest of Babylon; now in the British Museum.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir003",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "In 480 BC, the Persian king who led the invasion of Greece and faced Leonidas at Thermopylae was the son of Darius the Great. Name him.",
+      "answer": "Xerxes I",
+      "accept": [
+        "xerxes",
+        "xerxes i",
+        "khashayar",
+        "khashayar shah"
+      ],
+      "explanation": "Xerxes I, son of Darius, led the second Persian invasion of Greece.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir004",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The ceremonial capital of the Achaemenid kings, sacked and burned by Alexander in 330 BC, became a UNESCO World Heritage Site in 1979. Name the place.",
+      "answer": "Persepolis",
+      "accept": [
+        "persepolis",
+        "takht-e jamshid",
+        "takht e jamshid"
+      ],
+      "explanation": "Persepolis, near Shiraz, was inscribed by UNESCO in 1979.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir005",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "Between the Achaemenids and the Sassanids, a horse-riding dynasty from the northeast ruled Iran for nearly five centuries and gave the Romans their most persistent eastern headache. Name the dynasty.",
+      "answer": "The Parthians",
+      "accept": [
+        "parthians",
+        "the parthians",
+        "parthian",
+        "arsacid",
+        "arsacids",
+        "arsacid dynasty"
+      ],
+      "explanation": "The Parthian (Arsacid) Empire ruled Iran roughly 247 BC–224 AD.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir006",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "He was the Sassanid king who captured the Roman emperor Valerian in 260 AD at the Battle of Edessa, an event carved into a famous rock relief at Naqsh-e Rustam. Name him.",
+      "answer": "Shapur I",
+      "accept": [
+        "shapur i",
+        "shapur",
+        "shapur the first",
+        "shapour"
+      ],
+      "explanation": "Shapur I captured Valerian in 260 AD, commemorated at Naqsh-e Rustam.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir007",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The Sassanid king nicknamed Anushirvan, \"the immortal soul,\" is remembered as a model of just rule and reformer of taxation. Name him.",
+      "answer": "Khosrow I",
+      "accept": [
+        "khosrow i",
+        "khosrow",
+        "khosrow anushirvan",
+        "anushirvan",
+        "khusro",
+        "khosrow the first"
+      ],
+      "explanation": "Khosrow I Anushirvan ruled the Sassanid Empire 531–579, famous for his reforms.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir008",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "He came to the throne of the Achaemenid Empire in 522 BC after putting down a rebellion, and at Behistun he left a trilingual rock inscription boasting of his victories. Name him.",
+      "answer": "Darius the Great",
+      "accept": [
+        "darius",
+        "darius the great",
+        "darius i",
+        "dariush"
+      ],
+      "explanation": "Darius I (r. 522–486 BC); the Behistun Inscription, in Old Persian, Elamite and Babylonian, helped decipher cuneiform.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir009",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "In 1501, this teenage warrior-poet defeated the Aq Qoyunlu and founded the dynasty that would make Twelver Shi'ism the state religion of Iran. Name him.",
+      "answer": "Shah Ismail I",
+      "accept": [
+        "ismail i",
+        "shah ismail",
+        "shah ismail i",
+        "ismail safavi",
+        "ismail"
+      ],
+      "explanation": "Ismail I founded the Safavid dynasty in 1501.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir010",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "He was the greatest of the Safavid rulers, moved his capital to Isfahan, and rebuilt it into one of the most magnificent cities of the seventeenth century. Name him.",
+      "answer": "Shah Abbas the Great",
+      "accept": [
+        "shah abbas",
+        "abbas the great",
+        "abbas i",
+        "shah abbas i",
+        "shah abbas the great"
+      ],
+      "explanation": "Shah Abbas I (r. 1588–1629) moved the Safavid capital to Isfahan.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir011",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "This vast Isfahan square — flanked by the Shah Mosque, the Sheikh Lotfollah Mosque and Ali Qapu — was built by Shah Abbas and inspired the saying \"half the world.\" Name it.",
+      "answer": "Naqsh-e Jahan Square",
+      "accept": [
+        "naqsh-e jahan",
+        "naqsh e jahan square",
+        "naqsh-e jahan square",
+        "imam square",
+        "shah square",
+        "meydan-e naqsh-e jahan"
+      ],
+      "explanation": "Naqsh-e Jahan (\"Image of the World\") Square in Isfahan, built 1598–1629.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir012",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "Reza Khan deposed Ahmad Shah in 1925 and founded a new dynasty — the dynasty he replaced had ruled Iran since 1789 and was originally a Turkic tribal confederation. Name that older dynasty.",
+      "answer": "Qajar dynasty",
+      "accept": [
+        "qajar",
+        "qajar dynasty",
+        "qajars",
+        "the qajars"
+      ],
+      "explanation": "Reza Shah Pahlavi replaced the Qajar dynasty in 1925.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir013",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "A constitutional revolution erupted in Iran in 1905, forcing the shah to grant a parliament — the Majlis. Within one year, which of the five Pahlavi or Qajar shahs signed the constitution just days before his death? (Hint: a Qajar.)",
+      "answer": "Mozaffar ad-Din Shah",
+      "accept": [
+        "mozaffar al-din shah",
+        "mozaffar ad-din shah",
+        "mozaffar al-din",
+        "mozaffar ad din shah",
+        "muzaffar al-din shah"
+      ],
+      "explanation": "Mozaffar ad-Din Shah Qajar signed the 1906 constitution and died days later.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir014",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The Mohammad Reza Shah launched a sweeping programme of land reform, women's suffrage and literacy corps in January 1963. What was it called?",
+      "answer": "The White Revolution",
+      "accept": [
+        "white revolution",
+        "the white revolution",
+        "enghelab-e sefid"
+      ],
+      "explanation": "The White Revolution (Enghelab-e Sefid) launched 26 January 1963.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir015",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "In 1979, the Pahlavi monarchy was overthrown after a year of mass protests. In which month of that year did the Shah leave Iran, never to return?",
+      "answer": "January",
+      "accept": [
+        "january",
+        "january 1979",
+        "jan",
+        "jan 1979"
+      ],
+      "explanation": "Mohammad Reza Shah left Iran on 16 January 1979.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir016",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "Around the year 1000, in the eastern city of Tus, a poet finished a 50,000-couplet epic that became the national epic of Iran. Name the poet and the work — either will do.",
+      "answer": "Ferdowsi / Shahnameh",
+      "accept": [
+        "ferdowsi",
+        "shahnameh",
+        "shahnama",
+        "ferdosi",
+        "firdausi",
+        "firdawsi",
+        "book of kings"
+      ],
+      "explanation": "Ferdowsi composed the Shahnameh between c. 977 and 1010 CE.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir017",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "In the Shahnameh, the greatest hero unwittingly kills his own son in single combat, not knowing the young warrior is his child. Name either the father or the son.",
+      "answer": "Rostam (father) / Sohrab (son)",
+      "accept": [
+        "rostam",
+        "rustam",
+        "sohrab",
+        "rostam and sohrab",
+        "rustam and sohrab"
+      ],
+      "explanation": "The tragic episode of Rostam and Sohrab is one of the most famous in the Shahnameh.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir018",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "The white-haired hero Zal was abandoned on a mountainside as an infant and raised by a mythical bird with healing feathers. Name the bird.",
+      "answer": "Simurgh",
+      "accept": [
+        "simurgh",
+        "simorgh",
+        "the simurgh"
+      ],
+      "explanation": "The Simurgh raised Zal in the Alborz mountains in the Shahnameh.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir019",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "The 13th-century Persian poet whose mausoleum in Konya, Turkey, is one of the great pilgrimage sites of Sufism — and whose Masnavi has been called the Persian Qur'an. Name him.",
+      "answer": "Rumi",
+      "accept": [
+        "rumi",
+        "molana",
+        "mawlana",
+        "jalaluddin rumi",
+        "jalal al-din rumi",
+        "mevlana"
+      ],
+      "explanation": "Jalal al-Din Rumi (1207–1273), Sufi poet author of the Masnavi.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir020",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The Shirazi poet whose Divan is so revered that Iranians still take fal — divination — by opening it at random. Name him.",
+      "answer": "Hafez",
+      "accept": [
+        "hafez",
+        "hafiz",
+        "hafez shirazi",
+        "hafez of shiraz",
+        "khwaja hafez"
+      ],
+      "explanation": "Hafez of Shiraz (c. 1325–1390), whose Divan is used for fal-e Hafez.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir021",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "He was an astronomer and mathematician at the Seljuk court who reformed the calendar — but the West knows him as a poet because of a free English translation published in 1859 by Edward FitzGerald. Name the Persian, and the translated work for full credit.",
+      "answer": "Omar Khayyam — the Rubaiyat",
+      "accept": [
+        "omar khayyam",
+        "khayyam",
+        "omar khayyam and rubaiyat",
+        "rubaiyat of omar khayyam",
+        "khayyám"
+      ],
+      "explanation": "FitzGerald's Rubaiyat of Omar Khayyam was published in 1859.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir022",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The 13th-century Shirazi poet whose two great works — a verse one and a prose-with-verse one — are still taught to Iranian schoolchildren. Name him.",
+      "answer": "Saadi",
+      "accept": [
+        "saadi",
+        "sa'di",
+        "saadi shirazi",
+        "sadi",
+        "sheikh saadi"
+      ],
+      "explanation": "Saadi of Shiraz, author of the Bustan (1257) and Gulistan (1258).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir023",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "His Khamsa — five long narrative poems — included the romance of two Arab lovers and the romance of a Sasanian king and an Armenian princess. Name the poet from Ganja.",
+      "answer": "Nizami Ganjavi",
+      "accept": [
+        "nizami",
+        "nizami ganjavi",
+        "nezami",
+        "nezami ganjavi"
+      ],
+      "explanation": "Nizami Ganjavi (c. 1141–1209), author of Layla and Majnun and Khosrow and Shirin.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir024",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "She published her first collection The Captive at twenty, made a remarkable documentary about a leper colony called The House Is Black, and was killed in a car crash in 1967 at just 32. Name her.",
+      "answer": "Forough Farrokhzad",
+      "accept": [
+        "forough farrokhzad",
+        "forugh farrokhzad",
+        "farrokhzad",
+        "forough"
+      ],
+      "explanation": "Forough Farrokhzad (1934–1967), modernist poet and filmmaker.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir025",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The modern Iranian poet whose collection The Sound of Water's Footsteps and gentle, nature-soaked lines made him a favourite of Iranian readers. Name him.",
+      "answer": "Sohrab Sepehri",
+      "accept": [
+        "sohrab sepehri",
+        "sepehri",
+        "sohrab"
+      ],
+      "explanation": "Sohrab Sepehri (1928–1980), modernist poet and painter.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir026",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "His film Taste of Cherry won the Palme d'Or at Cannes in 1997. Name him.",
+      "answer": "Abbas Kiarostami",
+      "accept": [
+        "abbas kiarostami",
+        "kiarostami"
+      ],
+      "explanation": "Kiarostami won the 1997 Palme d'Or jointly with Shohei Imamura's The Eel.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir027",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "A small boy in a remote village tries to return his classmate's notebook before he gets in trouble. Name this 1987 Kiarostami film that put Iranian cinema on the world map.",
+      "answer": "Where Is the Friend's Home",
+      "accept": [
+        "where is the friend's home",
+        "where is the friend's house",
+        "where is the friends home",
+        "khaneh-ye doost kojast",
+        "where is my friend's home"
+      ],
+      "explanation": "Where Is the Friend's Home (1987) — the first in Kiarostami's Koker trilogy.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir028",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "In 2012, this film became the first Iranian movie ever to win the Oscar for Best Foreign Language Film. Name it.",
+      "answer": "A Separation",
+      "accept": [
+        "a separation",
+        "jodaeiye nader az simin",
+        "nader and simin a separation",
+        "separation"
+      ],
+      "explanation": "A Separation by Asghar Farhadi won the Oscar in 2012.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir029",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "Five years after A Separation, the same director won the same Oscar a second time, in 2017, for a film whose title references an Arthur Miller play. Name the film.",
+      "answer": "The Salesman",
+      "accept": [
+        "the salesman",
+        "salesman",
+        "forushande"
+      ],
+      "explanation": "Farhadi's The Salesman won Best Foreign Language Film at the 2017 Oscars.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir030",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "His 1997 film about a boy who loses his sister's shoes and tries to win a race for a pair of sneakers became Iran's first ever Oscar nomination for Best Foreign Language Film. Name the director.",
+      "answer": "Majid Majidi",
+      "accept": [
+        "majid majidi",
+        "majidi"
+      ],
+      "explanation": "Majid Majidi's Children of Heaven (1997) was nominated for Best Foreign Language Film at the 71st Academy Awards (held March 1999, honouring 1998 releases) — the first Iranian film ever nominated.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir031",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "In 2015, banned from making films and from leaving Iran, this director shot a movie entirely from inside a Tehran taxi using dashboard cameras — and it won the Golden Bear at Berlin. Name the director.",
+      "answer": "Jafar Panahi",
+      "accept": [
+        "jafar panahi",
+        "panahi"
+      ],
+      "explanation": "Jafar Panahi's Taxi won the Golden Bear at the 2015 Berlin Film Festival.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir032",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "Her black-and-white graphic memoir about growing up during the Iranian revolution was published in French between 2000 and 2003 and turned into an Oscar-nominated animated film in 2007. Name her.",
+      "answer": "Marjane Satrapi",
+      "accept": [
+        "marjane satrapi",
+        "satrapi"
+      ],
+      "explanation": "Marjane Satrapi's Persepolis, co-directed with Vincent Paronnaud (2007).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir033",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "His 1969 film about a villager's obsessive love for his cow is considered the first masterpiece of the Iranian New Wave. Name the director.",
+      "answer": "Dariush Mehrjui",
+      "accept": [
+        "dariush mehrjui",
+        "mehrjui",
+        "daryush mehrjui"
+      ],
+      "explanation": "Dariush Mehrjui's The Cow (Gaav, 1969).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir034",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "He was a playwright, screenwriter and director, one of the central figures of pre-revolutionary Iranian cinema, who directed Bashu, the Little Stranger. Name him.",
+      "answer": "Bahram Beizai",
+      "accept": [
+        "bahram beizai",
+        "beizai",
+        "bahram beyzai",
+        "beyzai"
+      ],
+      "explanation": "Bahram Beizai directed Bashu, the Little Stranger (1989).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir035",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "The undisputed master of Persian classical vocal music, whose recording of the Rabbana prayer aired on Iranian radio every Ramadan for decades until his death in 2020. Name him.",
+      "answer": "Mohammad-Reza Shajarian",
+      "accept": [
+        "mohammad-reza shajarian",
+        "shajarian",
+        "mohammad reza shajarian",
+        "ostad shajarian"
+      ],
+      "explanation": "Mohammad-Reza Shajarian (1940–2020), master of avaz singing.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir036",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The pop diva who was the biggest star in Iran in the 1970s, fell silent for over twenty years after the revolution, and came roaring back with a comeback concert in Toronto in 2000. Name her.",
+      "answer": "Googoosh",
+      "accept": [
+        "googoosh",
+        "gogoosh",
+        "faegheh atashin"
+      ],
+      "explanation": "Googoosh (Faegheh Atashin), pre-revolutionary pop icon.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir037",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "He plays the kamancheh, has been a long-time member of Yo-Yo Ma's Silk Road Ensemble, and won a Grammy in 2017 with the ensemble for the album Sing Me Home. Name him.",
+      "answer": "Kayhan Kalhor",
+      "accept": [
+        "kayhan kalhor",
+        "kalhor"
+      ],
+      "explanation": "Kayhan Kalhor, kamancheh virtuoso; Silk Road Ensemble won Best World Music Album at the 59th Grammy Awards (2017) for Sing Me Home.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir038",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The Los Angeles–based Iranian pop singer with one of the deepest voices in Persian music — \"Cheshmaye Man\" and \"Don't Leave Me Alone\" among his hits. Name him.",
+      "answer": "Dariush Eghbali",
+      "accept": [
+        "dariush eghbali",
+        "dariush",
+        "daryoush eghbali",
+        "dariush eqbali"
+      ],
+      "explanation": "Dariush Eghbali, Iranian pop singer based in Los Angeles since leaving Iran in 1981.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir039",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "He has been called the Bob Dylan of Iran — a singer-songwriter who mixes classical Persian poetry with rock, blues and hip-hop, and lives in self-imposed exile. Name him.",
+      "answer": "Mohsen Namjoo",
+      "accept": [
+        "mohsen namjoo",
+        "namjoo"
+      ],
+      "explanation": "Mohsen Namjoo, experimental Iranian musician based abroad.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir040",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "Long-necked, three-stringed (sometimes four), plucked with the index fingernail — the small Persian lute beloved by mystics and the favoured instrument of Sufi musicians. Name it.",
+      "answer": "Setar",
+      "accept": [
+        "setar",
+        "se-tar",
+        "se tar"
+      ],
+      "explanation": "The setar, a small long-necked Persian lute. (Distinct from the Indian sitar.)",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir041",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "Iranian striker who scored 109 international goals for his country, holding the all-time men's record until Cristiano Ronaldo broke it in 2021. Name him.",
+      "answer": "Ali Daei",
+      "accept": [
+        "ali daei",
+        "daei",
+        "ali daie",
+        "daie"
+      ],
+      "explanation": "Ali Daei held the men's record of 109 international goals until 2021. (Now revised to 108 by FIFA, but 109 is the figure most fans remember.)",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir042",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The Iranian midfielder whose dribbling earned him the nickname \"the Asian Maradona,\" and who won the Bundesliga with Bayern Munich in 2005–06. Name him.",
+      "answer": "Ali Karimi",
+      "accept": [
+        "ali karimi",
+        "karimi"
+      ],
+      "explanation": "Ali Karimi played for Bayern Munich and Schalke 04.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir043",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "Often dubbed the \"Iranian Messi\" by the British press, he scored a hatful of goals at Zenit St. Petersburg and later played for Bayer Leverkusen and Roma. Name him.",
+      "answer": "Sardar Azmoun",
+      "accept": [
+        "sardar azmoun",
+        "azmoun"
+      ],
+      "explanation": "Sardar Azmoun, Iranian striker.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir044",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The Iranian striker who finished as Primeira Liga top scorer twice at FC Porto and then joined Inter Milan in 2024. Name him.",
+      "answer": "Mehdi Taremi",
+      "accept": [
+        "mehdi taremi",
+        "taremi"
+      ],
+      "explanation": "Mehdi Taremi, Iranian striker now at Olympiacos via Inter Milan.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir045",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "He won super-heavyweight weightlifting gold at the Sydney 2000 Olympics — breaking decades of Soviet dominance in the event — and retained the title at Athens 2004. Name him.",
+      "answer": "Hossein Rezazadeh",
+      "accept": [
+        "hossein rezazadeh",
+        "rezazadeh",
+        "hosein rezazadeh"
+      ],
+      "explanation": "Hossein Rezazadeh won +105 kg Olympic gold in 2000 and 2004.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir046",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "Iranian taekwondo fighter who won gold at Athens 2004 in the 68 kg class and gold again at Beijing 2008 at 80 kg. Name him.",
+      "answer": "Hadi Saei",
+      "accept": [
+        "hadi saei",
+        "saei",
+        "hadi sai"
+      ],
+      "explanation": "Hadi Saei: gold Athens 2004 (68 kg), gold Beijing 2008 (80 kg), bronze Sydney 2000.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir047",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "At Rio 2016, this taekwondo fighter became the first Iranian woman ever to win an Olympic medal. Name her.",
+      "answer": "Kimia Alizadeh",
+      "accept": [
+        "kimia alizadeh",
+        "alizadeh",
+        "kimia"
+      ],
+      "explanation": "Kimia Alizadeh won bronze in taekwondo at Rio 2016.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir048",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "Born in Babol in 2003, he became the youngest player to cross a FIDE rating of 2800, breaking Magnus Carlsen's record. He now plays for France. Name him.",
+      "answer": "Alireza Firouzja",
+      "accept": [
+        "alireza firouzja",
+        "firouzja",
+        "ali reza firouzja"
+      ],
+      "explanation": "Alireza Firouzja, chess grandmaster, switched federation to France in 2021.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir049",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "In 2014, this Tehran-born mathematician at Stanford became the first woman ever to win the Fields Medal. Name her.",
+      "answer": "Maryam Mirzakhani",
+      "accept": [
+        "maryam mirzakhani",
+        "mirzakhani"
+      ],
+      "explanation": "Maryam Mirzakhani won the Fields Medal in 2014.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir050",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "In September 2006, this Iranian-American businesswoman became the first Iranian in space, flying to the ISS as a self-funded spaceflight participant on a Soyuz. Name her.",
+      "answer": "Anousheh Ansari",
+      "accept": [
+        "anousheh ansari",
+        "ansari",
+        "anoushe ansari"
+      ],
+      "explanation": "Anousheh Ansari flew to the ISS on Soyuz TMA-9 in September 2006. The Ansari X Prize is named after her family.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir051",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "Born in Paris to Iranian parents, he founded an online auction site in 1995 that became a household name. Name him.",
+      "answer": "Pierre Omidyar",
+      "accept": [
+        "pierre omidyar",
+        "omidyar"
+      ],
+      "explanation": "Pierre Omidyar founded eBay in 1995.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir052",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "Born in Tehran in 1969, this former Expedia CEO took over as Uber's CEO in August 2017. Name him.",
+      "answer": "Dara Khosrowshahi",
+      "accept": [
+        "dara khosrowshahi",
+        "khosrowshahi",
+        "dara"
+      ],
+      "explanation": "Dara Khosrowshahi became Uber CEO in August 2017.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir053",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "Born in England to an Iranian father and a British mother, raised partly in Tehran, she became CNN's chief international correspondent and made her name reporting from Bosnia. Name her.",
+      "answer": "Christiane Amanpour",
+      "accept": [
+        "christiane amanpour",
+        "amanpour"
+      ],
+      "explanation": "Christiane Amanpour, CNN journalist of Iranian-British heritage.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir054",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "She was nominated for Best Supporting Actress at the 2004 Oscars for House of Sand and Fog, and is also known to sci-fi fans for her role as Chrisjen Avasarala in The Expanse. Name her.",
+      "answer": "Shohreh Aghdashloo",
+      "accept": [
+        "shohreh aghdashloo",
+        "aghdashloo",
+        "shoreh aghdashloo"
+      ],
+      "explanation": "Shohreh Aghdashloo, Oscar-nominated for House of Sand and Fog (2003).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir055",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "Eight-time Grand Slam tennis champion Andre Agassi's father — an Olympic boxer who emigrated from Iran via Salmas — was of what heritage?",
+      "answer": "Armenian",
+      "accept": [
+        "armenian",
+        "armenian iranian",
+        "iranian armenian"
+      ],
+      "explanation": "Emmanuel \"Mike\" Agassi was an Armenian-Iranian Olympic boxer from Salmas.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir056",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "The capital of Iran. Just name it.",
+      "answer": "Tehran",
+      "accept": [
+        "tehran",
+        "teheran"
+      ],
+      "explanation": "Tehran, capital of Iran since 1786 under the Qajar founder Agha Mohammad Khan.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir057",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "difficulty": 3,
+      "question": "At 5,609 metres, this dormant stratovolcano in the Alborz range is Iran's highest peak and the highest volcano in Asia. Name it.",
+      "answer": "Mount Damavand",
+      "accept": [
+        "damavand",
+        "mount damavand",
+        "mt damavand",
+        "demavend"
+      ],
+      "explanation": "Mount Damavand, 5,609 m, in the Alborz range north of Tehran.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir058",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "bid_eligible": true,
+      "question": "The narrow strait at the mouth of the Persian Gulf, between Iran and Oman, through which roughly a fifth of the world's oil passes. Name it.",
+      "answer": "Strait of Hormuz",
+      "accept": [
+        "strait of hormuz",
+        "hormuz",
+        "hormuz strait",
+        "the strait of hormuz"
+      ],
+      "explanation": "The Strait of Hormuz connects the Persian Gulf to the Gulf of Oman.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir059",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "The desert in southeastern Iran that, in 2005, was recorded by a NASA satellite as the hottest place ever measured on Earth's surface — 70.7°C. Name it.",
+      "answer": "Lut Desert",
+      "accept": [
+        "lut desert",
+        "dasht-e lut",
+        "dasht e lut",
+        "lut",
+        "the lut"
+      ],
+      "explanation": "The Lut Desert (Dasht-e Lut) recorded a surface temperature of 70.7 °C in 2005.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "ir060",
+      "topic": "iran",
+      "themes": [
+        "iran_only"
+      ],
+      "question": "On the night of the spring equinox, Iranian families gather around a table laid with seven items beginning with the Persian letter \"sin\" — a sprouted dish of wheat, vinegar, garlic, apple and more. Name either the festival or the table — either will do.",
+      "answer": "Nowruz / Haft-sin",
+      "accept": [
+        "nowruz",
+        "norooz",
+        "noruz",
+        "haft-sin",
+        "haft sin",
+        "haftsin",
+        "nowruz haft-sin"
+      ],
+      "explanation": "Nowruz, Persian New Year on the vernal equinox; haft-sin is the symbolic table.",
+      "created": "2026-05-23"
+    }
+  ]
+}
