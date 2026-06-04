@@ -1,0 +1,89 @@
+{
+  "batch": "callbacks",
+  "reviewed": 15,
+  "accepted": 14,
+  "patched": 1,
+  "dropped": 0,
+  "verdicts": [
+    {
+      "id": "lt13",
+      "verdict": "accept",
+      "notes": "All Phalke years verified: Devika Rani (1969, first recipient), Prithviraj Kapoor (1971, posthumous — he died May 1972), Raj Kapoor (1987), Dilip Kumar (1994), Dev Anand (2002)."
+    },
+    {
+      "id": "lt14",
+      "verdict": "accept",
+      "notes": "Wikipedia confirms the trio as 'the three most popular male Indian actors of the 1950s and 1960s.' 'Trinity' is the standard colloquial label and parallels lt09 (Carnatic Trinity) thematically without overlap."
+    },
+    {
+      "id": "lt15",
+      "verdict": "accept",
+      "notes": "All five films confirmed in Salim-Javed filmography: Zanjeer (1973), Deewaar (1975), Sholay (1975), Don (1978), Trishul (1978). All starred Amitabh Bachchan."
+    },
+    {
+      "id": "lt16",
+      "verdict": "accept",
+      "notes": "Quartet, roles and 853-wicket figure all verified on Wikipedia (Indian spin quartet article)."
+    },
+    {
+      "id": "lt17",
+      "verdict": "accept",
+      "notes": "Verified: Kapil 1983 ODI WC, Dhoni 2007 T20 WC + 2011 ODI WC + 2013 Champions Trophy, Rohit 2024 T20 WC."
+    },
+    {
+      "id": "lt18",
+      "verdict": "accept",
+      "notes": "Tetley (Feb 2000), Corus (Jan 2007), JLR (Mar 2008), Air India (winning bid Oct 2021, handover Jan 2022) — 2021 in the question is the winning-bid year and is consistent with Wikipedia. Explanation does not contradict."
+    },
+    {
+      "id": "lt19",
+      "verdict": "accept",
+      "notes": "Pichai (Google 2015, Alphabet 2019), Nadella (Microsoft 2014), Krishna (IBM 2020), Narayen (Adobe 2007), Nair (Chanel Jan 2022) — all Indian-origin, all currently or recently CEOs of the named firms."
+    },
+    {
+      "id": "lt20",
+      "verdict": "patch",
+      "issue": "Kolkata is on the Hooghly distributary, not the Ganga main stem. The Ganges article is explicit: 'Between Malda and the Bay of Bengal, the Hooghly river passes the towns and cities of Murshidabad, Nabadwip, Kolkata and Howrah.' Listing Kolkata alongside Haridwar–Patna as a Ganga-bank city is a common but factual slip; the explanation glosses over the nuance and a sharp player will call it out.",
+      "fix": {
+        "question": "Connect: Haridwar, Kanpur, Prayagraj, Varanasi, Patna.",
+        "explanation": "Five major Indian cities along the Ganga, from the Himalayan foothills (Haridwar) down through the plains to Patna in Bihar. Kolkata is often added to such lists but technically sits on the Hooghly distributary, not the Ganga main stem."
+      },
+      "source": "https://en.wikipedia.org/wiki/Ganges"
+    },
+    {
+      "id": "lt21",
+      "verdict": "accept",
+      "notes": "Seven states correct; Jyoti Prasad Saikia / 1972 / radio origin confirmed on Wikipedia."
+    },
+    {
+      "id": "lt22",
+      "verdict": "accept",
+      "notes": "Chandrayaan-1 (launched 22 Oct 2008), Mangalyaan (launched 5 Nov 2013), Chandrayaan-3 (south-pole landing 23 Aug 2023), Aditya-L1 (launched 2 Sep 2023) — all verified."
+    },
+    {
+      "id": "lt23",
+      "verdict": "accept",
+      "notes": "Yudhishthira (Dharma), Bhima (Vayu), Arjuna (Indra) — sons of Kunti; Nakula and Sahadeva — sons of Madri via the Ashvins. Explanation accurate."
+    },
+    {
+      "id": "lt24",
+      "verdict": "accept",
+      "notes": "All five Jnanpith winners, languages and years verified."
+    },
+    {
+      "id": "lt25",
+      "verdict": "accept",
+      "notes": "Guru Nanak (1st, founder), Guru Arjan (5th, martyred 1606 under Jahangir), Guru Tegh Bahadur (9th, martyred 1675 under Aurangzeb), Guru Gobind Singh (10th and last human Guru) — all confirmed."
+    },
+    {
+      "id": "lt26",
+      "verdict": "accept",
+      "notes": "All five are recognised Bhakti poet-saints in their stated regions. Andal is also an Alvar but Wikipedia explicitly calls her 'a well-known Bhakti movement poet' — no issue."
+    },
+    {
+      "id": "lt27",
+      "verdict": "accept",
+      "notes": "All five carry GI tags; Darjeeling tea was Serial #1 in 2004-05, India's first GI. Banarasi and Tirupati 2009-10, Mysore silk 2004-05, Bikaneri bhujia 2010-11."
+    }
+  ]
+}

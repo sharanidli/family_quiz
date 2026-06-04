@@ -1,0 +1,258 @@
+{
+  "batch": "callbacks",
+  "count": 15,
+  "questions": [
+    {
+      "id": "lt13",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Devika Rani (1969), Prithviraj Kapoor (1971, posthumous), Raj Kapoor (1987), Dilip Kumar (1994), Dev Anand (2002).",
+      "answer": "Dadasaheb Phalke Award",
+      "accept": [
+        "dadasaheb phalke award",
+        "dadasaheb phalke",
+        "phalke award",
+        "dadasaheb phalke awardees"
+      ],
+      "explanation": "India's highest cinema honour; Devika Rani was the first ever recipient (1969).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt14",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Raj Kapoor, Dilip Kumar, Dev Anand — three actors who dominated Hindi cinema across the 1950s and 60s.",
+      "answer": "The Hindi cinema trinity",
+      "accept": [
+        "trinity of hindi cinema",
+        "hindi cinema trinity",
+        "the trinity of bollywood",
+        "first trinity of hindi cinema",
+        "golden age trinity"
+      ],
+      "explanation": "The three most popular male stars of the 1950s-60s, each with a distinct style — the showman, the tragedy king, and the evergreen romantic.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt15",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Zanjeer (1973), Deewaar (1975), Sholay (1975), Don (1978), Trishul (1978).",
+      "answer": "Films written by Salim-Javed",
+      "accept": [
+        "salim javed",
+        "salim-javed",
+        "salim khan and javed akhtar",
+        "salim javed scripts",
+        "salim javed films",
+        "written by salim javed"
+      ],
+      "explanation": "All five scripts were by the Salim Khan-Javed Akhtar partnership that built the angry-young-man canon.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt16",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Bishan Singh Bedi (left-arm spin), Bhagwat Chandrasekhar (leg spin), Erapalli Prasanna (off spin), Srinivas Venkataraghavan (off spin).",
+      "answer": "The Indian spin quartet",
+      "accept": [
+        "indian spin quartet",
+        "spin quartet",
+        "the famous spin quartet",
+        "indian spinners of the 70s",
+        "famous four spinners"
+      ],
+      "explanation": "The four spinners who carried India's Test attack through the late 1960s and 70s, taking 853 wickets between them.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt17",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Kapil Dev (1983 World Cup), MS Dhoni (2007 T20 World Cup, 2011 ODI World Cup, 2013 Champions Trophy), Rohit Sharma (2024 T20 World Cup).",
+      "answer": "Indian captains who won ICC world titles",
+      "accept": [
+        "indian captains who won an icc trophy",
+        "indian captains with icc trophies",
+        "captains who won icc world titles",
+        "icc trophy winning indian captains",
+        "world cup winning indian captains",
+        "indian world cup winning captains"
+      ],
+      "explanation": "The only Indian captains to have lifted a senior ICC world trophy.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt18",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Tetley (2000), Corus (2007), Jaguar Land Rover (2008), Air India (2021).",
+      "answer": "Tata Group acquisitions",
+      "accept": [
+        "tata group acquisitions",
+        "tata acquisitions",
+        "acquisitions by tata",
+        "tata takeovers",
+        "tata sons acquisitions",
+        "companies acquired by tata"
+      ],
+      "explanation": "Four headline takeovers by the Tata Group, ending with Air India returning to the founding family.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt19",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Sundar Pichai at Google, Satya Nadella at Microsoft, Arvind Krishna at IBM, Shantanu Narayen at Adobe, Leena Nair at Chanel.",
+      "answer": "Indian-origin global CEOs",
+      "accept": [
+        "indian origin ceos",
+        "indian-origin ceos",
+        "indian origin global ceos",
+        "indian ceos of global companies",
+        "indian americans heading big tech",
+        "indian diaspora ceos"
+      ],
+      "explanation": "All five are India-born CEOs of major multinationals.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt20",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Haridwar, Kanpur, Prayagraj, Varanasi, Patna, Kolkata.",
+      "answer": "Cities on the banks of the Ganga",
+      "accept": [
+        "cities on the ganga",
+        "cities on the ganges",
+        "ganga cities",
+        "cities along the ganges",
+        "cities on the banks of the ganga",
+        "cities on the river ganga"
+      ],
+      "explanation": "Six major Indian cities, each on the Ganga, from the Himalayan foothills down to the Bay of Bengal.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt21",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Arunachal Pradesh, Assam, Meghalaya, Manipur, Mizoram, Nagaland, Tripura.",
+      "answer": "The Seven Sister States of Northeast India",
+      "accept": [
+        "seven sister states",
+        "the seven sisters",
+        "seven sisters of the northeast",
+        "northeast seven sisters",
+        "seven sister states of northeast india",
+        "north east seven sisters"
+      ],
+      "explanation": "The seven contiguous states of Northeast India, a name coined on radio in 1972 by Jyoti Prasad Saikia.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt22",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Chandrayaan-1 (2008), Mangalyaan (2013 launch), Chandrayaan-3 (south pole landing, 23 August 2023), Aditya-L1 (launched September 2023).",
+      "answer": "ISRO interplanetary and lunar missions",
+      "accept": [
+        "isro missions",
+        "isro space missions",
+        "indian space missions",
+        "isro interplanetary missions",
+        "isro lunar and planetary missions",
+        "indian space research organisation missions"
+      ],
+      "explanation": "Four flagship ISRO missions — to the Moon, Mars and the Sun — that put India among the leading space-faring nations.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt23",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva.",
+      "answer": "The five Pandavas",
+      "accept": [
+        "pandavas",
+        "the pandavas",
+        "five pandavas",
+        "the five pandavas",
+        "pandava brothers",
+        "sons of pandu"
+      ],
+      "explanation": "The five sons of Pandu — three by Kunti, twins by Madri — and the heroes of the Mahabharata.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt24",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Kuvempu (Kannada, 1967), UR Ananthamurthy (Kannada, 1994), Mahasweta Devi (Bengali, 1996), Girish Karnad (Kannada, 1998), Shrilal Shukla (Hindi, 2009).",
+      "answer": "Jnanpith Award winners",
+      "accept": [
+        "jnanpith award",
+        "jnanpith award winners",
+        "jnanpith",
+        "jnanpith awardees",
+        "winners of the jnanpith",
+        "jnanpith literary award"
+      ],
+      "explanation": "India's highest literary honour, awarded to writers in scheduled Indian languages.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt25",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Guru Nanak, Guru Arjan, Guru Tegh Bahadur, Guru Gobind Singh.",
+      "answer": "The Sikh Gurus",
+      "accept": [
+        "sikh gurus",
+        "the sikh gurus",
+        "ten sikh gurus",
+        "ten gurus of sikhism",
+        "gurus of sikhism",
+        "sikh guru lineage"
+      ],
+      "explanation": "Four of the ten Sikh Gurus — the founder (Nanak), two martyrs (Arjan and Tegh Bahadur), and the tenth and last human Guru (Gobind Singh).",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt26",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Kabir (north India), Mirabai (Rajasthan), Tukaram (Maharashtra), Andal (Tamil Nadu), Surdas (Braj).",
+      "answer": "Bhakti poet-saints",
+      "accept": [
+        "bhakti poets",
+        "bhakti saints",
+        "bhakti poet saints",
+        "bhakti movement",
+        "bhakti poet-saints",
+        "saints of the bhakti movement"
+      ],
+      "explanation": "Devotional poet-saints of the Bhakti movement, writing across centuries and regions in their own languages.",
+      "created": "2026-05-23"
+    },
+    {
+      "id": "lt27",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Darjeeling tea, Mysore silk, Banarasi sari, Tirupati laddu, Bikaneri bhujia.",
+      "answer": "Geographical Indication (GI) tagged products of India",
+      "accept": [
+        "gi tag",
+        "gi tags",
+        "geographical indication",
+        "geographical indications",
+        "gi tagged products",
+        "indian gi tags",
+        "geographical indication tagged products"
+      ],
+      "explanation": "All five carry a Geographical Indication tag tying the product to its place of origin; Darjeeling tea was India's first GI in 2004.",
+      "created": "2026-05-23"
+    }
+  ]
+}

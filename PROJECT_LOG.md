@@ -163,7 +163,30 @@ Designed for playing with two Iranian friends (Telli + Taymaz) plus mixed Indian
 
 **Smoke-tested (headless, in Python):** filter excludes 0 India-topic questions for non-Iranian players, 60-question delta between Telli/Taymaz and non-Iranian pools (= iran_only count), 252 questions available to non-Iranian player in Iranian Mode, 312 to Telli/Taymaz. Not yet click-tested in a browser — Sharan to verify on next play-test.
 
-**Not yet pushed to GitHub Pages.**
+**Live at commit `11d7438`** (pushed 2026-05-23): https://sharanidli.github.io/family_quiz/
+
+### Long Tail callback expansion (2026-05-23)
+
+Audit of the 12 existing `callback: true` questions (`lt01`–`lt12`) showed reasonable category spread but a small-N problem: with only 12 callbacks, the same handful (Bharat Ratna, Nobel) recur across sessions.
+
+Added **15 new callbacks** (`lt13`–`lt27`) via the same writer + fact-checker pair pattern. Coverage filled the genuine gaps:
+
+| Category | New IDs |
+|---|---|
+| Cinema | lt13 Dadasaheb Phalke, lt14 Hindi cinema trinity, lt15 Salim-Javed |
+| Cricket | lt16 spin quartet, lt17 Indian captains with ICC titles |
+| Business | lt18 Tata acquisitions, lt19 Indian-origin global CEOs |
+| Geography | lt20 Cities on the Ganga, lt21 Seven Sisters |
+| ISRO / modern science | lt22 ISRO missions |
+| Mythology / literature | lt23 Pandavas, lt24 Jnanpith winners |
+| Religion | lt25 Sikh Gurus, lt26 Bhakti poet-saints |
+| Cuisine | lt27 GI tags |
+
+Fact-checker caught one slip: lt20 originally listed Kolkata as a Ganga city, but Kolkata sits on the Hooghly distributary; dropped Kolkata, retained the four UP/Bihar cities. Otherwise clean (14 of 15 accepted as written).
+
+**Callback pool now 27** (was 12). Target ~50–60 over time; this is the first slow batch.
+
+Bank size after callback add: **1,959 questions**.
 
 ## Multiplayer "next level" idea (not yet built)
 
