@@ -188,6 +188,27 @@ Fact-checker caught one slip: lt20 originally listed Kolkata as a Ganga city, bu
 
 Bank size after callback add: **1,959 questions**.
 
+### Long Tail callback expansion v2 (2026-06-04)
+
+Added **30 more callbacks** (`lt28`–`lt57`) via the same writer + fact-checker pair pattern. **Callback pool now 57** — inside the 50–60 target.
+
+| Category | New IDs |
+|---|---|
+| Cricket | lt28 2011 WC squad, lt29 Fab Five Test batting, lt30 women's cricket |
+| Sport beyond cricket | lt31 hockey golds, lt32 chess champs (Anand → Gukesh), lt33 badminton lineage, lt34 wrestlers |
+| Polity | lt35 Indian Presidents, lt36 Constitution Drafting Committee |
+| Princely states | lt37 integration post-1947 |
+| Geography | lt38 major dams, lt39 IVC sites in India |
+| Mythology / literature | lt40 Dashavatara, lt41 Tagore works, lt42 Premchand works |
+| Music | lt43 Hindustani gharanas, lt44 AR Rahman scores, lt55 tabla maestros, lt56 female playback singers, lt57 qawwali greats |
+| Cinema | lt45 Hindi film music directors, lt46 iconic villains, lt47 Tamil mega-stars, lt48 Bengali masters (beyond Ray) |
+| Business / tech | lt49 Reliance milestones, lt50 IT Big Four, lt51 Indian unicorns |
+| Science / Modern India | lt52 atomic+space architects, lt53 Pokhran tests, lt54 Green Revolution |
+
+Fact-checker caught 6 patches: lt32 (Anand is Chennai-born, not Coimbatore; GM was 1988 not 1987), lt36 (Madhava Rao vs B.N. Rau confusion, plus replacement context), lt37 (Junagadh plebiscite was 1948 not 1947), lt45 (RD Burman did Sholay solo, not as a duo — writer self-flagged), lt54 (C. Subramaniam was Union Minister, not TN state), lt38 (Nehru's Bhakra phrasing tightened). 24 of 30 accepted as written.
+
+Bank size after v2 add: **1,989 questions**.
+
 ## Multiplayer "next level" idea (not yet built)
 
 Everyone opens the page on their phone; only the active player can buzz / mark the answer; everyone sees the same question and live scores. Requires real-time state sync — static HTML alone can't do this. Cleanest path: **Firebase Realtime Database** (free tier; SDK runs in the browser; ~1-2 hours to wire). Adds: a room-code join flow, a per-device player identity, conditional UI (active player sees buttons, others see "waiting"). Decision deferred — revisit if the family-quiz format becomes a tradition.

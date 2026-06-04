@@ -1,0 +1,209 @@
+{
+  "batch": "callbacks_v2",
+  "reviewed": 30,
+  "accepted": 25,
+  "patched": 5,
+  "dropped": 0,
+  "verdicts": [
+    {
+      "id": "lt28",
+      "verdict": "accept",
+      "notes": "Gambhir's 97, Yuvraj PoT, Dhoni PoF/91*, Zaheer opened (three maidens). Tendulkar's 2011 was confirmed as his sixth WC ('first win in six World Cup appearances'). The 'farewell partner' cue refers to Tendulkar's last Test (Nov 2013, vs WI, Wankhede) — this is the loosest cue but answer is the 2011 WC squad rather than Tendulkar himself, so the cue still belongs to the connection (Tendulkar's career arc). Accept."
+    },
+    {
+      "id": "lt29",
+      "verdict": "accept",
+      "notes": "Sehwag + Dravid + Tendulkar + Ganguly + Laxman is the standard Fab Five (Fab Four if Sehwag is excluded). Accept."
+    },
+    {
+      "id": "lt30",
+      "verdict": "accept",
+      "notes": "Mithali (most WODI runs, 7805), Jhulan (most WODI wickets, 255), Smriti and Harmanpreet all are India women's cricket stars/captains. Accept.",
+      "source": "https://en.wikipedia.org/wiki/Mithali_Raj"
+    },
+    {
+      "id": "lt31",
+      "verdict": "accept",
+      "notes": "Eight golds verified (1928, 1932, 1936, 1948, 1952, 1956, 1964, 1980). Dhyan Chand scored three goals in the 1936 final per Wikipedia (which is a hat-trick), and captained. Accept.",
+      "source": "https://en.wikipedia.org/wiki/Dhyan_Chand"
+    },
+    {
+      "id": "lt32",
+      "verdict": "patch",
+      "issue": "Anand was not a 'Coimbatore teenager' — he was born in Mayiladuthurai and grew up in Chennai. Coimbatore is where the Shakti Finance International tournament that earned him the GM title was held. Also, the GM title was formally awarded in 1988 (the tournament was 1987).",
+      "fix": {
+        "question": "Connect: a Chennai teenager who became India's first Grandmaster in 1988; a five-time world champion who lost the title to Magnus Carlsen; an 18-year-old who beat Ding Liren in December 2024. What links Anand and Gukesh?",
+        "explanation": "Anand (FIDE 2000, undisputed 2007, 2008, 2010, 2012) and Gukesh (Dec 2024, youngest ever) — India's two world champions in chess."
+      },
+      "source": "https://en.wikipedia.org/wiki/Viswanathan_Anand"
+    },
+    {
+      "id": "lt33",
+      "verdict": "accept",
+      "notes": "Padukone (All England 1980), Gopichand (All England 2001), Saina (London 2012 bronze), Sindhu (Rio 2016 silver, Tokyo 2020 bronze) — all confirmed. Accept.",
+      "source": "https://en.wikipedia.org/wiki/Saina_Nehwal"
+    },
+    {
+      "id": "lt34",
+      "verdict": "accept",
+      "notes": "KD Jadhav (Helsinki 1952 bronze), Sushil Kumar (two Olympic medals: 2008 bronze, 2012 silver), Sakshi Malik (first Indian woman wrestling medal, Rio 2016 bronze), Bajrang Punia (Tokyo 2020 bronze). All verified.",
+      "source": "https://en.wikipedia.org/wiki/Sushil_Kumar_(wrestler)"
+    },
+    {
+      "id": "lt35",
+      "verdict": "accept",
+      "notes": "Rajendra Prasad (1st, longest serving 12y 107d), Radhakrishnan (2nd, philosopher), Kalam (11th, Missile Man), Murmu (15th, since 26 Jul 2022). All confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Droupadi_Murmu"
+    },
+    {
+      "id": "lt36",
+      "verdict": "patch",
+      "issue": "N. Madhava Rao was a replacement (for B.L. Mitter, who resigned), not one of the seven original members. The question lists him alongside originals as if interchangeable. Also Wikipedia spells it 'Madhava Rao' not 'Madhava Rau' (different person from B.N. Rau the constitutional advisor). Clarify his role as replacement and fix the spelling.",
+      "fix": {
+        "question": "Connect: B.R. Ambedkar in the chair; K.M. Munshi; Alladi Krishnaswami Ayyar; N. Gopalaswami Ayyangar; T.T. Krishnamachari (a later addition). Which committee?",
+        "explanation": "The seven-member Drafting Committee that drafted the Indian Constitution, chaired by Ambedkar. Originals also included Saiyid Mohammad Saadulla, B.L. Mitter and D.P. Khaitan; Mitter and Khaitan were later replaced by N. Madhava Rao and T.T. Krishnamachari."
+      },
+      "source": "https://en.wikipedia.org/wiki/Drafting_Committee_of_the_Indian_Constitution"
+    },
+    {
+      "id": "lt37",
+      "verdict": "patch",
+      "issue": "The Junagadh plebiscite was held on 20 February 1948, not 1947. The Nawab fled in 1947, and the plebiscite (which the cue is the date for) was 1948.",
+      "fix": {
+        "question": "Connect: Operation Polo in September 1948 brought one in; a February 1948 plebiscite settled another after the Nawab had fled to Karachi; the Maharaja signed the Instrument on October 26, 1947 for a third. What process?",
+        "explanation": "Hyderabad (Operation Polo, Sept 13-18 1948), Junagadh (Nawab fled 1947, plebiscite Feb 1948), J&K (Maharaja Hari Singh's accession, 26 Oct 1947) - Patel and V.P. Menon's project."
+      },
+      "source": "https://en.wikipedia.org/wiki/Integration_of_Junagadh"
+    },
+    {
+      "id": "lt38",
+      "verdict": "patch",
+      "issue": "Nehru's actual phrase was 'New Temple of Resurgent India' (per Wikipedia's Bhakra article) — though 'temples of modern India' is the more famous general phrase he applied to dams and steel plants collectively. 'Temple of New India' is a slight mis-paraphrase. Patch to the more recognizable phrasing.",
+      "fix": {
+        "question": "Connect: Nehru's 'temple of modern India' on the Sutlej; the Mahanadi project that became the world's longest earthen dam; one on the Narmada that displaced many. What are these?",
+        "explanation": "Bhakra Nangal (Sutlej, dedicated 1963), Hirakud (Mahanadi, Odisha), Sardar Sarovar (Narmada, Gujarat, inaugurated 2017). Nehru famously called such dams and steel plants the 'temples of modern India'."
+      },
+      "source": "https://en.wikipedia.org/wiki/Bhakra_Dam"
+    },
+    {
+      "id": "lt39",
+      "verdict": "accept",
+      "notes": "Lothal (Gujarat, port), Dholavira (Kutch, UNESCO 2021), Rakhigarhi (Haryana), Kalibangan (Rajasthan) — all confirmed Indus Valley sites in India. Accept.",
+      "source": "https://en.wikipedia.org/wiki/Dholavira"
+    },
+    {
+      "id": "lt40",
+      "verdict": "accept",
+      "notes": "Eight cues map cleanly to Matsya, Kurma, Varaha, Narasimha, Vamana, Parashurama, Rama, Krishna - the first eight of Dashavatara. Explanation correctly notes Buddha and Kalki follow. Accept."
+    },
+    {
+      "id": "lt41",
+      "verdict": "accept",
+      "notes": "All five works (Gitanjali, Ghare-Baire, Gora, Chokher Bali, Kabuliwala) are Tagore's. Nobel 1913 for Gitanjali confirmed. Ray's film 'The Home and the World' adapts Ghare-Baire. Accept.",
+      "source": "https://en.wikipedia.org/wiki/Rabindranath_Tagore"
+    },
+    {
+      "id": "lt42",
+      "verdict": "accept",
+      "notes": "Godan (1936, Hori the peasant protagonist), Gaban, Nirmala, Karmabhumi, Rangbhumi all Premchand. Accept.",
+      "source": "https://en.wikipedia.org/wiki/Premchand"
+    },
+    {
+      "id": "lt43",
+      "verdict": "accept",
+      "notes": "Gwalior (oldest), Kirana (Bhimsen Joshi), Jaipur-Atrauli (Kishori Amonkar), Patiala (Bade Ghulam Ali Khan) all confirmed Hindustani gharanas.",
+      "source": "https://en.wikipedia.org/wiki/Kirana_gharana"
+    },
+    {
+      "id": "lt44",
+      "verdict": "accept",
+      "notes": "Roja (1992 debut, Mani Ratnam), Bombay (1995), Dil Se (1998), Lagaan (2001), Slumdog Millionaire (2008, two Oscars: Best Original Score + Best Original Song 'Jai Ho' at the 81st Academy Awards in 2009). All verified.",
+      "source": "https://en.wikipedia.org/wiki/A._R._Rahman"
+    },
+    {
+      "id": "lt45",
+      "verdict": "patch",
+      "issue": "R.D. Burman scored Sholay solo, not as a duo. The 'duo behind Sholay's score' cue is factually wrong. Patch to 'the man behind Sholay's score' and remove the explanation's redundant mention of R.D. Burman twice.",
+      "fix": {
+        "question": "Connect: Pancham, son of Sachin Dev; Naushad of Mughal-e-Azam fame; the man behind Sholay's score; the duo identified with Yash Chopra romances. What craft?",
+        "explanation": "R.D. Burman (Pancham, also Sholay), Naushad, and Shiv-Hari (Shivkumar Sharma + Hariprasad Chaurasia, who scored Silsila, Chandni, Lamhe for Yash Chopra) — architects of Hindi film music."
+      },
+      "source": "https://en.wikipedia.org/wiki/Sholay"
+    },
+    {
+      "id": "lt46",
+      "verdict": "accept",
+      "notes": "Pran (1920-2013, the gentleman-villain), Amjad Khan as Gabbar in Sholay 1975, Amrish Puri as Mogambo in Mr. India 1987, Kulbhushan Kharbanda as Shakaal in Shaan 1980. All confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Amjad_Khan_(actor)"
+    },
+    {
+      "id": "lt47",
+      "verdict": "accept",
+      "notes": "Rajinikanth, Kamal Haasan, MGR, Sivaji Ganesan — all confirmed Tamil cinema mega-stars across generations. Accept."
+    },
+    {
+      "id": "lt48",
+      "verdict": "accept",
+      "notes": "Mrinal Sen (Bhuvan Shome 1969), Ritwik Ghatak, Tapan Sinha, Aparna Sen (36 Chowringhee Lane 1981) — all Bengali parallel/art cinema directors beyond Ray. Accept.",
+      "source": "https://en.wikipedia.org/wiki/Aparna_Sen"
+    },
+    {
+      "id": "lt49",
+      "verdict": "accept",
+      "notes": "Dhirubhai returned from Aden in 1958 to start Reliance Commercial Corp. 1977 IPO confirmed 7x oversubscribed. Jio launched Sep 5 2016 with free 4G data and voice. All verified.",
+      "source": "https://en.wikipedia.org/wiki/Dhirubhai_Ambani"
+    },
+    {
+      "id": "lt50",
+      "verdict": "accept",
+      "notes": "TCS (1968, Tata Sons), Infosys (Jul 1981, 7 founders incl. Murthy, Nilekani, Gopalakrishnan, Shibulal, Dinesh, Raghavan, Arora — founded in Pune, relocated to Bangalore 1983), Wipro (Premji took over 1966, originally Western India Vegetable Products), HCL (1976, Shiv Nadar). All verified.",
+      "source": "https://en.wikipedia.org/wiki/Infosys"
+    },
+    {
+      "id": "lt51",
+      "verdict": "accept",
+      "notes": "Flipkart (sold to Walmart May 2018 for ~$16B for 77% stake, Bengaluru, Bansals), Paytm (Vijay Shekhar Sharma, Aug 2010, Noida), Zomato (Deepinder Goyal + Pankaj Chaddah, 2008), Ola (Bhavish Aggarwal + Ankit Bhati). All confirmed.",
+      "source": "https://en.wikipedia.org/wiki/Flipkart"
+    },
+    {
+      "id": "lt52",
+      "verdict": "accept",
+      "notes": "Homi Bhabha (Air India Flight 101, Mont Blanc, 24 Jan 1966), Vikram Sarabhai (Father of India's space programme, d. 1971), Raja Ramanna (Smiling Buddha 1974 architect), Kalam (Missile Man, 11th President, also coordinated Pokhran-II). All verified.",
+      "source": "https://en.wikipedia.org/wiki/Homi_J._Bhabha"
+    },
+    {
+      "id": "lt53",
+      "verdict": "accept",
+      "notes": "Pokhran-I (Smiling Buddha, 18 May 1974, Indira Gandhi), Pokhran-II (Operation Shakti, May 11 and 13, 1998, Vajpayee — who was indeed a published poet). All verified.",
+      "source": "https://en.wikipedia.org/wiki/Pokhran-II"
+    },
+    {
+      "id": "lt54",
+      "verdict": "patch",
+      "issue": "C. Subramaniam was Union Agriculture Minister (1964-67), not a Tamil Nadu state minister. He was from Tamil Nadu but served at the centre. The phrase 'Tamil Nadu agriculture minister' is misleading. Patch to 'Union Food and Agriculture Minister from Tamil Nadu'.",
+      "fix": {
+        "question": "Connect: a Tamil Nadu scientist who won the Ramon Magsaysay; an American agronomist who won the 1970 Nobel Peace Prize; a Tamil Nadu politician who was Union Food and Agriculture Minister in the mid-1960s. What did they bring?",
+        "explanation": "M.S. Swaminathan (Magsaysay 1971), Norman Borlaug (Nobel Peace 1970), C. Subramaniam (Union Food and Agriculture Minister 1964-67, Bharat Ratna 1998) — the trio behind India's wheat turnaround."
+      },
+      "source": "https://en.wikipedia.org/wiki/C._Subramaniam"
+    },
+    {
+      "id": "lt55",
+      "verdict": "accept",
+      "notes": "Alla Rakha and son Zakir Hussain (d. 15 Dec 2024), Kishan Maharaj, Anokhelal Mishra — all confirmed tabla maestros.",
+      "source": "https://en.wikipedia.org/wiki/Zakir_Hussain_(musician)"
+    },
+    {
+      "id": "lt56",
+      "verdict": "accept",
+      "notes": "Lata Mangeshkar (1929-2022, Bharat Ratna 2001), Asha Bhosle, Geeta Dutt, Shamshad Begum (1919-2013) — all Hindi film playback singers across decades.",
+      "source": "https://en.wikipedia.org/wiki/Shamshad_Begum"
+    },
+    {
+      "id": "lt57",
+      "verdict": "accept",
+      "notes": "Nusrat Fateh Ali Khan (Pakistani qawwali, d. 1997), Sabri Brothers (Bhar Do Jholi confirmed), Wadali Brothers (Puranchand + Pyarelal, Punjab — primarily Sufi music including qawwali), Rahat Fateh Ali Khan (Nusrat's nephew). Accept — Wadalis are widely associated with qawwali though they also sing other Sufi forms.",
+      "source": "https://en.wikipedia.org/wiki/Nusrat_Fateh_Ali_Khan"
+    }
+  ]
+}

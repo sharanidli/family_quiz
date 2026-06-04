@@ -1,0 +1,466 @@
+{
+  "batch": "callbacks_v2",
+  "count": 30,
+  "accepted": 24,
+  "patched": 6,
+  "dropped": 0,
+  "overrides": 0,
+  "questions": [
+    {
+      "id": "lt28",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Sachin Tendulkar's farewell partner on his last day; the man who scored 97 in the 2011 final; Yuvraj Singh, Player of the Tournament; Zaheer Khan opening the bowling. What event?",
+      "answer": "India's 2011 ICC Cricket World Cup winning squad",
+      "accept": [
+        "2011 world cup",
+        "2011 cricket world cup",
+        "india's 2011 world cup win",
+        "2011 odi world cup"
+      ],
+      "explanation": "Gambhir's 97, Yuvraj PoT, Zaheer leading the attack — the campaign Dhoni finished with the six.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt29",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Virender Sehwag; Rahul Dravid; Sachin Tendulkar; Sourav Ganguly; VVS Laxman. What were they collectively called in the 2000s?",
+      "answer": "India's Test batting Fab Five (the famous middle order / top order of the 2000s)",
+      "accept": [
+        "fab five",
+        "indian fab five",
+        "fab 5",
+        "india's test fab five",
+        "the fab five batting line"
+      ],
+      "explanation": "The five who dominated India's Test batting through the 2000s.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt30",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Mithali Raj; Jhulan Goswami; Smriti Mandhana; Harmanpreet Kaur. What links them?",
+      "answer": "Indian women's cricket team captains / stars",
+      "accept": [
+        "indian women's cricket team",
+        "india women's cricket",
+        "women's cricket india",
+        "indian women cricketers"
+      ],
+      "explanation": "Mithali (most ODI runs), Jhulan (most ODI wickets), Smriti and Harmanpreet — the faces of Indian women's cricket.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt31",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Amsterdam 1928; Berlin 1936 where a wizard scored a hat-trick in the final; London 1948 — the first post-Independence; Moscow 1980. What were these for India?",
+      "answer": "India's eight Olympic gold medals in field hockey",
+      "accept": [
+        "india's olympic hockey golds",
+        "indian hockey olympic gold medals",
+        "field hockey olympic golds",
+        "hockey gold medals at the olympics"
+      ],
+      "explanation": "Eight golds — 1928, 1932, 1936, 1948, 1952, 1956, 1964, 1980. Dhyan Chand's hat-trick in the 1936 final.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt32",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: a Chennai teenager who became India's first Grandmaster in 1988; a five-time world champion who lost the title to Magnus Carlsen; an 18-year-old who beat Ding Liren in December 2024. What links Anand and Gukesh?",
+      "answer": "Indian world chess champions",
+      "accept": [
+        "indian world chess champions",
+        "world chess champions from india",
+        "indian chess world champions"
+      ],
+      "explanation": "Anand (FIDE 2000, undisputed 2007, 2008, 2010, 2012) and Gukesh (Dec 2024, youngest ever) — India's two world champions in chess.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt33",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: All England 1980; All England 2001; London 2012 bronze; Rio 2016 silver and Tokyo 2020 bronze. Which Indian sport?",
+      "answer": "Indian badminton (Padukone, Gopichand, Saina, Sindhu)",
+      "accept": [
+        "indian badminton",
+        "badminton in india",
+        "india's badminton stars"
+      ],
+      "explanation": "Prakash Padukone, Pullela Gopichand, Saina Nehwal, PV Sindhu — the lineage.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt34",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: KD Jadhav at Helsinki 1952; Sushil Kumar with two Olympic medals; Sakshi Malik becoming the first Indian woman to medal in this sport; Bajrang Punia. Which discipline?",
+      "answer": "Indian wrestling (kushti) at the Olympics",
+      "accept": [
+        "wrestling",
+        "indian wrestling",
+        "kushti",
+        "indian olympic wrestlers"
+      ],
+      "explanation": "India's individual Olympic wrestling tradition — from Jadhav's 1952 bronze onwards.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt35",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Rajendra Prasad serving the longest; Sarvepalli Radhakrishnan, the philosopher; A.P.J. Abdul Kalam, the missile man; Droupadi Murmu since 2022. What office?",
+      "answer": "President of India",
+      "accept": [
+        "indian presidents",
+        "president of india",
+        "presidents of india"
+      ],
+      "explanation": "Four of the fifteen — Prasad (1st), Radhakrishnan (2nd), Kalam (11th), Murmu (15th and current).",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt36",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: B.R. Ambedkar in the chair; K.M. Munshi; Alladi Krishnaswami Ayyar; N. Gopalaswami Ayyangar; T.T. Krishnamachari (a later addition). Which committee?",
+      "answer": "The Drafting Committee of the Constituent Assembly of India",
+      "accept": [
+        "drafting committee",
+        "constitution drafting committee",
+        "constituent assembly drafting committee",
+        "the drafting committee of the indian constitution"
+      ],
+      "explanation": "The seven-member Drafting Committee that drafted the Indian Constitution, chaired by Ambedkar. Originals also included Saiyid Mohammad Saadulla, B.L. Mitter and D.P. Khaitan; Mitter and Khaitan were later replaced by N. Madhava Rao and T.T. Krishnamachari.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt37",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Operation Polo in September 1948 brought one in; a February 1948 plebiscite settled another after the Nawab had fled to Karachi; the Maharaja signed the Instrument on October 26, 1947 for a third. What process?",
+      "answer": "The accession / integration of the princely states (Hyderabad, Junagadh, Jammu and Kashmir) into India",
+      "accept": [
+        "integration of princely states",
+        "accession of princely states",
+        "princely states joining india",
+        "integration of indian princely states"
+      ],
+      "explanation": "Hyderabad (Operation Polo, Sept 13-18 1948), Junagadh (Nawab fled 1947, plebiscite Feb 1948), J&K (Maharaja Hari Singh's accession, 26 Oct 1947) - Patel and V.P. Menon's project.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt38",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Nehru's 'temple of modern India' on the Sutlej; the Mahanadi project that became the world's longest earthen dam; one on the Narmada that displaced many. What are these?",
+      "answer": "Major Indian dams (Bhakra Nangal, Hirakud, Sardar Sarovar)",
+      "accept": [
+        "major indian dams",
+        "famous indian dams",
+        "indian dams",
+        "large dams of india"
+      ],
+      "explanation": "Bhakra Nangal (Sutlej, dedicated 1963), Hirakud (Mahanadi, Odisha), Sardar Sarovar (Narmada, Gujarat, inaugurated 2017). Nehru famously called such dams and steel plants the 'temples of modern India'.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt39",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Lothal in Gujarat; Dholavira in Kutch; Rakhigarhi in Haryana; Kalibangan in Rajasthan. What links these?",
+      "answer": "Indus Valley Civilisation sites in India (Harappan sites)",
+      "accept": [
+        "indus valley civilisation sites in india",
+        "harappan sites in india",
+        "indus valley sites",
+        "indian harappan sites"
+      ],
+      "explanation": "The Harappan / Indus Valley sites that lie inside India (Mohenjo-daro and Harappa are in Pakistan).",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt40",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: a fish; a tortoise; a boar; a man-lion; a dwarf; a warrior with an axe; an exiled prince; a cowherd. What sequence?",
+      "answer": "The Dashavatara — the ten avatars of Vishnu (these are the first eight)",
+      "accept": [
+        "dashavatara",
+        "ten avatars of vishnu",
+        "dashavatar",
+        "avatars of vishnu",
+        "the ten avatars"
+      ],
+      "explanation": "Matsya, Kurma, Varaha, Narasimha, Vamana, Parashurama, Rama, Krishna — followed by Buddha and Kalki.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt41",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Gitanjali, for which the Nobel came in 1913; Ghare Baire; Gora; Chokher Bali; the short story Kabuliwala. Whose works?",
+      "answer": "Rabindranath Tagore",
+      "accept": [
+        "tagore",
+        "rabindranath tagore",
+        "gurudev tagore"
+      ],
+      "explanation": "Gurudev's major works — including the novel adapted by Satyajit Ray as The Home and the World.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt42",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Godan, the story of Hori the peasant; Gaban; Nirmala; Karmabhumi; Rangbhumi. Whose Hindi-Urdu novels?",
+      "answer": "Munshi Premchand",
+      "accept": [
+        "premchand",
+        "munshi premchand",
+        "dhanpat rai srivastava"
+      ],
+      "explanation": "The towering Hindi-Urdu novelist of the early 20th century.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt43",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Gwalior, the oldest; Kirana, home of Bhimsen Joshi; Jaipur-Atrauli of Kishori Amonkar; Patiala of Bade Ghulam Ali Khan. What are these?",
+      "answer": "Hindustani classical music gharanas",
+      "accept": [
+        "hindustani gharanas",
+        "gharanas",
+        "hindustani music gharanas",
+        "classical music gharanas"
+      ],
+      "explanation": "Major schools / lineages of Hindustani vocal music.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt44",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Roja in 1992 — the debut; Bombay; Dil Se; Lagaan; and a 2008 British film that won two Oscars. Whose scores?",
+      "answer": "A.R. Rahman",
+      "accept": [
+        "ar rahman",
+        "a r rahman",
+        "rahman",
+        "allah rakha rahman"
+      ],
+      "explanation": "Mani Ratnam's discoveries through Slumdog Millionaire — Rahman won Best Original Score and Best Original Song ('Jai Ho') in 2009.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt45",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Pancham, son of Sachin Dev; Naushad of Mughal-e-Azam fame; the man behind Sholay's score; the duo identified with Yash Chopra romances. What craft?",
+      "answer": "Hindi film music directors / composers",
+      "accept": [
+        "hindi film music directors",
+        "bollywood music directors",
+        "film composers",
+        "hindi film composers",
+        "music directors"
+      ],
+      "explanation": "R.D. Burman (Pancham, also Sholay), Naushad, and Shiv-Hari (Shivkumar Sharma + Hariprasad Chaurasia, who scored Silsila, Chandni, Lamhe for Yash Chopra) — architects of Hindi film music.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt46",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Pran's menace; Amjad Khan as Gabbar; Amrish Puri as Mogambo; Kulbhushan Kharbanda as Shakaal. What role?",
+      "answer": "Iconic villains of Hindi cinema",
+      "accept": [
+        "bollywood villains",
+        "hindi film villains",
+        "iconic hindi film villains",
+        "villains of hindi cinema"
+      ],
+      "explanation": "The great heavies — Pran the gentleman-villain, Gabbar, Mogambo, Shakaal.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt47",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Rajinikanth; Kamal Haasan; MGR; Sivaji Ganesan. Which industry?",
+      "answer": "Tamil cinema mega-stars",
+      "accept": [
+        "tamil cinema",
+        "tamil film stars",
+        "tamil cinema superstars",
+        "kollywood superstars",
+        "tamil movie stars"
+      ],
+      "explanation": "Four pillars of Tamil cinema across generations.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt48",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Mrinal Sen; Ritwik Ghatak; Tapan Sinha; Aparna Sen. What links them (besides Satyajit Ray's shadow)?",
+      "answer": "Bengali / Bangla art-cinema directors (parallel cinema)",
+      "accept": [
+        "bengali film directors",
+        "bengali cinema directors",
+        "bangla cinema directors",
+        "bengali parallel cinema",
+        "bengali art cinema"
+      ],
+      "explanation": "The other masters of Bengali cinema beyond Ray.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt49",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: a textile salesman in Aden who came back to start Reliance Commercial Corporation; a 1977 IPO that was seven times oversubscribed; a September 2016 launch of free 4G. What house?",
+      "answer": "Reliance / the Ambani family / Reliance Industries",
+      "accept": [
+        "reliance",
+        "the ambani family",
+        "reliance industries",
+        "ambani",
+        "reliance group",
+        "house of ambani"
+      ],
+      "explanation": "Dhirubhai's polyester-to-petrochem story, his landmark IPO, and Mukesh's Jio.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt50",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: a Mumbai company started by the Tatas in 1968; a Pune company founded by seven engineers in 1981; a Bangalore company built by Azim Premji on vegetable oils; one Shiv Nadar started in 1976. What sector?",
+      "answer": "India's Big Four IT services companies (TCS, Infosys, Wipro, HCL)",
+      "accept": [
+        "indian it services",
+        "big four indian it",
+        "indian it companies",
+        "indian it services big four",
+        "tcs infosys wipro hcl"
+      ],
+      "explanation": "TCS (Tata, 1968), Infosys (Murthy + 6 others, Pune 1981), Wipro (Premji pivoted from cooking oil), HCL (Shiv Nadar, 1976).",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt51",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: a Bangalore company sold to Walmart for about $16 billion in 2018; Vijay Shekhar Sharma's payments venture; Deepinder Goyal's food delivery; Bhavish Aggarwal's ride-hailing. What links them?",
+      "answer": "Indian unicorn start-ups (Flipkart, Paytm, Zomato, Ola)",
+      "accept": [
+        "indian unicorns",
+        "indian startups",
+        "indian unicorn startups",
+        "indian start-up unicorns",
+        "tech unicorns of india"
+      ],
+      "explanation": "The first wave of Indian consumer-internet billion-dollar companies.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt52",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: a physicist who died in an Air India crash near Mont Blanc in 1966; the man called the father of India's space programme; the architect of Smiling Buddha in 1974; the missile man who became President. What field?",
+      "answer": "Architects of India's nuclear / atomic energy and space programme",
+      "accept": [
+        "indian nuclear programme architects",
+        "fathers of indian nuclear programme",
+        "indian atomic and space programme leaders",
+        "indian nuclear and space scientists",
+        "leaders of indian atomic programme"
+      ],
+      "explanation": "Homi Bhabha, Vikram Sarabhai, Raja Ramanna, A.P.J. Abdul Kalam.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt53",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: May 18, 1974 codenamed for a smiling figure; May 11 and 13, 1998 under a poet-PM with the codename Shakti. What programme?",
+      "answer": "India's nuclear weapons tests at Pokhran (Pokhran-I and Pokhran-II)",
+      "accept": [
+        "pokhran tests",
+        "indian nuclear tests",
+        "pokhran i and ii",
+        "pokhran nuclear tests",
+        "smiling buddha and operation shakti"
+      ],
+      "explanation": "Pokhran-I (Smiling Buddha, Indira) and Pokhran-II (Operation Shakti, Vajpayee).",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt54",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: a Tamil Nadu scientist who won the Ramon Magsaysay; an American agronomist who won the 1970 Nobel Peace Prize; a Tamil Nadu politician who was Union Food and Agriculture Minister in the mid-1960s. What did they bring?",
+      "answer": "The Green Revolution in India",
+      "accept": [
+        "green revolution",
+        "indian green revolution",
+        "the green revolution"
+      ],
+      "explanation": "M.S. Swaminathan (Magsaysay 1971), Norman Borlaug (Nobel Peace 1970), C. Subramaniam (Union Food and Agriculture Minister 1964-67, Bharat Ratna 1998) — the trio behind India's wheat turnaround.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt55",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Alla Rakha; Zakir Hussain; Kishan Maharaj; Anokhelal Mishra. What instrument?",
+      "answer": "The tabla (tabla maestros)",
+      "accept": [
+        "tabla",
+        "tabla players",
+        "tabla maestros",
+        "indian tabla maestros"
+      ],
+      "explanation": "Four giants of the tabla — Alla Rakha and his son Zakir among them.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt56",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Lata Mangeshkar; Asha Bhosle; Geeta Dutt; Shamshad Begum. What links them?",
+      "answer": "Female playback singers of Hindi cinema",
+      "accept": [
+        "hindi playback singers",
+        "female playback singers",
+        "bollywood playback singers",
+        "hindi female playback singers",
+        "playback singers of hindi cinema"
+      ],
+      "explanation": "Four reigning voices of Hindi film playback across decades.",
+      "created": "2026-06-04"
+    },
+    {
+      "id": "lt57",
+      "topic": "general",
+      "callback": true,
+      "question": "Connect: Nusrat Fateh Ali Khan's soaring voice; the Sabri Brothers' Bhar Do Jholi; the Wadali Brothers from Punjab; Rahat Fateh Ali Khan in Bollywood. What form?",
+      "answer": "Qawwali (Sufi devotional music)",
+      "accept": [
+        "qawwali",
+        "sufi qawwali",
+        "qawwali music",
+        "sufi devotional music"
+      ],
+      "explanation": "Sufi devotional song — the Khans of Pakistan and the Wadalis of Punjab.",
+      "created": "2026-06-04"
+    }
+  ]
+}
