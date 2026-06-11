@@ -76,6 +76,7 @@ const state = {
   timerEnabled: false,
   avoidRepeats: true,
   iranianMode: false,
+  voiceRate: 1.15,
   listening: false,
   recognition: null,
   heard: '',
@@ -564,13 +565,20 @@ function speak(text, opts = {}) {
     if (!state.voiceHost || !window.speechSynthesis) { resolve(); return; }
     try {
       window.speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(text);
-      if (preferredVoice) u.voice = preferredVoice;
-      u.rate = opts.rate || 0.95;
-      u.pitch = opts.pitch || 1;
-      u.onend = resolve;
-      u.onerror = resolve;
-      window.speechSynthesis.speak(u);
+      // Chrome's synth state stays "busy" for a tick after cancel(); if we call
+      // speak(u) immediately, the new utterance is silently dropped about 80%
+      // of the time. An 80ms gap is below the noticeable threshold but enough
+      // to let cancel() settle. Without this, "Answer: …" and the end-of-game
+      // winner line were both being swallowed.
+      setTimeout(() => {
+        const u = new SpeechSynthesisUtterance(text);
+        if (preferredVoice) u.voice = preferredVoice;
+        u.rate = opts.rate || state.voiceRate || 1.15;
+        u.pitch = opts.pitch || 1;
+        u.onend = resolve;
+        u.onerror = resolve;
+        window.speechSynthesis.speak(u);
+      }, 80);
     } catch (e) { resolve(); }
   });
 }
@@ -776,21 +784,24 @@ async function startRound() {
   state.phase = 'round-intro';
   renderHeader();
 
-  let intro;
+  let intro, spokenIntro;
   if (r.type === 'long') {
     intro = `Long Question round. ${r.count} question${r.count > 1 ? 's' : ''} per player.`;
+    spokenIntro = 'Long Question round.';
   } else if (r.type === 'theme') {
     const t = [...THEME_OPTIONS, ...IRANIAN_THEME_OPTIONS].find(t => t.id === r.theme);
     intro = `Theme round: ${t ? t.label : r.theme}. ${r.count} questions, taken in turn.`;
+    spokenIntro = `Theme round. ${t ? t.label : r.theme}.`;
   } else {
     intro = `Bid round. ${r.count} per player. Wager 5, 10, or 20 — right answer wins your wager, wrong loses it.`;
+    spokenIntro = 'Bid round. Wager five, ten, or twenty.';
   }
 
   const main = $('#game-main');
   main.innerHTML = '';
   main.appendChild(el('div', { class: 'player-up' }, intro));
   main.appendChild(el('button', { class: 'big', onclick: nextQuestionInRound }, 'Begin Round →'));
-  speak(intro);
+  speak(spokenIntro);
 }
 
 async function nextQuestionInRound() {
@@ -845,14 +856,15 @@ function askForBid() {
         state.currentQuestion = q;
         state.phase = 'question';
         renderQuestion(q, { bid: v });
-        await speak(`${player.name}, you've wagered ${v}. Here is your question.`);
+        // Skip the redundant "you've wagered ten" — wager and question
+        // already on screen. Go straight to the question.
         await speak(q.question);
         startListening();
       }
     }, '+' + v));
   });
   main.appendChild(row);
-  speak(`${player.name}, what's your wager? Five, ten, or twenty.`);
+  speak(`${player.name} — your wager?`);
 }
 
 function renderHeader() {
@@ -975,35 +987,42 @@ function markWrong() {
   let pts = 0;
   if (r.type === 'bid') { pts = -state.currentBid; player.score += pts; }
   logEntry(player, 'wrong', pts);
-  reveal('wrong');
+  // Bid: wager already covers risk, no cascade.
+  // Long / Theme: cascade to the next player like a Pass — they get a +5 chance.
+  if (r.type === 'bid') return reveal('wrong');
+  cascadeToNext('wrong');
 }
 
 function markPass() {
   if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
   stopListening(); stopSpeaking(); clearTimer();
-  const r = state.rounds[state.currentRoundIdx];
-  const canPass = (r.type === 'long' || r.type === 'theme') && state.players.length > 1;
-
   // Log the current player's pass (whether or not the cascade continues)
   logEntry(state.players[state.currentPlayerIdx], 'passed', 0);
+  cascadeToNext('pass');
+}
 
-  if (!canPass) { reveal('pass'); return; }
+// Cascade the question to the next player in the ring (Long & Theme rounds, >1 player).
+// Used by both Pass and Wrong. The player who finally answers correctly gets +5.
+function cascadeToNext(reason) {
+  const r = state.rounds[state.currentRoundIdx];
+  const canCascade = (r.type === 'long' || r.type === 'theme') && state.players.length > 1;
+  if (!canCascade) { reveal(reason); return; }
 
-  // First pass: remember who the question was originally asked to
+  // First handoff: remember who the question was originally asked to
   if (state.phase === 'question') {
     state.originalPlayerIdx = state.currentPlayerIdx;
   }
   // Move to next player in rotation
   state.currentPlayerIdx = (state.currentPlayerIdx + 1) % state.players.length;
-  // If we've cycled back to the original, every other player has passed — reveal
+  // If we've cycled back to the original, every other player has had a go — reveal
   if (state.currentPlayerIdx === state.originalPlayerIdx) {
-    reveal('pass');
+    reveal(reason);
     return;
   }
   state.phase = 'pass-attempt';
   state.matchAnnounced = false;
   renderQuestion(state.currentQuestion, { passing: true });
-  speak(`Pass! ${state.players[state.currentPlayerIdx].name}, would you like to try? Five points if you get it.`);
+  speak(`${state.players[state.currentPlayerIdx].name}, over to you.`);
   startTimer();
   startListening();
 }
@@ -1027,7 +1046,7 @@ async function reveal(outcome) {
     onclick: () => { state.questionInRound++; nextQuestionInRound(); },
   }, 'Next →'));
 
-  if (outcome !== 'right') await speak(`The answer is: ${q.answer}.`);
+  if (outcome !== 'right') await speak(`Answer: ${q.answer}.`);
 }
 
 function endRound() {
@@ -1080,7 +1099,7 @@ async function startLongTailOrEnd() {
   main.appendChild(el('button', { class: 'big', onclick: askLongTail }, 'Ask the question →'));
 
   playPostcardCue();
-  await speak('And one last thing for tonight. A bonus connection question to close us out. First player to answer wins twenty-five.');
+  await speak('One last thing — a bonus connection. First in wins twenty-five.');
 }
 
 async function askLongTail() {
@@ -1160,7 +1179,14 @@ function endGame() {
   renderWinnerView();
 
   const sorted = [...state.players].sort((a, b) => b.score - a.score);
-  if (sorted.length) speak(`That's a wrap. Winner: ${sorted[0].name}, with ${sorted[0].score} points. Well played, everyone.`);
+  // Small additional delay on top of speak()'s built-in 80ms — the winner line
+  // is the last impression of the game and must land. settleLongTail's
+  // "connection" speech may still be in-flight when the user clicked through.
+  if (sorted.length) {
+    setTimeout(() => {
+      speak(`That's a wrap. Winner: ${sorted[0].name}, with ${sorted[0].score} points. Well played, everyone.`);
+    }, 250);
+  }
 }
 
 function truncate(s, n) {
@@ -1359,6 +1385,21 @@ function init() {
   });
   $('#voice-test-btn').addEventListener('click', () => {
     speak('Namaste. This is a sample of the chosen voice.');
+  });
+
+  // Voice speed — restore saved choice, then wire change listener
+  const savedRate = parseFloat(localStorage.getItem('quizVoiceRate') || '');
+  if (savedRate >= 0.5 && savedRate <= 2) {
+    state.voiceRate = savedRate;
+    const sel = $('#voice-rate');
+    if (sel) sel.value = String(savedRate);
+  }
+  $('#voice-rate').addEventListener('change', e => {
+    const r = parseFloat(e.target.value);
+    if (r >= 0.5 && r <= 2) {
+      state.voiceRate = r;
+      localStorage.setItem('quizVoiceRate', String(r));
+    }
   });
 
   renderPlayers();

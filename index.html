@@ -48,6 +48,15 @@
         <button id="voice-test-btn" class="ghost small" type="button" style="margin-top:0.4rem;">▶ Test voice</button>
         <div id="voice-info" class="voice-info"></div>
       </label>
+      <label class="block">
+        <span class="label-text">Voice speed</span>
+        <select id="voice-rate">
+          <option value="0.95">Slow</option>
+          <option value="1.05">Normal</option>
+          <option value="1.15" selected>Faster</option>
+          <option value="1.3">Fastest</option>
+        </select>
+      </label>
       <label>
         <input type="checkbox" id="auto-judge" checked>
         Listen for spoken answers (host always has the final say)
