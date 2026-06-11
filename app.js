@@ -1095,11 +1095,11 @@ async function startLongTailOrEnd() {
   main.innerHTML = '';
   main.appendChild(el('div', { class: 'player-up' }, '⊰ The Long Tail ⊱'));
   main.appendChild(el('div', { class: 'question-text' },
-    'A bonus connection question to close the night. First player to answer wins +25. Wrong answers cost nothing.'));
+    'A bonus connection question to close the night. First player to answer wins +5. Wrong answers cost nothing.'));
   main.appendChild(el('button', { class: 'big', onclick: askLongTail }, 'Ask the question →'));
 
   playPostcardCue();
-  await speak('One last thing — a bonus connection. First in wins twenty-five.');
+  await speak('One last thing — a bonus connection. First in wins five.');
 }
 
 async function askLongTail() {
@@ -1151,8 +1151,8 @@ async function askLongTail() {
 async function settleLongTail(playerIdx, correct) {
   stopListening(); stopSpeaking();
   if (correct && playerIdx >= 0) {
-    state.players[playerIdx].score += 25;
-    logEntry(state.players[playerIdx], 'right', 25);
+    state.players[playerIdx].score += 5;
+    logEntry(state.players[playerIdx], 'right', 5);
   }
 
   state.phase = 'reveal';
@@ -1161,7 +1161,7 @@ async function settleLongTail(playerIdx, correct) {
   main.innerHTML = '';
 
   const head = correct
-    ? `✓ ${state.players[playerIdx].name} — +25!`
+    ? `✓ ${state.players[playerIdx].name} — +5!`
     : '— Nobody got it.';
   main.appendChild(el('div', { class: 'player-up' }, head));
   main.appendChild(el('div', { class: 'answer-reveal' }, q.answer));
