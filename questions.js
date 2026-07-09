@@ -27149,6 +27149,2180 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Sufi devotional song — the Khans of Pakistan and the Wadalis of Punjab.",
       "created": "2026-06-04"
+    },
+    {
+      "id": "q0709001",
+      "topic": "books",
+      "question": "When his slim novella about a Bangalore family's rise from a spice-selling struggle to sudden wealth appeared in English in 2015, translated by Srinath Perur, the world discovered a spare, chilling storyteller writing in Kannada. The book took its odd title from a nonsense phrase meaning 'tangled up beyond repair'. Name the author.",
+      "answer": "Vivek Shanbhag",
+      "accept": [
+        "vivek shanbhag",
+        "shanbhag"
+      ],
+      "explanation": "Vivek Shanbhag wrote the Kannada novella Ghachar Ghochar (2013), translated into English by Srinath Perur in 2015 to international acclaim.",
+      "themes": [
+        "south_india",
+        "languages"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709002",
+      "topic": "books",
+      "question": "Perumal Murugan's 2010 Tamil novel about a childless couple in Tiruchengode was originally called 'Madhorubagan', after the half-woman form of the deity. When it appeared in English translation, the title kept that allusion to the deity's dual form. Give me the English title of the book.",
+      "answer": "One Part Woman",
+      "accept": [
+        "one part woman",
+        "madhorubagan"
+      ],
+      "explanation": "One Part Woman is the English translation (by Aniruddhan Vasudevan) of Perumal Murugan's Tamil novel Madhorubagan.",
+      "difficulty": 3,
+      "themes": [
+        "south_india",
+        "languages"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709003",
+      "topic": "books",
+      "question": "In 2025 a collection of twelve short stories about the lives of Muslim women in southern India, written in Kannada and translated by Deepa Bhasthi, won the International Booker Prize, the first short-story collection and the first Kannada work to do so. Name the lawyer-activist who wrote it.",
+      "answer": "Banu Mushtaq",
+      "accept": [
+        "banu mushtaq",
+        "mushtaq"
+      ],
+      "explanation": "Banu Mushtaq's Heart Lamp, translated from Kannada by Deepa Bhasthi, won the 2025 International Booker Prize.",
+      "themes": [
+        "south_india",
+        "languages"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709004",
+      "topic": "books",
+      "question": "A former banker turned novelist made publishing history in 2010 with his debut, in which Shiva arrives in the land of Meluha and is hailed as the fabled Neelkanth. It launched a trilogy that became the fastest-selling series in Indian publishing. Name the author.",
+      "answer": "Amish Tripathi",
+      "accept": [
+        "amish tripathi",
+        "amish"
+      ],
+      "explanation": "Amish Tripathi's debut The Immortals of Meluha (2010) opened the Shiva Trilogy.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709005",
+      "topic": "books",
+      "question": "R.K. Narayan set almost all his novels and stories, from 'Swami and Friends' onwards, in a single small, invented South Indian town. Name that fictional town.",
+      "answer": "Malgudi",
+      "accept": [
+        "malgudi"
+      ],
+      "explanation": "Malgudi is the fictional town that forms the setting of nearly all of R.K. Narayan's fiction.",
+      "bid_eligible": true,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709006",
+      "topic": "books",
+      "question": "A bilingual poet who wrote in both Marathi and English, he won the Commonwealth Poetry Prize in 1977 for a collection of poems about a visit to a temple town in Maharashtra, and later wrote the 'Kala Ghoda Poems' about a corner of Bombay. Name him.",
+      "answer": "Arun Kolatkar",
+      "accept": [
+        "arun kolatkar",
+        "kolatkar"
+      ],
+      "explanation": "Arun Kolatkar won the Commonwealth Poetry Prize for Jejuri (1976) and later wrote Kala Ghoda Poems; he wrote in both Marathi and English.",
+      "difficulty": 3,
+      "themes": [
+        "languages"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709007",
+      "topic": "books",
+      "question": "This Bombay writer's 2012 debut novel, drawn from life with his own mother, tells of a Goan Catholic family in a Mahim flat coping with a mother's manic depression. Its narrator's parents are known only by their nicknames, which give the book its title. Name the author.",
+      "answer": "Jerry Pinto",
+      "accept": [
+        "jerry pinto",
+        "pinto"
+      ],
+      "explanation": "Jerry Pinto wrote Em and the Big Hoom (2012), which won the Sahitya Akademi Award among other prizes.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709008",
+      "topic": "books",
+      "question": "R.K. Narayan's 1958 novel about Raju, a railway tour guide who drifts into an affair with the dancer Rosie and ends up mistaken for a holy man, won the first-ever Sahitya Akademi Award for English in 1960. Name the novel.",
+      "answer": "The Guide",
+      "accept": [
+        "the guide",
+        "guide"
+      ],
+      "explanation": "The Guide (1958) won Narayan the first Sahitya Akademi Award for English in 1960.",
+      "difficulty": 3,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709009",
+      "topic": "books",
+      "question": "A doctor by training who left pharma to become India's best-known popular mythologist, he has written over fifty books, including illustrated retellings such as 'Jaya' (the Mahabharata) and 'Sita' (the Ramayana). Name him.",
+      "answer": "Devdutt Pattanaik",
+      "accept": [
+        "devdutt pattanaik",
+        "pattanaik",
+        "devdutt"
+      ],
+      "explanation": "Devdutt Pattanaik is the mythologist-author of Jaya, Sita, and many other illustrated retellings.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709010",
+      "topic": "books",
+      "question": "One of the longest novels ever published in a single English-language volume, this 1993 book follows Mrs. Rupa Mehra's search for a husband for her daughter Lata among suitors like Kabir, Haresh and Amit, set in a newly independent India. Name the novel.",
+      "answer": "A Suitable Boy",
+      "accept": [
+        "a suitable boy",
+        "suitable boy"
+      ],
+      "explanation": "Vikram Seth's A Suitable Boy (1993), at around 1,349 pages, is one of the longest single-volume English novels.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709011",
+      "topic": "books",
+      "question": "Published in 1942 and tried for obscenity in a Lahore court in 1944, Ismat Chughtai's short story about a begum, her maid Rabbu, and a shadow moving under a quilt became a landmark of Urdu literature. The court, unable to find a single vulgar line, acquitted her. Name the story by its Urdu title.",
+      "answer": "Lihaaf",
+      "accept": [
+        "lihaaf",
+        "lihaf",
+        "the quilt"
+      ],
+      "explanation": "Ismat Chughtai's Lihaaf ('The Quilt') was tried for obscenity in Lahore and she was acquitted.",
+      "difficulty": 3,
+      "themes": [
+        "languages"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709012",
+      "topic": "general",
+      "question": "As a young engineering student, she saw a Telco job advertisement that ended with 'Lady candidates need not apply', wrote an angry postcard to J.R.D. Tata himself, and was hired as the company's first woman engineer on the shop floor. Later an author and philanthropist, name her.",
+      "answer": "Sudha Murty",
+      "accept": [
+        "sudha murty",
+        "sudha murthy",
+        "murty",
+        "murthy"
+      ],
+      "explanation": "Sudha Murty became Telco's first woman engineer after writing to J.R.D. Tata; she later became a celebrated author and philanthropist.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709013",
+      "topic": "general",
+      "question": "Founded in 1923 in Gorakhpur, and considered the world's largest publisher of Hindu religious texts, this press has printed hundreds of millions of copies of the Bhagavad Gita, the Ramcharitmanas and the Hanuman Chalisa, and publishes the magazine 'Kalyan'. Name this publishing house.",
+      "answer": "Gita Press",
+      "accept": [
+        "gita press",
+        "geeta press",
+        "gita press gorakhpur"
+      ],
+      "explanation": "Gita Press, Gorakhpur (founded 1923), is the world's largest publisher of Hindu religious texts.",
+      "difficulty": 3,
+      "bid_eligible": true,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709014",
+      "topic": "general",
+      "question": "In the South, a strong milky coffee is brewed by dripping a decoction through a stainless-steel filter, blended with about 20% chicory, and served frothed by pouring it between a small bowl and a tumbler called the dabara and tumbler. By what two-word name, evoking a purity certification, is this coffee popularly known?",
+      "answer": "Degree Coffee",
+      "accept": [
+        "degree coffee",
+        "filter coffee",
+        "south indian filter coffee",
+        "degree kaapi"
+      ],
+      "explanation": "South Indian filter coffee is popularly called 'degree coffee', a term said to derive from 'degree milk' certified pure by a lactometer.",
+      "difficulty": 3,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709015",
+      "topic": "general",
+      "question": "When India soft-landed near the Moon's south pole in August 2023 with Chandrayaan-3, becoming the first nation to do so, the lander 'Vikram' deployed a small six-wheeled rover to trundle across the lunar surface. Name that rover.",
+      "answer": "Pragyan",
+      "accept": [
+        "pragyan",
+        "pragyaan",
+        "pragyan rover"
+      ],
+      "explanation": "Pragyan was the rover carried by the Vikram lander on Chandrayaan-3, which landed near the lunar south pole in August 2023.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709016",
+      "topic": "general",
+      "question": "In 2014, this Kolkata mathematician at the Indian Statistical Institute solved the decades-old Zariski cancellation problem for affine spaces, and in 2021 she won the Ramanujan Prize for young mathematicians. Name her.",
+      "answer": "Neena Gupta",
+      "accept": [
+        "neena gupta",
+        "gupta"
+      ],
+      "explanation": "Neena Gupta of ISI Kolkata solved the Zariski cancellation problem and won the 2021 Ramanujan Prize.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709017",
+      "topic": "general",
+      "question": "Nicknamed the 'Missile Woman of India', this DRDO scientist from Kerala became the first woman to head a missile project in India, serving as project director for the Agni-IV and Agni-V ballistic missiles. Name her.",
+      "answer": "Tessy Thomas",
+      "accept": [
+        "tessy thomas",
+        "tessy"
+      ],
+      "explanation": "Tessy Thomas, the 'Missile Woman of India', was project director for the Agni-IV and Agni-V missiles at DRDO.",
+      "difficulty": 3,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709018",
+      "topic": "general",
+      "question": "Bihar's signature dish 'litti chokha' features a baked wheat ball stuffed with a spiced, roasted, protein-rich flour that Biharis have eaten for centuries, also drunk as a summer cooler. Name this roasted gram flour.",
+      "answer": "Sattu",
+      "accept": [
+        "sattu",
+        "sattoo"
+      ],
+      "explanation": "Sattu, roasted gram (chana) flour, is the stuffing in Bihari litti and is also drunk as a summer beverage.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709019",
+      "topic": "general",
+      "question": "In January 2026 the son of filmmaker Mira Nair and academic Mahmood Mamdani, born in Kampala and raised in New York, was sworn in as the 112th mayor of New York City. Name him.",
+      "answer": "Zohran Mamdani",
+      "accept": [
+        "zohran mamdani",
+        "mamdani",
+        "zohran"
+      ],
+      "explanation": "Zohran Mamdani, son of Mira Nair, became the 112th mayor of New York City in January 2026.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709020",
+      "topic": "cricket",
+      "question": "An Oxford undergraduate got an SOS to fill in for the injured Vijay Manjrekar, walked out at Old Trafford in 1959, and made 112 to become the then-youngest Indian to score a Test hundred. Name him.",
+      "answer": "Abbas Ali Baig",
+      "accept": [
+        "abbas ali baig",
+        "abbas baig"
+      ],
+      "explanation": "Baig, then 20, scored a century on Test debut at Old Trafford in 1959 after being called up from his Oxford studies.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709021",
+      "topic": "cricket",
+      "question": "He began as the boy who rolled the pitch and swept the ground at a Parsi club, but his slow left-arm spin made him arguably the greatest Indian cricketer of the early 1900s, all while facing brutal caste discrimination as a Dalit. Name him.",
+      "answer": "Palwankar Baloo",
+      "accept": [
+        "palwankar baloo",
+        "baloo",
+        "p baloo"
+      ],
+      "explanation": "Baloo was a left-arm spinner and modern India's first Dalit sporting icon, who took 114 wickets on the 1911 England tour.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709022",
+      "topic": "cricket",
+      "question": "One of cricket's great what-ifs: this Mumbai batsman piled up over 9,000 Ranji Trophy runs at an average above 56, once the competition's all-time leading scorer, yet never once wore an India cap. Name him.",
+      "answer": "Amol Muzumdar",
+      "accept": [
+        "amol muzumdar",
+        "amol mazumdar",
+        "muzumdar",
+        "mazumdar"
+      ],
+      "explanation": "Muzumdar's 9,205 Ranji runs made him at one point the format's top scorer, but he was never selected for India.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709023",
+      "topic": "cricket",
+      "question": "A dashing wicketkeeper-batsman of the 1960s, he opened the innings and smashed 192 against England at Madras in 1963-64, 170 of them on the first day, in an era when keepers rarely opened. Name him.",
+      "answer": "Budhi Kunderan",
+      "accept": [
+        "budhi kunderan",
+        "kunderan",
+        "budhisagar kunderan"
+      ],
+      "explanation": "Kunderan, who vied with Farokh Engineer for the keeper's spot, made 192 as an opener at Chepauk in 1963-64.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709024",
+      "topic": "cricket",
+      "question": "A middle-order batsman and leg-spinner who played 55 Tests from 1958 to 1969, he later twice chaired the selection committee, and remains one of Indian cricket's most durable servants, honoured with the Padma Bhushan. Name him.",
+      "answer": "Chandu Borde",
+      "accept": [
+        "chandu borde",
+        "borde",
+        "chandrakant borde"
+      ],
+      "explanation": "Borde, an all-rounder of the 1960s, scored 3,061 Test runs and twice served as India's chairman of selectors.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709025",
+      "topic": "cricket",
+      "question": "In India's very first Test at Lord's in 1932, this fast bowler so impressed Wally Hammond that Hammond called him the best user of the new ball in the game; he died tragically at just 29. Name him.",
+      "answer": "Amar Singh",
+      "accept": [
+        "amar singh",
+        "amar singh ladha",
+        "ladha amar singh"
+      ],
+      "explanation": "Amar Singh opened the bowling with Nissar in India's 1932 debut Test and won lavish praise from Hammond.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709026",
+      "topic": "cricket",
+      "question": "This all-rounder carries an unusual first name: his father's boyhood benefactor, a retired army officer named P.D. Washington, who paid the fees and bought the kit, was honoured when the boy was born. Name the cricketer.",
+      "answer": "Washington Sundar",
+      "accept": [
+        "washington sundar",
+        "washington"
+      ],
+      "explanation": "Sundar was named after P.D. Washington, the godfather who financially supported his father's cricket.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709027",
+      "topic": "cricket",
+      "question": "The first man ever to take a Test wicket for India, he dismissed Herbert Sutcliffe and Percy Holmes in a five-wicket haul at Lord's in 1932, forming a fearsome new-ball pair with Amar Singh. Name him.",
+      "answer": "Mohammed Nissar",
+      "accept": [
+        "mohammed nissar",
+        "mohammad nissar",
+        "nissar",
+        "mohammad nisar"
+      ],
+      "explanation": "Nissar took the first Test wicket for India and a five-for on debut at Lord's in 1932.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709028",
+      "topic": "cricket",
+      "question": "This elegant Parsi batsman scored five centuries in successive Ranji innings and made a record 1,008 runs at an average of 201 in the 1944-45 Ranji season, a domestic feat unmatched since. Name him.",
+      "answer": "Rusi Modi",
+      "accept": [
+        "rusi modi",
+        "modi",
+        "rustomji modi",
+        "rusi modi cricketer"
+      ],
+      "explanation": "Modi hit five straight Ranji hundreds and 1,008 runs at 201 in 1944-45, the only batsman with five successive Ranji centuries.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709029",
+      "topic": "cricket",
+      "question": "The first great off-spinner India produced and the first Hyderabadi to captain the country, he later became a top administrator and, as chairman of selectors, picked the squad that won the 1983 World Cup. Name him.",
+      "answer": "Ghulam Ahmed",
+      "accept": [
+        "ghulam ahmed",
+        "ghulam ahmed cricketer"
+      ],
+      "explanation": "Ghulam Ahmed formed a spin trio with Mankad and Gupte, captained India, and chaired the selectors who chose the 1983 winners.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709030",
+      "topic": "cricket",
+      "question": "Handed his Test debut in 2021 when Ravindra Jadeja broke his thumb, this Gujarat left-arm spinner ran through England to finish that home series with 27 wickets, including an eleven-for in Ahmedabad. Name him.",
+      "answer": "Axar Patel",
+      "accept": [
+        "axar patel",
+        "axar",
+        "akshar patel"
+      ],
+      "explanation": "Axar Patel replaced the injured Jadeja and took 27 wickets in the 2021 home series against England.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709031",
+      "topic": "cricket",
+      "question": "The wicketkeeper-batsman from Kerala who captained Rajasthan Royals, he became the first Indian to score three T20I centuries in a single calendar year, in 2024. Name him.",
+      "answer": "Sanju Samson",
+      "accept": [
+        "sanju samson",
+        "samson",
+        "sanju"
+      ],
+      "explanation": "Samson hit three T20I hundreds in 2024, the most by any Indian in one calendar year.",
+      "bid_eligible": true,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709032",
+      "topic": "cinema",
+      "question": "With a booming, Shakespearean voice honed on the Parsi stage, he founded Minerva Movietone in 1936 and made a trilogy of historical epics, Pukar, Sikandar and Prithvi Vallabh. Name him.",
+      "answer": "Sohrab Modi",
+      "accept": [
+        "sohrab modi",
+        "modi",
+        "sohrab merwanji modi"
+      ],
+      "explanation": "Sohrab Modi ran Minerva Movietone and directed grand historical films like Sikandar (1941).",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709033",
+      "topic": "cinema",
+      "question": "The patriarch of a four-generation film dynasty and a founder of Prithvi Theatres, he is best remembered on screen as Emperor Akbar, thundering across the frame in Mughal-e-Azam. Name him.",
+      "answer": "Prithviraj Kapoor",
+      "accept": [
+        "prithviraj kapoor",
+        "prithviraj",
+        "prithvi raj kapoor"
+      ],
+      "explanation": "Prithviraj Kapoor, patriarch of the Kapoor family, played Akbar in Mughal-e-Azam and founded Prithvi Theatres.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709034",
+      "topic": "cinema",
+      "question": "He made India's first Technicolor film, Aan, and directed the 1957 social epic that became the first Indian film nominated for the Best Foreign Language Film Oscar. Name him.",
+      "answer": "Mehboob Khan",
+      "accept": [
+        "mehboob khan",
+        "mehboob",
+        "mehboob khan director"
+      ],
+      "explanation": "Mehboob Khan directed Mother India (1957), India's first Oscar-nominated film, and the Technicolor Aan.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709035",
+      "topic": "cinema",
+      "question": "This Tamil director-mentor famously spotted a young bus conductor with 'fire in his eyes' and cast him in Apoorva Raagangal; that man became Rajinikanth. Name the director.",
+      "answer": "K Balachander",
+      "accept": [
+        "k balachander",
+        "balachander",
+        "kailasam balachander",
+        "kb"
+      ],
+      "explanation": "K. Balachander introduced both Rajinikanth and Kamal Haasan and mentored a generation of South Indian stars.",
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709036",
+      "topic": "cinema",
+      "question": "Hailed as 'Mahanati' in Telugu and 'Nadigaiyar Thilagam' in Tamil, this actress dazzled as Sasirekha in Mayabazar and reigned over South Indian cinema in the 1950s and 60s. Name her.",
+      "answer": "Savitri",
+      "accept": [
+        "savitri",
+        "savitri ganesan",
+        "mahanati savitri"
+      ],
+      "explanation": "Savitri, called Mahanati, played Sasirekha in Mayabazar (1957) and was among South cinema's greatest actresses.",
+      "difficulty": 3,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709037",
+      "topic": "cinema",
+      "question": "Called 'Kadhal Mannan', the King of Romance, he was counted among Tamil cinema's three biggest names alongside MGR and Sivaji Ganesan, and off screen he was the father of the actress Rekha. Name him.",
+      "answer": "Gemini Ganesan",
+      "accept": [
+        "gemini ganesan",
+        "gemini",
+        "ramasamy ganesan"
+      ],
+      "explanation": "Gemini Ganesan, the romantic hero of Tamil cinema, was the father of Bollywood's Rekha.",
+      "difficulty": 3,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709038",
+      "topic": "cinema",
+      "question": "His 1977 debut 16 Vayathinile broke convention by shooting almost entirely outdoors in real villages instead of Madras studios, launching a whole genre of Tamil rural cinema. Name the director.",
+      "answer": "Bharathiraja",
+      "accept": [
+        "bharathiraja",
+        "bharathi raja",
+        "p bharathiraja"
+      ],
+      "explanation": "Bharathiraja pioneered realistic village cinema in Tamil, starting with 16 Vayathinile (1977).",
+      "difficulty": 3,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709039",
+      "topic": "cinema",
+      "question": "A child star in Tamil films who conquered five languages, she is widely called Hindi cinema's first female superstar, carrying films like Sadma, Mr India and Chandni on her own. Name her.",
+      "answer": "Sridevi",
+      "accept": [
+        "sridevi",
+        "sri devi",
+        "shree amma yanger ayyapan"
+      ],
+      "explanation": "Sridevi, a multilingual star, is regarded as Bollywood's first female superstar.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709040",
+      "topic": "cinema",
+      "question": "The undisputed champion of the 'masala' film and the lost-and-found plot, he directed Amar Akbar Anthony, Naseeb and Coolie, delivering entertainers built on coincidence, spectacle and heart. Name him.",
+      "answer": "Manmohan Desai",
+      "accept": [
+        "manmohan desai",
+        "manmohan",
+        "desai"
+      ],
+      "explanation": "Manmohan Desai pioneered the Bollywood masala film with hits like Amar Akbar Anthony (1977).",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709041",
+      "topic": "cinema",
+      "question": "The exuberant 'yahoo' hero of Junglee, his rock-and-roll dancing and uninhibited energy earned him the nickname the Elvis of India. Name him.",
+      "answer": "Shammi Kapoor",
+      "accept": [
+        "shammi kapoor",
+        "shammi"
+      ],
+      "explanation": "Shammi Kapoor, the dancing hero of Junglee and Teesri Manzil, was dubbed India's Elvis.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709042",
+      "topic": "cinema",
+      "question": "The 'evergreen hero' of Malayalam cinema, he holds a Guinness record for playing the lead in over 700 films and another for romancing the same heroine in 110 of them. Name him.",
+      "answer": "Prem Nazir",
+      "accept": [
+        "prem nazir",
+        "nazir"
+      ],
+      "explanation": "Prem Nazir holds Guinness records for most lead roles (over 700 films) and most films opposite one heroine.",
+      "difficulty": 3,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709043",
+      "topic": "geography",
+      "question": "Pilgrims call it the last of the Panch Prayag. It is here, in a Garhwal town, that the Alaknanda tumbling down from Satopanth finally meets the Bhagirathi coming off the Gangotri glacier, and only after this meeting is the combined river permitted to be called the Ganga. Name this confluence town.",
+      "answer": "Devprayag",
+      "accept": [
+        "devprayag",
+        "dev prayag"
+      ],
+      "explanation": "At Devprayag in Uttarakhand the Alaknanda and Bhagirathi join, and downstream the river is formally the Ganga.",
+      "bid_eligible": true,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709044",
+      "topic": "geography",
+      "question": "Cherrapunji long wore the crown as the rainiest spot on earth, but the record book now points a few kilometres west, to a village in the Khasi Hills that averages close to 11,900 millimetres of rain a year. Name this settlement, today regarded as the wettest inhabited place on the planet.",
+      "answer": "Mawsynram",
+      "accept": [
+        "mawsynram"
+      ],
+      "explanation": "Mawsynram in Meghalaya, just west of Cherrapunji, holds the record as the wettest inhabited place on earth.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709045",
+      "topic": "geography",
+      "question": "The Aravallis are among the oldest fold mountains on earth, worn down over aeons into gentle ridges. Their highest point, at about 1,722 metres, sits near Mount Abu and carries a summit shrine to Dattatreya. Name this peak.",
+      "answer": "Guru Shikhar",
+      "accept": [
+        "guru shikhar",
+        "gurushikhar",
+        "guru shikar"
+      ],
+      "explanation": "Guru Shikhar near Mount Abu is the highest peak of the Aravalli Range at roughly 1,722 metres.",
+      "difficulty": 3,
+      "bid_eligible": true,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709046",
+      "topic": "geography",
+      "question": "Once the glittering British administrative headquarters of the Andamans, complete with ballrooms and a church, it was abandoned after a 1941 earthquake and the Japanese occupation. In 2018 the government renamed the little island in honour of the leader who hoisted the tricolour in these islands in 1943. What is its new name?",
+      "answer": "Netaji Subhas Chandra Bose Dweep",
+      "accept": [
+        "netaji subhas chandra bose dweep",
+        "subhas chandra bose island",
+        "netaji subhas chandra bose island",
+        "bose dweep",
+        "netaji dweep"
+      ],
+      "explanation": "Ross Island, the old British HQ of the Andamans, was renamed Netaji Subhas Chandra Bose Dweep in 2018.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709047",
+      "topic": "geography",
+      "question": "Deep in the Garo Hills lies a biosphere reserve that botanists treasure as the wild home of Citrus indica, the rare 'Memang Narang' regarded as an ancestor of the world's cultivated oranges and lemons. Name this reserve, which shares its name with Meghalaya's highest peak.",
+      "answer": "Nokrek",
+      "accept": [
+        "nokrek",
+        "nokrek biosphere reserve",
+        "nokrek national park"
+      ],
+      "explanation": "Nokrek in the Garo Hills is a citrus gene sanctuary and biosphere reserve, home to the wild Citrus indica.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709048",
+      "topic": "geography",
+      "question": "Set on the phumdis, the floating mats of vegetation drifting across Manipur's Loktak Lake, it protects the endangered brow-antlered sangai deer and is celebrated as the only floating national park on earth. Name it.",
+      "answer": "Keibul Lamjao National Park",
+      "accept": [
+        "keibul lamjao",
+        "keibul lamjao national park"
+      ],
+      "explanation": "Keibul Lamjao National Park on Loktak Lake in Manipur is the world's only floating national park, home to the sangai.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709049",
+      "topic": "geography",
+      "question": "A barrier island off the Andhra coast, cradled between the Bay of Bengal and Pulicat Lake, became India's gateway to space. Every PSLV and GSLV lifts off from the Satish Dhawan Space Centre here. Name this island.",
+      "answer": "Sriharikota",
+      "accept": [
+        "sriharikota",
+        "sri harikota"
+      ],
+      "explanation": "Sriharikota, a barrier island beside Pulicat Lake in Andhra Pradesh, hosts the Satish Dhawan Space Centre, ISRO's spaceport.",
+      "bid_eligible": true,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709050",
+      "topic": "geography",
+      "question": "The Western Ghats run almost unbroken down the peninsula, save for one great gash roughly 40 kilometres wide that lets the monsoon winds and the trains through between the Nilgiris and the Anaimalais. This gap, linking Coimbatore to Kerala, is named after which Kerala town?",
+      "answer": "Palakkad",
+      "accept": [
+        "palakkad",
+        "palghat",
+        "palakkad gap",
+        "palghat gap"
+      ],
+      "explanation": "The Palakkad (Palghat) Gap is the major break in the Western Ghats, connecting Tamil Nadu and Kerala.",
+      "difficulty": 3,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709051",
+      "topic": "geography",
+      "question": "Its water is so astonishingly clear that photographs of boats seem to show them floating in mid-air over the pebbles below. Flowing past the little border town of Dawki in Meghalaya before crossing into Bangladesh, it is often called India's cleanest river. Name it.",
+      "answer": "Umngot",
+      "accept": [
+        "umngot",
+        "umngot river",
+        "dawki river",
+        "wah umngot"
+      ],
+      "explanation": "The Umngot (Dawki) River in Meghalaya is famed for water so clear that boats appear to float in air.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709052",
+      "topic": "geography",
+      "question": "In one of independent India's first great environmental battles, scientists and writers fought through the 1970s to stop a dam that would have drowned a patch of untouched rainforest in the Nilgiris, home to the endangered lion-tailed macaque. In 1984 it was declared a national park instead. Name this Kerala park whose name evokes stillness.",
+      "answer": "Silent Valley",
+      "accept": [
+        "silent valley",
+        "silent valley national park"
+      ],
+      "explanation": "Silent Valley in Kerala was saved from a hydel dam and declared a national park in 1984; it shelters the lion-tailed macaque.",
+      "difficulty": 3,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709053",
+      "topic": "geography",
+      "question": "The only place on earth where you might glimpse a rare pseudo-melanistic tiger, its black stripes so broad they nearly swallow the orange, is this tiger reserve and biosphere reserve in the Mayurbhanj district of Odisha. Name it.",
+      "answer": "Simlipal",
+      "accept": [
+        "simlipal",
+        "similipal",
+        "simlipal national park",
+        "similipal tiger reserve"
+      ],
+      "explanation": "Simlipal in Odisha's Mayurbhanj district is the only home of the rare pseudo-melanistic black tigers.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709054",
+      "topic": "geography",
+      "question": "At Bhedaghat near Jabalpur, the Narmada squeezes through a gorge of white marble cliffs and then plunges over a ledge with such force that the spray rises like smoke, which is exactly what its name, 'smoke cascade', means. Name this waterfall.",
+      "answer": "Dhuandhar Falls",
+      "accept": [
+        "dhuandhar",
+        "dhuandhar falls",
+        "dhuandhaar",
+        "dhuadhar"
+      ],
+      "explanation": "Dhuandhar ('smoke cascade') Falls on the Narmada at Bhedaghat, near Jabalpur, throws up a mist like smoke.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709055",
+      "topic": "business",
+      "question": "In 1897 a young Parsi lawyer, having failed at the bar, turned to making sturdy locks and later India's first springless safe. Two decades on he gave the world its first soap made entirely from vegetable oil, and even persuaded Rabindranath Tagore to endorse it. Name this founder of a group that still makes almirahs and hair dye today.",
+      "answer": "Ardeshir Godrej",
+      "accept": [
+        "ardeshir godrej",
+        "godrej",
+        "ardeshir"
+      ],
+      "explanation": "Ardeshir Godrej founded the Godrej business in 1897 with locks and safes, later pioneering vegetable-oil soap.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709056",
+      "topic": "business",
+      "question": "The best-selling biscuit brand in the world was born in a small factory in a Bombay suburb in 1929. The founding family were so preoccupied with the biscuits that they forgot to name the company, and simply let people call it after the suburb it stood in. Name that company.",
+      "answer": "Parle",
+      "accept": [
+        "parle",
+        "parle products",
+        "parle-g",
+        "parle g"
+      ],
+      "explanation": "Parle Products, maker of Parle-G, took its name from the Bombay suburb Vile Parle where its factory stood.",
+      "bid_eligible": true,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709057",
+      "topic": "business",
+      "question": "Two brothers from a Konkani family in Bangalore launched a discount brokerage in 2010, charging a flat fee per trade to shatter the old percentage-based model. They named it by welding the English word for nothing to the Sanskrit word for barrier. Name this brokerage.",
+      "answer": "Zerodha",
+      "accept": [
+        "zerodha"
+      ],
+      "explanation": "Zerodha, founded by Nithin and Nikhil Kamath in 2010, combines 'zero' and the Sanskrit 'rodha' (barrier).",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709058",
+      "topic": "business",
+      "question": "When his father died in 1966, a 21-year-old dropped out of Stanford and rushed home to run the family firm, then a maker of Sunflower vanaspati cooking oil in a small Maharashtra town. He steered it out of soaps and into software, keeping only a shortened form of its old name. Name the company.",
+      "answer": "Wipro",
+      "accept": [
+        "wipro"
+      ],
+      "explanation": "Wipro began as Western India Vegetable Products; Azim Premji shortened the name and moved it into IT.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709059",
+      "topic": "business",
+      "question": "So thoroughly does this footwear brand feel Indian, with its Batanagar township outside Kolkata, that most Indians assume it homegrown. In fact it was founded in 1894 in Zlin by a Czech shoemaker who spotted a vast barefoot market on a visit to India. Name the brand.",
+      "answer": "Bata",
+      "accept": [
+        "bata"
+      ],
+      "explanation": "Bata was founded by Tomas Bata in Zlin, Czechoslovakia, in 1894; it is Czech, not Indian, in origin.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709060",
+      "topic": "business",
+      "question": "The world's largest vaccine maker by volume, supplying doses to some 140 countries, was founded in Pune in 1966 by a man whose other great passion was breeding racehorses on his family's stud farm. Name this founder.",
+      "answer": "Cyrus Poonawalla",
+      "accept": [
+        "cyrus poonawalla",
+        "poonawalla",
+        "cyrus s poonawalla",
+        "cyrus soli poonawalla"
+      ],
+      "explanation": "Cyrus Poonawalla, of the horse-breeding Poonawalla family, founded the Serum Institute of India in 1966.",
+      "difficulty": 3,
+      "bid_eligible": true,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709061",
+      "topic": "business",
+      "question": "A Marwari man in Bikaner reinvented the local bhujia in 1937 by using moth dal instead of gram flour, and set up a little sweets-and-namkeen shop. From that shop grew a snack empire now sold across the world, still carrying his nickname. By what name is Ganga Bhishen Agarwal better known?",
+      "answer": "Haldiram",
+      "accept": [
+        "haldiram",
+        "haldiram's",
+        "haldirams",
+        "haldiram ji"
+      ],
+      "explanation": "Ganga Bhishen Agarwal, nicknamed Haldiram, founded the Haldiram's snack business in Bikaner in 1937.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709062",
+      "topic": "business",
+      "question": "In 1945 a jeweller's son from a Kutchi Memon family incorporated a small vanaspati firm in Amalner. His son would later turn it into one of India's IT giants. Name this founder, the father of Azim Premji.",
+      "answer": "M.H. Premji",
+      "accept": [
+        "m h premji",
+        "mh premji",
+        "muhammed hashim premji",
+        "mohamed premji",
+        "hashim premji",
+        "mohamed hashem premji",
+        "muhammad hashim premji",
+        "m.h. premji"
+      ],
+      "explanation": "Muhammed Hashim Premji founded Western India Vegetable Products (later Wipro) in Amalner in 1945.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709063",
+      "topic": "business",
+      "question": "When it opened on Brigade Road in Bangalore in 1996, this cafe offered Indians two novelties at once, a good cup of coffee and an hour of internet, under the slogan 'A lot can happen over a cup of coffee'. Name this pioneering coffee chain founded by V.G. Siddhartha.",
+      "answer": "Cafe Coffee Day",
+      "accept": [
+        "cafe coffee day",
+        "ccd",
+        "coffee day",
+        "cafe coffee day (ccd)"
+      ],
+      "explanation": "Cafe Coffee Day (CCD), founded by V.G. Siddhartha, opened its first outlet on Brigade Road, Bangalore, in 1996.",
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709064",
+      "topic": "business",
+      "question": "When India needed a small, affordable car in the 1980s, the government set up a company in partnership with a Japanese carmaker. Its first product, launched in 1983, became the aspirational family car of a generation. Name that company.",
+      "answer": "Maruti",
+      "accept": [
+        "maruti",
+        "maruti udyog",
+        "maruti suzuki",
+        "maruti udyog limited"
+      ],
+      "explanation": "Maruti Udyog, a joint venture with Suzuki, launched the Maruti 800 in 1983 as India's people's car.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709065",
+      "topic": "business",
+      "question": "A doctor-turned-entrepreneur set up a bulk-drug maker in Hyderabad in 1984, going on to make India a low-cost pharmacy to the world. The company that bears his name is now one of India's largest drugmakers. Name this founder.",
+      "answer": "Anji Reddy",
+      "accept": [
+        "anji reddy",
+        "kallam anji reddy",
+        "k anji reddy",
+        "dr anji reddy"
+      ],
+      "explanation": "Kallam Anji Reddy founded Dr. Reddy's Laboratories in Hyderabad in 1984.",
+      "difficulty": 3,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709066",
+      "topic": "history",
+      "question": "On 29 September 1942, at the height of the Quit India movement, a 72-year-old widow led a procession of thousands toward the Tamluk police station in Midnapore. Shot by police, she kept walking with the Congress flag held high, calling out Vande Mataram until she fell. Affectionately called Gandhi-buri, name this martyr.",
+      "answer": "Matangini Hazra",
+      "accept": [
+        "matangini hazra",
+        "matangini",
+        "gandhi buri",
+        "gandhi-buri"
+      ],
+      "explanation": "Matangini Hazra was shot dead leading a march on the Tamluk thana during Quit India in 1942, becoming an icon of the Bengal freedom struggle.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709067",
+      "topic": "history",
+      "question": "In 1824, more than three decades before the great Revolt of 1857, this queen of a small principality near Belagavi took up arms after the East India Company refused to recognise her adopted heir. Her forces killed the British collector St John Thackeray in the first battle. Name this early rebel queen.",
+      "answer": "Kittur Chennamma",
+      "accept": [
+        "kittur chennamma",
+        "chennamma",
+        "rani chennamma",
+        "kittur rani chennamma",
+        "kittur rani chenamma"
+      ],
+      "explanation": "Kittur Chennamma of Kittur is celebrated as one of the first Indian rulers to lead an armed revolt against Company rule, in 1824.",
+      "difficulty": 3,
+      "bid_eligible": true,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709068",
+      "topic": "history",
+      "question": "Known to the hill people as Manyam Veerudu, the hero of the jungle, he organised tribal youths of the Godavari agency into guerrilla bands and led the Rampa Rebellion of 1922 against harsh British forest laws, before being captured and shot in 1924. Name him.",
+      "answer": "Alluri Sitarama Raju",
+      "accept": [
+        "alluri sitarama raju",
+        "alluri sitaram raju",
+        "sitarama raju",
+        "alluri seetharama raju",
+        "alluri",
+        "manyam veerudu"
+      ],
+      "explanation": "Alluri Sitarama Raju led the Rampa (Manyam) Rebellion of 1922-24 in the Andhra forests against the Madras Forest Act.",
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709069",
+      "topic": "history",
+      "question": "On 9 August 1942, with the senior Congress leadership arrested overnight, a young activist walked to the flagpole at Gowalia Tank Maidan in Bombay and unfurled the Congress tricolour, then went underground to run the movement. Dubbed the Queen of the 1942 struggle, name her.",
+      "answer": "Aruna Asaf Ali",
+      "accept": [
+        "aruna asaf ali",
+        "aruna asif ali",
+        "aruna ganguly",
+        "aruna"
+      ],
+      "explanation": "Aruna Asaf Ali hoisted the flag at Gowalia Tank during Quit India and became a symbol of the underground resistance.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709070",
+      "topic": "history",
+      "question": "Arrested by the British in 1932 at just sixteen for leading a Naga tribal revolt tied to the Heraka movement begun by her cousin Haipou Jadonang, she was given the title Rani by Jawaharlal Nehru and called the Daughter of the Hills. Name this Rongmei Naga leader.",
+      "answer": "Rani Gaidinliu",
+      "accept": [
+        "rani gaidinliu",
+        "gaidinliu",
+        "rani gaidiliu"
+      ],
+      "explanation": "Rani Gaidinliu led a Naga uprising against British rule; Nehru conferred the title 'Rani' after meeting her in 1937.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709071",
+      "topic": "history",
+      "question": "In 1883, Viceroy Lord Ripon's law member Sir Courtenay Ilbert proposed a measure allowing Indian judges and magistrates to try Europeans in the mofussil. The furious agitation by the European community, and the Indian response to it, is often seen as a rehearsal for the founding of the Congress two years later. By what name is this bill known?",
+      "answer": "Ilbert Bill",
+      "accept": [
+        "ilbert bill",
+        "the ilbert bill",
+        "ilbert"
+      ],
+      "explanation": "The Ilbert Bill controversy of 1883 sharpened Indian political consciousness and preceded the Indian National Congress's founding in 1885.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709072",
+      "topic": "history",
+      "question": "On 10 July 1806, half a century before 1857, sepoys of the Madras Army rose in the first large-scale violent mutiny against the East India Company, seizing a South Indian fort and killing its commander. Grievances over a new dress code forbidding caste marks and beards, and the presence of Tipu Sultan's captive family, sparked it. Name this mutiny.",
+      "answer": "Vellore Mutiny",
+      "accept": [
+        "vellore mutiny",
+        "vellore",
+        "vellore revolt",
+        "vellore fort mutiny"
+      ],
+      "explanation": "The Vellore Mutiny of 1806 was the earliest large-scale sepoy revolt against the Company, predating 1857 by fifty years.",
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709073",
+      "topic": "history",
+      "question": "At the International Socialist Congress in Stuttgart on 22 August 1907, a Parsi revolutionary raised a tricolour she had helped design and declared the flag of independent India born. She was the first person to hoist an Indian flag on foreign soil. Name her.",
+      "answer": "Bhikaiji Cama",
+      "accept": [
+        "bhikaiji cama",
+        "bhikaji cama",
+        "madam cama",
+        "madame cama",
+        "cama",
+        "bhikaiji rustom cama"
+      ],
+      "explanation": "Madam Bhikaiji Cama unfurled an early Indian tricolour at Stuttgart in 1907, the first Indian flag hoisted abroad.",
+      "difficulty": 3,
+      "bid_eligible": true,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709074",
+      "topic": "history",
+      "question": "At the 1945 Red Fort court-martial of three Indian National Army officers, Sahgal, Dhillon and Shah Nawaz Khan, this eminent lawyer led the defence, arguing that the INA had waged a legitimate war of liberation. His courtroom stand turned the trials into a national cause. Name him.",
+      "answer": "Bhulabhai Desai",
+      "accept": [
+        "bhulabhai desai",
+        "bhulabhai",
+        "desai",
+        "bhulabhai jivanji desai"
+      ],
+      "explanation": "Bhulabhai Desai led the defence at the INA (Red Fort) trials of 1945, framing the accused as freedom fighters.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709075",
+      "topic": "history",
+      "question": "Built by the British between 1896 and 1906 on a remote island, this seven-winged prison was designed to isolate Indian political prisoners from the mainland. Dreaded as Kala Pani, it held Savarkar and Barindra Kumar Ghosh among many others. Name this jail.",
+      "answer": "Cellular Jail",
+      "accept": [
+        "cellular jail",
+        "the cellular jail",
+        "kala pani",
+        "kalapani",
+        "cellular jail port blair"
+      ],
+      "explanation": "The Cellular Jail in Port Blair, known as Kala Pani, imprisoned scores of freedom fighters under solitary confinement.",
+      "bid_eligible": true,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709076",
+      "topic": "history",
+      "question": "The office of Peshwa, once the real power in the Maratha confederacy, came to an end when this last holder of the title surrendered to John Malcolm in 1818 after the Third Anglo-Maratha War and was pensioned off to Bithur near Kanpur. Name this final Peshwa.",
+      "answer": "Baji Rao II",
+      "accept": [
+        "baji rao ii",
+        "bajirao ii",
+        "baji rao 2",
+        "bajirao 2",
+        "baji rao the second",
+        "peshwa baji rao ii"
+      ],
+      "explanation": "Baji Rao II was the thirteenth and last Peshwa; his 1818 surrender ended the Maratha confederacy.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709077",
+      "topic": "history",
+      "question": "On 18 April 1930, revolutionaries led by the schoolteacher Masterda raided the police armoury in this Bengal port city, part of a daring plan to seize arms and cut communications. Now in Bangladesh, name the city that gives this armoury raid its name.",
+      "answer": "Chittagong",
+      "accept": [
+        "chittagong",
+        "chattogram",
+        "chittagong armoury raid"
+      ],
+      "explanation": "The Chittagong Armoury Raid of 1930 was led by Surya Sen (Masterda) in the Bengal port city now called Chattogram.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709078",
+      "topic": "polity",
+      "question": "When the Constituent Assembly of India met for the first time on 9 December 1946, it needed someone to preside until a permanent president was chosen. Following French practice, its oldest member, a Patna lawyer and educationist, took the chair as temporary chairman. Name him.",
+      "answer": "Sachchidananda Sinha",
+      "accept": [
+        "sachchidananda sinha",
+        "sachidananda sinha",
+        "sachchidanand sinha",
+        "sinha",
+        "s sinha"
+      ],
+      "explanation": "Dr Sachchidananda Sinha, the eldest member, chaired the first sitting of the Constituent Assembly before Rajendra Prasad was elected president.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709079",
+      "topic": "polity",
+      "question": "On 13 December 1946, Jawaharlal Nehru moved a resolution in the Constituent Assembly declaring India an independent sovereign republic and setting out the ideals of justice, liberty and equality. Adopted in January 1947, it became the basis of the Preamble. By what name is this resolution known?",
+      "answer": "Objectives Resolution",
+      "accept": [
+        "objectives resolution",
+        "objective resolution",
+        "the objectives resolution",
+        "the objective resolution"
+      ],
+      "explanation": "The Objectives Resolution, moved by Nehru, laid down the guiding principles that shaped the Preamble of the Constitution.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709080",
+      "topic": "polity",
+      "question": "The highest law officer of the Union, appointed under Article 76 to advise the government and appear for it in court, is the Attorney General. Who held this office first, serving a record thirteen years from 1950 and insisting his loyalty was to the Constitution?",
+      "answer": "M. C. Setalvad",
+      "accept": [
+        "m c setalvad",
+        "mc setalvad",
+        "setalvad",
+        "motilal setalvad",
+        "motilal chimanlal setalvad",
+        "m.c. setalvad",
+        "m. c. setalvad"
+      ],
+      "explanation": "M. C. Setalvad was independent India's first Attorney General (1950-63), the longest-serving holder of the office.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709081",
+      "topic": "polity",
+      "question": "One of fifteen women in the Constituent Assembly, this reformer and first woman vice-chancellor of an Indian university presented the national flag to the Assembly on behalf of the women of India on the eve of Independence. She also argued strongly for the word 'equality' over 'equity'. Name her.",
+      "answer": "Hansa Mehta",
+      "accept": [
+        "hansa mehta",
+        "hansa jivraj mehta",
+        "hansa jivaraj mehta",
+        "mehta"
+      ],
+      "explanation": "Hansa Mehta presented the first flag of independent India to the Constituent Assembly on behalf of Indian women.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709082",
+      "topic": "polity",
+      "question": "Under Article 80, the Constitution fixes the maximum strength of the Council of States, the Rajya Sabha, at this number, of whom twelve are nominated by the President for expertise in fields like art, science and social service. State the maximum number.",
+      "answer": "250",
+      "accept": [
+        "250",
+        "two hundred fifty",
+        "two hundred and fifty"
+      ],
+      "explanation": "Article 80 caps the Rajya Sabha at 250 members: 238 representing states and UTs, plus 12 nominated by the President.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709083",
+      "topic": "polity",
+      "question": "In a 1960 advisory opinion arising from a border settlement with Pakistan, the Supreme Court held that the Preamble was not part of the Constitution, a view later reversed in Kesavananda Bharati. Name this case, which shares its title with a small enclave on the India-Pakistan border.",
+      "answer": "Berubari Union case",
+      "accept": [
+        "berubari union case",
+        "berubari",
+        "berubari case",
+        "in re berubari",
+        "berubari union"
+      ],
+      "explanation": "In re Berubari Union (1960) initially held the Preamble was not part of the Constitution; Kesavananda Bharati later held otherwise.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709084",
+      "topic": "polity",
+      "question": "Acting on the recommendations of the Swaran Singh Committee, the 42nd Amendment of 1976 added a new Part IVA to the Constitution, listing obligations of the citizen in a single article, Article 51A. Later raised to eleven, what are these obligations collectively called?",
+      "answer": "Fundamental Duties",
+      "accept": [
+        "fundamental duties",
+        "the fundamental duties",
+        "fundamental duty"
+      ],
+      "explanation": "The Fundamental Duties in Article 51A (Part IVA) were added by the 42nd Amendment on the Swaran Singh Committee's advice.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709085",
+      "topic": "polity",
+      "question": "Because the government is answerable to the directly elected house alone, a motion expressing that the House no longer supports the Council of Ministers can be moved only in the Lok Sabha, never the Rajya Sabha; if it passes, the whole ministry must resign. Name this parliamentary device.",
+      "answer": "No-confidence motion",
+      "accept": [
+        "no confidence motion",
+        "no-confidence motion",
+        "vote of no confidence",
+        "motion of no confidence",
+        "no confidence"
+      ],
+      "explanation": "A no-confidence motion can be moved only in the Lok Sabha, reflecting the Council of Ministers' collective responsibility under Article 75(3).",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709086",
+      "topic": "polity",
+      "question": "India's first general election of 1951-52, with some 173 million mostly illiterate voters under universal adult franchise, was organised by the country's first Chief Election Commissioner, an ICS officer plucked from being West Bengal's chief secretary. Name him.",
+      "answer": "Sukumar Sen",
+      "accept": [
+        "sukumar sen",
+        "sukumar",
+        "s sen"
+      ],
+      "explanation": "Sukumar Sen, the first Chief Election Commissioner, ran India's first two general elections in 1951-52 and 1957.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709087",
+      "topic": "polity",
+      "question": "The non-justiciable guidelines for governance in Part IV of the Constitution, meant to steer the state toward social and economic justice, were consciously modelled on a similar chapter in the constitution of one European country whose own independence struggle inspired Indian leaders. Name that country.",
+      "answer": "Ireland",
+      "accept": [
+        "ireland",
+        "irish republic",
+        "republic of ireland",
+        "eire"
+      ],
+      "explanation": "The Directive Principles of State Policy in Part IV were borrowed from the Constitution of Ireland.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709088",
+      "topic": "polity",
+      "question": "The 42nd Amendment set up a committee whose recommendations led to the Fundamental Duties. Chaired by a senior Congress leader and former Union minister, and formed during the Emergency, this committee is named after him. Name the chairman.",
+      "answer": "Swaran Singh",
+      "accept": [
+        "swaran singh",
+        "sardar swaran singh",
+        "sardar swaran singh committee",
+        "swaran singh committee"
+      ],
+      "explanation": "The Swaran Singh Committee (1976) recommended the Fundamental Duties added by the 42nd Amendment.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709089",
+      "topic": "mythology",
+      "question": "In the Bhagavata Purana, a young boy's devotion to Vishnu so enrages his demon-king father Hiranyakashipu that the child is thrown off cliffs and trampled by elephants, yet survives unharmed. His faith eventually brings forth the Narasimha avatar. Name this boy prince.",
+      "answer": "Prahlada",
+      "accept": [
+        "prahlada",
+        "prahlad",
+        "prahalad"
+      ],
+      "explanation": "Prahlada, son of Hiranyakashipu, is the archetypal Vishnu devotee whose steadfastness summons the man-lion Narasimha.",
+      "bid_eligible": true,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709090",
+      "topic": "mythology",
+      "question": "When Rama musters his army at the shore and needs a causeway thrown across the sea to Lanka, one vanara steps forward as the engineer. The son of the divine architect Vishwakarma, he directs the monkeys hurling boulders and floating stones. Name this builder of the bridge.",
+      "answer": "Nala",
+      "accept": [
+        "nala",
+        "nal"
+      ],
+      "explanation": "Nala, son of Vishwakarma, is the vanara architect credited in the Ramayana with constructing the bridge (Rama Setu) to Lanka.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709091",
+      "topic": "mythology",
+      "question": "The grandson of Bhima and son of Ghatotkacha, this warrior possessed three infallible arrows and vowed to fight only for the losing side. Krishna, foreseeing that this vow would make the war endless, asked for his head in charity before it began. Today he is worshipped in Rajasthan as Khatu Shyam. Name him.",
+      "answer": "Barbarika",
+      "accept": [
+        "barbarika",
+        "barbarik",
+        "khatu shyam",
+        "khatushyam"
+      ],
+      "explanation": "Barbarika, of the three arrows, gave his head to Krishna and is venerated as Khatu Shyam Baba.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709092",
+      "topic": "mythology",
+      "question": "Half-blind by birth and born of a maidservant, this half-brother of Dhritarashtra and Pandu served as chief minister of Hastinapura. Regarded as an incarnation of Dharma, his frank counsel to the Kauravas went unheeded, and he alone refused to eat at Duryodhana's table. Name this wisest of Hastinapura's elders.",
+      "answer": "Vidura",
+      "accept": [
+        "vidura",
+        "vidur"
+      ],
+      "explanation": "Vidura, son of Vyasa and a maidservant, is the Mahabharata's voice of conscience, an incarnation of Dharma.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709093",
+      "topic": "mythology",
+      "question": "This king of Magadha, born in two halves and joined by a demoness who gave him his name, was Krishna's implacable enemy and imprisoned scores of kings. He was finally killed by Bhima, who tore his body in two and flung the halves apart so they could not rejoin. Name this ruler.",
+      "answer": "Jarasandha",
+      "accept": [
+        "jarasandha",
+        "jarasandh"
+      ],
+      "explanation": "Jarasandha, king of Magadha, was ripped apart by Bhima; the demoness Jara had joined his two birth-halves.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709094",
+      "topic": "mythology",
+      "question": "The virtuous younger brother of Ravana, he counselled returning Sita to Rama and, spurned and insulted, defected to Rama's side. After the war he was crowned king of Lanka. Name this rakshasa who chose dharma over blood.",
+      "answer": "Vibhishana",
+      "accept": [
+        "vibhishana",
+        "vibhishan",
+        "vibheeshana"
+      ],
+      "explanation": "Vibhishana, Ravana's righteous brother, joined Rama and became king of Lanka.",
+      "bid_eligible": true,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709095",
+      "topic": "mythology",
+      "question": "Born a princess of Panchala but raised as a man after a promise made to Shiva, this warrior was the reincarnation of Amba, sworn to bring down Bhishma. Placed at the front of Arjuna's chariot, the sight of this figure made Bhishma lower his bow. Name this instrument of Bhishma's fall.",
+      "answer": "Shikhandi",
+      "accept": [
+        "shikhandi",
+        "shikhandin",
+        "sikhandi"
+      ],
+      "explanation": "Shikhandi, the rebirth of Amba, caused Bhishma to lay down his arms, allowing Arjuna to strike him.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709096",
+      "topic": "mythology",
+      "question": "A young boy sent to the god of death by his own father's careless words, he waited three days at Yama's door and then extracted from Yama the great teaching on the soul and immortality. This dialogue forms the heart of the Katha Upanishad. Name this boy seeker.",
+      "answer": "Nachiketa",
+      "accept": [
+        "nachiketa",
+        "nachiketas",
+        "naciketa"
+      ],
+      "explanation": "Nachiketa's questioning of Yama in the Katha Upanishad yields the classic teaching on death and the Self.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709097",
+      "topic": "mythology",
+      "question": "Slighted by his stepmother and told he could not sit on his father's lap, this child prince went to the forest and meditated on Vishnu so intently that he was rewarded with an eternal, unmoving place in the sky. Name this boy, now identified with the Pole Star.",
+      "answer": "Dhruva",
+      "accept": [
+        "dhruva",
+        "dhruv",
+        "dhruva maharaj"
+      ],
+      "explanation": "Dhruva's penance won him a fixed, immovable position identified with the Pole Star (Dhruva Tara).",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709098",
+      "topic": "mythology",
+      "question": "The chief queen of Ravana and mother of Indrajit, she alone among the court urged her husband to return Sita and avoid ruin. Renowned for her beauty and virtue, she is counted among the panch-kanya. Name this queen of Lanka.",
+      "answer": "Mandodari",
+      "accept": [
+        "mandodari"
+      ],
+      "explanation": "Mandodari, Ravana's principal queen, counselled peace and is honoured among the five ideal women (panch-kanya).",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709099",
+      "topic": "mythology",
+      "question": "The maternal uncle of the Kauravas and prince of Gandhara, this master of loaded dice engineered the game that stripped the Pandavas of their kingdom and sent them into exile. He nursed a lifelong grudge against Hastinapura for the humiliation of his family. Name this schemer.",
+      "answer": "Shakuni",
+      "accept": [
+        "shakuni",
+        "sakuni",
+        "shakuni mama"
+      ],
+      "explanation": "Shakuni of Gandhara rigged the dice game that exiled the Pandavas and drove the epic toward war.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709100",
+      "topic": "music",
+      "question": "Trained in Western classical composition, he became the defining composer of India's parallel cinema, scoring nearly every Shyam Benegal film from Ankur onward and winning a National Award for the television epic Tamas. Off screen he wrote over 7,000 advertising jingles. Name this composer.",
+      "answer": "Vanraj Bhatia",
+      "accept": [
+        "vanraj bhatia",
+        "vanraj bhatiya"
+      ],
+      "explanation": "Vanraj Bhatia (1927-2021) scored Benegal's cinema and Tamas, and pioneered the Indian advertising jingle.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709101",
+      "topic": "music",
+      "question": "A vocalist so foundational to twentieth-century Carnatic music that he is called its Pitamaha, or grand sire, he trained a generation including M.S. Subbulakshmi and long served as the principal of the Swathi Thirunal music academy in Trivandrum. Name him.",
+      "answer": "Semmangudi Srinivasa Iyer",
+      "accept": [
+        "semmangudi srinivasa iyer",
+        "semmangudi",
+        "semmangudi srinivasier"
+      ],
+      "explanation": "Semmangudi Srinivasa Iyer (1908-2003) is called the Pitamaha of modern Carnatic music.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709102",
+      "topic": "music",
+      "question": "Inventing a modified slide guitar he named the Mohan veena, this Hindustani instrumentalist won a 1994 Grammy for the album A Meeting by the River, recorded with the American slide guitarist Ry Cooder. Name him.",
+      "answer": "Vishwa Mohan Bhatt",
+      "accept": [
+        "vishwa mohan bhatt",
+        "vm bhatt",
+        "v m bhatt",
+        "vishwamohan bhatt"
+      ],
+      "explanation": "Vishwa Mohan Bhatt invented the Mohan veena and won a Grammy for A Meeting by the River with Ry Cooder.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709103",
+      "topic": "music",
+      "question": "This composer brought jazz and swing into Hindi film music in the 1940s and 50s, but is remembered above all for one song: written by Kavi Pradeep and sung by Lata Mangeshkar in 1963 to mourn the soldiers of the 1962 war, it reduced Jawaharlal Nehru to tears. Name the composer of Ae Mere Watan Ke Logo.",
+      "answer": "C. Ramchandra",
+      "accept": [
+        "c ramchandra",
+        "c. ramchandra",
+        "chitalkar",
+        "ramchandra narhar chitalkar",
+        "cramchandra"
+      ],
+      "explanation": "C. Ramchandra (1918-1982) composed Ae Mere Watan Ke Logo, sung by Lata for the 1962 war dead.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709104",
+      "topic": "music",
+      "question": "In 1901 this Hindustani musician founded the Gandharva Mahavidyalaya, one of the first Indian music schools open to all and funded by the public rather than a royal court. He also gave the bhajan Raghupati Raghava Raja Ram its familiar tune. Name him.",
+      "answer": "Vishnu Digambar Paluskar",
+      "accept": [
+        "vishnu digambar paluskar",
+        "paluskar",
+        "vd paluskar",
+        "v d paluskar"
+      ],
+      "explanation": "Vishnu Digambar Paluskar (1872-1931) founded the Gandharva Mahavidyalaya and set the tune of Raghupati Raghava Raja Ram.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709105",
+      "topic": "music",
+      "question": "Trained across the Gwalior, Agra and Bakhale traditions, this Maharashtrian musician is credited with establishing the violin as a solo instrument within the Hindustani classical tradition, blending gayaki and gatkari on the bow. Name him.",
+      "answer": "VG Jog",
+      "accept": [
+        "vg jog",
+        "v g jog",
+        "vishnu govind jog",
+        "jog"
+      ],
+      "explanation": "V.G. Jog (1922-2004) pioneered the violin as a Hindustani solo instrument.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709106",
+      "topic": "music",
+      "question": "The founder of the Indore gharana, this vocalist built a deeply meditative khayal style around ultra-slow vilambit alap and merukhand permutations, favouring depth of melody over speed. He also sang for films such as Baiju Bawra and Jhanak Jhanak Payal Baaje. Name him.",
+      "answer": "Ustad Amir Khan",
+      "accept": [
+        "ustad amir khan",
+        "amir khan"
+      ],
+      "explanation": "Ustad Amir Khan (1912-1974) founded the Indore gharana with his introspective, merukhand-based khayal.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709107",
+      "topic": "music",
+      "question": "Holder of a Guinness record for the most songs recorded by a singer, this playback voice dominated South Indian film music for over six decades, singing nearly 18,000 songs across Tamil, Telugu, Kannada and Malayalam. Name her.",
+      "answer": "P. Susheela",
+      "accept": [
+        "p susheela",
+        "p. susheela",
+        "susheela",
+        "pulapaka susheela"
+      ],
+      "explanation": "P. Susheela holds a Guinness record for most songs recorded, dominating South Indian playback for decades.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709108",
+      "topic": "music",
+      "question": "A leading disciple of Alladiya Khan, this vocalist carried the Jaipur-Atrauli gharana into the twentieth century and forbade her own daughter to sing film songs, insisting she keep to classical music. That daughter, Kishori Amonkar, became one of India's greatest vocalists. Name the mother.",
+      "answer": "Mogubai Kurdikar",
+      "accept": [
+        "mogubai kurdikar",
+        "mogubai",
+        "kurdikar"
+      ],
+      "explanation": "Mogubai Kurdikar (1904-2001), Alladiya Khan's disciple, was the guru and mother of Kishori Amonkar.",
+      "difficulty": 3,
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709109",
+      "topic": "music",
+      "question": "Having lost his voice for two years and reshaping his art around the limitation, this musician founded a khayal gharana that took its name from the town near Aligarh his family came from and the Rajput city where they found patronage. Name the founder of the Jaipur-Atrauli gharana.",
+      "answer": "Alladiya Khan",
+      "accept": [
+        "alladiya khan",
+        "ustad alladiya khan",
+        "alladia khan"
+      ],
+      "explanation": "Alladiya Khan (1855-1946) founded the Jaipur-Atrauli gharana after losing and rebuilding his voice.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709110",
+      "topic": "music",
+      "question": "Blind from birth, this composer and lyricist gave Hindi cinema gentle hits in films like Chitchor and Ankhiyon Ke Jharokhon Se, but reached the widest audience of all with his music for Ramanand Sagar's 1987 television Ramayan. Name him.",
+      "answer": "Ravindra Jain",
+      "accept": [
+        "ravindra jain"
+      ],
+      "explanation": "Ravindra Jain (1944-2015), blind from birth, composed for Chitchor and for the Ramayan television serial.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709111",
+      "topic": "geography",
+      "question": "Its four soaring outer gopurams face the cardinal directions, and its Aayiram Kaal Mandapam is famed for pillars that ring like bells. This great twin-shrine complex on the banks of the Vaigai in Madurai is dedicated to Sundareswarar and to a fish-eyed goddess who gives it its name. Name this temple.",
+      "answer": "Meenakshi Amman Temple",
+      "accept": [
+        "meenakshi amman temple",
+        "meenakshi temple",
+        "meenakshi amman kovil",
+        "madurai meenakshi temple",
+        "meenakshi"
+      ],
+      "explanation": "The Meenakshi Amman Temple in Madurai, dedicated to Meenakshi (a form of Parvati) and Sundareswarar (Shiva), is a landmark of Dravidian temple architecture with 14 gopurams.",
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709112",
+      "topic": "general",
+      "question": "Tradition credits the 17th-century saint Siddhendra Yogi with shaping this dance-drama in a Brahmin agraharam village on the banks of the Krishna. The classical form took the very name of that village in Andhra's Krishna district. Name this dance form.",
+      "answer": "Kuchipudi",
+      "accept": [
+        "kuchipudi",
+        "kuchelapuram",
+        "kuchipudi dance"
+      ],
+      "explanation": "Kuchipudi, a classical dance-drama of Andhra Pradesh, is named after the village Kuchelapuram (modern Kuchipudi), where Siddhendra Yogi trained young Brahmin boys to perform.",
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709113",
+      "topic": "books",
+      "question": "In this Tamil epic attributed to the Jain prince Ilango Adigal, a chaste wife proves her executed husband's innocence by breaking open her jewelled anklet in the Pandya court at Madurai, then curses the city to burn. Name this epic, one of the five great epics of Tamil literature.",
+      "answer": "Silappatikaram",
+      "accept": [
+        "silappatikaram",
+        "silappadikaram",
+        "cilappatikaram",
+        "the tale of an anklet",
+        "the jewelled anklet"
+      ],
+      "explanation": "Silappatikaram ('The Tale of an Anklet'), attributed to Ilango Adigal, tells of Kannagi and Kovalan; it is among the five great epics of Tamil literature.",
+      "difficulty": 3,
+      "bid_eligible": true,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709114",
+      "topic": "general",
+      "question": "In 2009 this besan sweet, prepared daily by the lakh at a hill shrine in Andhra Pradesh and handed to millions of pilgrims as prasadam, received a Geographical Indication tag protecting the name and its place of origin. Name this sweet.",
+      "answer": "Tirupati laddu",
+      "accept": [
+        "tirupati laddu",
+        "tirumala laddu",
+        "srivari laddu",
+        "tirupati laddoo",
+        "tirupati ladoo"
+      ],
+      "explanation": "The Tirupati laddu, made at the Venkateswara Temple in Tirumala, received a GI tag in 2009.",
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709115",
+      "topic": "general",
+      "question": "In this Kerala dance-drama, a noble character wears the 'pacha' or green face, and a distinctive white ridge of rice-paste built up along the jaw, called the chutti, sets it apart from every other Indian classical form. The elaborate make-up alone can take three to four hours. Name this dance form.",
+      "answer": "Kathakali",
+      "accept": [
+        "kathakali",
+        "kathakali dance"
+      ],
+      "explanation": "Kathakali, Kerala's classical dance-drama, is famed for its elaborate pacha make-up and the rice-paste chutti frame.",
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709116",
+      "topic": "books",
+      "question": "With eight writers so honoured, from Kuvempu and Bendre to Girish Karnad and Chandrashekhara Kambara, this is the Indian language with the most Jnanpith Awards to its literature. Name this language.",
+      "answer": "Kannada",
+      "accept": [
+        "kannada"
+      ],
+      "explanation": "Kannada has produced eight Jnanpith laureates, the highest tally among Indian languages.",
+      "difficulty": 3,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709117",
+      "topic": "history",
+      "question": "First deciphered by James Prinsep in 1837 from the rock and pillar edicts of Ashoka, this ancient Indian script is the common ancestor of Devanagari, Tamil, Bengali, Tibetan and dozens of other writing systems across South and Southeast Asia. Name this script.",
+      "answer": "Brahmi",
+      "accept": [
+        "brahmi",
+        "brahmi script"
+      ],
+      "explanation": "The Brahmi script, attested in Ashoka's 3rd-century-BCE edicts and deciphered by Prinsep in 1837, is the ancestor of most Indian and many Southeast Asian scripts.",
+      "difficulty": 3,
+      "bid_eligible": true,
+      "themes": [
+        "languages"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709118",
+      "topic": "books",
+      "question": "Attributed to a weaver-poet, this Tamil classic is arranged in 133 chapters of ten couplets each, 1,330 in all, spanning virtue, wealth and love. Name this revered work.",
+      "answer": "Thirukkural",
+      "accept": [
+        "thirukkural",
+        "tirukkural",
+        "kural",
+        "thirukural",
+        "the kural"
+      ],
+      "explanation": "The Thirukkural by Thiruvalluvar comprises 1,330 couplets in 133 chapters, divided into Aram, Porul and Inbam.",
+      "themes": [
+        "languages"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709119",
+      "topic": "books",
+      "question": "Composed in around 4,000 terse sutras and organised into eight chapters, whose very name means 'eight chapters', this 5th-4th century BCE treatise is the foundational grammar of Sanskrit and is admired as one of the most rigorous descriptions of any language. Name this work.",
+      "answer": "Ashtadhyayi",
+      "accept": [
+        "ashtadhyayi",
+        "astadhyayi",
+        "ashtadhyayi of panini",
+        "panini's ashtadhyayi"
+      ],
+      "explanation": "Panini's Ashtadhyayi ('Eight Chapters') codifies Sanskrit grammar in some 4,000 sutras.",
+      "difficulty": 3,
+      "themes": [
+        "languages"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709120",
+      "topic": "general",
+      "question": "Struck by how its words end in vowels, much as Italian words do, the 15th-century Venetian traveller Niccolo de' Conti called this Dravidian language 'the Italian of the East'. Name this language.",
+      "answer": "Telugu",
+      "accept": [
+        "telugu"
+      ],
+      "explanation": "Niccolo de' Conti dubbed Telugu 'the Italian of the East' for its vowel-ending, mellifluous words.",
+      "themes": [
+        "languages"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709121",
+      "topic": "books",
+      "question": "A Basel Mission missionary from Stuttgart who spent over two decades in Malabar, he compiled the first scientific Malayalam-English dictionary in 1872 and an influential Malayalam grammar, drawing on the everyday speech of the region. Name this German scholar.",
+      "answer": "Hermann Gundert",
+      "accept": [
+        "hermann gundert",
+        "gundert",
+        "herman gundert"
+      ],
+      "explanation": "Hermann Gundert, a Basel Mission scholar, produced the landmark Malayalam-English dictionary (1872) and a Malayalam grammar.",
+      "difficulty": 3,
+      "themes": [
+        "languages"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709122",
+      "topic": "general",
+      "question": "Long treated as a dialect of Kannada but now recognised as a distinct Dravidian tongue, this language of a coffee-growing hill district, called by its speakers 'Kodava Takk', is written in the Kannada script. Name this language.",
+      "answer": "Kodava",
+      "accept": [
+        "kodava",
+        "kodava takk",
+        "coorgi",
+        "kodagu",
+        "kodava thakk"
+      ],
+      "explanation": "Kodava (Kodava Takk), spoken in Kodagu (Coorg) in Karnataka, is a separate South Dravidian language.",
+      "difficulty": 3,
+      "themes": [
+        "languages"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709123",
+      "topic": "music",
+      "question": "Every January, on the day the composer attained jiva samadhi, hundreds of Carnatic musicians gather at his memorial on the banks of the Cauvery to render his Pancharatna Kritis in unison. In which Thanjavur-district village, the composer's abode, is this aradhana held? Name the village.",
+      "answer": "Thiruvaiyaru",
+      "accept": [
+        "thiruvaiyaru",
+        "tiruvaiyaru",
+        "thiruvayaru",
+        "tiruvaiyyaru"
+      ],
+      "explanation": "The Tyagaraja Aradhana is held at Thiruvaiyaru, where Saint Tyagaraja attained samadhi on the banks of the Cauvery; musicians sing his five Pancharatna Kritis in unison.",
+      "difficulty": 3,
+      "themes": [
+        "south_india"
+      ],
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709124",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "It began in a Himalayan district of the newly-carved hill state, where villagers who had been denied ash trees for their own farm tools discovered the same forest had been auctioned to a distant sports-goods firm.",
+        "Its defining moment came in 1974 at Reni village, when Gaura Devi led the women of the hamlet to physically place their bodies between the axes and the trunks while the men had been lured away.",
+        "The name of this Gandhian ecological movement means 'to cling' or 'to embrace' — a reference to the tactic of hugging the trees, later a global symbol of grassroots environmentalism."
+      ],
+      "answer": "Chipko movement",
+      "accept": [
+        "chipko",
+        "chipko movement",
+        "chipko andolan"
+      ],
+      "explanation": "The 1970s Uttarakhand forest-protection movement, famous for villagers hugging trees to stop logging.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709125",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "The studio that made it had earned Disney's attention with a short film narrated from the point of view of a windup toy, and this was its first full-length feature after years of making commercials and shorts.",
+        "Released in November 1995, it was the first feature film animated entirely on computers, and its director received a Special Achievement Oscar for the breakthrough.",
+        "Tom Hanks voiced a pull-string cowboy named Woody, jealous of a new spaceman toy called Buzz Lightyear."
+      ],
+      "answer": "Toy Story (1995)",
+      "accept": [
+        "toy story",
+        "toy story 1995",
+        "toy story (1995)"
+      ],
+      "explanation": "Pixar's 1995 debut, the first entirely computer-animated feature film.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709126",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "A young British woman comes to Delhi to make a documentary about the revolutionaries her grandfather, a colonial jailer, once guarded, and casts a group of aimless college friends to play them.",
+        "Directed by Rakeysh Omprakash Mehra and released on Republic Day 2006, its A.R. Rahman soundtrack and candlelight-vigil scenes became a touchstone for a generation of urban Indian youth.",
+        "Aamir Khan's character plays Chandrashekhar Azad in the film-within-the-film; the title means 'colour me in the hue of spring,' evoking the martyrdom of Bhagat Singh."
+      ],
+      "answer": "Rang De Basanti (2006)",
+      "accept": [
+        "rang de basanti",
+        "rdb",
+        "rang de basanti (2006)"
+      ],
+      "explanation": "The 2006 Aamir Khan film linking past freedom fighters with present-day disillusioned youth.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709127",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "A teenager from a poor family in the interior of a South American football nation, he was carried onto the world stage at a tournament in Scandinavia where most people had never heard of him.",
+        "At that 1958 World Cup in Sweden he scored in every knockout match, including two in the final, becoming at 17 the youngest player ever to win the trophy.",
+        "Nicknamed 'O Rei' (The King), he would go on to win three World Cups and score over a thousand career goals for Santos and Brazil."
+      ],
+      "answer": "Pele",
+      "accept": [
+        "pele",
+        "pelé",
+        "edson arantes do nascimento"
+      ],
+      "explanation": "The Brazilian footballer who burst onto the scene at 17 at the 1958 World Cup.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709128",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "A Punjabi strongman who began in the akhara tradition of mud wrestling, he toured the world's professional wrestling circuits in the 1950s and 60s, defeating famous foreign champions in packed stadiums.",
+        "In 1968 he beat Lou Thesz to claim a world wrestling title, and he later became the first sportsperson nominated to the Rajya Sabha.",
+        "To a whole generation of Indian television viewers he is unforgettable as Hanuman in Ramanand Sagar's 'Ramayan', and he starred in the 1962 film 'King Kong'."
+      ],
+      "answer": "Dara Singh",
+      "accept": [
+        "dara singh",
+        "deedar singh randhawa"
+      ],
+      "explanation": "The wrestler-turned-actor famous as Hanuman in the TV Ramayan.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709129",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Composed in Sanskrit around 300 CE and framed as lessons for three dim-witted princes, it is among the oldest surviving collections of stories in the world.",
+        "Its five books of interlinked fables travelled west through a Middle Persian translation around 550 CE, seeding tale-collections across Arabic, Persian and European literature.",
+        "Its talking animals — the lion king, the wily jackals Karataka and Damanaka, the tortoise and the geese — are attributed to a sage named Vishnu Sharma."
+      ],
+      "answer": "Panchatantra",
+      "accept": [
+        "panchatantra",
+        "pancatantra",
+        "the panchatantra"
+      ],
+      "explanation": "The ancient Sanskrit collection of animal fables attributed to Vishnu Sharma.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709130",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Her story is best known from a 16th-century Sufi epic poem by Malik Muhammad Jayasi, though contemporary chroniclers of the actual siege make no mention of her.",
+        "According to legend, a sultan of Delhi laid siege to a great Rajput fort in 1303 after glimpsing her reflection in a mirror and becoming obsessed with possessing her.",
+        "Facing certain defeat, this legendary queen of Chittor is said to have led the women of the fort into jauhar — mass self-immolation — rather than surrender to Alauddin Khilji."
+      ],
+      "answer": "Rani Padmini",
+      "accept": [
+        "rani padmini",
+        "padmini",
+        "padmavati",
+        "rani padmavati"
+      ],
+      "explanation": "The legendary queen of Chittor from Jayasi's Padmavat.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709131",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "The fourth Sikh Guru, Ram Das, founded the pool around which it was built, and the fifth Guru, Arjan, deliberately set the shrine lower than its surroundings so that worshippers must descend to reach it.",
+        "It sits in the centre of a sacred tank called the Amrit Sarovar, the 'Pool of Nectar,' which gives the surrounding city its name.",
+        "Guru Arjan installed the Adi Granth here in 1604; its gilded upper storeys, added by Maharaja Ranjit Singh, give this Amritsar shrine its popular English name."
+      ],
+      "answer": "Golden Temple",
+      "accept": [
+        "golden temple",
+        "harmandir sahib",
+        "sri harmandir sahib",
+        "darbar sahib",
+        "harimandir sahib"
+      ],
+      "explanation": "The Harmandir Sahib in Amritsar, holiest shrine of Sikhism.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709132",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "One of Asia's oldest and longest roads, it has linked Central Asia to the plains of the subcontinent for over two thousand years.",
+        "Rebuilt in the 16th century by an Afghan-origin ruler who briefly displaced the Mughals, it was lined with milestones called kos minars, wells and rest-houses (sarais) for travellers.",
+        "Renamed by the British and running from the Bengal delta through Delhi and Lahore to Kabul, it lends its name to a Kipling novel featuring the boy-spy Kim; Sher Shah Suri gave it its modern form."
+      ],
+      "answer": "Grand Trunk Road",
+      "accept": [
+        "grand trunk road",
+        "gt road",
+        "g.t. road",
+        "grand trunk"
+      ],
+      "explanation": "The ancient highway across the subcontinent, remade by Sher Shah Suri.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709133",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Having built a career in the United States, he returned to India in the 1980s to help a young prime minister modernise a creaking public system, saying he had barely used a telephone until he was twenty-two.",
+        "In 1984 he set up the Centre for Development of Telematics (C-DOT) to design rugged, low-cost digital exchanges suited to India's climate and villages.",
+        "He is credited with the yellow-signboard STD/PCO booths that once stood on every Indian street corner, and later chaired the National Knowledge Commission."
+      ],
+      "answer": "Sam Pitroda",
+      "accept": [
+        "sam pitroda",
+        "satyanarayan gangaram pitroda",
+        "pitroda"
+      ],
+      "explanation": "The technocrat behind C-DOT and India's 1980s telecom revolution.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709134",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Established under the Gupta emperors in the 5th century in present-day Bihar, it drew scholars from China, Korea, Tibet and Southeast Asia to one of the ancient world's great centres of learning.",
+        "The Chinese monk Xuanzang studied here for years and left detailed accounts of its monasteries and its vast library, said to be called Dharmaganja, the 'Mountain of Truth.'",
+        "Its ruins, a UNESCO site, are traditionally said to have been sacked and its library burned around 1193 by Bakhtiyar Khilji; a modern university now bears its name."
+      ],
+      "answer": "Nalanda",
+      "accept": [
+        "nalanda",
+        "nalanda university",
+        "nalanda mahavihara"
+      ],
+      "explanation": "The ancient Buddhist university in Bihar destroyed around 1193 CE.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709135",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Trained in European academic realism at the Government art college in Calcutta, this Bengal painter deliberately abandoned oils and portraits to rediscover his own soil.",
+        "He drew on Kalighat pat scroll-painting and village craft, working in flat forms, bold sweeping outlines and a few earthy colours to make deliberately 'folk' modern art.",
+        "The Government of India declared his works National Treasures — alongside Tagore and Nandalal Bose — barring their export; his name is Jamini Roy."
+      ],
+      "answer": "Jamini Roy",
+      "accept": [
+        "jamini roy",
+        "jamini"
+      ],
+      "explanation": "The Bengali modernist who revived folk idioms, a designated National Treasure artist.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709136",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Born into a family related to the royal house of a South Indian princely state, this 19th-century painter fused European realist technique with Indian mythological subjects.",
+        "He set up a lithographic press near Bombay in the 1890s, mass-producing cheap colour prints (oleographs) of gods and goddesses for ordinary households.",
+        "His canvases of Shakuntala, Damayanti and other epic heroines shaped how millions of Indians pictured their deities; he was from Kilimanoor in Travancore."
+      ],
+      "answer": "Raja Ravi Varma",
+      "accept": [
+        "raja ravi varma",
+        "ravi varma"
+      ],
+      "explanation": "The Travancore painter whose oleographs defined popular images of Hindu deities.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709137",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "About five thousand of them, largely from a single community and often barely literate, run a logistics network that Harvard Business School professors travel to study.",
+        "Using a colour-and-symbol code on each container and relying almost entirely on the suburban railway, bicycles and handcarts, they hand off each item roughly a dozen times a day.",
+        "They collect roughly 200,000 home-cooked lunches from Mumbai kitchens each morning and deliver them to offices with an error rate popularly compared to Six Sigma."
+      ],
+      "answer": "Dabbawalas",
+      "accept": [
+        "dabbawala",
+        "dabbawalas",
+        "mumbai dabbawalas",
+        "dabbawallas",
+        "tiffinwallas"
+      ],
+      "explanation": "Mumbai's lunchbox-delivery network famed for near-perfect accuracy.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709138",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "A trained lawyer who gave up his practice, he was moved to his life's work after seeing a leprosy patient dying uncared-for on the roadside.",
+        "In 1949 he founded Anandwan, the 'Forest of Joy,' near Warora in Maharashtra, a self-sustaining community for people with leprosy and the destitute.",
+        "Later a leader of the Narmada Bachao Andolan and winner of the Magsaysay and Templeton prizes, this social worker was known simply as Baba."
+      ],
+      "answer": "Baba Amte",
+      "accept": [
+        "baba amte",
+        "amte",
+        "murlidhar devidas amte"
+      ],
+      "explanation": "The social worker who founded Anandwan for leprosy patients.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709139",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "It was raised in 1591 by the ruler who founded a new city on the Musi river after abandoning a nearby hill fort, and it stands at the heart of the old walled city.",
+        "By popular tradition it was built in thanksgiving after prayers ended a devastating plague, and it houses a mosque on its upper floor.",
+        "Its four graceful arches and four 56-metre minarets give this Hyderabad landmark, built by Muhammad Quli Qutb Shah, its name."
+      ],
+      "answer": "Charminar",
+      "accept": [
+        "charminar",
+        "char minar"
+      ],
+      "explanation": "The 1591 four-minaret monument in Hyderabad built by Muhammad Quli Qutb Shah.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709140",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "A government road inspector began it secretly in 1957 on protected forest land where no building was allowed, working alone in his spare time for eighteen years.",
+        "He built winding courtyards, waterfalls and thousands of figures entirely from industrial and household waste — broken bangles, ceramic shards, tiles and discarded electrical fittings.",
+        "When officials finally discovered the illegal 12-acre creation in 1975 they chose to protect it; Nek Chand's Rock Garden is now Chandigarh's most visited site."
+      ],
+      "answer": "Rock Garden of Chandigarh",
+      "accept": [
+        "rock garden",
+        "rock garden of chandigarh",
+        "nek chand",
+        "nek chand's rock garden",
+        "nek chand rock garden"
+      ],
+      "explanation": "Nek Chand's secret sculpture garden in Chandigarh built from waste.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709141",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "A Gujarat government chemist began making a phosphate-free detergent at home in 1969, selling it door-to-door on his bicycle at a fraction of the price of the big multinational brand.",
+        "He named the yellow powder after his daughter Nirupama, who had died young, and it went on to capture much of the Indian detergent market by the late 1980s.",
+        "Its jingle — 'Washing powder ___, ___, ___' with the twirling girl in the white frock — is one of Indian advertising's most enduring; Karsanbhai Patel was the founder."
+      ],
+      "answer": "Nirma",
+      "accept": [
+        "nirma",
+        "nirma washing powder"
+      ],
+      "explanation": "Karsanbhai Patel's low-cost detergent that challenged the multinationals.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709142",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "In one of the wettest inhabited places on earth, where conventional bridges rot away in the monsoon, indigenous communities grew a living solution over generations.",
+        "The Khasi and Jaintia peoples train the aerial roots of the rubber fig, Ficus elastica, across streams until they thicken and fuse into weight-bearing spans that last for centuries.",
+        "Called jingkieng jri and including a famous double-decker span at Nongriat near Cherrapunji, these structures in Meghalaya are on UNESCO's tentative World Heritage list."
+      ],
+      "answer": "Living root bridges",
+      "accept": [
+        "living root bridges",
+        "living root bridge",
+        "jingkieng jri",
+        "root bridges",
+        "meghalaya living root bridges"
+      ],
+      "explanation": "The Ficus-root bridges grown by Khasi communities in Meghalaya.",
+      "created": "2026-07-09"
+    },
+    {
+      "id": "q0709143",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "To enforce one of colonial India's most hated levies, the British grew and maintained a living thorn barrier stretching over 2,500 miles across the middle of the subcontinent.",
+        "Manned by some 12,000 customs officers, it ran roughly from the Indus in Punjab to the Mahanadi in Odisha, all to stop the smuggling of cheap coastal salt inland.",
+        "Abandoned around 1879 and almost entirely forgotten, it was rediscovered and traced by the writer Roy Moxham in a book titled 'The Great Hedge of India.'"
+      ],
+      "answer": "The Great Hedge of India",
+      "accept": [
+        "great hedge of india",
+        "the great hedge of india",
+        "great hedge",
+        "inland customs line",
+        "customs hedge"
+      ],
+      "explanation": "The colonial thorn barrier built to enforce the salt tax, forgotten then rediscovered.",
+      "created": "2026-07-09"
     }
   ]
 };

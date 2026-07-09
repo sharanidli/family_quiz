@@ -33,7 +33,27 @@
         <button class="add-round-btn ghost small" data-type="long">+ Long Question</button>
         <button class="add-round-btn ghost small" data-type="theme">+ Theme Round</button>
         <button class="add-round-btn ghost small" data-type="bid">+ Bid Round</button>
+        <button class="add-round-btn ghost small" data-type="connect">+ Connect</button>
       </div>
+    </div>
+
+    <div class="card">
+      <h2>Question set</h2>
+      <div id="source-options">
+        <label class="source-opt">
+          <input type="radio" name="qsource" value="new">
+          <span><strong>All new</strong> — only questions made today or yesterday <span class="src-count" data-src="new"></span></span>
+        </label>
+        <label class="source-opt">
+          <input type="radio" name="qsource" value="mainly">
+          <span><strong>Mainly new</strong> — about ¾ new, ¼ from the full bank</span>
+        </label>
+        <label class="source-opt">
+          <input type="radio" name="qsource" value="full" checked>
+          <span><strong>Full database</strong> — everything</span>
+        </label>
+      </div>
+      <p id="source-hint" class="muted small"></p>
     </div>
 
     <div class="card">

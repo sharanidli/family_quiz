@@ -159,6 +159,32 @@ label.block .label-text { display: block; margin-bottom: 0.3rem; color: var(--mu
 
 .round-add { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.7rem; }
 
+/* Pounce & Bounce per-round toggle */
+.round-row .pounce-toggle {
+  display: flex; align-items: center; gap: 0.4rem;
+  font-size: 0.85rem; color: var(--muted); margin-top: 0.2rem;
+}
+.round-row .pounce-toggle input { min-width: 0; max-width: none; width: auto; }
+
+/* Question-set (freshness) selector */
+.source-opt { display: flex; align-items: flex-start; gap: 0.5rem; margin: 0.35rem 0; }
+.source-opt input { margin-top: 0.25rem; }
+.source-opt.disabled { opacity: 0.4; }
+.src-count { color: var(--gold); font-size: 0.85rem; }
+
+/* Connect round clues */
+.connect-clues { max-width: 640px; margin: 0.5rem auto 1rem; }
+.connect-clue {
+  background: rgba(255,255,255,0.05);
+  border-left: 3px solid var(--gold);
+  border-radius: 6px;
+  padding: 0.7rem 0.9rem;
+  margin: 0.5rem 0;
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+button.pounce-btn { background: var(--gold); color: #2a1d00; font-weight: bold; }
+
 /* Game screen */
 .game-header {
   display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 1.5rem;

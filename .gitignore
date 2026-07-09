@@ -1,0 +1,3 @@
+# Local backups and per-session question-generation working folders
+*.bak_*
+new_batch_*/

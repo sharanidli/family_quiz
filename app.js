@@ -65,8 +65,14 @@ const state = {
   currentRoundIdx: 0,
   questionInRound: 0,
   currentPlayerIdx: 0,
+  anchorIdx: -1,              // infinite bounce: seat of the last correct answerer; next Q starts at anchorIdx+1
+  originalPlayerIdx: null,    // seat the current question was first asked to
+  connectClueIdx: 0,          // which Connect clue is currently revealed
+  pouncerIdx: null,           // seat that pounced (Pounce & Bounce)
   questions: [],
-  pool: { byTopic: {}, all: [] },
+  activeQuestions: [],        // the questions in play this game after the source filter (all/new/mainly)
+  questionSource: 'full',     // 'full' | 'new' | 'mainly'
+  pool: { byTopic: {}, byTheme: {}, connect: [], all: [] },
   used: new Set(),
   phase: 'setup',
   currentQuestion: null,
@@ -162,7 +168,7 @@ function renderRounds() {
       cells.push(el('span'));
     }
 
-    const countLabel = (r.type === 'theme') ? 'questions' : 'per player';
+    const countLabel = (r.type === 'theme' || r.type === 'connect') ? 'questions' : 'per player';
     cells.push(el('input', {
       type: 'number', min: 1, max: 20, value: r.count,
       title: countLabel,
@@ -175,22 +181,38 @@ function renderRounds() {
       onclick: () => { state.rounds.splice(i, 1); renderRounds(); }
     }, '×'));
 
+    // Pounce & Bounce toggle — full-width sub-row. Not offered for Connect (it is
+    // already a buzzer format) or single-player games.
+    if (r.type !== 'connect') {
+      const pounceLabel = el('label', { class: 'pounce-toggle', style: 'grid-column: 1 / -1;' });
+      const cb = el('input', {
+        type: 'checkbox',
+        onchange: (e) => { r.pounce = e.target.checked; },
+      });
+      if (r.pounce) cb.checked = true;
+      pounceLabel.appendChild(cb);
+      pounceLabel.appendChild(document.createTextNode(' Pounce & Bounce (+1× if right, −2× if wrong)'));
+      cells.push(pounceLabel);
+    }
+
     list.appendChild(el('div', { class: 'round-row' }, cells));
   });
 }
 
 function roundLabel(r) {
-  if (r.type === 'long')  return 'Long Question';
-  if (r.type === 'theme') return 'Theme Round';
-  if (r.type === 'bid')   return 'Bid Round';
+  if (r.type === 'long')    return 'Long Question';
+  if (r.type === 'theme')   return 'Theme Round';
+  if (r.type === 'bid')     return 'Bid Round';
+  if (r.type === 'connect') return 'Connect';
   return r.type;
 }
 
 function addRound(type) {
   const defaults = {
-    long:  { type: 'long',  count: 2 },
-    theme: { type: 'theme', count: 6, theme: 'cricket' },
-    bid:   { type: 'bid',   count: 1 },
+    long:    { type: 'long',    count: 2 },
+    theme:   { type: 'theme',   count: 6, theme: 'cricket' },
+    bid:     { type: 'bid',     count: 1 },
+    connect: { type: 'connect', count: 3 },
   };
   state.rounds.push({ ...defaults[type] });
   renderRounds();
@@ -198,9 +220,13 @@ function addRound(type) {
 
 // ----- Question pool -----
 function buildPool() {
+  buildActiveQuestions();
   state.pool.byTopic = {};
   state.pool.byTheme = {};
-  state.questions.forEach(q => {
+  state.pool.connect = [];
+  state.activeQuestions.forEach(q => {
+    if (q.callback) return;                 // callbacks feed the end-game Long Tail only
+    if (q.connect) { state.pool.connect.push(q); return; }  // connects feed Connect rounds only
     const t = q.topic;
     if (!state.pool.byTopic[t]) state.pool.byTopic[t] = [];
     state.pool.byTopic[t].push(q);
@@ -213,7 +239,8 @@ function buildPool() {
   });
   Object.values(state.pool.byTopic).forEach(arr => shuffle(arr));
   Object.values(state.pool.byTheme).forEach(arr => shuffle(arr));
-  state.pool.all = shuffle([...state.questions]);
+  shuffle(state.pool.connect);
+  state.pool.all = shuffle(state.activeQuestions.filter(q => !q.callback && !q.connect));
 }
 
 // Combine questions matching a theme key by either `topic` or `themes`
@@ -245,6 +272,54 @@ function iranianModeFilter() {
     ? IRANIAN_MODE_THEMES
     : IRANIAN_MODE_NON_IRANIAN_THEMES;
   return (q) => Array.isArray(q.themes) && q.themes.some(t => allowed.includes(t));
+}
+
+// ----- Question freshness / source selector -----
+// "New" = created today or yesterday, by the device clock.
+const NEW_MIN_ALL = 40;      // need at least this many new questions to allow "All new"
+const NEW_MIN_MAINLY = 25;   // ...and this many to allow "Mainly new"
+const CONNECT_POINTS = [15, 10, 5];  // points if the connection is got on clue 1 / 2 / 3
+
+function localYMD(d) {
+  return d.getFullYear() + '-' +
+    String(d.getMonth() + 1).padStart(2, '0') + '-' +
+    String(d.getDate()).padStart(2, '0');
+}
+function recentDateSet() {
+  const today = new Date();
+  const yest = new Date(); yest.setDate(yest.getDate() - 1);
+  return new Set([localYMD(today), localYMD(yest)]);
+}
+function isNewQuestion(q, recent) { return !!q.created && recent.has(q.created); }
+
+// Count of new *playable* regular questions (callbacks and connects feed their own rounds).
+function countNewRegular() {
+  const recent = recentDateSet();
+  return state.questions.filter(q => !q.callback && !q.connect && isNewQuestion(q, recent)).length;
+}
+
+// Build the in-play set for this game based on the chosen source. Callbacks are always
+// included (they only ever feed the end-game Long Tail, which is source-agnostic).
+function buildActiveQuestions() {
+  const all = state.questions;
+  const callbacks = all.filter(q => q.callback);
+  if (state.questionSource === 'full' || state.iranianMode) {
+    state.activeQuestions = all.slice();
+    return;
+  }
+  const recent = recentDateSet();
+  const isNew = (q) => isNewQuestion(q, recent);
+  const pool = all.filter(q => !q.callback);          // regular + connect
+  if (state.questionSource === 'new') {
+    state.activeQuestions = pool.filter(isNew).concat(callbacks);
+    return;
+  }
+  // 'mainly' — all new, plus ~1 old for every 3 new (≈ 3:1 blend), then callbacks.
+  const newQs = pool.filter(isNew);
+  const oldQs = pool.filter(q => !isNew(q));
+  shuffle(oldQs);
+  const k = Math.round(newQs.filter(q => !q.connect).length / 3);
+  state.activeQuestions = newQs.concat(oldQs.slice(0, k)).concat(callbacks);
 }
 
 function nextQuestion(opts = {}) {
@@ -282,8 +357,8 @@ function nextQuestion(opts = {}) {
   }
   // Pass 4: any unused, any topic — still honour the mode filter so we never
   // serve an India-specific question in Iranian Mode.
-  for (const q of state.questions) {
-    if (q.callback) continue;
+  for (const q of state.activeQuestions) {
+    if (q.callback || q.connect) continue;
     if (state.used.has(q.id)) continue;
     if (modeFilter && !modeFilter(q)) continue;
     state.used.add(q.id);
@@ -781,19 +856,26 @@ async function startRound() {
   const r = state.rounds[state.currentRoundIdx];
   state.questionInRound = 0;
   state.currentPlayerIdx = 0;
+  // Infinite bounce: control follows the correct answer. Seed the anchor one seat
+  // back so the round's first question goes to player 0.
+  state.anchorIdx = state.players.length - 1;
   state.phase = 'round-intro';
   renderHeader();
 
+  const pounceNote = r.pounce ? ' Pounce & Bounce is on — anyone can pounce, but a wrong pounce costs double.' : '';
   let intro, spokenIntro;
   if (r.type === 'long') {
-    intro = `Long Question round. ${r.count} question${r.count > 1 ? 's' : ''} per player.`;
-    spokenIntro = 'Long Question round.';
+    intro = `Long Question round. ${r.count} question${r.count > 1 ? 's' : ''} per player. Get it right and the next question moves to the next person.` + pounceNote;
+    spokenIntro = 'Long Question round.' + (r.pounce ? ' Pounce and bounce is on.' : '');
   } else if (r.type === 'theme') {
     const t = [...THEME_OPTIONS, ...IRANIAN_THEME_OPTIONS].find(t => t.id === r.theme);
-    intro = `Theme round: ${t ? t.label : r.theme}. ${r.count} questions, taken in turn.`;
-    spokenIntro = `Theme round. ${t ? t.label : r.theme}.`;
+    intro = `Theme round: ${t ? t.label : r.theme}. ${r.count} questions, control follows the correct answer.` + pounceNote;
+    spokenIntro = `Theme round. ${t ? t.label : r.theme}.` + (r.pounce ? ' Pounce and bounce is on.' : '');
+  } else if (r.type === 'connect') {
+    intro = `Connect round. ${r.count} connection${r.count > 1 ? 's' : ''}. You get clue 1 — guess for 15, or pass to see clue 2 (10), then clue 3 (5). A wrong guess passes it on to the next person.`;
+    spokenIntro = 'Connect round. Guess for more, or pass to see another clue. A wrong guess passes it on.';
   } else {
-    intro = `Bid round. ${r.count} per player. Wager 5, 10, or 20 — right answer wins your wager, wrong loses it.`;
+    intro = `Bid round. ${r.count} per player. Wager 5, 10, or 20 — right answer wins your wager, wrong loses it.` + pounceNote;
     spokenIntro = 'Bid round. Wager five, ten, or twenty.';
   }
 
@@ -807,12 +889,18 @@ async function startRound() {
 async function nextQuestionInRound() {
   const r = state.rounds[state.currentRoundIdx];
   const playerCount = state.players.length;
-  const total = (r.type === 'theme') ? r.count : r.count * playerCount;
+  const total = (r.type === 'theme' || r.type === 'connect') ? r.count : r.count * playerCount;
 
   if (state.questionInRound >= total) return endRound();
 
-  state.currentPlayerIdx = state.questionInRound % playerCount;
+  // Bid keeps its fixed rotation; Long / Theme / Connect use infinite bounce — control
+  // starts one seat past whoever last answered correctly (state.anchorIdx).
+  state.currentPlayerIdx = (r.type === 'bid')
+    ? state.questionInRound % playerCount
+    : (state.anchorIdx + 1) % playerCount;
+  state.originalPlayerIdx = state.currentPlayerIdx;
 
+  if (r.type === 'connect') return askConnect();
   if (r.type === 'bid') return askForBid();
 
   const q = (r.type === 'theme')
@@ -935,6 +1023,10 @@ function renderQuestion(q, opts = {}) {
   if (_canPass) {
     ctrls.push(el('button', { class: 'ghost', onclick: markPass }, 'Pass'));
   }
+  // Pounce & Bounce — any live question in a pounce round; host taps who pounced.
+  if (_r.pounce && state.players.length > 1) {
+    ctrls.push(el('button', { class: 'gold pounce-btn', onclick: startPounce }, '⚡ Pounce'));
+  }
   ctrls.push(el('button', { class: 'ghost', onclick: () => speak(q.question) }, '🔁 Repeat'));
   main.appendChild(el('div', { class: 'controls' }, ctrls));
 }
@@ -958,7 +1050,7 @@ function logEntry(player, outcome, points) {
   const r = state.rounds[state.currentRoundIdx];
   player.log.push({
     qid: state.currentQuestion.id,
-    qtext: state.currentQuestion.question,
+    qtext: state.currentQuestion.question || (state.currentQuestion.clues ? ('Connect → ' + state.currentQuestion.answer) : ''),
     answer: state.currentQuestion.answer,
     outcome,
     points,
@@ -976,6 +1068,8 @@ function markRight() {
   else if (state.phase === 'pass-attempt') pts = 5;
   player.score += pts;
   logEntry(player, 'right', pts);
+  // Infinite bounce: control now follows this player — next question starts to their left.
+  if (r.type !== 'bid') state.anchorIdx = state.currentPlayerIdx;
   reveal('right');
 }
 
@@ -1014,8 +1108,11 @@ function cascadeToNext(reason) {
   }
   // Move to next player in rotation
   state.currentPlayerIdx = (state.currentPlayerIdx + 1) % state.players.length;
-  // If we've cycled back to the original, every other player has had a go — reveal
+  // If we've cycled back to the original, every other player has had a go — reveal.
+  // Nobody got it: control stays with the original asker, so the next question
+  // starts one seat past them (tie-break rule a).
   if (state.currentPlayerIdx === state.originalPlayerIdx) {
+    state.anchorIdx = state.originalPlayerIdx;
     reveal(reason);
     return;
   }
@@ -1067,6 +1164,218 @@ function endRound() {
 
   main.appendChild(el('button', { class: 'big', onclick: startRound }, 'Next Round →'));
   speak('End of round.');
+}
+
+// ----- Pounce & Bounce -----
+// Voice-free: the room is the buzzer, the host taps who pounced. A pounce ends the
+// question. Right = +2×base; wrong = −base. base is 10 (long/theme) or the wager (bid).
+function pounceBase() {
+  const r = state.rounds[state.currentRoundIdx];
+  return r.type === 'bid' ? (state.currentBid || 10) : 10;
+}
+
+function startPounce() {
+  if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
+  stopListening(); stopSpeaking(); clearTimer();
+  state._prePounce = state.phase;
+  state.phase = 'pounce-select';
+  renderHeader();
+  const main = $('#game-main');
+  main.innerHTML = '';
+  main.appendChild(el('div', { class: 'player-up' }, '⚡ Who pounced?'));
+  main.appendChild(el('div', { class: 'question-text' }, state.currentQuestion.question));
+  const ctrls = el('div', { class: 'controls' });
+  state.players.forEach((p, i) => ctrls.appendChild(
+    el('button', { class: 'gold', onclick: () => pounceAnswer(i) }, p.name)
+  ));
+  ctrls.appendChild(el('button', { class: 'ghost', onclick: cancelPounce }, '← Back'));
+  main.appendChild(ctrls);
+  speak('Who pounced?');
+}
+
+function cancelPounce() {
+  state.phase = state._prePounce || 'question';
+  const r = state.rounds[state.currentRoundIdx];
+  const opts = {};
+  if (r.type === 'bid') opts.bid = state.currentBid;
+  if (state.phase === 'pass-attempt') opts.passing = true;
+  renderQuestion(state.currentQuestion, opts);
+}
+
+function pounceAnswer(idx) {
+  state.pouncerIdx = idx;
+  state.phase = 'pounce-answer';
+  state.matchAnnounced = false;
+  renderHeader();
+  const base = pounceBase();
+  const main = $('#game-main');
+  main.innerHTML = '';
+  main.appendChild(el('div', { class: 'player-up' },
+    `⚡ ${state.players[idx].name} pounced — +${base} if right, −${base * 2} if wrong`));
+  main.appendChild(el('div', { class: 'question-text' }, state.currentQuestion.question));
+  main.appendChild(el('input', {
+    type: 'text', class: 'typed-answer', id: 'typed-answer',
+    placeholder: 'Type the answer…', autocomplete: 'off', spellcheck: 'false',
+    oninput: (e) => onTyped(e.target.value, e.target),
+  }));
+  const ctrls = el('div', { class: 'controls' });
+  ctrls.appendChild(el('button', { class: 'right', onclick: () => settlePounce(true) }, '✓ Right'));
+  ctrls.appendChild(el('button', { class: 'wrong', onclick: () => settlePounce(false) }, '✗ Wrong'));
+  ctrls.appendChild(el('button', { class: 'ghost', onclick: startPounce }, '← Different pouncer'));
+  main.appendChild(ctrls);
+}
+
+function settlePounce(correct) {
+  const idx = state.pouncerIdx;
+  const r = state.rounds[state.currentRoundIdx];
+  const base = pounceBase();
+  const p = state.players[idx];
+  if (correct) {
+    p.score += base;                                           // pounce right: +1× (modest reward)
+    logEntry(p, 'right', base);
+    if (r.type !== 'bid') state.anchorIdx = idx;               // control follows the pouncer
+  } else {
+    p.score -= base * 2;                                       // pounce wrong: −2× (steep, discourages loose pounces)
+    logEntry(p, 'wrong', -base * 2);
+    if (r.type !== 'bid' && state.originalPlayerIdx != null) state.anchorIdx = state.originalPlayerIdx;
+  }
+  reveal(correct ? 'right' : 'wrong');
+}
+
+// ----- Connect round (3 clues, buzz early for more) -----
+function nextConnect() {
+  for (const q of state.pool.connect) {
+    if (state.used.has(q.id)) continue;
+    if (state.avoidRepeats && state.partySeen.has(q.id)) continue;
+    state.used.add(q.id); return q;
+  }
+  for (const q of state.pool.connect) {
+    if (state.used.has(q.id)) continue;
+    state.used.add(q.id); return q;
+  }
+  return null;
+}
+
+// Per-player, infinite-bounce Connect. The player in control (state.currentPlayerIdx)
+// sees every clue revealed so far and either guesses (Got it / Wrong) or passes.
+// Pass with clues left → reveal the next clue, same player stays. Pass on the last
+// clue, or a wrong guess → bounce to the next player (they keep the revealed clues).
+// A correct guess wins CONNECT_POINTS[revealed] (15/10/5) and control follows them.
+async function askConnect() {
+  const q = nextConnect();
+  if (!q) {
+    alert('No Connect questions in this set — pick a different question source, or add Connects.');
+    return endRound();
+  }
+  // currentPlayerIdx & originalPlayerIdx were set by nextQuestionInRound (infinite bounce).
+  state.currentQuestion = q;
+  state.connectClueIdx = 0;
+  state.matchAnnounced = false;
+  state.phase = 'connect';
+  renderConnect();
+  await speak('Connect.');
+  playPostcardCue();
+  await speak(`${state.players[state.currentPlayerIdx].name}. ${q.clues[0]}`);
+  startListening();
+}
+
+function renderConnect() {
+  renderHeader();
+  const q = state.currentQuestion;
+  const main = $('#game-main');
+  main.innerHTML = '';
+  const pts = CONNECT_POINTS[Math.min(state.connectClueIdx, CONNECT_POINTS.length - 1)];
+  const player = state.players[state.currentPlayerIdx];
+  const moreClues = state.connectClueIdx < q.clues.length - 1;
+  main.appendChild(el('div', { class: 'player-up' }, `${player.name}  •  ⊰ Connect ⊱  •  worth ${pts}`));
+
+  const clueBox = el('div', { class: 'connect-clues' });
+  for (let i = 0; i <= state.connectClueIdx; i++) {
+    clueBox.appendChild(el('div', { class: 'connect-clue' }, `${i + 1}. ${q.clues[i]}`));
+  }
+  main.appendChild(clueBox);
+
+  main.appendChild(el('input', {
+    type: 'text', class: 'typed-answer', id: 'typed-answer',
+    placeholder: 'Or type the connection…', autocomplete: 'off', spellcheck: 'false',
+    oninput: (e) => onTyped(e.target.value, e.target),
+  }));
+
+  const ctrls = el('div', { class: 'controls' });
+  ctrls.appendChild(el('button', { class: 'right', onclick: () => connectGuess(true) }, '✓ Got it'));
+  ctrls.appendChild(el('button', { class: 'wrong', onclick: () => connectGuess(false) }, '✗ Wrong'));
+  ctrls.appendChild(el('button', { class: 'ghost', onclick: connectPass },
+    moreClues ? 'Pass → next clue' : 'Pass → next player'));
+  ctrls.appendChild(el('button', { class: 'ghost', onclick: () => speak(q.clues[state.connectClueIdx]) }, '🔁 Repeat clue'));
+  main.appendChild(ctrls);
+}
+
+function connectGuess(correct) {
+  if (state.phase !== 'connect') return;
+  stopListening(); stopSpeaking(); clearTimer();
+  if (correct) {
+    const pts = CONNECT_POINTS[Math.min(state.connectClueIdx, CONNECT_POINTS.length - 1)];
+    const p = state.players[state.currentPlayerIdx];
+    p.score += pts;
+    logEntry(p, 'right', pts);
+    state.anchorIdx = state.currentPlayerIdx;   // control follows the winner (next connect)
+    connectReveal(state.currentPlayerIdx, pts);
+  } else {
+    logEntry(state.players[state.currentPlayerIdx], 'wrong', 0);  // wrong guess: 0, forfeit
+    connectBounce();
+  }
+}
+
+async function connectPass() {
+  if (state.phase !== 'connect') return;
+  stopListening(); stopSpeaking(); clearTimer();
+  const q = state.currentQuestion;
+  logEntry(state.players[state.currentPlayerIdx], 'passed', 0);
+  if (state.connectClueIdx < q.clues.length - 1) {
+    // Reveal the next clue; same player keeps control.
+    state.connectClueIdx++;
+    state.matchAnnounced = false;
+    renderConnect();
+    await speak(q.clues[state.connectClueIdx]);
+    startListening();
+  } else {
+    // No clues left — hand off to the next player.
+    connectBounce();
+  }
+}
+
+// Bounce the (still-unsolved) connect to the next player, keeping the clues revealed.
+// If it comes back round to the player it started with, nobody got it.
+function connectBounce() {
+  const n = state.players.length;
+  if (n <= 1) { state.anchorIdx = state.originalPlayerIdx; return connectReveal(-1, 0); }
+  state.currentPlayerIdx = (state.currentPlayerIdx + 1) % n;
+  if (state.currentPlayerIdx === state.originalPlayerIdx) {
+    state.anchorIdx = state.originalPlayerIdx;   // full loop, nobody got it (tie-break a)
+    return connectReveal(-1, 0);
+  }
+  state.matchAnnounced = false;
+  renderConnect();
+  speak(`${state.players[state.currentPlayerIdx].name}, over to you.`);
+  startListening();
+}
+
+async function connectReveal(playerIdx, pts) {
+  stopListening(); stopSpeaking(); clearTimer();
+  state.phase = 'reveal';
+  renderHeader();
+  const q = state.currentQuestion;
+  const main = $('#game-main');
+  main.innerHTML = '';
+  main.appendChild(el('div', { class: 'player-up' },
+    playerIdx >= 0 ? `✓ ${state.players[playerIdx].name} — +${pts}!` : '— Nobody got it.'));
+  main.appendChild(el('div', { class: 'answer-reveal' }, q.answer));
+  if (q.explanation) main.appendChild(el('div', { class: 'explanation' }, q.explanation));
+  main.appendChild(el('button', {
+    class: 'big',
+    onclick: () => { state.questionInRound++; nextQuestionInRound(); },
+  }, 'Next →'));
+  await speak(`The connection: ${q.answer}.`);
 }
 
 // ----- Long Tail (end-of-game callback round) -----
@@ -1325,6 +1634,43 @@ async function loadQuestions() {
   }
   const cnt = $('#question-count');
   if (cnt) cnt.textContent = `${state.questions.length} questions in the bank.`;
+  renderSourceOptions();
+}
+
+// Enable/disable the "All new" / "Mainly new" options based on how many new
+// (today/yesterday) questions exist, and pick a sensible default.
+function renderSourceOptions() {
+  const nNew = countNewRegular();
+  const label = document.querySelector('.src-count[data-src="new"]');
+  if (label) label.textContent = nNew ? `(${nNew} available)` : '(none)';
+
+  const radios = {
+    new: document.querySelector('input[name="qsource"][value="new"]'),
+    mainly: document.querySelector('input[name="qsource"][value="mainly"]'),
+    full: document.querySelector('input[name="qsource"][value="full"]'),
+  };
+  if (!radios.new) return;
+
+  const allowAll = nNew >= NEW_MIN_ALL;
+  const allowMainly = nNew >= NEW_MIN_MAINLY;
+  radios.new.disabled = !allowAll;
+  radios.mainly.disabled = !allowMainly;
+  radios.new.closest('.source-opt').classList.toggle('disabled', !allowAll);
+  radios.mainly.closest('.source-opt').classList.toggle('disabled', !allowMainly);
+
+  // Default: All new if there's a fresh set, else Full database.
+  const def = allowAll ? 'new' : 'full';
+  Object.values(radios).forEach(r => { r.checked = (r.value === def); });
+  state.questionSource = def;
+
+  const hint = $('#source-hint');
+  if (hint) {
+    hint.textContent = allowAll
+      ? `${nNew} fresh questions ready — playing All new by default.`
+      : allowMainly
+        ? `Only ${nNew} new questions — "All new" is off; "Mainly new" and "Full database" are available.`
+        : `No fresh set (need ${NEW_MIN_MAINLY}+ made today or yesterday). Ask Claude to make a new batch to unlock All / Mainly new.`;
+  }
 }
 
 function init() {
@@ -1366,6 +1712,9 @@ function init() {
   $('#auto-judge').addEventListener('change', e => state.autoJudge = e.target.checked);
   $('#timer-enabled').addEventListener('change', e => state.timerEnabled = e.target.checked);
   $('#avoid-repeats').addEventListener('change', e => state.avoidRepeats = e.target.checked);
+  $$('input[name="qsource"]').forEach(r => r.addEventListener('change', e => {
+    if (e.target.checked) state.questionSource = e.target.value;
+  }));
   $('#iranian-mode').addEventListener('change', e => {
     state.iranianMode = e.target.checked;
     // Re-render rounds so the theme dropdown swaps to the right option set,
