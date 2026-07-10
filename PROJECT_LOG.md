@@ -227,6 +227,27 @@ Big feature + content session. **Bank now at 2,132 questions** (was 1,989; +143 
 
 **Verification:** questions.json ↔ questions.js in sync (2,132 each), 0 duplicate IDs, 0 empty answer/accept, all 20 connects have exactly 3 clues, 57 callbacks preserved, `app.js` passes `node --check`, all new functions defined once. **Not yet browser click-tested or pushed to GitHub Pages** — Sharan to play-test today.
 
+### Difficulty tiers, easier batch, current-affairs + personalities themes, default lineup (2026-07-10)
+
+Feedback from the 2026-07-09 play: **questions were too hard**; the Connect round was the hit (they saw 4 of 20). This session made play easier and more contemporary. **Bank now 2,219** (+87 net).
+
+**Scoring / mechanics fixes:**
+- **Infinite bounce now awards full points on a bounce** (was +5). A halved bounce score unfairly penalised the seat after a weak player — that seat only ever received the weak player's failed questions as bounces, so it could never earn a direct +10. Now whoever answers correctly (direct or bounce) gets full points. On-screen label: "Bounce — full points".
+- **"New" redefined as the latest batch only** (the most recent `created` date among regular questions, if today/yesterday) instead of a rolling 2-day window. So the moment a fresh batch is generated, yesterday's stops counting as "new" — fixes yesterday's too-hard set lingering in "All new".
+- **Connects and Theme rounds are now source-agnostic** — they draw from the FULL bank regardless of the "Question set" selector, so a Connect / Films / Business / Current Affairs round works even in "All new" (which otherwise restricts to today's batch). Long Question and Bid rounds still respect the selector.
+
+**Two new themes:** `current_affairs` and `personalities` added to the Theme dropdown.
+
+**Content: +87 net (100 generated, 13 dropped as answer-dupes), stamped `created: 2026-07-10`.** Difficulty-tiered via 5 background writer agents: target 40 easy / 40 medium / 20 hard (`difficulty: 1/2/3`); after dedupe the net was 32 easy / 37 medium / 18 hard. **31 tagged `current_affairs`** (settled 2020-onward events — RCB 2025, Champions Trophy 2025, Payal Kapadia at Cannes, Sengol, Statio Shiv Shakti, Nari Shakti Vandan Adhiniyam, Shubhanshu Shukla, etc.). Writers self-verified facts via web lookup; IDs `q0710NNN`.
+
+**Personalities retro-tag:** a classifier (6 parallel chunks) scanned the whole bank and flagged 1,243 existing questions whose answer is a real person; those were tagged `personalities`. **Personalities theme now ~1,278 questions.**
+
+**Audit (at Sharan's request):** reviewed the finite/high-risk pools that feed today's quiz — 31 current-affairs (30 correct; **fixed 1 date error**: Modi Stadium "2020" → reopened 2021), 20 connects (all sound), 18 new hard (all correct and fair). Easy tier = household names (low risk); Films/Business themes draw from the previously fact-checked bank.
+
+**Default round lineup locked** (in `init()` — `state.rounds`): Long, Theme Films, Bid, Theme Business, Long, Connect, Theme Current Affairs, Bid (3 themes × 4 Qs, 2 long, 2 bid, 1 connect). This exact structure loads every game; specific questions still rotate randomly from the vetted pools (picker untouched).
+
+**Note:** today's 87 new have no `bid_eligible` flags, so Bid rounds in "All new" fall through to serving today's regular questions (all clean self-contained "name this" — fine for Bid). Backups: `*.bak_before_2026-07-10`.
+
 ## Multiplayer "next level" idea (not yet built)
 
 Everyone opens the page on their phone; only the active player can buzz / mark the answer; everyone sees the same question and live scores. Requires real-time state sync — static HTML alone can't do this. Cleanest path: **Firebase Realtime Database** (free tier; SDK runs in the browser; ~1-2 hours to wire). Adds: a room-code join flow, a per-device player identity, conditional UI (active player sees buttons, others see "waiting"). Decision deferred — revisit if the family-quiz format becomes a tradition.

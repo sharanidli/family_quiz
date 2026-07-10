@@ -12,6 +12,8 @@ const THEME_OPTIONS = [
   { id: 'polity',      label: 'Polity & Constitution' },
   { id: 'south_india', label: 'South India' },
   { id: 'languages',   label: 'Languages & Literature' },
+  { id: 'current_affairs', label: 'Current Affairs (this decade)' },
+  { id: 'personalities',   label: 'Personalities' },
 ];
 
 // Theme options shown when Iranian Mode is on. Picker filters out everything India-specific.
@@ -224,7 +226,9 @@ function buildPool() {
   state.pool.byTopic = {};
   state.pool.byTheme = {};
   state.pool.connect = [];
-  state.activeQuestions.forEach(q => {
+  // Theme rounds and Connect draw from the FULL bank (source-agnostic), so a themed or
+  // connect round can use older / yesterday's questions even when "All new" is selected.
+  state.questions.forEach(q => {
     if (q.callback) return;                 // callbacks feed the end-game Long Tail only
     if (q.connect) { state.pool.connect.push(q); return; }  // connects feed Connect rounds only
     const t = q.topic;
@@ -240,6 +244,7 @@ function buildPool() {
   Object.values(state.pool.byTopic).forEach(arr => shuffle(arr));
   Object.values(state.pool.byTheme).forEach(arr => shuffle(arr));
   shuffle(state.pool.connect);
+  // Long Question / Bid rounds respect the "Question set" selector (All new / Mainly / Full).
   state.pool.all = shuffle(state.activeQuestions.filter(q => !q.callback && !q.connect));
 }
 
@@ -275,7 +280,10 @@ function iranianModeFilter() {
 }
 
 // ----- Question freshness / source selector -----
-// "New" = created today or yesterday, by the device clock.
+// "New" = the most recent generation batch (the latest `created` date among regular
+// questions), and only if that batch is today or yesterday. Defining it as the *latest*
+// batch — rather than a rolling 2-day window — means yesterday's set stops counting as
+// "new" the moment you generate a fresh one today.
 const NEW_MIN_ALL = 40;      // need at least this many new questions to allow "All new"
 const NEW_MIN_MAINLY = 25;   // ...and this many to allow "Mainly new"
 const CONNECT_POINTS = [15, 10, 5];  // points if the connection is got on clue 1 / 2 / 3
@@ -290,36 +298,51 @@ function recentDateSet() {
   const yest = new Date(); yest.setDate(yest.getDate() - 1);
   return new Set([localYMD(today), localYMD(yest)]);
 }
-function isNewQuestion(q, recent) { return !!q.created && recent.has(q.created); }
+
+// The date of the latest regular-question batch, or null if that batch is older than
+// yesterday (i.e., no fresh set — fall back to Full database).
+function newBatchDate() {
+  let latest = '';
+  for (const q of state.questions) {
+    if (q.callback || q.connect) continue;
+    if (q.created && q.created > latest) latest = q.created;
+  }
+  return recentDateSet().has(latest) ? latest : null;
+}
+function isNewQuestion(q, batchDate) {
+  return !!batchDate && q.created === batchDate && !q.callback && !q.connect;
+}
 
 // Count of new *playable* regular questions (callbacks and connects feed their own rounds).
 function countNewRegular() {
-  const recent = recentDateSet();
-  return state.questions.filter(q => !q.callback && !q.connect && isNewQuestion(q, recent)).length;
+  const d = newBatchDate();
+  if (!d) return 0;
+  return state.questions.filter(q => isNewQuestion(q, d)).length;
 }
 
-// Build the in-play set for this game based on the chosen source. Callbacks are always
-// included (they only ever feed the end-game Long Tail, which is source-agnostic).
+// Build the in-play set for this game based on the chosen source. Connects and callbacks
+// are ALWAYS included (they feed their own rounds — Connect / end-game Long Tail — and are
+// source-agnostic), so a Connect round works even in "All new".
 function buildActiveQuestions() {
   const all = state.questions;
   const callbacks = all.filter(q => q.callback);
+  const connects = all.filter(q => q.connect);
   if (state.questionSource === 'full' || state.iranianMode) {
     state.activeQuestions = all.slice();
     return;
   }
-  const recent = recentDateSet();
-  const isNew = (q) => isNewQuestion(q, recent);
-  const pool = all.filter(q => !q.callback);          // regular + connect
+  const d = newBatchDate();
+  const regs = all.filter(q => !q.callback && !q.connect);
   if (state.questionSource === 'new') {
-    state.activeQuestions = pool.filter(isNew).concat(callbacks);
+    state.activeQuestions = regs.filter(q => isNewQuestion(q, d)).concat(connects, callbacks);
     return;
   }
-  // 'mainly' — all new, plus ~1 old for every 3 new (≈ 3:1 blend), then callbacks.
-  const newQs = pool.filter(isNew);
-  const oldQs = pool.filter(q => !isNew(q));
+  // 'mainly' — all new, plus ~1 old for every 3 new (≈ 3:1 blend), then connects + callbacks.
+  const newQs = regs.filter(q => isNewQuestion(q, d));
+  const oldQs = regs.filter(q => !isNewQuestion(q, d));
   shuffle(oldQs);
-  const k = Math.round(newQs.filter(q => !q.connect).length / 3);
-  state.activeQuestions = newQs.concat(oldQs.slice(0, k)).concat(callbacks);
+  const k = Math.round(newQs.length / 3);
+  state.activeQuestions = newQs.concat(oldQs.slice(0, k), connects, callbacks);
 }
 
 function nextQuestion(opts = {}) {
@@ -987,7 +1010,7 @@ function renderQuestion(q, opts = {}) {
   const headerEl = el('div', { class: 'player-up' });
   const headerBits = [player.name];
   if (opts.bid) headerBits.push(`Wager: ${opts.bid}`);
-  if (opts.passing) headerBits.push('Pass attempt — 5 pts');
+  if (opts.passing) headerBits.push('Bounce — full points');
   headerEl.appendChild(document.createTextNode(headerBits.join(' • ') + ' '));
   if (state.timerEnabled) {
     headerEl.appendChild(el('span', { id: 'timer', class: 'timer-chip' }, '⏱ 2:00'));
@@ -1063,9 +1086,11 @@ function markRight() {
   stopListening(); stopSpeaking(); clearTimer();
   const r = state.rounds[state.currentRoundIdx];
   const player = state.players[state.currentPlayerIdx];
+  // Full points to whoever answers correctly — direct OR on a bounce. (A halved
+  // bounce score unfairly penalised the seat after a weak player, who only ever
+  // received that player's failed questions as bounces.)
   let pts = 10;
   if (r.type === 'bid') pts = state.currentBid;
-  else if (state.phase === 'pass-attempt') pts = 5;
   player.score += pts;
   logEntry(player, 'right', pts);
   // Infinite bounce: control now follows this player — next question starts to their left.
@@ -1082,7 +1107,7 @@ function markWrong() {
   if (r.type === 'bid') { pts = -state.currentBid; player.score += pts; }
   logEntry(player, 'wrong', pts);
   // Bid: wager already covers risk, no cascade.
-  // Long / Theme: cascade to the next player like a Pass — they get a +5 chance.
+  // Long / Theme: cascade to the next player like a Pass — they get a full-points chance.
   if (r.type === 'bid') return reveal('wrong');
   cascadeToNext('wrong');
 }
@@ -1096,7 +1121,7 @@ function markPass() {
 }
 
 // Cascade the question to the next player in the ring (Long & Theme rounds, >1 player).
-// Used by both Pass and Wrong. The player who finally answers correctly gets +5.
+// Used by both Pass and Wrong. The player who finally answers correctly gets full points.
 function cascadeToNext(reason) {
   const r = state.rounds[state.currentRoundIdx];
   const canCascade = (r.type === 'long' || r.type === 'theme') && state.players.length > 1;
@@ -1682,9 +1707,14 @@ function init() {
     { id: 2, name: '', score: 0, log: [] },
   ];
   state.rounds = [
-    { type: 'long',  count: 2 },
-    { type: 'theme', count: 6, theme: 'cricket' },
-    { type: 'bid',   count: 1 },
+    { type: 'long',    count: 2 },
+    { type: 'theme',   count: 4, theme: 'cinema' },
+    { type: 'bid',     count: 1 },
+    { type: 'theme',   count: 4, theme: 'business' },
+    { type: 'long',    count: 2 },
+    { type: 'connect', count: 3 },
+    { type: 'theme',   count: 4, theme: 'current_affairs' },
+    { type: 'bid',     count: 1 },
   ];
 
   $('#add-player-btn').addEventListener('click', addPlayer);

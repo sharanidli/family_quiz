@@ -12,7 +12,10 @@ window.QUESTIONS_DATA = {
         "kapil"
       ],
       "explanation": "Kapil's catch off Madan Lal's bowling is widely seen as the turning point of the 1983 final.",
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c002",
@@ -26,7 +29,10 @@ window.QUESTIONS_DATA = {
         "sunny gavaskar",
         "sunny"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c003",
@@ -38,7 +44,10 @@ window.QUESTIONS_DATA = {
         "kumble",
         "jumbo"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c004",
@@ -50,7 +59,8 @@ window.QUESTIONS_DATA = {
         "mithali"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -65,7 +75,10 @@ window.QUESTIONS_DATA = {
         "dravid",
         "the wall"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c006",
@@ -79,7 +92,10 @@ window.QUESTIONS_DATA = {
         "mahendra singh dhoni",
         "mahi"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c007",
@@ -93,7 +109,10 @@ window.QUESTIONS_DATA = {
         "viru",
         "veeru"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c008",
@@ -107,7 +126,10 @@ window.QUESTIONS_DATA = {
         "the little master",
         "the master blaster"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c009",
@@ -119,7 +141,10 @@ window.QUESTIONS_DATA = {
         "sachin",
         "tendulkar"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c010",
@@ -133,7 +158,8 @@ window.QUESTIONS_DATA = {
         "ashwin"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -149,7 +175,8 @@ window.QUESTIONS_DATA = {
         "very very special laxman"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -164,7 +191,10 @@ window.QUESTIONS_DATA = {
         "dada",
         "saurav ganguly"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c013",
@@ -176,7 +206,10 @@ window.QUESTIONS_DATA = {
         "dhoni",
         "mahendra singh dhoni"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c014",
@@ -189,7 +222,10 @@ window.QUESTIONS_DATA = {
         "kohli",
         "king kohli"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c015",
@@ -201,7 +237,10 @@ window.QUESTIONS_DATA = {
         "harbhajan",
         "bhajji"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c016",
@@ -214,7 +253,10 @@ window.QUESTIONS_DATA = {
         "rohit",
         "hitman"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c017",
@@ -226,7 +268,10 @@ window.QUESTIONS_DATA = {
         "zaheer",
         "zak"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c018",
@@ -238,7 +283,10 @@ window.QUESTIONS_DATA = {
         "sachin",
         "tendulkar"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c019",
@@ -250,7 +298,10 @@ window.QUESTIONS_DATA = {
         "suresh raina",
         "raina"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c020",
@@ -261,7 +312,10 @@ window.QUESTIONS_DATA = {
         "jasprit bumrah",
         "bumrah"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c021",
@@ -273,7 +327,10 @@ window.QUESTIONS_DATA = {
         "harmanpreet",
         "harman"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c022",
@@ -287,7 +344,8 @@ window.QUESTIONS_DATA = {
         "k l rahul"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -303,7 +361,10 @@ window.QUESTIONS_DATA = {
         "mansoor ali khan pataudi",
         "nawab of pataudi"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c025",
@@ -316,7 +377,10 @@ window.QUESTIONS_DATA = {
         "yuvraj",
         "yuvi"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f001",
@@ -328,7 +392,10 @@ window.QUESTIONS_DATA = {
         "dilip kumar",
         "dilip"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f002",
@@ -342,7 +409,10 @@ window.QUESTIONS_DATA = {
         "big b",
         "bachchan"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f003",
@@ -375,7 +445,10 @@ window.QUESTIONS_DATA = {
         "satyajit ray",
         "ray"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f006",
@@ -400,7 +473,10 @@ window.QUESTIONS_DATA = {
         "shahrukh",
         "shah rukh"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f008",
@@ -436,7 +512,10 @@ window.QUESTIONS_DATA = {
         "aishwarya rai bachchan",
         "aishwarya"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f011",
@@ -450,7 +529,8 @@ window.QUESTIONS_DATA = {
         "superstar rajinikanth"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -478,7 +558,10 @@ window.QUESTIONS_DATA = {
         "ashutosh gowariker",
         "gowariker"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f014",
@@ -489,7 +572,10 @@ window.QUESTIONS_DATA = {
         "ashutosh gowariker",
         "gowariker"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f015",
@@ -499,7 +585,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "madhubala"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f016",
@@ -514,7 +603,8 @@ window.QUESTIONS_DATA = {
         "allah rakha rahman"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -570,7 +660,8 @@ window.QUESTIONS_DATA = {
         "adoor"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -596,7 +687,8 @@ window.QUESTIONS_DATA = {
         "nandamuri taraka rama rao"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -632,7 +724,10 @@ window.QUESTIONS_DATA = {
         "pandit nehru",
         "panditji"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h002",
@@ -655,7 +750,10 @@ window.QUESTIONS_DATA = {
         "mahatma gandhi",
         "the mahatma"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h004",
@@ -679,7 +777,10 @@ window.QUESTIONS_DATA = {
         "shah jahan",
         "shahjahan"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h006",
@@ -691,7 +792,10 @@ window.QUESTIONS_DATA = {
         "akbar",
         "akbar the great"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h007",
@@ -704,7 +808,10 @@ window.QUESTIONS_DATA = {
         "shivaji",
         "shivaji bhosale"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h008",
@@ -719,7 +826,10 @@ window.QUESTIONS_DATA = {
         "rani of jhansi",
         "jhansi ki rani"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h009",
@@ -732,7 +842,10 @@ window.QUESTIONS_DATA = {
         "shivaram rajguru",
         "sukhdev thapar"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h010",
@@ -746,7 +859,10 @@ window.QUESTIONS_DATA = {
         "subhas bose",
         "bose"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h011",
@@ -785,7 +901,8 @@ window.QUESTIONS_DATA = {
         "tiger of mysore"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -801,7 +918,8 @@ window.QUESTIONS_DATA = {
         "kabiguru"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -818,7 +936,10 @@ window.QUESTIONS_DATA = {
         "patel",
         "vallabh bhai patel"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h016",
@@ -833,7 +954,10 @@ window.QUESTIONS_DATA = {
         "bhimrao ambedkar",
         "babasaheb"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h017",
@@ -846,7 +970,10 @@ window.QUESTIONS_DATA = {
         "lokmanya tilak",
         "lokmanya"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h018",
@@ -892,7 +1019,10 @@ window.QUESTIONS_DATA = {
         "indira",
         "mrs gandhi"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h022",
@@ -916,7 +1046,10 @@ window.QUESTIONS_DATA = {
         "jahangir",
         "nur ud din muhammad jahangir"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h024",
@@ -930,7 +1063,10 @@ window.QUESTIONS_DATA = {
         "bahadur shah",
         "bahadur shah 2"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h025",
@@ -942,7 +1078,10 @@ window.QUESTIONS_DATA = {
         "lord mountbatten",
         "louis mountbatten"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "g001",
@@ -1143,7 +1282,10 @@ window.QUESTIONS_DATA = {
         "dhirubhai",
         "dhirajlal hirachand ambani"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b003",
@@ -1175,7 +1317,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "keshub mahindra"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b006",
@@ -1232,7 +1377,10 @@ window.QUESTIONS_DATA = {
         "azim premji",
         "premji"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b011",
@@ -1277,7 +1425,8 @@ window.QUESTIONS_DATA = {
         "varghese kurien"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -1363,7 +1512,10 @@ window.QUESTIONS_DATA = {
         "pratibha patil",
         "pratibha devisingh patil"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p007",
@@ -1398,7 +1550,10 @@ window.QUESTIONS_DATA = {
         "desai",
         "morarji"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p010",
@@ -1553,7 +1708,10 @@ window.QUESTIONS_DATA = {
         "lataji",
         "didi"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u002",
@@ -1565,7 +1723,10 @@ window.QUESTIONS_DATA = {
         "pandit ravi shankar",
         "panditji"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u003",
@@ -1577,7 +1738,10 @@ window.QUESTIONS_DATA = {
         "zakir",
         "ustad zakir hussain"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u004",
@@ -1590,7 +1754,10 @@ window.QUESTIONS_DATA = {
         "asha",
         "asha tai"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u005",
@@ -1604,7 +1771,10 @@ window.QUESTIONS_DATA = {
         "ustad nusrat fateh ali khan",
         "nfak"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u006",
@@ -1617,7 +1787,8 @@ window.QUESTIONS_DATA = {
         "m s subbulakshmi"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -1631,7 +1802,10 @@ window.QUESTIONS_DATA = {
         "bhimsen",
         "pandit bhimsen joshi"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u008",
@@ -1645,7 +1819,10 @@ window.QUESTIONS_DATA = {
         "panchamda",
         "rahul dev burman"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u009",
@@ -1657,7 +1834,10 @@ window.QUESTIONS_DATA = {
         "s d burman",
         "sachin dev burman"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u010",
@@ -1668,7 +1848,10 @@ window.QUESTIONS_DATA = {
         "kumar sanu",
         "sanu"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k001",
@@ -1691,7 +1874,10 @@ window.QUESTIONS_DATA = {
         "vikram seth",
         "seth"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k003",
@@ -1717,7 +1903,8 @@ window.QUESTIONS_DATA = {
         "rasipuram krishnaswami iyer narayanaswami"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -1732,7 +1919,8 @@ window.QUESTIONS_DATA = {
         "bibhuti bhushan bandyopadhyay"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -1747,7 +1935,10 @@ window.QUESTIONS_DATA = {
         "v s naipaul",
         "sir vidiadhar surajprasad naipaul"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k007",
@@ -1759,7 +1950,10 @@ window.QUESTIONS_DATA = {
         "adiga",
         "arvind adiga"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k008",
@@ -1772,7 +1966,8 @@ window.QUESTIONS_DATA = {
         "tagore"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -1785,7 +1980,10 @@ window.QUESTIONS_DATA = {
         "khushwant singh",
         "khushwant"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k010",
@@ -1796,7 +1994,10 @@ window.QUESTIONS_DATA = {
         "amitav ghosh",
         "ghosh"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n001",
@@ -1820,7 +2021,10 @@ window.QUESTIONS_DATA = {
         "kalpana chawla",
         "kalpana"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n003",
@@ -1832,7 +2036,10 @@ window.QUESTIONS_DATA = {
         "ramanujan",
         "srinivas ramanujan"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n004",
@@ -1846,7 +2053,10 @@ window.QUESTIONS_DATA = {
         "gukesh dommaraju",
         "gukesh d"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n005",
@@ -1859,7 +2069,10 @@ window.QUESTIONS_DATA = {
         "mangte chungneijang mary kom",
         "mary"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc01",
@@ -1871,7 +2084,10 @@ window.QUESTIONS_DATA = {
         "ravi shastri",
         "shastri"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc02",
@@ -1885,7 +2101,10 @@ window.QUESTIONS_DATA = {
         "jimmy amarnath",
         "jimmy"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc03",
@@ -1898,7 +2117,10 @@ window.QUESTIONS_DATA = {
         "sehwag",
         "viru"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc04",
@@ -1913,7 +2135,10 @@ window.QUESTIONS_DATA = {
         "sky",
         "surya"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf01",
@@ -1925,7 +2150,10 @@ window.QUESTIONS_DATA = {
         "ritwik ghatak",
         "ghatak"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf02",
@@ -1975,7 +2203,10 @@ window.QUESTIONS_DATA = {
         "bismil",
         "ramprasad bismil"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh03",
@@ -1988,7 +2219,10 @@ window.QUESTIONS_DATA = {
         "allan octavian hume",
         "ao hume"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh04",
@@ -2001,7 +2235,10 @@ window.QUESTIONS_DATA = {
         "vidyasagar",
         "iswar chandra vidyasagar"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh05",
@@ -2016,7 +2253,10 @@ window.QUESTIONS_DATA = {
         "ram mohan",
         "raja rammohan roy"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hg01",
@@ -2052,7 +2292,8 @@ window.QUESTIONS_DATA = {
         "nadella"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -2068,7 +2309,8 @@ window.QUESTIONS_DATA = {
         "sundararajan pichai"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -2085,7 +2327,10 @@ window.QUESTIONS_DATA = {
         "savarkar",
         "veer savarkar"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hm01",
@@ -2128,7 +2373,10 @@ window.QUESTIONS_DATA = {
         "ustad allauddin khan",
         "baba allauddin khan"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu02",
@@ -2142,7 +2390,10 @@ window.QUESTIONS_DATA = {
         "bankim",
         "bankimchandra chattopadhyay"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hk01",
@@ -2155,7 +2406,10 @@ window.QUESTIONS_DATA = {
         "nehru",
         "pandit nehru"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hk02",
@@ -2169,7 +2423,10 @@ window.QUESTIONS_DATA = {
         "kalki",
         "krishnamurthy"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hk03",
@@ -2180,7 +2437,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "kiran desai"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn01",
@@ -2192,7 +2452,10 @@ window.QUESTIONS_DATA = {
         "abhinav bindra",
         "bindra"
       ],
-      "created": "2026-05-09"
+      "created": "2026-05-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn02",
@@ -2208,7 +2471,8 @@ window.QUESTIONS_DATA = {
         "vishy"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-09"
     },
@@ -2221,7 +2485,10 @@ window.QUESTIONS_DATA = {
         "madan lal",
         "madanlal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c027",
@@ -2232,7 +2499,10 @@ window.QUESTIONS_DATA = {
         "roger binny",
         "binny"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c028",
@@ -2243,7 +2513,10 @@ window.QUESTIONS_DATA = {
         "sandeep patil",
         "patil"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c029",
@@ -2257,7 +2530,8 @@ window.QUESTIONS_DATA = {
         "mohammed azharuddin"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -2272,7 +2546,10 @@ window.QUESTIONS_DATA = {
         "k srikkanth",
         "kris srikkanth"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c031",
@@ -2285,7 +2562,10 @@ window.QUESTIONS_DATA = {
         "vengsarkar",
         "the colonel"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c032",
@@ -2298,7 +2578,8 @@ window.QUESTIONS_DATA = {
         "j srinath"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -2311,7 +2592,10 @@ window.QUESTIONS_DATA = {
         "ajit agarkar",
         "agarkar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c034",
@@ -2324,7 +2608,10 @@ window.QUESTIONS_DATA = {
         "mandhana",
         "smriti"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c035",
@@ -2336,7 +2623,10 @@ window.QUESTIONS_DATA = {
         "jhulan",
         "goswami"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc05",
@@ -2350,7 +2640,10 @@ window.QUESTIONS_DATA = {
         "chandrasekhar",
         "chandra"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc06",
@@ -2363,7 +2656,10 @@ window.QUESTIONS_DATA = {
         "bedi",
         "bishan bedi"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc07",
@@ -2377,7 +2673,10 @@ window.QUESTIONS_DATA = {
         "vinoomankad",
         "mulvantrai mankad"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc08",
@@ -2391,7 +2690,10 @@ window.QUESTIONS_DATA = {
         "nayudu",
         "cottari kanakaiya nayudu"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc09",
@@ -2403,7 +2705,10 @@ window.QUESTIONS_DATA = {
         "pankaj roy",
         "roy"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc10",
@@ -2416,7 +2721,10 @@ window.QUESTIONS_DATA = {
         "umrigar",
         "pahlan umrigar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc11",
@@ -2429,7 +2737,8 @@ window.QUESTIONS_DATA = {
         "gupte"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -2446,7 +2755,8 @@ window.QUESTIONS_DATA = {
         "motganhalli laxminarsu jaisimha"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -2475,7 +2785,8 @@ window.QUESTIONS_DATA = {
         "erapalli prasanna"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -2488,7 +2799,10 @@ window.QUESTIONS_DATA = {
         "dharmendra",
         "dharmendra deol"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f027",
@@ -2500,7 +2814,10 @@ window.QUESTIONS_DATA = {
         "soumitra",
         "chatterjee"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f028",
@@ -2515,7 +2832,8 @@ window.QUESTIONS_DATA = {
         "marudhur gopalan ramachandran"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -2528,7 +2846,10 @@ window.QUESTIONS_DATA = {
         "ramesh sippy",
         "sippy"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f030",
@@ -2538,7 +2859,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "chetan anand"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f031",
@@ -2549,7 +2873,10 @@ window.QUESTIONS_DATA = {
         "hema malini",
         "hema"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f032",
@@ -2561,7 +2888,10 @@ window.QUESTIONS_DATA = {
         "helen richardson",
         "helen ann richardson"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f033",
@@ -2575,7 +2905,10 @@ window.QUESTIONS_DATA = {
         "dixit",
         "madhuri dixit nene"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f034",
@@ -2586,7 +2919,10 @@ window.QUESTIONS_DATA = {
         "mira nair",
         "nair"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f035",
@@ -2597,7 +2933,10 @@ window.QUESTIONS_DATA = {
         "yash chopra",
         "chopra"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf04",
@@ -2609,7 +2948,10 @@ window.QUESTIONS_DATA = {
         "om puri",
         "puri"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf05",
@@ -2621,7 +2963,10 @@ window.QUESTIONS_DATA = {
         "smita patil",
         "smita"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf06",
@@ -2634,7 +2979,8 @@ window.QUESTIONS_DATA = {
         "sen"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -2723,7 +3069,10 @@ window.QUESTIONS_DATA = {
         "naseer",
         "naseeruddin"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf13",
@@ -2735,7 +3084,10 @@ window.QUESTIONS_DATA = {
         "shyam benegal",
         "benegal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h026",
@@ -2757,7 +3109,10 @@ window.QUESTIONS_DATA = {
         "guru gobind singh",
         "gobind singh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h028",
@@ -2769,7 +3124,10 @@ window.QUESTIONS_DATA = {
         "guru nanak dev",
         "nanak"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h029",
@@ -2781,7 +3139,10 @@ window.QUESTIONS_DATA = {
         "maharaja ranjit singh",
         "sher e punjab"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h030",
@@ -2793,7 +3154,10 @@ window.QUESTIONS_DATA = {
         "sarojini",
         "naidu"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h031",
@@ -2805,7 +3169,10 @@ window.QUESTIONS_DATA = {
         "naoroji",
         "dadabhai"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h033",
@@ -2817,7 +3184,10 @@ window.QUESTIONS_DATA = {
         "malaviya",
         "mahamana"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h034",
@@ -2829,7 +3199,10 @@ window.QUESTIONS_DATA = {
         "lajpat rai",
         "punjab kesari"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h035",
@@ -2842,7 +3215,10 @@ window.QUESTIONS_DATA = {
         "masterda",
         "master da"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h036",
@@ -2854,7 +3230,10 @@ window.QUESTIONS_DATA = {
         "ahilyabai",
         "ahilya bai holkar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h037",
@@ -2865,7 +3244,10 @@ window.QUESTIONS_DATA = {
         "annie besant",
         "besant"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h038",
@@ -2876,7 +3258,10 @@ window.QUESTIONS_DATA = {
         "udham singh",
         "udham"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh06",
@@ -2889,7 +3274,10 @@ window.QUESTIONS_DATA = {
         "aurobindo",
         "aurobindo ghose"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh07",
@@ -2902,7 +3290,10 @@ window.QUESTIONS_DATA = {
         "birsa",
         "bhagwan birsa munda"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh08",
@@ -2914,7 +3305,10 @@ window.QUESTIONS_DATA = {
         "begum hazrat mahal",
         "hazrat mahal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh09",
@@ -2925,7 +3319,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "nadir shah"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh10",
@@ -2939,7 +3336,10 @@ window.QUESTIONS_DATA = {
         "abdali",
         "ahmed shah abdali"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh11",
@@ -2955,7 +3355,10 @@ window.QUESTIONS_DATA = {
         "harihara i",
         "bukka i"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh12",
@@ -2969,7 +3372,10 @@ window.QUESTIONS_DATA = {
         "b k dutt",
         "dutt"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh13",
@@ -2983,7 +3389,10 @@ window.QUESTIONS_DATA = {
         "razia",
         "razziya"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh14",
@@ -2995,7 +3404,10 @@ window.QUESTIONS_DATA = {
         "hyder ali",
         "haider ali"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh15",
@@ -3008,7 +3420,10 @@ window.QUESTIONS_DATA = {
         "nizamuddin",
         "hazrat nizamuddin"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh16",
@@ -3022,7 +3437,10 @@ window.QUESTIONS_DATA = {
         "mahalanobis",
         "prasanta chandra mahalanobis"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh17",
@@ -3037,7 +3455,8 @@ window.QUESTIONS_DATA = {
         "maulana azad"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3238,7 +3657,10 @@ window.QUESTIONS_DATA = {
         "mukesh ambani",
         "mukesh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b017",
@@ -3249,7 +3671,10 @@ window.QUESTIONS_DATA = {
         "anand mahindra",
         "mahindra"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b018",
@@ -3260,7 +3685,10 @@ window.QUESTIONS_DATA = {
         "indra nooyi",
         "nooyi"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b019",
@@ -3271,7 +3699,10 @@ window.QUESTIONS_DATA = {
         "lakshmi mittal",
         "mittal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b020",
@@ -3282,7 +3713,10 @@ window.QUESTIONS_DATA = {
         "kishore biyani",
         "biyani"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b021",
@@ -3293,7 +3727,10 @@ window.QUESTIONS_DATA = {
         "naresh goyal",
         "goyal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b022",
@@ -3304,7 +3741,10 @@ window.QUESTIONS_DATA = {
         "vijay mallya",
         "mallya"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b023",
@@ -3319,7 +3759,8 @@ window.QUESTIONS_DATA = {
         "infosys narayana murthy"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3333,7 +3774,10 @@ window.QUESTIONS_DATA = {
         "ratan tata",
         "ratan naval tata"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb04",
@@ -3346,7 +3790,10 @@ window.QUESTIONS_DATA = {
         "j r d tata",
         "jehangir ratanji dadabhoy tata"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb05",
@@ -3361,7 +3808,10 @@ window.QUESTIONS_DATA = {
         "birla",
         "ghanshyamdas birla"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb06",
@@ -3374,7 +3824,10 @@ window.QUESTIONS_DATA = {
         "hirachand",
         "walchand"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb07",
@@ -3389,7 +3842,8 @@ window.QUESTIONS_DATA = {
         "mazumdar"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3403,7 +3857,10 @@ window.QUESTIONS_DATA = {
         "falguni nayar",
         "nayar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb09",
@@ -3416,7 +3873,10 @@ window.QUESTIONS_DATA = {
         "aggarwal",
         "bhavish"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p011",
@@ -3429,7 +3889,8 @@ window.QUESTIONS_DATA = {
         "s radhakrishnan"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3446,7 +3907,8 @@ window.QUESTIONS_DATA = {
         "a p j abdul kalam"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3462,7 +3924,8 @@ window.QUESTIONS_DATA = {
         "kocheril raman narayanan"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3476,7 +3939,10 @@ window.QUESTIONS_DATA = {
         "manmohan",
         "dr manmohan singh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p015",
@@ -3489,7 +3955,10 @@ window.QUESTIONS_DATA = {
         "atal vajpayee",
         "atalji"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp02",
@@ -3502,7 +3971,10 @@ window.QUESTIONS_DATA = {
         "dr rajendra prasad",
         "prasad"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp03",
@@ -3516,7 +3988,10 @@ window.QUESTIONS_DATA = {
         "benegal narsing rau",
         "benegal rau"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp04",
@@ -3531,7 +4006,8 @@ window.QUESTIONS_DATA = {
         "t n seshachari"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3548,7 +4024,8 @@ window.QUESTIONS_DATA = {
         "rao"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3562,7 +4039,10 @@ window.QUESTIONS_DATA = {
         "charan singh",
         "chaudhary charan singh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "m011",
@@ -3690,7 +4170,10 @@ window.QUESTIONS_DATA = {
         "vardhamana",
         "lord mahavira"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u011",
@@ -3703,7 +4186,10 @@ window.QUESTIONS_DATA = {
         "rafi",
         "mohammad rafi"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u012",
@@ -3714,7 +4200,10 @@ window.QUESTIONS_DATA = {
         "mukesh",
         "mukesh chand mathur"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u013",
@@ -3726,7 +4215,10 @@ window.QUESTIONS_DATA = {
         "kishore",
         "abhas kumar ganguly"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u014",
@@ -3738,7 +4230,10 @@ window.QUESTIONS_DATA = {
         "manna",
         "prabodh chandra dey"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u015",
@@ -3749,7 +4244,10 @@ window.QUESTIONS_DATA = {
         "talat mahmood",
         "talat"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu03",
@@ -3763,7 +4261,10 @@ window.QUESTIONS_DATA = {
         "akhtari",
         "akhtaribai"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu04",
@@ -3776,7 +4277,10 @@ window.QUESTIONS_DATA = {
         "kesarbai",
         "kerkar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu05",
@@ -3789,7 +4293,10 @@ window.QUESTIONS_DATA = {
         "pandit hariprasad chaurasia",
         "chaurasia"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu06",
@@ -3802,7 +4309,10 @@ window.QUESTIONS_DATA = {
         "ustad bismillah khan",
         "bismillah"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu07",
@@ -3814,7 +4324,10 @@ window.QUESTIONS_DATA = {
         "pandit jasraj",
         "jasraj"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k011",
@@ -3825,7 +4338,10 @@ window.QUESTIONS_DATA = {
         "chetan bhagat",
         "bhagat"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k012",
@@ -3837,7 +4353,10 @@ window.QUESTIONS_DATA = {
         "lahiri",
         "nilanjana sudeshna lahiri"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k013",
@@ -3850,7 +4369,8 @@ window.QUESTIONS_DATA = {
         "mulkraj anand"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3864,7 +4384,8 @@ window.QUESTIONS_DATA = {
       ],
       "themes": [
         "south_india",
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3878,7 +4399,8 @@ window.QUESTIONS_DATA = {
         "desai"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3891,7 +4413,10 @@ window.QUESTIONS_DATA = {
         "shashi tharoor",
         "tharoor"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hk04",
@@ -3905,7 +4430,8 @@ window.QUESTIONS_DATA = {
         "dhanpat rai shrivastava"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3921,7 +4447,8 @@ window.QUESTIONS_DATA = {
         "sadat hasan manto"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3937,7 +4464,8 @@ window.QUESTIONS_DATA = {
         "ismat"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3952,7 +4480,8 @@ window.QUESTIONS_DATA = {
         "mahasweta"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3970,7 +4499,8 @@ window.QUESTIONS_DATA = {
       ],
       "themes": [
         "south_india",
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -3987,7 +4517,8 @@ window.QUESTIONS_DATA = {
         "mohammad iqbal"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -4001,7 +4532,10 @@ window.QUESTIONS_DATA = {
         "bhabha",
         "homi jehangir bhabha"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n007",
@@ -4012,7 +4546,10 @@ window.QUESTIONS_DATA = {
         "vikram sarabhai",
         "sarabhai"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n008",
@@ -4028,7 +4565,8 @@ window.QUESTIONS_DATA = {
         "sir cv raman"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -4043,7 +4581,10 @@ window.QUESTIONS_DATA = {
         "jagadish chandra bose",
         "jagdish chandra bose"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n010",
@@ -4055,7 +4596,10 @@ window.QUESTIONS_DATA = {
         "har gobind khorana",
         "khorana"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n011",
@@ -4067,7 +4611,10 @@ window.QUESTIONS_DATA = {
         "chandrasekhar",
         "chandra"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn03",
@@ -4079,7 +4626,10 @@ window.QUESTIONS_DATA = {
         "salim ali",
         "saleem ali"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn04",
@@ -4092,7 +4642,10 @@ window.QUESTIONS_DATA = {
         "manekshaw",
         "sam bahadur"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn05",
@@ -4108,7 +4661,8 @@ window.QUESTIONS_DATA = {
         "viswesvaraya"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -4124,7 +4678,10 @@ window.QUESTIONS_DATA = {
         "sundarlal bahuguna",
         "bahuguna"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn07",
@@ -4139,7 +4696,8 @@ window.QUESTIONS_DATA = {
         "pilavullakandi thekkeparambil usha"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -4153,7 +4711,10 @@ window.QUESTIONS_DATA = {
         "dhyan chand",
         "major dhyan chand"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn09",
@@ -4166,7 +4727,8 @@ window.QUESTIONS_DATA = {
         "malleswari"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -4180,7 +4742,10 @@ window.QUESTIONS_DATA = {
         "shami",
         "mohammad shami"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c037",
@@ -4191,7 +4756,10 @@ window.QUESTIONS_DATA = {
         "cheteshwar pujara",
         "pujara"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c038",
@@ -4204,7 +4772,10 @@ window.QUESTIONS_DATA = {
         "rahane",
         "jinks"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c039",
@@ -4215,7 +4786,10 @@ window.QUESTIONS_DATA = {
         "rishabh pant",
         "pant"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c040",
@@ -4227,7 +4801,10 @@ window.QUESTIONS_DATA = {
         "gill",
         "shubhman gill"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c041",
@@ -4239,7 +4816,10 @@ window.QUESTIONS_DATA = {
         "hardik",
         "pandya"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c042",
@@ -4252,7 +4832,10 @@ window.QUESTIONS_DATA = {
         "bhuvi",
         "bhuvaneshwar kumar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc15",
@@ -4266,7 +4849,10 @@ window.QUESTIONS_DATA = {
         "nanik amarnath",
         "lala"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc16",
@@ -4278,7 +4864,10 @@ window.QUESTIONS_DATA = {
         "vijay hazare",
         "hazare"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc17",
@@ -4290,7 +4879,10 @@ window.QUESTIONS_DATA = {
         "vijay merchant",
         "merchant"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc18",
@@ -4305,7 +4897,10 @@ window.QUESTIONS_DATA = {
         "pataudi senior",
         "pataudi sr"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc19",
@@ -4320,7 +4915,10 @@ window.QUESTIONS_DATA = {
         "sandhu",
         "balwinder singh sandhu"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc20",
@@ -4332,7 +4930,10 @@ window.QUESTIONS_DATA = {
         "dilip sardesai",
         "sardesai"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc21",
@@ -4344,7 +4945,10 @@ window.QUESTIONS_DATA = {
         "diana edulji",
         "edulji"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc22",
@@ -4356,7 +4960,10 @@ window.QUESTIONS_DATA = {
         "yashpal sharma",
         "yashpal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f036",
@@ -4367,7 +4974,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "raj kapoor"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f037",
@@ -4379,7 +4989,10 @@ window.QUESTIONS_DATA = {
         "dharamdev pishorimal anand",
         "dev"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f038",
@@ -4391,7 +5004,10 @@ window.QUESTIONS_DATA = {
         "aamir",
         "amir khan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f039",
@@ -4403,7 +5019,10 @@ window.QUESTIONS_DATA = {
         "salman",
         "bhaijaan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f040",
@@ -4415,7 +5034,10 @@ window.QUESTIONS_DATA = {
         "kjo",
         "johar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f041",
@@ -4427,7 +5049,10 @@ window.QUESTIONS_DATA = {
         "raju hirani",
         "hirani"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f042",
@@ -4438,7 +5063,10 @@ window.QUESTIONS_DATA = {
         "anushka sharma",
         "anushka"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f043",
@@ -4450,7 +5078,10 @@ window.QUESTIONS_DATA = {
         "deepika padukone",
         "deepika"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf14",
@@ -4463,7 +5094,10 @@ window.QUESTIONS_DATA = {
         "nargis dutt",
         "fatima rashid"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf15",
@@ -4476,7 +5110,10 @@ window.QUESTIONS_DATA = {
         "mahjabeen bano",
         "meena"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf16",
@@ -4489,7 +5126,10 @@ window.QUESTIONS_DATA = {
         "waheeda",
         "rehman"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf17",
@@ -4501,7 +5141,10 @@ window.QUESTIONS_DATA = {
         "nutan",
         "nutan samarth"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf18",
@@ -4514,7 +5157,10 @@ window.QUESTIONS_DATA = {
         "manoj",
         "harikrishan giri goswami"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf19",
@@ -4526,7 +5172,10 @@ window.QUESTIONS_DATA = {
         "bimal roy",
         "roy"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf20",
@@ -4540,7 +5189,10 @@ window.QUESTIONS_DATA = {
         "mukherjee",
         "hrishi da"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf21",
@@ -4553,7 +5205,10 @@ window.QUESTIONS_DATA = {
         "basu chatterji",
         "chatterjee"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf22",
@@ -4566,7 +5221,10 @@ window.QUESTIONS_DATA = {
         "shantaram",
         "shantaram rajaram vankudre"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf23",
@@ -4578,7 +5236,10 @@ window.QUESTIONS_DATA = {
         "anurag kashyap",
         "kashyap"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h039",
@@ -4591,7 +5252,10 @@ window.QUESTIONS_DATA = {
         "kautilya",
         "vishnugupta"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h040",
@@ -4603,7 +5267,10 @@ window.QUESTIONS_DATA = {
         "chandragupta",
         "chandragupt maurya"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h041",
@@ -4616,7 +5283,10 @@ window.QUESTIONS_DATA = {
         "ashoka the great",
         "samrat ashok"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h042",
@@ -4639,7 +5309,10 @@ window.QUESTIONS_DATA = {
         "raja birbal",
         "mahesh das"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h044",
@@ -4650,7 +5323,10 @@ window.QUESTIONS_DATA = {
         "tansen",
         "miyan tansen"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h045",
@@ -4726,7 +5402,10 @@ window.QUESTIONS_DATA = {
         "iltutmish",
         "shams ud din iltutmish"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh20",
@@ -4741,7 +5420,10 @@ window.QUESTIONS_DATA = {
         "alauddin khalji",
         "ala ud din khalji"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh21",
@@ -4756,7 +5438,10 @@ window.QUESTIONS_DATA = {
         "mohammed bin tughlaq",
         "muhammad bin tughluq"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh22",
@@ -4769,7 +5454,8 @@ window.QUESTIONS_DATA = {
         "aryabhatta"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -4783,7 +5469,8 @@ window.QUESTIONS_DATA = {
         "brahmagupta"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -4800,7 +5487,8 @@ window.QUESTIONS_DATA = {
         "bhaskara"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -4816,7 +5504,8 @@ window.QUESTIONS_DATA = {
         "banabhatt"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -4833,7 +5522,10 @@ window.QUESTIONS_DATA = {
         "harsha vardhana",
         "king harsha"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh27",
@@ -4845,7 +5537,10 @@ window.QUESTIONS_DATA = {
         "samudragupta",
         "samudra gupta"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "g023",
@@ -5124,7 +5819,10 @@ window.QUESTIONS_DATA = {
         "shanghvi",
         "dilip sanghvi"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b028",
@@ -5136,7 +5834,10 @@ window.QUESTIONS_DATA = {
         "sunil bharti mittal",
         "mittal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b029",
@@ -5147,7 +5848,10 @@ window.QUESTIONS_DATA = {
         "cyrus mistry",
         "mistry"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb10",
@@ -5159,7 +5863,10 @@ window.QUESTIONS_DATA = {
         "raghuram rajan",
         "rajan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb11",
@@ -5171,7 +5878,10 @@ window.QUESTIONS_DATA = {
         "shaktikanta das",
         "das"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb12",
@@ -5184,7 +5894,10 @@ window.QUESTIONS_DATA = {
         "subroto roy",
         "saharasri"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb13",
@@ -5199,7 +5912,8 @@ window.QUESTIONS_DATA = {
         "siddharth"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -5213,7 +5927,10 @@ window.QUESTIONS_DATA = {
         "nirav modi",
         "modi"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb15",
@@ -5226,7 +5943,10 @@ window.QUESTIONS_DATA = {
         "kumar mangalam",
         "kumar birla"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p016",
@@ -5308,7 +6028,8 @@ window.QUESTIONS_DATA = {
         "justice fathima beevi"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -5323,7 +6044,10 @@ window.QUESTIONS_DATA = {
         "seth",
         "leela seth"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp09",
@@ -5532,7 +6256,8 @@ window.QUESTIONS_DATA = {
         "shankara"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -5546,7 +6271,10 @@ window.QUESTIONS_DATA = {
         "ustad ali akbar khan",
         "khansahib"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u017",
@@ -5558,7 +6286,10 @@ window.QUESTIONS_DATA = {
         "ustad vilayat khan",
         "vilayat"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u018",
@@ -5570,7 +6301,10 @@ window.QUESTIONS_DATA = {
         "ustad amjad ali khan",
         "amjad ali"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u019",
@@ -5583,7 +6317,10 @@ window.QUESTIONS_DATA = {
         "shiv kumar sharma",
         "shiv kumar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u020",
@@ -5594,7 +6331,10 @@ window.QUESTIONS_DATA = {
         "ghulam ali",
         "ustad ghulam ali"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu08",
@@ -5608,7 +6348,8 @@ window.QUESTIONS_DATA = {
         "abdul hayee"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -5624,7 +6365,8 @@ window.QUESTIONS_DATA = {
         "thyagaraja"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -5640,7 +6382,10 @@ window.QUESTIONS_DATA = {
         "saigal",
         "kundan lal saigal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu11",
@@ -5653,7 +6398,10 @@ window.QUESTIONS_DATA = {
         "mullick",
         "pankaj mallick"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu12",
@@ -5664,7 +6412,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "hariharan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu13",
@@ -5676,7 +6427,10 @@ window.QUESTIONS_DATA = {
         "jagjit singh",
         "jagjit"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu14",
@@ -5689,7 +6443,10 @@ window.QUESTIONS_DATA = {
         "hazarika",
         "dr bhupen hazarika"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k017",
@@ -5700,7 +6457,10 @@ window.QUESTIONS_DATA = {
         "vikram chandra",
         "chandra"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k018",
@@ -5711,7 +6471,10 @@ window.QUESTIONS_DATA = {
         "rohinton mistry",
         "mistry"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k019",
@@ -5723,7 +6486,10 @@ window.QUESTIONS_DATA = {
         "ram guha",
         "guha"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k020",
@@ -5734,7 +6500,10 @@ window.QUESTIONS_DATA = {
         "pankaj mishra",
         "mishra"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k021",
@@ -5745,7 +6514,10 @@ window.QUESTIONS_DATA = {
         "aatish taseer",
         "taseer"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hk10",
@@ -5759,7 +6531,8 @@ window.QUESTIONS_DATA = {
         "mirza asadullah baig khan"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -5775,7 +6548,8 @@ window.QUESTIONS_DATA = {
         "faiz ahmad faiz"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -5791,7 +6565,8 @@ window.QUESTIONS_DATA = {
         "kabir das"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -5807,7 +6582,8 @@ window.QUESTIONS_DATA = {
         "sant tulsidas"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -5824,7 +6600,8 @@ window.QUESTIONS_DATA = {
         "mira bai"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -5843,7 +6620,8 @@ window.QUESTIONS_DATA = {
       ],
       "themes": [
         "south_india",
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -5861,7 +6639,8 @@ window.QUESTIONS_DATA = {
       ],
       "themes": [
         "south_india",
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -5874,7 +6653,10 @@ window.QUESTIONS_DATA = {
         "norman pritchard",
         "pritchard"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n013",
@@ -5887,7 +6669,10 @@ window.QUESTIONS_DATA = {
         "khashaba dadasaheb jadhav",
         "khashaba jadhav"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n014",
@@ -5899,7 +6684,10 @@ window.QUESTIONS_DATA = {
         "paes",
         "leander"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n015",
@@ -5910,7 +6698,10 @@ window.QUESTIONS_DATA = {
         "sushil kumar",
         "sushil"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n016",
@@ -5922,7 +6713,10 @@ window.QUESTIONS_DATA = {
         "saina",
         "nehwal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n017",
@@ -5937,7 +6731,8 @@ window.QUESTIONS_DATA = {
         "pusarla venkata sindhu"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -5952,7 +6747,10 @@ window.QUESTIONS_DATA = {
         "chanu",
         "mirabai"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n019",
@@ -5964,7 +6762,10 @@ window.QUESTIONS_DATA = {
         "neeraj chopra",
         "neeraj"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n020",
@@ -5975,7 +6776,10 @@ window.QUESTIONS_DATA = {
         "sania mirza",
         "sania"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn10",
@@ -5989,7 +6793,10 @@ window.QUESTIONS_DATA = {
         "teresa",
         "saint teresa"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn11",
@@ -6001,7 +6808,10 @@ window.QUESTIONS_DATA = {
         "amartya sen",
         "sen"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn12",
@@ -6014,7 +6824,10 @@ window.QUESTIONS_DATA = {
         "banerjee",
         "abhijit vinayak banerjee"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn13",
@@ -6029,7 +6842,8 @@ window.QUESTIONS_DATA = {
         "venki"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -6043,7 +6857,10 @@ window.QUESTIONS_DATA = {
         "kailash satyarthi",
         "satyarthi"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn15",
@@ -6056,7 +6873,10 @@ window.QUESTIONS_DATA = {
         "edavaleth kakkat janaki ammal",
         "ek janaki ammal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn16",
@@ -6069,7 +6889,10 @@ window.QUESTIONS_DATA = {
         "chatterjee",
         "asima"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn17",
@@ -6083,7 +6906,10 @@ window.QUESTIONS_DATA = {
         "balbir singh senior",
         "balbir"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn18",
@@ -6098,7 +6924,8 @@ window.QUESTIONS_DATA = {
         "parattu raveendran sreejesh"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-10"
     },
@@ -6114,7 +6941,10 @@ window.QUESTIONS_DATA = {
         "chetri",
         "sunil chetri"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "lt01",
@@ -6318,7 +7148,10 @@ window.QUESTIONS_DATA = {
         "siraj",
         "mohammad siraj"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c044",
@@ -6329,7 +7162,10 @@ window.QUESTIONS_DATA = {
         "yashasvi jaiswal",
         "jaiswal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c045",
@@ -6341,7 +7177,10 @@ window.QUESTIONS_DATA = {
         "iyer",
         "shreyas"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c046",
@@ -6354,7 +7193,10 @@ window.QUESTIONS_DATA = {
         "jadeja",
         "sir jadeja"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c047",
@@ -6366,7 +7208,10 @@ window.QUESTIONS_DATA = {
         "mohammed kaif",
         "kaif"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c048",
@@ -6377,7 +7222,10 @@ window.QUESTIONS_DATA = {
         "irfan pathan",
         "irfan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c049",
@@ -6389,7 +7237,10 @@ window.QUESTIONS_DATA = {
         "gautam gambhir",
         "gambhir"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c050",
@@ -6401,13 +7252,17 @@ window.QUESTIONS_DATA = {
         "dhawan",
         "gabbar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c051",
       "topic": "cricket",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil Nadu opening batter; 167 against Australia at Hyderabad in March 2013; the dependable foil to Sehwag in the early 2010s.",
       "answer": "Murali Vijay",
@@ -6428,7 +7283,10 @@ window.QUESTIONS_DATA = {
         "saha",
         "wriddhiman"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c053",
@@ -6439,7 +7297,10 @@ window.QUESTIONS_DATA = {
         "ishant sharma",
         "ishant"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c054",
@@ -6450,7 +7311,10 @@ window.QUESTIONS_DATA = {
         "ashish nehra",
         "nehra"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c055",
@@ -6461,7 +7325,10 @@ window.QUESTIONS_DATA = {
         "ajit wadekar",
         "wadekar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c056",
@@ -6472,7 +7339,10 @@ window.QUESTIONS_DATA = {
         "vinod kambli",
         "kambli"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c057",
@@ -6483,13 +7353,17 @@ window.QUESTIONS_DATA = {
         "eknath solkar",
         "solkar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c058",
       "topic": "cricket",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Karnataka middle-order batter; in his third Test, scored an unbeaten triple-century — 303* — against England at Chennai in December 2016.",
       "answer": "Karun Nair",
@@ -6509,13 +7383,17 @@ window.QUESTIONS_DATA = {
         "stuart binny",
         "binny"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c060",
       "topic": "cricket",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil Nadu wicketkeeper-batter; debuted in 2004 as Dhoni's deputy; played international cricket across three decades. Initials D.K.",
       "answer": "Dinesh Karthik",
@@ -6535,7 +7413,10 @@ window.QUESTIONS_DATA = {
         "munaf patel",
         "munaf"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c062",
@@ -6546,7 +7427,10 @@ window.QUESTIONS_DATA = {
         "praveen kumar",
         "praveen"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c063",
@@ -6557,7 +7441,10 @@ window.QUESTIONS_DATA = {
         "krunal pandya",
         "krunal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c064",
@@ -6568,7 +7455,10 @@ window.QUESTIONS_DATA = {
         "kuldeep yadav",
         "kuldeep"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c065",
@@ -6580,13 +7470,17 @@ window.QUESTIONS_DATA = {
         "chahal",
         "yuzi"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c066",
       "topic": "cricket",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Karnataka right-handed batter; played sporadically for India through the 2010s; remembered for his maiden ODI century at the SCG against Australia in January 2016.",
       "answer": "Manish Pandey",
@@ -6600,7 +7494,8 @@ window.QUESTIONS_DATA = {
       "id": "c067",
       "topic": "cricket",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Andhra Test batter; batted through severe pain for an unbeaten 23 off 161 balls against Australia at Sydney in January 2021.",
       "answer": "Hanuma Vihari",
@@ -6615,7 +7510,8 @@ window.QUESTIONS_DATA = {
       "id": "c068",
       "topic": "cricket",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Hyderabad-born young left-handed Indian batter; debuted in T20 internationals in 2023.",
       "answer": "Tilak Varma",
@@ -6634,13 +7530,17 @@ window.QUESTIONS_DATA = {
         "rinku singh",
         "rinku"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c070",
       "topic": "cricket",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Karnataka left-handed opener; consistent Ranji and IPL run-machine in the early 2020s.",
       "answer": "Devdutt Padikkal",
@@ -6660,7 +7560,10 @@ window.QUESTIONS_DATA = {
         "deepti sharma",
         "deepti"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c072",
@@ -6672,13 +7575,17 @@ window.QUESTIONS_DATA = {
         "renuka singh",
         "renuka"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c073",
       "topic": "cricket",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Kerala-born India women's middle-order batter and former captain; broke onto the scene in the early 2010s.",
       "answer": "Veda Krishnamurthy",
@@ -6699,7 +7606,10 @@ window.QUESTIONS_DATA = {
         "akash chopra",
         "chopra"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc23",
@@ -6711,7 +7621,10 @@ window.QUESTIONS_DATA = {
         "hemu adhikari",
         "adhikari"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc24",
@@ -6723,7 +7636,10 @@ window.QUESTIONS_DATA = {
         "mushtaq ali",
         "syed mushtaq ali"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc25",
@@ -6735,7 +7651,10 @@ window.QUESTIONS_DATA = {
         "salim durani",
         "durani"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc26",
@@ -6749,7 +7668,10 @@ window.QUESTIONS_DATA = {
         "duleep singhji",
         "duleep"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc27",
@@ -6762,7 +7684,10 @@ window.QUESTIONS_DATA = {
         "d b deodhar",
         "deodhar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc28",
@@ -6774,7 +7699,10 @@ window.QUESTIONS_DATA = {
         "bapu nadkarni",
         "nadkarni"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc29",
@@ -6786,7 +7714,10 @@ window.QUESTIONS_DATA = {
         "vijay manjrekar",
         "manjrekar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc30",
@@ -6798,7 +7729,10 @@ window.QUESTIONS_DATA = {
         "madhav apte",
         "apte"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc31",
@@ -6810,7 +7744,10 @@ window.QUESTIONS_DATA = {
         "karsan ghavri",
         "ghavri"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc32",
@@ -6822,7 +7759,10 @@ window.QUESTIONS_DATA = {
         "maninder singh",
         "maninder"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc33",
@@ -6834,7 +7774,10 @@ window.QUESTIONS_DATA = {
         "chetan sharma",
         "chetan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc34",
@@ -6846,7 +7789,10 @@ window.QUESTIONS_DATA = {
         "robin singh",
         "robin"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc35",
@@ -6860,7 +7806,10 @@ window.QUESTIONS_DATA = {
         "bhupinder singh of patiala",
         "patiala"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc36",
@@ -6872,7 +7821,10 @@ window.QUESTIONS_DATA = {
         "ravi shastri",
         "shastri"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc37",
@@ -6884,7 +7836,10 @@ window.QUESTIONS_DATA = {
         "sanjay manjrekar",
         "manjrekar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc38",
@@ -6896,14 +7851,18 @@ window.QUESTIONS_DATA = {
         "anil kumble",
         "kumble"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc39",
       "topic": "cricket",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Andhra-born left-arm spinner; played 24 Tests between 2009 and 2013. Initials P.O.",
       "answer": "Pragyan Ojha",
@@ -6923,7 +7882,10 @@ window.QUESTIONS_DATA = {
         "salman khan",
         "salman"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f045",
@@ -6935,7 +7897,10 @@ window.QUESTIONS_DATA = {
         "hrithik roshan",
         "hrithik"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f046",
@@ -6946,7 +7911,10 @@ window.QUESTIONS_DATA = {
         "ranbir kapoor",
         "ranbir"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f047",
@@ -6957,7 +7925,10 @@ window.QUESTIONS_DATA = {
         "ranveer singh",
         "ranveer"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f048",
@@ -6968,7 +7939,10 @@ window.QUESTIONS_DATA = {
         "vicky kaushal",
         "vicky"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f049",
@@ -6981,7 +7955,10 @@ window.QUESTIONS_DATA = {
         "khurana",
         "khurrana"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f050",
@@ -6994,7 +7971,10 @@ window.QUESTIONS_DATA = {
         "tripathi",
         "pankaj"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f051",
@@ -7007,7 +7987,10 @@ window.QUESTIONS_DATA = {
         "bajpai",
         "manoj"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f052",
@@ -7020,7 +8003,10 @@ window.QUESTIONS_DATA = {
         "irrfan",
         "irfan khan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f053",
@@ -7032,7 +8018,10 @@ window.QUESTIONS_DATA = {
         "kareena",
         "bebo"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f054",
@@ -7044,7 +8033,10 @@ window.QUESTIONS_DATA = {
         "kajol devgan",
         "kajol mukherjee"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f055",
@@ -7057,7 +8049,10 @@ window.QUESTIONS_DATA = {
         "priyanka",
         "priyanka chopra jonas"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f056",
@@ -7068,7 +8063,10 @@ window.QUESTIONS_DATA = {
         "vidya balan",
         "vidya"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f057",
@@ -7080,7 +8078,10 @@ window.QUESTIONS_DATA = {
         "alia bhatt",
         "alia"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f058",
@@ -7091,7 +8092,10 @@ window.QUESTIONS_DATA = {
         "kangana ranaut",
         "kangana"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f059",
@@ -7102,13 +8106,17 @@ window.QUESTIONS_DATA = {
         "tabu",
         "tabassum hashmi"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f060",
       "topic": "cinema",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Tamil cinema legend (1954-); 'Nayakan' (1987), 'Hey Ram' (2000), 'Vishwaroopam' (2013); honorific 'Ulaganayagan'.",
@@ -7124,7 +8132,8 @@ window.QUESTIONS_DATA = {
       "id": "f061",
       "topic": "cinema",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Malayalam cinema's most-loved actor (1960-); 'Bharatham' (1991), 'Drishyam' (2013); the everyman star.",
@@ -7139,7 +8148,8 @@ window.QUESTIONS_DATA = {
       "id": "f062",
       "topic": "cinema",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Malayalam cinema actor (1951-); 'Mathilukal' (1990), 'Vidheyan' (1993), 'Pazhassi Raja' (2009); multi-time National Award.",
       "answer": "Mammootty",
@@ -7154,7 +8164,8 @@ window.QUESTIONS_DATA = {
       "id": "f063",
       "topic": "cinema",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Telugu superstar (1955-); 'Megastar'; brother of Pawan Kalyan.",
       "answer": "Chiranjeevi",
@@ -7167,7 +8178,8 @@ window.QUESTIONS_DATA = {
       "id": "f064",
       "topic": "cinema",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Telugu actor; 'Pushpa: The Rise' (2021) made him a pan-Indian star; 'thaggede le' catchphrase.",
       "answer": "Allu Arjun",
@@ -7181,7 +8193,8 @@ window.QUESTIONS_DATA = {
       "id": "f065",
       "topic": "cinema",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Telugu superstar; lead in 'Baahubali' duology (2015, 2017).",
       "answer": "Prabhas",
@@ -7194,7 +8207,8 @@ window.QUESTIONS_DATA = {
       "id": "f066",
       "topic": "cinema",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Mumbai-born director who works in Tamil; 'Roja' (1992), 'Bombay' (1995), 'Dil Se' (1998), 'Guru' (2007), 'Ponniyin Selvan' (2022).",
       "answer": "Mani Ratnam",
@@ -7214,7 +8228,10 @@ window.QUESTIONS_DATA = {
         "farhan akhtar",
         "farhan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f068",
@@ -7225,7 +8242,10 @@ window.QUESTIONS_DATA = {
         "zoya akhtar",
         "zoya"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f069",
@@ -7236,7 +8256,10 @@ window.QUESTIONS_DATA = {
         "vishal bhardwaj",
         "bhardwaj"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f070",
@@ -7249,7 +8272,10 @@ window.QUESTIONS_DATA = {
         "ramgopal varma",
         "varma"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f071",
@@ -7263,7 +8289,10 @@ window.QUESTIONS_DATA = {
         "rakeysh mehra",
         "mehra"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f072",
@@ -7274,13 +8303,17 @@ window.QUESTIONS_DATA = {
         "imtiaz ali",
         "imtiaz"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f073",
       "topic": "cinema",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Telugu director who delivered 'Baahubali' (2015 & 2017) and 'RRR' (2022). Initials S.S.R.",
@@ -7313,13 +8346,17 @@ window.QUESTIONS_DATA = {
         "pritam",
         "pritam chakraborty"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f076",
       "topic": "cinema",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil-Telugu actor (1975-); 'Vikram' (1986 onwards as a kid actor); 'Anniyan' (2005), 'Aparichit' (Hindi version of Anniyan); intense character work.",
       "answer": "Vikram",
@@ -7341,7 +8378,10 @@ window.QUESTIONS_DATA = {
         "kingsley",
         "krishna pandit bhanji"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf25",
@@ -7353,7 +8393,10 @@ window.QUESTIONS_DATA = {
         "pran",
         "pran krishan sikand"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf26",
@@ -7365,7 +8408,10 @@ window.QUESTIONS_DATA = {
         "amjad khan",
         "amjad"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf27",
@@ -7377,7 +8423,10 @@ window.QUESTIONS_DATA = {
         "amrish puri",
         "amrish"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf28",
@@ -7390,7 +8439,10 @@ window.QUESTIONS_DATA = {
         "vyjantimala",
         "vyjayanthimala bali"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf29",
@@ -7402,14 +8454,18 @@ window.QUESTIONS_DATA = {
         "sharmila tagore",
         "sharmila"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf30",
       "topic": "cinema",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Bengali film actress (1933-2014); the dazzling face of Bengali cinema's golden age opposite Uttam Kumar.",
       "answer": "Suchitra Sen",
@@ -7428,7 +8484,10 @@ window.QUESTIONS_DATA = {
         "uttam kumar",
         "mahanayak"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf32",
@@ -7439,7 +8498,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "aparna sen"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf33",
@@ -7451,7 +8513,10 @@ window.QUESTIONS_DATA = {
         "rituparno ghosh",
         "rituparno"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf34",
@@ -7463,7 +8528,10 @@ window.QUESTIONS_DATA = {
         "naushad",
         "naushad ali"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf35",
@@ -7475,7 +8543,10 @@ window.QUESTIONS_DATA = {
         "gulzar",
         "sampooran singh kalra"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf36",
@@ -7487,7 +8558,10 @@ window.QUESTIONS_DATA = {
         "javed akhtar",
         "javed"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf37",
@@ -7500,7 +8574,10 @@ window.QUESTIONS_DATA = {
         "v k murthy",
         "venkatarama pandit krishnamurthy"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf38",
@@ -7512,14 +8589,18 @@ window.QUESTIONS_DATA = {
         "rekha",
         "bhanurekha ganesan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf39",
       "topic": "cinema",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Indian sound designer; won the Oscar for Best Sound Mixing for 'Slumdog Millionaire' in 2009; from Kerala.",
       "answer": "Resul Pookutty",
@@ -7539,7 +8620,10 @@ window.QUESTIONS_DATA = {
         "joy mukherjee",
         "joy"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h049",
@@ -7551,7 +8635,10 @@ window.QUESTIONS_DATA = {
         "nathuram godse",
         "godse"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h050",
@@ -7561,7 +8648,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "bindusara"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h051",
@@ -7571,7 +8661,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "megasthenes"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h052",
@@ -7583,13 +8676,17 @@ window.QUESTIONS_DATA = {
         "kanishka i",
         "kanishka the great"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h053",
       "topic": "history",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Sanskrit poet of the Gupta period; 'Abhijnanashakuntalam', 'Meghaduta', 'Raghuvamsha'.",
@@ -7611,13 +8708,17 @@ window.QUESTIONS_DATA = {
         "chandragupta vikramaditya",
         "vikramaditya"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h055",
       "topic": "history",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Chola king (r. 985-1014 CE) who built the Brihadeeswara Temple at Thanjavur; expanded Chola rule across the south and to Sri Lanka.",
       "answer": "Rajaraja Chola",
@@ -7632,7 +8733,8 @@ window.QUESTIONS_DATA = {
       "id": "h056",
       "topic": "history",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Son of Rajaraja Chola; led a naval expedition to Southeast Asia; built Gangaikonda Cholapuram.",
       "answer": "Rajendra Chola",
@@ -7654,7 +8756,10 @@ window.QUESTIONS_DATA = {
         "maharana pratap singh",
         "pratap singh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h058",
@@ -7666,7 +8771,10 @@ window.QUESTIONS_DATA = {
         "prithviraj iii",
         "prithviraj"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h059",
@@ -7679,7 +8787,10 @@ window.QUESTIONS_DATA = {
         "moinuddin",
         "khwaja chishti"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h060",
@@ -7690,13 +8801,17 @@ window.QUESTIONS_DATA = {
         "todar mal",
         "raja todar mal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h061",
       "topic": "history",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Akbar's chief biographer and one of the Navaratnas; wrote 'Akbarnama' and 'Ain-i-Akbari'; brother of the poet Faizi.",
       "answer": "Abul Fazl",
@@ -7718,7 +8833,10 @@ window.QUESTIONS_DATA = {
         "bajirao 1",
         "baji rao"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h063",
@@ -7730,7 +8848,10 @@ window.QUESTIONS_DATA = {
         "clive",
         "lord clive"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h064",
@@ -7741,7 +8862,10 @@ window.QUESTIONS_DATA = {
         "warren hastings",
         "hastings"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h065",
@@ -7753,7 +8877,10 @@ window.QUESTIONS_DATA = {
         "richard wellesley",
         "lord wellesley"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h066",
@@ -7765,7 +8892,10 @@ window.QUESTIONS_DATA = {
         "lord dalhousie",
         "james broun ramsay"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h067",
@@ -7777,7 +8907,10 @@ window.QUESTIONS_DATA = {
         "curzon",
         "george curzon"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h068",
@@ -7790,7 +8923,10 @@ window.QUESTIONS_DATA = {
         "vivekananda",
         "narendranath datta"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h069",
@@ -7803,7 +8939,10 @@ window.QUESTIONS_DATA = {
         "ramakrishna paramahamsa",
         "sri ramakrishna"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h070",
@@ -7816,7 +8955,10 @@ window.QUESTIONS_DATA = {
         "swami dayananda saraswati",
         "dayananda"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h071",
@@ -7827,7 +8969,10 @@ window.QUESTIONS_DATA = {
         "gopal krishna gokhale",
         "gokhale"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h072",
@@ -7887,7 +9032,10 @@ window.QUESTIONS_DATA = {
         "phule",
         "mahatma phule"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h077",
@@ -7899,13 +9047,17 @@ window.QUESTIONS_DATA = {
         "savitri bai phule",
         "savitribai"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h078",
       "topic": "history",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Hyderabad's last Nizam, who tried to keep his princely state independent in 1947-48; defeated by the Indian Army's 'Operation Polo' in September 1948.",
       "answer": "Mir Osman Ali Khan",
@@ -7926,7 +9078,10 @@ window.QUESTIONS_DATA = {
         "hari singh",
         "maharaja hari singh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h080",
@@ -7938,7 +9093,10 @@ window.QUESTIONS_DATA = {
         "dhillon",
         "g s dhillon"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h081",
@@ -7973,7 +9131,10 @@ window.QUESTIONS_DATA = {
         "lal bahadur shastri",
         "shastri"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h084",
@@ -7986,7 +9147,10 @@ window.QUESTIONS_DATA = {
         "ved prakash malik",
         "general malik"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h085",
@@ -7997,7 +9161,10 @@ window.QUESTIONS_DATA = {
         "indira gandhi",
         "indira"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h086",
@@ -8032,13 +9199,17 @@ window.QUESTIONS_DATA = {
         "kasab",
         "mohammed ajmal amir kasab"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h089",
       "topic": "history",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "INA's Rani of Jhansi Regiment was the first all-women combat unit in Asia; commanded by this Tamil-born doctor under Bose's command.",
       "answer": "Lakshmi Sehgal",
@@ -8054,7 +9225,8 @@ window.QUESTIONS_DATA = {
       "id": "h090",
       "topic": "history",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Maratha king of Tanjore in the late 18th century; famous patron of Carnatic music; Tyagaraja and the Trinity flourished in his court.",
       "answer": "Serfoji II",
@@ -8075,7 +9247,10 @@ window.QUESTIONS_DATA = {
         "abd al hamid lahori",
         "lahori"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h092",
@@ -8086,7 +9261,10 @@ window.QUESTIONS_DATA = {
         "ranjit singh",
         "maharaja ranjit singh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h094",
@@ -8097,7 +9275,10 @@ window.QUESTIONS_DATA = {
         "humayun",
         "nasir ud din muhammad humayun"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h095",
@@ -8110,7 +9291,10 @@ window.QUESTIONS_DATA = {
         "netaji",
         "bose"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh28",
@@ -8163,7 +9347,8 @@ window.QUESTIONS_DATA = {
       "topic": "history",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Chalukya king of Vatapi (Badami) who, in 618 CE, defeated Harsha's army on the banks of the Narmada.",
       "answer": "Pulakeshin II",
@@ -8179,7 +9364,8 @@ window.QUESTIONS_DATA = {
       "topic": "history",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Pallava king (r. c. 600-630 CE) who began the rock-cut temple tradition at Mahabalipuram; nicknamed 'Vichitra-chitta'.",
       "answer": "Mahendravarman I",
@@ -8201,7 +9387,10 @@ window.QUESTIONS_DATA = {
         "rana kumbha",
         "kumbha"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh35",
@@ -8209,7 +9398,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Bhakti poet-saint of Karnataka (1484-1564); composer of Carnatic kirtanas; called the 'Pitamaha' of Carnatic music.",
       "answer": "Purandara Dasa",
@@ -8229,7 +9419,10 @@ window.QUESTIONS_DATA = {
         "tarabai",
         "tarabai bhonsle"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh37",
@@ -8242,7 +9435,10 @@ window.QUESTIONS_DATA = {
         "nalwa",
         "hari singh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh38",
@@ -8254,7 +9450,10 @@ window.QUESTIONS_DATA = {
         "khudiram bose",
         "khudiram"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh39",
@@ -8267,7 +9466,10 @@ window.QUESTIONS_DATA = {
         "shivaram rajguru",
         "shivaram hari rajguru"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh40",
@@ -8330,7 +9532,10 @@ window.QUESTIONS_DATA = {
         "bahadur shah 1",
         "shah alam i"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh45",
@@ -8342,7 +9547,10 @@ window.QUESTIONS_DATA = {
         "john malcolm",
         "malcolm"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh46",
@@ -8383,7 +9591,10 @@ window.QUESTIONS_DATA = {
         "shah jahan",
         "shahjahan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh49",
@@ -8395,7 +9606,10 @@ window.QUESTIONS_DATA = {
         "kanhoji angre",
         "kanhoji"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh50",
@@ -8407,7 +9621,10 @@ window.QUESTIONS_DATA = {
         "jahanara begum",
         "jahanara"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "g031",
@@ -9160,7 +10377,10 @@ window.QUESTIONS_DATA = {
         "aditya puri",
         "puri"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b031",
@@ -9171,7 +10391,10 @@ window.QUESTIONS_DATA = {
         "chanda kochhar",
         "kochhar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b032",
@@ -9182,7 +10405,10 @@ window.QUESTIONS_DATA = {
         "uday kotak",
         "kotak"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b033",
@@ -9194,7 +10420,10 @@ window.QUESTIONS_DATA = {
         "shiv nadar",
         "nadar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b034",
@@ -9215,7 +10444,8 @@ window.QUESTIONS_DATA = {
       "id": "b035",
       "topic": "business",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Chennai-born co-founder and former CEO of Cognizant; one of the early Indians to lead a major US-listed IT services company.",
       "answer": "Francisco D'Souza",
@@ -9231,7 +10461,8 @@ window.QUESTIONS_DATA = {
       "id": "b036",
       "topic": "business",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Kerala-born founder and CEO of Freshworks; the company's 2021 NASDAQ listing was the first Indian SaaS unicorn IPO.",
       "answer": "Girish Mathrubootham",
@@ -9252,7 +10483,10 @@ window.QUESTIONS_DATA = {
         "hamied",
         "yusuf k hamied"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b038",
@@ -9281,7 +10515,10 @@ window.QUESTIONS_DATA = {
         "d b gupta",
         "gupta"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b040",
@@ -9293,7 +10530,10 @@ window.QUESTIONS_DATA = {
         "y c deveshwar",
         "deveshwar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b041",
@@ -9373,7 +10613,10 @@ window.QUESTIONS_DATA = {
         "damani",
         "rk damani"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b048",
@@ -9385,7 +10628,10 @@ window.QUESTIONS_DATA = {
         "jhunjhunwala",
         "rakesh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b049",
@@ -9479,7 +10725,10 @@ window.QUESTIONS_DATA = {
         "aditya birla",
         "aditya vikram birla"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b057",
@@ -9560,7 +10809,10 @@ window.QUESTIONS_DATA = {
         "j c mahindra",
         "jagdish chandra mahindra"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb17",
@@ -9572,7 +10824,10 @@ window.QUESTIONS_DATA = {
         "jamnalal bajaj",
         "jamnalal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb18",
@@ -9584,7 +10839,10 @@ window.QUESTIONS_DATA = {
         "lakshmi mittal",
         "mittal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb19",
@@ -9596,7 +10854,10 @@ window.QUESTIONS_DATA = {
         "anil agarwal",
         "agarwal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb20",
@@ -9608,14 +10869,18 @@ window.QUESTIONS_DATA = {
         "sajjan jindal",
         "jindal"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb21",
       "topic": "business",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Bengaluru-based founder of Manipal Group of educational institutions; built Manipal Academy from a small medical college in 1953.",
       "answer": "TMA Pai",
@@ -9637,7 +10902,10 @@ window.QUESTIONS_DATA = {
         "holck larsen",
         "henning larsen"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb23",
@@ -9650,14 +10918,18 @@ window.QUESTIONS_DATA = {
         "m s oberoi",
         "mohan singh oberoi"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb24",
       "topic": "business",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Founder of Murugappa Group, one of South India's oldest business conglomerates; based in Chennai.",
       "answer": "AMM Murugappa Chettiar",
@@ -9679,7 +10951,10 @@ window.QUESTIONS_DATA = {
         "jamshetji tata",
         "jamsetji nusserwanji tata"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb26",
@@ -9702,14 +10977,18 @@ window.QUESTIONS_DATA = {
         "sumant moolgaokar",
         "moolgaokar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb28",
       "topic": "business",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Karnataka-born banker; founded Canara Bank in 1906 at Mangalore.",
       "answer": "Ammembal Subba Rao Pai",
@@ -9731,7 +11010,10 @@ window.QUESTIONS_DATA = {
         "sayajirao iii",
         "maharaja sayajirao gaekwad"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb30",
@@ -9743,7 +11025,10 @@ window.QUESTIONS_DATA = {
         "ajay banga",
         "banga"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb31",
@@ -9755,7 +11040,10 @@ window.QUESTIONS_DATA = {
         "shantanu narayen",
         "narayen"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb32",
@@ -9767,7 +11055,10 @@ window.QUESTIONS_DATA = {
         "arvind krishna",
         "krishna"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p022",
@@ -9949,7 +11240,10 @@ window.QUESTIONS_DATA = {
         "lal bahadur shastri",
         "shastri"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p037",
@@ -9961,7 +11255,10 @@ window.QUESTIONS_DATA = {
         "v p singh",
         "vishwanath pratap singh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p038",
@@ -9972,7 +11269,10 @@ window.QUESTIONS_DATA = {
         "chandra shekhar",
         "chandrashekhar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p039",
@@ -9985,13 +11285,17 @@ window.QUESTIONS_DATA = {
         "inder kumar gujral",
         "gujral"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p040",
       "topic": "polity",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Karnataka leader who served as PM (June 1996-April 1997); first Karnataka leader to do so.",
       "answer": "HD Deve Gowda",
@@ -10011,7 +11315,10 @@ window.QUESTIONS_DATA = {
         "narendra modi",
         "modi"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p042",
@@ -10023,7 +11330,10 @@ window.QUESTIONS_DATA = {
         "draupadi murmu",
         "murmu"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p043",
@@ -10035,7 +11345,10 @@ window.QUESTIONS_DATA = {
         "mamata",
         "didi"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p044",
@@ -10045,7 +11358,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "jyoti basu"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp13",
@@ -10057,7 +11373,10 @@ window.QUESTIONS_DATA = {
         "giani zail singh",
         "zail singh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp14",
@@ -10069,7 +11388,10 @@ window.QUESTIONS_DATA = {
         "fakhruddin ali ahmed",
         "fakhruddin"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp15",
@@ -10081,7 +11403,10 @@ window.QUESTIONS_DATA = {
         "r venkataraman",
         "venkataraman"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp16",
@@ -10119,13 +11444,18 @@ window.QUESTIONS_DATA = {
         "h j kania",
         "kania"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp19",
       "topic": "polity",
       "difficulty": 3,
-      "themes": [],
+      "themes": [
+        "personalities"
+      ],
       "question": "First Indian woman to be Speaker of the Lok Sabha (2009-14); from Bihar; daughter of the Dalit leader and Union minister Jagjivan Ram.",
       "answer": "Meira Kumar",
       "accept": [
@@ -10176,7 +11506,8 @@ window.QUESTIONS_DATA = {
       "topic": "polity",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "AIADMK Tamil Nadu CM; protégée of MGR; CM five times between 1991 and 2016. Honorific 'Amma'.",
       "answer": "J Jayalalithaa",
@@ -10193,7 +11524,8 @@ window.QUESTIONS_DATA = {
       "topic": "polity",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil Nadu DMK patriarch; CM five times across the 1960s-2010s; Tamil scriptwriter and politician.",
       "answer": "M Karunanidhi",
@@ -10625,13 +11957,17 @@ window.QUESTIONS_DATA = {
         "sonu nigam",
         "sonu"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u022",
       "topic": "music",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Bengaluru-born Hindi-Bengali playback singer (1984-); 'Pari Hoon Main', 'Bairi Piya', 'Saans'; Sanjay Leela Bhansali's films.",
@@ -10652,7 +11988,10 @@ window.QUESTIONS_DATA = {
         "arijit singh",
         "arijit"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u024",
@@ -10664,7 +12003,10 @@ window.QUESTIONS_DATA = {
         "krishnakumar kunnath",
         "krishna kumar kunnath"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u025",
@@ -10675,7 +12017,10 @@ window.QUESTIONS_DATA = {
         "sunidhi chauhan",
         "sunidhi"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u026",
@@ -10686,7 +12031,10 @@ window.QUESTIONS_DATA = {
         "alka yagnik",
         "alka"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u027",
@@ -10698,7 +12046,10 @@ window.QUESTIONS_DATA = {
         "paudwal",
         "anuradha"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u028",
@@ -10709,13 +12060,17 @@ window.QUESTIONS_DATA = {
         "udit narayan",
         "udit"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u029",
       "topic": "music",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Tamil playback singer (1946-2020); over 40,000 songs across Indian languages; SPB.",
@@ -10732,7 +12087,8 @@ window.QUESTIONS_DATA = {
       "id": "u030",
       "topic": "music",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Kerala-born Malayalam-Hindi playback singer (1940-); over 50,000 songs claimed.",
       "answer": "KJ Yesudas",
@@ -10752,7 +12108,10 @@ window.QUESTIONS_DATA = {
         "mahendra kapoor",
         "mahendra"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u032",
@@ -10763,13 +12122,17 @@ window.QUESTIONS_DATA = {
         "suman kalyanpur",
         "kalyanpur"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u033",
       "topic": "music",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil-born playback singer and Carnatic vocalist (b. 1964); Oscar-nominated for 'Pi's Lullaby' from 'Life of Pi' (2012); Sangita Kalanidhi 2024.",
       "answer": "Bombay Jayashri",
@@ -10784,7 +12147,8 @@ window.QUESTIONS_DATA = {
       "id": "u034",
       "topic": "music",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil Carnatic vocalist (b. 1957); disciple of M.L. Vasanthakumari; Padma Bhushan 2015.",
       "answer": "Sudha Raghunathan",
@@ -10805,7 +12169,10 @@ window.QUESTIONS_DATA = {
         "asha bhonsle",
         "asha"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u036",
@@ -10817,7 +12184,10 @@ window.QUESTIONS_DATA = {
         "o p nayyar",
         "nayyar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u037",
@@ -10829,7 +12199,10 @@ window.QUESTIONS_DATA = {
         "salil chaudhary",
         "chowdhury"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u038",
@@ -10840,13 +12213,17 @@ window.QUESTIONS_DATA = {
         "madan mohan",
         "madan mohan kohli"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u039",
       "topic": "music",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Carnatic violin maestro (b. 1947); brother of L. Shankar and L. Vaidyanathan; Padma Bhushan 2001. Initials L.S.",
       "answer": "L Subramaniam",
@@ -10867,7 +12244,10 @@ window.QUESTIONS_DATA = {
         "wadali",
         "wadali brothers"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u042",
@@ -10878,7 +12258,10 @@ window.QUESTIONS_DATA = {
         "asha khadilkar",
         "khadilkar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u043",
@@ -10909,7 +12292,8 @@ window.QUESTIONS_DATA = {
       "id": "u045",
       "topic": "music",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Carnatic vocalist (1979-); the youngest male recipient of the Sangita Kalanidhi (2011); also a noted activist and writer.",
       "answer": "TM Krishna",
@@ -10925,7 +12309,8 @@ window.QUESTIONS_DATA = {
       "id": "u046",
       "topic": "music",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Carnatic violinist (1942-2024); accompanied MS Subbulakshmi for decades; the 'Padma Bhushan' of Carnatic violin.",
       "answer": "M Chandrasekaran",
@@ -10945,14 +12330,18 @@ window.QUESTIONS_DATA = {
         "rukmini devi",
         "arundale"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu15",
       "topic": "music",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil composer (1943-); the giant of Tamil/Malayalam film music for over four decades; mentor to AR Rahman.",
       "answer": "Ilaiyaraaja",
@@ -10969,7 +12358,8 @@ window.QUESTIONS_DATA = {
       "topic": "music",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Telugu film composer; won the Oscar in 2023 for Best Original Song for 'Naatu Naatu' from RRR. Initials M.M.K.",
@@ -10993,14 +12383,18 @@ window.QUESTIONS_DATA = {
         "mehdi hasan",
         "ustad mehdi hassan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu18",
       "topic": "music",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Pakistani folk and Sufi singer (1954-); often credited with bringing the kafi tradition of Bulleh Shah to a global audience.",
       "answer": "Abida Parveen",
@@ -11020,7 +12414,10 @@ window.QUESTIONS_DATA = {
         "kishori amonkar",
         "amonkar"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu20",
@@ -11032,7 +12429,10 @@ window.QUESTIONS_DATA = {
         "mallikarjun mansur",
         "mansur"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu21",
@@ -11045,7 +12445,10 @@ window.QUESTIONS_DATA = {
         "gandharva",
         "shivaputra siddharamayya komkalimath"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu22",
@@ -11057,7 +12460,10 @@ window.QUESTIONS_DATA = {
         "gangubai hangal",
         "gangubai"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu23",
@@ -11070,7 +12476,10 @@ window.QUESTIONS_DATA = {
         "bade ghulam ali",
         "ghulam ali khan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu24",
@@ -11082,14 +12491,18 @@ window.QUESTIONS_DATA = {
         "jaidev",
         "jaidev varma"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu25",
       "topic": "music",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Karnataka Carnatic vocalist (1932-2009); 'Ardhanarishwara'; Sangita Kalanidhi 1985.",
       "answer": "M Balamuralikrishna",
@@ -11106,7 +12519,8 @@ window.QUESTIONS_DATA = {
       "topic": "music",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil mandolin maestro (1969-2014); pioneered the Indian-classical mandolin; Padma Shri 1998. Initials U.S.",
       "answer": "U Srinivas",
@@ -11127,7 +12541,10 @@ window.QUESTIONS_DATA = {
         "faiz ahmed faiz",
         "faiz"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k022",
@@ -11138,7 +12555,10 @@ window.QUESTIONS_DATA = {
         "suketu mehta",
         "mehta"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k023",
@@ -11149,13 +12569,17 @@ window.QUESTIONS_DATA = {
         "vikas swarup",
         "swarup"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k024",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Hindi-Urdu poet (1907-2003); 'Madhushala' (1935); father of Amitabh Bachchan.",
       "answer": "Harivansh Rai Bachchan",
@@ -11170,7 +12594,8 @@ window.QUESTIONS_DATA = {
       "id": "k025",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Hindi novelist (1921-77); 'Maila Anchal' (1954) is widely considered the greatest post-independence Hindi novel of rural life.",
       "answer": "Phanishwar Nath Renu",
@@ -11184,7 +12609,8 @@ window.QUESTIONS_DATA = {
       "id": "k026",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Author of 'India Wins Freedom'; the autobiographical account of the freedom movement; Maulana of Hindi-Urdu literature.",
       "answer": "Maulana Abul Kalam Azad",
@@ -11199,7 +12625,8 @@ window.QUESTIONS_DATA = {
       "id": "k027",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Marathi playwright (1928-2008); 'Ghashiram Kotwal', 'Sakharam Binder', 'Silence! The Court Is in Session'.",
       "answer": "Vijay Tendulkar",
@@ -11213,7 +12640,8 @@ window.QUESTIONS_DATA = {
       "id": "k028",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Karnataka playwright and actor (1938-2019); 'Tughlaq' (1964), 'Hayavadana' (1971), 'Nagamandala' (1988).",
       "answer": "Girish Karnad",
@@ -11228,7 +12656,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Malayalam novelist (1933-2020); 'Naalukettu' (1958), 'Randamoozham' (1984).",
       "answer": "MT Vasudevan Nair",
@@ -11245,7 +12674,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Malayalam writer (1908-1994); 'Pathummayude Aadu', 'Balyakalasakhi'; introduced an experimental Sufi-flavoured prose.",
       "answer": "Vaikom Muhammad Basheer",
@@ -11260,7 +12690,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Malayalam novelist (1912-99); 'Chemmeen' (1956) — a tragedy of fishermen on the Kerala coast.",
       "answer": "Thakazhi Sivasankara Pillai",
@@ -11276,7 +12707,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Malayalam novelist (1930-2005); 'Khasakkinte Itihasam' (The Legends of Khasak, 1969).",
       "answer": "OV Vijayan",
@@ -11292,7 +12724,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil novelist (1936-2020); experimental literary fiction; pen name 'Su.Ra'.",
       "answer": "Sundara Ramaswamy",
@@ -11308,7 +12741,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil novelist (1966-); 'Madhorubagan' (One Part Woman, 2010); a controversial novel that drew protests in Tamil Nadu in 2015.",
       "answer": "Perumal Murugan",
@@ -11323,7 +12757,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Kannada novelist and poet (1904-94); 'Sri Ramayana Darshanam' (1949); first Kannada Jnanpith laureate.",
       "answer": "Kuvempu",
@@ -11338,7 +12773,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Kannada novelist (1902-1997); 'Marali Mannige' and 'Chomana Dudi'; Jnanpith 1977.",
       "answer": "Shivaram Karanth",
@@ -11353,7 +12789,8 @@ window.QUESTIONS_DATA = {
       "id": "k037",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Bengali novelist (1898-1971); 'Ganadevta' (1943); chronicled rural Bengal under colonialism.",
       "answer": "Tarashankar Bandyopadhyay",
@@ -11368,7 +12805,8 @@ window.QUESTIONS_DATA = {
       "id": "k038",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Bengali novelist (1908-56); 'Padma Nadir Majhi' (1936); a hard-edged realism that reshaped Bengali fiction.",
       "answer": "Manik Bandyopadhyay",
@@ -11383,7 +12821,8 @@ window.QUESTIONS_DATA = {
       "id": "k039",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Bengali novelist (1876-1938); 'Devdas' (1917), 'Parineeta' (1914); the most adapted Bengali writer in Indian cinema.",
       "answer": "Sarat Chandra Chattopadhyay",
@@ -11399,7 +12838,8 @@ window.QUESTIONS_DATA = {
       "id": "k040",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Hindi novelist (1925-2005); 'Tamas' (1974) — a Partition novel; later adapted by Govind Nihalani.",
       "answer": "Bhisham Sahni",
@@ -11413,7 +12853,8 @@ window.QUESTIONS_DATA = {
       "id": "k041",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Hindi poet (1899-1961); 'Saroj Smriti'; Hindi modernism; pen name 'Nirala'.",
       "answer": "Suryakant Tripathi Nirala",
@@ -11428,7 +12869,8 @@ window.QUESTIONS_DATA = {
       "id": "k042",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Hindi poet (1907-87); major Hindi modernist; Padma Bhushan 1976.",
       "answer": "Sumitranandan Pant",
@@ -11442,7 +12884,8 @@ window.QUESTIONS_DATA = {
       "id": "k043",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Hindi poet (1908-74) and freedom fighter; 'Kurukshetra'; Rashtrakavi (national poet) of independent India.",
       "answer": "Ramdhari Singh Dinkar",
@@ -11457,7 +12900,8 @@ window.QUESTIONS_DATA = {
       "id": "k044",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Hindi poet and feminist (1907-87); 'Yama' (1939) won the Jnanpith; pioneer of women's literature in Hindi.",
       "answer": "Mahadevi Verma",
@@ -11471,7 +12915,8 @@ window.QUESTIONS_DATA = {
       "id": "k045",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Hindi poet, novelist and editor (1926-1997); 'Andha Yug' (verse-play, 1953); chief editor of 'Dharmayug' magazine for nearly three decades.",
       "answer": "Dharmavir Bharati",
@@ -11486,7 +12931,8 @@ window.QUESTIONS_DATA = {
       "id": "k046",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Bengali poet, novelist and essayist (1908-1974); 'Tithidore' (1949), 'Raat Bhore Brishti' (1967); founder of the influential 'Kavita Bhavan' literary salon at Rasbehari Avenue, Calcutta.",
       "answer": "Buddhadeva Bose",
@@ -11507,7 +12953,10 @@ window.QUESTIONS_DATA = {
         "v s naipaul",
         "naipaul"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k048",
@@ -11518,7 +12967,10 @@ window.QUESTIONS_DATA = {
         "jhumpa lahiri",
         "lahiri"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k049",
@@ -11529,7 +12981,10 @@ window.QUESTIONS_DATA = {
         "kiran desai",
         "desai"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k050",
@@ -11540,13 +12995,17 @@ window.QUESTIONS_DATA = {
         "amitav ghosh",
         "ghosh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k051",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian historian (born 1958); 'India After Gandhi' (2007), 'Gandhi Before India' (2013); historical work and cricket writing.",
       "answer": "Ramachandra Guha",
@@ -11562,7 +13021,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Sanskrit dramatist of c. 2nd century BCE; author of 'Mricchakatika' (The Little Clay Cart).",
       "answer": "Shudraka",
@@ -11576,7 +13036,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian grammarian of c. 6th-4th century BCE; 'Ashtadhyayi' is the canonical Sanskrit grammar — 4,000 sutras.",
       "answer": "Panini",
@@ -11590,7 +13051,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian grammarian of c. 2nd century BCE; commentator on Panini ('Mahabhashya'); legendary author of the Yoga Sutras.",
       "answer": "Patanjali",
@@ -11604,7 +13066,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Author of the 'Sushruta Samhita', a medical text containing over 300 surgical procedures.",
       "answer": "Sushruta",
@@ -11618,7 +13081,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Author of the 'Charaka Samhita', the classical Indian medical text on internal medicine.",
       "answer": "Charaka",
@@ -11633,7 +13097,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Mughal-era Persian-Urdu poet (1722-1810); his ghazals dominated late Mughal Delhi.",
       "answer": "Mir Taqi Mir",
@@ -11649,7 +13114,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Pakistani Urdu poet (1931-2008); 'Suna Hai Log Use Aankh Bhar Ke Dekhte Hain'.",
       "answer": "Ahmad Faraz",
@@ -11665,7 +13131,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Urdu writer (1927-2007); 'Aag Ka Darya' (River of Fire, 1959) is widely regarded as the greatest 20th-century Urdu novel.",
       "answer": "Qurratulain Hyder",
@@ -11682,7 +13149,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian historian (1931-); 'Ancient India' was her textbook standard; 'Early India' (2002) replaced it.",
       "answer": "Romila Thapar",
@@ -11697,7 +13165,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian historian (1928-2014); 'India's Struggle for Independence' (1988) is a college standard; Marxist secular historian.",
       "answer": "Bipan Chandra",
@@ -11717,7 +13186,10 @@ window.QUESTIONS_DATA = {
         "amartya sen",
         "sen"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hk28",
@@ -11729,14 +13201,18 @@ window.QUESTIONS_DATA = {
         "amitav ghosh",
         "ghosh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hk29",
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Sahitya Akademi-winning Hindi novelist (1925-2019); 'Mitro Marjani' (1967), 'Zindaginama' (1979); Jnanpith 2017.",
       "answer": "Krishna Sobti",
@@ -11751,7 +13227,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Bengali novelist (1894-1950); 'Aranyak'; chronicled the Bengal village.",
       "answer": "Bibhutibhushan Bandyopadhyay",
@@ -11766,7 +13243,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Tamil-Kannada writer Anant Pai (1929-2011); founded the comic-book series 'Amar Chitra Katha' in 1967.",
       "answer": "Anant Pai",
@@ -11781,7 +13259,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Bengali detective fiction writer (1899-1970); created Byomkesh Bakshi.",
       "answer": "Saradindu Bandyopadhyay",
@@ -11798,7 +13277,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil writer (1908-99); pen name 'Pudumaipithan'; pioneer of the modern Tamil short story.",
       "answer": "Pudumaipithan",
@@ -11818,7 +13298,10 @@ window.QUESTIONS_DATA = {
         "rakesh sharma",
         "sharma"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n022",
@@ -11829,13 +13312,17 @@ window.QUESTIONS_DATA = {
         "sunita williams",
         "williams"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n023",
       "topic": "general",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Indian-American structural biologist; Nobel Prize in Chemistry 2009 for ribosome work.",
       "answer": "Venkatraman Ramakrishnan",
@@ -11850,7 +13337,8 @@ window.QUESTIONS_DATA = {
       "id": "n024",
       "topic": "general",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Indian-American chemist; National Medal of Science 2014; Bharat Ratna 2014. Initials C.N.R.",
       "answer": "CNR Rao",
@@ -11873,7 +13361,10 @@ window.QUESTIONS_DATA = {
         "swaminathan",
         "monkombu sambasivan swaminathan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n026",
@@ -11921,7 +13412,10 @@ window.QUESTIONS_DATA = {
         "somanath",
         "s somnath"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n030",
@@ -11932,7 +13426,10 @@ window.QUESTIONS_DATA = {
         "vijender singh",
         "vijender"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n031",
@@ -11943,7 +13440,10 @@ window.QUESTIONS_DATA = {
         "sakshi malik",
         "sakshi"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n032",
@@ -11955,7 +13455,10 @@ window.QUESTIONS_DATA = {
         "ravi dahiya",
         "dahiya"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n033",
@@ -11966,7 +13469,10 @@ window.QUESTIONS_DATA = {
         "bajrang punia",
         "bajrang"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n034",
@@ -11977,7 +13483,10 @@ window.QUESTIONS_DATA = {
         "lovlina borgohain",
         "lovlina"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n035",
@@ -11989,7 +13498,10 @@ window.QUESTIONS_DATA = {
         "bhaker",
         "manu"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n036",
@@ -12000,7 +13512,10 @@ window.QUESTIONS_DATA = {
         "vijay kumar",
         "vijay kumar shooter"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n037",
@@ -12012,13 +13527,17 @@ window.QUESTIONS_DATA = {
         "rathore",
         "rajyavardhan singh rathore"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n038",
       "topic": "general",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Karnataka-born Indian badminton player; All-England Champion 1980 — first Indian to win the title.",
       "answer": "Prakash Padukone",
@@ -12033,7 +13552,8 @@ window.QUESTIONS_DATA = {
       "id": "n039",
       "topic": "general",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Andhra-born Indian badminton coach and former All-England champion (2001); coach to Sindhu and others.",
       "answer": "Pullela Gopichand",
@@ -12052,7 +13572,10 @@ window.QUESTIONS_DATA = {
         "devendra jhajharia",
         "jhajharia"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n041",
@@ -12063,7 +13586,10 @@ window.QUESTIONS_DATA = {
         "mariyappan thangavelu",
         "mariyappan"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n042",
@@ -12075,7 +13601,10 @@ window.QUESTIONS_DATA = {
         "bhaichung",
         "bhutia"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n043",
@@ -12086,13 +13615,17 @@ window.QUESTIONS_DATA = {
         "pankaj advani",
         "advani"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n044",
       "topic": "general",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Hyderabad-born woman chess Grandmaster; world rapid champion 2019.",
       "answer": "Koneru Humpy",
@@ -12107,7 +13640,8 @@ window.QUESTIONS_DATA = {
       "id": "n045",
       "topic": "general",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil Nadu-born chess prodigy; in 2023 became world No. 8 at age 18.",
       "answer": "R Praggnanandhaa",
@@ -12128,7 +13662,10 @@ window.QUESTIONS_DATA = {
         "dipa karmakar",
         "dipa"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n047",
@@ -12139,7 +13676,10 @@ window.QUESTIONS_DATA = {
         "hima das",
         "hima"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n048",
@@ -12150,7 +13690,10 @@ window.QUESTIONS_DATA = {
         "gagan narang",
         "narang"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n049",
@@ -12161,7 +13704,10 @@ window.QUESTIONS_DATA = {
         "pingali venkayya",
         "venkayya"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n050",
@@ -12172,7 +13718,10 @@ window.QUESTIONS_DATA = {
         "rabindranath tagore",
         "tagore"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n051",
@@ -12184,7 +13733,10 @@ window.QUESTIONS_DATA = {
         "bankim chandra chatterjee",
         "bankim"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n052",
@@ -12287,7 +13839,10 @@ window.QUESTIONS_DATA = {
         "rabindranath tagore",
         "tagore"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn21",
@@ -12301,7 +13856,10 @@ window.QUESTIONS_DATA = {
         "jc bose",
         "jagdish chandra bose"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn22",
@@ -12315,7 +13873,10 @@ window.QUESTIONS_DATA = {
         "sn bose",
         "satyen bose"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn23",
@@ -12327,14 +13888,18 @@ window.QUESTIONS_DATA = {
         "meghnad saha",
         "saha"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn24",
       "topic": "general",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil-American chemist (1895-1948); pioneered the synthesis of folic acid (vitamin B9); died young.",
       "answer": "Yellapragada Subbarow",
@@ -12355,7 +13920,10 @@ window.QUESTIONS_DATA = {
         "birbal sahni",
         "sahni"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn26",
@@ -12367,7 +13935,10 @@ window.QUESTIONS_DATA = {
         "homi sethna",
         "sethna"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn27",
@@ -12379,7 +13950,10 @@ window.QUESTIONS_DATA = {
         "arjan singh",
         "marshal arjan singh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn28",
@@ -12393,7 +13967,10 @@ window.QUESTIONS_DATA = {
         "cariappa",
         "kodandera madappa cariappa"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn29",
@@ -12407,14 +13984,18 @@ window.QUESTIONS_DATA = {
         "katari",
         "ram dass katari"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn30",
       "topic": "general",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Indian Army officer born in East Bengal (now Bangladesh); led Operation Polo (1948); later rose to General and served as the 5th Chief of Army Staff (1962-66).",
       "answer": "JN Chaudhuri",
@@ -12437,7 +14018,10 @@ window.QUESTIONS_DATA = {
         "milkha",
         "the flying sikh"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn32",
@@ -12450,7 +14034,10 @@ window.QUESTIONS_DATA = {
         "anju george",
         "anju"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn33",
@@ -12462,7 +14049,10 @@ window.QUESTIONS_DATA = {
         "abhinav bindra",
         "bindra"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn34",
@@ -12475,7 +14065,10 @@ window.QUESTIONS_DATA = {
         "mary",
         "mc mary kom"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn35",
@@ -12487,7 +14080,10 @@ window.QUESTIONS_DATA = {
         "kalpana chawla",
         "kalpana"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn36",
@@ -12500,14 +14096,18 @@ window.QUESTIONS_DATA = {
         "manekshaw",
         "sam bahadur"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn37",
       "topic": "general",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Mysore-born civil engineer and statesman; Diwan of Mysore (1912-18); designed the Krishna Raja Sagara dam.",
       "answer": "M Visvesvaraya",
@@ -12530,7 +14130,10 @@ window.QUESTIONS_DATA = {
         "sundarlal bahuguna",
         "bahuguna"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn39",
@@ -12543,7 +14146,10 @@ window.QUESTIONS_DATA = {
         "p c mahalanobis",
         "mahalanobis"
       ],
-      "created": "2026-05-10"
+      "created": "2026-05-10",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c076",
@@ -12568,7 +14174,10 @@ window.QUESTIONS_DATA = {
         "dhoni",
         "mahendra singh dhoni"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c078",
@@ -12579,7 +14188,10 @@ window.QUESTIONS_DATA = {
         "rahul dravid",
         "dravid"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c079",
@@ -12591,7 +14203,10 @@ window.QUESTIONS_DATA = {
         "azharuddin",
         "azhar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c080",
@@ -12602,7 +14217,10 @@ window.QUESTIONS_DATA = {
         "kapil dev",
         "kapil"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c081",
@@ -12627,7 +14245,10 @@ window.QUESTIONS_DATA = {
         "virat kohli",
         "kohli"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c083",
@@ -12639,7 +14260,10 @@ window.QUESTIONS_DATA = {
         "chahal",
         "yuzi"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c084",
@@ -12651,7 +14275,10 @@ window.QUESTIONS_DATA = {
         "sachin",
         "tendulkar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c085",
@@ -12664,7 +14291,10 @@ window.QUESTIONS_DATA = {
         "bharat",
         "kona bharat"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c086",
@@ -12676,7 +14306,10 @@ window.QUESTIONS_DATA = {
         "mohammed kaif",
         "kaif"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c087",
@@ -12687,13 +14320,17 @@ window.QUESTIONS_DATA = {
         "virat kohli",
         "kohli"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c088",
       "topic": "cricket",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Mumbai-born right-handed opening batter who captained India to the 2018 Under-19 World Cup title in New Zealand. Initials P.S.",
       "answer": "Prithvi Shaw",
@@ -12714,7 +14351,10 @@ window.QUESTIONS_DATA = {
         "ganguly",
         "dada"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c090",
@@ -12725,7 +14365,10 @@ window.QUESTIONS_DATA = {
         "roger binny",
         "binny"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c091",
@@ -12736,7 +14379,10 @@ window.QUESTIONS_DATA = {
         "virat kohli",
         "kohli"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c092",
@@ -12761,13 +14407,17 @@ window.QUESTIONS_DATA = {
         "sachin",
         "tendulkar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c094",
       "topic": "cricket",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Karnataka batter; scored a stellar 153 vs Australia at his Test debut at Adelaide in December 1996. Initials V.V.S.",
       "answer": "VVS Laxman",
@@ -12788,7 +14438,10 @@ window.QUESTIONS_DATA = {
         "venkat",
         "s venkataraghavan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc40",
@@ -12801,7 +14454,10 @@ window.QUESTIONS_DATA = {
         "gavaskar",
         "sunny gavaskar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc41",
@@ -12815,7 +14471,10 @@ window.QUESTIONS_DATA = {
         "s m h kirmani",
         "syed mujtaba husain kirmani"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc42",
@@ -12827,7 +14486,10 @@ window.QUESTIONS_DATA = {
         "rahul dravid",
         "dravid"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc43",
@@ -12839,7 +14501,10 @@ window.QUESTIONS_DATA = {
         "maninder singh",
         "maninder"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc44",
@@ -12851,7 +14516,10 @@ window.QUESTIONS_DATA = {
         "sunil gavaskar",
         "gavaskar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc45",
@@ -12863,7 +14531,10 @@ window.QUESTIONS_DATA = {
         "dilip vengsarkar",
         "vengsarkar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc47",
@@ -12875,7 +14546,10 @@ window.QUESTIONS_DATA = {
         "ajit wadekar",
         "wadekar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc48",
@@ -12887,7 +14561,10 @@ window.QUESTIONS_DATA = {
         "roger binny",
         "binny"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc49",
@@ -12899,7 +14576,10 @@ window.QUESTIONS_DATA = {
         "madan lal",
         "madanlal"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc51",
@@ -12911,7 +14591,10 @@ window.QUESTIONS_DATA = {
         "polly umrigar",
         "umrigar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc54",
@@ -12925,7 +14608,10 @@ window.QUESTIONS_DATA = {
         "venkat",
         "s venkataraghavan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc55",
@@ -12937,7 +14623,10 @@ window.QUESTIONS_DATA = {
         "vijay hazare",
         "hazare"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc56",
@@ -12949,7 +14638,10 @@ window.QUESTIONS_DATA = {
         "bishan singh bedi",
         "bedi"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc57",
@@ -12962,7 +14654,10 @@ window.QUESTIONS_DATA = {
         "srinivasan",
         "n s rinivasan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc58",
@@ -12974,7 +14669,10 @@ window.QUESTIONS_DATA = {
         "ms dhoni",
         "dhoni"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f077",
@@ -12987,7 +14685,10 @@ window.QUESTIONS_DATA = {
         "bhansali",
         "slb"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f078",
@@ -12999,7 +14700,10 @@ window.QUESTIONS_DATA = {
         "phalke",
         "dhundiraj govind phalke"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f079",
@@ -13012,7 +14716,10 @@ window.QUESTIONS_DATA = {
         "akshay",
         "rajiv hari om bhatia"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f080",
@@ -13024,7 +14731,10 @@ window.QUESTIONS_DATA = {
         "saif",
         "saif khan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f082",
@@ -13036,7 +14746,10 @@ window.QUESTIONS_DATA = {
         "khanna",
         "vinod"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f083",
@@ -13048,7 +14761,10 @@ window.QUESTIONS_DATA = {
         "jaffrey",
         "saeed"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f086",
@@ -13060,7 +14776,10 @@ window.QUESTIONS_DATA = {
         "rishi",
         "chintu"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f087",
@@ -13072,7 +14791,10 @@ window.QUESTIONS_DATA = {
         "tanuja samarth",
         "tanuja mukherjee"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f089",
@@ -13083,7 +14805,10 @@ window.QUESTIONS_DATA = {
         "janhvi kapoor",
         "janhvi"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f091",
@@ -13095,7 +14820,10 @@ window.QUESTIONS_DATA = {
         "adi chopra",
         "chopra"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf41",
@@ -13107,7 +14835,10 @@ window.QUESTIONS_DATA = {
         "himanshu rai",
         "rai"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf44",
@@ -13120,14 +14851,18 @@ window.QUESTIONS_DATA = {
         "kumudlal ganguly",
         "dadamoni"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf45",
       "topic": "cinema",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil cinema pioneer (1899-1981); 'Chandralekha' (1948) was the most expensive Indian film of its time; founded Gemini Studios.",
       "answer": "SS Vasan",
@@ -13150,7 +14885,10 @@ window.QUESTIONS_DATA = {
         "phalke",
         "dhundiraj govind phalke"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf47",
@@ -13162,7 +14900,10 @@ window.QUESTIONS_DATA = {
         "devika rani",
         "devika"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf48",
@@ -13175,7 +14916,10 @@ window.QUESTIONS_DATA = {
         "irani",
         "ardeshir m irani"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf49",
@@ -13201,7 +14945,10 @@ window.QUESTIONS_DATA = {
         "guru",
         "vasanth kumar shivashankar padukone"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf56",
@@ -13214,7 +14961,10 @@ window.QUESTIONS_DATA = {
         "kasif",
         "karimuddin asif"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf57",
@@ -13227,7 +14977,10 @@ window.QUESTIONS_DATA = {
         "noorjehan",
         "melody queen"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf58",
@@ -13239,7 +14992,10 @@ window.QUESTIONS_DATA = {
         "kanan devi",
         "kanan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf59",
@@ -13251,7 +15007,10 @@ window.QUESTIONS_DATA = {
         "nilu phule",
         "phule"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf60",
@@ -13287,7 +15046,10 @@ window.QUESTIONS_DATA = {
         "alamgir",
         "alamgir i"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h098",
@@ -13299,7 +15061,10 @@ window.QUESTIONS_DATA = {
         "dara shukoh",
         "dara"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h099",
@@ -13310,7 +15075,10 @@ window.QUESTIONS_DATA = {
         "guru tegh bahadur",
         "tegh bahadur"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h100",
@@ -13333,7 +15101,10 @@ window.QUESTIONS_DATA = {
         "satyendra nath tagore",
         "s n tagore"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h102",
@@ -13344,7 +15115,10 @@ window.QUESTIONS_DATA = {
         "sambhaji",
         "sambhaji maharaj"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h103",
@@ -13388,7 +15162,10 @@ window.QUESTIONS_DATA = {
         "lala lajpat rai",
         "lajpat rai"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h108",
@@ -13402,7 +15179,10 @@ window.QUESTIONS_DATA = {
         "netaji",
         "subhash chandra bose"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h109",
@@ -13414,7 +15194,10 @@ window.QUESTIONS_DATA = {
         "suhrawardy",
         "h s suhrawardy"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h110",
@@ -13426,13 +15209,17 @@ window.QUESTIONS_DATA = {
         "khusrau",
         "amir khusro"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h112",
       "topic": "history",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Vijayanagara emperor (r. 1509-29) under whom the empire reached its zenith; built the Krishna Temple at Hampi; defeated the Bahmani sultans repeatedly.",
       "answer": "Krishnadevaraya",
@@ -13484,7 +15271,10 @@ window.QUESTIONS_DATA = {
         "lala har dayal",
         "har dayal"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h119",
@@ -13510,7 +15300,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "bimbisara"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh53",
@@ -13522,7 +15315,10 @@ window.QUESTIONS_DATA = {
         "ajatashatru",
         "ajatasatru"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh54",
@@ -13535,14 +15331,18 @@ window.QUESTIONS_DATA = {
         "dhanananda",
         "dhana"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh55",
       "topic": "history",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Kakatiya queen and warrior (r. 1262-89); ruled the Telugu country from her capital at Warangal; sometimes called the 'Maharani' of the Deccan.",
       "answer": "Rudrama Devi",
@@ -13558,7 +15358,8 @@ window.QUESTIONS_DATA = {
       "topic": "history",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Hoysala king (r. 1108-52) of Karnataka; built the Chennakeshava Temple at Belur; converted to Vaishnavism after originally being a Jain.",
       "answer": "Vishnuvardhana",
@@ -13579,7 +15380,10 @@ window.QUESTIONS_DATA = {
         "ibrahim lodi",
         "ibrahim"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh58",
@@ -13592,7 +15396,10 @@ window.QUESTIONS_DATA = {
         "raja man singh",
         "raja man singh i"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh59",
@@ -13606,7 +15413,10 @@ window.QUESTIONS_DATA = {
         "sirhindi",
         "mujaddid alf sani"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh60",
@@ -13619,7 +15429,10 @@ window.QUESTIONS_DATA = {
         "muhammad shah rangila",
         "mohammad shah"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh63",
@@ -13631,7 +15444,10 @@ window.QUESTIONS_DATA = {
         "lala lajpat rai",
         "lajpat rai"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh64",
@@ -13644,7 +15460,10 @@ window.QUESTIONS_DATA = {
         "dhingra",
         "madan dhingra"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh66",
@@ -13657,7 +15476,10 @@ window.QUESTIONS_DATA = {
         "veer kunwar singh",
         "babu kunwar singh"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh67",
@@ -13671,14 +15493,18 @@ window.QUESTIONS_DATA = {
         "madhavrao 1",
         "madhavrao"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh68",
       "topic": "history",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil king (r. c. 880-907 CE); founder of the Imperial Chola dynasty; built the foundations of what his great-grandson Rajaraja Chola would later expand into a maritime empire.",
       "answer": "Vijayalaya Chola",
@@ -13698,7 +15524,10 @@ window.QUESTIONS_DATA = {
         "humayun",
         "nasir ud din muhammad humayun"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh70",
@@ -13712,7 +15541,10 @@ window.QUESTIONS_DATA = {
         "sher khan",
         "farid khan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh71",
@@ -13724,7 +15556,10 @@ window.QUESTIONS_DATA = {
         "gobind rai",
         "gobind"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh72",
@@ -13736,7 +15571,10 @@ window.QUESTIONS_DATA = {
         "muqarrab khan",
         "muqarrab"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh73",
@@ -13754,7 +15592,10 @@ window.QUESTIONS_DATA = {
         "nehru brigade",
         "subhas brigade"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh74",
@@ -14261,7 +16102,10 @@ window.QUESTIONS_DATA = {
         "harsh goenka",
         "goenka"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b069",
@@ -14286,7 +16130,10 @@ window.QUESTIONS_DATA = {
         "lovji wadia",
         "wadia"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b072",
@@ -14320,7 +16167,10 @@ window.QUESTIONS_DATA = {
         "harshad mehta",
         "mehta"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b078",
@@ -14331,7 +16181,10 @@ window.QUESTIONS_DATA = {
         "ketan parekh",
         "parekh"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b079",
@@ -14357,7 +16210,10 @@ window.QUESTIONS_DATA = {
         "r p goenka",
         "goenka"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb34",
@@ -14370,7 +16226,10 @@ window.QUESTIONS_DATA = {
         "kc mahindra",
         "k c mahindra"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb35",
@@ -14383,7 +16242,10 @@ window.QUESTIONS_DATA = {
         "dorab tata",
         "sir dorabji tata"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb36",
@@ -14397,7 +16259,10 @@ window.QUESTIONS_DATA = {
         "jamshedji tata",
         "jamsetji nusserwanji tata"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb39",
@@ -14410,7 +16275,10 @@ window.QUESTIONS_DATA = {
         "walchand",
         "hirachand"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb40",
@@ -14422,7 +16290,10 @@ window.QUESTIONS_DATA = {
         "walchand hirachand",
         "walchand"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb43",
@@ -14434,7 +16305,10 @@ window.QUESTIONS_DATA = {
         "anil ambani",
         "anil"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb44",
@@ -14463,7 +16337,10 @@ window.QUESTIONS_DATA = {
         "agrawal",
         "parag"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p045",
@@ -14655,7 +16532,10 @@ window.QUESTIONS_DATA = {
         "sharma",
         "s d sharma"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp28",
@@ -14668,7 +16548,10 @@ window.QUESTIONS_DATA = {
         "desai",
         "morarji"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp29",
@@ -14681,7 +16564,10 @@ window.QUESTIONS_DATA = {
         "nanda",
         "gulzari lal nanda"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp30",
@@ -14692,7 +16578,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "baldev singh"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp32",
@@ -14706,7 +16595,10 @@ window.QUESTIONS_DATA = {
         "mavalankar",
         "ganesh vasudev mavalankar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp33",
@@ -14733,7 +16625,10 @@ window.QUESTIONS_DATA = {
         "kesavananda bharati v state of kerala",
         "kesavananda"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp35",
@@ -15061,7 +16956,10 @@ window.QUESTIONS_DATA = {
         "nadeem and shravan",
         "nadeem saifi shravan rathod"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u049",
@@ -15073,13 +16971,17 @@ window.QUESTIONS_DATA = {
         "bappi",
         "bappi da"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u053",
       "topic": "music",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Pakistani ghazal singer (1935-2009); celebrated for her rendition of Faiz Ahmed Faiz's 'Hum Dekhenge'.",
       "answer": "Iqbal Bano",
@@ -15093,7 +16995,8 @@ window.QUESTIONS_DATA = {
       "id": "u057",
       "topic": "music",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil-Kannada composer (b. 1943); the giant of Tamil-Malayalam film music for over four decades; mentor to AR Rahman.",
       "answer": "Ilaiyaraaja",
@@ -15108,7 +17011,8 @@ window.QUESTIONS_DATA = {
       "id": "u059",
       "topic": "music",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil playback and ghazal singer (b. 1955); 'Tu Hi Re' from Bombay (1995); Padma Shri 2004; multiple National Awards.",
       "answer": "Hariharan",
@@ -15127,13 +17031,17 @@ window.QUESTIONS_DATA = {
         "hirabai",
         "barodekar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u064",
       "topic": "music",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Hindustani classical vocalist (1932-2024); Kirana gharana; Padma Vibhushan 2022.",
       "answer": "Prabha Atre",
@@ -15148,7 +17056,8 @@ window.QUESTIONS_DATA = {
       "topic": "music",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil Carnatic violinist and composer (1930-2013); a foundational figure of the Lalgudi bani; Padma Bhushan 2001.",
       "answer": "Lalgudi Jayaraman",
@@ -15164,7 +17073,8 @@ window.QUESTIONS_DATA = {
       "topic": "music",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil mridangam virtuoso (1912-1981); the 'Padma Bhushan' of Indian percussion; played for MS Subbulakshmi and Ariyakudi.",
       "answer": "Palghat Mani Iyer",
@@ -15180,7 +17090,8 @@ window.QUESTIONS_DATA = {
       "topic": "music",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil Carnatic vocalist (1890-1967); the 'Pitamaha' of modern Carnatic music; mentor to TM Krishna's lineage.",
       "answer": "Ariyakudi Ramanuja Iyengar",
@@ -15203,7 +17114,10 @@ window.QUESTIONS_DATA = {
         "faiyaz",
         "aftab e mausiqui"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu34",
@@ -15215,7 +17129,10 @@ window.QUESTIONS_DATA = {
         "inayat khan",
         "hazrat inayat khan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu36",
@@ -15227,7 +17144,10 @@ window.QUESTIONS_DATA = {
         "fayyaz hashmi",
         "hashmi"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu39",
@@ -15239,7 +17159,10 @@ window.QUESTIONS_DATA = {
         "gulzar",
         "sampooran singh kalra"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu43",
@@ -15274,7 +17197,10 @@ window.QUESTIONS_DATA = {
         "rabindranath tagore",
         "tagore"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k054",
@@ -15285,7 +17211,10 @@ window.QUESTIONS_DATA = {
         "amartya sen",
         "sen"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k055",
@@ -15296,13 +17225,17 @@ window.QUESTIONS_DATA = {
         "william dalrymple",
         "dalrymple"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k066",
       "topic": "books",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil writer (1934-2015); known as 'Jeyakanthan'; Jnanpith 2002 for Tamil literature.",
       "answer": "Jeyakanthan",
@@ -15317,7 +17250,8 @@ window.QUESTIONS_DATA = {
       "id": "k067",
       "topic": "books",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Malayalam novelist (1962-); 'Goat Days' (2008); 'Najeeb' the South Indian goat-herder in the Saudi desert.",
       "answer": "Benyamin",
@@ -15332,7 +17266,8 @@ window.QUESTIONS_DATA = {
       "id": "k068",
       "topic": "books",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Malayalam novelist (1930-2005); 'Khasakkinte Itihasam' (1969); Padma Bhushan 2003.",
       "answer": "OV Vijayan",
@@ -15347,7 +17282,8 @@ window.QUESTIONS_DATA = {
       "id": "k069",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Bengali writer and activist (1926-2016); 'Hajar Churashir Ma' (Mother of 1084); Jnanpith 1996.",
       "answer": "Mahasweta Devi",
@@ -15361,7 +17297,8 @@ window.QUESTIONS_DATA = {
       "id": "k070",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Marathi playwright (1928-2008); 'Ghashiram Kotwal' (1972), 'Sakharam Binder' (1972), 'Silence! The Court Is in Session' (1967).",
       "answer": "Vijay Tendulkar",
@@ -15376,7 +17313,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Telugu writer (1895-1976); 'Ramayana Kalpavruksham'; first Telugu Jnanpith laureate (1970).",
       "answer": "Viswanatha Satyanarayana",
@@ -15391,7 +17329,8 @@ window.QUESTIONS_DATA = {
       "id": "k073",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Marathi novelist (1898-1976); 'Yayati' (1959); Jnanpith 1974 — the first Marathi Jnanpith.",
       "answer": "VS Khandekar",
@@ -15407,7 +17346,8 @@ window.QUESTIONS_DATA = {
       "id": "k074",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Punjabi writer (1919-2005); 'Pinjar' (1950); Jnanpith 1981.",
       "answer": "Amrita Pritam",
@@ -15421,7 +17361,8 @@ window.QUESTIONS_DATA = {
       "id": "k076",
       "topic": "books",
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Hindi novelist (1915-2003); 'Tamas' (1974); Sahitya Akademi-winning Partition saga.",
       "answer": "Bhisham Sahni",
@@ -15436,7 +17377,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Sanskrit dramatist of c. 2nd century CE; author of the play 'Svapnavasavadattam' (Vasavadatta's Dream); contemporary of Kalidasa.",
       "answer": "Bhasa",
@@ -15450,7 +17392,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian sage and grammarian; the 'Sapta-Rishi' of grammar; author of the 'Mahabhashya' commentary on Panini.",
       "answer": "Patanjali",
@@ -15464,7 +17407,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Pali commentator (c. 5th century CE); systemized the Theravada Buddhist tradition; 'Visuddhimagga' is his magnum opus.",
       "answer": "Buddhaghosa",
@@ -15479,7 +17423,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Sanskrit poet of the 12th century; 'Gita Govinda' (c. 1170); the great erotic-devotional poem of Krishna and Radha.",
       "answer": "Jayadeva",
@@ -15494,7 +17439,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Tamil sage and poet of the 9th century; mystical Saivite poetic philosophy; founder of Shaiva Siddhanta.",
       "answer": "Meykandar",
@@ -15510,7 +17456,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Marathi saint-poet (c. 1608-1649); 'Abhanga' devotional songs to Vithala of Pandharpur; ",
       "answer": "Tukaram",
@@ -15525,7 +17472,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Sanskrit poet and lyricist of the 7th century; 'Kadambari' is a romance; 'Harshacharita' is the biography of King Harsha.",
       "answer": "Banabhatta",
@@ -15540,7 +17488,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Sanskrit lexicographer (c. 4th-7th century); 'Amarakosha' is the great Sanskrit thesaurus.",
       "answer": "Amarasimha",
@@ -15556,7 +17505,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Sanskrit logician and philosopher (c. 5th century CE); founder of the Nyaya school of philosophy.",
       "answer": "Gautama",
@@ -15573,7 +17523,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Indian Tamil sage and philosopher (c. 11th century); founder of Vishishtadvaita Vedanta; commentator on the Brahmasutras.",
       "answer": "Ramanuja",
@@ -15590,7 +17541,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Indian Tamil sage and philosopher (c. 13th century); founder of Dvaita Vedanta; commentator on the Brahmasutras.",
       "answer": "Madhva",
@@ -15606,7 +17558,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Bengali poet and lyricist (1899-1976); 'Bidrohi' (1922); the 'Rebel Poet' of Bengali literature.",
       "answer": "Kazi Nazrul Islam",
@@ -15622,7 +17575,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian-American Tamil-English bilingual poet (1929-93); 'The Striders' (1966); the great translator of Indian devotional poetry into English.",
       "answer": "AK Ramanujan",
@@ -15640,7 +17594,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Indian Tamil writer (1920-2012); 'Sila Nerangalil Sila Manidhargal'; Jnanpith 1981.",
       "answer": "Akilan",
@@ -15656,7 +17611,8 @@ window.QUESTIONS_DATA = {
       "topic": "books",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "question": "Indian Sanskrit philosopher (788-820 CE); founder of Advaita Vedanta; established the four mathas.",
       "answer": "Adi Shankaracharya",
@@ -15678,7 +17634,10 @@ window.QUESTIONS_DATA = {
         "bhaskaran",
         "v bhaskaran"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n064",
@@ -15690,7 +17649,10 @@ window.QUESTIONS_DATA = {
         "schofield",
         "allan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n079",
@@ -15701,7 +17663,10 @@ window.QUESTIONS_DATA = {
         "srinivasa ramanujan",
         "ramanujan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn44",
@@ -15713,7 +17678,10 @@ window.QUESTIONS_DATA = {
         "vikram pandit",
         "pandit"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn45",
@@ -15725,7 +17693,10 @@ window.QUESTIONS_DATA = {
         "indra nooyi",
         "nooyi"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn47",
@@ -15738,7 +17709,10 @@ window.QUESTIONS_DATA = {
         "agrawal",
         "parag"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn50",
@@ -15750,7 +17724,10 @@ window.QUESTIONS_DATA = {
         "satya nadella",
         "nadella"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn51",
@@ -15762,7 +17739,10 @@ window.QUESTIONS_DATA = {
         "sundar pichai",
         "pichai"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn56",
@@ -15774,7 +17754,10 @@ window.QUESTIONS_DATA = {
         "manjul bhargava",
         "bhargava"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b200",
@@ -15802,7 +17785,8 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Prathap C. Reddy founded Apollo Hospitals in Chennai in 1983 — India's first corporate hospital chain.",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -15842,7 +17826,10 @@ window.QUESTIONS_DATA = {
         "kunal"
       ],
       "explanation": "Kunal Bahl and Rohit Bansal co-founded Snapdeal in February 2010.",
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b205",
@@ -15854,7 +17841,10 @@ window.QUESTIONS_DATA = {
         "peyush"
       ],
       "explanation": "Peyush Bansal co-founded Lenskart (launched 2010 under Valyoo Technologies) and remains its CEO; a familiar face from Shark Tank India.",
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b206",
@@ -15866,7 +17856,10 @@ window.QUESTIONS_DATA = {
         "ashneer"
       ],
       "explanation": "Ashneer Grover co-founded BharatPe in 2018 with Shashvat Nakrani; he was removed from the company in 2022.",
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b207",
@@ -15881,7 +17874,8 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "T. S. Kalyanaraman founded Kalyan Jewellers in Thrissur, Kerala in 1993.",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -15955,7 +17949,8 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "K. M. Mammen Mappillai started MRF (Madras Rubber Factory) as a toy-balloon unit in 1946 in Tiruvottiyur, Madras.",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -16022,7 +18017,10 @@ window.QUESTIONS_DATA = {
         "vinay dube"
       ],
       "explanation": "Vinay Dube, a former Jet Airways and GoAir CEO, co-founded Akasa Air, which launched commercial operations on 7 August 2022.",
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "b218",
@@ -16048,7 +18046,8 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Mukesh Bansal co-founded Myntra in 2007 with Ashutosh Lawania and Vineet Saxena; Flipkart acquired Myntra in 2014.",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -16065,7 +18064,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Henning Holck-Larsen and Søren Kristian Toubro founded L&T in Mumbai in 1938.",
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb101",
@@ -16081,7 +18083,8 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "N. Chandrasekaran was named Tata Sons chairman in early 2017, succeeding Cyrus Mistry; he had risen through TCS.",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "difficulty": 3,
       "created": "2026-05-11"
@@ -16097,7 +18100,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Nusli Wadia of Bombay Dyeing took control of Britannia in 1993; Britannia today is part of the Wadia Group.",
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb103",
@@ -16109,7 +18115,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Rana Kapoor was MD and CEO of Yes Bank from 2003 to 2019; the bank had to be rescued by an SBI-led consortium in March 2020 and Kapoor was arrested that same month.",
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb104",
@@ -16122,7 +18131,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Lalit Modi was the founding chairman of the IPL; he was suspended by the BCCI on 22 April 2010.",
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb105",
@@ -16152,7 +18164,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Benu Gopal Bangur founded Shree Cement, incorporated in 1979 in Beawar, Rajasthan.",
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb107",
@@ -16167,7 +18182,8 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "V. G. Siddhartha, son-in-law of S. M. Krishna, opened the first Cafe Coffee Day in Bangalore in 1996; he died in 2019.",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "difficulty": 3,
       "created": "2026-05-11"
@@ -16186,7 +18202,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Khwaja Abdul Hamied founded Cipla in 1935; his son Yusuf Hamied later led the affordable HIV-drug push.",
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb109",
@@ -16199,7 +18218,8 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Vikram Akula founded SKS Microfinance (later Bharat Financial Inclusion); the company's 2010 IPO was followed by the Andhra microfinance crisis.",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "difficulty": 3,
       "created": "2026-05-11"
@@ -16216,7 +18236,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Chandra Shekhar Ghosh founded Bandhan in 2001; Bandhan Bank began operations on 23 August 2015.",
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb111",
@@ -16229,7 +18252,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Piyush Pandey (1955-2025) was the long-time creative chief at Ogilvy India and probably independent India's most awarded ad-man.",
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb112",
@@ -16256,7 +18282,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Subrata Roy founded Sahara India Pariwar; SEBI's pursuit of his group's OFCDs landed him in Tihar Jail in March 2014. He died in November 2023.",
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb114",
@@ -16274,7 +18303,10 @@ window.QUESTIONS_DATA = {
       "explanation": "Brijmohan Lall Munjal founded Hero Cycles in 1956 and launched Hero Honda in 1984.",
       "difficulty": 3,
       "bid_eligible": true,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb115",
@@ -16288,7 +18320,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Malvinder Singh, with his younger brother Shivinder, controlled Ranbaxy, Fortis and Religare; the Daiichi Sankyo arbitration award against them was passed in 2016.",
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb116",
@@ -16304,7 +18339,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "JRD Tata founded Tata Air Services in 1932 — the precursor to Air India — and chaired the Tata Group from 1938 to 1991.",
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb117",
@@ -16332,7 +18370,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Siddhartha Lal, executive chairman of Eicher Motors, led the revival of Royal Enfield from the 2000s.",
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hb119",
@@ -16344,7 +18385,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Ramesh Chauhan inherited Parle Exports (now Bisleri International) from his father Jayantilal; Bisleri became India's dominant mineral-water brand under him.",
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f200",
@@ -16367,7 +18411,10 @@ window.QUESTIONS_DATA = {
         "ravi shankar",
         "pandit ravi shankar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f202",
@@ -16388,7 +18435,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "gulzar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f204",
@@ -16400,7 +18450,10 @@ window.QUESTIONS_DATA = {
         "kishore"
       ],
       "bid_eligible": true,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f205",
@@ -16412,7 +18465,10 @@ window.QUESTIONS_DATA = {
         "mohd rafi",
         "rafi"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f206",
@@ -16423,7 +18479,10 @@ window.QUESTIONS_DATA = {
         "lata mangeshkar",
         "lata"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f207",
@@ -16436,7 +18495,8 @@ window.QUESTIONS_DATA = {
         "ilaiyaraja"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "bid_eligible": true,
       "created": "2026-05-11"
@@ -16452,7 +18512,10 @@ window.QUESTIONS_DATA = {
         "sachin dev burman",
         "sachin deb burman"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f209",
@@ -16465,7 +18528,10 @@ window.QUESTIONS_DATA = {
         "rahul dev burman",
         "pancham"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f210",
@@ -16477,7 +18543,8 @@ window.QUESTIONS_DATA = {
         "shivaji ganesan"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "bid_eligible": true,
       "created": "2026-05-11"
@@ -16494,7 +18561,8 @@ window.QUESTIONS_DATA = {
         "rajkumar (kannada)"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -16511,7 +18579,8 @@ window.QUESTIONS_DATA = {
         "balu"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "bid_eligible": true,
       "created": "2026-05-11"
@@ -16536,7 +18605,10 @@ window.QUESTIONS_DATA = {
         "bhanu rajopadhye athaiya"
       ],
       "bid_eligible": true,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "f216",
@@ -16576,7 +18648,8 @@ window.QUESTIONS_DATA = {
         "dhanush"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -16589,7 +18662,10 @@ window.QUESTIONS_DATA = {
         "pankaj kapur",
         "pankaj kapoor"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf100",
@@ -16602,7 +18678,10 @@ window.QUESTIONS_DATA = {
         "sulochana (ruby myers)"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf101",
@@ -16614,7 +18693,10 @@ window.QUESTIONS_DATA = {
         "vithal"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf102",
@@ -16625,7 +18707,10 @@ window.QUESTIONS_DATA = {
         "devika rani"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf103",
@@ -16639,7 +18724,10 @@ window.QUESTIONS_DATA = {
         "kundan lal saigal"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf104",
@@ -16653,7 +18741,10 @@ window.QUESTIONS_DATA = {
         "pramathesh chandra barua"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf105",
@@ -16677,7 +18768,10 @@ window.QUESTIONS_DATA = {
         "subroto mitra"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf107",
@@ -16704,7 +18798,10 @@ window.QUESTIONS_DATA = {
         "mohammad zahur khayyam"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf109",
@@ -16716,7 +18813,10 @@ window.QUESTIONS_DATA = {
         "sahir"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf110",
@@ -16728,7 +18828,10 @@ window.QUESTIONS_DATA = {
         "shankardas kesarilal"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf111",
@@ -16740,7 +18843,10 @@ window.QUESTIONS_DATA = {
         "majrooh"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf112",
@@ -16752,7 +18858,10 @@ window.QUESTIONS_DATA = {
         "kaifi"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf113",
@@ -16765,7 +18874,10 @@ window.QUESTIONS_DATA = {
         "salil chaudhuri"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf114",
@@ -16777,7 +18889,10 @@ window.QUESTIONS_DATA = {
         "madan mohan kohli"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf115",
@@ -16790,7 +18905,10 @@ window.QUESTIONS_DATA = {
         "omkar prasad nayyar"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hf116",
@@ -16814,7 +18932,8 @@ window.QUESTIONS_DATA = {
         "p padmarajan"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "bid_eligible": true,
       "created": "2026-05-11",
@@ -16831,7 +18950,8 @@ window.QUESTIONS_DATA = {
         "lijo"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11",
       "difficulty": 3
@@ -16845,7 +18965,10 @@ window.QUESTIONS_DATA = {
         "renu saluja"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c200",
@@ -16857,7 +18980,10 @@ window.QUESTIONS_DATA = {
         "rohit",
         "hitman"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c201",
@@ -16869,7 +18995,10 @@ window.QUESTIONS_DATA = {
         "sachin",
         "tendulkar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c202",
@@ -16881,7 +19010,8 @@ window.QUESTIONS_DATA = {
         "mithali"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -16896,7 +19026,8 @@ window.QUESTIONS_DATA = {
         "harsha"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -16909,7 +19040,10 @@ window.QUESTIONS_DATA = {
         "gary kirsten",
         "kirsten"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c205",
@@ -16920,7 +19054,10 @@ window.QUESTIONS_DATA = {
         "john wright",
         "wright"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c206",
@@ -16931,7 +19068,10 @@ window.QUESTIONS_DATA = {
         "vijay merchant",
         "merchant"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c207",
@@ -16943,7 +19083,10 @@ window.QUESTIONS_DATA = {
         "anjum chopra",
         "anjum"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c208",
@@ -16956,7 +19099,8 @@ window.QUESTIONS_DATA = {
         "shanta rangaswamy"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -16969,7 +19113,10 @@ window.QUESTIONS_DATA = {
         "farokh engineer",
         "engineer"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c210",
@@ -17023,7 +19170,8 @@ window.QUESTIONS_DATA = {
         "ashwin"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -17036,7 +19184,10 @@ window.QUESTIONS_DATA = {
         "rinku singh",
         "rinku"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c215",
@@ -17049,7 +19200,10 @@ window.QUESTIONS_DATA = {
         "dhoni",
         "mahendra singh dhoni"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c216",
@@ -17072,7 +19226,10 @@ window.QUESTIONS_DATA = {
         "chetan sharma",
         "chetan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c218",
@@ -17084,7 +19241,10 @@ window.QUESTIONS_DATA = {
         "contractor",
         "nariman contractor"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "c219",
@@ -17095,7 +19255,10 @@ window.QUESTIONS_DATA = {
         "syed mushtaq ali",
         "mushtaq ali"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc100",
@@ -17111,7 +19274,8 @@ window.QUESTIONS_DATA = {
         "cottari kanakaiya nayudu"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -17125,7 +19289,10 @@ window.QUESTIONS_DATA = {
         "vijay hazare",
         "hazare"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc102",
@@ -17139,7 +19306,10 @@ window.QUESTIONS_DATA = {
         "kumar shri ranjitsinhji",
         "ranjit singhji"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc103",
@@ -17151,7 +19321,10 @@ window.QUESTIONS_DATA = {
         "madhav apte",
         "apte"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc104",
@@ -17168,7 +19341,8 @@ window.QUESTIONS_DATA = {
         "gr viswanath"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -17182,7 +19356,10 @@ window.QUESTIONS_DATA = {
         "dilip doshi",
         "doshi"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc106",
@@ -17197,7 +19374,10 @@ window.QUESTIONS_DATA = {
         "mansoor ali khan pataudi",
         "mak pataudi"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc107",
@@ -17210,7 +19390,10 @@ window.QUESTIONS_DATA = {
         "lala",
         "nanik amarnath"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc108",
@@ -17223,7 +19406,10 @@ window.QUESTIONS_DATA = {
         "amre",
         "praveen amre"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc109",
@@ -17236,7 +19422,10 @@ window.QUESTIONS_DATA = {
         "sehwag",
         "viru"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc110",
@@ -17251,7 +19440,8 @@ window.QUESTIONS_DATA = {
         "jammy"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -17266,7 +19456,10 @@ window.QUESTIONS_DATA = {
         "durani",
         "saleem durani"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc112",
@@ -17282,7 +19475,8 @@ window.QUESTIONS_DATA = {
         "bhagwath chandrasekhar"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -17299,7 +19493,8 @@ window.QUESTIONS_DATA = {
         "jammy"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -17314,7 +19509,10 @@ window.QUESTIONS_DATA = {
         "jones",
         "deano"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc115",
@@ -17328,7 +19526,10 @@ window.QUESTIONS_DATA = {
         "dada",
         "saurav ganguly"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc116",
@@ -17353,7 +19554,10 @@ window.QUESTIONS_DATA = {
         "sandeep patil",
         "patil"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc118",
@@ -17366,7 +19570,10 @@ window.QUESTIONS_DATA = {
         "bishan bedi",
         "bedi"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hc119",
@@ -17379,7 +19586,10 @@ window.QUESTIONS_DATA = {
         "umrigar",
         "pahlan ratanji umrigar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "g200",
@@ -17987,7 +20197,10 @@ window.QUESTIONS_DATA = {
         "jahanara",
         "jahanara begum"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h203",
@@ -17999,7 +20212,10 @@ window.QUESTIONS_DATA = {
         "noor jahan",
         "nurjahan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h204",
@@ -18010,7 +20226,10 @@ window.QUESTIONS_DATA = {
         "bairam khan",
         "bairam"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h205",
@@ -18036,7 +20255,10 @@ window.QUESTIONS_DATA = {
         "madhavrao peshwa",
         "thorle madhavrao"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h207",
@@ -18048,7 +20270,10 @@ window.QUESTIONS_DATA = {
         "arjumand banu",
         "arjumand banu begum"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h208",
@@ -18061,7 +20286,8 @@ window.QUESTIONS_DATA = {
         "vasco"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11",
       "bid_eligible": true
@@ -18076,7 +20302,10 @@ window.QUESTIONS_DATA = {
         "pandey"
       ],
       "created": "2026-05-11",
-      "bid_eligible": true
+      "bid_eligible": true,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h210",
@@ -18088,7 +20317,10 @@ window.QUESTIONS_DATA = {
         "tatya tope",
         "tantya tope"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h211",
@@ -18102,7 +20334,10 @@ window.QUESTIONS_DATA = {
         "sant jnaneshwar",
         "sant dnyaneshwar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h212",
@@ -18114,7 +20349,10 @@ window.QUESTIONS_DATA = {
         "sant tukaram",
         "tukoba"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h213",
@@ -18128,7 +20366,10 @@ window.QUESTIONS_DATA = {
         "meera",
         "mira"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "h214",
@@ -18141,7 +20382,8 @@ window.QUESTIONS_DATA = {
         "kodhai"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -18213,7 +20455,8 @@ window.QUESTIONS_DATA = {
         "kumram bheem"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -18227,7 +20470,10 @@ window.QUESTIONS_DATA = {
         "mir jumla ii"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh101",
@@ -18240,7 +20486,10 @@ window.QUESTIONS_DATA = {
         "asaf khan iv"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh102",
@@ -18257,7 +20506,10 @@ window.QUESTIONS_DATA = {
         "khan-i-khanan rahim"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh103",
@@ -18269,7 +20521,8 @@ window.QUESTIONS_DATA = {
         "kafur"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11",
       "difficulty": 3
@@ -18286,7 +20539,8 @@ window.QUESTIONS_DATA = {
         "hakka"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11",
       "difficulty": 3
@@ -18305,7 +20559,8 @@ window.QUESTIONS_DATA = {
         "pulikeshi"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11",
       "difficulty": 3
@@ -18322,7 +20577,8 @@ window.QUESTIONS_DATA = {
         "rudrama"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11",
       "difficulty": 3
@@ -18338,7 +20594,8 @@ window.QUESTIONS_DATA = {
         "vishnu vardhana"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11",
       "difficulty": 3
@@ -18375,7 +20632,8 @@ window.QUESTIONS_DATA = {
         "thanthai periyar"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11",
       "difficulty": 3
@@ -18393,7 +20651,10 @@ window.QUESTIONS_DATA = {
         "veer savarkar"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh111",
@@ -18408,7 +20669,10 @@ window.QUESTIONS_DATA = {
       ],
       "created": "2026-05-11",
       "bid_eligible": true,
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh112",
@@ -18422,7 +20686,10 @@ window.QUESTIONS_DATA = {
         "surendra sai"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hh113",
@@ -18514,7 +20781,8 @@ window.QUESTIONS_DATA = {
         "purandara das"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11",
       "difficulty": 3
@@ -18552,7 +20820,10 @@ window.QUESTIONS_DATA = {
         "siddhartha gotama",
         "siddhattha gotama"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "m201",
@@ -18565,7 +20836,10 @@ window.QUESTIONS_DATA = {
         "yashoda hara",
         "yashodara"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "m202",
@@ -18576,7 +20850,10 @@ window.QUESTIONS_DATA = {
         "rahula",
         "rahul"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "m203",
@@ -18648,7 +20925,10 @@ window.QUESTIONS_DATA = {
         "guru nanak dev",
         "nanak dev"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "m208",
@@ -18661,7 +20941,10 @@ window.QUESTIONS_DATA = {
         "guru govind singh",
         "govind singh"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "m209",
@@ -18675,7 +20958,10 @@ window.QUESTIONS_DATA = {
         "guru arjan dev",
         "arjan dev"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "m210",
@@ -18825,7 +21111,10 @@ window.QUESTIONS_DATA = {
         "suddhodhana",
         "shuddhodhana"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hm101",
@@ -18841,7 +21130,10 @@ window.QUESTIONS_DATA = {
         "mahamaya devi",
         "queen maya"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hm102",
@@ -18869,7 +21161,10 @@ window.QUESTIONS_DATA = {
         "ashoka the great",
         "emperor ashoka"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hm104",
@@ -18914,7 +21209,10 @@ window.QUESTIONS_DATA = {
         "baba zorawar singh",
         "baba fateh singh"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hm107",
@@ -18928,7 +21226,10 @@ window.QUESTIONS_DATA = {
         "banda singh",
         "banda bairagi"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hm108",
@@ -18954,7 +21255,8 @@ window.QUESTIONS_DATA = {
       "topic": "mythology",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Only female among the twelve Alvar saints; foster-daughter of Periyalvar of Srivilliputhur; composed the Tiruppavai; in tradition, married to the deity Ranganatha at Srirangam.",
       "answer": "Andal",
@@ -19219,7 +21521,10 @@ window.QUESTIONS_DATA = {
         "manmohan",
         "dr manmohan singh"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p209",
@@ -19230,7 +21535,10 @@ window.QUESTIONS_DATA = {
         "om birla",
         "birla"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p210",
@@ -19242,7 +21550,10 @@ window.QUESTIONS_DATA = {
         "mahajan",
         "tai"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "p211",
@@ -19319,7 +21630,8 @@ window.QUESTIONS_DATA = {
       "id": "p217",
       "topic": "polity",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "First Vice-President of India (1952-62) before he became its second President; a Telugu philosopher whose birthday is observed as Teachers' Day.",
       "answer": "Sarvepalli Radhakrishnan",
@@ -19334,7 +21646,8 @@ window.QUESTIONS_DATA = {
       "id": "p218",
       "topic": "polity",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "BJP leader from Andhra Pradesh; Vice-President of India 2017-22; previously Union Minister for Urban Development and Information & Broadcasting under Vajpayee and Modi.",
       "answer": "Venkaiah Naidu",
@@ -19355,7 +21668,10 @@ window.QUESTIONS_DATA = {
         "sharad pawar",
         "pawar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp100",
@@ -19370,7 +21686,8 @@ window.QUESTIONS_DATA = {
         "kesavananda"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19477,7 +21794,10 @@ window.QUESTIONS_DATA = {
         "navtej johar",
         "johar"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp108",
@@ -19489,14 +21809,18 @@ window.QUESTIONS_DATA = {
         "vinod rai",
         "rai"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp109",
       "topic": "polity",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Telugu Desam MP from Amalapuram; first Dalit Speaker of the Lok Sabha; took office in March 1998 and died in a helicopter crash in March 2002 while still holding the chair.",
       "answer": "GMC Balayogi",
@@ -19521,14 +21845,18 @@ window.QUESTIONS_DATA = {
         "dhananjaya chandrachud",
         "dhananjaya yeshwant chandrachud"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp111",
       "topic": "polity",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Chief Justice of India for 73 days in 2022 — one of the shortest tenures on record; the first CJI to have been directly elevated from the bar without prior service as a high-court judge.",
       "answer": "UU Lalit",
@@ -19546,7 +21874,8 @@ window.QUESTIONS_DATA = {
       "topic": "polity",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "question": "Andhra-born judge; 48th Chief Justice of India (April 2021-August 2022); his tenure saw a sharp ramp-up in Supreme Court appointments through the collegium.",
       "answer": "NV Ramana",
@@ -19623,7 +21952,10 @@ window.QUESTIONS_DATA = {
         "gill",
         "manohar singh gill"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp118",
@@ -19637,7 +21969,10 @@ window.QUESTIONS_DATA = {
         "lyngdoh",
         "james michael lyngdoh"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hp119",
@@ -19650,7 +21985,10 @@ window.QUESTIONS_DATA = {
         "gulzari lal nanda",
         "nanda"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k200",
@@ -19662,7 +22000,8 @@ window.QUESTIONS_DATA = {
         "shri lal shukla"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19676,7 +22015,8 @@ window.QUESTIONS_DATA = {
         "geetanjali pandey"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "bid_eligible": true,
       "created": "2026-05-11"
@@ -19693,7 +22033,8 @@ window.QUESTIONS_DATA = {
         "s h vatsyayan"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19707,7 +22048,8 @@ window.QUESTIONS_DATA = {
         "rahi masoom reza"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19720,7 +22062,8 @@ window.QUESTIONS_DATA = {
         "vinod kumar shukla"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19734,7 +22077,8 @@ window.QUESTIONS_DATA = {
         "jibananada das"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19747,7 +22091,8 @@ window.QUESTIONS_DATA = {
         "sukumar ray"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19763,7 +22108,8 @@ window.QUESTIONS_DATA = {
         "mani shankar mukherjee"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19777,7 +22123,10 @@ window.QUESTIONS_DATA = {
         "nirad chaudhuri",
         "n c chaudhuri"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k209",
@@ -19788,7 +22137,8 @@ window.QUESTIONS_DATA = {
         "bhalchandra nemade"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19802,7 +22152,8 @@ window.QUESTIONS_DATA = {
         "govind vinayak karandikar"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19818,7 +22169,8 @@ window.QUESTIONS_DATA = {
         "pu.la. deshpande"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19832,7 +22184,8 @@ window.QUESTIONS_DATA = {
         "govardhanram madhavram tripathi"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19845,7 +22198,8 @@ window.QUESTIONS_DATA = {
         "pannalal patel"
       ],
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19862,7 +22216,8 @@ window.QUESTIONS_DATA = {
       ],
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "bid_eligible": true,
       "created": "2026-05-11"
@@ -19878,7 +22233,8 @@ window.QUESTIONS_DATA = {
       ],
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19891,7 +22247,10 @@ window.QUESTIONS_DATA = {
         "ruskin bond"
       ],
       "bid_eligible": true,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k217",
@@ -19902,7 +22261,10 @@ window.QUESTIONS_DATA = {
         "akhil sharma"
       ],
       "bid_eligible": true,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k218",
@@ -19913,7 +22275,10 @@ window.QUESTIONS_DATA = {
         "tania james"
       ],
       "bid_eligible": true,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "k219",
@@ -19924,7 +22289,10 @@ window.QUESTIONS_DATA = {
         "madhuri vijay"
       ],
       "bid_eligible": true,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hk100",
@@ -19937,7 +22305,8 @@ window.QUESTIONS_DATA = {
       ],
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "bid_eligible": true,
       "created": "2026-05-11"
@@ -19952,7 +22321,8 @@ window.QUESTIONS_DATA = {
       ],
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19967,7 +22337,8 @@ window.QUESTIONS_DATA = {
       ],
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19981,7 +22352,8 @@ window.QUESTIONS_DATA = {
       ],
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -19997,7 +22369,8 @@ window.QUESTIONS_DATA = {
       ],
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20011,7 +22384,8 @@ window.QUESTIONS_DATA = {
       ],
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20026,7 +22400,8 @@ window.QUESTIONS_DATA = {
       ],
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20044,7 +22419,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20061,7 +22437,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20079,7 +22456,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20096,7 +22474,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20113,7 +22492,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20130,7 +22510,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20146,7 +22527,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20162,7 +22544,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20179,7 +22562,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20195,7 +22579,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20212,7 +22597,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20229,7 +22615,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "themes": [
         "languages",
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20244,7 +22631,8 @@ window.QUESTIONS_DATA = {
       ],
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-05-11"
     },
@@ -20257,7 +22645,10 @@ window.QUESTIONS_DATA = {
         "ram narayan",
         "pandit ram narayan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u201",
@@ -20290,7 +22681,10 @@ window.QUESTIONS_DATA = {
         "shankardas kesarilal",
         "shankardas kesarilal shailendra"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u204",
@@ -20300,7 +22694,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "anand bakshi"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u205",
@@ -20333,7 +22730,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "anup jalota"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u208",
@@ -20354,7 +22754,10 @@ window.QUESTIONS_DATA = {
         "rahat fateh ali khan",
         "rahat"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u210",
@@ -20365,7 +22768,10 @@ window.QUESTIONS_DATA = {
         "lucky ali",
         "maqsood mahmood ali"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u211",
@@ -20375,7 +22781,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "mohit chauhan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u212",
@@ -20386,7 +22795,10 @@ window.QUESTIONS_DATA = {
         "naushad",
         "naushad ali"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u213",
@@ -20431,7 +22843,10 @@ window.QUESTIONS_DATA = {
         "vishal bhardwaj",
         "vishal bharadwaj"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u217",
@@ -20442,7 +22857,10 @@ window.QUESTIONS_DATA = {
         "abhijeet sawant",
         "abhijit sawant"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u218",
@@ -20453,7 +22871,10 @@ window.QUESTIONS_DATA = {
         "pritam",
         "pritam chakraborty"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "u219",
@@ -20463,7 +22884,10 @@ window.QUESTIONS_DATA = {
       "accept": [
         "shantanu moitra"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu100",
@@ -20476,7 +22900,10 @@ window.QUESTIONS_DATA = {
       ],
       "difficulty": 3,
       "bid_eligible": true,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu101",
@@ -20488,7 +22915,10 @@ window.QUESTIONS_DATA = {
         "pannalal"
       ],
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu102",
@@ -20502,7 +22932,8 @@ window.QUESTIONS_DATA = {
         "syama shastri"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "difficulty": 3,
       "created": "2026-05-11"
@@ -20519,7 +22950,8 @@ window.QUESTIONS_DATA = {
         "dikshitar"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "difficulty": 3,
       "bid_eligible": true,
@@ -20535,7 +22967,8 @@ window.QUESTIONS_DATA = {
         "purandaradasa"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "difficulty": 3,
       "bid_eligible": true,
@@ -20552,7 +22985,10 @@ window.QUESTIONS_DATA = {
         "ustad alla rakha"
       ],
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu106",
@@ -20664,7 +23100,8 @@ window.QUESTIONS_DATA = {
         "uppalapu srinivas"
       ],
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "difficulty": 3,
       "created": "2026-05-11"
@@ -20678,7 +23115,10 @@ window.QUESTIONS_DATA = {
         "trilok gurtu"
       ],
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu115",
@@ -20690,7 +23130,10 @@ window.QUESTIONS_DATA = {
         "majrooh"
       ],
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu116",
@@ -20701,7 +23144,10 @@ window.QUESTIONS_DATA = {
         "sohail rana"
       ],
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu117",
@@ -20713,7 +23159,10 @@ window.QUESTIONS_DATA = {
         "rabbi"
       ],
       "difficulty": 3,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu118",
@@ -20725,7 +23174,10 @@ window.QUESTIONS_DATA = {
       ],
       "difficulty": 3,
       "bid_eligible": true,
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hu119",
@@ -20753,7 +23205,10 @@ window.QUESTIONS_DATA = {
         "avani"
       ],
       "created": "2026-05-11",
-      "bid_eligible": true
+      "bid_eligible": true,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n201",
@@ -20764,7 +23219,10 @@ window.QUESTIONS_DATA = {
         "sumit antil",
         "sumit"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n202",
@@ -20777,7 +23235,8 @@ window.QUESTIONS_DATA = {
       ],
       "created": "2026-05-11",
       "themes": [
-        "bid_eligible"
+        "bid_eligible",
+        "personalities"
       ],
       "bid_eligible": true
     },
@@ -20790,7 +23249,10 @@ window.QUESTIONS_DATA = {
         "saurav ghosal",
         "sourav ghosal"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n204",
@@ -20801,7 +23263,10 @@ window.QUESTIONS_DATA = {
         "geet sethi",
         "geet"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n205",
@@ -20816,7 +23281,8 @@ window.QUESTIONS_DATA = {
       ],
       "created": "2026-05-11",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ]
     },
     {
@@ -20830,7 +23296,8 @@ window.QUESTIONS_DATA = {
       ],
       "created": "2026-05-11",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ]
     },
     {
@@ -20842,7 +23309,10 @@ window.QUESTIONS_DATA = {
         "raghuram rajan",
         "rajan"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n208",
@@ -20853,7 +23323,10 @@ window.QUESTIONS_DATA = {
         "karpoori thakur",
         "karpoori"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n209",
@@ -20867,7 +23340,10 @@ window.QUESTIONS_DATA = {
         "advani",
         "lal krishna advani"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n210",
@@ -20883,7 +23359,8 @@ window.QUESTIONS_DATA = {
       ],
       "created": "2026-05-11",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ]
     },
     {
@@ -20895,7 +23372,10 @@ window.QUESTIONS_DATA = {
         "pranab mukherjee",
         "pranab"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n212",
@@ -20906,7 +23386,10 @@ window.QUESTIONS_DATA = {
         "madhur jaffrey",
         "jaffrey"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n213",
@@ -20919,7 +23402,8 @@ window.QUESTIONS_DATA = {
       ],
       "created": "2026-05-11",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ]
     },
     {
@@ -20933,7 +23417,8 @@ window.QUESTIONS_DATA = {
       ],
       "created": "2026-05-11",
       "themes": [
-        "bid_eligible"
+        "bid_eligible",
+        "personalities"
       ],
       "bid_eligible": true
     },
@@ -20947,7 +23432,10 @@ window.QUESTIONS_DATA = {
         "kalpen modi",
         "kalpen suresh modi"
       ],
-      "created": "2026-05-11"
+      "created": "2026-05-11",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n216",
@@ -20960,7 +23448,10 @@ window.QUESTIONS_DATA = {
         "kaling"
       ],
       "created": "2026-05-11",
-      "bid_eligible": true
+      "bid_eligible": true,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n217",
@@ -20973,7 +23464,8 @@ window.QUESTIONS_DATA = {
       ],
       "created": "2026-05-11",
       "themes": [
-        "bid_eligible"
+        "bid_eligible",
+        "personalities"
       ],
       "bid_eligible": true
     },
@@ -20990,7 +23482,10 @@ window.QUESTIONS_DATA = {
         "manoj nelliyattu shyamalan"
       ],
       "created": "2026-05-11",
-      "bid_eligible": true
+      "bid_eligible": true,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "n219",
@@ -21005,7 +23500,8 @@ window.QUESTIONS_DATA = {
       "created": "2026-05-11",
       "themes": [
         "south_india",
-        "bid_eligible"
+        "bid_eligible",
+        "personalities"
       ],
       "bid_eligible": true
     },
@@ -21024,7 +23520,8 @@ window.QUESTIONS_DATA = {
       "created": "2026-05-11",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ]
     },
     {
@@ -21037,7 +23534,10 @@ window.QUESTIONS_DATA = {
         "kakodkar"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn102",
@@ -21053,7 +23553,8 @@ window.QUESTIONS_DATA = {
       "created": "2026-05-11",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ]
     },
     {
@@ -21070,7 +23571,8 @@ window.QUESTIONS_DATA = {
       "created": "2026-05-11",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ]
     },
     {
@@ -21084,7 +23586,10 @@ window.QUESTIONS_DATA = {
         "sharma"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn105",
@@ -21097,7 +23602,10 @@ window.QUESTIONS_DATA = {
         "batra"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn106",
@@ -21110,7 +23618,10 @@ window.QUESTIONS_DATA = {
         "company quartermaster havildar abdul hamid"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn107",
@@ -21124,7 +23635,10 @@ window.QUESTIONS_DATA = {
         "captain manoj kumar pandey"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn108",
@@ -21137,7 +23651,10 @@ window.QUESTIONS_DATA = {
         "yogendra"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn109",
@@ -21150,7 +23667,10 @@ window.QUESTIONS_DATA = {
         "ajaypal singh banga"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn110",
@@ -21162,7 +23682,10 @@ window.QUESTIONS_DATA = {
         "pargat"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn111",
@@ -21174,7 +23697,10 @@ window.QUESTIONS_DATA = {
         "dhanraj"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn112",
@@ -21187,7 +23713,10 @@ window.QUESTIONS_DATA = {
         "shahid"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn113",
@@ -21199,7 +23728,10 @@ window.QUESTIONS_DATA = {
         "sardara singh"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn114",
@@ -21214,7 +23746,8 @@ window.QUESTIONS_DATA = {
       "created": "2026-05-11",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ]
     },
     {
@@ -21230,7 +23763,8 @@ window.QUESTIONS_DATA = {
       "created": "2026-05-11",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ]
     },
     {
@@ -21243,7 +23777,10 @@ window.QUESTIONS_DATA = {
         "manish"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn117",
@@ -21255,7 +23792,10 @@ window.QUESTIONS_DATA = {
         "singhraj"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn118",
@@ -21267,7 +23807,10 @@ window.QUESTIONS_DATA = {
         "sanghvi"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "hn119",
@@ -21279,13 +23822,17 @@ window.QUESTIONS_DATA = {
         "nair"
       ],
       "created": "2026-05-11",
-      "difficulty": 3
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "ir001",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "He founded the Achaemenid Empire around 559 BC, made Pasargadae his capital, and is the king whose tomb still stands there. Name him.",
@@ -21321,7 +23868,8 @@ window.QUESTIONS_DATA = {
       "id": "ir003",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "In 480 BC, the Persian king who led the invasion of Greece and faced Leonidas at Thermopylae was the son of Darius the Great. Name him.",
       "answer": "Xerxes I",
@@ -21374,7 +23922,8 @@ window.QUESTIONS_DATA = {
       "id": "ir006",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "He was the Sassanid king who captured the Roman emperor Valerian in 260 AD at the Battle of Edessa, an event carved into a famous rock relief at Naqsh-e Rustam. Name him.",
@@ -21392,7 +23941,8 @@ window.QUESTIONS_DATA = {
       "id": "ir007",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "The Sassanid king nicknamed Anushirvan, \"the immortal soul,\" is remembered as a model of just rule and reformer of taxation. Name him.",
       "answer": "Khosrow I",
@@ -21411,7 +23961,8 @@ window.QUESTIONS_DATA = {
       "id": "ir008",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "He came to the throne of the Achaemenid Empire in 522 BC after putting down a rebellion, and at Behistun he left a trilingual rock inscription boasting of his victories. Name him.",
       "answer": "Darius the Great",
@@ -21428,7 +23979,8 @@ window.QUESTIONS_DATA = {
       "id": "ir009",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "In 1501, this teenage warrior-poet defeated the Aq Qoyunlu and founded the dynasty that would make Twelver Shi'ism the state religion of Iran. Name him.",
       "answer": "Shah Ismail I",
@@ -21446,7 +23998,8 @@ window.QUESTIONS_DATA = {
       "id": "ir010",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "He was the greatest of the Safavid rulers, moved his capital to Isfahan, and rebuilt it into one of the most magnificent cities of the seventeenth century. Name him.",
       "answer": "Shah Abbas the Great",
@@ -21501,7 +24054,8 @@ window.QUESTIONS_DATA = {
       "id": "ir013",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "A constitutional revolution erupted in Iran in 1905, forcing the shah to grant a parliament — the Majlis. Within one year, which of the five Pahlavi or Qajar shahs signed the constitution just days before his death? (Hint: a Qajar.)",
       "answer": "Mozaffar ad-Din Shah",
@@ -21552,7 +24106,8 @@ window.QUESTIONS_DATA = {
       "id": "ir016",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Around the year 1000, in the eastern city of Tus, a poet finished a 50,000-couplet epic that became the national epic of Iran. Name the poet and the work — either will do.",
@@ -21608,7 +24163,8 @@ window.QUESTIONS_DATA = {
       "id": "ir019",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "The 13th-century Persian poet whose mausoleum in Konya, Turkey, is one of the great pilgrimage sites of Sufism — and whose Masnavi has been called the Persian Qur'an. Name him.",
@@ -21628,7 +24184,8 @@ window.QUESTIONS_DATA = {
       "id": "ir020",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "The Shirazi poet whose Divan is so revered that Iranians still take fal — divination — by opening it at random. Name him.",
       "answer": "Hafez",
@@ -21646,7 +24203,8 @@ window.QUESTIONS_DATA = {
       "id": "ir021",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "He was an astronomer and mathematician at the Seljuk court who reformed the calendar — but the West knows him as a poet because of a free English translation published in 1859 by Edward FitzGerald. Name the Persian, and the translated work for full credit.",
@@ -21665,7 +24223,8 @@ window.QUESTIONS_DATA = {
       "id": "ir022",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "The 13th-century Shirazi poet whose two great works — a verse one and a prose-with-verse one — are still taught to Iranian schoolchildren. Name him.",
       "answer": "Saadi",
@@ -21683,7 +24242,8 @@ window.QUESTIONS_DATA = {
       "id": "ir023",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "His Khamsa — five long narrative poems — included the romance of two Arab lovers and the romance of a Sasanian king and an Armenian princess. Name the poet from Ganja.",
@@ -21701,7 +24261,8 @@ window.QUESTIONS_DATA = {
       "id": "ir024",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "She published her first collection The Captive at twenty, made a remarkable documentary about a leper colony called The House Is Black, and was killed in a car crash in 1967 at just 32. Name her.",
@@ -21719,7 +24280,8 @@ window.QUESTIONS_DATA = {
       "id": "ir025",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "The modern Iranian poet whose collection The Sound of Water's Footsteps and gentle, nature-soaked lines made him a favourite of Iranian readers. Name him.",
       "answer": "Sohrab Sepehri",
@@ -21735,7 +24297,8 @@ window.QUESTIONS_DATA = {
       "id": "ir026",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "His film Taste of Cherry won the Palme d'Or at Cannes in 1997. Name him.",
@@ -21803,7 +24366,8 @@ window.QUESTIONS_DATA = {
       "id": "ir030",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "His 1997 film about a boy who loses his sister's shoes and tries to win a race for a pair of sneakers became Iran's first ever Oscar nomination for Best Foreign Language Film. Name the director.",
       "answer": "Majid Majidi",
@@ -21818,7 +24382,8 @@ window.QUESTIONS_DATA = {
       "id": "ir031",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "In 2015, banned from making films and from leaving Iran, this director shot a movie entirely from inside a Tehran taxi using dashboard cameras — and it won the Golden Bear at Berlin. Name the director.",
@@ -21834,7 +24399,8 @@ window.QUESTIONS_DATA = {
       "id": "ir032",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "Her black-and-white graphic memoir about growing up during the Iranian revolution was published in French between 2000 and 2003 and turned into an Oscar-nominated animated film in 2007. Name her.",
       "answer": "Marjane Satrapi",
@@ -21849,7 +24415,8 @@ window.QUESTIONS_DATA = {
       "id": "ir033",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "His 1969 film about a villager's obsessive love for his cow is considered the first masterpiece of the Iranian New Wave. Name the director.",
@@ -21866,7 +24433,8 @@ window.QUESTIONS_DATA = {
       "id": "ir034",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "He was a playwright, screenwriter and director, one of the central figures of pre-revolutionary Iranian cinema, who directed Bashu, the Little Stranger. Name him.",
@@ -21884,7 +24452,8 @@ window.QUESTIONS_DATA = {
       "id": "ir035",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "The undisputed master of Persian classical vocal music, whose recording of the Rabbana prayer aired on Iranian radio every Ramadan for decades until his death in 2020. Name him.",
@@ -21902,7 +24471,8 @@ window.QUESTIONS_DATA = {
       "id": "ir036",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "The pop diva who was the biggest star in Iran in the 1970s, fell silent for over twenty years after the revolution, and came roaring back with a comeback concert in Toronto in 2000. Name her.",
       "answer": "Googoosh",
@@ -21918,7 +24488,8 @@ window.QUESTIONS_DATA = {
       "id": "ir037",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "He plays the kamancheh, has been a long-time member of Yo-Yo Ma's Silk Road Ensemble, and won a Grammy in 2017 with the ensemble for the album Sing Me Home. Name him.",
@@ -21934,7 +24505,8 @@ window.QUESTIONS_DATA = {
       "id": "ir038",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "The Los Angeles–based Iranian pop singer with one of the deepest voices in Persian music — \"Cheshmaye Man\" and \"Don't Leave Me Alone\" among his hits. Name him.",
       "answer": "Dariush Eghbali",
@@ -21951,7 +24523,8 @@ window.QUESTIONS_DATA = {
       "id": "ir039",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "He has been called the Bob Dylan of Iran — a singer-songwriter who mixes classical Persian poetry with rock, blues and hip-hop, and lives in self-imposed exile. Name him.",
@@ -21983,7 +24556,8 @@ window.QUESTIONS_DATA = {
       "id": "ir041",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Iranian striker who scored 109 international goals for his country, holding the all-time men's record until Cristiano Ronaldo broke it in 2021. Name him.",
@@ -22001,7 +24575,8 @@ window.QUESTIONS_DATA = {
       "id": "ir042",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "The Iranian midfielder whose dribbling earned him the nickname \"the Asian Maradona,\" and who won the Bundesliga with Bayern Munich in 2005–06. Name him.",
       "answer": "Ali Karimi",
@@ -22016,7 +24591,8 @@ window.QUESTIONS_DATA = {
       "id": "ir043",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "Often dubbed the \"Iranian Messi\" by the British press, he scored a hatful of goals at Zenit St. Petersburg and later played for Bayer Leverkusen and Roma. Name him.",
       "answer": "Sardar Azmoun",
@@ -22031,7 +24607,8 @@ window.QUESTIONS_DATA = {
       "id": "ir044",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "The Iranian striker who finished as Primeira Liga top scorer twice at FC Porto and then joined Inter Milan in 2024. Name him.",
       "answer": "Mehdi Taremi",
@@ -22046,7 +24623,8 @@ window.QUESTIONS_DATA = {
       "id": "ir045",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "He won super-heavyweight weightlifting gold at the Sydney 2000 Olympics — breaking decades of Soviet dominance in the event — and retained the title at Athens 2004. Name him.",
@@ -22063,7 +24641,8 @@ window.QUESTIONS_DATA = {
       "id": "ir046",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "Iranian taekwondo fighter who won gold at Athens 2004 in the 68 kg class and gold again at Beijing 2008 at 80 kg. Name him.",
       "answer": "Hadi Saei",
@@ -22079,7 +24658,8 @@ window.QUESTIONS_DATA = {
       "id": "ir047",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "At Rio 2016, this taekwondo fighter became the first Iranian woman ever to win an Olympic medal. Name her.",
       "answer": "Kimia Alizadeh",
@@ -22095,7 +24675,8 @@ window.QUESTIONS_DATA = {
       "id": "ir048",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Born in Babol in 2003, he became the youngest player to cross a FIDE rating of 2800, breaking Magnus Carlsen's record. He now plays for France. Name him.",
@@ -22112,7 +24693,8 @@ window.QUESTIONS_DATA = {
       "id": "ir049",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "In 2014, this Tehran-born mathematician at Stanford became the first woman ever to win the Fields Medal. Name her.",
@@ -22128,7 +24710,8 @@ window.QUESTIONS_DATA = {
       "id": "ir050",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "In September 2006, this Iranian-American businesswoman became the first Iranian in space, flying to the ISS as a self-funded spaceflight participant on a Soyuz. Name her.",
@@ -22145,7 +24728,8 @@ window.QUESTIONS_DATA = {
       "id": "ir051",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Born in Paris to Iranian parents, he founded an online auction site in 1995 that became a household name. Name him.",
@@ -22161,7 +24745,8 @@ window.QUESTIONS_DATA = {
       "id": "ir052",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Born in Tehran in 1969, this former Expedia CEO took over as Uber's CEO in August 2017. Name him.",
@@ -22178,7 +24763,8 @@ window.QUESTIONS_DATA = {
       "id": "ir053",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "question": "Born in England to an Iranian father and a British mother, raised partly in Tehran, she became CNN's chief international correspondent and made her name reporting from Bosnia. Name her.",
       "answer": "Christiane Amanpour",
@@ -22193,7 +24779,8 @@ window.QUESTIONS_DATA = {
       "id": "ir054",
       "topic": "iran",
       "themes": [
-        "iran_only"
+        "iran_only",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "She was nominated for Best Supporting Actress at the 2004 Oscars for House of Sand and Fog, and is also known to sci-fi fans for her role as Chrisjen Avasarala in The Expanse. Name her.",
@@ -22349,7 +24936,8 @@ window.QUESTIONS_DATA = {
       "id": "bd003",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "question": "Born in 1839 to a family of Parsi priests in Navsari, this man dreamed of an Indian steel industry, a hydroelectric plant and a science institute, but only lived to see the first of his great projects open in 1903 — the Taj Mahal hotel in Bombay. Name him.",
       "answer": "Jamsetji Tata",
@@ -22366,7 +24954,8 @@ window.QUESTIONS_DATA = {
       "id": "bd004",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "He was born in Paris in 1904 to a Parsi father and a French mother, became India's first licensed pilot in 1929, and the airline he founded in 1932 was nationalised in 1953 to become Air India. Name him.",
@@ -22417,7 +25006,8 @@ window.QUESTIONS_DATA = {
       "id": "bd007",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "His father bought a small stake in Tata Sons in the 1930s; by 2011 he was the single largest individual shareholder in India's biggest conglomerate, with construction interests stretching from the Brabourne Stadium to the Sultan of Oman's palace. The Irish-Indian Parsi businessman was nicknamed the Phantom of Bombay House. Name him.",
@@ -22434,7 +25024,8 @@ window.QUESTIONS_DATA = {
       "id": "bd008",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "question": "Born in Bombay in 1909 to a wealthy Parsi family, he set up TIFR in 1945 and the Atomic Energy Establishment at Trombay in 1954, and is universally called the father of India's nuclear programme. Name him.",
       "answer": "Homi Bhabha",
@@ -22450,7 +25041,8 @@ window.QUESTIONS_DATA = {
       "id": "bd009",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "question": "In 1973 he became the first Indian officer ever promoted to Field Marshal, two years after orchestrating the 12-day campaign that liberated Bangladesh. Famously, when Indira Gandhi pressed him to attack East Pakistan in spring 1971, he replied that he would only do so when he was ready. Name this Parsi soldier.",
       "answer": "Sam Manekshaw",
@@ -22467,7 +25059,8 @@ window.QUESTIONS_DATA = {
       "id": "bd010",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Born in 1866 to a Parsi family that had converted to Christianity, she became the first woman to study law at Oxford and the first female advocate in India, spending much of her career fighting for purdahnashin women whom no male lawyer could meet. Name her.",
@@ -22483,7 +25076,8 @@ window.QUESTIONS_DATA = {
       "id": "bd011",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "question": "He was born in Zanzibar in 1946 to Parsi parents from Gujarat, sent at age eight to St Peter's, a British-style boarding school in the Maharashtra hill town of Panchgani, and would later front one of the biggest rock bands in history under a stage name. By what name do we know Farrokh Bulsara?",
       "answer": "Freddie Mercury",
@@ -22499,7 +25093,8 @@ window.QUESTIONS_DATA = {
       "id": "bd012",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Born in Bombay in 1936 to a Parsi family — his father Mehli founded the Bombay Symphony Orchestra — he went on to lead the Los Angeles Philharmonic, the New York Philharmonic and the Israel Philharmonic. Name this conductor.",
@@ -22515,7 +25110,8 @@ window.QUESTIONS_DATA = {
       "id": "bd013",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Before turning to films in his late thirties, this Parsi from Mumbai sold wafers at Grant Road station and worked as a waiter at the Taj. He is now better known as Dr Asthana in Munna Bhai MBBS and the principal Viru Sahastrabuddhe — Virus — in 3 Idiots. Name him.",
@@ -22531,7 +25127,8 @@ window.QUESTIONS_DATA = {
       "id": "bd014",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "question": "The last male Parsi to play cricket for India, this flamboyant wicket-keeper-batsman from Bombay shared a Lancashire dressing room with Clive Lloyd through much of the 1970s and helped them lift the Gillette Cup four times. Name him.",
       "answer": "Farokh Engineer",
@@ -22579,7 +25176,8 @@ window.QUESTIONS_DATA = {
       "id": "bd017",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Shah Jahan's eldest son, an unabashed mystic, gathered Sanskrit pandits in Delhi and in 1657 produced a Persian translation of fifty Upanishads. He called the work Sirr-i-Akbar, the Greatest Mystery, and argued that this was the hidden book the Quran spoke of. Name this prince.",
@@ -22631,7 +25229,8 @@ window.QUESTIONS_DATA = {
       "id": "bd020",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "question": "Born in 1253 in Patiyali, this disciple of Nizamuddin Auliya fused Persian, Arabic, Turkic and Indian musical traditions to create qawwali, mixed Persian with the local Hindavi in playful poems like Zeehal-e-Miskeen, and earned the nickname Tuti-e-Hind, the Parrot of India. Name him.",
       "answer": "Amir Khusrau",
@@ -22648,7 +25247,8 @@ window.QUESTIONS_DATA = {
       "id": "bd021",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "This 17th-century Sufi from Delhi wrote a famously dense, difficult Persian — so layered that there is still a saying in Kabul and Dushanbe that you cannot understand him properly until your beard is white. To this day he is read more in Tajikistan and Afghanistan than in his own city. Name this Indo-Persian poet.",
@@ -22667,7 +25267,8 @@ window.QUESTIONS_DATA = {
       "id": "bd022",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "question": "He wrote more than 11,000 verses in Persian and only a slim divan in Urdu, and once told his readers to look at his Persian work for its colourful pictures and to pass over his Urdu collection as a mere sketch. Yet it is the Urdu ghazals of this Delhi poet that the subcontinent now sings. Name him.",
       "answer": "Mirza Ghalib",
@@ -22684,7 +25285,8 @@ window.QUESTIONS_DATA = {
       "id": "bd023",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Of the roughly 12,000 verses written by this Sialkot-born thinker, around 7,000 are in Persian — including Asrar-i-Khudi and Payam-i-Mashriq, his answer to Goethe's West-Eastern Divan. In Iran he is so revered that even Ayatollah Khamenei has praised his Persian poetry. Name him.",
@@ -22702,7 +25304,8 @@ window.QUESTIONS_DATA = {
       "id": "bd024",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "question": "The last Mughal — exiled to Rangoon after 1857 — was himself a respected poet who wrote ghazals in both Urdu and Persian and gathered around him Ghalib, Zauq and Momin. Name this poet-emperor.",
       "answer": "Bahadur Shah Zafar",
@@ -22719,7 +25322,8 @@ window.QUESTIONS_DATA = {
       "id": "bd025",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "question": "In February 1739, a Persian shah of humble nomadic origins routed the Mughal army at Karnal, occupied Delhi, and a month later ordered a massacre that killed tens of thousands. Name this Persian invader of India.",
       "answer": "Nadir Shah",
@@ -22773,7 +25377,8 @@ window.QUESTIONS_DATA = {
       "id": "bd028",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "question": "When Mumtaz Mahal died in childbirth in 1631, Shah Jahan summoned a board of architects to design her tomb. Most historians credit the overall plan to the emperor's chief architect, who later supervised the Red Fort in Delhi. Name this architect of the Taj Mahal.",
       "answer": "Ustad Ahmad Lahauri",
@@ -22790,7 +25395,8 @@ window.QUESTIONS_DATA = {
       "id": "bd029",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "After Humayun died in 1556, his widow Bega Begum commissioned a tomb in Delhi from a Persian architect she summoned from Herat. The double-domed result became the prototype for the Taj. Name this architect.",
@@ -22844,7 +25450,8 @@ window.QUESTIONS_DATA = {
       "id": "bd032",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Jahangir, an obsessive naturalist, kept one court painter on a tight leash because he was the only one who could capture a turkey, a zebra or a Himalayan pheasant with the right scientific accuracy. The emperor gave him the title Nadir-ul-Asr, the Wonder of the Age. Name this painter.",
@@ -22894,7 +25501,8 @@ window.QUESTIONS_DATA = {
       "id": "bd035",
       "topic": "bridge",
       "themes": [
-        "india_iran_bridge"
+        "india_iran_bridge",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Born in 1800, this Lucknow poet is said to have composed more than ten thousand marsiyas — elegies on the martyrs of Karbala — turning a religious form of Persian origin into the bedrock of serious Urdu poetry. Name him.",
@@ -24335,7 +26943,8 @@ window.QUESTIONS_DATA = {
       "id": "wa033",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "He was the Macedonian king who, by the age of 30, had conquered an empire stretching from Greece to the edge of India. Name him.",
       "answer": "Alexander the Great",
@@ -24352,7 +26961,8 @@ window.QUESTIONS_DATA = {
       "id": "wa034",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "The Athenian philosopher who never wrote a book, taught Plato, and was sentenced to death by drinking hemlock in 399 BC. Name him.",
       "answer": "Socrates",
@@ -24386,7 +26996,8 @@ window.QUESTIONS_DATA = {
       "id": "wa036",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "In 49 BC, a Roman general defied the Senate by leading his army across a small river into Italy, triggering civil war. Name the river or the general.",
@@ -24438,7 +27049,8 @@ window.QUESTIONS_DATA = {
       "id": "wa039",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "This 13th-century Mongol leader built the largest contiguous land empire in history. Name him.",
       "answer": "Genghis Khan",
@@ -24454,7 +27066,8 @@ window.QUESTIONS_DATA = {
       "id": "wa040",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "This Venetian merchant claimed to have spent years at the court of Kublai Khan, and his book inspired Europe's fascination with the East. Name him.",
@@ -24470,7 +27083,8 @@ window.QUESTIONS_DATA = {
       "id": "wa041",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "An Italian sailing for Spain, he made landfall in the Caribbean in 1492 thinking he had reached the Indies. Name him.",
       "answer": "Christopher Columbus",
@@ -24487,7 +27101,8 @@ window.QUESTIONS_DATA = {
       "id": "wa042",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "In May 1498, a Portuguese navigator dropped anchor near Calicut on the Malabar coast, opening a sea route from Europe to India. Name him.",
       "answer": "Vasco da Gama",
@@ -24503,7 +27118,8 @@ window.QUESTIONS_DATA = {
       "id": "wa043",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "His expedition was the first to circumnavigate the globe, though he himself was killed in the Philippines before the journey ended. Name him.",
@@ -24520,7 +27136,8 @@ window.QUESTIONS_DATA = {
       "id": "wa044",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "He painted the ceiling of the Sistine Chapel between 1508 and 1512, and sculpted David. Name this Renaissance master.",
       "answer": "Michelangelo",
@@ -24535,7 +27152,8 @@ window.QUESTIONS_DATA = {
       "id": "wa045",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Painter, anatomist, engineer, and the man behind the Mona Lisa and The Last Supper. Name him.",
@@ -24567,7 +27185,8 @@ window.QUESTIONS_DATA = {
       "id": "wa047",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "A Corsican-born artillery officer who crowned himself Emperor of the French in 1804 and was finally defeated at Waterloo in 1815. Name him.",
       "answer": "Napoleon Bonaparte",
@@ -24679,7 +27298,8 @@ window.QUESTIONS_DATA = {
       "id": "wa055",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "After 27 years in prison, this anti-apartheid leader walked free in 1990 and went on to become South Africa's first Black president in 1994. Name him.",
@@ -24696,7 +27316,8 @@ window.QUESTIONS_DATA = {
       "id": "wa056",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "In August 1963, an American civil rights leader delivered the 'I Have a Dream' speech on the steps of the Lincoln Memorial. Name him.",
       "answer": "Martin Luther King Jr.",
@@ -24714,7 +27335,8 @@ window.QUESTIONS_DATA = {
       "id": "wa057",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "This British Prime Minister led his country through World War II and is remembered for the line 'We shall fight on the beaches'. Name him.",
@@ -24731,7 +27353,8 @@ window.QUESTIONS_DATA = {
       "id": "wa058",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Britain's first woman Prime Minister, who led the Conservative Party from 1979 to 1990 and was nicknamed the 'Iron Lady'. Name her.",
@@ -24748,7 +27371,8 @@ window.QUESTIONS_DATA = {
       "id": "wa059",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "He was the Polish electrician who led the Solidarity trade union and later became president of post-communist Poland in 1990. Name him.",
@@ -24766,7 +27390,8 @@ window.QUESTIONS_DATA = {
       "id": "wa060",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Elected in 1978, he was the first non-Italian pope in over 450 years and is credited with helping bring down communism in Eastern Europe. Name him.",
@@ -24894,7 +27519,8 @@ window.QUESTIONS_DATA = {
       "id": "wb009",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "Japanese animator who co-founded Studio Ghibli and won the 2003 Best Animated Feature Oscar for Spirited Away. Name him.",
       "answer": "Hayao Miyazaki",
@@ -24925,7 +27551,8 @@ window.QUESTIONS_DATA = {
       "id": "wb012",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "This actor played the lead in Forrest Gump, Cast Away, Philadelphia and Saving Private Ryan, and voiced Sheriff Woody in the Toy Story films. Name him.",
       "answer": "Tom Hanks",
@@ -24971,7 +27598,8 @@ window.QUESTIONS_DATA = {
       "id": "wb016",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "In 2016, the Swedish Academy gave the Nobel Prize in Literature to a musician 'for having created new poetic expressions within the great American song tradition.' Name him.",
@@ -25062,7 +27690,8 @@ window.QUESTIONS_DATA = {
       "id": "wb022",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "This Austrian child prodigy composed his first symphony at the age of eight and died in Vienna in 1791 aged just 35, leaving behind The Magic Flute and Don Giovanni. Name him.",
@@ -25078,7 +27707,8 @@ window.QUESTIONS_DATA = {
       "id": "wb023",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "This composer wrote his ninth and final symphony — including the choral 'Ode to Joy' — after he had gone completely deaf. Name him.",
       "answer": "Ludwig van Beethoven",
@@ -25110,7 +27740,8 @@ window.QUESTIONS_DATA = {
       "id": "wb025",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "Jamaican reggae icon whose songs 'No Woman, No Cry', 'One Love' and 'Redemption Song' made him a global figure. Name him.",
       "answer": "Bob Marley",
@@ -25125,7 +27756,8 @@ window.QUESTIONS_DATA = {
       "id": "wb026",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "On 22 June 1986, in a World Cup quarter-final against England in Mexico City, an Argentine forward scored twice — once with his fist, once after dribbling past half the team. Name him.",
       "answer": "Diego Maradona",
@@ -25157,7 +27789,8 @@ window.QUESTIONS_DATA = {
       "id": "wb028",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "In December 2022, this Argentine forward finally lifted the World Cup at the Lusail Stadium in Qatar, beating France on penalties. Name him.",
       "answer": "Lionel Messi",
@@ -25172,7 +27805,8 @@ window.QUESTIONS_DATA = {
       "id": "wb029",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "In the 90th minute of the 2006 World Cup final, this French captain was sent off for headbutting Italy's Marco Materazzi in the chest. France went on to lose on penalties. Name him.",
@@ -25203,7 +27837,8 @@ window.QUESTIONS_DATA = {
       "id": "wb031",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "This Jamaican sprinter holds the world records for both the 100m and 200m, and won eight Olympic gold medals across three Games. Name him.",
       "answer": "Usain Bolt",
@@ -25249,7 +27884,8 @@ window.QUESTIONS_DATA = {
       "id": "wb035",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "This American tennis player won 23 Grand Slam singles titles in the Open Era, including a famous 2017 Australian Open won while in the early stages of pregnancy. Name her.",
       "answer": "Serena Williams",
@@ -25280,7 +27916,8 @@ window.QUESTIONS_DATA = {
       "id": "wb037",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "He needed only four runs from his final Test innings to retire with a career batting average of 100 — but was bowled by Eric Hollies for a duck, leaving him on 99.94. Name him.",
@@ -25297,7 +27934,8 @@ window.QUESTIONS_DATA = {
       "id": "wb038",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "This German driver and this British driver share the all-time Formula One record for most World Championships — seven each. Name both.",
       "answer": "Michael Schumacher and Lewis Hamilton",
@@ -25312,7 +27950,8 @@ window.QUESTIONS_DATA = {
       "id": "wb039",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "On 1 May 1994, this three-time F1 world champion crashed at the Tamburello corner of the San Marino Grand Prix at Imola and died from his injuries. Name him.",
@@ -25328,7 +27967,8 @@ window.QUESTIONS_DATA = {
       "id": "wb040",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "On 30 October 1974, in Kinshasa, this American boxer reclaimed the world heavyweight title from George Foreman using a 'rope-a-dope' tactic. Name the boxer and the famous nickname for the fight.",
@@ -25344,7 +27984,8 @@ window.QUESTIONS_DATA = {
       "id": "wb042",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "bid_eligible": true,
       "difficulty": 3,
@@ -25362,7 +28003,8 @@ window.QUESTIONS_DATA = {
       "id": "wb043",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "Microsoft was co-founded in 1975 by Bill Gates and this childhood friend, who left the company in 1983 after a Hodgkin's lymphoma diagnosis. Name him.",
       "answer": "Paul Allen",
@@ -25407,7 +28049,8 @@ window.QUESTIONS_DATA = {
       "id": "wb048",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Walt Disney and his brother founded their animation studio in 1923. What was his brother's name, and in what year did Mickey Mouse make his debut in Steamboat Willie?",
@@ -25438,7 +28081,8 @@ window.QUESTIONS_DATA = {
       "id": "wb050",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "This French fashion designer, born in 1883, gave the world the little black dress, costume jewellery, and a perfume known by her name and the number five. Name her.",
@@ -25455,7 +28099,8 @@ window.QUESTIONS_DATA = {
       "id": "wb051",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "His equation E=mc² and his theory of relativity made him a household name; the 1921 Nobel Prize in Physics he received was actually for explaining the photoelectric effect. Name him.",
       "answer": "Albert Einstein",
@@ -25470,7 +28115,8 @@ window.QUESTIONS_DATA = {
       "id": "wb052",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "English physicist and mathematician who set out three laws of motion and is said to have been inspired by an apple falling in his mother's garden. Name him.",
       "answer": "Isaac Newton",
@@ -25486,7 +28132,8 @@ window.QUESTIONS_DATA = {
       "id": "wb053",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Polish-French scientist who won the Nobel in Physics in 1903 and the Nobel in Chemistry in 1911 — the first person ever to win Nobels in two different sciences. Name her.",
@@ -25503,7 +28150,8 @@ window.QUESTIONS_DATA = {
       "id": "wb054",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "This English naturalist's voyage aboard HMS Beagle, especially his observations of finches in the Galápagos Islands, led to On the Origin of Species in 1859. Name him.",
@@ -25519,7 +28167,8 @@ window.QUESTIONS_DATA = {
       "id": "wb055",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "On 12 April 1961, this Soviet cosmonaut became the first human to journey into outer space, completing one orbit of Earth aboard Vostok 1. Name him.",
@@ -25535,7 +28184,8 @@ window.QUESTIONS_DATA = {
       "id": "wb056",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "On 20 July 1969, this Apollo 11 commander became the first human to set foot on the Moon, with Buzz Aldrin joining him soon after. Name him.",
@@ -25551,7 +28201,8 @@ window.QUESTIONS_DATA = {
       "id": "wb057",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Scottish bacteriologist who, returning from holiday in 1928, noticed that a mould had killed bacteria in a forgotten Petri dish, leading to the discovery of penicillin. Name him.",
@@ -25568,7 +28219,8 @@ window.QUESTIONS_DATA = {
       "id": "wb058",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "The double-helix structure of DNA was published in Nature in 1953 by these two scientists at Cambridge, drawing crucially on Rosalind Franklin's X-ray data. Name both.",
       "answer": "James Watson and Francis Crick",
@@ -25583,7 +28235,8 @@ window.QUESTIONS_DATA = {
       "id": "wb059",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "question": "English playwright born in Stratford-upon-Avon in 1564, credited with around 37 plays including Hamlet, Macbeth and Romeo and Juliet. Name him.",
       "answer": "William Shakespeare",
@@ -25598,7 +28251,8 @@ window.QUESTIONS_DATA = {
       "id": "wb060",
       "topic": "world",
       "themes": [
-        "world"
+        "world",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "This Colombian novelist's 1967 masterpiece One Hundred Years of Solitude, about seven generations of the Buendía family in the town of Macondo, won him the 1982 Nobel Prize in Literature. Name him.",
@@ -25616,7 +28270,8 @@ window.QUESTIONS_DATA = {
       "id": "us001",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "He was the first President of the United States, refused to belong to any political party, and his face is on the one-dollar bill. Name him.",
@@ -25632,7 +28287,8 @@ window.QUESTIONS_DATA = {
       "id": "us002",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "question": "16th US President, he issued the Emancipation Proclamation in 1863 and was shot at Ford's Theatre in Washington on April 14, 1865. Name him.",
       "answer": "Abraham Lincoln",
@@ -25648,7 +28304,8 @@ window.QUESTIONS_DATA = {
       "id": "us003",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "question": "3rd US President, principal author of the Declaration of Independence in 1776, and the man behind the 1803 Louisiana Purchase that doubled the size of the country. Name him.",
       "answer": "Thomas Jefferson",
@@ -25663,7 +28320,8 @@ window.QUESTIONS_DATA = {
       "id": "us004",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "He led a volunteer cavalry unit called the Rough Riders in the Spanish-American War, became the youngest US president at 42, and his face is one of the four on Mount Rushmore. Name him.",
@@ -25681,7 +28339,8 @@ window.QUESTIONS_DATA = {
       "id": "us005",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "question": "The only US president elected to four terms, he led the country through the Great Depression with his New Deal programmes and through most of World War II from a wheelchair, having been paralysed by polio. Name him.",
       "answer": "Franklin D. Roosevelt",
@@ -25698,7 +28357,8 @@ window.QUESTIONS_DATA = {
       "id": "us006",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "35th US President, he stared down the Soviets in the Cuban Missile Crisis of 1962 and was assassinated in Dallas the following year. Name him.",
@@ -25717,7 +28377,8 @@ window.QUESTIONS_DATA = {
       "id": "us007",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "question": "Brought down by the Watergate scandal, he became the only US president ever to resign from office, in August 1974. Name him.",
       "answer": "Richard Nixon",
@@ -25733,7 +28394,8 @@ window.QUESTIONS_DATA = {
       "id": "us008",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Former Hollywood actor and California governor, this 40th US president stood at the Brandenburg Gate in 1987 and challenged Mikhail Gorbachev with the line, 'Tear down this wall!' Name him.",
@@ -25749,7 +28411,8 @@ window.QUESTIONS_DATA = {
       "id": "us009",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "question": "Elected in 2008 and again in 2012, this Hawaii-born former senator from Illinois became the first Black president of the United States. Name him.",
       "answer": "Barack Obama",
@@ -25782,7 +28445,8 @@ window.QUESTIONS_DATA = {
       "id": "us011",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "He wore number 23 for the Chicago Bulls, won six NBA championships in the 1990s, and is widely regarded as the greatest basketball player of all time. Name him.",
@@ -25800,7 +28464,8 @@ window.QUESTIONS_DATA = {
       "id": "us012",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "question": "Drafted straight out of high school in 1996, this Los Angeles Lakers great won five NBA titles before dying in a helicopter crash in January 2020 alongside his daughter Gianna. Name him.",
       "answer": "Kobe Bryant",
@@ -25817,7 +28482,8 @@ window.QUESTIONS_DATA = {
       "id": "us013",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Point guard for the Golden State Warriors, he has redefined basketball by shooting threes from absurd distances and holds the NBA's all-time three-point record. Name him.",
@@ -25851,7 +28517,8 @@ window.QUESTIONS_DATA = {
       "id": "us015",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Quarterback who won seven Super Bowls, six with the New England Patriots and a seventh with the Tampa Bay Buccaneers, making him the most successful player in NFL history. Name him.",
@@ -25868,7 +28535,8 @@ window.QUESTIONS_DATA = {
       "id": "us016",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Known as the Sultan of Swat, this New York Yankees slugger of the 1920s and '30s remains baseball's most iconic figure. Name him.",
@@ -25886,7 +28554,8 @@ window.QUESTIONS_DATA = {
       "id": "us017",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "African-American sprinter and long jumper who infuriated Adolf Hitler by winning four gold medals at the 1936 Berlin Olympics. Name him.",
@@ -25903,7 +28572,8 @@ window.QUESTIONS_DATA = {
       "id": "us018",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "question": "American swimmer with 28 Olympic medals, including 23 golds, across four Games from 2004 to 2016 — the most decorated Olympian in history. Name him.",
       "answer": "Michael Phelps",
@@ -25918,7 +28588,8 @@ window.QUESTIONS_DATA = {
       "id": "us019",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "Born Cassius Clay in Louisville, Kentucky, this three-time world heavyweight boxing champion converted to Islam in 1964 and refused to fight in Vietnam. Name him.",
@@ -25935,7 +28606,8 @@ window.QUESTIONS_DATA = {
       "id": "us020",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "question": "Golfer with 15 major championships, second only to Jack Nicklaus, who returned to win the Masters in 2019 after years of back surgery. Name him.",
       "answer": "Tiger Woods",
@@ -26057,7 +28729,8 @@ window.QUESTIONS_DATA = {
       "id": "us028",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "question": "Born Norma Jeane Mortenson in 1926, this Hollywood blonde sang 'Diamonds Are a Girl's Best Friend' and died in Los Angeles in 1962, aged just 36. Name her.",
       "answer": "Marilyn Monroe",
@@ -26074,7 +28747,8 @@ window.QUESTIONS_DATA = {
       "id": "us029",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "bid_eligible": true,
       "question": "American actress with more Oscar nominations than anyone in history — 21 and counting — known for roles in Sophie's Choice, The Devil Wears Prada and Kramer vs. Kramer. Name her.",
@@ -26257,7 +28931,8 @@ window.QUESTIONS_DATA = {
       "id": "us040",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "question": "Co-founder of Apple, born in San Francisco in 1955 and adopted as a baby, he introduced the iPhone in 2007 and died of pancreatic cancer in 2011. Name him.",
       "answer": "Steve Jobs",
@@ -26274,7 +28949,8 @@ window.QUESTIONS_DATA = {
       "id": "us041",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "question": "Born in Seattle in 1955, he co-founded Microsoft with Paul Allen in 1975 and went on to lead one of the world's biggest philanthropic foundations with his then-wife Melinda. Name him.",
       "answer": "Bill Gates",
@@ -26291,7 +28967,8 @@ window.QUESTIONS_DATA = {
       "id": "us042",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "He launched 'Thefacebook' from his Harvard dorm room in February 2004 and is now the CEO of the parent company Meta. Name him.",
@@ -26342,7 +29019,8 @@ window.QUESTIONS_DATA = {
       "id": "us045",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Travelling salesman who saw a small burger stand run by two brothers in San Bernardino, California, bought the franchising rights in 1955, and turned the golden arches into a global empire. Name him.",
@@ -26359,7 +29037,8 @@ window.QUESTIONS_DATA = {
       "id": "us046",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "question": "Singer born in Tupelo, Mississippi in 1935 and crowned the King of Rock and Roll; his Memphis mansion Graceland is now a museum. Name him.",
       "answer": "Elvis Presley",
@@ -26376,7 +29055,8 @@ window.QUESTIONS_DATA = {
       "id": "us047",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "difficulty": 3,
       "question": "Singer born in Hoboken, New Jersey in 1915, Rat Pack frontman and crooner of 'My Way', 'New York, New York' and 'Fly Me to the Moon'. Name him.",
@@ -26394,7 +29074,8 @@ window.QUESTIONS_DATA = {
       "id": "us048",
       "topic": "usa",
       "themes": [
-        "usa"
+        "usa",
+        "personalities"
       ],
       "question": "Houston-born singer who shot to fame with the group Destiny's Child before going solo with hits like 'Crazy in Love' and 'Single Ladies'. Name her.",
       "answer": "Beyonce",
@@ -27162,7 +29843,8 @@ window.QUESTIONS_DATA = {
       "explanation": "Vivek Shanbhag wrote the Kannada novella Ghachar Ghochar (2013), translated into English by Srinath Perur in 2015 to international acclaim.",
       "themes": [
         "south_india",
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-07-09"
     },
@@ -27195,7 +29877,8 @@ window.QUESTIONS_DATA = {
       "explanation": "Banu Mushtaq's Heart Lamp, translated from Kannada by Deepa Bhasthi, won the 2025 International Booker Prize.",
       "themes": [
         "south_india",
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-07-09"
     },
@@ -27209,7 +29892,10 @@ window.QUESTIONS_DATA = {
         "amish"
       ],
       "explanation": "Amish Tripathi's debut The Immortals of Meluha (2010) opened the Shiva Trilogy.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709005",
@@ -27238,7 +29924,8 @@ window.QUESTIONS_DATA = {
       "explanation": "Arun Kolatkar won the Commonwealth Poetry Prize for Jejuri (1976) and later wrote Kala Ghoda Poems; he wrote in both Marathi and English.",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-07-09"
     },
@@ -27252,7 +29939,10 @@ window.QUESTIONS_DATA = {
         "pinto"
       ],
       "explanation": "Jerry Pinto wrote Em and the Big Hoom (2012), which won the Sahitya Akademi Award among other prizes.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709008",
@@ -27281,7 +29971,10 @@ window.QUESTIONS_DATA = {
         "devdutt"
       ],
       "explanation": "Devdutt Pattanaik is the mythologist-author of Jaya, Sita, and many other illustrated retellings.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709010",
@@ -27324,7 +30017,10 @@ window.QUESTIONS_DATA = {
         "murthy"
       ],
       "explanation": "Sudha Murty became Telco's first woman engineer after writing to J.R.D. Tata; she later became a celebrated author and philanthropist.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709013",
@@ -27383,7 +30079,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Neena Gupta of ISI Kolkata solved the Zariski cancellation problem and won the 2021 Ramanujan Prize.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709017",
@@ -27397,7 +30096,8 @@ window.QUESTIONS_DATA = {
       "explanation": "Tessy Thomas, the 'Missile Woman of India', was project director for the Agni-IV and Agni-V missiles at DRDO.",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-07-09"
     },
@@ -27424,7 +30124,10 @@ window.QUESTIONS_DATA = {
         "zohran"
       ],
       "explanation": "Zohran Mamdani, son of Mira Nair, became the 112th mayor of New York City in January 2026.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709020",
@@ -27436,7 +30139,10 @@ window.QUESTIONS_DATA = {
         "abbas baig"
       ],
       "explanation": "Baig, then 20, scored a century on Test debut at Old Trafford in 1959 after being called up from his Oxford studies.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709021",
@@ -27450,7 +30156,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Baloo was a left-arm spinner and modern India's first Dalit sporting icon, who took 114 wickets on the 1911 England tour.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709022",
@@ -27464,7 +30173,10 @@ window.QUESTIONS_DATA = {
         "mazumdar"
       ],
       "explanation": "Muzumdar's 9,205 Ranji runs made him at one point the format's top scorer, but he was never selected for India.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709023",
@@ -27477,7 +30189,10 @@ window.QUESTIONS_DATA = {
         "budhisagar kunderan"
       ],
       "explanation": "Kunderan, who vied with Farokh Engineer for the keeper's spot, made 192 as an opener at Chepauk in 1963-64.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709024",
@@ -27490,7 +30205,10 @@ window.QUESTIONS_DATA = {
         "chandrakant borde"
       ],
       "explanation": "Borde, an all-rounder of the 1960s, scored 3,061 Test runs and twice served as India's chairman of selectors.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709025",
@@ -27504,7 +30222,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Amar Singh opened the bowling with Nissar in India's 1932 debut Test and won lavish praise from Hammond.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709026",
@@ -27516,7 +30237,10 @@ window.QUESTIONS_DATA = {
         "washington"
       ],
       "explanation": "Sundar was named after P.D. Washington, the godfather who financially supported his father's cricket.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709027",
@@ -27531,7 +30255,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Nissar took the first Test wicket for India and a five-for on debut at Lord's in 1932.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709028",
@@ -27546,7 +30273,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Modi hit five straight Ranji hundreds and 1,008 runs at 201 in 1944-45, the only batsman with five successive Ranji centuries.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709029",
@@ -27559,7 +30289,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Ghulam Ahmed formed a spin trio with Mankad and Gupte, captained India, and chaired the selectors who chose the 1983 winners.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709030",
@@ -27572,7 +30305,10 @@ window.QUESTIONS_DATA = {
         "akshar patel"
       ],
       "explanation": "Axar Patel replaced the injured Jadeja and took 27 wickets in the 2021 home series against England.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709031",
@@ -27586,7 +30322,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Samson hit three T20I hundreds in 2024, the most by any Indian in one calendar year.",
       "bid_eligible": true,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709032",
@@ -27600,7 +30339,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Sohrab Modi ran Minerva Movietone and directed grand historical films like Sikandar (1941).",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709033",
@@ -27613,7 +30355,10 @@ window.QUESTIONS_DATA = {
         "prithvi raj kapoor"
       ],
       "explanation": "Prithviraj Kapoor, patriarch of the Kapoor family, played Akbar in Mughal-e-Azam and founded Prithvi Theatres.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709034",
@@ -27627,7 +30372,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Mehboob Khan directed Mother India (1957), India's first Oscar-nominated film, and the Technicolor Aan.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709035",
@@ -27642,7 +30390,8 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "K. Balachander introduced both Rajinikanth and Kamal Haasan and mentored a generation of South Indian stars.",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-07-09"
     },
@@ -27659,7 +30408,8 @@ window.QUESTIONS_DATA = {
       "explanation": "Savitri, called Mahanati, played Sasirekha in Mayabazar (1957) and was among South cinema's greatest actresses.",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-07-09"
     },
@@ -27676,7 +30426,8 @@ window.QUESTIONS_DATA = {
       "explanation": "Gemini Ganesan, the romantic hero of Tamil cinema, was the father of Bollywood's Rekha.",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-07-09"
     },
@@ -27693,7 +30444,8 @@ window.QUESTIONS_DATA = {
       "explanation": "Bharathiraja pioneered realistic village cinema in Tamil, starting with 16 Vayathinile (1977).",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-07-09"
     },
@@ -27708,7 +30460,10 @@ window.QUESTIONS_DATA = {
         "shree amma yanger ayyapan"
       ],
       "explanation": "Sridevi, a multilingual star, is regarded as Bollywood's first female superstar.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709040",
@@ -27721,7 +30476,10 @@ window.QUESTIONS_DATA = {
         "desai"
       ],
       "explanation": "Manmohan Desai pioneered the Bollywood masala film with hits like Amar Akbar Anthony (1977).",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709041",
@@ -27733,7 +30491,10 @@ window.QUESTIONS_DATA = {
         "shammi"
       ],
       "explanation": "Shammi Kapoor, the dancing hero of Junglee and Teesri Manzil, was dubbed India's Elvis.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709042",
@@ -27747,7 +30508,8 @@ window.QUESTIONS_DATA = {
       "explanation": "Prem Nazir holds Guinness records for most lead roles (over 700 films) and most films opposite one heroine.",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-07-09"
     },
@@ -27938,7 +30700,10 @@ window.QUESTIONS_DATA = {
         "ardeshir"
       ],
       "explanation": "Ardeshir Godrej founded the Godrej business in 1897 with locks and safes, later pioneering vegetable-oil soap.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709056",
@@ -28002,7 +30767,10 @@ window.QUESTIONS_DATA = {
       "explanation": "Cyrus Poonawalla, of the horse-breeding Poonawalla family, founded the Serum Institute of India in 1966.",
       "difficulty": 3,
       "bid_eligible": true,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709061",
@@ -28017,7 +30785,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Ganga Bhishen Agarwal, nicknamed Haldiram, founded the Haldiram's snack business in Bikaner in 1937.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709062",
@@ -28036,7 +30807,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Muhammed Hashim Premji founded Western India Vegetable Products (later Wipro) in Amalner in 1945.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709063",
@@ -28083,7 +30857,8 @@ window.QUESTIONS_DATA = {
       "explanation": "Kallam Anji Reddy founded Dr. Reddy's Laboratories in Hyderabad in 1984.",
       "difficulty": 3,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-07-09"
     },
@@ -28099,7 +30874,10 @@ window.QUESTIONS_DATA = {
         "gandhi-buri"
       ],
       "explanation": "Matangini Hazra was shot dead leading a march on the Tamluk thana during Quit India in 1942, becoming an icon of the Bengal freedom struggle.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709067",
@@ -28117,7 +30895,8 @@ window.QUESTIONS_DATA = {
       "difficulty": 3,
       "bid_eligible": true,
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-07-09"
     },
@@ -28136,7 +30915,8 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Alluri Sitarama Raju led the Rampa (Manyam) Rebellion of 1922-24 in the Andhra forests against the Madras Forest Act.",
       "themes": [
-        "south_india"
+        "south_india",
+        "personalities"
       ],
       "created": "2026-07-09"
     },
@@ -28152,7 +30932,10 @@ window.QUESTIONS_DATA = {
         "aruna"
       ],
       "explanation": "Aruna Asaf Ali hoisted the flag at Gowalia Tank during Quit India and became a symbol of the underground resistance.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709070",
@@ -28166,7 +30949,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Rani Gaidinliu led a Naga uprising against British rule; Nehru conferred the title 'Rani' after meeting her in 1937.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709071",
@@ -28214,7 +31000,10 @@ window.QUESTIONS_DATA = {
       "explanation": "Madam Bhikaiji Cama unfurled an early Indian tricolour at Stuttgart in 1907, the first Indian flag hoisted abroad.",
       "difficulty": 3,
       "bid_eligible": true,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709074",
@@ -28229,7 +31018,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Bhulabhai Desai led the defence at the INA (Red Fort) trials of 1945, framing the accused as freedom fighters.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709075",
@@ -28261,7 +31053,10 @@ window.QUESTIONS_DATA = {
         "peshwa baji rao ii"
       ],
       "explanation": "Baji Rao II was the thirteenth and last Peshwa; his 1818 surrender ended the Maratha confederacy.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709077",
@@ -28290,7 +31085,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Dr Sachchidananda Sinha, the eldest member, chaired the first sitting of the Constituent Assembly before Rajendra Prasad was elected president.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709079",
@@ -28322,7 +31120,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "M. C. Setalvad was independent India's first Attorney General (1950-63), the longest-serving holder of the office.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709081",
@@ -28336,7 +31137,10 @@ window.QUESTIONS_DATA = {
         "mehta"
       ],
       "explanation": "Hansa Mehta presented the first flag of independent India to the Constituent Assembly on behalf of Indian women.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709082",
@@ -28407,7 +31211,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Sukumar Sen, the first Chief Election Commissioner, ran India's first two general elections in 1951-52 and 1957.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709087",
@@ -28436,7 +31243,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "The Swaran Singh Committee (1976) recommended the Fundamental Duties added by the 42nd Amendment.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709089",
@@ -28594,7 +31404,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Vanraj Bhatia (1927-2021) scored Benegal's cinema and Tamas, and pioneered the Indian advertising jingle.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709101",
@@ -28607,7 +31420,10 @@ window.QUESTIONS_DATA = {
         "semmangudi srinivasier"
       ],
       "explanation": "Semmangudi Srinivasa Iyer (1908-2003) is called the Pitamaha of modern Carnatic music.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709102",
@@ -28621,7 +31437,10 @@ window.QUESTIONS_DATA = {
         "vishwamohan bhatt"
       ],
       "explanation": "Vishwa Mohan Bhatt invented the Mohan veena and won a Grammy for A Meeting by the River with Ry Cooder.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709103",
@@ -28637,7 +31456,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "C. Ramchandra (1918-1982) composed Ae Mere Watan Ke Logo, sung by Lata for the 1962 war dead.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709104",
@@ -28652,7 +31474,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Vishnu Digambar Paluskar (1872-1931) founded the Gandharva Mahavidyalaya and set the tune of Raghupati Raghava Raja Ram.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709105",
@@ -28667,7 +31492,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "V.G. Jog (1922-2004) pioneered the violin as a Hindustani solo instrument.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709106",
@@ -28680,7 +31508,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Ustad Amir Khan (1912-1974) founded the Indore gharana with his introspective, merukhand-based khayal.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709107",
@@ -28694,7 +31525,10 @@ window.QUESTIONS_DATA = {
         "pulapaka susheela"
       ],
       "explanation": "P. Susheela holds a Guinness record for most songs recorded, dominating South Indian playback for decades.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709108",
@@ -28708,7 +31542,10 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Mogubai Kurdikar (1904-2001), Alladiya Khan's disciple, was the guru and mother of Kishori Amonkar.",
       "difficulty": 3,
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709109",
@@ -28721,7 +31558,10 @@ window.QUESTIONS_DATA = {
         "alladia khan"
       ],
       "explanation": "Alladiya Khan (1855-1946) founded the Jaipur-Atrauli gharana after losing and rebuilding his voice.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709110",
@@ -28732,7 +31572,10 @@ window.QUESTIONS_DATA = {
         "ravindra jain"
       ],
       "explanation": "Ravindra Jain (1944-2015), blind from birth, composed for Chitchor and for the Ramayan television serial.",
-      "created": "2026-07-09"
+      "created": "2026-07-09",
+      "themes": [
+        "personalities"
+      ]
     },
     {
       "id": "q0709111",
@@ -28916,7 +31759,8 @@ window.QUESTIONS_DATA = {
       "explanation": "Hermann Gundert, a Basel Mission scholar, produced the landmark Malayalam-English dictionary (1872) and a Malayalam grammar.",
       "difficulty": 3,
       "themes": [
-        "languages"
+        "languages",
+        "personalities"
       ],
       "created": "2026-07-09"
     },
@@ -29323,6 +32167,1376 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "The colonial thorn barrier built to enforce the salt tax, forgotten then rediscovered.",
       "created": "2026-07-09"
+    },
+    {
+      "id": "q0710001",
+      "topic": "cricket",
+      "question": "This IPL franchise, in yellow, is co-owned with Mumbai Indians as the joint most-successful team in the league, with five titles. Led all these years by MS Dhoni, it is nicknamed the Super Kings. Name the team.",
+      "answer": "Chennai Super Kings",
+      "accept": [
+        "chennai super kings",
+        "csk"
+      ],
+      "explanation": "CSK have won five IPL titles (2010, 2011, 2018, 2021, 2023), all under captain MS Dhoni.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710002",
+      "topic": "cricket",
+      "question": "Kolkata's grand old cricket ground beside the Maidan, one of the largest stadiums in the world and long the spiritual home of Bengal cricket, is famous for roaring crowds. What is this iconic venue called?",
+      "answer": "Eden Gardens",
+      "accept": [
+        "eden gardens",
+        "eden garden"
+      ],
+      "explanation": "Eden Gardens in Kolkata is among the world's biggest cricket stadiums and India's most storied venue.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710003",
+      "topic": "cricket",
+      "question": "This annual auction-based Twenty20 tournament, launched in 2008, turned Indian cricket into a glittering franchise league of city teams and a global money-spinner. Give the three-letter name it is universally known by.",
+      "answer": "Indian Premier League",
+      "accept": [
+        "indian premier league",
+        "ipl"
+      ],
+      "explanation": "The IPL, launched in 2008, is India's franchise-based T20 league.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710004",
+      "topic": "cricket",
+      "question": "Rebuilt in Ahmedabad's Motera and reopened in 2021, named after the Prime Minister, this 132,000-seat colossus is the largest cricket stadium in the world and hosted the 2023 World Cup final. Name the stadium.",
+      "answer": "Narendra Modi Stadium",
+      "accept": [
+        "narendra modi stadium",
+        "motera",
+        "motera stadium",
+        "modi stadium"
+      ],
+      "explanation": "The Narendra Modi Stadium in Motera, Ahmedabad, seats 132,000, the world's largest cricket venue.",
+      "difficulty": 1,
+      "themes": [
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710005",
+      "topic": "cinema",
+      "question": "The 1975 Ramesh Sippy 'curry western', with Amitabh and Dharmendra as Jai and Veeru and Gabbar as the villain, is often called the greatest Hindi film ever made. Name this blockbuster.",
+      "answer": "Sholay",
+      "accept": [
+        "sholay"
+      ],
+      "explanation": "Sholay (1975) is the classic Bollywood action drama written by Salim-Javed.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710006",
+      "topic": "cinema",
+      "question": "Bollywood's original 'first superstar', he sparked frenzy in the early 1970s with hits like Aradhana and Anand, his romantic head-tilt copied by millions. He later married Dimple Kapadia. Name him.",
+      "answer": "Rajesh Khanna",
+      "accept": [
+        "rajesh khanna",
+        "rajesh"
+      ],
+      "explanation": "Rajesh Khanna, powered by Aradhana (1969), became Hindi cinema's first superstar.",
+      "difficulty": 1,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710007",
+      "topic": "cinema",
+      "question": "This 2009 Rajkumar Hirani campus comedy starred Aamir Khan as Rancho, made 'All is well' a catchphrase, and became one of Indian cinema's biggest hits. Name the film.",
+      "answer": "3 Idiots",
+      "accept": [
+        "3 idiots",
+        "three idiots",
+        "3idiots"
+      ],
+      "explanation": "3 Idiots (2009) is Rajkumar Hirani's blockbuster starring Aamir Khan.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710008",
+      "topic": "cinema",
+      "question": "This 2001 Ashutosh Gowariker epic, produced by and starring Aamir Khan, sees a Raj-era village stake its taxes on a cricket match against the British. It earned India an Oscar nomination for Best Foreign Film. Name the film.",
+      "answer": "Lagaan",
+      "accept": [
+        "lagaan",
+        "lagaan once upon a time in india"
+      ],
+      "explanation": "Lagaan (2001), starring Aamir Khan, was nominated for the Academy Award for Best Foreign Language Film.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710009",
+      "topic": "history",
+      "question": "This ivory-white marble mausoleum on the Yamuna at Agra was built by Shah Jahan for his wife Mumtaz Mahal and is India's most famous monument, a wonder of the world. Name it.",
+      "answer": "Taj Mahal",
+      "accept": [
+        "taj mahal",
+        "taj"
+      ],
+      "explanation": "The Taj Mahal at Agra was built by Mughal emperor Shah Jahan in memory of Mumtaz Mahal.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710010",
+      "topic": "history",
+      "question": "This young revolutionary threw a bomb in the Central Legislative Assembly, was hanged in 1931 aged 23, and is one of India's most beloved freedom-struggle martyrs, celebrated with the cry 'Inquilab Zindabad'. Name him.",
+      "answer": "Bhagat Singh",
+      "accept": [
+        "bhagat singh",
+        "shaheed bhagat singh"
+      ],
+      "explanation": "Bhagat Singh was hanged in 1931 and remains an icon of the Indian independence movement.",
+      "difficulty": 1,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710011",
+      "topic": "history",
+      "question": "This soaring 73-metre red-sandstone victory tower in Delhi, begun by Qutb-ud-din Aibak around 1200, is the tallest brick minaret in the world and a UNESCO World Heritage Site. Name it.",
+      "answer": "Qutub Minar",
+      "accept": [
+        "qutub minar",
+        "qutb minar",
+        "qutab minar"
+      ],
+      "explanation": "The Qutub Minar in Delhi, begun by Qutb-ud-din Aibak, is the world's tallest brick minaret.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710012",
+      "topic": "history",
+      "question": "This red-sandstone Mughal fort in Delhi, built by Shah Jahan, is where the Prime Minister hoists the national flag and addresses the nation every Independence Day. Name this fort.",
+      "answer": "Red Fort",
+      "accept": [
+        "red fort",
+        "lal qila",
+        "lal quila"
+      ],
+      "explanation": "The Red Fort (Lal Qila) in Delhi is where the PM addresses the nation each Independence Day.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710013",
+      "topic": "geography",
+      "question": "This vast mountain range along India's northern edge, whose name means 'abode of snow', contains the world's highest peaks and is the source of the Ganga and other great rivers. Name the range.",
+      "answer": "Himalayas",
+      "accept": [
+        "himalayas",
+        "himalaya",
+        "the himalayas"
+      ],
+      "explanation": "The Himalayas are the great mountain range along India's north, home to the world's highest peaks.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710014",
+      "topic": "geography",
+      "question": "This 42-metre sandstone war memorial arch on Delhi's Rajpath, honouring soldiers of the First World War, stands over the Amar Jawan Jyoti site and anchors the capital's ceremonial avenue. Name it.",
+      "answer": "India Gate",
+      "accept": [
+        "india gate"
+      ],
+      "explanation": "India Gate is the war-memorial arch in New Delhi designed by Edwin Lutyens.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710015",
+      "topic": "geography",
+      "question": "This Punjab city is home to the Golden Temple, the holiest shrine of Sikhism, and its Jallianwala Bagh recalls the 1919 massacre. Name the city.",
+      "answer": "Amritsar",
+      "accept": [
+        "amritsar"
+      ],
+      "explanation": "Amritsar, in Punjab, houses the Golden Temple and Jallianwala Bagh.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710016",
+      "topic": "geography",
+      "question": "India's national capital and seat of Parliament, this city on the Yamuna contains New Delhi and monuments like the Red Fort and India Gate. Name the city.",
+      "answer": "Delhi",
+      "accept": [
+        "delhi",
+        "new delhi"
+      ],
+      "explanation": "Delhi is India's capital, containing New Delhi, the seat of national government.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710017",
+      "topic": "business",
+      "question": "Launched by Tata Motors in 2008 at a target price of one lakh rupees, this tiny four-seater was billed as the world's cheapest car, the brainchild of Ratan Tata. Name the car.",
+      "answer": "Tata Nano",
+      "accept": [
+        "tata nano",
+        "nano"
+      ],
+      "explanation": "The Tata Nano, launched in 2008 at about Rs 1 lakh, was marketed as the world's cheapest car.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710018",
+      "topic": "business",
+      "question": "This Gujarat-born industrialist, chairman of the Adani Group, built an empire in ports, energy and infrastructure to become one of India's and the world's richest people. Name him.",
+      "answer": "Gautam Adani",
+      "accept": [
+        "gautam adani"
+      ],
+      "explanation": "Gautam Adani heads the Adani Group, a major Indian ports-to-energy conglomerate.",
+      "difficulty": 1,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710019",
+      "topic": "business",
+      "question": "Founded in Kolkata in 1892 and now part of the Wadia Group, this is India's best-known biscuit maker, behind Good Day, Marie Gold and Tiger. Name the company.",
+      "answer": "Britannia",
+      "accept": [
+        "britannia",
+        "britannia industries"
+      ],
+      "explanation": "Britannia Industries, founded in 1892, is one of India's oldest and largest biscuit companies.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710020",
+      "topic": "business",
+      "question": "Founded by Shiv Nadar in 1976, this is the fourth of India's 'Big Four' IT services firms alongside TCS, Infosys and Wipro, once famous for making early Indian computers. Name the company.",
+      "answer": "HCL",
+      "accept": [
+        "hcl",
+        "hcltech",
+        "hcl technologies",
+        "hcl tech"
+      ],
+      "explanation": "HCL, founded by Shiv Nadar in 1976, is one of India's Big Four IT services companies.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710021",
+      "topic": "polity",
+      "question": "Sitting on Raisina Hill in New Delhi, this sprawling sandstone mansion was designed by Edwin Lutyens as the Viceroy's House and is today the official home of the President of India. Name this building.",
+      "answer": "Rashtrapati Bhavan",
+      "accept": [
+        "rashtrapati bhavan",
+        "rashtrapati bhawan"
+      ],
+      "explanation": "Rashtrapati Bhavan on Raisina Hill is the official residence of the President of India.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710022",
+      "topic": "polity",
+      "question": "After the 2024 general election, the Congress leader who won from Rae Bareli was appointed Leader of the Opposition in the Lok Sabha, filling a post that had been vacant for a decade. Name him.",
+      "answer": "Rahul Gandhi",
+      "accept": [
+        "rahul gandhi",
+        "rahul"
+      ],
+      "explanation": "Rahul Gandhi became Leader of the Opposition in the 18th Lok Sabha in June 2024.",
+      "difficulty": 1,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710023",
+      "topic": "polity",
+      "question": "Every law passed by Parliament, and every state's high court, ultimately answers to this apex court in New Delhi, the highest judicial body in India. Name it.",
+      "answer": "Supreme Court of India",
+      "accept": [
+        "supreme court",
+        "supreme court of india",
+        "the supreme court"
+      ],
+      "explanation": "The Supreme Court of India is the country's highest court and final court of appeal.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710024",
+      "topic": "polity",
+      "question": "Our Constitution begins with a solemn declaration of the principles it stands for, and its very first three words announce who is granting it to themselves. Complete the phrase: 'We, the ______ of India'.",
+      "answer": "People",
+      "accept": [
+        "people",
+        "we the people",
+        "we, the people"
+      ],
+      "explanation": "The Preamble to the Constitution of India opens with 'We, the People of India'.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710025",
+      "topic": "mythology",
+      "question": "In the Ramayana, an army of monkeys builds a floating bridge of stones across the sea so Rama can cross to Lanka and rescue Sita. What is this legendary bridge called?",
+      "answer": "Ram Setu",
+      "accept": [
+        "ram setu",
+        "rama setu",
+        "rama's bridge",
+        "ram sethu",
+        "setu bandhan"
+      ],
+      "explanation": "The bridge built by Rama's vanara army to reach Lanka is called Ram Setu (Rama's Bridge).",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710026",
+      "topic": "mythology",
+      "question": "This great war of eighteen days between the Pandavas and the Kauravas forms the heart of the Mahabharata, and the battlefield on which it was fought lends the epic its climactic setting. Name that battlefield.",
+      "answer": "Kurukshetra",
+      "accept": [
+        "kurukshetra",
+        "kurukshetra war"
+      ],
+      "explanation": "The Mahabharata war was fought on the field of Kurukshetra.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710027",
+      "topic": "mythology",
+      "question": "Lord Vishnu is often shown riding this great eagle, his loyal mount who is also the sworn enemy of serpents. Name this bird-vahana.",
+      "answer": "Garuda",
+      "accept": [
+        "garuda",
+        "garud"
+      ],
+      "explanation": "Garuda, the divine eagle, is the vahana (mount) of Vishnu.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710028",
+      "topic": "mythology",
+      "question": "Deep in the Himalayas stands the snow-capped mountain believed to be the abode of Lord Shiva and Parvati, revered by Hindus, Buddhists and Jains alike. Name this sacred peak.",
+      "answer": "Mount Kailash",
+      "accept": [
+        "kailash",
+        "mount kailash",
+        "kailasa",
+        "mount kailasa"
+      ],
+      "explanation": "Mount Kailash is regarded as the abode of Shiva.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710029",
+      "topic": "music",
+      "question": "Composed by Rabindranath Tagore and first sung at a Congress session in 1911, this song was adopted as India's national anthem in 1950. Name it.",
+      "answer": "Jana Gana Mana",
+      "accept": [
+        "jana gana mana",
+        "jana gana mana adhinayaka"
+      ],
+      "explanation": "Jana Gana Mana, written by Tagore, is India's national anthem.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710030",
+      "topic": "music",
+      "question": "Written by Bankim Chandra Chattopadhyay in his novel Anandamath, this stirring song became a rallying cry of the freedom struggle and is now India's national song. Name it.",
+      "answer": "Vande Mataram",
+      "accept": [
+        "vande mataram",
+        "bande mataram"
+      ],
+      "explanation": "Vande Mataram, from Bankim Chandra's Anandamath, is India's national song.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710031",
+      "topic": "music",
+      "question": "With a gourd resonator and a long fretted neck, this plucked string instrument is the sound most associated with Hindustani classical music, made famous worldwide by Ravi Shankar. Name the instrument.",
+      "answer": "Sitar",
+      "accept": [
+        "sitar",
+        "the sitar"
+      ],
+      "explanation": "The sitar is the plucked string instrument Ravi Shankar popularised globally.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710032",
+      "topic": "general",
+      "question": "This is the national currency of India, whose symbol combining the Devanagari letter 'ra' and a Roman 'R' was adopted in 2010. Name the currency.",
+      "answer": "Rupee",
+      "accept": [
+        "rupee",
+        "indian rupee",
+        "the rupee"
+      ],
+      "explanation": "The Indian rupee is the national currency; its symbol was introduced in 2010.",
+      "difficulty": 1,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710033",
+      "topic": "cricket",
+      "question": "In 2025 Royal Challengers Bengaluru finally won their first IPL title after an eighteen-year wait, beating Punjab Kings in the final. Their captain, a Madhya Pradesh batter, was widely praised for his calm leadership. Name this maiden-title-winning skipper.",
+      "answer": "Rajat Patidar",
+      "accept": [
+        "rajat patidar",
+        "patidar",
+        "rajat"
+      ],
+      "explanation": "Rajat Patidar captained Royal Challengers Bengaluru to their first-ever IPL crown in 2025.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710034",
+      "topic": "cricket",
+      "question": "India went into the 2023 ODI World Cup final at Ahmedabad unbeaten, but an Australian left-hander crushed those hopes with a magnificent 137, taking the Player of the Match award as Australia won their sixth title. Name this batter.",
+      "answer": "Travis Head",
+      "accept": [
+        "travis head",
+        "head",
+        "travis"
+      ],
+      "explanation": "Travis Head's 137 in the 2023 World Cup final took Australia to a six-wicket win over India.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710035",
+      "topic": "cricket",
+      "question": "In March 2025, under Rohit Sharma, India won this fifty-over ICC tournament undefeated in Dubai, beating New Zealand in the final for their third title in the competition. Name the tournament.",
+      "answer": "Champions Trophy",
+      "accept": [
+        "champions trophy",
+        "icc champions trophy",
+        "2025 champions trophy",
+        "champions trophy 2025"
+      ],
+      "explanation": "India won the 2025 ICC Champions Trophy, beating New Zealand by four wickets in the Dubai final.",
+      "difficulty": 2,
+      "themes": [
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710036",
+      "topic": "cinema",
+      "question": "When 'Naatu Naatu' from RRR won the Oscar for Best Original Song in 2023, composer MM Keeravani shared the stage with the lyricist who penned those Telugu words. Name this lyricist.",
+      "answer": "Chandrabose",
+      "accept": [
+        "chandrabose",
+        "chandra bose",
+        "kandikonda chandrabose"
+      ],
+      "explanation": "Lyricist Chandrabose and composer MM Keeravani won the 2023 Academy Award for Best Original Song for 'Naatu Naatu'.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710037",
+      "topic": "cinema",
+      "question": "In 2024 an Indian filmmaker became the first from the country to win the Grand Prix at Cannes, for her Malayalam-Hindi feature 'All We Imagine as Light'. Name this director.",
+      "answer": "Payal Kapadia",
+      "accept": [
+        "payal kapadia",
+        "payal",
+        "kapadia"
+      ],
+      "explanation": "Payal Kapadia's 'All We Imagine as Light' won the Grand Prix at the 2024 Cannes Film Festival, a first for an Indian feature.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710038",
+      "topic": "cinema",
+      "question": "This actor-director wrote, directed and starred in the 2022 Kannada blockbuster 'Kantara', rooted in the coastal Karnataka spirit-worship ritual of Bhoota Kola, and won the National Film Award for Best Actor for it. Name him.",
+      "answer": "Rishab Shetty",
+      "accept": [
+        "rishab shetty",
+        "rishabh shetty",
+        "rishab",
+        "shetty"
+      ],
+      "explanation": "Rishab Shetty wrote, directed and starred in 'Kantara' (2022) and won the National Award for Best Actor.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710039",
+      "topic": "cinema",
+      "question": "India's official entry for the 2025 Oscars was 'Laapataa Ladies', a gentle satire on patriarchy about two brides swapped on a train. Its director, returning to features after 'Dhobi Ghat', also happens to be a well-known producer. Name her.",
+      "answer": "Kiran Rao",
+      "accept": [
+        "kiran rao",
+        "kiran",
+        "rao"
+      ],
+      "explanation": "Kiran Rao directed 'Laapataa Ladies', India's official submission to the 2025 Academy Awards.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710040",
+      "topic": "history",
+      "question": "When the new Parliament building was inaugurated in May 2023, a five-foot golden sceptre topped by a seated Nandi was installed near the Speaker's chair, its design drawn from Chola tradition as a symbol of righteous rule. Name this sceptre.",
+      "answer": "Sengol",
+      "accept": [
+        "sengol",
+        "the sengol",
+        "sengol sceptre"
+      ],
+      "explanation": "The Sengol, a Chola-style sceptre first gifted to Nehru in 1947, was installed in the new Parliament in May 2023.",
+      "difficulty": 2,
+      "themes": [
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710041",
+      "topic": "history",
+      "question": "This Mysuru sculptor, from a five-generation family of stone-carvers, sculpted the Ram Lalla idol consecrated at Ayodhya in January 2024, and had earlier carved the black granite Netaji statue behind India Gate. Name him.",
+      "answer": "Arun Yogiraj",
+      "accept": [
+        "arun yogiraj",
+        "arun yogi raj",
+        "yogiraj"
+      ],
+      "explanation": "Arun Yogiraj sculpted the Ram Lalla idol installed at the Ayodhya Ram Mandir in January 2024.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710042",
+      "topic": "history",
+      "question": "This freedom fighter's 58-day fast unto death in 1952, demanding a separate Telugu-speaking state, ended in his death and forced Nehru to announce the creation of Andhra State. Revered as 'Amarajeevi', name him.",
+      "answer": "Potti Sriramulu",
+      "accept": [
+        "potti sriramulu",
+        "potti sreeramulu",
+        "sriramulu",
+        "sreeramulu",
+        "amarajeevi"
+      ],
+      "explanation": "Potti Sriramulu died fasting in December 1952; his sacrifice led to the formation of Andhra State in 1953.",
+      "difficulty": 2,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710043",
+      "topic": "history",
+      "question": "During the Quit India Movement of 1942, this young Gandhian ran the underground 'Congress Radio' from secret locations in Bombay, broadcasting uncensored news until the British traced and arrested her. Name her.",
+      "answer": "Usha Mehta",
+      "accept": [
+        "usha mehta",
+        "usha",
+        "mehta"
+      ],
+      "explanation": "Usha Mehta operated the Secret Congress Radio during the 1942 Quit India Movement.",
+      "difficulty": 2,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710044",
+      "topic": "geography",
+      "question": "After Chandrayaan-3's Vikram lander touched down near the Moon's south pole in August 2023, the landing site was given a name evoking Shiva and Shakti, later formally approved by the International Astronomical Union. What is this landing site called?",
+      "answer": "Statio Shiv Shakti",
+      "accept": [
+        "statio shiv shakti",
+        "shiv shakti",
+        "shiv shakti point",
+        "shivshakti"
+      ],
+      "explanation": "The Chandrayaan-3 landing site was named Statio Shiv Shakti in 2023-24.",
+      "difficulty": 2,
+      "themes": [
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710045",
+      "topic": "geography",
+      "question": "In October 2023 India opened its first regional rapid-rail corridor, running semi-high-speed trains on the Sahibabad-Duhai stretch of the Delhi-Meerut line. By what brand name are these RapidX trains known?",
+      "answer": "Namo Bharat",
+      "accept": [
+        "namo bharat",
+        "namo bharat rapidx",
+        "rapidx"
+      ],
+      "explanation": "The Delhi-Meerut RRTS trains, branded Namo Bharat, began running in October 2023.",
+      "difficulty": 2,
+      "themes": [
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710046",
+      "topic": "geography",
+      "question": "Inaugurated in March 2024 at about 13,000 feet in Arunachal Pradesh's West Kameng district, this tunnel is billed as the world's longest bi-lane tunnel and gives all-weather road access to Tawang. Name it.",
+      "answer": "Sela Tunnel",
+      "accept": [
+        "sela tunnel",
+        "sela",
+        "sela pass tunnel"
+      ],
+      "explanation": "The Sela Tunnel, opened in March 2024, provides year-round access to Tawang in Arunachal Pradesh.",
+      "difficulty": 2,
+      "themes": [
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710047",
+      "topic": "geography",
+      "question": "Paved by the Border Roads Organisation in 2021 and connecting Chisumle and Demchok in Ladakh at over 19,000 feet, this pass held the title of the world's highest motorable road. Name it.",
+      "answer": "Umling La",
+      "accept": [
+        "umling la",
+        "umling la pass",
+        "umlingla"
+      ],
+      "explanation": "Umling La in Ladakh, paved in 2021 at 19,300 feet, was recognised as the world's highest motorable road.",
+      "difficulty": 2,
+      "themes": [
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710048",
+      "topic": "business",
+      "question": "In 2025 the parent company of the food-delivery app Zomato formally changed its corporate name to reflect its expansion beyond food into quick-commerce and more. What is this new name?",
+      "answer": "Eternal",
+      "accept": [
+        "eternal",
+        "eternal limited",
+        "eternal ltd"
+      ],
+      "explanation": "Zomato's parent company was renamed Eternal Limited, effective March 2025.",
+      "difficulty": 2,
+      "themes": [
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710049",
+      "topic": "business",
+      "question": "This entrepreneur co-founded Zomato and, as its CEO, drove the 2022 acquisition of the quick-commerce firm Blinkit. Name him.",
+      "answer": "Deepinder Goyal",
+      "accept": [
+        "deepinder goyal",
+        "deepinder",
+        "goyal"
+      ],
+      "explanation": "Deepinder Goyal, Zomato's co-founder and CEO, led the 2022 Blinkit acquisition.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710050",
+      "topic": "business",
+      "question": "In 2020 this businesswoman took over as chairperson of HCL Technologies from her father Shiv Nadar, becoming the first woman to lead a listed Indian IT company and later India's richest woman. Name her.",
+      "answer": "Roshni Nadar Malhotra",
+      "accept": [
+        "roshni nadar malhotra",
+        "roshni nadar",
+        "roshni",
+        "nadar malhotra"
+      ],
+      "explanation": "Roshni Nadar Malhotra became chairperson of HCL Technologies in 2020.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710051",
+      "topic": "business",
+      "question": "In September 2023 this Bengaluru-based discount-broking app, founded by ex-Flipkart employees, overtook Zerodha to become India's largest stockbroker by number of active clients. Name it.",
+      "answer": "Groww",
+      "accept": [
+        "groww",
+        "grow"
+      ],
+      "explanation": "Groww overtook Zerodha in September 2023 to become India's largest broker by active clients.",
+      "difficulty": 2,
+      "themes": [
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710052",
+      "topic": "polity",
+      "question": "In September 2023, in a special session of Parliament, both Houses passed a constitutional amendment reserving one-third of the seats in the Lok Sabha and the state assemblies for women. It was given a resonant Hindi title. By what name was this women's reservation law formally christened?",
+      "answer": "Nari Shakti Vandan Adhiniyam",
+      "accept": [
+        "nari shakti vandan adhiniyam",
+        "nari shakti vandan act",
+        "women's reservation bill",
+        "women's reservation act",
+        "128th amendment"
+      ],
+      "explanation": "The Constitution (106th Amendment) Act, 2023, titled Nari Shakti Vandan Adhiniyam, reserves a third of Lok Sabha and assembly seats for women; it takes effect after a delimitation exercise.",
+      "difficulty": 2,
+      "themes": [
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710053",
+      "topic": "polity",
+      "question": "In 2023 the government set up a high-level committee to examine the feasibility of holding Lok Sabha and state assembly elections together, an idea popularly called 'One Nation, One Election'. A former President of India chaired it and submitted its report in March 2024. Name him.",
+      "answer": "Ram Nath Kovind",
+      "accept": [
+        "ram nath kovind",
+        "kovind",
+        "ramnath kovind"
+      ],
+      "explanation": "Former President Ram Nath Kovind headed the High-Level Committee on Simultaneous Elections, which submitted an 18,000-page report in March 2024.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710054",
+      "topic": "polity",
+      "question": "In February 2025 this 1988-batch IAS officer became the first Chief Election Commissioner appointed under the new 2023 selection law, succeeding Rajiv Kumar and taking charge ahead of the Bihar assembly polls. Name him.",
+      "answer": "Gyanesh Kumar",
+      "accept": [
+        "gyanesh kumar",
+        "gyanesh"
+      ],
+      "explanation": "Gyanesh Kumar became the 26th Chief Election Commissioner of India on 19 February 2025, the first CEC chosen under the CEC and Other ECs Act, 2023.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710055",
+      "topic": "polity",
+      "question": "Delhi is a Union Territory, yet it has an elected Legislative Assembly and a Chief Minister, a hybrid arrangement unlike any other UT. This special status flows from a specific article inserted into the Constitution by the 69th Amendment in 1991. Which article?",
+      "answer": "Article 239AA",
+      "accept": [
+        "article 239aa",
+        "239aa",
+        "239 aa"
+      ],
+      "explanation": "Article 239AA, added by the 69th Amendment, renamed Delhi the National Capital Territory and gave it a Legislative Assembly with limited legislative powers.",
+      "difficulty": 2,
+      "themes": [],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710056",
+      "topic": "mythology",
+      "question": "Worshipped at the hill shrine of Sabarimala in Kerala, this deity is uniquely called Hariharaputra, for he was born of the union of Shiva and Vishnu in his enchantress form Mohini. Pilgrims trek to him after a 41-day vow of austerity. Name this god.",
+      "answer": "Ayyappan",
+      "accept": [
+        "ayyappan",
+        "ayyappa",
+        "lord ayyappa",
+        "manikanta",
+        "hariharaputra",
+        "hariharasuthan"
+      ],
+      "explanation": "Ayyappan, the deity of Sabarimala, is described as the son of Shiva and Mohini (Vishnu's female form), hence 'son of Hari and Hara'.",
+      "difficulty": 2,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710057",
+      "topic": "mythology",
+      "question": "In the Mahabharata, this grand elder could not be killed against his will; his father Shantanu had granted him the power to choose the very moment of his death. Struck down on a bed of arrows at Kurukshetra, he waited for an auspicious time to depart. What is the name of this boon, 'death at will'?",
+      "answer": "Iccha Mrityu",
+      "accept": [
+        "iccha mrityu",
+        "ichha mrityu",
+        "svecchamrityu",
+        "svechha mrityu",
+        "icchamrityu",
+        "death at will",
+        "boon of death at will"
+      ],
+      "explanation": "Bhishma's boon of Iccha Mrityu (svecchamrityu) let him choose the time of his own death; he lay on a bed of arrows awaiting Uttarayana.",
+      "difficulty": 2,
+      "themes": [],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710058",
+      "topic": "mythology",
+      "question": "During the Samudra Manthan, the churning of the ocean of milk, the gods and demons needed a rope to turn Mount Mandara. They pressed into service a great serpent coiled around the mountain, the devas pulling one end and the asuras the other. Name this serpent, who is also Shiva's snake.",
+      "answer": "Vasuki",
+      "accept": [
+        "vasuki"
+      ],
+      "explanation": "Vasuki, the king of serpents and an ornament of Shiva, served as the churning rope wound around Mount Mandara during the Samudra Manthan.",
+      "difficulty": 2,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710059",
+      "topic": "mythology",
+      "question": "In a famous Bhagavata Purana episode of surrender, an elephant king wading into a lake to pluck lotuses is seized by the leg by a crocodile. After a long struggle, he lifts a lotus and calls out to Vishnu, who arrives on Garuda and beheads the crocodile with his discus. Name the elephant.",
+      "answer": "Gajendra",
+      "accept": [
+        "gajendra",
+        "gajendra moksha",
+        "gajendran"
+      ],
+      "explanation": "The Gajendra Moksha episode: the elephant king Gajendra is liberated by Vishnu after being seized by a crocodile.",
+      "difficulty": 2,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710060",
+      "topic": "music",
+      "question": "At the 2024 Grammys, the Indo-jazz fusion supergroup Shakti, featuring Zakir Hussain, Shankar Mahadevan and John McLaughlin, won Best Global Music Album for their first studio release in nearly five decades. What was this comeback album titled?",
+      "answer": "This Moment",
+      "accept": [
+        "this moment"
+      ],
+      "explanation": "Shakti's 'This Moment', their first studio album in 46 years, won the Grammy for Best Global Music Album in 2024.",
+      "difficulty": 2,
+      "themes": [
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710061",
+      "topic": "music",
+      "question": "In 2024 this Punjabi singer-actor's 'Dil-Luminati' tour broke records as the largest-ever Punjabi concert outside India, drawing over 50,000 fans in Vancouver; he had earlier become the first turbaned Sikh artist to perform at Coachella. Name him.",
+      "answer": "Diljit Dosanjh",
+      "accept": [
+        "diljit dosanjh",
+        "diljit"
+      ],
+      "explanation": "Diljit Dosanjh's 2024 Dil-Luminati Tour set records as the biggest Punjabi concert tour, with a landmark Vancouver show drawing over 54,000 people.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710062",
+      "topic": "music",
+      "question": "The foremost sitar-playing disciple of Pandit Ravi Shankar, she is also his daughter, and the half-sister of singer Norah Jones. A multiple Grammy nominee, she has carried the family's sitar legacy onto the world stage. Name her.",
+      "answer": "Anoushka Shankar",
+      "accept": [
+        "anoushka shankar",
+        "anoushka"
+      ],
+      "explanation": "Anoushka Shankar, daughter and disciple of Ravi Shankar and half-sister of Norah Jones, is a leading sitarist and multiple Grammy nominee.",
+      "difficulty": 2,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710063",
+      "topic": "books",
+      "question": "The Jnanpith Award for 2023 was shared by the lyricist Gulzar and a remarkable Sanskrit scholar who has been blind since infancy, heads the Tulsi Peeth in Chitrakoot, and founded the world's first university exclusively for the disabled. Name this scholar.",
+      "answer": "Rambhadracharya",
+      "accept": [
+        "rambhadracharya",
+        "jagadguru rambhadracharya",
+        "swami rambhadracharya"
+      ],
+      "explanation": "Jagadguru Rambhadracharya, the blind Sanskrit scholar of Chitrakoot, shared the 2023 Jnanpith Award with Gulzar.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710064",
+      "topic": "books",
+      "question": "When Banu Mushtaq's 'Heart Lamp' won the International Booker Prize in 2025, the honour was shared with the woman who translated its Kannada stories into English, becoming the first Indian translator to win the prize. Name this translator.",
+      "answer": "Deepa Bhasthi",
+      "accept": [
+        "deepa bhasthi",
+        "deepa bhaskthi",
+        "deepa"
+      ],
+      "explanation": "Deepa Bhasthi translated Banu Mushtaq's 'Heart Lamp' from Kannada; the pair won the 2025 International Booker Prize, the first from Kannada.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710065",
+      "topic": "books",
+      "question": "'Vande Mataram', the national song of India, first appeared woven into the pages of an 1882 Bengali novel by Bankim Chandra Chatterjee, a tale of ascetic rebels set against the great famine. Name this novel.",
+      "answer": "Anandamath",
+      "accept": [
+        "anandamath",
+        "anandamatha",
+        "anand math"
+      ],
+      "explanation": "Bankim Chandra Chatterjee's 1882 novel Anandamath contains the song 'Vande Mataram'.",
+      "difficulty": 2,
+      "themes": [],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710066",
+      "topic": "books",
+      "question": "Munshi Premchand's last completed novel, published in 1936, follows the poor peasant Hori and his lifelong, doomed yearning to own a cow. Widely regarded as a masterpiece of Hindi fiction, its title means 'the gift of a cow'. Name this novel.",
+      "answer": "Godaan",
+      "accept": [
+        "godaan",
+        "godan",
+        "the gift of a cow"
+      ],
+      "explanation": "Godaan (1936), Premchand's last complete novel, portrays the peasant Hori's tragic struggle in rural, colonial India.",
+      "difficulty": 2,
+      "themes": [],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710067",
+      "topic": "general",
+      "question": "In June 2025, forty-one years after Rakesh Sharma, an Indian went to space again, this time to the International Space Station, on the Axiom-4 mission. This IAF Group Captain thus became the second Indian in space and the first aboard the ISS. Name him.",
+      "answer": "Shubhanshu Shukla",
+      "accept": [
+        "shubhanshu shukla",
+        "shukla",
+        "shux"
+      ],
+      "explanation": "Group Captain Shubhanshu Shukla flew on Axiom Mission 4 in 2025, becoming the second Indian in space after Rakesh Sharma and the first Indian on the ISS.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710068",
+      "topic": "general",
+      "question": "At the Paris 2024 Paralympics, this para-archer beat Poland's Lukasz Ciszek 6-0 in the recurve open final to win India's first-ever Paralympic gold medal in archery. Name him.",
+      "answer": "Harvinder Singh",
+      "accept": [
+        "harvinder singh",
+        "harvinder"
+      ],
+      "explanation": "Harvinder Singh won gold in men's individual recurve open at the Paris 2024 Paralympics, India's first Paralympic archery gold.",
+      "difficulty": 2,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710069",
+      "topic": "general",
+      "question": "The Maha Kumbh of 2025 in Prayagraj drew a staggering 660 million pilgrims to bathe at the sacred confluence of the Ganga, the Yamuna and the mythical Saraswati. By what name is this three-river confluence known?",
+      "answer": "Triveni Sangam",
+      "accept": [
+        "triveni sangam",
+        "triveni",
+        "sangam",
+        "prayag sangam"
+      ],
+      "explanation": "The 2025 Maha Kumbh Mela was held at the Triveni Sangam, the confluence of the Ganga, Yamuna and the mythical Saraswati at Prayagraj.",
+      "difficulty": 2,
+      "themes": [
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710070",
+      "topic": "cricket",
+      "question": "In a 1948-49 Ranji Trophy match for Maharashtra against Kathiawar, this batsman was left stranded on 443 not out when the opposition refused to continue — still the highest individual first-class score by an Indian, and by a man who never played a Test. Name him.",
+      "answer": "BB Nimbalkar",
+      "accept": [
+        "bb nimbalkar",
+        "nimbalkar",
+        "bhausaheb nimbalkar",
+        "b b nimbalkar"
+      ],
+      "explanation": "Bhausaheb Nimbalkar's unbeaten 443 in 1948-49 remains the highest first-class score by an Indian; Bradman reportedly wrote to praise it.",
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710071",
+      "topic": "cricket",
+      "question": "On his Test debut against the West Indies at Chennai in 1988, this teenaged leg-spinner took eight wickets in each innings — sixteen in the match, still a record for a debutant. Name him.",
+      "answer": "Narendra Hirwani",
+      "accept": [
+        "narendra hirwani",
+        "hirwani"
+      ],
+      "explanation": "Hirwani's 16 for 136 at Chepauk in January 1988 is still the best return by any bowler on Test debut.",
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710072",
+      "topic": "cinema",
+      "question": "V. Shantaram's 1957 film about a jailer reforming six convicts through farm labour won a Golden Globe (the Samuel Goldwyn Award) and a Silver Bear at Berlin. Name the film.",
+      "answer": "Do Aankhen Barah Haath",
+      "accept": [
+        "do aankhen barah haath",
+        "do ankhen barah haath",
+        "do aankhen barah hath",
+        "two eyes twelve hands"
+      ],
+      "explanation": "Do Aankhen Barah Haath (1957), directed by and starring V. Shantaram, won the Samuel Goldwyn Golden Globe and a Silver Bear at the 1958 Berlin festival.",
+      "difficulty": 3,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710073",
+      "topic": "history",
+      "question": "At the 1945-46 Red Fort trials, three INA officers — a Hindu, a Muslim and a Sikh — were court-martialled together. The Hindu colonel, who later married Captain Lakshmi of the Rani of Jhansi Regiment, was one of them. Name him.",
+      "answer": "Prem Sahgal",
+      "accept": [
+        "prem sahgal",
+        "prem sehgal",
+        "prem kumar sahgal",
+        "prem kumar sehgal",
+        "sahgal",
+        "sehgal"
+      ],
+      "explanation": "Colonel Prem Sahgal stood trial with Shah Nawaz Khan and Gurbaksh Singh Dhillon; he married Lakshmi Swaminadhan (Captain Lakshmi) in 1947.",
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710074",
+      "topic": "history",
+      "question": "When Madan Mohan Malaviya was arrested before the 1933 Calcutta session, the Congress elected in his place this Cambridge-born Englishwoman who had married a Bengali freedom fighter. Name her.",
+      "answer": "Nellie Sengupta",
+      "accept": [
+        "nellie sengupta",
+        "nellie sen gupta",
+        "sengupta",
+        "edith ellen gray"
+      ],
+      "explanation": "Nellie Sengupta (née Edith Ellen Gray), wife of Jatindra Mohan Sengupta, presided over the 1933 Calcutta Congress — the third woman and second European-born woman to do so.",
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710075",
+      "topic": "geography",
+      "question": "On the eastern bank of the Lohit in Arunachal Pradesh's Anjaw district, this tiny hamlet was identified in 1999 as the spot that receives the very first rays of the sun in India. Name it.",
+      "answer": "Dong",
+      "accept": [
+        "dong",
+        "dong village",
+        "dong valley"
+      ],
+      "explanation": "Dong, near the India-China-Myanmar tri-junction, sees India's earliest sunrise; tourists climb a nearby peak before dawn to watch it.",
+      "difficulty": 3,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710076",
+      "topic": "geography",
+      "question": "Perched at around 20,000 feet in the Karakoram, this glacier — which India secured in Operation Meghdoot in 1984 — is often called the world's highest battlefield. Name it.",
+      "answer": "Siachen Glacier",
+      "accept": [
+        "siachen",
+        "siachen glacier"
+      ],
+      "explanation": "India took control of the Siachen Glacier via Operation Meghdoot on 13 April 1984; it remains the highest militarised zone on earth.",
+      "difficulty": 3,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710077",
+      "topic": "business",
+      "question": "This Infosys co-founder left the company in 2009 to become the founding chairman of the UIDAI, the body that built India's Aadhaar biometric ID system. Name him.",
+      "answer": "Nandan Nilekani",
+      "accept": [
+        "nandan nilekani",
+        "nilekani",
+        "nandan"
+      ],
+      "explanation": "Nandan Nilekani chaired the Unique Identification Authority of India from 2009, overseeing Aadhaar, before returning to Infosys as chairman in 2017.",
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710078",
+      "topic": "business",
+      "question": "In 2007, Tata Steel paid over 12 billion dollars to acquire this Anglo-Dutch steelmaker, then the largest overseas takeover by an Indian company. Name the company.",
+      "answer": "Corus",
+      "accept": [
+        "corus",
+        "corus group"
+      ],
+      "explanation": "Tata Steel's 2007 acquisition of Corus (formerly British Steel and Hoogovens) was, at the time, the biggest foreign takeover by an Indian firm.",
+      "difficulty": 3,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710079",
+      "topic": "polity",
+      "question": "The States Reorganisation Commission of 1953, whose report led to states being redrawn on linguistic lines in 1956, was chaired by this Supreme Court judge. Name him.",
+      "answer": "Fazl Ali",
+      "accept": [
+        "fazl ali",
+        "saiyid fazl ali",
+        "s fazl ali",
+        "sir fazl ali",
+        "syed fazl ali"
+      ],
+      "explanation": "Justice Fazl Ali chaired the commission (with K.M. Panikkar and H.N. Kunzru) whose report produced the States Reorganisation Act, 1956.",
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710080",
+      "topic": "polity",
+      "question": "This article of the Constitution, one of the Directive Principles, directs the State to endeavour to secure a Uniform Civil Code for all citizens. Give the article number.",
+      "answer": "Article 44",
+      "accept": [
+        "article 44",
+        "44",
+        "art 44"
+      ],
+      "explanation": "Article 44 of the Directive Principles calls for a Uniform Civil Code; being a directive, it is not enforceable by courts.",
+      "difficulty": 3,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710081",
+      "topic": "mythology",
+      "question": "When the sage Vishvamitra tried to send this king bodily to heaven and Indra kicked him back down, Vishvamitra halted his fall midway — leaving him suspended forever between heaven and earth, an image now used for anyone stuck in limbo. Name the king.",
+      "answer": "Trishanku",
+      "accept": [
+        "trishanku",
+        "trisanku",
+        "satyavrata"
+      ],
+      "explanation": "Trishanku (born Satyavrata) hangs in his own heaven between the worlds; 'Trishanku's heaven' is a common Indian idiom for an in-between state.",
+      "difficulty": 3,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710082",
+      "topic": "mythology",
+      "question": "This Nishada archer taught himself before a clay image of Drona, who then demanded his right thumb as guru-dakshina to keep him from surpassing Arjuna. Name him.",
+      "answer": "Ekalavya",
+      "accept": [
+        "ekalavya",
+        "eklavya"
+      ],
+      "explanation": "Ekalavya, refused as a pupil for his tribal birth, mastered archery alone and gave up his thumb; he is now a symbol of Dalit and tribal aspiration.",
+      "difficulty": 3,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710083",
+      "topic": "music",
+      "question": "For decades, his \"Behno aur bhaiyo\" opened the weekly film-song countdown Binaca Geetmala on Radio Ceylon, making him India's most beloved radio voice. Name him.",
+      "answer": "Ameen Sayani",
+      "accept": [
+        "ameen sayani",
+        "amin sayani",
+        "sayani"
+      ],
+      "explanation": "Ameen Sayani hosted Binaca Geetmala from 1952; his greeting reversed the usual order to 'sisters and brothers'.",
+      "difficulty": 3,
+      "themes": [
+        "personalities"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710084",
+      "topic": "books",
+      "question": "Mulk Raj Anand's 1935 debut novel, with a foreword by E.M. Forster, follows a single day in the life of Bakha, a young latrine-cleaner. Name the novel.",
+      "answer": "Untouchable",
+      "accept": [
+        "untouchable"
+      ],
+      "explanation": "Untouchable (1935) was Anand's first novel; it makes the case against caste oppression through Bakha's day.",
+      "difficulty": 3,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710085",
+      "topic": "books",
+      "question": "Premchand's last completed novel, published in 1936, follows the poor peasant Hori, whose lifelong dream is simply to own a cow. Name the novel.",
+      "answer": "Godan",
+      "accept": [
+        "godan",
+        "godaan",
+        "the gift of a cow"
+      ],
+      "explanation": "Godaan (1936), literally 'the gift of a cow', is Premchand's final and most celebrated novel of rural debt and exploitation.",
+      "difficulty": 3,
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710086",
+      "topic": "general",
+      "question": "She captained the Indian women's hockey team to a historic fourth place at the Tokyo 2020 Olympics, the side's best-ever Games finish. Name her.",
+      "answer": "Rani Rampal",
+      "accept": [
+        "rani rampal",
+        "rani",
+        "rampal"
+      ],
+      "explanation": "Rani Rampal led India to fourth at Tokyo 2020, narrowly missing bronze; she retired in 2024 after 254 internationals.",
+      "difficulty": 3,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
+    },
+    {
+      "id": "q0710087",
+      "topic": "general",
+      "question": "At Paris 2024 this shooter partnered Manu Bhaker to bronze in the 10m air pistol mixed team event, helping her become the first Indian since independence to win two medals at one Games. Name him.",
+      "answer": "Sarabjot Singh",
+      "accept": [
+        "sarabjot singh",
+        "sarabjot"
+      ],
+      "explanation": "Sarabjot Singh and Manu Bhaker won mixed team 10m air pistol bronze at Paris 2024, Bhaker's second medal of those Games.",
+      "difficulty": 3,
+      "themes": [
+        "personalities",
+        "current_affairs"
+      ],
+      "created": "2026-07-10"
     }
   ]
 };
