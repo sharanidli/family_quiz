@@ -248,6 +248,25 @@ Feedback from the 2026-07-09 play: **questions were too hard**; the Connect roun
 
 **Note:** today's 87 new have no `bid_eligible` flags, so Bid rounds in "All new" fall through to serving today's regular questions (all clean self-contained "name this" — fine for Bid). Backups: `*.bak_before_2026-07-10`.
 
+### St. Louis Mode (2026-10-05)
+
+For tonight's in-person game with two of Sharan's cousins (both ~50, both doctors, grew up in 1980s/90s Bangalore, in the US since 2003, St. Louis since). Sharan is playing too, so questions are not shown to him; independent fact-checker agents are the quality gate.
+
+**Mode mechanics** (`app.js`, `index.html`): a Settings checkbox `#stl-mode` (`state.stlMode`), modelled on Iranian Mode and mutually exclusive with it.
+- Every round draws only from questions tagged `stl_mode` (`isStlQuestion`, `modeFilterFn()`); the Question-set selector is ignored; Connect pool is restricted to STL connects; Long Tail is skipped.
+- Theme dropdown swaps to `STL_THEME_OPTIONS`: Chitrahaar (films + Doordarshan) `stl_chitrahaar`, Friends and MTV `stl_pop`, Bangalore Days `stl_bangalore`, Doctor Doctor `stl_doctor`, Sport `stl_sport`, Stateside `stl_america` (label avoids "St." because some TTS voices read it as "Street").
+- Ticking it loads `STL_LINEUP` (Long 2/player, Chitrahaar theme 6, Connect 4, Friends and MTV theme 6, Bid 2/player); unticking restores the previous lineup.
+- **Headless Chromium click-through** (Playwright + cached chromium-1208; needed a locally extracted `libasound.so.2` via `LD_LIBRARY_PATH`): toggle, lineup swap, theme options and Iranian/STL mutual exclusion all work; two full games played back to back by clicking Right/Wrong/Pass — each served all 5 rounds (28 questions + 4 connects), 0 non-STL questions, 0 callbacks, 0 theme mismatches, **0 repeats in game 2** (per-player history works), 0 dialogs, 0 page errors.
+
+**Content plan (~170 drafted):** Bangalore & Karnataka 1980–2003 (28), Hindi films & songs 1975–2003 (28), Doordarshan & 80s/90s childhood (16), sport (16), English pop culture 1990–2010 (28), Doctor Doctor (17), St. Louis (11, deliberately light), American life since 2003 (17), Connect sets (16). Target difficulty ~45% easy / 40% medium / 15% hard (July feedback: too hard). Writers follow `new_batch_2026-10-05/BRIEF.md`; checkers follow `CHECK_BRIEF.md` and write `reviewed_<lane>.json` + `review_<lane>.md`. `merge_2026-10-05.py` validates, drops within-batch answer dupes and listed spoilers, scans for cross-question spoilers, assigns `q1005NNN`, backs up (`*.bak_before_2026-10-05`) and appends.
+
+**Result: bank 2,219 → 2,375 (+156 = 141 regular + 15 connects, IDs `q1005001`–`q1005156`).**
+- 171 drafted → 7 fact-checkers (one per draft file) kept 170, patched ~72, dropped 1 (St. Louis dup of a connect). Checker web-search quota ran out near the end for 2 checkers; they finished on Wikipedia page fetches.
+- Merge dropped 19 more: 8 same-answer duplicates across lanes (connect kept), 11 cross-question spoilers (one question's answer named in another's text; dropped the spoiled one; one connect dropped because three films questions named its answer). Spoiler scan after drops: 0.
+- Final: difficulty 67 easy / 58 medium / 16 hard (48/41/11%); 30 bid-eligible. Theme pools: Chitrahaar 38, Stateside 25, Bangalore 23, Friends and MTV 23, Sport 18, Doctor 17.
+- **Bank fix:** `c003` dated Kumble's 10/74 to 10 February 1999; corrected to 7 February 1999 (flagged by the sport checker).
+- Sharan did not see any question text (he is playing).
+
 ## Multiplayer "next level" idea (not yet built)
 
 Everyone opens the page on their phone; only the active player can buzz / mark the answer; everyone sees the same question and live scores. Requires real-time state sync — static HTML alone can't do this. Cleanest path: **Firebase Realtime Database** (free tier; SDK runs in the browser; ~1-2 hours to wire). Adds: a room-code join flow, a per-device player identity, conditional UI (active player sees buttons, others see "waiting"). Decision deferred — revisit if the family-quiz format becomes a tradition.

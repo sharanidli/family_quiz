@@ -38,9 +38,35 @@ function isIranianPlayer(player) {
   return IRANIAN_PLAYERS.includes((player.name || '').trim().toLowerCase());
 }
 
+// St. Louis Mode (2026-10-05): a set pitched at 80s/90s Bangalore childhoods and US life
+// since 2003. Every question comes from the batch tagged `stl_mode`.
+const STL_MODE_TAG = 'stl_mode';
+const STL_THEME_OPTIONS = [
+  { id: 'stl_chitrahaar', label: 'Chitrahaar: films and Doordarshan' },
+  { id: 'stl_pop',        label: 'Friends and MTV' },
+  { id: 'stl_bangalore',  label: 'Bangalore Days' },
+  { id: 'stl_doctor',     label: 'Doctor, Doctor' },
+  { id: 'stl_sport',      label: 'Sport' },
+  { id: 'stl_america',    label: 'Stateside' },   // "St." trips up some TTS voices
+];
+// Lineup loaded when St. Louis Mode is switched on (still editable on the setup screen).
+const STL_LINEUP = [
+  { type: 'long',    count: 2 },
+  { type: 'theme',   count: 6, theme: 'stl_chitrahaar' },
+  { type: 'connect', count: 4 },
+  { type: 'theme',   count: 6, theme: 'stl_pop' },
+  { type: 'bid',     count: 2 },
+];
+
+function isStlQuestion(q) {
+  return Array.isArray(q.themes) && q.themes.includes(STL_MODE_TAG);
+}
+
 function currentThemeOptions() {
+  if (state.stlMode) return STL_THEME_OPTIONS;
   return state.iranianMode ? IRANIAN_THEME_OPTIONS : THEME_OPTIONS;
 }
+
 
 const TIMER_SECONDS = 120;
 
@@ -84,6 +110,8 @@ const state = {
   timerEnabled: false,
   avoidRepeats: true,
   iranianMode: false,
+  stlMode: false,
+  roundsBeforeStl: null,      // lineup to restore when St. Louis Mode is switched off
   voiceRate: 1.15,
   listening: false,
   recognition: null,
@@ -230,7 +258,10 @@ function buildPool() {
   // connect round can use older / yesterday's questions even when "All new" is selected.
   state.questions.forEach(q => {
     if (q.callback) return;                 // callbacks feed the end-game Long Tail only
-    if (q.connect) { state.pool.connect.push(q); return; }  // connects feed Connect rounds only
+    if (q.connect) {                        // connects feed Connect rounds only
+      if (!state.stlMode || isStlQuestion(q)) state.pool.connect.push(q);
+      return;
+    }
     const t = q.topic;
     if (!state.pool.byTopic[t]) state.pool.byTopic[t] = [];
     state.pool.byTopic[t].push(q);
@@ -277,6 +308,12 @@ function iranianModeFilter() {
     ? IRANIAN_MODE_THEMES
     : IRANIAN_MODE_NON_IRANIAN_THEMES;
   return (q) => Array.isArray(q.themes) && q.themes.some(t => allowed.includes(t));
+}
+
+// The active mode's eligibility filter (St. Louis or Iranian), or null in normal play.
+function modeFilterFn() {
+  if (state.stlMode) return isStlQuestion;
+  return iranianModeFilter();
 }
 
 // ----- Question freshness / source selector -----
@@ -327,6 +364,11 @@ function buildActiveQuestions() {
   const all = state.questions;
   const callbacks = all.filter(q => q.callback);
   const connects = all.filter(q => q.connect);
+  // St. Louis Mode ignores the selector: its own batch is the whole pool.
+  if (state.stlMode) {
+    state.activeQuestions = all.filter(isStlQuestion);
+    return;
+  }
   if (state.questionSource === 'full' || state.iranianMode) {
     state.activeQuestions = all.slice();
     return;
@@ -348,7 +390,7 @@ function buildActiveQuestions() {
 function nextQuestion(opts = {}) {
   const { topic, bidEligible } = opts;
   const pool = topic ? poolForTheme(topic) : state.pool.all;
-  const modeFilter = iranianModeFilter();
+  const modeFilter = modeFilterFn();
 
   // Pass 1: unused this game AND unseen by this party
   if (state.avoidRepeats) {
@@ -891,7 +933,7 @@ async function startRound() {
     intro = `Long Question round. ${r.count} question${r.count > 1 ? 's' : ''} per player. Get it right and the next question moves to the next person.` + pounceNote;
     spokenIntro = 'Long Question round.' + (r.pounce ? ' Pounce and bounce is on.' : '');
   } else if (r.type === 'theme') {
-    const t = [...THEME_OPTIONS, ...IRANIAN_THEME_OPTIONS].find(t => t.id === r.theme);
+    const t = [...THEME_OPTIONS, ...IRANIAN_THEME_OPTIONS, ...STL_THEME_OPTIONS].find(t => t.id === r.theme);
     intro = `Theme round: ${t ? t.label : r.theme}. ${r.count} questions, control follows the correct answer.` + pounceNote;
     spokenIntro = `Theme round. ${t ? t.label : r.theme}.` + (r.pounce ? ' Pounce and bounce is on.' : '');
   } else if (r.type === 'connect') {
@@ -984,7 +1026,7 @@ function renderHeader() {
   if (r) {
     let label = `Round ${state.currentRoundIdx + 1} of ${state.rounds.length} • ${roundLabel(r)}`;
     if (r.type === 'theme') {
-      const t = [...THEME_OPTIONS, ...IRANIAN_THEME_OPTIONS].find(t => t.id === r.theme);
+      const t = [...THEME_OPTIONS, ...IRANIAN_THEME_OPTIONS, ...STL_THEME_OPTIONS].find(t => t.id === r.theme);
       label += ` • ${t ? t.label : r.theme}`;
     }
     ri.textContent = label;
@@ -1405,8 +1447,8 @@ async function connectReveal(playerIdx, pts) {
 
 // ----- Long Tail (end-of-game callback round) -----
 async function startLongTailOrEnd() {
-  // Iranian Mode skips Long Tail — callbacks are India-anchored connections.
-  if (state.iranianMode) return endGame();
+  // Iranian and St. Louis Modes skip Long Tail — callbacks are India-anchored connections.
+  if (state.iranianMode || state.stlMode) return endGame();
   const callbacks = state.questions.filter(q => q.callback && !state.used.has(q.id));
   if (!callbacks.length) return endGame();
 
@@ -1698,6 +1740,35 @@ function renderSourceOptions() {
   }
 }
 
+// St. Louis Mode on/off. Switching on loads STL_LINEUP (remembering the current lineup);
+// switching off restores it. Mutually exclusive with Iranian Mode.
+function setStlMode(on) {
+  if (on === state.stlMode) return;
+  state.stlMode = on;
+  $('#stl-mode').checked = on;
+  if (on) {
+    if (state.iranianMode) {
+      state.iranianMode = false;
+      $('#iranian-mode').checked = false;
+      const ih = $('#iranian-mode-hint');
+      if (ih) ih.style.display = 'none';
+    }
+    state.roundsBeforeStl = state.rounds;
+    state.rounds = STL_LINEUP.map(r => ({ ...r }));
+  } else if (state.roundsBeforeStl) {
+    state.rounds = state.roundsBeforeStl;
+    state.roundsBeforeStl = null;
+  }
+  renderRounds();
+  const hint = $('#stl-mode-hint');
+  if (hint) {
+    const n = state.questions.filter(q => isStlQuestion(q) && !q.connect).length;
+    const c = state.questions.filter(q => isStlQuestion(q) && q.connect).length;
+    hint.textContent = `Plays only the St. Louis batch (${n} questions + ${c} connects); the Question set choice above is ignored and Long Tail is skipped. Theme rounds: Chitrahaar, Friends and MTV, Bangalore Days, Doctor Doctor, Sport, Stateside.`;
+    hint.style.display = on ? 'block' : 'none';
+  }
+}
+
 function init() {
   // One-time migration from old whole-party history keys to per-player keys
   try { migrateLegacyHistoryKeys(); } catch (e) { console.warn('history migration failed:', e); }
@@ -1746,6 +1817,7 @@ function init() {
     if (e.target.checked) state.questionSource = e.target.value;
   }));
   $('#iranian-mode').addEventListener('change', e => {
+    if (e.target.checked && state.stlMode) setStlMode(false);
     state.iranianMode = e.target.checked;
     // Re-render rounds so the theme dropdown swaps to the right option set,
     // and snap any India-only theme back to a valid one.
@@ -1753,6 +1825,7 @@ function init() {
     const hint = $('#iranian-mode-hint');
     if (hint) hint.style.display = state.iranianMode ? 'block' : 'none';
   });
+  $('#stl-mode').addEventListener('change', e => setStlMode(e.target.checked));
 
   $('#voice-select').addEventListener('change', e => {
     const v = getAllVoices().find(x => x.voiceURI === e.target.value);

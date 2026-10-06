@@ -37,7 +37,7 @@
   {
    "id": "c003",
    "topic": "cricket",
-   "question": "On 10 February 1999 at the Feroz Shah Kotla in Delhi, this Karnataka leg-spinner became only the second bowler in Test history — after Jim Laker — to take all ten wickets in a single innings, dismissing the Pakistanis. Name him.",
+   "question": "On 7 February 1999 at the Feroz Shah Kotla in Delhi, this Karnataka leg-spinner became only the second bowler in Test history — after Jim Laker — to take all ten wickets in a single innings, dismissing the Pakistanis. Name him.",
    "answer": "Anil Kumble",
    "accept": [
     "anil kumble",
@@ -33537,6 +33537,3062 @@
     "current_affairs"
    ],
    "created": "2026-07-10"
+  },
+  {
+   "id": "q1005001",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "When price controls during the 1975 Emergency made its restaurant meals unviable, this Bangalore eatery began selling chutneys and instant mixes, a side business that grew into a national packaged-food brand.",
+    "It began in 1924 as the Brahmin Coffee Club, run by the Maiya brothers, and took its present name when it moved to a new building in 1960.",
+    "Its three letters are on packets of ready-to-eat meals and instant mixes in Indian grocery stores across America, while its Lalbagh Road original still serves coffee in silver cups."
+   ],
+   "answer": "MTR",
+   "accept": [
+    "mtr",
+    "mavalli tiffin rooms",
+    "mavalli tiffin room",
+    "mtr foods",
+    "mavalli tiffin rooms mtr"
+   ],
+   "explanation": "Mavalli Tiffin Rooms on Lalbagh Road, started in 1924 as the Brahmin Coffee Club, turned the Emergency-era price controls of 1975 into the MTR Foods brand.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005002",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "For decades this was Indian cinema's favourite place to shoot a song, its lit fountains appearing behind dancing stars in Hindi, Kannada and Tamil films from the 1960s onwards.",
+    "Laid out between 1927 and 1932 by Sir Mirza Ismail, the Dewan of Mysore, it is famous for its evening musical fountain.",
+    "It sits just below the Krishnaraja Sagar dam on the Kaveri near Mysore, and the Chennai to Bangalore express train is named after it."
+   ],
+   "answer": "Brindavan Gardens",
+   "accept": [
+    "brindavan gardens",
+    "brindavan garden",
+    "brindavan",
+    "vrindavan gardens",
+    "krs gardens",
+    "krs brindavan gardens"
+   ],
+   "explanation": "The terraced gardens below the KRS dam near Mysore, a classic film-song location and the namesake of the Brindavan Express.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005003",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "When the First World War cut off shipments to Europe, a South Indian kingdom was left with huge stocks of a fragrant wood it could not sell.",
+    "In 1916 its Maharaja and his Dewan, Sir M. Visvesvaraya, set up a government factory in Bangalore to put that wood's oil into an everyday bathroom product.",
+    "Its logo is the Sharabha, a mythical lion with an elephant's head, and the bar named after the royal city still smells of chandan."
+   ],
+   "answer": "Mysore Sandal Soap",
+   "accept": [
+    "mysore sandal soap",
+    "mysore sandal",
+    "mysore sandalwood soap",
+    "mysore sandal soaps"
+   ],
+   "explanation": "With sandalwood exports blocked by the First World War, the Mysore kingdom founded a Bangalore soap factory in 1916 that still makes Mysore Sandal Soap.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005004",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Rajshri Productions remade its own 1982 village romance Nadiya Ke Paar as this 1994 wedding saga, packed with 14 songs.",
+    "It became the first film to gross over 100 crore rupees in India, and a little white dog saves the day by carrying a letter to the wrong brother.",
+    "Directed by Sooraj Barjatya, it stars Salman Khan as Prem and Madhuri Dixit as Nisha, and its best-loved song is Didi Tera Devar Deewana."
+   ],
+   "answer": "Hum Aapke Hain Koun",
+   "accept": [
+    "hum aapke hain koun",
+    "hum aapke hain kaun",
+    "hum aap ke hain kaun",
+    "hum aapke hain koun..!",
+    "hahk",
+    "hum aap ke hain koun"
+   ],
+   "explanation": "Sooraj Barjatya's 1994 remake of Nadiya Ke Paar, with Salman Khan and Madhuri Dixit, was the first film to gross 100 crore rupees in India.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode"
+   ]
+  },
+  {
+   "id": "q1005005",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "His very first film, Mrinal Sen's Mrigayaa in 1976, won him the National Award for Best Actor for playing a tribal hunter.",
+    "A 1982 film with music by Bappi Lahiri then made him a superstar as far away as the Soviet Union and China.",
+    "He is Jimmy in Disco Dancer, the star of I Am a Disco Dancer and Jimmy Jimmy Jimmy Aaja."
+   ],
+   "answer": "Mithun Chakraborty",
+   "accept": [
+    "mithun chakraborty",
+    "mithun",
+    "mithun da",
+    "mithunda",
+    "chakraborty",
+    "mithun chakravarty",
+    "mithun chakrabarti"
+   ],
+   "explanation": "Mithun won a National Award for his debut in Mrigayaa and became a Soviet and Chinese idol through Disco Dancer in 1982.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005006",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "On Independence Day 1988, straight after the Prime Minister's speech from the Red Fort, Doordarshan aired a song for national unity with lyrics by a young adman named Piyush Pandey.",
+    "It moves across more than a dozen Indian languages and features Amitabh Bachchan, Kamal Haasan, Lata Mangeshkar and a string of sports stars.",
+    "It opens with Pandit Bhimsen Joshi singing the title line, which means when your tune and mine come together."
+   ],
+   "answer": "Mile Sur Mera Tumhara",
+   "accept": [
+    "mile sur mera tumhara",
+    "mile sur",
+    "mile sur mera tumhara to sur bane hamara"
+   ],
+   "explanation": "The 1988 Doordarshan unity song written by Piyush Pandey, opening with Bhimsen Joshi and moving through more than a dozen languages.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode"
+   ]
+  },
+  {
+   "id": "q1005007",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "A 1980s Indian television maker built its whole advertising on one of the seven deadly sins: the jealousy your neighbours would feel when they saw your new set.",
+    "Its mascot was a grinning man dressed all in green, the colour of envy, with horns, long nails and a pointed tail.",
+    "Its tagline was Neighbour's envy, owner's pride."
+   ],
+   "answer": "Onida",
+   "accept": [
+    "onida",
+    "onida tv",
+    "onida television"
+   ],
+   "explanation": "Onida's green-clad devil and the line Neighbour's envy, owner's pride sold envy itself as the reason to buy a TV.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode"
+   ]
+  },
+  {
+   "id": "q1005008",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "In the mid-1990s Codemasters named a hugely popular cricket video game after this left-hander from Trinidad.",
+    "In 1994 he made 375 against England in Antigua and, just weeks later, 501 not out for Warwickshire, still the highest score in first-class cricket.",
+    "Known as the Prince of Port of Spain, he reclaimed the Test record in 2004 with 400 not out on the same Antigua ground."
+   ],
+   "answer": "Brian Lara",
+   "accept": [
+    "brian lara",
+    "lara",
+    "brian charles lara"
+   ],
+   "explanation": "Brian Lara, the West Indian left-hander behind the Brian Lara Cricket game, holds the records of 501 not out and 400 not out.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005009",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Born in Bangalore in 1969, this tall medium-pacer was one of the first bowlers to make the slow leg-cutter his main weapon.",
+    "At his home ground in the 1996 World Cup quarter-final, a Pakistan opener drove him through the covers for four and pointed his bat towards the boundary.",
+    "Off the very next ball he bowled Aamer Sohail, and the Chinnaswamy Stadium erupted as India went on to win."
+   ],
+   "answer": "Venkatesh Prasad",
+   "accept": [
+    "venkatesh prasad",
+    "prasad",
+    "venky",
+    "venkatesh",
+    "bk venkatesh prasad"
+   ],
+   "explanation": "Bangalore's Venkatesh Prasad answered Aamer Sohail's taunt by bowling him next ball in the 1996 World Cup quarter-final.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "personalities",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005010",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Its star came up with this character while studying for a master's degree in electrical engineering at Oxford.",
+    "First shown on British television on New Year's Day 1990, the character barely speaks, which helped the show travel to almost every country.",
+    "He drives a lime-green Mini, sleeps with a knitted bear called Teddy, and shares his name with a vegetable."
+   ],
+   "answer": "Mr. Bean",
+   "accept": [
+    "mr bean",
+    "mr. bean",
+    "mister bean",
+    "bean"
+   ],
+   "explanation": "The nearly silent Mr. Bean was developed by its star while at Oxford, and the show premiered on British television on 1 January 1990.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode"
+   ]
+  },
+  {
+   "id": "q1005011",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Launched on British television in September 1998 with Chris Tarrant as host, this quiz of fifteen questions of rising value was soon sold around the world.",
+    "Its American version arrived in 1999 and made Is that your final answer a national catchphrase, while stuck contestants could ask the audience or phone a friend.",
+    "Its Indian version in 2000 brought Amitabh Bachchan to television, and in a 2008 Oscar-winning film a boy from a Mumbai slum keeps getting its questions right."
+   ],
+   "answer": "Who Wants to Be a Millionaire?",
+   "accept": [
+    "who wants to be a millionaire",
+    "who wants to be a millionaire?",
+    "millionaire",
+    "wwtbam"
+   ],
+   "explanation": "The 1998 British quiz format behind the 1999 American craze, Kaun Banega Crorepati and Slumdog Millionaire.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode"
+   ]
+  },
+  {
+   "id": "q1005012",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "In 1816 a Paris doctor, too embarrassed to press his ear to a young woman's chest, rolled a sheet of paper into a tube and listened through it instead.",
+    "René Laennec turned the trick into a wooden cylinder and named it from Greek words meaning chest and to look.",
+    "An Irish and an American doctor later gave it two earpieces, and today it hangs around nearly every doctor's neck."
+   ],
+   "answer": "Stethoscope",
+   "accept": [
+    "stethoscope",
+    "steth",
+    "the stethoscope"
+   ],
+   "explanation": "René Laennec invented the stethoscope in 1816 at the Necker Hospital in Paris, starting with a rolled-up paper tube.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode"
+   ]
+  },
+  {
+   "id": "q1005013",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Born in Almora in the Himalayan foothills in 1857, he joined the Indian Medical Service, though he wrote poems and novels all his life.",
+    "On 20 August 1897 in Secunderabad, he found a parasite in the gut of a mosquito, a date now marked as World Mosquito Day.",
+    "For showing how mosquitoes spread malaria, this British doctor won the Nobel Prize in Medicine in 1902."
+   ],
+   "answer": "Ronald Ross",
+   "accept": [
+    "ronald ross",
+    "ross",
+    "sir ronald ross"
+   ],
+   "explanation": "Almora-born Ronald Ross found the malaria parasite in a mosquito in Secunderabad in 1897 and won the 1902 Nobel Prize.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "personalities",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005014",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Three friends who met as students in San Francisco opened their first store in Seattle in 1971, selling coffee beans and equipment rather than drinks.",
+    "They named it after the first mate in Moby-Dick, and its logo is a two-tailed siren.",
+    "After visiting Milan's espresso bars, Howard Schultz turned it into a global chain with cup sizes called tall, grande and venti."
+   ],
+   "answer": "Starbucks",
+   "accept": [
+    "starbucks",
+    "starbucks coffee",
+    "starbuck"
+   ],
+   "explanation": "Starbucks began as a Pike Place bean shop in 1971, named after Moby-Dick's first mate, before Howard Schultz remade it on the Milan espresso-bar model.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode"
+   ]
+  },
+  {
+   "id": "q1005015",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "His song is the only rock and roll track on the Golden Record carried into space by the Voyager probes in 1977.",
+    "Born in Saint Louis in 1926, he played one Wednesday a month for nearly twenty years at Blueberry Hill in the Delmar Loop.",
+    "In Back to the Future, Marty McFly plays his Johnny B. Goode at a 1955 school dance, and the bandleader phones his cousin to say he has found that new sound."
+   ],
+   "answer": "Chuck Berry",
+   "accept": [
+    "chuck berry",
+    "berry",
+    "charles berry",
+    "charles edward anderson berry"
+   ],
+   "explanation": "Saint Louis's own Chuck Berry played Blueberry Hill monthly from 1996 to 2014, and his Johnny B. Goode flew on Voyager and starred in Back to the Future.",
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005016",
+   "topic": "polity",
+   "question": "Completed in 1956, this granite giant facing the High Court in Bangalore houses the state legislature. Above its entrance runs a famous line: Government's work is God's work. Name the building.",
+   "answer": "Vidhana Soudha",
+   "accept": [
+    "vidhana soudha",
+    "vidhan soudha",
+    "vidhana sowdha",
+    "vidhana soudha bangalore"
+   ],
+   "explanation": "Vidhana Soudha, conceived by Chief Minister Kengal Hanumanthaiah and finished in 1956, carries the inscription Government's work is God's work in English and Kannada.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005017",
+   "topic": "geography",
+   "question": "Its official name honours a Mysore Maharaja, Sri Chamarajendra, but nobody in Bangalore uses it. Everyone calls this green lung, home to the State Central Library and the Bal Bhavan toy train, after a long-serving British commissioner named Sir Mark. Name the park.",
+   "answer": "Cubbon Park",
+   "accept": [
+    "cubbon park",
+    "cubbon",
+    "sri chamarajendra park",
+    "chamarajendra park"
+   ],
+   "explanation": "Laid out in 1870 and named after Sir Mark Cubbon, Cubbon Park is officially Sri Chamarajendra Park.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005018",
+   "topic": "general",
+   "question": "Long before it became India's Silicon Valley or its pub capital, Bangalore's mild weather and quiet bungalow lanes drew retired army officers and civil servants. That earned the city an alliterative two-word nickname. What was it?",
+   "answer": "Pensioners' Paradise",
+   "accept": [
+    "pensioners' paradise",
+    "pensioners paradise",
+    "pensioner's paradise",
+    "pensioner paradise"
+   ],
+   "explanation": "Its year-round pleasant climate made old Bangalore the Pensioners' Paradise, a favourite retirement town for officers and civil servants.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005019",
+   "topic": "general",
+   "question": "Ask any old Bangalorean for the city's unofficial motto and you will hear a three-word phrase, half Kannada and half English, used on crowded buses, in queues and in shared autos. It politely asks everyone to make a little room. What is it?",
+   "answer": "Swalpa adjust maadi",
+   "accept": [
+    "swalpa adjust maadi",
+    "swalpa adjust madi",
+    "swalpa adjust",
+    "adjust maadi",
+    "swalpa adjust maadi saar",
+    "swalpa adjust maadi sir"
+   ],
+   "explanation": "Swalpa adjust maadi means please adjust a little, Bangalore's famous Kanglish plea for give and take.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005020",
+   "topic": "general",
+   "question": "Legend credits a palace cook named Kakasura Madappa, asked by Maharaja Krishnaraja Wadiyar the Fourth to make something new. He cooked gram flour, sugar and a great deal of ghee, and named the result after the city. Which sweet?",
+   "answer": "Mysore pak",
+   "accept": [
+    "mysore pak",
+    "mysore paak",
+    "mysorepak",
+    "mysuru pak"
+   ],
+   "explanation": "Mysore pak is credited to Kakasura Madappa of the Mysore Palace kitchens, made from gram flour, sugar and ghee.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005021",
+   "topic": "business",
+   "question": "In 1961, a public-sector engineering company teamed up with Japan's Citizen to start making wristwatches in Bangalore. Its Janata model was a favourite of Nehru, and its slogan was Timekeepers to the Nation. Which company, known by three letters?",
+   "answer": "HMT",
+   "accept": [
+    "hmt",
+    "hindustan machine tools",
+    "hmt watches"
+   ],
+   "explanation": "Hindustan Machine Tools began making watches in Bangalore in 1961 with Citizen of Japan; the Janata was one of its first models.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005022",
+   "topic": "business",
+   "question": "Until May 2008, anyone flying into Bangalore landed at an airfield in the east of the city owned by a public-sector aircraft maker. Name the company.",
+   "answer": "Hindustan Aeronautics Limited",
+   "accept": [
+    "hindustan aeronautics limited",
+    "hindustan aeronautics",
+    "hal",
+    "hal airport"
+   ],
+   "explanation": "Bangalore's passenger flights used the HAL airport until 24 May 2008, when the new airport at Devanahalli opened.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005023",
+   "topic": "history",
+   "question": "Every first of November, Bangalore turns red and yellow with flags as Karnataka celebrates the day in 1956 when the Kannada-speaking regions were united into one state. What is this state holiday called?",
+   "answer": "Kannada Rajyotsava",
+   "accept": [
+    "kannada rajyotsava",
+    "karnataka rajyotsava",
+    "rajyotsava",
+    "kannada rajyothsava"
+   ],
+   "explanation": "Karnataka Rajyotsava on 1 November marks the 1956 unification; the state, first called Mysore, was renamed Karnataka on 1 November 1973.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005024",
+   "topic": "general",
+   "question": "Opened in Gandhi Bazaar, Basavanagudi, in 1943 to feed students from out of town, this tiffin room is famous for its crisp masala dosa and for waiters who carry a dozen plates stacked along one arm. Its name means the students' home. Name it.",
+   "answer": "Vidyarthi Bhavan",
+   "accept": [
+    "vidyarthi bhavan",
+    "vidyarthi bhavana",
+    "vidhyarthi bhavan",
+    "vidyarthi bhawan"
+   ],
+   "explanation": "Vidyarthi Bhavan was founded in 1943 to serve students in Basavanagudi and is famed for its masala dosa.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005025",
+   "topic": "general",
+   "question": "In 1983, a Jayanagar restaurateur back from a trip abroad copied the speed of Western fast-food chains for idli, vada and coffee: pay at the counter, collect your plate, eat standing up. Bangalore's cheap, quick standing restaurants are still named after his first outlet. What are they called?",
+   "answer": "Darshini",
+   "accept": [
+    "darshini",
+    "darshinis",
+    "upahara darshini",
+    "cafe darshini",
+    "darshini hotel"
+   ],
+   "explanation": "R. Prabhakar's Darshini in Jayanagar, opened in 1983, launched Bangalore's self-service, pay-first darshini format.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005026",
+   "topic": "geography",
+   "question": "In the days of the British cantonment, Bangalore's grandest boulevard, running from Trinity Circle past the mouth of Brigade Road, was called South Parade. In February 1948 it was renamed after the most famous Indian of them all. What do we call it today?",
+   "answer": "MG Road",
+   "accept": [
+    "mg road",
+    "mahatma gandhi road",
+    "m g road",
+    "m.g. road"
+   ],
+   "explanation": "South Parade was renamed Mahatma Gandhi Road on 26 February 1948.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005027",
+   "topic": "cinema",
+   "question": "His 1980 hit Auto Raja made him the patron saint of Bangalore's auto-rickshaw drivers, and thousands of autos still carry his photograph. He also directed Doordarshan's Malgudi Days and sketched an early plan for a Bangalore metro. Name this Kannada actor and director.",
+   "answer": "Shankar Nag",
+   "accept": [
+    "shankar nag",
+    "shankarnag",
+    "nag",
+    "shankar"
+   ],
+   "explanation": "Shankar Nag, younger brother of Anant Nag, starred in Auto Raja in 1980 and directed the Malgudi Days television series.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005028",
+   "topic": "cinema",
+   "question": "Born in Mandya district, he made his debut as a villain in 1972 and went on to play so many angry, defiant heroes that Kannada fans crowned him the Rebel Star. In 1991 he married the actress Sumalatha. Name him.",
+   "answer": "Ambareesh",
+   "accept": [
+    "ambareesh",
+    "ambarish",
+    "ambrish",
+    "ambareesh gowda"
+   ],
+   "explanation": "Ambareesh, the Rebel Star of Kannada cinema, debuted in Naagarahaavu in 1972 and married Sumalatha in 1991.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005029",
+   "topic": "cinema",
+   "question": "Born Sampath Kumar, he became a star in Puttanna Kanagal's Naagarahaavu in 1972, and a 1982 blockbuster gave him his lasting title, Sahasa Simha. In 1975 he married the actress Bharathi. Name this Kannada superstar.",
+   "answer": "Vishnuvardhan",
+   "accept": [
+    "vishnuvardhan",
+    "vishnu",
+    "dr vishnuvardhan",
+    "sampath kumar"
+   ],
+   "explanation": "Vishnuvardhan's first lead role was in Naagarahaavu in 1972, and the 1982 hit Sahasa Simha gave him his famous title.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005030",
+   "topic": "history",
+   "question": "In 1537, a chieftain serving the Vijayanagara empire built a mud fort with a moat and laid out the town that grew into Bangalore. Today the city's main bus station and its international airport carry his name. Who was he?",
+   "answer": "Kempe Gowda",
+   "accept": [
+    "kempe gowda",
+    "kempegowda",
+    "nadaprabhu kempegowda",
+    "kempe gowda i",
+    "kempegowda i"
+   ],
+   "explanation": "Kempe Gowda the First, a Vijayanagara feudatory, built the Bangalore fort and town in 1537.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india",
+    "personalities"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005031",
+   "topic": "geography",
+   "question": "Bangalore's central bus station is officially named after the city's founder, but almost nobody calls it that. Everyone uses the name of a popular cinema hall that once stood nearby, a name that now covers the whole crowded district around it. What is it?",
+   "answer": "Majestic",
+   "accept": [
+    "majestic",
+    "majestic bus stand",
+    "majestic bus station"
+   ],
+   "explanation": "The central bus station, opened in 1969 on the dried bed of Dharmambudhi Lake, took its everyday name from the nearby Majestic cinema.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005032",
+   "topic": "general",
+   "question": "On Vijayadashami, the climax of Mysore Dasara, a decorated elephant carries a golden howdah of about 750 kilograms, bearing the idol of goddess Chamundeshwari, through the city to Bannimantap. What is this grand elephant procession called?",
+   "answer": "Jamboo Savari",
+   "accept": [
+    "jamboo savari",
+    "jambu savari",
+    "jumbo savari",
+    "jamboo sawari",
+    "jambo savari"
+   ],
+   "explanation": "The Jamboo Savari is the Vijayadashami elephant procession of Mysore Dasara, led by the elephant carrying the golden howdah.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005033",
+   "topic": "geography",
+   "question": "Driving from Bangalore to Mysore, about 60 kilometres out, you pass a town lined with stalls of brightly lacquered wooden toys, a craft traced back to Tipu Sultan's time. Karnataka calls it the town of toys. Name it.",
+   "answer": "Channapatna",
+   "accept": [
+    "channapatna",
+    "channapattana",
+    "chennapatna",
+    "channapatna toys"
+   ],
+   "explanation": "Channapatna, on the Bangalore to Mysore highway, is known as Gombegala Ooru, the town of toys, for its GI-tagged lacquered wooden toys.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005034",
+   "topic": "general",
+   "question": "Founded in 1909 on land gifted by the Maharaja of Mysore, the Indian Institute of Science in Bangalore was the dream of a Parsi industrialist who did not live to see it open. Many Bangaloreans still call it by his family name. What do they call it?",
+   "answer": "Tata Institute",
+   "accept": [
+    "tata institute",
+    "tata institute of science",
+    "tata"
+   ],
+   "explanation": "IISc, founded in 1909 with Jamsetji Tata's support and Mysore land, is still locally known as the Tata Institute.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005035",
+   "topic": "geography",
+   "question": "Most of Doordarshan's Malgudi Days was filmed in a tiny Western Ghats village in Shimoga district, where the art director built Narayan's fictional town out of carts, shops and a bus stand. With over seven metres of rain a year, it is called the Cherrapunji of the South. Name the village.",
+   "answer": "Agumbe",
+   "accept": [
+    "agumbe"
+   ],
+   "explanation": "Agumbe in Shimoga district, the Cherrapunji of the South, was the main location for the Malgudi Days television series.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005036",
+   "topic": "history",
+   "question": "Yemen guarded its coffee closely, selling only roasted beans. Legend says that in 1670 a Sufi saint returning from Haj hid seven raw beans in his beard and planted them in the hills of Chikmagalur, starting India's coffee story. Those hills now carry his name. Name the saint.",
+   "answer": "Baba Budan",
+   "accept": [
+    "baba budan",
+    "bababudan",
+    "budan",
+    "baba budangiri"
+   ],
+   "explanation": "Baba Budan is said to have smuggled seven coffee beans out of Mocha in 1670; the Baba Budangiri hills are named after him.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005037",
+   "topic": "business",
+   "question": "In 1985, years before Bangalore was anybody's Silicon Valley, a Dallas chip maker opened a design centre in the city and installed a satellite dish to send software straight back to America, the first multinational to do so. Name the company.",
+   "answer": "Texas Instruments",
+   "accept": [
+    "texas instruments",
+    "texas instrument",
+    "ti"
+   ],
+   "explanation": "Texas Instruments opened its Bangalore centre in 1985, the first multinational software design centre in India and the first to export software by satellite.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005038",
+   "topic": "general",
+   "question": "Every year, on the last Monday of the Kannada month of Karthika, the lanes around Basavanagudi's Bull Temple fill for a fair. Legend says a bull kept raiding the local farms, so the farmers vowed to offer their first harvest to the stone Nandi. Which crop, sold by the sackful, gives the fair its name?",
+   "answer": "Groundnut",
+   "accept": [
+    "groundnut",
+    "groundnuts",
+    "peanut",
+    "peanuts",
+    "kadalekai",
+    "kadlekai",
+    "kadalekayi"
+   ],
+   "explanation": "The Kadalekai Parishe, or groundnut fair, at the Bull Temple in Basavanagudi marks the farmers' offering of their first groundnut harvest.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_bangalore",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005039",
+   "topic": "cinema",
+   "question": "Deewaar, 1975. Amitabh Bachchan's Vijay boasts that he has buildings, property, a bank balance, a bungalow and a car, and asks his brother what he has. The policeman brother replies, Mere paas maa hai. Which actor played that brother?",
+   "answer": "Shashi Kapoor",
+   "accept": [
+    "shashi kapoor",
+    "shashi"
+   ],
+   "explanation": "Shashi Kapoor played Ravi, the police officer brother, in Yash Chopra's Deewaar, written by Salim Javed.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005040",
+   "topic": "cinema",
+   "question": "In Sholay, Hema Malini's Basanti is the most talkative tonga driver in the village. When Gabbar's men chase her, she shouts to her mare, Aaj teri Basanti ki izzat ka sawaal hai. What is the mare's name?",
+   "answer": "Dhanno",
+   "accept": [
+    "dhanno",
+    "dhano"
+   ],
+   "explanation": "Dhanno is Basanti's mare in Sholay, 1975; Chal Dhanno is one of the film's most quoted lines.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005041",
+   "topic": "cinema",
+   "question": "In Kuch Kuch Hota Hai, 1998, Shah Rukh Khan's first wife Tina dies soon after giving birth, but leaves behind letters for her daughter to read on her birthdays. The role won a Filmfare award for Best Supporting Actress. Who played Tina?",
+   "answer": "Rani Mukerji",
+   "accept": [
+    "rani mukerji",
+    "rani mukherjee",
+    "rani mukherji",
+    "rani",
+    "mukerji",
+    "mukherjee"
+   ],
+   "explanation": "Rani Mukerji played Tina Malhotra and won the Filmfare Best Supporting Actress award for it.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005042",
+   "topic": "cinema",
+   "question": "In Kabhi Khushi Kabhie Gham, 2001, Kareena Kapoor plays Kajol's little sister, a Chandni Chowk girl reborn as a London college diva who dismisses boys with a single look. Everyone remembers the character by a three-letter nickname. What is it?",
+   "answer": "Poo",
+   "accept": [
+    "poo"
+   ],
+   "explanation": "Kareena Kapoor's Pooja, known to all as Poo, became the most quoted character of Karan Johar's 2001 family drama.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005043",
+   "topic": "cinema",
+   "question": "As a little girl she appeared in the Lakdi ki kaathi song in Masoom. Twelve years later she was Mili, the aspiring actress in Ram Gopal Varma's Rangeela, with Aamir Khan and Jackie Shroff both in love with her. Name her.",
+   "answer": "Urmila Matondkar",
+   "accept": [
+    "urmila matondkar",
+    "urmila",
+    "matondkar"
+   ],
+   "explanation": "Urmila Matondkar was a child artist in Masoom, 1983, and became a star as Mili in Rangeela, 1995, the first Hindi film Rahman scored from scratch.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005044",
+   "topic": "cinema",
+   "question": "Yash Chopra, 1993. A naval officer and his wife Kiran are terrorised by an obsessed young man who stammers, I love you, K, K, K, Kiran. Playing the obsessive lover sealed Shah Rukh Khan's stardom. Name the film, whose one-word title means fear.",
+   "answer": "Darr",
+   "accept": [
+    "darr",
+    "dar"
+   ],
+   "explanation": "Shah Rukh Khan played the obsessive Rahul in Yash Chopra's Darr, 1993, and his stammered K K K Kiran became a catchphrase.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005045",
+   "topic": "cinema",
+   "question": "Amitabh Bachchan, 1988. By day he is a bumbling, seemingly corrupt police inspector. By night he is a vigilante in a heavy armoured costume who growls, Rishte mein toh hum tumhare baap hote hain, naam hai... Complete the line.",
+   "answer": "Shahenshah",
+   "accept": [
+    "shahenshah",
+    "shahanshah",
+    "shehenshah",
+    "shehanshah"
+   ],
+   "explanation": "Shahenshah, 1988, directed by Tinnu Anand; the story was written by Jaya Bachchan.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005046",
+   "topic": "cinema",
+   "question": "David Dhawan directed him in Raja Babu, Coolie Number 1 and Hero Number 1. Loud shirts, rubber-limbed dancing and perfect comic timing made him the hero of the single-screen audience in the 1990s. Name him.",
+   "answer": "Govinda",
+   "accept": [
+    "govinda",
+    "chi chi",
+    "chichi"
+   ],
+   "explanation": "Govinda and director David Dhawan made more than a dozen films together, including Raja Babu, 1994, Coolie Number 1, 1995, and Hero Number 1, 1997.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005047",
+   "topic": "cinema",
+   "question": "In Damini, 1993, a drunken lawyer warns that when his dhai kilo ka haath, his two and a half kilo hand, lands on someone, that man does not get up again. The role won him a National Award. In 2001 he pulled out a hand pump in Gadar. Name him.",
+   "answer": "Sunny Deol",
+   "accept": [
+    "sunny deol",
+    "sunny",
+    "deol",
+    "ajay singh deol"
+   ],
+   "explanation": "Sunny Deol won the National Award and the Filmfare award for Best Supporting Actor for Damini.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005048",
+   "topic": "cinema",
+   "question": "Crowned Miss India in 1984, she became an overnight star four years later as Rashmi, the girl Aamir Khan's Raj elopes with in Qayamat Se Qayamat Tak. Today she co-owns the Kolkata Knight Riders with Shah Rukh Khan. Name her.",
+   "answer": "Juhi Chawla",
+   "accept": [
+    "juhi chawla",
+    "juhi",
+    "chawla"
+   ],
+   "explanation": "Juhi Chawla won Miss India 1984 and the Filmfare Best Female Debut award for Qayamat Se Qayamat Tak, 1988.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005049",
+   "topic": "cinema",
+   "question": "He was Munna in Tezaab, Lakhan in Ram Lakhan, and the violinist Arun who turns invisible in Mister India. His catchphrase, first heard in Yudh in 1985, is Ek dum jhakaas. Name him.",
+   "answer": "Anil Kapoor",
+   "accept": [
+    "anil kapoor",
+    "anil",
+    "kapoor"
+   ],
+   "explanation": "Anil Kapoor's jhakaas became his signature after Yudh, 1985; Tezaab, Mister India and Ram Lakhan were his late 1980s hits.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005050",
+   "topic": "cinema",
+   "question": "Maine Pyar Kiya, 1989. Suman sings Kabootar ja ja ja, asking a pigeon to carry her first love letter to Salman Khan's Prem. Suman was the debut role of an actress who won the Filmfare award for Best Female Debut. Name her.",
+   "answer": "Bhagyashree",
+   "accept": [
+    "bhagyashree",
+    "bhagyashri",
+    "bhagya shree"
+   ],
+   "explanation": "Bhagyashree played Suman in Sooraj Barjatya's Maine Pyar Kiya, the highest-grossing Indian film of the 1980s.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005051",
+   "topic": "cinema",
+   "question": "Sridevi's Hawa Hawai in Mister India was meant to be sung by Asha Bhosle, but the makers kept the version recorded by the singer who had only dubbed the guide track. That singer also sang Dola re dola in Devdas, married the violinist L Subramaniam, and lives in Bangalore. Name her.",
+   "answer": "Kavita Krishnamurthy",
+   "accept": [
+    "kavita krishnamurthy",
+    "kavita krishnamurti",
+    "kavita",
+    "krishnamurthy",
+    "kavita subramaniam"
+   ],
+   "explanation": "Kavita Krishnamurthy sang Hawa Hawai, composed by Laxmikant Pyarelal with lyrics by Javed Akhtar, in Mister India, 1987.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005052",
+   "topic": "cinema",
+   "question": "Ek do teen in Tezaab, 1988, turned Madhuri Dixit into a star, and its steps were copied at every college day. When Filmfare introduced a Best Choreography award the following year, its very first winner was the person who taught Madhuri those steps. Name her.",
+   "answer": "Saroj Khan",
+   "accept": [
+    "saroj khan",
+    "saroj",
+    "masterji"
+   ],
+   "explanation": "Saroj Khan won the first Filmfare Best Choreography award for Ek Do Teen, sung by Alka Yagnik and composed by Laxmikant Pyarelal.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005053",
+   "topic": "cinema",
+   "question": "Dil Se, 1998. Shah Rukh Khan and Malaika Arora dance on the roof of the Nilgiri mountain train near Ooty, to Rahman's music and Gulzar's words. The song is Chaiyya Chaiyya. Which Amritsar-born singer belted out the male vocals, and a decade later sang on the Oscar-winning Jai Ho?",
+   "answer": "Sukhwinder Singh",
+   "accept": [
+    "sukhwinder singh",
+    "sukhwinder",
+    "sukhvinder singh",
+    "sukhvinder"
+   ],
+   "explanation": "Sukhwinder Singh sang Chaiyya Chaiyya with Sapna Awasthi; music by A. R. Rahman, lyrics by Gulzar.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005054",
+   "topic": "cinema",
+   "question": "In Sanjay Leela Bhansali's Devdas, 2002, Aishwarya Rai is Paro, the childhood sweetheart. Madhuri Dixit plays the courtesan who loves Devdas without hope, and dances Dola re dola with Paro. What is the courtesan's name?",
+   "answer": "Chandramukhi",
+   "accept": [
+    "chandramukhi",
+    "chandramukhee",
+    "chandra mukhi"
+   ],
+   "explanation": "Madhuri Dixit played Chandramukhi, the courtesan of Sarat Chandra's novel, in Devdas, 2002.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005055",
+   "topic": "cinema",
+   "question": "In 1981, K Balachander remade his own Telugu hit in Hindi: a Tamil boy and a North Indian girl in Goa fall in love across a language barrier, against both families. It was Kamal Haasan's Bollywood debut, and S P Balasubrahmanyam won a National Award for Tere mere beech mein. Name the film.",
+   "answer": "Ek Duje Ke Liye",
+   "accept": [
+    "ek duje ke liye",
+    "ek duuje ke liye",
+    "ek dooje ke liye",
+    "ek dujhe ke liye"
+   ],
+   "explanation": "Ek Duje Ke Liye, 1981, a remake of Maro Charitra, starred Kamal Haasan and Rati Agnihotri, with music by Laxmikant Pyarelal.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005056",
+   "topic": "cinema",
+   "question": "In Ghulam, 1998, a street-smart Aamir Khan cheekily invites his girl for an outing to a hill station on the Bombay to Pune road. Aamir sang the song himself, with Alka Yagnik, and earned a Filmfare nomination as a playback singer. Name the song.",
+   "answer": "Aati Kya Khandala",
+   "accept": [
+    "aati kya khandala",
+    "ati kya khandala",
+    "aati kya khandala?",
+    "khandala"
+   ],
+   "explanation": "Aati Kya Khandala, written by Nitin Raikwar, was Aamir Khan's debut as a playback singer, alongside Alka Yagnik.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005057",
+   "topic": "cinema",
+   "question": "This director made Karz, Hero, Ram Lakhan, Saudagar, Khalnayak and Pardes, and founded the production house Mukta Arts. Like Alfred Hitchcock, he liked to slip into a brief cameo in his own films. Name him.",
+   "answer": "Subhash Ghai",
+   "accept": [
+    "subhash ghai",
+    "ghai"
+   ],
+   "explanation": "Subhash Ghai founded Mukta Arts in 1982 and made cameo appearances in the films he directed.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005058",
+   "topic": "cinema",
+   "question": "In Andaz Apna Apna, 1994, Shakti Kapoor plays a villain who introduces himself as Mogambo's nephew and threatens to pull out people's eyes and play marbles with them. What does he call himself?",
+   "answer": "Crime Master Gogo",
+   "accept": [
+    "crime master gogo",
+    "gogo",
+    "crime master"
+   ],
+   "explanation": "Crime Master Gogo, Mogambo ka bhatija, is the best-loved character of Rajkumar Santoshi's cult comedy, which flopped on release.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005059",
+   "topic": "cinema",
+   "question": "The village of Ramgarh in Sholay never existed. Much of the film was shot among the giant granite boulders of a town about 50 kilometres from Bangalore, on the road to Mysore. Name the town.",
+   "answer": "Ramanagara",
+   "accept": [
+    "ramanagara",
+    "ramanagaram",
+    "ramnagar",
+    "ramanagar",
+    "ramnagara"
+   ],
+   "explanation": "Sholay was shot largely in the rocky hills of Ramanagara, southwest of Bangalore.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "south_india"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005060",
+   "topic": "music",
+   "question": "Two brothers, nephews of Pandit Jasraj, were first noticed for Pehla nasha in Jo Jeeta Wohi Sikandar. They then composed the songs of Dilwale Dulhania Le Jayenge and Kuch Kuch Hota Hai. Name the composer duo.",
+   "answer": "Jatin Lalit",
+   "accept": [
+    "jatin lalit",
+    "jatin-lalit",
+    "jatin and lalit",
+    "jatin pandit",
+    "lalit pandit"
+   ],
+   "explanation": "Jatin and Lalit Pandit composed Pehla Nasha, 1992, sung by Udit Narayan and Sadhana Sargam, and the soundtracks of Dilwale Dulhania Le Jayenge and Kuch Kuch Hota Hai.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005061",
+   "topic": "music",
+   "question": "In Feroz Khan's Qurbani, 1980, Zeenat Aman performs Aap jaisa koi meri zindagi mein aaye, composed by Biddu. The voice belonged to a 15-year-old from Karachi, who became the youngest ever winner of Filmfare's best female playback award. Name her.",
+   "answer": "Nazia Hassan",
+   "accept": [
+    "nazia hassan",
+    "nazia hasan",
+    "nazia"
+   ],
+   "explanation": "Nazia Hassan sang Aap Jaisa Koi at 15 and won the Filmfare Best Female Playback Singer award for it.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005062",
+   "topic": "cinema",
+   "question": "A nephew of Dev Anand, he first qualified as a chartered accountant in England. He then directed Masoom and Mister India in Bombay, and in 1998 Elizabeth in England, which earned Cate Blanchett an Oscar nomination. Name him.",
+   "answer": "Shekhar Kapur",
+   "accept": [
+    "shekhar kapur",
+    "shekhar kapoor",
+    "kapur",
+    "shekhar"
+   ],
+   "explanation": "Shekhar Kapur directed Masoom, 1983, Mister India, 1987, Bandit Queen, 1994, and Elizabeth, 1998.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005063",
+   "topic": "cinema",
+   "question": "The makers of Sholay considered this actor from Sikkim for Gabbar Singh, but he was committed to Feroz Khan's Dharmatma. His film institute classmate Jaya Bhaduri gave him his simpler screen name, and in 1990 he played Kancha Cheena in Agneepath. Name him.",
+   "answer": "Danny Denzongpa",
+   "accept": [
+    "danny denzongpa",
+    "danny",
+    "denzongpa"
+   ],
+   "explanation": "Born Tshering Phintso Denzongpa in Sikkim, Danny played Kancha Cheena opposite Amitabh's Vijay Deenanath Chauhan.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005064",
+   "topic": "cinema",
+   "question": "In the late 1980s he was the stern, white-bearded Bhishma Pitamah in Doordarshan's Mahabharat. A decade later he was flying across the same channel as India's own desi superhero, whose clumsy alter ego was a bespectacled photographer called Pandit Gangadhar. Name the actor.",
+   "answer": "Mukesh Khanna",
+   "accept": [
+    "mukesh khanna",
+    "khanna"
+   ],
+   "explanation": "Mukesh Khanna played Bhishma in Mahabharat from 1988 to 1990 and then created and starred in Shaktimaan, which ran on Doordarshan from 1997 to 2005.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005065",
+   "topic": "cinema",
+   "question": "It went on air in July 1984 and is remembered as India's first television soap opera. It followed a struggling middle-class family with three daughters called Badki, Majhli and Chutki, and every episode closed with the veteran actor Ashok Kumar chatting to viewers about the story. Name the serial.",
+   "answer": "Hum Log",
+   "accept": [
+    "hum log",
+    "humlog"
+   ],
+   "explanation": "Hum Log, written by Manohar Shyam Joshi, premiered on Doordarshan on 7 July 1984 and is regarded as India's first soap opera.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005066",
+   "topic": "cinema",
+   "question": "In 1993 the director Basu Chatterjee brought a Bengali sleuth to Doordarshan, with Rajit Kapur solving mysteries in old Calcutta alongside his friend and chronicler Ajit. The character preferred to call himself a seeker of truth rather than a detective. Name him.",
+   "answer": "Byomkesh Bakshi",
+   "accept": [
+    "byomkesh bakshi",
+    "byomkesh",
+    "byomkesh bakshy",
+    "bakshi"
+   ],
+   "explanation": "Byomkesh Bakshi, created by the writer Sharadindu Bandyopadhyay, was played by Rajit Kapur in Basu Chatterjee's 1993 Doordarshan series.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005067",
+   "topic": "business",
+   "question": "Lalitaji, the sharp middle-class housewife played by Kavita Chaudhary, told us there is a difference between a good thing and a cheap thing, and that the sensible shopper pays a little more for quality. Which washing powder was she buying?",
+   "answer": "Surf",
+   "accept": [
+    "surf",
+    "surf detergent",
+    "surf washing powder",
+    "surf powder",
+    "surf excel"
+   ],
+   "explanation": "Alyque Padamsee of Lintas created the Lalitaji campaign for Surf in 1984, with the line Surf ki kharidari mein hi samajhdari hai, to defend the brand against the much cheaper Nirma.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005068",
+   "topic": "business",
+   "question": "A young woman in the stands nibbles a chocolate bar while her man bats. When he hits the big shot, she dodges a security guard and dances across the outfield, to a jingle sung by a young Shankar Mahadevan. Which chocolate?",
+   "answer": "Cadbury Dairy Milk",
+   "accept": [
+    "cadbury dairy milk",
+    "dairy milk",
+    "cadbury",
+    "cadburys",
+    "cadbury's"
+   ],
+   "explanation": "Ogilvy's cricket commercial for Cadbury Dairy Milk, starring Shimona Rashi with the Kuch Khaas Hai jingle and the tagline Asli Swad Zindagi Ka, became one of the best-loved Indian ads of the 1990s.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005069",
+   "topic": "music",
+   "question": "In 1995 a song about the singer's dream of a man who was Made in India, and a video that turned the model Milind Soman into a national heartthrob, sold millions of cassettes and launched the Indipop boom. Name the singer.",
+   "answer": "Alisha Chinai",
+   "accept": [
+    "alisha chinai",
+    "alisha",
+    "chinai"
+   ],
+   "explanation": "Alisha Chinai's album Made in India, produced by Biddu, sold more than five million copies and established Indipop as a genre.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005070",
+   "topic": "music",
+   "question": "Critics grumbled that this turbaned Punjabi singer's videos sold only because of the pretty women in them. So for Tunak Tunak Tun in 1998 he used blue-screen trickery and filled the video with nobody but four dancing copies of himself. Name him.",
+   "answer": "Daler Mehndi",
+   "accept": [
+    "daler mehndi",
+    "daler",
+    "mehndi",
+    "daler mehandi"
+   ],
+   "explanation": "Daler Mehndi's Tunak Tunak Tun was the first Indian music video made with blue-screen chroma key technology, and later became a worldwide internet favourite.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005071",
+   "topic": "business",
+   "bid_eligible": true,
+   "question": "Its advertising showed every kind of Indian under the line Hamara Bajaj, and in the licence raj years families waited years for one to be delivered. This Bajaj scooter was named after the loyal warhorse of Maharana Pratap. What was it called?",
+   "answer": "Chetak",
+   "accept": [
+    "chetak",
+    "bajaj chetak"
+   ],
+   "explanation": "The Bajaj Chetak, produced from 1972, was named after Maharana Pratap's horse, and its waiting list once stretched to several years.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005072",
+   "topic": "books",
+   "bid_eligible": true,
+   "question": "Chacha Chaudhary's brain worked faster than a computer, but when muscle was needed he relied on his towering companion, who had come to Earth from the planet Jupiter. Name the giant.",
+   "answer": "Sabu",
+   "accept": [
+    "sabu"
+   ],
+   "explanation": "Cartoonist Pran created Chacha Chaudhary in 1971, and the giant Sabu from Jupiter became his famous sidekick.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005073",
+   "topic": "books",
+   "question": "Give this village simpleton an instruction and he will follow your words so literally that chaos is guaranteed. He first appeared in Tinkle in January 1983 and remains the magazine's most famous character. Name him.",
+   "answer": "Suppandi",
+   "accept": [
+    "suppandi",
+    "supandi"
+   ],
+   "explanation": "Suppandi made his debut in Tinkle issue 27 in January 1983, drawn by Ram Waeerkar from stories sent in by a reader from Trichy.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005074",
+   "topic": "general",
+   "question": "In May 1994 in Manila, an 18-year-old became the first Indian woman ever crowned Miss Universe. Later that same year, a Mangalore-born model won Miss World. Name the Miss Universe.",
+   "answer": "Sushmita Sen",
+   "accept": [
+    "sushmita sen",
+    "sushmita",
+    "sen",
+    "susmita sen"
+   ],
+   "explanation": "Sushmita Sen was crowned Miss Universe on 21 May 1994, and Aishwarya Rai won Miss World later that year.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005075",
+   "topic": "cinema",
+   "question": "This 1986 Doordarshan comedy, made by Kundan Shah and the Mirza brothers, followed the luckless regulars of one ordinary Bombay street corner, including a beggar named Ghanshu and the permanently drunk Khopdi. Its title is simply the Hindi for street corner. Name the serial.",
+   "answer": "Nukkad",
+   "accept": [
+    "nukkad",
+    "nukad",
+    "nukkadd"
+   ],
+   "explanation": "Nukkad aired on Doordarshan in 1986 and 1987, and Sameer Khakhar's Khopdi became one of Indian television's most loved characters.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005076",
+   "topic": "cinema",
+   "question": "In 1994 the veteran filmmaker Vijay Anand, who had directed Guide, starred as the detective Sam D'Silva on Doordarshan, with Saurabh Shukla as his sidekick Gopichand. Name the serial, whose title is an Urdu word meaning investigation.",
+   "answer": "Tehkikaat",
+   "accept": [
+    "tehkikaat",
+    "tahqiqat",
+    "tehqiqaat",
+    "tehkikat",
+    "tahkikaat"
+   ],
+   "explanation": "Tehkikaat ran for 52 episodes on Doordarshan in 1994 and 1995, with Vijay Anand as Sam D'Silva and Saurabh Shukla as Gopichand.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_chitrahaar"
+   ]
+  },
+  {
+   "id": "q1005077",
+   "topic": "cricket",
+   "bid_eligible": true,
+   "question": "Tunbridge Wells, June 1983. India collapse to 17 for 5 in a World Cup match, and captain Kapil Dev smashes 175 not out, an innings almost nobody saw because there were no television cameras at the ground. Which team were India playing?",
+   "answer": "Zimbabwe",
+   "accept": [
+    "zimbabwe"
+   ],
+   "explanation": "Kapil Dev's 175 not out against Zimbabwe on 18 June 1983 turned a rout into a 31-run win and kept India's World Cup campaign alive.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport"
+   ]
+  },
+  {
+   "id": "q1005078",
+   "topic": "cricket",
+   "question": "Sharjah, April 1986, the Austral-Asia Cup final. Pakistan need four off the very last ball, bowled by young Chetan Sharma, and this batsman launches a full toss for six. Name him.",
+   "answer": "Javed Miandad",
+   "accept": [
+    "javed miandad",
+    "miandad",
+    "javed"
+   ],
+   "explanation": "Javed Miandad finished on 116 not out with his last-ball six off Chetan Sharma on 18 April 1986, one of the most famous moments in India-Pakistan cricket.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005079",
+   "topic": "cricket",
+   "bid_eligible": true,
+   "question": "Karachi, November 1989. A 16-year-old Sachin Tendulkar makes his Test debut, and in the very same match a teenage Pakistani fast bowler also debuts and dismisses him for 15. That bowler went on to become famous for toe-crushing, reverse-swinging yorkers. Name him.",
+   "answer": "Waqar Younis",
+   "accept": [
+    "waqar younis",
+    "waqar",
+    "younis"
+   ],
+   "explanation": "Sachin Tendulkar and Waqar Younis both made their Test debuts at Karachi on 15 November 1989, and Waqar dismissed Tendulkar for 15 in the first innings.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005080",
+   "topic": "cricket",
+   "question": "Feroz Shah Kotla, February 1999. Anil Kumble has nine Pakistani wickets and the whole country is willing him to take the tenth. A leg-break takes the inside edge, Laxman holds the catch at short leg, and history is made. Which Pakistan captain was the tenth wicket?",
+   "answer": "Wasim Akram",
+   "accept": [
+    "wasim akram",
+    "akram",
+    "wasim"
+   ],
+   "explanation": "Wasim Akram, caught by VVS Laxman, was the last of Kumble's ten for 74, making Kumble only the second bowler after Jim Laker to take all ten in a Test innings.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005081",
+   "topic": "cricket",
+   "bid_eligible": true,
+   "question": "Eden Gardens, March 2001. Forced to follow on, India rally through Laxman's 281 and Dravid's 180 to win by 171 runs, ending a record streak of 16 straight Test wins. Name the Australian captain whose streak was broken.",
+   "answer": "Steve Waugh",
+   "accept": [
+    "steve waugh",
+    "waugh",
+    "stephen waugh",
+    "tugga"
+   ],
+   "explanation": "Steve Waugh's Australia had won 16 consecutive Tests before India's famous comeback win in Kolkata in March 2001.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005082",
+   "topic": "cricket",
+   "question": "Centurion, the 2003 World Cup. Chasing against Pakistan, Sachin Tendulkar slashes the Rawalpindi Express over third man for six on his way to a blistering 98. Name the bowler.",
+   "answer": "Shoaib Akhtar",
+   "accept": [
+    "shoaib akhtar",
+    "shoaib",
+    "akhtar"
+   ],
+   "explanation": "Tendulkar's six off Shoaib Akhtar at Centurion on 1 March 2003 set up his 98 off 75 balls and a comfortable Indian win.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005083",
+   "topic": "cricket",
+   "question": "Old Trafford, June 1993. A young blond leg-spinner bowls his very first ball in Ashes cricket. It drifts, pitches outside leg stump and spins sharply to clip the top of off stump, leaving a stocky former England captain staring at the pitch in disbelief. Name the batsman bowled by the Ball of the Century.",
+   "answer": "Mike Gatting",
+   "accept": [
+    "mike gatting",
+    "gatting",
+    "michael gatting"
+   ],
+   "explanation": "Shane Warne's first ball in an Ashes Test, on 4 June 1993, bowled Mike Gatting and became known as the Ball of the Century.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005084",
+   "topic": "world",
+   "question": "In 1988 this German won the Australian Open, the French Open, Wimbledon and the US Open, and then added Olympic gold in Seoul, a feat called the Golden Slam. In 2001 she married Andre Agassi. Name her.",
+   "answer": "Steffi Graf",
+   "accept": [
+    "steffi graf",
+    "graf",
+    "steffi",
+    "stefanie graf"
+   ],
+   "explanation": "Steffi Graf completed the 1988 Golden Slam by beating Gabriela Sabatini for Olympic gold in Seoul on 1 October 1988.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005085",
+   "topic": "world",
+   "question": "This American with a thunderous serve won Wimbledon seven times between 1993 and 2000, and played the last match of his career in the 2002 US Open final, beating his great rival Andre Agassi. Name him.",
+   "answer": "Pete Sampras",
+   "accept": [
+    "pete sampras",
+    "sampras",
+    "pistol pete",
+    "pete"
+   ],
+   "explanation": "Pistol Pete Sampras won 14 Grand Slam singles titles, the last of them at the 2002 US Open.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005086",
+   "topic": "world",
+   "question": "New York, May 1997. The world chess champion Garry Kasparov loses a six-game match to an opponent that could weigh up 200 million positions every second. Name the IBM computer that beat him.",
+   "answer": "Deep Blue",
+   "accept": [
+    "deep blue",
+    "ibm deep blue"
+   ],
+   "explanation": "IBM's Deep Blue beat Garry Kasparov by three and a half points to two and a half in May 1997, the first match win by a computer over a reigning world champion.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport"
+   ]
+  },
+  {
+   "id": "q1005087",
+   "topic": "world",
+   "bid_eligible": true,
+   "question": "Wimbledon, July 1985. An unseeded 17-year-old German, nicknamed Boom Boom for his serve, dives all over the grass and wins the title, still the youngest man ever to do so. Name him.",
+   "answer": "Boris Becker",
+   "accept": [
+    "boris becker",
+    "becker",
+    "boris"
+   ],
+   "explanation": "Boris Becker beat Kevin Curren in the 1985 final aged 17 years and 227 days, the first unseeded and first German men's champion at Wimbledon.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005088",
+   "topic": "general",
+   "question": "Paris, 1997. Partnering Rika Hiraki of Japan in the French Open mixed doubles, this Chennai-born player became the first Indian to win a Grand Slam title. Two years later he and Leander Paes won the men's doubles at both the French Open and Wimbledon. Name him.",
+   "answer": "Mahesh Bhupathi",
+   "accept": [
+    "mahesh bhupathi",
+    "bhupathi",
+    "mahesh",
+    "hesh"
+   ],
+   "explanation": "Mahesh Bhupathi won the 1997 French Open mixed doubles with Rika Hiraki, and in 1999 he and Leander Paes won the French Open and Wimbledon men's doubles.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport",
+    "personalities",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005089",
+   "topic": "world",
+   "question": "Las Vegas, June 1997, a heavyweight title rematch. In the third round, an enraged Mike Tyson bites his opponent's ear, not once but twice, and is disqualified. Whose ear was it?",
+   "answer": "Evander Holyfield",
+   "accept": [
+    "evander holyfield",
+    "holyfield",
+    "evander",
+    "the real deal"
+   ],
+   "explanation": "Mike Tyson was disqualified for biting Evander Holyfield's ears in their rematch on 28 June 1997.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005090",
+   "topic": "world",
+   "question": "Pasadena, July 1994. For the first time a World Cup final is decided by a penalty shootout. Italy's star forward, nicknamed the Divine Ponytail, steps up needing to score and blazes the ball over the bar, and Brazil are champions. Name him.",
+   "answer": "Roberto Baggio",
+   "accept": [
+    "roberto baggio",
+    "baggio"
+   ],
+   "explanation": "Roberto Baggio missed the decisive kick at the Rose Bowl on 17 July 1994, giving Brazil their fourth World Cup.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005091",
+   "topic": "world",
+   "question": "Before his years of glory in red at Ferrari, Michael Schumacher won his first two Formula One world titles, in 1994 and 1995, driving for a team owned by an Italian fashion house famous for its colourful knitwear and provocative advertising. Name the team.",
+   "answer": "Benetton",
+   "accept": [
+    "benetton",
+    "benetton formula",
+    "benetton ford",
+    "benetton renault",
+    "team benetton"
+   ],
+   "explanation": "Schumacher won the 1994 and 1995 world championships with Benetton, the team the clothing company created by buying Toleman in 1985.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_sport"
+   ]
+  },
+  {
+   "id": "q1005092",
+   "topic": "usa",
+   "question": "Ross, Rachel, Monica, Chandler, Joey and Phoebe spent ten seasons on a big orange sofa in a Manhattan coffee house, where Phoebe sang Smelly Cat. Name the coffee house.",
+   "answer": "Central Perk",
+   "accept": [
+    "central perk"
+   ],
+   "explanation": "Central Perk, the Friends hangout, is a pun on Central Park.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop"
+   ]
+  },
+  {
+   "id": "q1005093",
+   "topic": "usa",
+   "question": "Red swimsuits, slow-motion runs along the sand, David Hasselhoff as head lifeguard Mitch and Pamela Anderson in the surf. Satellite television brought this beach show into Indian homes in the 1990s. Name it.",
+   "answer": "Baywatch",
+   "accept": [
+    "baywatch",
+    "bay watch"
+   ],
+   "explanation": "Baywatch ran from 1989 to 2001 and made global stars of David Hasselhoff and Pamela Anderson.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop"
+   ]
+  },
+  {
+   "id": "q1005094",
+   "topic": "cinema",
+   "question": "In Disney's 1994 film The Lion King, a meerkat and a warthog teach the runaway cub Simba a Swahili phrase that means no worries. What is the phrase?",
+   "answer": "Hakuna Matata",
+   "accept": [
+    "hakuna matata"
+   ],
+   "explanation": "Timon and Pumbaa sing Hakuna Matata, written by Elton John and Tim Rice.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop"
+   ]
+  },
+  {
+   "id": "q1005095",
+   "topic": "cinema",
+   "question": "In a 1990 Christmas comedy, eight-year-old Kevin McCallister is accidentally left behind when his family flies to Paris, and he booby-traps the house against two bumbling burglars. Name the child actor who played Kevin.",
+   "answer": "Macaulay Culkin",
+   "accept": [
+    "macaulay culkin",
+    "culkin",
+    "macaulay"
+   ],
+   "explanation": "Macaulay Culkin became the biggest child star of the 1990s with Home Alone.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005096",
+   "topic": "music",
+   "question": "James Cameron's 1997 epic about a doomed ocean liner ended with a love theme that won the Oscar for Best Original Song. Which French-Canadian singer sang My Heart Will Go On?",
+   "answer": "Celine Dion",
+   "accept": [
+    "celine dion",
+    "dion",
+    "celine"
+   ],
+   "explanation": "Celine Dion sang My Heart Will Go On, composed by James Horner with lyrics by Will Jennings.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005097",
+   "topic": "music",
+   "question": "In 1998, a sixteen-year-old from Louisiana, a former Mickey Mouse Club kid, danced down a school corridor in a schoolgirl uniform singing Baby One More Time. Name her.",
+   "answer": "Britney Spears",
+   "accept": [
+    "britney spears",
+    "britney",
+    "spears"
+   ],
+   "explanation": "Baby One More Time was Britney Spears's debut single and made her the face of late-1990s teen pop.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005098",
+   "topic": "music",
+   "question": "The Spice Girls were Scary, Sporty, Baby, Ginger and one more. In 1999 that fifth Spice, Victoria Adams, married the England footballer David Beckham. What was her Spice nickname?",
+   "answer": "Posh Spice",
+   "accept": [
+    "posh spice",
+    "posh"
+   ],
+   "explanation": "Posh Spice, Victoria Adams, married David Beckham on 4 July 1999 and became Victoria Beckham.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005099",
+   "topic": "music",
+   "question": "This Colombian singer told the world in 2006 that her hips don't lie, and in 2010 she sang Waka Waka for the football World Cup in South Africa. Name her.",
+   "answer": "Shakira",
+   "accept": [
+    "shakira"
+   ],
+   "explanation": "Shakira's Hips Don't Lie, sung with Wyclef Jean, was one of the biggest hits of 2006.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005100",
+   "topic": "music",
+   "question": "He sang about buying his first real six-string in the Summer of 69. In 1991 his love song from Robin Hood, Prince of Thieves, stayed at number one in Britain for 16 weeks in a row, still the longest unbroken run in British chart history. Name the Canadian rocker.",
+   "answer": "Bryan Adams",
+   "accept": [
+    "bryan adams",
+    "adams",
+    "brian adams"
+   ],
+   "explanation": "Bryan Adams's Everything I Do, I Do It for You held the UK number one spot for 16 straight weeks in 1991, still the longest consecutive run.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005101",
+   "topic": "books",
+   "question": "A 2003 bestseller opens with a museum curator murdered inside the Louvre, and sends Harvard symbologist Robert Langdon racing across Paris after the secret of the Holy Grail. Name the author.",
+   "answer": "Dan Brown",
+   "accept": [
+    "dan brown",
+    "brown"
+   ],
+   "explanation": "Dan Brown's The Da Vinci Code was his second Robert Langdon novel, after Angels and Demons.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005102",
+   "topic": "cinema",
+   "question": "In 1999, a director born in Mahe in Puducherry and raised near Philadelphia made a ghost story with a famous twist, in which a frightened boy whispers to Bruce Willis, I see dead people. Name the film.",
+   "answer": "The Sixth Sense",
+   "accept": [
+    "the sixth sense",
+    "sixth sense",
+    "6th sense"
+   ],
+   "explanation": "M. Night Shyamalan's The Sixth Sense earned six Oscar nominations, including Best Picture.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop"
+   ]
+  },
+  {
+   "id": "q1005103",
+   "topic": "cinema",
+   "question": "In The Matrix, Morpheus offers Keanu Reeves's Neo two pills. One lets him wake up in bed and believe whatever he wants; the other shows him how deep the rabbit hole goes. What colour is the pill Neo swallows?",
+   "answer": "Red",
+   "accept": [
+    "red",
+    "red pill",
+    "the red pill"
+   ],
+   "explanation": "Neo takes the red pill; the blue pill would have sent him back to the illusion.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop"
+   ]
+  },
+  {
+   "id": "q1005104",
+   "topic": "usa",
+   "question": "In Friends, Chandler's surname is also the name of the search engine Microsoft launched in 2009 to take on Google. What is Chandler's surname?",
+   "answer": "Bing",
+   "accept": [
+    "bing",
+    "chandler bing"
+   ],
+   "explanation": "Chandler Bing shares his surname with Microsoft's Bing, launched in June 2009.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005105",
+   "topic": "usa",
+   "question": "In The X-Files, FBI agent Fox Mulder believes the truth is out there. His sceptical partner is a medical doctor who does the autopsies and demands scientific proof for every alien. What is her surname?",
+   "answer": "Scully",
+   "accept": [
+    "scully",
+    "dana scully"
+   ],
+   "explanation": "Dana Scully, played by Gillian Anderson, is a physician; The X-Files first ran from 1993 to 2002.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005106",
+   "topic": "usa",
+   "question": "Star TV beamed this American daytime soap into Indian homes in the early 1990s. It follows the Forrester family and their Los Angeles fashion house, with Ridge Forrester forever torn between Brooke and Taylor. Name the soap.",
+   "answer": "The Bold and the Beautiful",
+   "accept": [
+    "the bold and the beautiful",
+    "bold and the beautiful",
+    "bold and beautiful",
+    "b and b"
+   ],
+   "explanation": "The Bold and the Beautiful has run on CBS since 1987.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop"
+   ]
+  },
+  {
+   "id": "q1005107",
+   "topic": "usa",
+   "question": "Homer, Marge, Bart, Lisa and Maggie live in a cartoon town whose home state is a running joke and never revealed. The town shares its name with the capital of Illinois. Name it.",
+   "answer": "Springfield",
+   "accept": [
+    "springfield"
+   ],
+   "explanation": "The Simpsons live in Springfield, a name shared by dozens of real American towns.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop"
+   ]
+  },
+  {
+   "id": "q1005108",
+   "topic": "usa",
+   "question": "In the American version of The Office, Steve Carell's Michael Scott runs the Scranton, Pennsylvania branch of a struggling paper company. Name the company.",
+   "answer": "Dunder Mifflin",
+   "accept": [
+    "dunder mifflin",
+    "dunder mifflin paper company",
+    "dunder-mifflin"
+   ],
+   "explanation": "Dunder Mifflin was the setting of The Office, which ran on NBC from 2005 to 2013.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005109",
+   "topic": "books",
+   "question": "Steven Spielberg's 1993 dinosaurs first ran amok in a 1990 novel. Its author held a medical degree from Harvard but never practised, choosing to write thrillers instead. Name him.",
+   "answer": "Michael Crichton",
+   "accept": [
+    "michael crichton",
+    "crichton"
+   ],
+   "explanation": "Michael Crichton graduated from Harvard Medical School in 1969 and published Jurassic Park in 1990.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop",
+    "personalities"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005110",
+   "topic": "books",
+   "question": "When the first Harry Potter book crossed the Atlantic in 1998, the American publisher worried that the word Philosopher would sound too dusty to young readers. Rowling suggested another word, and the stone was renamed. What was the new word?",
+   "answer": "Sorcerer's",
+   "accept": [
+    "sorcerer's",
+    "sorcerer",
+    "sorcerers",
+    "sorcerer's stone",
+    "sorcerers stone",
+    "harry potter and the sorcerer's stone"
+   ],
+   "explanation": "Scholastic published it in America as Harry Potter and the Sorcerer's Stone; Rowling later said she wished she had not agreed.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005111",
+   "topic": "general",
+   "question": "In the late 1990s, MTV Bakra used hidden cameras to make fools of unsuspecting people, from shopkeepers to Rahul Dravid. Name the Bombay comic and VJ who hosted it.",
+   "answer": "Cyrus Broacha",
+   "accept": [
+    "cyrus broacha",
+    "broacha",
+    "cyrus"
+   ],
+   "explanation": "Cyrus Broacha hosted MTV Bakra, India's best-known candid-camera prank show.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005112",
+   "topic": "general",
+   "question": "In 1994, Channel V promos introduced a spoof Tamil cowboy: a strict vegetarian gunslinger who sealed every threat with the words Mind it. He finally got his own feature film in 2009. Name him.",
+   "answer": "Quick Gun Murugun",
+   "accept": [
+    "quick gun murugun",
+    "quick gun murugan",
+    "quickgun murugun",
+    "murugun",
+    "murugan",
+    "quickgun murugan"
+   ],
+   "explanation": "Quick Gun Murugun was created by Shashanka Ghosh for Channel V, and Telugu actor Rajendra Prasad played him in the 2009 film.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop",
+    "south_india"
+   ]
+  },
+  {
+   "id": "q1005113",
+   "topic": "music",
+   "question": "In 2003, a 23-year-old singer swept the Grammys for her quiet debut album Come Away with Me, taking five awards herself. Her father was the sitar maestro who taught George Harrison. Name her.",
+   "answer": "Norah Jones",
+   "accept": [
+    "norah jones",
+    "norah",
+    "nora jones",
+    "jones"
+   ],
+   "explanation": "Norah Jones, daughter of Ravi Shankar, won five Grammys in 2003, including Album of the Year and Best New Artist.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop",
+    "personalities"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005114",
+   "topic": "music",
+   "question": "This Philadelphia vocal quartet took its name from a New Edition song. In 1992 their ballad End of the Road stayed at number one in America for 13 weeks, breaking Elvis Presley's record. Name the group.",
+   "answer": "Boyz II Men",
+   "accept": [
+    "boyz ii men",
+    "boyz 2 men",
+    "boys to men",
+    "boys ii men",
+    "boyz to men"
+   ],
+   "explanation": "Boyz II Men later set a new record of 16 weeks at number one with One Sweet Day, sung with Mariah Carey.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_pop"
+   ]
+  },
+  {
+   "id": "q1005115",
+   "topic": "history",
+   "question": "In 1796 an English country doctor took fluid from a sore on a milkmaid's hand and scratched it into the arm of an eight-year-old boy, who then proved immune to smallpox. The doctor was Edward Jenner, and the word vaccine comes from the Latin vacca. Vacca is the Latin word for which animal?",
+   "answer": "Cow",
+   "accept": [
+    "cow",
+    "cows",
+    "a cow",
+    "cattle"
+   ],
+   "explanation": "Vaccine comes from vacca, Latin for cow: Jenner used cowpox from milkmaid Sarah Nelmes to protect James Phipps against smallpox in 1796.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor"
+   ]
+  },
+  {
+   "id": "q1005116",
+   "topic": "history",
+   "question": "Remembered as the Lady with the Lamp for her night rounds among wounded soldiers in the Crimean War, she was also a gifted statistician. Her rose-shaped diagrams of army deaths helped win sanitary reform, and she became the first woman elected a Fellow of the Royal Statistical Society. Name her.",
+   "answer": "Florence Nightingale",
+   "accept": [
+    "florence nightingale",
+    "nightingale"
+   ],
+   "explanation": "Florence Nightingale's polar-area coxcomb diagrams showed most Crimean War deaths came from preventable disease; she was the first woman elected to the Royal Statistical Society.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005117",
+   "topic": "history",
+   "question": "For thousands of years people chewed willow bark to ease pain and fever. In 1897 a chemist at the German firm Bayer produced a pure, stable form of a compound related to the bark's active ingredient, and Bayer launched it in 1899 under a brand name that is now a household word. What is it?",
+   "answer": "Aspirin",
+   "accept": [
+    "aspirin",
+    "acetylsalicylic acid"
+   ],
+   "explanation": "Bayer chemists, traditionally credited to Felix Hoffmann, made pure acetylsalicylic acid in 1897; Bayer launched it as Aspirin in 1899, a descendant of the salicin in willow bark.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor"
+   ]
+  },
+  {
+   "id": "q1005118",
+   "topic": "business",
+   "question": "Pfizer scientists in Sandwich, England, developed a drug called sildenafil to treat angina. In trials it did little for the heart, but male volunteers reported a rather different effect. Approved in the United States in 1998, under what blue-pill brand name was it sold?",
+   "answer": "Viagra",
+   "accept": [
+    "viagra"
+   ],
+   "explanation": "Sildenafil was meant for angina; after trials revealed its side effect, the FDA approved it as Viagra for erectile dysfunction on 27 March 1998.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor"
+   ]
+  },
+  {
+   "id": "q1005119",
+   "topic": "usa",
+   "question": "Born in Michigan to parents from India who worked as engineers at Ford, this doctor practises neurosurgery at Grady Memorial Hospital in Atlanta and teaches at Emory University. Most Americans, though, know him as CNN's chief medical correspondent. Name him.",
+   "answer": "Sanjay Gupta",
+   "accept": [
+    "sanjay gupta",
+    "gupta",
+    "dr sanjay gupta",
+    "doctor sanjay gupta"
+   ],
+   "explanation": "Sanjay Gupta, born in Novi, Michigan in 1969, is a neurosurgeon at Emory and Grady and CNN's chief medical correspondent.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005120",
+   "topic": "cinema",
+   "question": "In 1994 NBC launched a medical drama set in the emergency room of Chicago's County General Hospital. Among its cast was a heart-throb playing the paediatrician Doug Ross, the role that made him a movie star. Name the actor.",
+   "answer": "George Clooney",
+   "accept": [
+    "george clooney",
+    "clooney"
+   ],
+   "explanation": "George Clooney played paediatrician Doug Ross on ER from its 1994 debut, which launched his film career.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005121",
+   "topic": "cinema",
+   "question": "In a 2003 Hindi comedy, a lovable Mumbai gangster bluffs his way into medical college. His cure for everything from grief to a bad temper is a big warm hug. What does Munna Bhai call it?",
+   "answer": "Jaadu ki jhappi",
+   "accept": [
+    "jaadu ki jhappi",
+    "jadoo ki jhappi",
+    "jadu ki jhappi",
+    "jhappi",
+    "magic hug"
+   ],
+   "explanation": "In Rajkumar Hirani's Munna Bhai MBBS, Sanjay Dutt's Munna wins over patients and staff with his jaadu ki jhappi, or magic hug.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor"
+   ]
+  },
+  {
+   "id": "q1005122",
+   "topic": "history",
+   "question": "In 1854 a London doctor investigated a cholera outbreak in Soho, traced the deaths to a single water pump on Broad Street, and persuaded officials to take off its handle. He is hailed as a father of epidemiology, and his name sounds just like that of a brooding fantasy television hero who, we are told, knows nothing. Name him.",
+   "answer": "John Snow",
+   "accept": [
+    "john snow",
+    "snow",
+    "jon snow",
+    "dr john snow"
+   ],
+   "explanation": "John Snow persuaded the parish board to remove the Broad Street pump handle on 8 September 1854; his famous map of the deaths followed, a founding moment of epidemiology.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005123",
+   "topic": "history",
+   "question": "In 1879 a Saint Louis chemist created an alcohol-based surgical antiseptic. He named it after the British surgeon who had pioneered carbolic acid to keep surgical wounds free of infection. Today it sits by bathroom sinks as a mouthwash. Name the surgeon it honours.",
+   "answer": "Joseph Lister",
+   "accept": [
+    "joseph lister",
+    "lister",
+    "lord lister"
+   ],
+   "explanation": "Listerine was created in St. Louis in 1879 and named after Joseph Lister, father of antiseptic surgery.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor",
+    "personalities"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005124",
+   "topic": "history",
+   "question": "On 3 December 1967, at Groote Schuur Hospital in Cape Town, a South African surgeon led the operation that gave a grocer named Louis Washkansky a new heart. It was the world's first human-to-human heart transplant. Name the surgeon.",
+   "answer": "Christiaan Barnard",
+   "accept": [
+    "christiaan barnard",
+    "barnard",
+    "chris barnard",
+    "christian barnard"
+   ],
+   "explanation": "Christiaan Barnard performed the first human heart transplant in Cape Town on 3 December 1967.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor",
+    "personalities"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005125",
+   "topic": "history",
+   "question": "America marks Doctors' Day on March 30, the date in 1842 when Crawford Long used ether to put a patient to sleep before an operation. India marks it on July 1, because a great physician who also served as Chief Minister of West Bengal was born on that date in 1882 and died on it in 1962. Name him.",
+   "answer": "Bidhan Chandra Roy",
+   "accept": [
+    "bidhan chandra roy",
+    "b c roy",
+    "bc roy",
+    "b.c. roy",
+    "dr b c roy",
+    "bidhan roy",
+    "roy",
+    "b. c. roy",
+    "dr bidhan chandra roy"
+   ],
+   "explanation": "India's National Doctors' Day, 1 July, honours Dr Bidhan Chandra Roy, born 1 July 1882 and died 1 July 1962.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor",
+    "personalities"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005126",
+   "topic": "books",
+   "question": "This Delhi-born oncologist at Columbia University called his 2010 history of cancer a biography. The Emperor of All Maladies won the 2011 Pulitzer Prize for General Nonfiction, and he followed it with a book called The Gene. Name him.",
+   "answer": "Siddhartha Mukherjee",
+   "accept": [
+    "siddhartha mukherjee",
+    "mukherjee",
+    "sid mukherjee"
+   ],
+   "explanation": "Siddhartha Mukherjee's The Emperor of All Maladies: A Biography of Cancer won the 2011 Pulitzer Prize for General Nonfiction.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005127",
+   "topic": "general",
+   "question": "On the TV drama House, Hugh Laurie's limping genius argues through differential diagnoses with his team. One autoimmune disease is suggested so often, and turns out to be the answer so rarely, that the line It's never this disease became a running joke among fans. Name the disease.",
+   "answer": "Lupus",
+   "accept": [
+    "lupus",
+    "sle",
+    "systemic lupus erythematosus",
+    "lupus erythematosus"
+   ],
+   "explanation": "It's never lupus became a running gag on House: the team floated lupus again and again, but it was almost never the diagnosis.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor"
+   ]
+  },
+  {
+   "id": "q1005128",
+   "topic": "history",
+   "question": "On 12 April 1955, the day his polio vaccine was declared safe and effective, Edward R. Murrow asked this American virologist on television who owned the patent. He replied: The people, I would say. There is no patent. Could you patent the sun? Name him.",
+   "answer": "Jonas Salk",
+   "accept": [
+    "jonas salk",
+    "salk"
+   ],
+   "explanation": "Jonas Salk told Edward R. Murrow on CBS's See It Now, on 12 April 1955, that there was no patent on his polio vaccine.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor",
+    "personalities"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005129",
+   "topic": "history",
+   "question": "In 1847 at Vienna General Hospital, a young Hungarian obstetrician noticed that mothers on the ward run by doctors, who often came straight from the autopsy room, caught childbed fever far more often than mothers on the midwives' ward. He made everyone wash their hands in chlorinated lime, and deaths plunged. Name him.",
+   "answer": "Ignaz Semmelweis",
+   "accept": [
+    "ignaz semmelweis",
+    "semmelweis",
+    "ignac semmelweis",
+    "ignaz philipp semmelweis"
+   ],
+   "explanation": "Ignaz Semmelweis, the saviour of mothers, cut maternal deaths at Vienna's First Obstetrical Clinic from about 18 percent to around 2 percent with handwashing.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005130",
+   "topic": "history",
+   "question": "Born near Bombay in 1865, she sailed from Calcutta to New York in 1883, and in March 1886 graduated from the Woman's Medical College of Pennsylvania, the first Indian woman to earn a medical degree in America. Fittingly for a pioneer, her first name comes from the Sanskrit word for bliss. Name her.",
+   "answer": "Anandibai Joshi",
+   "accept": [
+    "anandibai joshi",
+    "anandi joshi",
+    "anandibai joshee",
+    "anandi gopal joshi",
+    "anandi gopal",
+    "anandibai",
+    "anandi",
+    "joshi",
+    "anandibai gopal joshi"
+   ],
+   "explanation": "Anandibai Joshi, from Kalyan, graduated from the Woman's Medical College of Pennsylvania in 1886, the first Indian woman to earn a US medical degree.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005131",
+   "topic": "history",
+   "question": "A Greek doctor who spent nearly fifty years at Cornell showed in 1928 that cancer cells could be spotted in a simple smear examined under a microscope, with his wife serving as his technician and test subject. His long surname survives, cut down to three letters, in a screening test that millions of women take. Name him.",
+   "answer": "Georgios Papanikolaou",
+   "accept": [
+    "georgios papanikolaou",
+    "george papanicolaou",
+    "papanikolaou",
+    "papanicolaou",
+    "george papanikolaou",
+    "georgios papanicolaou"
+   ],
+   "explanation": "The Pap smear is named after Georgios Papanikolaou, who reported in 1928 that cancer cells could be detected in vaginal smears.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_doctor",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005132",
+   "topic": "usa",
+   "question": "On 3 January 2019 the Saint Louis Blues were dead last in the entire National Hockey League. Five months later they won their first Stanley Cup, powered by a 1982 Laura Branigan hit that the players had heard in a Philadelphia bar and blasted after every win. Name the song.",
+   "answer": "Gloria",
+   "accept": [
+    "gloria",
+    "play gloria"
+   ],
+   "explanation": "The Blues went from last in the league in January 2019 to beating Boston in Game 7 of the Final, with Gloria as their victory song.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america",
+    "stl_sport"
+   ]
+  },
+  {
+   "id": "q1005133",
+   "topic": "usa",
+   "question": "The Cardinals' fiercest rivals play about 300 miles up Interstate 55, and the two clubs have been feuding since the 1890s. Saint Louis fans had to watch them end a 108-year World Series drought in 2016. Name the team.",
+   "answer": "Chicago Cubs",
+   "accept": [
+    "chicago cubs",
+    "cubs",
+    "the cubs",
+    "chicago"
+   ],
+   "explanation": "The Cardinals and Cubs, the Interstate 55 rivalry, is one of baseball's oldest; the Cubs won in 2016 for the first time since 1908.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america",
+    "stl_sport"
+   ]
+  },
+  {
+   "id": "q1005134",
+   "topic": "usa",
+   "question": "On 7 April 1933, to celebrate beer becoming legal again near the end of Prohibition, August Busch Junior surprised his father outside the Saint Louis brewery with a team of giant horses pulling a red, white and gold beer wagon. That Scottish breed has been Budweiser's best-loved mascot ever since. Name the breed.",
+   "answer": "Clydesdale",
+   "accept": [
+    "clydesdale",
+    "clydesdales",
+    "budweiser clydesdales"
+   ],
+   "explanation": "The Budweiser Clydesdales debuted on 7 April 1933 as August Busch Jr.'s gift to his father to mark the return of legal beer.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ]
+  },
+  {
+   "id": "q1005135",
+   "topic": "history",
+   "question": "In May 1927 a young airmail pilot flew solo and non-stop from New York to Paris in about 33 and a half hours. His single-engine plane was named for the city of the businessmen who paid for it: the Spirit of Saint Louis. Name the pilot.",
+   "answer": "Charles Lindbergh",
+   "accept": [
+    "charles lindbergh",
+    "lindbergh",
+    "lucky lindy",
+    "charles a lindbergh"
+   ],
+   "explanation": "Charles Lindbergh landed at Le Bourget on 21 May 1927; his plane was named for its St. Louis backers.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005136",
+   "topic": "usa",
+   "question": "Saint Louis-style pizza has a cracker-thin crust, is cut into squares, and is topped with a gooey processed cheese made from cheddar, Swiss and provolone that most of the country has never heard of. Imo's made it famous. Name the cheese.",
+   "answer": "Provel",
+   "accept": [
+    "provel",
+    "provel cheese"
+   ],
+   "explanation": "Provel, a processed blend of cheddar, Swiss and provolone, is the signature cheese on St. Louis-style pizza at Imo's.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ]
+  },
+  {
+   "id": "q1005137",
+   "topic": "usa",
+   "question": "At Ted Drewes on old Route 66, the signature frozen custard is blended so thick that it is handed through the window upside down, and it does not fall out. It shares its name with a building material. What is it called?",
+   "answer": "Concrete",
+   "accept": [
+    "concrete",
+    "a concrete",
+    "concretes"
+   ],
+   "explanation": "A Ted Drewes concrete is frozen custard so thick it is served upside down, a St. Louis favourite on old Route 66.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ]
+  },
+  {
+   "id": "q1005138",
+   "topic": "usa",
+   "question": "The Gateway Arch is 630 feet tall and just as wide at its base. Its Finnish-born architect won the design competition in 1948 but died in 1961, before construction began. He also designed the swooping TWA terminal at New York's JFK Airport and the Tulip chair. Name him.",
+   "answer": "Eero Saarinen",
+   "accept": [
+    "eero saarinen",
+    "saarinen"
+   ],
+   "explanation": "Eero Saarinen won the 1948 Jefferson National Expansion Memorial competition; the Arch was completed in 1965, four years after his death.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005139",
+   "topic": "cinema",
+   "question": "A 1944 MGM musical follows the Smith family through the year before their city hosts the 1904 World's Fair. Its star introduced The Trolley Song and Have Yourself a Merry Little Christmas, and married the film's director, Vincente Minnelli, the following year. Name her.",
+   "answer": "Judy Garland",
+   "accept": [
+    "judy garland",
+    "garland",
+    "frances gumm"
+   ],
+   "explanation": "Judy Garland starred in Meet Me in St. Louis in 1944 and married director Vincente Minnelli in 1945.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005140",
+   "topic": "books",
+   "question": "Born in Saint Louis in 1888, this poet moved to England and won the Nobel Prize in Literature in 1948. His 1939 book of light verse about Macavity, Mr. Mistoffelees and their friends became the basis of the musical Cats. Name him.",
+   "answer": "T. S. Eliot",
+   "accept": [
+    "t s eliot",
+    "ts eliot",
+    "t.s. eliot",
+    "t. s. eliot",
+    "eliot",
+    "thomas stearns eliot"
+   ],
+   "explanation": "T. S. Eliot, born in St. Louis, wrote Old Possum's Book of Practical Cats in 1939, which Andrew Lloyd Webber set to music as Cats in 1981.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america",
+    "personalities"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005141",
+   "topic": "business",
+   "question": "When many Indian families landed in America in the early 2000s, movie night arrived by post: a DVD in a bright red envelope, watched and mailed back. The company shipped its very last disc in September 2023, long after it had become a streaming giant. Name it.",
+   "answer": "Netflix",
+   "accept": [
+    "netflix"
+   ],
+   "explanation": "Netflix mailed more than 5 billion discs in red envelopes before shipping its final disc, a copy of True Grit, on September 29, 2023.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ]
+  },
+  {
+   "id": "q1005142",
+   "topic": "business",
+   "question": "This members-only warehouse club sells its own Kirkland Signature brand, giant packs of everything, and a hot dog with a soda for a dollar fifty, a price it has not changed since 1985. Name the store.",
+   "answer": "Costco",
+   "accept": [
+    "costco",
+    "costco wholesale"
+   ],
+   "explanation": "Costco's hot dog and soda combo has cost a dollar fifty since 1985, and Kirkland Signature is its house brand.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ]
+  },
+  {
+   "id": "q1005143",
+   "topic": "usa",
+   "question": "By the early 1960s, Philadelphia police had a gloomy name for the day after Thanksgiving, when crowds of shoppers jammed the city's streets. Today the name means doorbuster deals and the start of the Christmas shopping rush. What is the day called?",
+   "answer": "Black Friday",
+   "accept": [
+    "black friday"
+   ],
+   "explanation": "Black Friday was popularised by Philadelphia police for the traffic chaos after Thanksgiving; the story about stores going into the black came later.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ]
+  },
+  {
+   "id": "q1005144",
+   "topic": "business",
+   "question": "On January 9, 2007, Steve Jobs told a San Francisco audience that Apple was launching three products: a widescreen music player, a revolutionary mobile phone and an internet communicator. Then he revealed they were all one device. Name it.",
+   "answer": "iPhone",
+   "accept": [
+    "iphone",
+    "the iphone",
+    "apple iphone"
+   ],
+   "explanation": "Jobs unveiled the iPhone at Macworld on January 9, 2007, and it went on sale in late June that year.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ]
+  },
+  {
+   "id": "q1005145",
+   "topic": "usa",
+   "question": "From 2011 to 2019, Sunday nights on HBO belonged to dragons, the Stark family of Winterfell and the grim warning that winter is coming, all adapted from George R. R. Martin's fantasy novels. Name the series.",
+   "answer": "Game of Thrones",
+   "accept": [
+    "game of thrones",
+    "got"
+   ],
+   "explanation": "Game of Thrones ran on HBO from April 2011 to May 2019, adapted from Martin's A Song of Ice and Fire.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ]
+  },
+  {
+   "id": "q1005146",
+   "topic": "music",
+   "question": "Between March 2023 and December 2024, this singer played 149 shows across five continents, each one more than three hours long, walking fans through every chapter of her career. The tour grossed more than 2 billion dollars, the most of any concert tour ever. Name her.",
+   "answer": "Taylor Swift",
+   "accept": [
+    "taylor swift",
+    "swift",
+    "taylor"
+   ],
+   "explanation": "Taylor Swift's Eras Tour ended in Vancouver on December 8, 2024, having sold about 2.08 billion dollars in tickets, a record for any concert tour.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005147",
+   "topic": "usa",
+   "question": "In 1985 Balu Natarajan became the first Indian-American to win it. From 2008 to 2019, Indian-American children won it every single year, standing alone at a microphone and asking for the word to be used in a sentence. Name this annual contest.",
+   "answer": "Scripps National Spelling Bee",
+   "accept": [
+    "scripps national spelling bee",
+    "national spelling bee",
+    "spelling bee",
+    "scripps spelling bee",
+    "the spelling bee"
+   ],
+   "explanation": "Balu Natarajan won the Scripps National Spelling Bee in 1985, and Indian-American spellers won every year from 2008 to 2019.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ]
+  },
+  {
+   "id": "q1005148",
+   "topic": "usa",
+   "question": "From the 1970s onward, Gujarati immigrants bought up a huge share of America's roadside motels. So many of those owners share one surname that it became shorthand for the whole community of Indian motel owners. What is the surname?",
+   "answer": "Patel",
+   "accept": [
+    "patel",
+    "patels"
+   ],
+   "explanation": "Most Indian-American motel owners are Gujaratis, and so many are named Patel that people speak of Patel motels.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ]
+  },
+  {
+   "id": "q1005149",
+   "topic": "cinema",
+   "question": "In a 2004 comedy, Kal Penn plays Kumar, a young man dodging his family's plan to make him a doctor, who sets off across New Jersey one night with his friend Harold, desperate for tiny square burgers called sliders. Name the burger chain in the film's title.",
+   "answer": "White Castle",
+   "accept": [
+    "white castle"
+   ],
+   "explanation": "In Harold and Kumar Go to White Castle, John Cho and Kal Penn spend a whole night chasing White Castle sliders.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005150",
+   "topic": "usa",
+   "question": "On The Big Bang Theory, this astrophysicist from New Delhi works at Caltech alongside Sheldon and Leonard, and for years he cannot say a single word to a woman unless he has had a drink. Name the character.",
+   "answer": "Raj Koothrappali",
+   "accept": [
+    "raj koothrappali",
+    "raj",
+    "koothrappali",
+    "rajesh koothrappali"
+   ],
+   "explanation": "Raj Koothrappali, played by Kunal Nayyar, struggled with selective mutism around women in the show's early seasons.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005151",
+   "topic": "music",
+   "question": "Lin-Manuel Miranda took the life of the Caribbean-born orphan who became America's first Treasury Secretary, the face on the ten-dollar bill, and turned it into a hip-hop Broadway musical in 2015. It won 11 Tony Awards. Name the musical.",
+   "answer": "Hamilton",
+   "accept": [
+    "hamilton",
+    "alexander hamilton",
+    "hamilton an american musical"
+   ],
+   "explanation": "Hamilton opened on Broadway in August 2015, earned a record 16 Tony nominations and won 11.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1005152",
+   "topic": "general",
+   "question": "Back in Bangalore, the suitcases for a family trip went into the dicky of the Ambassador or the Maruti. The British call that space the boot. What do Americans call it?",
+   "answer": "Trunk",
+   "accept": [
+    "trunk",
+    "the trunk",
+    "car trunk"
+   ],
+   "explanation": "Indian English dicky comes from the dickey, an old British name for a fold-out seat at the back of a carriage or early motor car; the British say boot and Americans say trunk.",
+   "difficulty": 1,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ]
+  },
+  {
+   "id": "q1005153",
+   "topic": "geography",
+   "question": "Apple named two versions of its Mac software after this California national park and its most famous granite wall, El Capitan, which Alex Honnold climbed without ropes in the Oscar-winning film Free Solo. Half Dome is here too. Name the park.",
+   "answer": "Yosemite National Park",
+   "accept": [
+    "yosemite",
+    "yosemite national park",
+    "yosemite park"
+   ],
+   "explanation": "OS X Yosemite and OS X El Capitan were named after Yosemite National Park, where Honnold free-soloed El Capitan in June 2017.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ]
+  },
+  {
+   "id": "q1005154",
+   "topic": "usa",
+   "question": "In July 2010, a basketball star announced on live television that he would take his talents to South Beach, and Cleveland fans were furious. He came home in 2014, won Cleveland a title in 2016, and later became the NBA's all-time leading scorer. Name him.",
+   "answer": "LeBron James",
+   "accept": [
+    "lebron james",
+    "lebron",
+    "james",
+    "king james"
+   ],
+   "explanation": "LeBron James announced his move to the Miami Heat on ESPN's The Decision and passed Kareem Abdul-Jabbar's scoring record on February 7, 2023.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america",
+    "personalities",
+    "stl_sport"
+   ]
+  },
+  {
+   "id": "q1005155",
+   "topic": "music",
+   "question": "At the 2015 Super Bowl halftime show in Arizona, a backup dancer in a shark costume lost track of the choreography and became an internet sensation called Left Shark. Whose show was it, the singer of Roar, Firework and I Kissed a Girl?",
+   "answer": "Katy Perry",
+   "accept": [
+    "katy perry",
+    "perry",
+    "katy"
+   ],
+   "explanation": "Left Shark stumbled through Teenage Dream during Katy Perry's halftime show at Super Bowl 49 in Glendale, Arizona, on February 1, 2015.",
+   "difficulty": 2,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america",
+    "personalities"
+   ]
+  },
+  {
+   "id": "q1005156",
+   "topic": "geography",
+   "question": "On a road trip through the American Southwest, at a monument run by the Navajo Nation, you can crouch down and put each hand and each foot in a different state: Arizona, Utah, Colorado and New Mexico. It is the only point in the country shared by that many states. What is the spot called?",
+   "answer": "Four Corners",
+   "accept": [
+    "four corners",
+    "four corners monument",
+    "the four corners"
+   ],
+   "explanation": "The Four Corners Monument marks the only point in the United States where four states meet.",
+   "difficulty": 3,
+   "created": "2026-10-05",
+   "themes": [
+    "stl_mode",
+    "stl_america"
+   ]
   }
  ]
 }
