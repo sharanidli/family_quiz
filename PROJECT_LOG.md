@@ -266,6 +266,7 @@ For tonight's in-person game with two of Sharan's cousins (both ~50, both doctor
 - Final: difficulty 67 easy / 58 medium / 16 hard (48/41/11%); 30 bid-eligible. Theme pools: Chitrahaar 38, Stateside 25, Bangalore 23, Friends and MTV 23, Sport 18, Doctor 17.
 - **Bank fix:** `c003` dated Kumble's 10/74 to 10 February 1999; corrected to 7 February 1999 (flagged by the sport checker).
 - Sharan did not see any question text (he is playing).
+- **Live at commit `ebe4dc8`** (pushed 2026-10-05; Pages build confirmed serving the new questions and toggle).
 
 ## Multiplayer "next level" idea (not yet built)
 
