@@ -294,6 +294,7 @@ Sharan agreed the St. Louis batch (Friends, St. Louis, doctor questions) is odd 
 - **Bank fix:** `u031` (Mahendra Kapoor) credited "Yeh Dosti" (Kishore Kumar and Manna Dey) and an unverifiable song and claim to him; replaced with verified songs (`bank_fixes_easy_2026-10-22.json`).
 - **Bank: 2,415 → 2,515.** Easy pool for Hot Seat outside the St. Louis batch: 132 (100 new + 32 from July), plus 20 easy songs that only the Lost in Translation theme uses. Backups `*.bak_before_easy_2026-10-22`.
 - Note: this batch is now the "new batch", so on 2026-10-22/23 the Question set defaults to **All new**, which makes Long and Bid all easy; Hot Seat keeps its ramp via the full-bank fallback.
+- **Live at commit `104dfcb`** (pushed 2026-10-22; Pages build sat ~12 min in GitHub's queue during an Actions incident, then served the new questions and lineup at 10:46).
 - **Default lineup now 10 rounds** (Sharan's request): Long, Cinema, Bid, Business, **Lost in Translation (4)**, Long, Connect, Current Affairs, Bid, **Hot Seat** (finale).
 - **Tests after merge** (headless): normal game with All new: Long/Bid served only the new easy batch, Hot Seat 3/std/1/1 in every seat, 0 St. Louis questions, LiT round only songs; St. Louis Mode 40 of 40 STL; Hot Seat scores match; 0 errors.
 
