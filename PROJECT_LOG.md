@@ -267,6 +267,35 @@ For tonight's in-person game with two of Sharan's cousins (both ~50, both doctor
 - **Bank fix:** `c003` dated Kumble's 10/74 to 10 February 1999; corrected to 7 February 1999 (flagged by the sport checker).
 - Sharan did not see any question text (he is playing).
 - **Live at commit `ebe4dc8`** (pushed 2026-10-05; Pages build confirmed serving the new questions and toggle).
+- **Played 2026-10-05: "the quiz went great"** (Sharan). Afterwards they asked for extra Friends trivia in chat, so Friends is a hit topic for this group.
+
+### Hot Seat round + Lost in Translation theme (2026-10-22)
+
+For the next game with Sharan's in-laws. Designed with Sharan in chat (he proposed Hot Seat; picked Lost in Translation from a shortlist that also had Antakshari, Closest Wins, Family Round).
+
+**Hot Seat** (new round type `hotseat`, "+ Hot Seat" button): each player in seat order takes 4 questions in a row. All four wagers (5/10/20) are locked in on one sheet before Q1. The clock starts once the voice finishes reading: 30 / 20 / 10 / 10 s, with ticks in the last 5 s and a buzzer at 0. Questions get easier as the clock shrinks (`HOTSEAT_TIERS`: Q1 hard = difficulty 3, Q2 medium = 2 or untagged, Q3–Q4 easy = 1, each with fallbacks). Right = +wager, wrong = −wager; out of time shows "Time!" and the host marks it (Sharan: wrong gets negative; no steals, so no Pass/Pounce). Reveal after Q4 shows the player's Hot Seat net. Shares wager scoring with Bid via `isWagerRound`. Also: back-to-setup now clears timers; tick/buzzer use one shared AudioContext.
+- Headless test (3 players): wager sheet gating, tiers 3/std/1/1 in every seat, real 10 s timeout, scores match hand-computed ±wager totals, 0 errors.
+- **Thin spot:** the easy tier (difficulty 1) has only ~99 questions (32 from 2026-07-10, 67 from the St. Louis batch); a fresh easy India batch would help the Hot Seat's Q3–Q4.
+
+**Lost in Translation** (Theme option `lost_in_translation`): the voice reads a classic Hindi film song's opening line translated word for word into English; name the song. Not timed. 40 songs, 1950s–2000s, two writers split by era (`new_batch_2026-10-22/LIT_BRIEF.md`), then fact-checkers. Tagged theme-only (`THEME_ONLY_TAGS`, `isThemeOnly`): never drawn by Long/Bid/Hot Seat and ignored when working out the "new batch".
+- **Result: 40 songs merged** (`q1022001`–`q1022040`; 20 from films of 1950–72, 20 from 1973–2009; difficulty 20 easy / 16 medium / 4 hard). 44 drafted, 0 dropped by checkers (lane A 0 patched; lane B 6 patched, incl. four songs switched from an intro line to the famous hook). Surplus A21, A22, B21, B22 kept in `reviewed_lit_*.json` for later. Songs that are merely mentioned in old bank questions were kept (≈1% chance of meeting in one game).
+- **Bank cleanup:** an audit agent reviewed 51 flagged old questions (drafting notes read aloud; answer named in its own question) plus 14 more of the same pattern: 63 patched (9 also had factual errors), 2 false positives, 0 dropped (`bank_fixes_2026-10-22.json/.md`, applied by `merge_2026-10-22.py`). **29 more** surname-level give-away candidates are listed at the end of `bank_fixes_2026-10-22.md` for a follow-up pass.
+- **Bank: 2,375 → 2,415.** Backups `*.bak_before_2026-10-22`.
+- **Full-game headless test** (Long, Lost in Translation theme, Bid, Hot Seat, Long Tail): LiT round served only song questions, 0 leaks into other rounds, Hot Seat tiers 3/std/1/1 in every seat, source selector defaults to Full (songs don't count as a new batch), end screen reached, 0 errors.
+
+### Easy India batch + St. Louis batch kept out of normal play (2026-10-22, later)
+
+Sharan agreed the St. Louis batch (Friends, St. Louis, doctor questions) is odd for his in-laws and asked for a fresh easy set to feed Hot Seat Q3–Q4.
+- **St. Louis batch is now St. Louis Mode only**: `modeFilterFn()` excludes `stl_mode` questions in normal and Iranian play; STL connects only in STL Mode; the STL batch never counts as the "new batch".
+- **Hot Seat tier fallback**: within each difficulty tier it tries the chosen question set, then the whole bank (`state.pool.fullRegular`), so "All new" (which will be all-easy once this batch lands) can't flatten the hard-to-easy ramp.
+- Headless tests: normal game served 0 of 27 STL questions (0 of 3 connects); STL Mode served 40 of 40 STL; Hot Seat ramp intact in both; 0 errors.
+- **Easy batch**: 5 writers (`EASY_BRIEF.md`; lanes e_sport 22, e_film 22, e_hist 20, e_geo 20, e_mix 22), all `difficulty: 1`, India-focused for a mixed-age family, then fact-checkers; `merge_easy_2026-10-22.py` assigns `q1022101`+.
+- **Result: +100 easy questions** (`q1022101`–`q1022200`; sport 18, film 22, history 19, geography and culture 20, mythology/books/brands/science 21; 21 bid-eligible). 106 drafted → checkers kept 104 (dropped a namesake give-away and a repeat of bank n027; patched ~30) → merge dropped 4 more as in-batch spoilers. 21 reuse an existing bank answer on a checker-cleared different angle.
+- **Bank fix:** `u031` (Mahendra Kapoor) credited "Yeh Dosti" (Kishore Kumar and Manna Dey) and an unverifiable song and claim to him; replaced with verified songs (`bank_fixes_easy_2026-10-22.json`).
+- **Bank: 2,415 → 2,515.** Easy pool for Hot Seat outside the St. Louis batch: 132 (100 new + 32 from July), plus 20 easy songs that only the Lost in Translation theme uses. Backups `*.bak_before_easy_2026-10-22`.
+- Note: this batch is now the "new batch", so on 2026-10-22/23 the Question set defaults to **All new**, which makes Long and Bid all easy; Hot Seat keeps its ramp via the full-bank fallback.
+- **Default lineup now 10 rounds** (Sharan's request): Long, Cinema, Bid, Business, **Lost in Translation (4)**, Long, Connect, Current Affairs, Bid, **Hot Seat** (finale).
+- **Tests after merge** (headless): normal game with All new: Long/Bid served only the new easy batch, Hot Seat 3/std/1/1 in every seat, 0 St. Louis questions, LiT round only songs; St. Louis Mode 40 of 40 STL; Hot Seat scores match; 0 errors.
 
 ## Multiplayer "next level" idea (not yet built)
 

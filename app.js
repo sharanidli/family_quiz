@@ -14,7 +14,33 @@ const THEME_OPTIONS = [
   { id: 'languages',   label: 'Languages & Literature' },
   { id: 'current_affairs', label: 'Current Affairs (this decade)' },
   { id: 'personalities',   label: 'Personalities' },
+  { id: 'lost_in_translation', label: 'Lost in Translation' },
 ];
+
+// Questions in these themes only make sense inside their own Theme round (a song line
+// translated word for word), so Long, Bid and Hot Seat never draw them.
+const THEME_ONLY_TAGS = ['lost_in_translation'];
+
+function isThemeOnly(q) {
+  return Array.isArray(q.themes) && q.themes.some(t => THEME_ONLY_TAGS.includes(t));
+}
+
+// Hot Seat: one player takes four questions in a row, locks in all four wagers before
+// the first, and the clock (started once the question has been read) shrinks as the
+// questions get easier. Each entry lists the difficulty tiers to try, in order.
+const HOTSEAT_SECONDS = [30, 20, 10, 10];
+const HOTSEAT_TIERS = [
+  ['hard', 'medium', 'easy'],
+  ['medium', 'easy', 'hard'],
+  ['easy', 'medium', 'hard'],
+  ['easy', 'medium', 'hard'],
+];
+// Untagged questions predate the 1/2/3 tiers and were written as standard (not hard).
+const DIFFICULTY_TIER = {
+  hard:   q => q.difficulty === 3,
+  medium: q => q.difficulty === 2 || q.difficulty == null,
+  easy:   q => q.difficulty === 1,
+};
 
 // Theme options shown when Iranian Mode is on. Picker filters out everything India-specific.
 const IRANIAN_THEME_OPTIONS = [
@@ -100,7 +126,7 @@ const state = {
   questions: [],
   activeQuestions: [],        // the questions in play this game after the source filter (all/new/mainly)
   questionSource: 'full',     // 'full' | 'new' | 'mainly'
-  pool: { byTopic: {}, byTheme: {}, connect: [], all: [] },
+  pool: { byTopic: {}, byTheme: {}, connect: [], all: [], fullRegular: [] },
   used: new Set(),
   phase: 'setup',
   currentQuestion: null,
@@ -112,6 +138,8 @@ const state = {
   iranianMode: false,
   stlMode: false,
   roundsBeforeStl: null,      // lineup to restore when St. Louis Mode is switched off
+  hotseatWagers: [],          // the four wagers locked in by the player in the Hot Seat
+  hotseatTally: 0,            // that player's net points so far in their Hot Seat run
   voiceRate: 1.15,
   listening: false,
   recognition: null,
@@ -199,11 +227,15 @@ function renderRounds() {
     }
 
     const countLabel = (r.type === 'theme' || r.type === 'connect') ? 'questions' : 'per player';
-    cells.push(el('input', {
-      type: 'number', min: 1, max: 20, value: r.count,
-      title: countLabel,
-      oninput: (e) => { r.count = Math.max(1, parseInt(e.target.value) || 1); },
-    }));
+    if (r.type === 'hotseat') {
+      cells.push(el('span', { class: 'muted small' }, `${HOTSEAT_SECONDS.length} per player`));
+    } else {
+      cells.push(el('input', {
+        type: 'number', min: 1, max: 20, value: r.count,
+        title: countLabel,
+        oninput: (e) => { r.count = Math.max(1, parseInt(e.target.value) || 1); },
+      }));
+    }
 
     cells.push(el('button', {
       class: 'remove',
@@ -212,8 +244,8 @@ function renderRounds() {
     }, '×'));
 
     // Pounce & Bounce toggle — full-width sub-row. Not offered for Connect (it is
-    // already a buzzer format) or single-player games.
-    if (r.type !== 'connect') {
+    // already a buzzer format) or the Hot Seat (no steals).
+    if (r.type !== 'connect' && r.type !== 'hotseat') {
       const pounceLabel = el('label', { class: 'pounce-toggle', style: 'grid-column: 1 / -1;' });
       const cb = el('input', {
         type: 'checkbox',
@@ -234,6 +266,7 @@ function roundLabel(r) {
   if (r.type === 'theme')   return 'Theme Round';
   if (r.type === 'bid')     return 'Bid Round';
   if (r.type === 'connect') return 'Connect';
+  if (r.type === 'hotseat') return 'Hot Seat';
   return r.type;
 }
 
@@ -243,6 +276,7 @@ function addRound(type) {
     theme:   { type: 'theme',   count: 6, theme: 'cricket' },
     bid:     { type: 'bid',     count: 1 },
     connect: { type: 'connect', count: 3 },
+    hotseat: { type: 'hotseat', count: HOTSEAT_SECONDS.length },
   };
   state.rounds.push({ ...defaults[type] });
   renderRounds();
@@ -259,7 +293,7 @@ function buildPool() {
   state.questions.forEach(q => {
     if (q.callback) return;                 // callbacks feed the end-game Long Tail only
     if (q.connect) {                        // connects feed Connect rounds only
-      if (!state.stlMode || isStlQuestion(q)) state.pool.connect.push(q);
+      if (state.stlMode === isStlQuestion(q)) state.pool.connect.push(q);
       return;
     }
     const t = q.topic;
@@ -275,8 +309,11 @@ function buildPool() {
   Object.values(state.pool.byTopic).forEach(arr => shuffle(arr));
   Object.values(state.pool.byTheme).forEach(arr => shuffle(arr));
   shuffle(state.pool.connect);
-  // Long Question / Bid rounds respect the "Question set" selector (All new / Mainly / Full).
-  state.pool.all = shuffle(state.activeQuestions.filter(q => !q.callback && !q.connect));
+  // Long Question / Bid / Hot Seat rounds respect the "Question set" selector (All new /
+  // Mainly / Full); theme-only questions stay in their Theme round.
+  state.pool.all = shuffle(state.activeQuestions.filter(q => !q.callback && !q.connect && !isThemeOnly(q)));
+  // Hot Seat falls back to the whole bank tier by tier, so "All new" can't flatten its ramp.
+  state.pool.fullRegular = shuffle(state.questions.filter(q => !q.callback && !q.connect && !isThemeOnly(q)));
 }
 
 // Combine questions matching a theme key by either `topic` or `themes`
@@ -310,10 +347,12 @@ function iranianModeFilter() {
   return (q) => Array.isArray(q.themes) && q.themes.some(t => allowed.includes(t));
 }
 
-// The active mode's eligibility filter (St. Louis or Iranian), or null in normal play.
+// The active mode's eligibility filter. St. Louis Mode plays only its own batch; every
+// other game (normal or Iranian) never sees that batch.
 function modeFilterFn() {
   if (state.stlMode) return isStlQuestion;
-  return iranianModeFilter();
+  const iran = iranianModeFilter();
+  return iran ? (q => !isStlQuestion(q) && iran(q)) : (q => !isStlQuestion(q));
 }
 
 // ----- Question freshness / source selector -----
@@ -341,13 +380,13 @@ function recentDateSet() {
 function newBatchDate() {
   let latest = '';
   for (const q of state.questions) {
-    if (q.callback || q.connect) continue;
+    if (q.callback || q.connect || isThemeOnly(q) || isStlQuestion(q)) continue;
     if (q.created && q.created > latest) latest = q.created;
   }
   return recentDateSet().has(latest) ? latest : null;
 }
 function isNewQuestion(q, batchDate) {
-  return !!batchDate && q.created === batchDate && !q.callback && !q.connect;
+  return !!batchDate && q.created === batchDate && !q.callback && !q.connect && !isThemeOnly(q) && !isStlQuestion(q);
 }
 
 // Count of new *playable* regular questions (callbacks and connects feed their own rounds).
@@ -423,7 +462,7 @@ function nextQuestion(opts = {}) {
   // Pass 4: any unused, any topic — still honour the mode filter so we never
   // serve an India-specific question in Iranian Mode.
   for (const q of state.activeQuestions) {
-    if (q.callback || q.connect) continue;
+    if (q.callback || q.connect || isThemeOnly(q)) continue;
     if (state.used.has(q.id)) continue;
     if (modeFilter && !modeFilter(q)) continue;
     state.used.add(q.id);
@@ -572,6 +611,7 @@ function startTimer() {
 }
 
 function clearTimer() {
+  clearHotSeatClock();
   if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
   const t = $('#timer');
   if (t) { t.classList.remove('warn', 'danger', 'expired'); }
@@ -939,6 +979,9 @@ async function startRound() {
   } else if (r.type === 'connect') {
     intro = `Connect round. ${r.count} connection${r.count > 1 ? 's' : ''}. You get clue 1 — guess for 15, or pass to see clue 2 (10), then clue 3 (5). A wrong guess passes it on to the next person.`;
     spokenIntro = 'Connect round. Guess for more, or pass to see another clue. A wrong guess passes it on.';
+  } else if (r.type === 'hotseat') {
+    intro = `Hot Seat. Each of you takes the seat for ${HOTSEAT_SECONDS.length} questions in a row, with no steals. Lock in all four wagers first: 5, 10 or 20 each. The clock starts once the question has been read: ${HOTSEAT_SECONDS.join(', ')} seconds. The questions get easier as the clock gets shorter. Right wins the wager; wrong or out of time loses it.`;
+    spokenIntro = 'Hot Seat. Four questions each, a shrinking clock, and you bet before you see them.';
   } else {
     intro = `Bid round. ${r.count} per player. Wager 5, 10, or 20 — right answer wins your wager, wrong loses it.` + pounceNote;
     spokenIntro = 'Bid round. Wager five, ten, or twenty.';
@@ -958,15 +1001,22 @@ async function nextQuestionInRound() {
 
   if (state.questionInRound >= total) return endRound();
 
-  // Bid keeps its fixed rotation; Long / Theme / Connect use infinite bounce — control
-  // starts one seat past whoever last answered correctly (state.anchorIdx).
+  // Bid keeps its fixed rotation; Hot Seat gives each seat a block of four in a row;
+  // Long / Theme / Connect use infinite bounce — control starts one seat past whoever
+  // last answered correctly (state.anchorIdx).
   state.currentPlayerIdx = (r.type === 'bid')
     ? state.questionInRound % playerCount
-    : (state.anchorIdx + 1) % playerCount;
+    : (r.type === 'hotseat')
+      ? Math.floor(state.questionInRound / HOTSEAT_SECONDS.length)
+      : (state.anchorIdx + 1) % playerCount;
   state.originalPlayerIdx = state.currentPlayerIdx;
 
   if (r.type === 'connect') return askConnect();
   if (r.type === 'bid') return askForBid();
+  if (r.type === 'hotseat') {
+    const k = state.questionInRound % HOTSEAT_SECONDS.length;
+    return k === 0 ? askHotSeatWagers() : askHotSeatQuestion(k);
+  }
 
   const q = (r.type === 'theme')
     ? (nextQuestion({ topic: r.theme }) || nextQuestion({}))
@@ -1020,6 +1070,134 @@ function askForBid() {
   speak(`${player.name} — your wager?`);
 }
 
+// ----- Hot Seat -----
+function askHotSeatWagers() {
+  state.phase = 'hotseat-wager';
+  state.hotseatWagers = HOTSEAT_SECONDS.map(() => 0);
+  state.hotseatTally = 0;
+  const player = state.players[state.currentPlayerIdx];
+  renderHeader();
+  const main = $('#game-main');
+  main.innerHTML = '';
+  main.appendChild(el('div', { class: 'player-up' }, `${player.name} — you're in the Hot Seat`));
+  main.appendChild(el('p', { class: 'muted center' },
+    'Lock in all four wagers before the first question. The questions get easier as the clock gets shorter.'));
+
+  const lock = el('button', { class: 'big', disabled: true, onclick: () => askHotSeatQuestion(0) }, 'Lock in →');
+  HOTSEAT_SECONDS.forEach((secs, k) => {
+    const btns = el('div', { class: 'bid-buttons' });
+    [5, 10, 20].forEach(v => {
+      const b = el('button', {
+        class: 'ghost',
+        onclick: () => {
+          state.hotseatWagers[k] = v;
+          btns.querySelectorAll('button').forEach(x => {
+            x.classList.toggle('gold', x === b);
+            x.classList.toggle('ghost', x !== b);
+          });
+          lock.disabled = state.hotseatWagers.some(w => !w);
+        },
+      }, '+' + v);
+      btns.appendChild(b);
+    });
+    main.appendChild(el('div', { class: 'hotseat-row' }, [
+      el('span', { class: 'hotseat-label' }, `Q${k + 1} · ${secs}s`),
+      btns,
+    ]));
+  });
+  main.appendChild(lock);
+  speak(`${player.name}, you're in the hot seat. Lock in your four wagers.`);
+}
+
+// Pick the k-th Hot Seat question: walk its difficulty tiers in order, preferring
+// questions this party hasn't seen. Within a tier, try the chosen question set first,
+// then the whole bank, so the hard-to-easy ramp survives "All new". Honours the modes.
+function pickHotSeatQuestion(k) {
+  const mf = modeFilterFn();
+  for (const allowSeen of [false, true]) {
+    for (const tier of HOTSEAT_TIERS[k]) {
+      for (const pool of [state.pool.all, state.pool.fullRegular]) {
+        for (const q of pool) {
+          if (state.used.has(q.id)) continue;
+          if (!allowSeen && state.avoidRepeats && state.partySeen.has(q.id)) continue;
+          if (mf && !mf(q)) continue;
+          if (!DIFFICULTY_TIER[tier](q)) continue;
+          state.used.add(q.id);
+          return q;
+        }
+      }
+    }
+  }
+  return null;
+}
+
+async function askHotSeatQuestion(k) {
+  const q = pickHotSeatQuestion(k);
+  if (!q) { alert('Out of questions!'); return endRound(); }
+  state.currentQuestion = q;
+  state.currentBid = state.hotseatWagers[k];
+  state.phase = 'question';
+  state.matchAnnounced = false;
+  renderQuestion(q, { bid: state.currentBid, hotseat: k });
+  await speak(q.question);
+  // The host may have marked it while it was still being read.
+  if (state.phase !== 'question' || state.currentQuestion !== q) return;
+  startHotSeatClock(HOTSEAT_SECONDS[k]);
+  startListening();
+}
+
+let hotseatInterval = null;
+
+function startHotSeatClock(secs) {
+  clearHotSeatClock();
+  let left = secs;
+  renderHotSeatClock(left);
+  hotseatInterval = setInterval(() => {
+    left--;
+    renderHotSeatClock(left);
+    if (left > 0 && left <= 5) playTone(1000, 0.08, 'square', 0.08);
+    if (left <= 0) {
+      clearHotSeatClock();
+      playTone(140, 0.7, 'sawtooth', 0.2);
+      stopListening();
+      // The host still judges: an answer that beat the buzzer can be marked Right.
+    }
+  }, 1000);
+}
+
+function clearHotSeatClock() {
+  if (hotseatInterval) { clearInterval(hotseatInterval); hotseatInterval = null; }
+}
+
+function renderHotSeatClock(left) {
+  const c = $('#hotseat-clock');
+  if (!c) return;
+  c.textContent = left > 0 ? `⏱ ${left}s` : '⏱ Time!';
+  c.classList.toggle('warn', left <= 10 && left > 5);
+  c.classList.toggle('danger', left <= 5 && left > 0);
+  c.classList.toggle('expired', left <= 0);
+}
+
+// One shared AudioContext for the clock's ticks and buzzer (a new context per beep
+// would pile up across a game).
+let sharedAudioCtx = null;
+
+function playTone(freq, secs, type, vol) {
+  try {
+    if (!sharedAudioCtx) sharedAudioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    const ctx = sharedAudioCtx;
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = type;
+    osc.frequency.value = freq;
+    gain.gain.setValueAtTime(vol, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + secs);
+    osc.connect(gain).connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime + secs + 0.05);
+  } catch (e) { /* ignore */ }
+}
+
 function renderHeader() {
   const r = state.rounds[state.currentRoundIdx];
   const ri = $('#round-info');
@@ -1051,10 +1229,15 @@ function renderQuestion(q, opts = {}) {
 
   const headerEl = el('div', { class: 'player-up' });
   const headerBits = [player.name];
+  if (opts.hotseat != null) headerBits.push(`Q${opts.hotseat + 1} of ${HOTSEAT_SECONDS.length}`);
   if (opts.bid) headerBits.push(`Wager: ${opts.bid}`);
   if (opts.passing) headerBits.push('Bounce — full points');
   headerEl.appendChild(document.createTextNode(headerBits.join(' • ') + ' '));
-  if (state.timerEnabled) {
+  if (opts.hotseat != null) {
+    // Hot Seat runs its own clock, which starts once the question has been read.
+    headerEl.appendChild(el('span', { id: 'hotseat-clock', class: 'timer-chip' },
+      `⏱ ${HOTSEAT_SECONDS[opts.hotseat]}s`));
+  } else if (state.timerEnabled) {
     headerEl.appendChild(el('span', { id: 'timer', class: 'timer-chip' }, '⏱ 2:00'));
   }
   main.appendChild(headerEl);
@@ -1132,12 +1315,18 @@ function markRight() {
   // bounce score unfairly penalised the seat after a weak player, who only ever
   // received that player's failed questions as bounces.)
   let pts = 10;
-  if (r.type === 'bid') pts = state.currentBid;
+  if (isWagerRound(r)) pts = state.currentBid;
   player.score += pts;
+  if (r.type === 'hotseat') state.hotseatTally += pts;
   logEntry(player, 'right', pts);
   // Infinite bounce: control now follows this player — next question starts to their left.
-  if (r.type !== 'bid') state.anchorIdx = state.currentPlayerIdx;
+  if (!isWagerRound(r)) state.anchorIdx = state.currentPlayerIdx;
   reveal('right');
+}
+
+// Bid and Hot Seat: right wins the wager, wrong loses it, and nothing bounces.
+function isWagerRound(r) {
+  return r.type === 'bid' || r.type === 'hotseat';
 }
 
 function markWrong() {
@@ -1146,11 +1335,12 @@ function markWrong() {
   const r = state.rounds[state.currentRoundIdx];
   const player = state.players[state.currentPlayerIdx];
   let pts = 0;
-  if (r.type === 'bid') { pts = -state.currentBid; player.score += pts; }
+  if (isWagerRound(r)) { pts = -state.currentBid; player.score += pts; }
+  if (r.type === 'hotseat') state.hotseatTally += pts;
   logEntry(player, 'wrong', pts);
-  // Bid: wager already covers risk, no cascade.
+  // Bid / Hot Seat: wager already covers risk, no cascade.
   // Long / Theme: cascade to the next player like a Pass — they get a full-points chance.
-  if (r.type === 'bid') return reveal('wrong');
+  if (isWagerRound(r)) return reveal('wrong');
   cascadeToNext('wrong');
 }
 
@@ -1205,10 +1395,20 @@ async function reveal(outcome) {
   main.appendChild(el('div', { class: 'answer-reveal' }, q.answer));
   if (q.explanation) main.appendChild(el('div', { class: 'explanation' }, q.explanation));
 
+  // End of a Hot Seat run: show that player's net result for their four questions.
+  const r = state.rounds[state.currentRoundIdx];
+  const hotseatDone = r.type === 'hotseat' &&
+    state.questionInRound % HOTSEAT_SECONDS.length === HOTSEAT_SECONDS.length - 1;
+  if (hotseatDone) {
+    const t = state.hotseatTally;
+    main.appendChild(el('div', { class: 'player-up' },
+      `${state.players[state.currentPlayerIdx].name}'s Hot Seat: ${t >= 0 ? '+' : ''}${t}`));
+  }
+
   main.appendChild(el('button', {
     class: 'big',
     onclick: () => { state.questionInRound++; nextQuestionInRound(); },
-  }, 'Next →'));
+  }, hotseatDone && state.currentPlayerIdx < state.players.length - 1 ? 'Next player →' : 'Next →'));
 
   if (outcome !== 'right') await speak(`Answer: ${q.answer}.`);
 }
@@ -1782,10 +1982,12 @@ function init() {
     { type: 'theme',   count: 4, theme: 'cinema' },
     { type: 'bid',     count: 1 },
     { type: 'theme',   count: 4, theme: 'business' },
+    { type: 'theme',   count: 4, theme: 'lost_in_translation' },
     { type: 'long',    count: 2 },
     { type: 'connect', count: 3 },
     { type: 'theme',   count: 4, theme: 'current_affairs' },
     { type: 'bid',     count: 1 },
+    { type: 'hotseat', count: HOTSEAT_SECONDS.length },   // finale
   ];
 
   $('#add-player-btn').addEventListener('click', addPlayer);
@@ -1794,7 +1996,7 @@ function init() {
   });
   $('#start-game-btn').addEventListener('click', startGame);
   $('#back-to-setup-btn').addEventListener('click', () => {
-    stopListening(); stopSpeaking();
+    stopListening(); stopSpeaking(); clearTimer();
     showScreen('setup');
   });
   const restartToSetup = () => {

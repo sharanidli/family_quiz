@@ -373,6 +373,15 @@ button.pulse {
 }
 .bid-buttons button { font-size: 1.4rem; padding: 1rem 2rem; min-width: 120px; }
 
+/* Hot Seat wager sheet: one compact row of 5 / 10 / 20 per question */
+.hotseat-row {
+  display: flex; align-items: center; justify-content: center; gap: 1rem; flex-wrap: wrap;
+  margin: 0.5rem 0;
+}
+.hotseat-label { min-width: 6.5rem; font-size: 1.2rem; color: var(--muted); text-align: right; }
+.hotseat-row .bid-buttons { margin: 0; }
+.hotseat-row .bid-buttons button { font-size: 1.2rem; padding: 0.6rem 1.4rem; min-width: 90px; }
+
 .theme-tag {
   display: inline-block;
   background: rgba(245, 176, 65, 0.15);
