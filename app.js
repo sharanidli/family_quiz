@@ -141,6 +141,9 @@ const state = {
   roundsBeforeStl: null,      // lineup to restore when St. Louis Mode is switched off
   hotseatWagers: [],          // the four wagers locked in by the player in the Hot Seat
   hotseatTally: 0,            // that player's net points so far in their Hot Seat run
+  jodiActive: false,          // this round is being played in Jodi teams
+  teams: [],                  // Jodi teams: lists of player indices, captain first
+  jodiCaptains: [],           // captains picked by the host for this Jodi round
   voiceRate: 1.15,
   listening: false,
   recognition: null,
@@ -257,6 +260,15 @@ function renderRounds() {
       pounceLabel.appendChild(document.createTextNode(' Pounce & Bounce (+1× if right, −2× if wrong)'));
       cells.push(pounceLabel);
     }
+    // Jodi toggle — Long and Theme rounds only; can be combined with Pounce & Bounce.
+    if (r.type === 'long' || r.type === 'theme') {
+      const jodiLabel = el('label', { class: 'pounce-toggle', style: 'grid-column: 1 / -1;' });
+      const jb = el('input', { type: 'checkbox', onchange: (e) => { r.jodi = e.target.checked; } });
+      if (r.jodi) jb.checked = true;
+      jodiLabel.appendChild(jb);
+      jodiLabel.appendChild(document.createTextNode(' Jodi (random partners; a right answer scores for each member)'));
+      cells.push(jodiLabel);
+    }
 
     list.appendChild(el('div', { class: 'round-row' }, cells));
   });
@@ -348,7 +360,7 @@ function shuffle(arr) {
 // and further restricts `iran_only` to Telli/Taymaz turns.
 function iranianModeFilter() {
   if (!state.iranianMode) return null;
-  const allowed = isIranianPlayer(state.players[state.currentPlayerIdx])
+  const allowed = seatMembers(state.currentPlayerIdx).some(i => isIranianPlayer(state.players[i]))
     ? IRANIAN_MODE_THEMES
     : IRANIAN_MODE_NON_IRANIAN_THEMES;
   return (q) => Array.isArray(q.themes) && q.themes.some(t => allowed.includes(t));
@@ -971,18 +983,25 @@ async function startRound() {
   // Infinite bounce: control follows the correct answer. Seed the anchor one seat
   // back so the round's first question goes to player 0.
   state.anchorIdx = state.players.length - 1;
+  state.jodiActive = false;
+  state.teams = [];
   state.phase = 'round-intro';
   renderHeader();
 
-  const pounceNote = r.pounce ? ' Pounce & Bounce is on — anyone can pounce, but a wrong pounce costs double.' : '';
+  const jodiOn = r.jodi && (r.type === 'long' || r.type === 'theme');
+  const jodiNote = !jodiOn ? ''
+    : state.players.length >= JODI_MIN_PLAYERS
+      ? ' Jodi round: captains get a random partner, the pair confers, and a right answer scores for every member of the team.'
+      : ` Jodi needs at least ${JODI_MIN_PLAYERS} players, so this round is played solo.`;
+  const pounceNote = (r.pounce ? ' Pounce & Bounce is on — anyone can pounce, but a wrong pounce costs double.' : '') + jodiNote;
   let intro, spokenIntro;
   if (r.type === 'long') {
     intro = `Long Question round. ${r.count} question${r.count > 1 ? 's' : ''} per player. Get it right and the next question moves to the next person.` + pounceNote;
-    spokenIntro = 'Long Question round.' + (r.pounce ? ' Pounce and bounce is on.' : '');
+    spokenIntro = 'Long Question round.' + (r.pounce ? ' Pounce and bounce is on.' : '') + (jodiOn ? ' A jodi round.' : '');
   } else if (r.type === 'theme') {
     const t = [...THEME_OPTIONS, ...IRANIAN_THEME_OPTIONS, ...STL_THEME_OPTIONS].find(t => t.id === r.theme);
     intro = `Theme round: ${t ? t.label : r.theme}. ${r.count} questions, control follows the correct answer.` + pounceNote;
-    spokenIntro = `Theme round. ${t ? t.label : r.theme}.` + (r.pounce ? ' Pounce and bounce is on.' : '');
+    spokenIntro = `Theme round. ${t ? t.label : r.theme}.` + (r.pounce ? ' Pounce and bounce is on.' : '') + (jodiOn ? ' A jodi round.' : '');
   } else if (r.type === 'connect') {
     intro = `Connect round. ${r.count} connection${r.count > 1 ? 's' : ''}. You get clue 1 — guess for 15, or pass to see clue 2 (10), then clue 3 (5). A wrong guess passes it on to the next person.`;
     spokenIntro = 'Connect round. Guess for more, or pass to see another clue. A wrong guess passes it on.';
@@ -997,8 +1016,66 @@ async function startRound() {
   const main = $('#game-main');
   main.innerHTML = '';
   main.appendChild(el('div', { class: 'player-up' }, intro));
-  main.appendChild(el('button', { class: 'big', onclick: nextQuestionInRound }, 'Begin Round →'));
+  if (jodiOn && state.players.length >= JODI_MIN_PLAYERS) renderJodiCaptainPicker(main);
+  else main.appendChild(el('button', { class: 'big', onclick: nextQuestionInRound }, 'Begin Round →'));
   speak(spokenIntro);
+}
+
+// ----- Jodi (random teams for a Long or Theme round) -----
+// The host picks captains; a random draw gives each captain a partner (any extra player
+// joins a random team). Turns then rotate over teams instead of players ("seats"), and a
+// right answer scores the full points for every member of the team.
+const JODI_MIN_PLAYERS = 4;
+
+function seatCount() { return state.jodiActive ? state.teams.length : state.players.length; }
+function seatMembers(seat) { return state.jodiActive ? (state.teams[seat] || []) : [seat]; }
+function seatName(seat, joiner = ' & ') {
+  return seatMembers(seat).map(i => state.players[i].name).join(joiner);
+}
+
+function renderJodiCaptainPicker(main) {
+  state.phase = 'jodi-captains';
+  state.jodiCaptains = [];
+  const need = Math.floor(state.players.length / 2);
+  main.appendChild(el('p', { class: 'muted center' }, `Pick ${need} captains, then draw their partners.`));
+  const draw = el('button', { class: 'big', disabled: true, onclick: drawJodiTeams }, 'Draw partners →');
+  const row = el('div', { class: 'controls' });
+  state.players.forEach((p, i) => {
+    const b = el('button', {
+      class: 'ghost',
+      onclick: () => {
+        const k = state.jodiCaptains.indexOf(i);
+        if (k >= 0) state.jodiCaptains.splice(k, 1);
+        else if (state.jodiCaptains.length < need) state.jodiCaptains.push(i);
+        const picked = state.jodiCaptains.includes(i);
+        b.classList.toggle('gold', picked);
+        b.classList.toggle('ghost', !picked);
+        draw.disabled = state.jodiCaptains.length !== need;
+      },
+    }, p.name);
+    row.appendChild(b);
+  });
+  main.appendChild(row);
+  main.appendChild(draw);
+}
+
+function drawJodiTeams() {
+  const caps = state.jodiCaptains.slice();
+  const rest = shuffle(state.players.map((_, i) => i).filter(i => !caps.includes(i)));
+  const teams = caps.map(c => [c]);
+  // One partner per captain first, then any extra player joins a random team.
+  rest.forEach((p, k) => teams[k < teams.length ? k : Math.floor(Math.random() * teams.length)].push(p));
+  state.teams = teams;
+  state.jodiActive = true;
+  state.anchorIdx = teams.length - 1;   // first question goes to the first team
+  state.phase = 'round-intro';
+  renderHeader();
+  const main = $('#game-main');
+  main.innerHTML = '';
+  main.appendChild(el('div', { class: 'player-up' }, 'The jodis are…'));
+  teams.forEach((_, t) => main.appendChild(el('div', { class: 'answer-reveal' }, seatName(t))));
+  main.appendChild(el('button', { class: 'big', onclick: nextQuestionInRound }, 'Begin Round →'));
+  speak('The jodis are. ' + teams.map((_, t) => seatName(t, ' and ')).join('. ') + '.');
 }
 
 async function nextQuestionInRound() {
@@ -1015,7 +1092,7 @@ async function nextQuestionInRound() {
     ? state.questionInRound % playerCount
     : (r.type === 'hotseat')
       ? Math.floor(state.questionInRound / HOTSEAT_SECONDS.length)
-      : (state.anchorIdx + 1) % playerCount;
+      : (state.anchorIdx + 1) % seatCount();
   state.originalPlayerIdx = state.currentPlayerIdx;
 
   if (r.type === 'connect') return askConnect();
@@ -1034,8 +1111,7 @@ async function nextQuestionInRound() {
   state.phase = 'question';
   renderQuestion(q);
 
-  const playerName = state.players[state.currentPlayerIdx].name;
-  await speak(playerName + '.');
+  await speak(seatName(state.currentPlayerIdx, ' and ') + '.');
   // Joy's Postcard — only for Long & Theme rounds (Bid has its own theatre via wager)
   if (r.type === 'long' || r.type === 'theme') {
     const opener = JOY_OPENERS[Math.floor(Math.random() * JOY_OPENERS.length)];
@@ -1214,6 +1290,7 @@ function renderHeader() {
       const t = [...THEME_OPTIONS, ...IRANIAN_THEME_OPTIONS, ...STL_THEME_OPTIONS].find(t => t.id === r.theme);
       label += ` • ${t ? t.label : r.theme}`;
     }
+    if (state.jodiActive) label += ` • Jodi: ${state.teams.map((_, t) => seatName(t)).join(' vs ')}`;
     ri.textContent = label;
   } else {
     ri.textContent = '';
@@ -1223,7 +1300,7 @@ function renderHeader() {
   const showActive = state.phase !== 'round-intro' && state.phase !== 'round-end';
   state.players.forEach((p, i) => {
     sb.appendChild(el('div', {
-      class: 'score-chip' + (showActive && i === state.currentPlayerIdx ? ' active' : ''),
+      class: 'score-chip' + (showActive && seatMembers(state.currentPlayerIdx).includes(i) ? ' active' : ''),
     }, `${p.name}: ${p.score}`));
   });
 }
@@ -1235,7 +1312,7 @@ function renderQuestion(q, opts = {}) {
   main.innerHTML = '';
 
   const headerEl = el('div', { class: 'player-up' });
-  const headerBits = [player.name];
+  const headerBits = [seatName(state.currentPlayerIdx)];
   if (opts.hotseat != null) headerBits.push(`Q${opts.hotseat + 1} of ${HOTSEAT_SECONDS.length}`);
   if (opts.bid) headerBits.push(`Wager: ${opts.bid}`);
   if (opts.passing) headerBits.push('Bounce — full points');
@@ -1274,12 +1351,12 @@ function renderQuestion(q, opts = {}) {
     el('button', { class: 'wrong', onclick: markWrong }, '✗ Wrong'),
   ];
   const _r = state.rounds[state.currentRoundIdx];
-  const _canPass = (_r.type === 'long' || _r.type === 'theme') && state.players.length > 1;
+  const _canPass = (_r.type === 'long' || _r.type === 'theme') && seatCount() > 1;
   if (_canPass) {
     ctrls.push(el('button', { class: 'ghost', onclick: markPass }, 'Pass'));
   }
   // Pounce & Bounce — any live question in a pounce round; host taps who pounced.
-  if (_r.pounce && state.players.length > 1) {
+  if (_r.pounce && seatCount() > 1) {
     ctrls.push(el('button', { class: 'gold pounce-btn', onclick: startPounce }, '⚡ Pounce'));
   }
   ctrls.push(el('button', { class: 'ghost', onclick: () => speak(q.question) }, '🔁 Repeat'));
@@ -1317,15 +1394,17 @@ function markRight() {
   if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
   stopListening(); stopSpeaking(); clearTimer();
   const r = state.rounds[state.currentRoundIdx];
-  const player = state.players[state.currentPlayerIdx];
   // Full points to whoever answers correctly — direct OR on a bounce. (A halved
   // bounce score unfairly penalised the seat after a weak player, who only ever
-  // received that player's failed questions as bounces.)
+  // received that player's failed questions as bounces.) In a Jodi round every
+  // member of the team gets them.
   let pts = 10;
   if (isWagerRound(r)) pts = state.currentBid;
-  player.score += pts;
+  for (const i of seatMembers(state.currentPlayerIdx)) {
+    state.players[i].score += pts;
+    logEntry(state.players[i], 'right', pts);
+  }
   if (r.type === 'hotseat') state.hotseatTally += pts;
-  logEntry(player, 'right', pts);
   // Infinite bounce: control now follows this player — next question starts to their left.
   if (!isWagerRound(r)) state.anchorIdx = state.currentPlayerIdx;
   reveal('right');
@@ -1340,11 +1419,12 @@ function markWrong() {
   if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
   stopListening(); stopSpeaking(); clearTimer();
   const r = state.rounds[state.currentRoundIdx];
-  const player = state.players[state.currentPlayerIdx];
-  let pts = 0;
-  if (isWagerRound(r)) { pts = -state.currentBid; player.score += pts; }
+  const pts = isWagerRound(r) ? -state.currentBid : 0;
+  for (const i of seatMembers(state.currentPlayerIdx)) {
+    state.players[i].score += pts;
+    logEntry(state.players[i], 'wrong', pts);
+  }
   if (r.type === 'hotseat') state.hotseatTally += pts;
-  logEntry(player, 'wrong', pts);
   // Bid / Hot Seat: wager already covers risk, no cascade.
   // Long / Theme: cascade to the next player like a Pass — they get a full-points chance.
   if (isWagerRound(r)) return reveal('wrong');
@@ -1355,7 +1435,7 @@ function markPass() {
   if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
   stopListening(); stopSpeaking(); clearTimer();
   // Log the current player's pass (whether or not the cascade continues)
-  logEntry(state.players[state.currentPlayerIdx], 'passed', 0);
+  for (const i of seatMembers(state.currentPlayerIdx)) logEntry(state.players[i], 'passed', 0);
   cascadeToNext('pass');
 }
 
@@ -1363,7 +1443,7 @@ function markPass() {
 // Used by both Pass and Wrong. The player who finally answers correctly gets full points.
 function cascadeToNext(reason) {
   const r = state.rounds[state.currentRoundIdx];
-  const canCascade = (r.type === 'long' || r.type === 'theme') && state.players.length > 1;
+  const canCascade = (r.type === 'long' || r.type === 'theme') && seatCount() > 1;
   if (!canCascade) { reveal(reason); return; }
 
   // First handoff: remember who the question was originally asked to
@@ -1371,7 +1451,7 @@ function cascadeToNext(reason) {
     state.originalPlayerIdx = state.currentPlayerIdx;
   }
   // Move to next player in rotation
-  state.currentPlayerIdx = (state.currentPlayerIdx + 1) % state.players.length;
+  state.currentPlayerIdx = (state.currentPlayerIdx + 1) % seatCount();
   // If we've cycled back to the original, every other player has had a go — reveal.
   // Nobody got it: control stays with the original asker, so the next question
   // starts one seat past them (tie-break rule a).
@@ -1383,7 +1463,7 @@ function cascadeToNext(reason) {
   state.phase = 'pass-attempt';
   state.matchAnnounced = false;
   renderQuestion(state.currentQuestion, { passing: true });
-  speak(`${state.players[state.currentPlayerIdx].name}, over to you.`);
+  speak(`${seatName(state.currentPlayerIdx, ' and ')}, over to you.`);
   startTimer();
   startListening();
 }
@@ -1422,6 +1502,7 @@ async function reveal(outcome) {
 
 function endRound() {
   stopListening(); stopSpeaking(); clearTimer();
+  state.jodiActive = false;
   state.phase = 'round-end';
   state.currentRoundIdx++;
   if (state.currentRoundIdx >= state.rounds.length) return startLongTailOrEnd();
@@ -1459,9 +1540,9 @@ function startPounce() {
   main.appendChild(el('div', { class: 'player-up' }, '⚡ Who pounced?'));
   main.appendChild(el('div', { class: 'question-text' }, state.currentQuestion.question));
   const ctrls = el('div', { class: 'controls' });
-  state.players.forEach((p, i) => ctrls.appendChild(
-    el('button', { class: 'gold', onclick: () => pounceAnswer(i) }, p.name)
-  ));
+  for (let i = 0; i < seatCount(); i++) {
+    ctrls.appendChild(el('button', { class: 'gold', onclick: () => pounceAnswer(i) }, seatName(i)));
+  }
   ctrls.appendChild(el('button', { class: 'ghost', onclick: cancelPounce }, '← Back'));
   main.appendChild(ctrls);
   speak('Who pounced?');
@@ -1485,7 +1566,7 @@ function pounceAnswer(idx) {
   const main = $('#game-main');
   main.innerHTML = '';
   main.appendChild(el('div', { class: 'player-up' },
-    `⚡ ${state.players[idx].name} pounced — +${base} if right, −${base * 2} if wrong`));
+    `⚡ ${seatName(idx)} pounced — +${base} if right, −${base * 2} if wrong`));
   main.appendChild(el('div', { class: 'question-text' }, state.currentQuestion.question));
   main.appendChild(el('input', {
     type: 'text', class: 'typed-answer', id: 'typed-answer',
@@ -1503,14 +1584,16 @@ function settlePounce(correct) {
   const idx = state.pouncerIdx;
   const r = state.rounds[state.currentRoundIdx];
   const base = pounceBase();
-  const p = state.players[idx];
+  // pounce right: +1× (modest reward); wrong: −2× (steep, discourages loose pounces).
+  // In a Jodi round the pouncing team's members each get it.
+  const pts = correct ? base : -base * 2;
+  for (const i of seatMembers(idx)) {
+    state.players[i].score += pts;
+    logEntry(state.players[i], correct ? 'right' : 'wrong', pts);
+  }
   if (correct) {
-    p.score += base;                                           // pounce right: +1× (modest reward)
-    logEntry(p, 'right', base);
     if (r.type !== 'bid') state.anchorIdx = idx;               // control follows the pouncer
   } else {
-    p.score -= base * 2;                                       // pounce wrong: −2× (steep, discourages loose pounces)
-    logEntry(p, 'wrong', -base * 2);
     if (r.type !== 'bid' && state.originalPlayerIdx != null) state.anchorIdx = state.originalPlayerIdx;
   }
   reveal(correct ? 'right' : 'wrong');

@@ -307,6 +307,13 @@ Sharan asked for rounds that favour the older players (timed rounds favour the y
 - **Bank: 2,515 → 2,615.** Backups `*.bak_before_2026-10-26`.
 - **Headless test**: theme round served only its own 10 questions; 0 theme-only questions elsewhere (Business round 0 of 10); 0 St. Louis questions; Hot Seat 3/std/1/1 per seat; end screen reached; 0 errors.
 
+### Jodi rounds + Hot Seat unseen check (2026-10-26)
+
+- **Live:** "Passbooks and Floppy Disks" at commit `a40dbcd` (Pages served it at 11:20).
+- **Hot Seat unseen-easy check** (agent read the four regular players' `quiz_player_seen_*` keys from this laptop's Chrome, live-site origin, copies only): 132 easy-eligible, **104 unseen by all four**; medium 926 unseen, hard 650. Simulation of default 4-player games: ~10.8 unseen easy used per game (8 Hot Seat + ~2.8 elsewhere) → **about 10 more games** before Hot Seat Q3–Q4 repeat. Report: `new_batch_2026-10-26/hotseat_unseen_check.md`.
+- **Jodi** (Sharan's design): per-round tick box on **Long and Theme** rounds, combinable with Pounce & Bounce. At the round start the host picks `floor(n/2)` captains; a random draw gives each a partner, and any extra player joins a random team. Turns, bounces and pounces then run over **teams** ("seats": `seatCount`, `seatMembers`, `seatName`); a right answer gives **each member the full points** (10 each, also in a team of three); a team pounce gives each member +10 / −20. Needs 4+ players, otherwise the round is played solo. Teams last one round; each Jodi round redraws.
+- Headless test: toggles only on Long/Theme rows; captain picker gating; random draw (both pairings seen over 20 draws); per-member scoring, bounce between teams, team pounce right/wrong, solo round afterwards, 5 players (2+3, trio +10 each), 3 players falls back to solo; 0 errors.
+
 ## Multiplayer "next level" idea (not yet built)
 
 Everyone opens the page on their phone; only the active player can buzz / mark the answer; everyone sees the same question and live scores. Requires real-time state sync — static HTML alone can't do this. Cleanest path: **Firebase Realtime Database** (free tier; SDK runs in the browser; ~1-2 hours to wire). Adds: a room-code join flow, a per-device player identity, conditional UI (active player sees buttons, others see "waiting"). Decision deferred — revisit if the family-quiz format becomes a tradition.
