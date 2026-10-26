@@ -15,11 +15,12 @@ const THEME_OPTIONS = [
   { id: 'current_affairs', label: 'Current Affairs (this decade)' },
   { id: 'personalities',   label: 'Personalities' },
   { id: 'lost_in_translation', label: 'Lost in Translation' },
+  { id: 'passbooks_floppies',  label: 'Passbooks and Floppy Disks' },
 ];
 
 // Questions in these themes only make sense inside their own Theme round (a song line
-// translated word for word), so Long, Bid and Hot Seat never draw them.
-const THEME_ONLY_TAGS = ['lost_in_translation'];
+// translated word for word; working life 1983-2010), so no other round draws them.
+const THEME_ONLY_TAGS = ['lost_in_translation', 'passbooks_floppies'];
 
 function isThemeOnly(q) {
   return Array.isArray(q.themes) && q.themes.some(t => THEME_ONLY_TAGS.includes(t));
@@ -296,11 +297,17 @@ function buildPool() {
       if (state.stlMode === isStlQuestion(q)) state.pool.connect.push(q);
       return;
     }
-    const t = q.topic;
-    if (!state.pool.byTopic[t]) state.pool.byTopic[t] = [];
-    state.pool.byTopic[t].push(q);
+    // Theme-only questions go into their own theme's pool and nowhere else, so their
+    // topic (e.g. business) can't pull them into another Theme round.
+    const themeOnly = isThemeOnly(q);
+    if (!themeOnly) {
+      const t = q.topic;
+      if (!state.pool.byTopic[t]) state.pool.byTopic[t] = [];
+      state.pool.byTopic[t].push(q);
+    }
     if (Array.isArray(q.themes)) {
       for (const th of q.themes) {
+        if (themeOnly && !THEME_ONLY_TAGS.includes(th)) continue;
         if (!state.pool.byTheme[th]) state.pool.byTheme[th] = [];
         state.pool.byTheme[th].push(q);
       }

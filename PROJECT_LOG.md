@@ -298,6 +298,15 @@ Sharan agreed the St. Louis batch (Friends, St. Louis, doctor questions) is odd 
 - **Default lineup now 10 rounds** (Sharan's request): Long, Cinema, Bid, Business, **Lost in Translation (4)**, Long, Connect, Current Affairs, Bid, **Hot Seat** (finale).
 - **Tests after merge** (headless): normal game with All new: Long/Bid served only the new easy batch, Hot Seat 3/std/1/1 in every seat, 0 St. Louis questions, LiT round only songs; St. Louis Mode 40 of 40 STL; Hot Seat scores match; 0 errors.
 
+### "Passbooks and Floppy Disks" theme (2026-10-26)
+
+Sharan asked for rounds that favour the older players (timed rounds favour the young). Shortlist discussed: closest-wins "What did it cost?" / "Which year?", Muhavare (finish the proverb), Masala Dabba (kitchen), Jodi (cross-generation pairs), plus Mythology and Golden Era music theme options. Sharan chose instead a theme built around the elders' own working lives: **Indian working life 1983–2010** (banking and money, computing and IT, office life, the Japan connection, the cities they were posted to), broader than their two employers. Next after this: a Kashmir theme. (Personal details stay in the gitignored `new_batch_2026-10-26/PF_BRIEF.md`; this repo is public.)
+- 100 questions, theme-only (`passbooks_floppies`), four writer lanes: pf_bank 33, pf_tech 33, pf_office 22, pf_japan 22, then fact-checkers; `merge_pf_2026-10-26.py` keeps 30/30/20/20, IDs `q1026NNN`. Six sample questions shown to Sharan are banned as answers.
+- Code: new Theme option; `THEME_ONLY_TAGS` gains `passbooks_floppies`; `buildPool` now puts theme-only questions only into their own theme's pool (previously a theme-only question's `topic` could have pulled it into e.g. the Business theme).
+- **Result: 100 merged** (`q1026001`–`q1026100`; banking 29, tech 30, office 20, Japan and cities 21; difficulty 45 / 44 / 11). 110 drafted, 0 dropped by checkers (~57 patched), then 10 dropped at merge: 2 retold samples Sharan had seen (the SBI-logo story; the first-Maruti handover), 1 third governor's-signature question for variety, 1 Honda overlap, 6 cross-question spoilers (4 in question text, 2 in explanations). `sample_scan.py` flags retold sample stories by keyword (IDs only). Spares kept: none.
+- **Bank: 2,515 → 2,615.** Backups `*.bak_before_2026-10-26`.
+- **Headless test**: theme round served only its own 10 questions; 0 theme-only questions elsewhere (Business round 0 of 10); 0 St. Louis questions; Hot Seat 3/std/1/1 per seat; end screen reached; 0 errors.
+
 ## Multiplayer "next level" idea (not yet built)
 
 Everyone opens the page on their phone; only the active player can buzz / mark the answer; everyone sees the same question and live scores. Requires real-time state sync — static HTML alone can't do this. Cleanest path: **Firebase Realtime Database** (free tier; SDK runs in the browser; ~1-2 hours to wire). Adds: a room-code join flow, a per-device player identity, conditional UI (active player sees buttons, others see "waiting"). Decision deferred — revisit if the family-quiz format becomes a tradition.

@@ -38986,6 +38986,1755 @@ window.QUESTIONS_DATA = {
       "difficulty": 1,
       "created": "2026-10-22",
       "themes": []
+    },
+    {
+      "id": "q1026001",
+      "topic": "history",
+      "question": "The State Bank of India traces its roots to a bank founded in 1806, which was renamed the Bank of Bengal in 1809. Under what name was it founded?",
+      "answer": "Bank of Calcutta",
+      "accept": [
+        "bank of calcutta",
+        "calcutta bank"
+      ],
+      "explanation": "The Bank of Calcutta was founded on 2 June 1806, became the Bank of Bengal in 1809, merged into the Imperial Bank of India in 1921, and became the State Bank of India in 1955.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026002",
+      "topic": "business",
+      "question": "Founded in 1917 by Maharaja Bhupinder Singh, this bank became an SBI associate in 1960 and was a fixture across Punjab and Chandigarh until it merged into its parent in 2017. Name it.",
+      "answer": "State Bank of Patiala",
+      "accept": [
+        "state bank of patiala",
+        "sbop",
+        "patiala state bank",
+        "bank of patiala",
+        "patiala"
+      ],
+      "explanation": "Set up as the Patiala State Bank in 1917, it was renamed State Bank of Patiala in 1960 and merged into SBI on 1 April 2017.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026003",
+      "topic": "business",
+      "question": "In August 2010, the State Bank of India absorbed its second associate bank, two years after the State Bank of Saurashtra. Which associate, with its home in Madhya Pradesh, was it?",
+      "answer": "State Bank of Indore",
+      "accept": [
+        "state bank of indore",
+        "indore"
+      ],
+      "explanation": "State Bank of Indore merged into SBI on 26 August 2010; State Bank of Saurashtra had merged in 2008.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026004",
+      "topic": "history",
+      "question": "On 19 July 1969, fourteen major private banks were nationalised overnight. On 15 April 1980, a second ordinance took over every remaining private Indian bank with deposits of two hundred crore rupees or more. How many banks did that second round nationalise?",
+      "answer": "Six",
+      "accept": [
+        "six",
+        "6"
+      ],
+      "explanation": "The 1980 round nationalised Andhra Bank, Corporation Bank, New Bank of India, Oriental Bank of Commerce, Punjab and Sind Bank and Vijaya Bank.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026005",
+      "topic": "business",
+      "question": "Under an RBI mechanisation plan of the mid-1980s, bank branches began installing electronic devices to keep customers' accounts, and banks had bought over five thousand of them by the end of 1989. Known by a four-letter abbreviation, what were they called?",
+      "answer": "Advanced Ledger Posting Machine",
+      "accept": [
+        "alpm",
+        "alpms",
+        "advanced ledger posting machine",
+        "advanced ledger posting machines",
+        "ledger posting machine",
+        "ledger posting machines"
+      ],
+      "explanation": "Advanced Ledger Posting Machines went into branches under the RBI's mechanisation plan; a 1990 Lok Sabha answer said banks had acquired 5,132 of them by the end of 1989.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026006",
+      "topic": "general",
+      "question": "Before online transfers, paying a college admission fee in another city meant buying this from your bank: a prepaid instrument payable at a named branch elsewhere which, unlike a personal cheque, could not bounce. What was it?",
+      "answer": "Demand draft",
+      "accept": [
+        "demand draft",
+        "dd",
+        "draft",
+        "bank draft"
+      ],
+      "explanation": "A demand draft is paid for upfront and drawn by the bank on its own branch, so it cannot bounce for want of funds.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026007",
+      "topic": "business",
+      "question": "Since 1966, the pay of bank clerks and subordinate staff has been set not by tribunals but by periodic agreements negotiated directly between the bank managements and the employee unions. What are these agreements called?",
+      "answer": "Bipartite settlement",
+      "accept": [
+        "bipartite settlement",
+        "bipartite settlements",
+        "bipartite",
+        "bipartite agreement"
+      ],
+      "explanation": "The first bipartite settlement was signed on 19 October 1966 between the All India Bank Employees' Association and the bank managements, ending the era of wage tribunals for bank workmen.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026008",
+      "topic": "business",
+      "question": "India's first ATM was installed in 1987 at a branch in Andheri East, Mumbai. The bank that put it there is named after two Asian port cities. Which bank?",
+      "answer": "HSBC",
+      "accept": [
+        "hsbc",
+        "hongkong and shanghai banking corporation",
+        "hong kong and shanghai banking corporation",
+        "hongkong bank",
+        "hong kong bank"
+      ],
+      "explanation": "HSBC installed India's first ATM in 1987 at its Sahar Road branch in Andheri East, Mumbai.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026009",
+      "topic": "business",
+      "question": "Launched by the RBI on 26 March 2004, this system settles large interbank transfers one at a time, the instant they are made, unlike its sibling NEFT, which settled in batches. Name it by its four-letter abbreviation.",
+      "answer": "RTGS",
+      "accept": [
+        "rtgs",
+        "real time gross settlement",
+        "real-time gross settlement"
+      ],
+      "explanation": "Real Time Gross Settlement went live on 26 March 2004; NEFT followed on 21 November 2005.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026010",
+      "topic": "business",
+      "question": "From February 2008, banks in the National Capital Region began sending electronic images of cheques to the clearing house instead of carrying the paper itself. The new system's name used a word meaning to cut short. What was it called?",
+      "answer": "Cheque Truncation System",
+      "accept": [
+        "cheque truncation system",
+        "cts",
+        "cheque truncation",
+        "check truncation system",
+        "check truncation",
+        "truncation"
+      ],
+      "explanation": "The RBI launched the Cheque Truncation System as a pilot in the National Capital Region on 1 February 2008 before taking it nationwide.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026011",
+      "topic": "history",
+      "question": "In early 1985, a Deputy Governor stepped in as RBI Governor for just twenty days, the shortest term in the bank's history, before handing over to a new Governor. He shares his name with the novelist who wrote The Shadow Lines and Sea of Poppies. Name him.",
+      "answer": "Amitav Ghosh",
+      "accept": [
+        "amitav ghosh",
+        "amitabha ghosh",
+        "ghosh"
+      ],
+      "explanation": "Amitav Ghosh was RBI Governor from 15 January to 4 February 1985, then returned to being Deputy Governor when R. N. Malhotra took over.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026012",
+      "topic": "business",
+      "question": "The thousand-rupee note, demonetised in January 1978, came back in 2000 as part of the Mahatma Gandhi series. Whose signature as RBI Governor did the new thousand-rupee notes carry?",
+      "answer": "Bimal Jalan",
+      "accept": [
+        "bimal jalan",
+        "jalan"
+      ],
+      "explanation": "Bimal Jalan, RBI Governor from 1997 to 2003, signed the thousand-rupee notes issued from 9 October 2000.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026013",
+      "topic": "general",
+      "question": "In July 2010, the Union Cabinet chose a new symbol for the rupee that blends the Devanagari letter ra with the Roman letter R. Its designer, an IIT Bombay design postgraduate newly appointed to teach at IIT Guwahati, won a national contest. Name him.",
+      "answer": "D. Udaya Kumar",
+      "accept": [
+        "udaya kumar",
+        "d udaya kumar",
+        "d. udaya kumar",
+        "udayakumar",
+        "dharmalingam udaya kumar",
+        "udhaya kumar",
+        "uday kumar"
+      ],
+      "explanation": "The Cabinet picked D. Udaya Kumar's design on 15 July 2010.",
+      "difficulty": 3,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026014",
+      "topic": "history",
+      "question": "Since the 1996 series, Mahatma Gandhi has been the face of Indian banknotes. For most of the decades before that, what image sat on the front of nearly every note and also appeared as its watermark?",
+      "answer": "The Lion Capital of Ashoka",
+      "accept": [
+        "the lion capital of ashoka",
+        "lion capital",
+        "lion capital of ashoka",
+        "ashoka pillar",
+        "ashokan lion capital",
+        "ashoka lions",
+        "ashokan lions",
+        "national emblem",
+        "sarnath lions",
+        "ashoka stambh",
+        "four lions",
+        "lions"
+      ],
+      "explanation": "Pre-1996 notes belonged to the Lion Capital series, showing the Ashokan Lion Capital from Sarnath; the Gandhi series kept a smaller lion emblem beside the watermark window.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026015",
+      "topic": "business",
+      "question": "Every Indian banknote carries the RBI Governor's signature except one, which is issued by the Government of India itself and signed by the Finance Secretary. Its printing stopped in 1994 and resumed in 2015. Which denomination?",
+      "answer": "One rupee",
+      "accept": [
+        "one rupee",
+        "1 rupee",
+        "re 1",
+        "rupee one",
+        "one rupee note",
+        "one"
+      ],
+      "explanation": "The one-rupee note is a Government of India note signed by the Finance Secretary; printing stopped in 1994 and resumed in 2015.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026016",
+      "topic": "business",
+      "question": "Nine years before the Mahatma Gandhi series began, a new note introduced in October 1987 already carried his portrait on the front. It was then the largest denomination in circulation. Which denomination?",
+      "answer": "Five hundred rupees",
+      "accept": [
+        "500",
+        "five hundred",
+        "500 rupees",
+        "five hundred rupees",
+        "rs 500"
+      ],
+      "explanation": "The 500-rupee note arrived in October 1987 with Gandhi's portrait; the full Mahatma Gandhi series began only in 1996.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026017",
+      "topic": "business",
+      "question": "On 23 April 1992, a Times of India report revealed that a Bombay broker had siphoned hundreds of crores of rupees out of the banking system, and the securities scam broke open. Name the journalist who broke the story.",
+      "answer": "Sucheta Dalal",
+      "accept": [
+        "sucheta dalal",
+        "dalal",
+        "sucheta"
+      ],
+      "explanation": "Sucheta Dalal's report on Harshad Mehta broke the 1992 securities scam; she later co-wrote The Scam with Debashis Basu.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026018",
+      "topic": "business",
+      "question": "In 1989, with the Bombay Stock Exchange's Sensitive Index at around 750 points, a stock market analyst is credited with shortening its clumsy full name into the word everyone now uses. Years later he opposed the exchange's attempt to trademark that word. Name him.",
+      "answer": "Deepak Mohoni",
+      "accept": [
+        "deepak mohoni",
+        "mohoni"
+      ],
+      "explanation": "Analyst Deepak Mohoni is credited with coining the word Sensex in 1989, and in 2007 he opposed the BSE's application to register it as a trademark.",
+      "difficulty": 3,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026019",
+      "topic": "business",
+      "question": "The journalist who exposed the 1992 securities scam later wrote that she was first tipped off by the broker's visits to a bank's headquarters in a flashy imported car. Which Toyota luxury brand was it?",
+      "answer": "Lexus",
+      "accept": [
+        "lexus",
+        "toyota lexus",
+        "lexus ls400",
+        "ls400"
+      ],
+      "explanation": "The journalist wrote that Harshad Mehta's visits to State Bank of India headquarters in a Toyota Lexus, then newly launched abroad and costly to import, were the tip-off.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026020",
+      "topic": "business",
+      "question": "In July 2001, millions of small investors were stunned when the Unit Trust of India froze sales and repurchases for six months in its flagship scheme, named after the year it was launched. What was it called?",
+      "answer": "Unit Scheme 1964",
+      "accept": [
+        "us 64",
+        "us-64",
+        "us64",
+        "unit scheme 1964",
+        "unit scheme 64",
+        "unit scheme sixty four",
+        "us sixty four"
+      ],
+      "explanation": "UTI announced on 2 July 2001 that it was suspending sales and repurchases of US-64 for six months to stem redemptions.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026021",
+      "topic": "business",
+      "question": "In January 2008, this company's maiden public issue drew bids for about seventy-three times the shares on offer, only for the stock to close below its issue price on listing day. Which company?",
+      "answer": "Reliance Power",
+      "accept": [
+        "reliance power",
+        "r power",
+        "rpower",
+        "reliance power limited"
+      ],
+      "explanation": "Reliance Power's IPO was subscribed about 73 times, but on listing day, 11 February 2008, the stock closed near 372 rupees against an issue price of 450.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026022",
+      "topic": "business",
+      "question": "In March 1995, the Bombay Stock Exchange, then 120 years old, began replacing the shouting brokers of its open-outcry trading ring with screen-based trading. Its new electronic system had a four-letter name that suggested speed. What was it?",
+      "answer": "BOLT",
+      "accept": [
+        "bolt",
+        "bse online trading",
+        "bse on-line trading"
+      ],
+      "explanation": "BOLT, short for BSE On-Line Trading, went live on 14 March 1995, letting brokers trade from terminals in their offices instead of the ring.",
+      "difficulty": 3,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026023",
+      "topic": "business",
+      "question": "Starting operations in November 1996 under a new act of Parliament, this institution set out to replace paper share certificates, bad deliveries and delayed transfers with electronic holdings in demat accounts. Name it by its four-letter abbreviation.",
+      "answer": "NSDL",
+      "accept": [
+        "nsdl",
+        "national securities depository limited",
+        "national securities depository"
+      ],
+      "explanation": "Promoted by IDBI, UTI and the National Stock Exchange, NSDL began operations in November 1996 and made dematerialised shares the norm.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026024",
+      "topic": "history",
+      "question": "The Finance Minister ended his July 1991 budget speech by quoting a French novelist: no power on earth can stop an idea whose time has come. The idea, he said, was India's emergence as a major economic power. Name the novelist he quoted.",
+      "answer": "Victor Hugo",
+      "accept": [
+        "victor hugo",
+        "hugo"
+      ],
+      "explanation": "Manmohan Singh closed his 24 July 1991 budget speech with this line, which he attributed to Victor Hugo.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026025",
+      "topic": "business",
+      "question": "The 1997 budget cut the top income tax rate from forty to thirty per cent and launched a voluntary disclosure scheme for black money. The press called it the dream budget. Which Finance Minister presented it?",
+      "answer": "P. Chidambaram",
+      "accept": [
+        "p chidambaram",
+        "p. chidambaram",
+        "chidambaram",
+        "palaniappan chidambaram"
+      ],
+      "explanation": "P. Chidambaram presented the dream budget on 28 February 1997.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026026",
+      "topic": "history",
+      "question": "For decades, the Union Budget was read out at five in the evening, a colonial-era timing said to suit London. Which Finance Minister moved it to eleven in the morning?",
+      "answer": "Yashwant Sinha",
+      "accept": [
+        "yashwant sinha",
+        "sinha"
+      ],
+      "explanation": "Yashwant Sinha, Finance Minister from 1998 to 2002, moved the budget to 11 am, and every budget since has followed.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026027",
+      "topic": "business",
+      "question": "Every year, salaried employees chased the accounts section for this certificate showing their salary and the tax deducted at source, needed to file their return. What was its form number?",
+      "answer": "Form 16",
+      "accept": [
+        "form 16",
+        "16",
+        "sixteen",
+        "form sixteen"
+      ],
+      "explanation": "Form 16 is the tax deduction certificate an employer issues to each salaried employee under Section 203 of the Income Tax Act.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026028",
+      "topic": "business",
+      "question": "From the 2005 budget, the old Section 88 rebate for provident fund, insurance premiums and the like gave way to a deduction of up to one lakh rupees. Under which section?",
+      "answer": "Section 80C",
+      "accept": [
+        "80c",
+        "section 80c",
+        "eighty c",
+        "section eighty c"
+      ],
+      "explanation": "The Finance Act 2005 inserted Section 80C, with a combined limit of one lakh rupees, replacing the Section 88 rebate.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026029",
+      "topic": "business",
+      "question": "On 1 June 2000, the feared currency law of 1973, under which violations were criminal offences, was replaced by a gentler act that treated them as civil matters. Name the new law by its four-letter abbreviation.",
+      "answer": "FEMA",
+      "accept": [
+        "fema",
+        "foreign exchange management act",
+        "foreign exchange management act 1999"
+      ],
+      "explanation": "The Foreign Exchange Management Act, 1999 replaced FERA with effect from 1 June 2000.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026030",
+      "topic": "business",
+      "question": "Fujitsu began in 1935 as an offshoot of Fuji Electric's communications business, and that Fuji has nothing to do with the mountain. The Fu came from the Japanese partner Furukawa, and the Ji from the German partner's name as it is said in Japanese. In 1999 the German firm and Fujitsu merged their European computer businesses in a fifty-fifty joint venture. Name the German company.",
+      "answer": "Siemens",
+      "accept": [
+        "siemens",
+        "siemens ag"
+      ],
+      "explanation": "Fuji Electric was founded in 1923 by Furukawa Electric and Siemens, and Fujitsu Siemens Computers ran from 1999 until Fujitsu bought out Siemens's half in 2009.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026031",
+      "topic": "business",
+      "question": "A key designer of IBM's System three-sixty mainframes, he left IBM to build cheaper machines that could run IBM software. Fujitsu invested in his company from 1971 and bought it outright in 1997, and computer scientists still quote a law named after him. Name him.",
+      "answer": "Gene Amdahl",
+      "accept": [
+        "gene amdahl",
+        "amdahl",
+        "gene myron amdahl"
+      ],
+      "explanation": "Amdahl Corporation, founded in 1970, built IBM-compatible mainframes with Fujitsu's backing and became a wholly owned Fujitsu subsidiary in 1997.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026032",
+      "topic": "business",
+      "question": "Since 1989, Fujitsu's red logo has carried a looping symbol drawn over the j and the i, which the company says stands for the Earth, the Sun and limitless possibility. What mathematical symbol is it?",
+      "answer": "Infinity",
+      "accept": [
+        "infinity",
+        "infinity mark",
+        "infinity sign",
+        "infinity symbol",
+        "lemniscate"
+      ],
+      "explanation": "Fujitsu calls it the infinity mark, part of the corporate logo adopted in 1989.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026033",
+      "topic": "business",
+      "question": "In 1910, at a copper mine in Ibaraki, the engineer Namihei Odaira built a five-horsepower electric motor entirely with Japanese know-how. The company he founded, later one of Fujitsu's great mainframe rivals, took a name whose two characters mean sun and rise. Name the company.",
+      "answer": "Hitachi",
+      "accept": [
+        "hitachi",
+        "hitachi limited",
+        "hitachi ltd"
+      ],
+      "explanation": "Hitachi's name joins the characters hi, sun, and tachi, rise, and the firm grew from Odaira's 1910 motor into a Japanese industrial giant.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026034",
+      "topic": "history",
+      "question": "In 1978, rather than cut its stake in its Indian business to 40 per cent as the foreign exchange law demanded, this American computer giant shut its Indian operations and left, a year after Coca-Cola had done the same. It came back in 1992 in partnership with the Tata group. Name the company.",
+      "answer": "IBM",
+      "accept": [
+        "ibm",
+        "international business machines",
+        "big blue"
+      ],
+      "explanation": "IBM left India in 1978 under the Foreign Exchange Regulation Act and returned in 1992 through a joint venture with the Tatas.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026035",
+      "topic": "business",
+      "question": "The three-and-a-half-inch diskette with a sliding metal shutter, the one that still serves as the save icon on many screens, was introduced in 1981 by a Japanese company that kept selling them in Japan until March 2011. Which company?",
+      "answer": "Sony",
+      "accept": [
+        "sony",
+        "sony corporation"
+      ],
+      "explanation": "Sony unveiled the 3.5-inch format in 1981, and its later high-density version held 1.44 megabytes.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026036",
+      "topic": "geography",
+      "question": "Fujitsu's big works, opened in 1938 and now its Technology Park, stands in this industrial city between Tokyo and Yokohama. The city's J League football club, Frontale, began in 1955 as Fujitsu's company team. Name the city.",
+      "answer": "Kawasaki",
+      "accept": [
+        "kawasaki",
+        "kawasaki city"
+      ],
+      "explanation": "Kawasaki Frontale grew out of the Fujitsu works team founded in 1955, and Fujitsu still backs the club.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026037",
+      "topic": "general",
+      "question": "The software that ran the first IBM PC of 1981 reached Microsoft from a small Seattle firm, where Tim Paterson had written it under a cheeky working title, Q-DOS. What did Q-DOS stand for?",
+      "answer": "Quick and Dirty Operating System",
+      "accept": [
+        "quick and dirty operating system",
+        "quick and dirty",
+        "quick and dirty os"
+      ],
+      "explanation": "Paterson's QDOS became 86-DOS, which Microsoft licensed, then bought and renamed MS-DOS.",
+      "difficulty": 3,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026038",
+      "topic": "general",
+      "question": "Released in January 1983, this spreadsheet became the program that sold the IBM PC to offices everywhere. Its name promised three jobs in one, spreadsheet, graphics and database, and its co-founder Mitch Kapor had once taught transcendental meditation. Name the program.",
+      "answer": "Lotus 1-2-3",
+      "accept": [
+        "lotus 1-2-3",
+        "lotus 123",
+        "lotus one two three",
+        "lotus 1 2 3",
+        "lotus"
+      ],
+      "explanation": "Lotus 1-2-3 was the IBM PC's killer application, and IBM itself bought Lotus in 1995.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026039",
+      "topic": "general",
+      "question": "In 2014 George R. R. Martin told a television talk show that he writes his Game of Thrones novels on an old DOS computer with no internet connection, using this word processor first released in 1978. It ruled office desks in the early 1980s and was famous for its Control-key commands. Name it.",
+      "answer": "WordStar",
+      "accept": [
+        "wordstar",
+        "word star",
+        "wordstar 4.0"
+      ],
+      "explanation": "Martin uses WordStar 4.0 partly because it does not autocorrect or spell-check his invented names.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026040",
+      "topic": "general",
+      "question": "Microsoft launched this multimedia encyclopedia on CD-ROM in 1993 at nearly 400 dollars, then slashed the price and had it bundled with new home computers. Free online rivals finished it off, and Microsoft shut it down in 2009. Name it.",
+      "answer": "Encarta",
+      "accept": [
+        "encarta",
+        "microsoft encarta"
+      ],
+      "explanation": "Encarta launched at 395 dollars in 1993, was often preinstalled on new PCs, and closed in 2009 as people turned to free sources such as Wikipedia.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026041",
+      "topic": "world",
+      "question": "She retired as a rear admiral in the United States Navy, her Flow-matic language was a model for COBOL, the language of bank mainframes, and she loved telling the story of a moth found in a Harvard computer relay in 1947 and logged as the first actual case of bug being found. Name her.",
+      "answer": "Grace Hopper",
+      "accept": [
+        "grace hopper",
+        "hopper",
+        "grace murray hopper",
+        "amazing grace"
+      ],
+      "explanation": "Grace Hopper pioneered compilers and business programming languages and popularised the moth-in-the-relay bug story.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026042",
+      "topic": "general",
+      "question": "Microsoft launched Windows 95 in August 1995 with a television campaign set to a Rolling Stones song, a nod to the new button in the corner of the screen where everything began. Which song?",
+      "answer": "Start Me Up",
+      "accept": [
+        "start me up"
+      ],
+      "explanation": "Windows 95 introduced the Start button and taskbar, and the Rolling Stones' Start Me Up was its launch anthem.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026043",
+      "topic": "general",
+      "question": "In 1981, IBM engineer David Bradley created a three-key salute that let programmers restart a frozen PC without switching it off. He later joked that he invented it but Bill Gates made it famous. Name the three keys.",
+      "answer": "Control Alt Delete",
+      "accept": [
+        "control alt delete",
+        "ctrl alt del",
+        "ctrl alt delete",
+        "control alt del",
+        "control-alt-delete",
+        "ctrl-alt-del",
+        "ctrl+alt+del"
+      ],
+      "explanation": "Bradley built Control Alt Delete into the original IBM PC in 1981 as a soft reboot for developers.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026044",
+      "topic": "business",
+      "question": "Intel's chips went from the two-eighty-six to the three-eighty-six to the four-eighty-six, but then a judge ruled that a number like three-eighty-six was generic and could not be Intel's trademark. So the fifth generation, launched in March 1993, got a name instead. What was it?",
+      "answer": "Pentium",
+      "accept": [
+        "pentium",
+        "intel pentium"
+      ],
+      "explanation": "The Pentium, launched on 22 March 1993, would otherwise have been the 586; Intel turned to a name after losing a trademark fight over 386.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026045",
+      "topic": "business",
+      "question": "Born in Peshawar in 1924, this engineer led Tata Consultancy Services from its early years until 1996 and is often called the father of the Indian IT industry. Name him.",
+      "answer": "F. C. Kohli",
+      "accept": [
+        "fc kohli",
+        "f c kohli",
+        "f. c. kohli",
+        "f.c. kohli",
+        "faqir chand kohli",
+        "fakir chand kohli",
+        "kohli"
+      ],
+      "explanation": "Faqir Chand Kohli was TCS's first chief executive, steered it from consultancy into software exports, and died in 2020 aged 96.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026046",
+      "topic": "business",
+      "question": "Founded in 1988, this industry body became the voice of India's software exporters through the 1990s, with Dewang Mehta as its high-profile president. Name it.",
+      "answer": "NASSCOM",
+      "accept": [
+        "nasscom",
+        "national association of software and services companies",
+        "national association of software and service companies"
+      ],
+      "explanation": "NASSCOM, the National Association of Software and Services Companies, was led by Dewang Mehta from 1991 to 2001.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026047",
+      "topic": "geography",
+      "question": "In 1978 R. K. Baliga, head of the Karnataka state corporation Keonics, set aside 332 acres on Hosur Road south of Bangalore, dreaming of an Indian Silicon Valley. Infosys later built its headquarters there. What is the area called?",
+      "answer": "Electronic City",
+      "accept": [
+        "electronic city",
+        "electronics city",
+        "e city",
+        "ecity"
+      ],
+      "explanation": "Keonics developed Electronic City from 1978, and it became one of India's biggest IT hubs after 1991.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026048",
+      "topic": "world",
+      "question": "Shaped by a 1990 American law that set an annual cap of 65,000, this work visa for specialty occupations carried a generation of Indian programmers to client sites in the United States. Name the visa.",
+      "answer": "H-1B",
+      "accept": [
+        "h-1b",
+        "h1b",
+        "h 1b",
+        "h1-b",
+        "h-1b visa",
+        "h1b visa"
+      ],
+      "explanation": "The Immigration Act of 1990 gave the H-1B its modern form, with a 65,000 annual cap.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026049",
+      "topic": "history",
+      "question": "After the United States refused to sell India a Cray supercomputer in the late 1980s, a new government computing lab in Pune built its own and unveiled it in 1991. Its name is a Sanskrit word meaning supreme, read also as short for parallel machine. Name it.",
+      "answer": "PARAM",
+      "accept": [
+        "param",
+        "param 8000"
+      ],
+      "explanation": "C-DAC's PARAM 8000, unveiled in 1991 under Vijay Bhatkar, is often called India's first supercomputer.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026050",
+      "topic": "business",
+      "question": "A Chandigarh-born engineer and his American partner launched this free service on the fourth of July 1996, a date chosen for its link to independence, so that anyone could read their messages from any web browser. The name was picked because it hid the letters of the language web pages are written in. Microsoft bought it in 1997. Name it.",
+      "answer": "Hotmail",
+      "accept": [
+        "hotmail",
+        "hotmail.com",
+        "msn hotmail"
+      ],
+      "explanation": "Sabeer Bhatia and Jack Smith founded Hotmail, first styled HoTMaiL, and Microsoft paid an estimated 400 million dollars for it.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026051",
+      "topic": "business",
+      "question": "In the 1970s, Tata Consultancy Services found its feet by partnering with this Detroit mainframe maker, selling its machines in India and writing software for its customers abroad. The two parted in 1978, and in 1986 the American firm merged with Sperry to form Unisys. Name it.",
+      "answer": "Burroughs",
+      "accept": [
+        "burroughs",
+        "burroughs corporation"
+      ],
+      "explanation": "TCS's Burroughs tie-up from 1973 to 1978 launched its overseas software work.",
+      "difficulty": 3,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026052",
+      "topic": "world",
+      "question": "The ringtone heard on millions of phones, the Nokia tune, is four bars lifted from Gran Vals, a solo guitar waltz written in 1902. Name its Spanish composer.",
+      "answer": "Francisco Tárrega",
+      "accept": [
+        "francisco tarrega",
+        "tarrega",
+        "francisco tárrega",
+        "tárrega"
+      ],
+      "explanation": "The Nokia tune is bars 13 to 16 of Tárrega's Gran Vals.",
+      "difficulty": 3,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026053",
+      "topic": "business",
+      "question": "On Independence Day 1995, the government company that ran India's international telephone links opened public internet access, with individual dial-up accounts at 5,000 rupees for 250 hours. The Tatas took management control of it in 2002. Name the company.",
+      "answer": "VSNL",
+      "accept": [
+        "vsnl",
+        "videsh sanchar nigam limited",
+        "videsh sanchar nigam",
+        "videsh sanchar",
+        "tata communications"
+      ],
+      "explanation": "Videsh Sanchar Nigam Limited launched India's public internet service on 15 August 1995 and is now Tata Communications.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026054",
+      "topic": "general",
+      "question": "From the late 1980s, yellow signboards on every street corner offered three sets of initials: STD, ISD and PCO. What did PCO stand for?",
+      "answer": "Public Call Office",
+      "accept": [
+        "public call office",
+        "public call offices"
+      ],
+      "explanation": "STD meant subscriber trunk dialling and ISD international subscriber dialling, and the PCO was the booth that offered both.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026055",
+      "topic": "business",
+      "question": "BSNL entered the mobile market in October 2002, with the Prime Minister launching the service from Lucknow. Its brand name claimed first place among mobile services. What was the brand called?",
+      "answer": "CellOne",
+      "accept": [
+        "cellone",
+        "cell one",
+        "cell 1",
+        "bsnl cellone",
+        "bsnl cell one"
+      ],
+      "explanation": "Prime Minister Vajpayee inaugurated BSNL's CellOne service on 19 October 2002, and the brand was renamed BSNL Mobile in 2007.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026056",
+      "topic": "general",
+      "question": "When mobile phones arrived in India in 1995, calls cost about 8 rupees 40 paise a minute, double at peak hours. Until the rules changed in 2003, subscribers also paid that rate for what kind of call?",
+      "answer": "Incoming calls",
+      "accept": [
+        "incoming calls",
+        "incoming",
+        "incoming call",
+        "receiving calls",
+        "received calls"
+      ],
+      "explanation": "Calling Party Pays took effect in May 2003, ending charges for receiving calls on Indian mobiles.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026057",
+      "topic": "business",
+      "question": "Formed in 1986 to run the telephones of just two cities, Delhi and Bombay, MTNL launched its own GSM mobile service there in 2001. It named the service after which sea creature?",
+      "answer": "Dolphin",
+      "accept": [
+        "dolphin",
+        "mtnl dolphin"
+      ],
+      "explanation": "Mahanagar Telephone Nigam Limited launched Dolphin in Delhi and Mumbai in February 2001.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026058",
+      "topic": "general",
+      "question": "Before direct dialling reached most towns, a long-distance trunk call was booked through the operator in one of three priority classes. Ordinary was the slowest and urgent came next. What was the top class, named after something very fast?",
+      "answer": "Lightning",
+      "accept": [
+        "lightning",
+        "lightning call",
+        "lightning calls"
+      ],
+      "explanation": "Trunk calls were put through in order of priority: lightning first, then urgent, then ordinary.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026059",
+      "topic": "general",
+      "question": "Launched commercially in India in 1995 by operators such as Easy Call, this belt-clipped gadget let you receive short messages sent through an operator. By 1998 India had more than 800,000 of them, before cheaper mobile phones wiped them out. Name the gadget.",
+      "answer": "Pager",
+      "accept": [
+        "pager",
+        "pagers",
+        "beeper",
+        "paging"
+      ],
+      "explanation": "Paging launched commercially in India in 1995, and its subscriber base began shrinking in 1998 as mobile phones caught on.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026060",
+      "topic": "general",
+      "question": "Central government staff could claim this perk for a trip to their home town twice in every block of four years, or swap one of those trips for a journey anywhere in India. Whole families planned their Goa and Kanyakumari holidays around it. What three-letter perk?",
+      "answer": "LTC",
+      "accept": [
+        "ltc",
+        "leave travel concession",
+        "leave travel allowance",
+        "lta",
+        "lfc",
+        "leave fare concession"
+      ],
+      "explanation": "Leave Travel Concession lets central government employees travel home twice in a four-year block, or home once and anywhere in India once; banks call their version Leave Fare Concession.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026061",
+      "topic": "general",
+      "question": "In 1955 Godrej launched the Prima, India's first locally made one. The company went on making them for more than half a century, long after computers had taken over the office desk. What machine?",
+      "answer": "Typewriter",
+      "accept": [
+        "typewriter",
+        "manual typewriter",
+        "godrej typewriter",
+        "the typewriter"
+      ],
+      "explanation": "Godrej and Boyce launched the Prima, India's first locally made typewriter, in 1955, stopped production around 2009 and sold off its last stock by 2011.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026062",
+      "topic": "general",
+      "question": "On the first of August 1986, the government mail service launched a premium express delivery linking Delhi, Bombay, Calcutta, Madras and three other cities, its answer to the private couriers. What was it called?",
+      "answer": "Speed Post",
+      "accept": [
+        "speed post",
+        "speedpost",
+        "ems speed post"
+      ],
+      "explanation": "India Post introduced Speed Post on 1 August 1986, starting with seven major cities.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026063",
+      "topic": "general",
+      "question": "In 1997 Indian Railways began letting travellers with sudden plans book a berth at short notice for an extra charge, on a limited set of trains at first. The scheme's Hindi name means immediately. What is it called?",
+      "answer": "Tatkal",
+      "accept": [
+        "tatkal",
+        "tatkal scheme",
+        "tatkaal",
+        "tatkal quota"
+      ],
+      "explanation": "Indian Railways introduced the Tatkal scheme for last-minute bookings at a premium in December 1997.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026064",
+      "topic": "business",
+      "question": "In 1997 the government gave a select club of profit-making public sector companies, among them BHEL, ONGC and Indian Oil, much greater freedom to invest and run their own affairs. The status borrowed an old word for nine gems. What was it called?",
+      "answer": "Navratna",
+      "accept": [
+        "navratna",
+        "navaratna",
+        "navratna status",
+        "navratnas"
+      ],
+      "explanation": "Navratna status was created in 1997 for the top public sector enterprises, giving their boards greater financial autonomy.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026065",
+      "topic": "business",
+      "question": "Set up in 1973 to bring together the great public sector plants at Bhilai, Durgapur, Rourkela and Bokaro, this company's long-running slogan said there was a little bit of it in everybody's life. Name the company.",
+      "answer": "SAIL",
+      "accept": [
+        "sail",
+        "steel authority of india",
+        "steel authority of india limited"
+      ],
+      "explanation": "Steel Authority of India Limited was incorporated on 24 January 1973 as a holding company; its slogan was There's a little bit of SAIL in everybody's life.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026066",
+      "topic": "business",
+      "question": "Indian Oil released its first cooking gas connection in Calcutta in October 1965 under this brand name. For decades afterwards, a new gas connection meant a long wait on a dealer's list. Name the brand.",
+      "answer": "Indane",
+      "accept": [
+        "indane",
+        "indane gas",
+        "indane lpg"
+      ],
+      "explanation": "Indane, Indian Oil's LPG brand, released its first connection in Kolkata on 22 October 1965.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026067",
+      "topic": "business",
+      "question": "In 1984 a Pune company teamed up with a Japanese motorcycle maker to sell a gearless scooter with a push-button electric start, a world away from tilting and kicking a stubborn scooter to life. Name the scooter.",
+      "answer": "Kinetic Honda",
+      "accept": [
+        "kinetic honda",
+        "kinetic",
+        "kinetic honda dx"
+      ],
+      "explanation": "Kinetic Engineering of the Firodia family and Honda launched the Kinetic Honda in 1984; the partnership lasted until 1998.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026068",
+      "topic": "general",
+      "question": "In May 1998, acting on the Fifth Pay Commission, the central government raised the retirement age of its employees by two years. What did it become?",
+      "answer": "60",
+      "accept": [
+        "60",
+        "sixty",
+        "60 years",
+        "sixty years"
+      ],
+      "explanation": "A May 1998 notification raised the central government retirement age from 58 to 60.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026069",
+      "topic": "general",
+      "question": "In 2008 the Sixth Pay Commission swept away dozens of old pay scales and put central government employees into four running pay bands. From then on, the level of each post within a band was marked by a fixed extra amount added to the band pay. What two-word name did it carry?",
+      "answer": "Grade Pay",
+      "accept": [
+        "grade pay"
+      ],
+      "explanation": "The Sixth Central Pay Commission replaced the old scales with four running pay bands, each post carrying a fixed grade pay on top of band pay.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026070",
+      "topic": "general",
+      "question": "Under the Payment of Gratuity Act, an employee got fifteen days' wages for every completed year of service. To work out one day's wage, the last monthly salary was not divided by thirty. What number was it divided by?",
+      "answer": "26",
+      "accept": [
+        "26",
+        "twenty six",
+        "twenty-six"
+      ],
+      "explanation": "Gratuity is last drawn monthly wage times 15 times years of service, divided by 26, a month being taken as 26 working days.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026071",
+      "topic": "business",
+      "question": "Godrej began making steel almirahs in 1923, and by the 1960s its grey cupboard was a fixture of middle-class homes, where brides kept their trousseau saris and jewellery. Under what brand name was the Godrej almirah sold?",
+      "answer": "Storwel",
+      "accept": [
+        "storwel",
+        "godrej storwel",
+        "storewell",
+        "storwell"
+      ],
+      "explanation": "Godrej's steel cupboard, first sold in 1923, was redesigned and rebranded Storwel in the 1940s and became a fixture of Indian homes and offices.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026072",
+      "topic": "history",
+      "question": "Before photocopiers, offices ran off circulars from wax stencils, a process everyone called cyclostyling. The word came from a pen with a tiny toothed wheel, patented in 1881 by a Hungarian-born inventor in London, whose surname became the best-known brand of duplicating machine. Name him.",
+      "answer": "David Gestetner",
+      "accept": [
+        "gestetner",
+        "david gestetner"
+      ],
+      "explanation": "Hungarian-born David Gestetner patented the Cyclostyle stencil pen in London in 1881 and founded the Gestetner duplicator company.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026073",
+      "topic": "general",
+      "question": "From 1988, Doordarshan viewers got a half-hour of international news every Friday night, made by a private production company and presented by Prannoy Roy. What was the programme called?",
+      "answer": "The World This Week",
+      "accept": [
+        "the world this week",
+        "world this week"
+      ],
+      "explanation": "The World This Week, produced by NDTV for Doordarshan from 1988, made Prannoy Roy a household name.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026074",
+      "topic": "general",
+      "question": "So many viewers posted answers to the weekly quiz on this Doordarshan cultural magazine, hosted by Siddharth Kak and Renuka Shahane, that it entered the Limca Book of Records for over a million letters in a single week. Name the show.",
+      "answer": "Surabhi",
+      "accept": [
+        "surabhi"
+      ],
+      "explanation": "Surabhi's quiz drew over 1.4 million letters in one week, which the Limca Book of Records lists as the highest response in Indian television history.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026075",
+      "topic": "business",
+      "question": "In 1991 a Hong Kong company backed by Hutchison Whampoa began beaming MTV, BBC news and American soaps across Asia, and Indian cable operators rushed to put it on their networks. Rupert Murdoch bought control in 1993. Its four-letter name was an acronym. Name the network.",
+      "answer": "Star TV",
+      "accept": [
+        "star tv",
+        "star",
+        "star television",
+        "satellite television asian region"
+      ],
+      "explanation": "STAR stood for Satellite Television Asian Region; News Corporation bought a controlling stake in July 1993.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026076",
+      "topic": "business",
+      "question": "Maruti's boxy van with sliding doors, launched in 1984 with the same three-cylinder engine as its small car, was first sold simply as the Maruti Van. In 1988 it got a new name that stuck for three decades. What was it?",
+      "answer": "Omni",
+      "accept": [
+        "omni",
+        "maruti omni"
+      ],
+      "explanation": "The Maruti Van of 1984 was renamed the Omni in 1988 and stayed in production until 2019.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026077",
+      "topic": "history",
+      "question": "From June 1985, central government administrative offices across the country switched to a new routine, with every working day stretched by about an hour in exchange. What change came in?",
+      "answer": "Five-day week",
+      "accept": [
+        "five day week",
+        "five-day week",
+        "5 day week",
+        "5-day week",
+        "saturdays off",
+        "saturday off",
+        "two day weekend"
+      ],
+      "explanation": "A May 1985 office memorandum introduced the five-day week in central civil offices from 3 June 1985, adding an hour to each working day.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026078",
+      "topic": "business",
+      "question": "In 1993 the industrialist Satish Kumar Modi launched a Delhi airline whose Boeings, pilots and maintenance came from a German partner whose name it half-borrowed. It was grounded in 1996, but years later the same company was bought by Ajay Singh and relaunched in 2005 as a low-cost carrier. Name the low-cost airline.",
+      "answer": "SpiceJet",
+      "accept": [
+        "spicejet",
+        "spice jet"
+      ],
+      "explanation": "ModiLuft, run with Lufthansa's technical help, collapsed in 1996; its company was later renamed and relaunched as SpiceJet, which first flew in May 2005.",
+      "difficulty": 3,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026079",
+      "topic": "history",
+      "question": "Indian Railways' first computerised reservation system went live at New Delhi in 1985, built with the public sector firm CMC, and was later replaced by a system called Concert. Its seven-letter acronym spelled a word meaning to make a strong mark on someone. What was it?",
+      "answer": "IMPRESS",
+      "accept": [
+        "impress",
+        "impress system"
+      ],
+      "explanation": "IMPRESS, the Integrated Multiple Train Passenger Reservation System, was piloted at New Delhi in 1985 and later replaced by CRIS's CONCERT.",
+      "difficulty": 3,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026080",
+      "topic": "business",
+      "question": "This company was founded in 1909 to make weaving looms in Hamamatsu, later turned to motorcycles and small cars, and in October 1982 signed a joint venture agreement with the Government of India's Maruti Udyog. Name the Japanese company.",
+      "answer": "Suzuki",
+      "accept": [
+        "suzuki",
+        "suzuki motor",
+        "suzuki motor corporation",
+        "suzuki loom works"
+      ],
+      "explanation": "Michio Suzuki founded Suzuki Loom Works in Hamamatsu in 1909, and the company signed its Maruti Udyog joint venture agreement in October 1982.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026081",
+      "topic": "business",
+      "question": "Toyota's Indian joint venture was set up in 1997 and launched its first model, the Qualis, in 2000 from a plant at Bidadi near Bangalore. Its Indian partner was an engineering group famous for pumps and diesel engines. Name the group.",
+      "answer": "Kirloskar",
+      "accept": [
+        "kirloskar",
+        "kirloskar group",
+        "kirloskars",
+        "toyota kirloskar"
+      ],
+      "explanation": "Toyota Kirloskar Motor was founded in 1997 with the Kirloskar Group, launched the Qualis in 2000 and replaced it with the Innova in 2005.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026082",
+      "topic": "business",
+      "question": "For decades the Osaka company founded by Konosuke Matsushita in 1918 sold its radios and televisions under the brand National. On 1 October 2008 it dropped the founder's name from its own and renamed itself after its best-known overseas brand. What is it called today?",
+      "answer": "Panasonic",
+      "accept": [
+        "panasonic",
+        "panasonic corporation",
+        "national panasonic"
+      ],
+      "explanation": "Matsushita Electric Industrial became Panasonic Corporation on 1 October 2008, and the old National brand was phased out.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026083",
+      "topic": "business",
+      "question": "Sony's portable cassette player of 1979 was first sold in America as the Soundabout, in Britain as the Stowaway and in Sweden as the Freestyle, because overseas staff thought its Japanese-coined English name sounded wrong. What name won out everywhere?",
+      "answer": "Walkman",
+      "accept": [
+        "walkman",
+        "sony walkman",
+        "walk man"
+      ],
+      "explanation": "The Walkman went on sale in Japan on 1 July 1979; overseas sales arms first objected to the made-in-Japan English name, but by the early 1980s Sony used Walkman worldwide.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026084",
+      "topic": "world",
+      "question": "In Tokyo, an Indian visitor soon learned the drill: offer it with both hands and a slight bow, study it carefully, keep it on the table for the whole meeting, and never write on it in front of its owner. What is the Japanese word for a business card?",
+      "answer": "Meishi",
+      "accept": [
+        "meishi",
+        "meishi koukan"
+      ],
+      "explanation": "Meishi are exchanged with both hands and a light bow, then laid on the table during the meeting rather than pocketed straight away.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026085",
+      "topic": "world",
+      "question": "Many a Tokyo office evening ended with a microphone, a drink and lyrics scrolling across a screen. The name of this pastime joins the Japanese word for empty to a clipped form of the word orchestra. What is it?",
+      "answer": "Karaoke",
+      "accept": [
+        "karaoke"
+      ],
+      "explanation": "Karaoke combines kara, meaning empty, with oke, short for okesutora, orchestra, so the word means empty orchestra.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026086",
+      "topic": "world",
+      "question": "It opened on 1 October 1964, nine days before the Tokyo Olympics began, linking Tokyo and Osaka. In the 2019 financial year, trains on that first line averaged a delay of just 12 seconds. What is the Japanese name for this bullet train network?",
+      "answer": "Shinkansen",
+      "accept": [
+        "shinkansen",
+        "tokaido shinkansen"
+      ],
+      "explanation": "The Tokaido Shinkansen opened on 1 October 1964, and in fiscal 2019 its trains averaged a delay of only 12 seconds.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026087",
+      "topic": "world",
+      "question": "Tokyo's loop line, shown in light green on rail maps, circles the city through Shinjuku, Shibuya, Ikebukuro and Tokyo station, and a full round takes about an hour. Name the line.",
+      "answer": "Yamanote Line",
+      "accept": [
+        "yamanote",
+        "yamanote line",
+        "yamanote sen",
+        "yamanote-sen"
+      ],
+      "explanation": "The Yamanote Line is a 34.5 kilometre loop with 30 stations, and a full circuit takes about 59 to 65 minutes.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026088",
+      "topic": "world",
+      "question": "Japan's business year begins in April, just as the cherry trees bloom, and new recruits are often sent out at dawn to spread blue tarpaulins in Tokyo's parks to save a spot for the office party. What is the Japanese name for this custom of blossom viewing?",
+      "answer": "Hanami",
+      "accept": [
+        "hanami",
+        "ohanami",
+        "o-hanami"
+      ],
+      "explanation": "Hanami, flower viewing, is the spring custom of picnicking under the cherry blossoms, and junior staff are traditionally sent to claim the spot.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026089",
+      "topic": "world",
+      "question": "For 83 years, until October 2018, Tokyo's great wholesale fish market stood beside the Ginza district, and visitors queued before dawn to watch its tuna auctions. Its business has since moved to Toyosu. Name the old market.",
+      "answer": "Tsukiji",
+      "accept": [
+        "tsukiji",
+        "tsukiji market",
+        "tsukiji fish market"
+      ],
+      "explanation": "Tsukiji market opened in February 1935 and closed in October 2018, when wholesale trade moved to the new Toyosu Market.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026090",
+      "topic": "business",
+      "question": "On 22 September 1985 the finance ministers of five rich countries met at a New York hotel and agreed to push the American dollar down. The yen soared, and some economists link Japan's response to the bubble economy that followed. Name the agreement, which takes its name from the hotel.",
+      "answer": "Plaza Accord",
+      "accept": [
+        "plaza accord",
+        "plaza agreement",
+        "plaza"
+      ],
+      "explanation": "The Plaza Accord was signed at New York's Plaza Hotel by France, West Germany, Japan, Britain and the United States; the bubble of the late 1980s later burst into Japan's lost decade.",
+      "difficulty": 3,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026091",
+      "topic": "world",
+      "question": "In June 2005 Japan's Environment Ministry asked offices to set air conditioners to 28 degrees and let staff shed jackets and ties for the summer, and cabinet ministers turned up tieless to set the example. The name was picked from about three thousand public suggestions. What was the campaign called?",
+      "answer": "Cool Biz",
+      "accept": [
+        "cool biz",
+        "coolbiz",
+        "cool business"
+      ],
+      "explanation": "Cool Biz was launched on 1 June 2005 under Environment Minister Yuriko Koike to cut air-conditioning use in Japanese offices.",
+      "difficulty": 3,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026092",
+      "topic": "geography",
+      "question": "In 1995 the government officially renamed this ring of white colonnaded blocks at the heart of New Delhi after Rajiv Gandhi, and the metro station beneath it carries that name. Yet almost everyone still calls it after a son of Queen Victoria. What?",
+      "answer": "Connaught Place",
+      "accept": [
+        "connaught place",
+        "cp",
+        "connaught circus"
+      ],
+      "explanation": "Connaught Place, built between 1929 and 1933, is named after Prince Arthur, Duke of Connaught, and was officially renamed Rajiv Chowk in 1995.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026093",
+      "topic": "geography",
+      "question": "Every year from 14 November, Delhi families queued for the India International Trade Fair at this exhibition ground, whose concrete Hall of Nations, designed by Raj Rewal, was demolished in 2017. Name the ground.",
+      "answer": "Pragati Maidan",
+      "accept": [
+        "pragati maidan"
+      ],
+      "explanation": "Pragati Maidan has hosted the India International Trade Fair every November; its Hall of Nations was pulled down in April 2017, and the Bharat Mandapam convention centre opened there in 2023.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026094",
+      "topic": "general",
+      "question": "On 24 December 2002 the Prime Minister opened the Delhi Metro's first stretch, from Shahdara to Tis Hazari, financed with Japanese government loans. The engineer in charge, who had earlier led the Konkan Railway, became known as the Metro Man. Name him.",
+      "answer": "E. Sreedharan",
+      "accept": [
+        "e sreedharan",
+        "sreedharan",
+        "elattuvalapil sreedharan",
+        "e. sreedharan"
+      ],
+      "explanation": "E. Sreedharan, managing director of the Delhi Metro Rail Corporation, built its first phase with official development assistance loans from Japan.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026095",
+      "topic": "geography",
+      "question": "Opened in March 1994 opposite INA Market, this paid-entry open-air bazaar gives craftspeople from around India stalls on rotation, alongside a food plaza. Name it.",
+      "answer": "Dilli Haat",
+      "accept": [
+        "dilli haat",
+        "delhi haat",
+        "dilli haat ina"
+      ],
+      "explanation": "Dilli Haat at INA, set up by Delhi Tourism, opened in March 1994 and rents its stalls to craftspeople on rotation for up to about two weeks at a time.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026096",
+      "topic": "geography",
+      "question": "In 1958 Chandigarh's planners dammed a seasonal stream at the foot of the Shivalik hills to make this lake, and Le Corbusier insisted that no motorboats should disturb its calm. Morning walkers and rowers have used it ever since. Name the lake.",
+      "answer": "Sukhna Lake",
+      "accept": [
+        "sukhna",
+        "sukhna lake"
+      ],
+      "explanation": "Sukhna Lake was created in 1958 by damming the Sukhna Choe, a seasonal stream flowing down from the Shivaliks.",
+      "difficulty": 1,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026097",
+      "topic": "geography",
+      "question": "Le Corbusier sketched it but did not live to see it built: a giant steel sculpture of an outstretched palm that turns freely in the wind at Chandigarh's Capitol Complex, a symbol of giving and receiving. Completed in 1985, it is the city's emblem. What is it called?",
+      "answer": "Open Hand Monument",
+      "accept": [
+        "open hand",
+        "open hand monument",
+        "the open hand"
+      ],
+      "explanation": "The Open Hand Monument, 26 metres tall with a 14 metre wind vane, was completed in 1985, two decades after Le Corbusier died.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026098",
+      "topic": "history",
+      "question": "Le Corbusier's cousin and longtime partner stayed on in Chandigarh as its chief architect, and the teak furniture he designed for the city's offices and institutions now fetches lakhs of rupees at Paris auctions. His ashes were later scattered in the city's lake. Name him.",
+      "answer": "Pierre Jeanneret",
+      "accept": [
+        "pierre jeanneret",
+        "jeanneret"
+      ],
+      "explanation": "Pierre Jeanneret stayed on in Chandigarh as its chief architect, designed much of its housing and furniture, died in 1967, and had his ashes scattered in the city's lake.",
+      "difficulty": 3,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026099",
+      "topic": "geography",
+      "question": "Designed by Charles Correa and opened by Indira Gandhi in February 1982, this arts centre on Bhopal's Shamla Hills looks out over the Upper Lake and houses an art museum, a theatre repertory and a centre for poetry. Name it.",
+      "answer": "Bharat Bhavan",
+      "accept": [
+        "bharat bhavan",
+        "bharat bhawan"
+      ],
+      "explanation": "Bharat Bhavan was inaugurated on 13 February 1982 and houses Roopankar, the art museum, and Rangmandal, the theatre repertory.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
+    },
+    {
+      "id": "q1026100",
+      "topic": "history",
+      "question": "Bhopal's great lake still supplies drinking water to about two in five of the city's residents. Local tradition credits it to an eleventh-century Paramara king of Malwa, and the city's own name is said to come from his. Name the king.",
+      "answer": "Raja Bhoj",
+      "accept": [
+        "raja bhoj",
+        "bhoj",
+        "bhoja",
+        "raja bhoja",
+        "bhojadeva",
+        "king bhoj",
+        "king bhoja"
+      ],
+      "explanation": "Raja Bhoj ruled Malwa in the eleventh century; Bhopal is traced to Bhojpal, and the Upper Lake was renamed Bhojtal in his honour in 2011.",
+      "difficulty": 2,
+      "created": "2026-10-26",
+      "themes": [
+        "passbooks_floppies"
+      ]
     }
   ]
 };
