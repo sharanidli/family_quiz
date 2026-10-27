@@ -1,5 +1,17 @@
 # Project Log: Not Such A Tough Quiz Also
 
+## Current state (2026-10-27)
+
+- **Live** at https://sharanidli.github.io/family_quiz/ (public repo `sharanidli/family_quiz`), commit `1163261`. Static HTML/JS; voice host (browser TTS); host judges answers.
+- **Bank: 2,584 questions** in `questions.json` (mirrored in `questions.js`), including 35 Connect sets and 57 Long Tail callbacks. **All 2,492 eligible questions have KBC-style options** (`distractors`, plus `option_answer` display labels where needed).
+- **Round types:** Long, Theme, Bid, Connect, Hot Seat (4 in a row, wagers locked up front, 30/20/10/10 s clock, hard→easy). **Per-round tick boxes:** Pounce & Bounce (Long/Theme/Bid), Jodi random teams (Long/Theme), Options lifeline (Long/Theme/Bid/Hot Seat, on by default).
+- **Theme options** include two theme-only sets (never drawn by other rounds): Lost in Translation (40 Hindi songs) and Passbooks and Floppy Disks (100, Indian working life 1983–2010).
+- **Modes:** St. Louis Mode (its 156-question batch, served only in that mode) and Iranian Mode.
+- **Default lineup (10 rounds):** Long, Cinema, Bid, Business, Lost in Translation, Long, Connect, Current Affairs, Bid, Hot Seat.
+- **Per-player seen history** lives in the playing browser's localStorage (`quiz_player_seen_<name>`); the regular group's history is in this laptop's Chrome on the live site. As of 2026-10-26 about 104 easy questions were unseen by the regular four (about 10 games of Hot Seat).
+- **How new content is made** (see the dated sections): parallel writer agents with a brief, then independent fact-checker agents, then a merge script with mechanical checks (schema, banned answers, in-batch duplicates, cross-question spoiler scan), all in a gitignored `new_batch_<date>/` folder. **New questions must include `distractors`.** Questions are never shown to Sharan when he is playing.
+- **Next:** a Kashmir theme (decision pending on whether to cover the 1990 exodus; default is to leave it out). See "Open items" at the end.
+
 ## Context
 
 Family India-quiz game inspired by playing voice-mode ChatGPT with in-laws.
@@ -26,11 +38,14 @@ Goal: a static HTML page (no backend, hostable on GitHub Pages) that:
 
 | File | Purpose |
 |---|---|
-| `index.html` | Three screens: setup, game, end |
-| `style.css` | Dark theme, large readable fonts, mobile-friendly |
-| `app.js` | Game state, TTS via `speechSynthesis`, STT via `webkitSpeechRecognition`, Levenshtein-based fuzzy matcher |
-| `questions.json` | 150 questions: 25 cricket, 25 cinema, 25 history, 15 geography, 15 business, 10 polity, 10 mythology, 10 music, 10 books, 5 general; 47 flagged `bid_eligible` |
-| `README.md` | How to play + how to push to GitHub Pages + how to add questions |
+| `index.html` | Setup, game and end screens |
+| `style.css` | Dark theme, large fonts, mobile-friendly; option buttons, Hot Seat rows |
+| `app.js` | Game state and rounds, picker and pools, modes, Hot Seat, Jodi, options lifeline, TTS/STT, fuzzy matcher, per-player history |
+| `questions.json` / `questions.js` | The bank (`questions.js` is the same data as a `<script>` so `file://` works; regenerate it from the JSON) |
+| `README.md` | How to play and publish (dates from v1) |
+| `new_batch_<date>/` (gitignored) | Briefs, drafts, reviews and merge scripts for each content batch; may contain spoilers |
+| `*.bak_before_*` (gitignored) | Bank backups taken by each merge |
+| `iran_mode_batches/` | Iranian Mode generation workspace (tracked) |
 
 ## Status (2026-05-09)
 
@@ -335,6 +350,7 @@ Sharan's design, settled in chat: every question except Connect and Long Tail ca
 - **Loose ends (batch E, 16 ids):** overlaps noted by checker A plus cross-batch near-duplicates: 9 kept, 3 near-duplicates dropped, 4 patched (give-aways and a shared clue). Two minor give-away overlaps with questions outside the batch remain (≈1% chance of meeting in one game), listed in `cleanup/cleanup_E_checked.md`.
 - **Bank: 2,615 → 2,584** (31 dropped, 227 patched). **All 2,492 eligible questions now have options** (the 78 withheld were all fixed or dropped). Backups `*.bak_before_cleanup_2026-10-27_ABCD` / `_E`.
 - Regression (headless): options rules with the real bank, full game with themes and Hot Seat, Jodi, Options tick box; 0 errors.
+- **Live at commit `1163261`** (options lifeline, tick box and cleaned bank; Pages confirmed serving it).
 
 ## Multiplayer "next level" idea (not yet built)
 
@@ -345,10 +361,12 @@ Everyone opens the page on their phone; only the active player can buzz / mark t
 - **Listening accuracy**: ~70% on Indian English in Chrome desktop; lower on mobile/iOS. Manual override always available.
 - **Browser support**: Voice + listening best in Chrome/Edge. Firefox doesn't support `SpeechRecognition`. Safari iOS is unreliable.
 - **Voice quality**: Browser's built-in TTS — robotic. Premium TTS (ElevenLabs, Google Cloud) would need a backend with API keys, which violates the "static, no key" constraint.
-- **Question facts**: Generated from training data; should be sanity-checked over time. Two cricket questions were already corrected during initial generation (Pataudi birth details, Zaheer-vs-Yuvraj confusion).
+- **Question facts**: written by agents and web-checked by independent checkers since May; the October options review effectively audited the whole bank and the cleanup pass fixed or dropped 258 flagged questions. Errors can still slip through: when a family member disputes an answer, note the id and fix it.
 
-## Open questions for Sharan
+## Open items
 
-1. After first play-test: are the round-point values right? (10 / 5 / wager)
-2. Should the "Pass → next player +5" mechanic apply to Theme Rounds too, not just Long?
-3. Auto-reveal delay after voice match — currently 600ms. Too fast / slow?
+1. **Kashmir theme** (next, requested 2026-10-26): Sharan to decide whether the 1990 exodus is covered or left out; default is to leave it out and cover culture, food, places, language, festivals and famous Kashmiris.
+2. **Two minor give-away overlaps** left after the cleanup (listed in `new_batch_2026-10-27/cleanup/cleanup_E_checked.md`): a question asked earlier in a game can hint at another's answer; about a 1% chance per game.
+3. **Easy-question supply for Hot Seat**: about 10 games' worth unseen by the regular group as of 2026-10-26; top up with another easy batch before it runs out.
+4. **Ideas discussed, not built:** closest-wins "What did it cost?" / "Which year?", Muhavare and Masala Dabba themes, Mythology and Golden Era music theme options, Antakshari, a family round, phone multiplayer (Firebase).
+5. `README.md` still describes v1; refresh it if anyone else will host or edit the game.
