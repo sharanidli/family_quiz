@@ -36,6 +36,15 @@ const HOTSEAT_TIERS = [
   ['easy', 'medium', 'hard'],
   ['easy', 'medium', 'hard'],
 ];
+// Options lifeline (KBC style): a stuck player can see four choices, the answer plus the
+// question's three `distractors`, for reduced points: 4 instead of 10, or 40% of the
+// wager in Bid and Hot Seat. Wrong picks are crossed out and the question bounces with
+// the rest; once only one option is left the answer is revealed and nobody scores.
+const OPTION_POINTS = 4;
+const OPTION_WAGER_SHARE = 0.4;
+const OPTION_LETTERS = ['A', 'B', 'C', 'D'];
+const OPTION_ROUND_TYPES = ['long', 'theme', 'bid', 'hotseat'];
+
 // Untagged questions predate the 1/2/3 tiers and were written as standard (not hard).
 const DIFFICULTY_TIER = {
   hard:   q => q.difficulty === 3,
@@ -144,6 +153,7 @@ const state = {
   jodiActive: false,          // this round is being played in Jodi teams
   teams: [],                  // Jodi teams: lists of player indices, captain first
   jodiCaptains: [],           // captains picked by the host for this Jodi round
+  options: null,              // once shown for this question: { order: [4 choices], correct, eliminated: [indices] }
   voiceRate: 1.15,
   listening: false,
   recognition: null,
@@ -259,6 +269,17 @@ function renderRounds() {
       pounceLabel.appendChild(cb);
       pounceLabel.appendChild(document.createTextNode(' Pounce & Bounce (+1× if right, −2× if wrong)'));
       cells.push(pounceLabel);
+    }
+    // Options lifeline toggle — on by default (undefined counts as on); any round type
+    // that can show options.
+    if (OPTION_ROUND_TYPES.includes(r.type)) {
+      const optLabel = el('label', { class: 'pounce-toggle', style: 'grid-column: 1 / -1;' });
+      const ob = el('input', { type: 'checkbox', onchange: (e) => { r.options = e.target.checked; } });
+      if (r.options !== false) ob.checked = true;
+      optLabel.appendChild(ob);
+      optLabel.appendChild(document.createTextNode(
+        ` Options lifeline (four choices: ${OPTION_POINTS} points, or 40% of a wager)`));
+      cells.push(optLabel);
     }
     // Jodi toggle — Long and Theme rounds only; can be combined with Pounce & Bounce.
     if (r.type === 'long' || r.type === 'theme') {
@@ -1013,6 +1034,11 @@ async function startRound() {
     spokenIntro = 'Bid round. Wager five, ten, or twenty.';
   }
 
+  if (r.options !== false) {
+    if (r.type === 'long' || r.type === 'theme') intro += ` Stuck? Ask for the four options, for ${OPTION_POINTS} points.`;
+    else if (isWagerRound(r)) intro += ' Stuck? Ask for the four options; a right answer then wins 40% of the wager.';
+  }
+
   const main = $('#game-main');
   main.innerHTML = '';
   main.appendChild(el('div', { class: 'player-up' }, intro));
@@ -1108,6 +1134,7 @@ async function nextQuestionInRound() {
   if (!q) { alert('Out of questions! Add more to questions.json.'); return endRound(); }
 
   state.currentQuestion = q;
+  state.options = null;
   state.phase = 'question';
   renderQuestion(q);
 
@@ -1140,6 +1167,7 @@ function askForBid() {
         const q = nextQuestion({ bidEligible: true }) || nextQuestion({});
         if (!q) { alert('Out of questions!'); return endRound(); }
         state.currentQuestion = q;
+        state.options = null;
         state.phase = 'question';
         renderQuestion(q, { bid: v });
         // Skip the redundant "you've wagered ten" — wager and question
@@ -1218,6 +1246,7 @@ async function askHotSeatQuestion(k) {
   const q = pickHotSeatQuestion(k);
   if (!q) { alert('Out of questions!'); return endRound(); }
   state.currentQuestion = q;
+  state.options = null;
   state.currentBid = state.hotseatWagers[k];
   state.phase = 'question';
   state.matchAnnounced = false;
@@ -1230,13 +1259,15 @@ async function askHotSeatQuestion(k) {
 }
 
 let hotseatInterval = null;
+let hotseatLeft = 0;        // seconds left on the running clock (survives a re-render)
 
 function startHotSeatClock(secs) {
   clearHotSeatClock();
-  let left = secs;
-  renderHotSeatClock(left);
+  hotseatLeft = secs;
+  renderHotSeatClock(hotseatLeft);
   hotseatInterval = setInterval(() => {
-    left--;
+    hotseatLeft--;
+    const left = hotseatLeft;
     renderHotSeatClock(left);
     if (left > 0 && left <= 5) playTone(1000, 0.08, 'square', 0.08);
     if (left <= 0) {
@@ -1307,15 +1338,17 @@ function renderHeader() {
 
 function renderQuestion(q, opts = {}) {
   renderHeader();
-  const player = state.players[state.currentPlayerIdx];
   const main = $('#game-main');
   main.innerHTML = '';
+  const _r = state.rounds[state.currentRoundIdx];
+  const opt = state.options;   // set once the options have been shown for this question
 
   const headerEl = el('div', { class: 'player-up' });
   const headerBits = [seatName(state.currentPlayerIdx)];
   if (opts.hotseat != null) headerBits.push(`Q${opts.hotseat + 1} of ${HOTSEAT_SECONDS.length}`);
   if (opts.bid) headerBits.push(`Wager: ${opts.bid}`);
-  if (opts.passing) headerBits.push('Bounce — full points');
+  if (opt) headerBits.push(isWagerRound(_r) ? 'Options: 40% of the wager' : `Options: ${OPTION_POINTS} points`);
+  if (opts.passing) headerBits.push(opt ? 'Bounce' : 'Bounce — full points');
   headerEl.appendChild(document.createTextNode(headerBits.join(' • ') + ' '));
   if (opts.hotseat != null) {
     // Hot Seat runs its own clock, which starts once the question has been read.
@@ -1325,42 +1358,110 @@ function renderQuestion(q, opts = {}) {
     headerEl.appendChild(el('span', { id: 'timer', class: 'timer-chip' }, '⏱ 2:00'));
   }
   main.appendChild(headerEl);
+  if (opts.hotseat != null && hotseatInterval) renderHotSeatClock(hotseatLeft);
 
   main.appendChild(el('div', { class: 'question-text' }, q.question));
 
-  // Typed answer — always available; the reliable input
-  main.appendChild(el('input', {
-    type: 'text',
-    class: 'typed-answer',
-    id: 'typed-answer',
-    placeholder: 'Or type your answer here…',
-    autocomplete: 'off',
-    spellcheck: 'false',
-    oninput: (e) => onTyped(e.target.value, e.target),
-  }));
-
-  if (state.autoJudge) {
-    main.appendChild(el('div', { id: 'heard-text', class: 'heard-text' }, [
-      el('span', { class: 'mic-indicator live' }),
-      el('span', { class: 'heard-label' }, 'Listening…'),
-    ]));
+  if (opt) {
+    // Tap to judge: the tapped option is the player's answer.
+    const grid = el('div', { class: 'options-grid' });
+    opt.order.forEach((text, i) => {
+      const gone = opt.eliminated.includes(i);
+      grid.appendChild(el('button', {
+        class: 'option-btn' + (gone ? ' eliminated' : ''),
+        disabled: gone,
+        onclick: () => pickOption(i),
+      }, `${OPTION_LETTERS[i]}. ${text}`));
+    });
+    main.appendChild(grid);
+  } else {
+    // Typed answer — always available; the reliable input
+    main.appendChild(el('input', {
+      type: 'text',
+      class: 'typed-answer',
+      id: 'typed-answer',
+      placeholder: 'Or type your answer here…',
+      autocomplete: 'off',
+      spellcheck: 'false',
+      oninput: (e) => onTyped(e.target.value, e.target),
+    }));
+    if (state.autoJudge) {
+      main.appendChild(el('div', { id: 'heard-text', class: 'heard-text' }, [
+        el('span', { class: 'mic-indicator live' }),
+        el('span', { class: 'heard-label' }, 'Listening…'),
+      ]));
+    }
   }
 
-  const ctrls = [
+  // With options showing, the host judges by tapping the chosen option instead.
+  const ctrls = opt ? [] : [
     el('button', { class: 'right', onclick: markRight }, '✓ Right'),
     el('button', { class: 'wrong', onclick: markWrong }, '✗ Wrong'),
   ];
-  const _r = state.rounds[state.currentRoundIdx];
   const _canPass = (_r.type === 'long' || _r.type === 'theme') && seatCount() > 1;
   if (_canPass) {
     ctrls.push(el('button', { class: 'ghost', onclick: markPass }, 'Pass'));
   }
+  if (!opt && canShowOptions(q, _r)) {
+    ctrls.push(el('button', { class: 'ghost options-btn', onclick: showOptions },
+      isWagerRound(_r) ? '🔤 Options (40%)' : `🔤 Options (${OPTION_POINTS} pts)`));
+  }
   // Pounce & Bounce — any live question in a pounce round; host taps who pounced.
-  if (_r.pounce && seatCount() > 1) {
+  // A pounce is the confident, no-help buzz, so it goes once options are showing.
+  if (_r.pounce && seatCount() > 1 && !opt) {
     ctrls.push(el('button', { class: 'gold pounce-btn', onclick: startPounce }, '⚡ Pounce'));
   }
   ctrls.push(el('button', { class: 'ghost', onclick: () => speak(q.question) }, '🔁 Repeat'));
+  if (opt) ctrls.push(el('button', { class: 'ghost', onclick: () => speak(optionsSpeech()) }, '🔁 Options'));
   main.appendChild(el('div', { class: 'controls' }, ctrls));
+}
+
+// ----- Options lifeline -----
+function canShowOptions(q, r) {
+  return Array.isArray(q.distractors) && q.distractors.length === 3 &&
+    OPTION_ROUND_TYPES.includes(r.type) && r.options !== false;
+}
+
+function optionsLeft() {
+  return state.options ? state.options.order.length - state.options.eliminated.length : 0;
+}
+
+function optionsSpeech() {
+  const o = state.options;
+  return o.order.map((t, i) => o.eliminated.includes(i) ? null : `${OPTION_LETTERS[i]}. ${t}.`)
+    .filter(Boolean).join(' ');
+}
+
+// Re-create the render options for the live question (used when the options appear).
+function liveQuestionOpts() {
+  const r = state.rounds[state.currentRoundIdx];
+  const o = {};
+  if (isWagerRound(r)) o.bid = state.currentBid;
+  if (r.type === 'hotseat') o.hotseat = state.questionInRound % HOTSEAT_SECONDS.length;
+  if (state.phase === 'pass-attempt') o.passing = true;
+  return o;
+}
+
+function showOptions() {
+  if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
+  const q = state.currentQuestion;
+  if (!canShowOptions(q, state.rounds[state.currentRoundIdx]) || state.options) return;
+  stopListening(); stopSpeaking();
+  // option_answer: a clean display form of the answer when the stored one has a slash,
+  // brackets or a qualifier that would make it stand out among the options.
+  const label = q.option_answer || q.answer;
+  state.options = { order: shuffle([label, ...q.distractors]), correct: label, eliminated: [] };
+  renderQuestion(q, liveQuestionOpts());
+  speak('Options. ' + optionsSpeech());
+}
+
+function pickOption(i) {
+  if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
+  const o = state.options;
+  if (!o || o.eliminated.includes(i)) return;
+  if (o.order[i] === o.correct) return markRight();
+  o.eliminated.push(i);
+  markWrong();
 }
 
 // Typed-answer match — same fuzzy-match logic that the listener uses
@@ -1400,6 +1501,7 @@ function markRight() {
   // member of the team gets them.
   let pts = 10;
   if (isWagerRound(r)) pts = state.currentBid;
+  if (state.options) pts = isWagerRound(r) ? Math.round(state.currentBid * OPTION_WAGER_SHARE) : OPTION_POINTS;
   for (const i of seatMembers(state.currentPlayerIdx)) {
     state.players[i].score += pts;
     logEntry(state.players[i], 'right', pts);
@@ -1445,6 +1547,13 @@ function cascadeToNext(reason) {
   const r = state.rounds[state.currentRoundIdx];
   const canCascade = (r.type === 'long' || r.type === 'theme') && seatCount() > 1;
   if (!canCascade) { reveal(reason); return; }
+  // Options carry over: once only one option is left, the answer is as good as given,
+  // so the question ends and nobody scores (control as if nobody got it).
+  if (state.options && optionsLeft() <= 1) {
+    if (state.originalPlayerIdx != null) state.anchorIdx = state.originalPlayerIdx;
+    reveal(reason);
+    return;
+  }
 
   // First handoff: remember who the question was originally asked to
   if (state.phase === 'question') {
@@ -1463,7 +1572,8 @@ function cascadeToNext(reason) {
   state.phase = 'pass-attempt';
   state.matchAnnounced = false;
   renderQuestion(state.currentQuestion, { passing: true });
-  speak(`${seatName(state.currentPlayerIdx, ' and ')}, over to you.`);
+  speak(`${seatName(state.currentPlayerIdx, ' and ')}, over to you.` +
+    (state.options ? ' Options left. ' + optionsSpeech() : ''));
   startTimer();
   startListening();
 }
@@ -1531,6 +1641,7 @@ function pounceBase() {
 
 function startPounce() {
   if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
+  if (state.options) return;
   stopListening(); stopSpeaking(); clearTimer();
   state._prePounce = state.phase;
   state.phase = 'pounce-select';

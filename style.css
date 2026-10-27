@@ -382,6 +382,19 @@ button.pulse {
 .hotseat-row .bid-buttons { margin: 0; }
 .hotseat-row .bid-buttons button { font-size: 1.2rem; padding: 0.6rem 1.4rem; min-width: 90px; }
 
+/* Options lifeline: four tappable choices, wrong picks crossed out */
+.options-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;
+  max-width: 720px; margin: 1.25rem auto;
+}
+@media (max-width: 560px) { .options-grid { grid-template-columns: 1fr; } }
+.option-btn {
+  font-size: 1.25rem; padding: 0.9rem 1rem; text-align: left;
+  background: var(--card); border: 1px solid var(--border); color: var(--text);
+}
+.option-btn:hover:not(:disabled) { border-color: var(--gold); }
+.option-btn.eliminated { text-decoration: line-through; opacity: 0.35; }
+
 .theme-tag {
   display: inline-block;
   background: rgba(245, 176, 65, 0.15);
