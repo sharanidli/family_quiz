@@ -1407,9 +1407,9 @@ function renderQuestion(q, opts = {}) {
     ctrls.push(el('button', { class: 'ghost options-btn', onclick: showOptions },
       isWagerRound(_r) ? `🔤 Options (${OPTION_WAGER_PCT})` : `🔤 Options (${OPTION_POINTS} pts)`));
   }
-  // Pounce & Bounce — any live question in a pounce round; host taps who pounced.
-  // A pounce is the confident, no-help buzz, so it goes once options are showing.
-  if (_r.pounce && seatCount() > 1 && !opt) {
+  // Pounce & Bounce — any live question in a pounce round; host taps who pounced. Still
+  // allowed once options are showing (scored at the options value; see pounceBase).
+  if (_r.pounce && seatCount() > 1) {
     ctrls.push(el('button', { class: 'gold pounce-btn', onclick: startPounce }, '⚡ Pounce'));
   }
   ctrls.push(el('button', { class: 'ghost', onclick: () => speak(q.question) }, '🔁 Repeat'));
@@ -1644,12 +1644,14 @@ function endRound() {
 // question. Right = +2×base; wrong = −base. base is 10 (long/theme) or the wager (bid).
 function pounceBase() {
   const r = state.rounds[state.currentRoundIdx];
-  return r.type === 'bid' ? (state.currentBid || 10) : 10;
+  const full = r.type === 'bid' ? (state.currentBid || 10) : 10;
+  // With the options showing, a pounce is worth the options value (5, or half the wager).
+  if (state.options) return r.type === 'bid' ? Math.round(full * OPTION_WAGER_SHARE) : OPTION_POINTS;
+  return full;
 }
 
 function startPounce() {
   if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
-  if (state.options) return;
   stopListening(); stopSpeaking(); clearTimer();
   state._prePounce = state.phase;
   state.phase = 'pounce-select';
@@ -1687,14 +1689,30 @@ function pounceAnswer(idx) {
   main.appendChild(el('div', { class: 'player-up' },
     `⚡ ${seatName(idx)} pounced — +${base} if right, −${base * 2} if wrong`));
   main.appendChild(el('div', { class: 'question-text' }, state.currentQuestion.question));
-  main.appendChild(el('input', {
-    type: 'text', class: 'typed-answer', id: 'typed-answer',
-    placeholder: 'Type the answer…', autocomplete: 'off', spellcheck: 'false',
-    oninput: (e) => onTyped(e.target.value, e.target),
-  }));
   const ctrls = el('div', { class: 'controls' });
-  ctrls.appendChild(el('button', { class: 'right', onclick: () => settlePounce(true) }, '✓ Right'));
-  ctrls.appendChild(el('button', { class: 'wrong', onclick: () => settlePounce(false) }, '✗ Wrong'));
+  const o = state.options;
+  if (o) {
+    // Options showing: the pouncer taps their choice (tap to judge); a pounce still ends
+    // the question either way.
+    const grid = el('div', { class: 'options-grid' });
+    o.order.forEach((text, i) => {
+      const gone = o.eliminated.includes(i);
+      grid.appendChild(el('button', {
+        class: 'option-btn' + (gone ? ' eliminated' : ''),
+        disabled: gone,
+        onclick: () => settlePounce(o.order[i] === o.correct),
+      }, `${OPTION_LETTERS[i]}. ${text}`));
+    });
+    main.appendChild(grid);
+  } else {
+    main.appendChild(el('input', {
+      type: 'text', class: 'typed-answer', id: 'typed-answer',
+      placeholder: 'Type the answer…', autocomplete: 'off', spellcheck: 'false',
+      oninput: (e) => onTyped(e.target.value, e.target),
+    }));
+    ctrls.appendChild(el('button', { class: 'right', onclick: () => settlePounce(true) }, '✓ Right'));
+    ctrls.appendChild(el('button', { class: 'wrong', onclick: () => settlePounce(false) }, '✗ Wrong'));
+  }
   ctrls.appendChild(el('button', { class: 'ghost', onclick: startPounce }, '← Different pouncer'));
   main.appendChild(ctrls);
 }
