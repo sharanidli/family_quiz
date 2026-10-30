@@ -37,11 +37,12 @@ const HOTSEAT_TIERS = [
   ['easy', 'medium', 'hard'],
 ];
 // Options lifeline (KBC style): a stuck player can see four choices, the answer plus the
-// question's three `distractors`, for reduced points: 4 instead of 10, or 40% of the
+// question's three `distractors`, for reduced points: 5 instead of 10, or 50% of the
 // wager in Bid and Hot Seat. Wrong picks are crossed out and the question bounces with
 // the rest; once only one option is left the answer is revealed and nobody scores.
-const OPTION_POINTS = 4;
-const OPTION_WAGER_SHARE = 0.4;
+const OPTION_POINTS = 5;
+const OPTION_WAGER_SHARE = 0.5;
+const OPTION_WAGER_PCT = `${Math.round(OPTION_WAGER_SHARE * 100)}%`;
 const OPTION_LETTERS = ['A', 'B', 'C', 'D'];
 const OPTION_ROUND_TYPES = ['long', 'theme', 'bid', 'hotseat'];
 
@@ -278,7 +279,7 @@ function renderRounds() {
       if (r.options !== false) ob.checked = true;
       optLabel.appendChild(ob);
       optLabel.appendChild(document.createTextNode(
-        ` Options lifeline (four choices: ${OPTION_POINTS} points, or 40% of a wager)`));
+        ` Options lifeline (four choices: ${OPTION_POINTS} points, or ${OPTION_WAGER_PCT} of a wager)`));
       cells.push(optLabel);
     }
     // Jodi toggle — Long and Theme rounds only; can be combined with Pounce & Bounce.
@@ -1036,7 +1037,7 @@ async function startRound() {
 
   if (r.options !== false) {
     if (r.type === 'long' || r.type === 'theme') intro += ` Stuck? Ask for the four options, for ${OPTION_POINTS} points.`;
-    else if (isWagerRound(r)) intro += ' Stuck? Ask for the four options; a right answer then wins 40% of the wager.';
+    else if (isWagerRound(r)) intro += ` Stuck? Ask for the four options; a right answer then wins ${OPTION_WAGER_PCT} of the wager.`;
   }
 
   const main = $('#game-main');
@@ -1347,7 +1348,7 @@ function renderQuestion(q, opts = {}) {
   const headerBits = [seatName(state.currentPlayerIdx)];
   if (opts.hotseat != null) headerBits.push(`Q${opts.hotseat + 1} of ${HOTSEAT_SECONDS.length}`);
   if (opts.bid) headerBits.push(`Wager: ${opts.bid}`);
-  if (opt) headerBits.push(isWagerRound(_r) ? 'Options: 40% of the wager' : `Options: ${OPTION_POINTS} points`);
+  if (opt) headerBits.push(isWagerRound(_r) ? `Options: ${OPTION_WAGER_PCT} of the wager` : `Options: ${OPTION_POINTS} points`);
   if (opts.passing) headerBits.push(opt ? 'Bounce' : 'Bounce — full points');
   headerEl.appendChild(document.createTextNode(headerBits.join(' • ') + ' '));
   if (opts.hotseat != null) {
@@ -1404,7 +1405,7 @@ function renderQuestion(q, opts = {}) {
   }
   if (!opt && canShowOptions(q, _r)) {
     ctrls.push(el('button', { class: 'ghost options-btn', onclick: showOptions },
-      isWagerRound(_r) ? '🔤 Options (40%)' : `🔤 Options (${OPTION_POINTS} pts)`));
+      isWagerRound(_r) ? `🔤 Options (${OPTION_WAGER_PCT})` : `🔤 Options (${OPTION_POINTS} pts)`));
   }
   // Pounce & Bounce — any live question in a pounce round; host taps who pounced.
   // A pounce is the confident, no-help buzz, so it goes once options are showing.
@@ -1508,7 +1509,14 @@ function markRight() {
   }
   if (r.type === 'hotseat') state.hotseatTally += pts;
   // Infinite bounce: control now follows this player — next question starts to their left.
-  if (!isWagerRound(r)) state.anchorIdx = state.currentPlayerIdx;
+  // A bounced MCQ is a bonus: catching it with the options showing doesn't take your
+  // turn, so the order carries on from the original asker (next question goes to the
+  // seat after them), as if their question had been an ordinary turn.
+  if (!isWagerRound(r)) {
+    state.anchorIdx = (state.options && state.phase === 'pass-attempt')
+      ? state.originalPlayerIdx
+      : state.currentPlayerIdx;
+  }
   reveal('right');
 }
 

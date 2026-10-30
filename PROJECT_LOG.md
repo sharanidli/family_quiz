@@ -3,8 +3,8 @@
 ## Current state (2026-10-27)
 
 - **Live** at https://sharanidli.github.io/family_quiz/ (public repo `sharanidli/family_quiz`), commit `1163261`. Static HTML/JS; voice host (browser TTS); host judges answers.
-- **Bank: 2,584 questions** in `questions.json` (mirrored in `questions.js`), including 35 Connect sets and 57 Long Tail callbacks. **All 2,492 eligible questions have KBC-style options** (`distractors`, plus `option_answer` display labels where needed).
-- **Round types:** Long, Theme, Bid, Connect, Hot Seat (4 in a row, wagers locked up front, 30/20/10/10 s clock, hard→easy). **Per-round tick boxes:** Pounce & Bounce (Long/Theme/Bid), Jodi random teams (Long/Theme), Options lifeline (Long/Theme/Bid/Hot Seat, on by default).
+- **Bank: 2,614 questions** in `questions.json` (mirrored in `questions.js`), including 65 Connect sets (50 for normal games, 15 St. Louis) and 57 Long Tail callbacks. **All 2,492 eligible questions have KBC-style options** (`distractors`, plus `option_answer` display labels where needed).
+- **Round types:** Long, Theme, Bid, Connect, Hot Seat (4 in a row, wagers locked up front, 30/20/10/10 s clock, hard→easy). **Per-round tick boxes:** Pounce & Bounce (Long/Theme/Bid), Jodi random teams (Long/Theme), Options lifeline (Long/Theme/Bid/Hot Seat, on by default; 5 points or 50% of a wager; an MCQ caught on a bounce doesn't take the catcher's turn).
 - **Theme options** include two theme-only sets (never drawn by other rounds): Lost in Translation (40 Hindi songs) and Passbooks and Floppy Disks (100, Indian working life 1983–2010).
 - **Modes:** St. Louis Mode (its 156-question batch, served only in that mode) and Iranian Mode.
 - **Default lineup (10 rounds):** Long, Cinema, Bid, Business, Lost in Translation, Long, Connect, Current Affairs, Bid, Hot Seat.
@@ -351,6 +351,18 @@ Sharan's design, settled in chat: every question except Connect and Long Tail ca
 - **Bank: 2,615 → 2,584** (31 dropped, 227 patched). **All 2,492 eligible questions now have options** (the 78 withheld were all fixed or dropped). Backups `*.bak_before_cleanup_2026-10-27_ABCD` / `_E`.
 - Regression (headless): options rules with the real bank, full game with themes and Hot Seat, Jodi, Options tick box; 0 errors.
 - **Live at commit `1163261`** (options lifeline, tick box and cleaned bank; Pages confirmed serving it).
+
+### Fresh Connect sets (2026-10-27, evening)
+
+- **Why:** a fresh read of the regular group's seen history (this laptop's Chrome, live site; read-only copy, deleted after) showed **all 20 normal-game Connect sets seen by at least one of the four** (18 by all four); the 15 St. Louis connects are St. Louis Mode only. Their histories grew since 2026-10-26 (they have played since).
+- **Plan (Sharan: 30):** three writer lanes of 11 (cinema and music; sport, history and places; mythology, books, brands, science, food, TV), no Kashmir (saved for its theme), a notch easier, then independent checkers (`new_batch_2026-10-27/connects/CONNECT_BRIEF.md`, `CONNECT_CHECK.md`); `merge_connects.py` keeps 10 per lane, rejects answers already used by any Connect set, scans for in-batch spoilers, IDs `q1027NNN`.
+- **Result: 30 merged** (`q1027001`–`q1027030`; 10 per lane). 33 drafted, 0 dropped by checkers (12 patched: give-away words, softened facts, accept variants). One set (`TEMP_hist_04`) swapped for a spare because its answer is named in 15 existing questions; the other merged sets' answers appear in at most 3. Spares kept on file: `TEMP_cine_11`, `TEMP_cult_11`, `TEMP_hist_04`.
+- **Bank: 2,584 → 2,614; normal-game Connect sets 20 → 50.**
+- **Test with the group's real history** (their four seen-lists loaded into a throwaway headless browser): four Connect rounds in a row each served 3 new sets unseen by all four, no repeats; about 10 games before the new sets run out. 0 errors.
+
+### Options at 5 points + bounced-MCQ turn fix (2026-10-30)
+
+Sharan: options pay **5** (was 4), and **50% of the wager** in Bid/Hot Seat (5→3, 10→5, 20→10; was 40%). He spotted that catching a bounced MCQ cost the catcher their own turn (control followed the right answer, so the next question skipped them) for only 5 points. **Fix: an MCQ answered right on a bounce is a bonus** — `markRight` leaves control with the original asker (`anchorIdx = originalPlayerIdx`), so the next question goes to the seat after the asker as if their question had been an ordinary turn. Bounces without options and direct answers keep "control follows the right answer". Headless test: A misses with options → B +5 and the next question goes to B; asker B and C miss → D +5 and the next question goes to C (the seat after the asker); no-options bounce unchanged; Bid 5/10/20 → +3/+5/+10; 0 errors.
 
 ## Multiplayer "next level" idea (not yet built)
 
