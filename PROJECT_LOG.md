@@ -4,7 +4,7 @@
 
 - **Live** at https://sharanidli.github.io/family_quiz/ (public repo `sharanidli/family_quiz`), commit `1163261`. Static HTML/JS; voice host (browser TTS); host judges answers.
 - **Bank: 2,614 questions** in `questions.json` (mirrored in `questions.js`), including 65 Connect sets (50 for normal games, 15 St. Louis) and 57 Long Tail callbacks. **All 2,492 eligible questions have KBC-style options** (`distractors`, plus `option_answer` display labels where needed).
-- **Round types:** Long, Theme, Bid, Connect, Hot Seat (4 in a row, wagers locked up front, 30/20/10/10 s clock, hard→easy). **Per-round tick boxes:** Pounce & Bounce (Long/Theme/Bid), Jodi random teams (Long/Theme), Options lifeline (Long/Theme/Bid/Hot Seat, on by default; 5 points or 50% of a wager; an MCQ caught on a bounce doesn't take the catcher's turn; Pounce still allowed with options showing, at +5 / −10).
+- **Round types:** Long, Theme, Bid, Connect, Hot Seat (4 in a row, wagers locked up front, 30/20/10/10 s clock, hard→easy). **Per-round tick boxes:** Pounce & Bounce (Long/Theme/Bid), Jodi random teams (Long/Theme), Options lifeline (Long/Theme/Bid/Hot Seat, on by default; 5 points or 50% of a wager; an MCQ caught on a bounce doesn't take the catcher's turn; Pounce still allowed with options showing, at +5 / −10); Double-points questions (Long/Theme, 10% chance each, 20 points, one shot, no pounce; on by default).
 - **Theme options** include two theme-only sets (never drawn by other rounds): Lost in Translation (40 Hindi songs) and Passbooks and Floppy Disks (100, Indian working life 1983–2010).
 - **Modes:** St. Louis Mode (its 156-question batch, served only in that mode) and Iranian Mode.
 - **Default lineup (10 rounds):** Long, Cinema, Bid, Business, Lost in Translation, Long, Connect, Current Affairs, Bid, Hot Seat.
@@ -367,6 +367,10 @@ Sharan: options pay **5** (was 4), and **50% of the wager** in Bid/Hot Seat (5�
 ### Pounce allowed with options showing (2026-10-30)
 
 Sharan: allow Pounce even after someone takes the options. The Pounce button now stays when options are showing; the pouncer taps their choice from the remaining options (tap to judge); a pounce still ends the question. Scored at the options value: **+5 / −10** in Long/Theme, half the wager (×2 if wrong) in Bid; without options unchanged (+10 / −20). Live at `e5f3fcb` before this change (30 Connect sets, 5-point options, bounced-MCQ rule). Headless test: options pounce right +5, wrong −10; no-options pounce +10; Bid 20 options pounce +10 / −20; 0 errors.
+
+### Double-points questions (2026-10-30)
+
+Sharan's design: in **Long and Theme** rounds each question independently has a **10% chance** (`DOUBLE_CHANCE`, `rollDouble`) of being a double, announced just before it is asked by a gold "⚡ Double points ⚡" card with a fanfare and the voice ("Double points! This one's worth twenty. No bounce."), then "Ask the question →". A double is worth **20** (10 with options; 20 to each Jodi member), **one shot**: a wrong answer, wrong option or pass ends it (answer revealed) and the next question goes to the seat after the asker; **no pounce** on a double. Per-round tick box "Double-points questions", on by default (`r.doubles !== false`). Headless test: splash, no Pounce button, +20 / 0 with no bounce / pass ends it / options +10 / wrong option ends it / Jodi +20 each / never in Bid or unticked rounds / measured rate 9.7% over 20,000 rolls; 0 errors. Options button shows the doubled value on a double.
 
 ## Multiplayer "next level" idea (not yet built)
 

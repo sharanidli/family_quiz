@@ -46,6 +46,12 @@ const OPTION_WAGER_PCT = `${Math.round(OPTION_WAGER_SHARE * 100)}%`;
 const OPTION_LETTERS = ['A', 'B', 'C', 'D'];
 const OPTION_ROUND_TYPES = ['long', 'theme', 'bid', 'hotseat'];
 
+// Double points: each Long or Theme question independently has a 1-in-10 chance of being
+// announced as a double just before it is asked: worth twice the points (20, or 10 with
+// options), one shot only (no bounce, no pounce).
+const DOUBLE_CHANCE = 0.1;
+const DOUBLE_ROUND_TYPES = ['long', 'theme'];
+
 // Untagged questions predate the 1/2/3 tiers and were written as standard (not hard).
 const DIFFICULTY_TIER = {
   hard:   q => q.difficulty === 3,
@@ -155,6 +161,7 @@ const state = {
   teams: [],                  // Jodi teams: lists of player indices, captain first
   jodiCaptains: [],           // captains picked by the host for this Jodi round
   options: null,              // once shown for this question: { order: [4 choices], correct, eliminated: [indices] }
+  doubleQ: false,             // the live question is a double-points question
   voiceRate: 1.15,
   listening: false,
   recognition: null,
@@ -281,6 +288,15 @@ function renderRounds() {
       optLabel.appendChild(document.createTextNode(
         ` Options lifeline (four choices: ${OPTION_POINTS} points, or ${OPTION_WAGER_PCT} of a wager)`));
       cells.push(optLabel);
+    }
+    // Double-points toggle — Long and Theme rounds; on by default (undefined counts as on).
+    if (DOUBLE_ROUND_TYPES.includes(r.type)) {
+      const dLabel = el('label', { class: 'pounce-toggle', style: 'grid-column: 1 / -1;' });
+      const db = el('input', { type: 'checkbox', onchange: (e) => { r.doubles = e.target.checked; } });
+      if (r.doubles !== false) db.checked = true;
+      dLabel.appendChild(db);
+      dLabel.appendChild(document.createTextNode(' Double-points questions (1 in 10 by chance; no bounce, no pounce)'));
+      cells.push(dLabel);
     }
     // Jodi toggle — Long and Theme rounds only; can be combined with Pounce & Bounce.
     if (r.type === 'long' || r.type === 'theme') {
@@ -1035,6 +1051,9 @@ async function startRound() {
     spokenIntro = 'Bid round. Wager five, ten, or twenty.';
   }
 
+  if (DOUBLE_ROUND_TYPES.includes(r.type) && r.doubles !== false) {
+    intro += ' Watch out for double-points questions: twice the points, one shot, no bounce.';
+  }
   if (r.options !== false) {
     if (r.type === 'long' || r.type === 'theme') intro += ` Stuck? Ask for the four options, for ${OPTION_POINTS} points.`;
     else if (isWagerRound(r)) intro += ` Stuck? Ask for the four options; a right answer then wins ${OPTION_WAGER_PCT} of the wager.`;
@@ -1121,6 +1140,7 @@ async function nextQuestionInRound() {
       ? Math.floor(state.questionInRound / HOTSEAT_SECONDS.length)
       : (state.anchorIdx + 1) % seatCount();
   state.originalPlayerIdx = state.currentPlayerIdx;
+  state.doubleQ = false;
 
   if (r.type === 'connect') return askConnect();
   if (r.type === 'bid') return askForBid();
@@ -1136,6 +1156,34 @@ async function nextQuestionInRound() {
 
   state.currentQuestion = q;
   state.options = null;
+  state.doubleQ = rollDouble(r);
+  if (state.doubleQ) return announceDouble(q, r);
+  askLiveQuestion(q, r);
+}
+
+// Each Long/Theme question independently has a DOUBLE_CHANCE of being a double.
+function rollDouble(r) {
+  return DOUBLE_ROUND_TYPES.includes(r.type) && r.doubles !== false && Math.random() < DOUBLE_CHANCE;
+}
+
+// The "double points" card, shown just before the question is asked.
+function announceDouble(q, r) {
+  state.phase = 'double-intro';
+  renderHeader();
+  const main = $('#game-main');
+  main.innerHTML = '';
+  main.appendChild(el('div', { class: 'double-card' }, [
+    el('div', { class: 'double-title' }, '⚡ Double points ⚡'),
+    el('div', { class: 'double-sub' },
+      `${seatName(state.currentPlayerIdx)}, this one's worth 20 (10 with options). One shot: no bounce, no pounce.`),
+  ]));
+  main.appendChild(el('button', { class: 'big', onclick: () => askLiveQuestion(q, r) }, 'Ask the question →'));
+  [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => setTimeout(() => playTone(f, 0.25, 'triangle', 0.15), i * 120));
+  speak("Double points! This one's worth twenty. No bounce.");
+}
+
+async function askLiveQuestion(q, r) {
+  stopSpeaking();
   state.phase = 'question';
   renderQuestion(q);
 
@@ -1348,7 +1396,9 @@ function renderQuestion(q, opts = {}) {
   const headerBits = [seatName(state.currentPlayerIdx)];
   if (opts.hotseat != null) headerBits.push(`Q${opts.hotseat + 1} of ${HOTSEAT_SECONDS.length}`);
   if (opts.bid) headerBits.push(`Wager: ${opts.bid}`);
-  if (opt) headerBits.push(isWagerRound(_r) ? `Options: ${OPTION_WAGER_PCT} of the wager` : `Options: ${OPTION_POINTS} points`);
+  const optPts = OPTION_POINTS * (state.doubleQ ? 2 : 1);   // a double doubles the options value too
+  if (opt) headerBits.push(isWagerRound(_r) ? `Options: ${OPTION_WAGER_PCT} of the wager` : `Options: ${optPts} points`);
+  if (state.doubleQ) headerBits.push('⚡ Double points, no bounce');
   if (opts.passing) headerBits.push(opt ? 'Bounce' : 'Bounce — full points');
   headerEl.appendChild(document.createTextNode(headerBits.join(' • ') + ' '));
   if (opts.hotseat != null) {
@@ -1405,11 +1455,11 @@ function renderQuestion(q, opts = {}) {
   }
   if (!opt && canShowOptions(q, _r)) {
     ctrls.push(el('button', { class: 'ghost options-btn', onclick: showOptions },
-      isWagerRound(_r) ? `🔤 Options (${OPTION_WAGER_PCT})` : `🔤 Options (${OPTION_POINTS} pts)`));
+      isWagerRound(_r) ? `🔤 Options (${OPTION_WAGER_PCT})` : `🔤 Options (${optPts} pts)`));
   }
   // Pounce & Bounce — any live question in a pounce round; host taps who pounced. Still
   // allowed once options are showing (scored at the options value; see pounceBase).
-  if (_r.pounce && seatCount() > 1) {
+  if (_r.pounce && seatCount() > 1 && !state.doubleQ) {
     ctrls.push(el('button', { class: 'gold pounce-btn', onclick: startPounce }, '⚡ Pounce'));
   }
   ctrls.push(el('button', { class: 'ghost', onclick: () => speak(q.question) }, '🔁 Repeat'));
@@ -1503,6 +1553,7 @@ function markRight() {
   let pts = 10;
   if (isWagerRound(r)) pts = state.currentBid;
   if (state.options) pts = isWagerRound(r) ? Math.round(state.currentBid * OPTION_WAGER_SHARE) : OPTION_POINTS;
+  if (state.doubleQ) pts *= 2;
   for (const i of seatMembers(state.currentPlayerIdx)) {
     state.players[i].score += pts;
     logEntry(state.players[i], 'right', pts);
@@ -1555,6 +1606,13 @@ function cascadeToNext(reason) {
   const r = state.rounds[state.currentRoundIdx];
   const canCascade = (r.type === 'long' || r.type === 'theme') && seatCount() > 1;
   if (!canCascade) { reveal(reason); return; }
+  // Double points: one shot only. A wrong answer or a pass ends the question, and the
+  // next question starts one seat past the asker (as if nobody got it).
+  if (state.doubleQ) {
+    if (state.originalPlayerIdx != null) state.anchorIdx = state.originalPlayerIdx;
+    reveal(reason);
+    return;
+  }
   // Options carry over: once only one option is left, the answer is as good as given,
   // so the question ends and nobody scores (control as if nobody got it).
   if (state.options && optionsLeft() <= 1) {
@@ -1621,6 +1679,7 @@ async function reveal(outcome) {
 function endRound() {
   stopListening(); stopSpeaking(); clearTimer();
   state.jodiActive = false;
+  state.doubleQ = false;
   state.phase = 'round-end';
   state.currentRoundIdx++;
   if (state.currentRoundIdx >= state.rounds.length) return startLongTailOrEnd();
@@ -1652,6 +1711,7 @@ function pounceBase() {
 
 function startPounce() {
   if (state.phase !== 'question' && state.phase !== 'pass-attempt') return;
+  if (state.doubleQ) return;   // a double is the player's own moment: no pounce
   stopListening(); stopSpeaking(); clearTimer();
   state._prePounce = state.phase;
   state.phase = 'pounce-select';
