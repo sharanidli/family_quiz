@@ -53470,6 +53470,1075 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "Draupadi's strip of sari and Tagore's 1905 unity threads both tie back to Raksha Bandhan.",
       "created": "2026-10-27"
+    },
+    {
+      "id": "q1102001",
+      "topic": "history",
+      "question": "Who is this?",
+      "answer": "Mahatma Gandhi",
+      "accept": [
+        "gandhi",
+        "mahatma gandhi",
+        "gandhiji",
+        "bapu",
+        "mohandas gandhi",
+        "mohandas karamchand gandhi",
+        "m k gandhi",
+        "mk gandhi"
+      ],
+      "explanation": "Mahatma Gandhi, the Father of the Nation, in a smiling portrait believed to date from the late 1930s.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102001.jpg",
+      "credit": "Photo: Unknown author, Public domain, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_Gandhi_(cropped).jpg",
+      "distractors": [
+        "Vinoba Bhave",
+        "Gopal Krishna Gokhale",
+        "Lala Lajpat Rai"
+      ]
+    },
+    {
+      "id": "q1102002",
+      "topic": "cricket",
+      "question": "Who is this?",
+      "answer": "Sachin Tendulkar",
+      "accept": [
+        "sachin",
+        "tendulkar",
+        "sachin tendulkar",
+        "sachin ramesh tendulkar"
+      ],
+      "explanation": "Sachin Tendulkar at the Adelaide Oval in February 2008, during India's tour of Australia.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102002.jpg",
+      "credit": "Photo: Blnguyen, CC BY-SA 3.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sachin_Tendulkar_cropped.jpg",
+      "distractors": [
+        "Rahul Dravid",
+        "Sourav Ganguly",
+        "Virender Sehwag"
+      ]
+    },
+    {
+      "id": "q1102003",
+      "topic": "music",
+      "question": "Who is this?",
+      "answer": "Lata Mangeshkar",
+      "accept": [
+        "lata",
+        "lata mangeshkar",
+        "lataji",
+        "lata didi",
+        "mangeshkar"
+      ],
+      "explanation": "Lata Mangeshkar, the Nightingale of India, at a public event in 2008.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102003.jpg",
+      "credit": "Photo: Bollywood Hungama, CC BY 3.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lata_Mangeshkar_-_still_29065_crop.jpg",
+      "distractors": [
+        "Asha Bhosle",
+        "Suman Kalyanpur",
+        "Anuradha Paudwal"
+      ]
+    },
+    {
+      "id": "q1102004",
+      "topic": "history",
+      "question": "Who is this?",
+      "answer": "Jawaharlal Nehru",
+      "accept": [
+        "nehru",
+        "jawaharlal nehru",
+        "jawahar lal nehru",
+        "pandit nehru",
+        "panditji",
+        "chacha nehru",
+        "pandit jawaharlal nehru"
+      ],
+      "explanation": "Jawaharlal Nehru, India's first Prime Minister, photographed during a visit to the Netherlands in 1957.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102004.jpg",
+      "credit": "Photo: Harry Pot, CC0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nehru_in_the_Netherlands,_1957.jpg",
+      "distractors": [
+        "Lal Bahadur Shastri",
+        "Morarji Desai",
+        "Gulzarilal Nanda"
+      ]
+    },
+    {
+      "id": "q1102005",
+      "topic": "cinema",
+      "question": "Who is this?",
+      "answer": "Amitabh Bachchan",
+      "accept": [
+        "amitabh",
+        "amitabh bachchan",
+        "amitabh bachan",
+        "bachchan",
+        "big b"
+      ],
+      "explanation": "Amitabh Bachchan, photographed in 2018, more than four decades after Zanjeer and Deewaar made him the Angry Young Man.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102005.jpg",
+      "credit": "Photo: Shrinivaskulkarni1388, derivative work by Junior Jumper, CC BY-SA 4.0, via Wikimedia Commons, cropped",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Indian_actor_Amitabh_Bachchan.jpg",
+      "distractors": [
+        "Dharmendra",
+        "Kabir Bedi",
+        "Rishi Kapoor"
+      ]
+    },
+    {
+      "id": "q1102006",
+      "topic": "general",
+      "question": "Who is this?",
+      "answer": "A. P. J. Abdul Kalam",
+      "accept": [
+        "kalam",
+        "abdul kalam",
+        "apj abdul kalam",
+        "a p j abdul kalam",
+        "dr kalam",
+        "missile man",
+        "a. p. j. abdul kalam"
+      ],
+      "explanation": "A. P. J. Abdul Kalam, the Missile Man and eleventh President of India, photographed in 2008.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102006.jpg",
+      "credit": "Photo: Lijesh K, CC BY-SA 3.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A._P._J._Abdul_Kalam_in_2008.jpg",
+      "distractors": [
+        "K. R. Narayanan",
+        "Satish Dhawan",
+        "Pranab Mukherjee"
+      ]
+    },
+    {
+      "id": "q1102007",
+      "topic": "history",
+      "question": "Who is this?",
+      "answer": "Subhas Chandra Bose",
+      "accept": [
+        "netaji",
+        "subhas chandra bose",
+        "subhash chandra bose",
+        "subhas bose",
+        "subhash bose",
+        "bose",
+        "netaji subhas chandra bose"
+      ],
+      "explanation": "Netaji Subhas Chandra Bose in the 1930s, a portrait from the Netaji Research Bureau in Kolkata.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102007.jpg",
+      "credit": "Photo: Unknown (Netaji Research Bureau, Calcutta), Public domain, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Subhas_Chandra_Bose_NRB.jpg",
+      "distractors": [
+        "Chittaranjan Das",
+        "Bipin Chandra Pal",
+        "Chandra Shekhar Azad"
+      ]
+    },
+    {
+      "id": "q1102008",
+      "topic": "history",
+      "question": "Who is this?",
+      "answer": "Indira Gandhi",
+      "accept": [
+        "indira",
+        "indira gandhi",
+        "indiraji",
+        "indira priyadarshini gandhi"
+      ],
+      "explanation": "Indira Gandhi, photographed in March 1977 during the general election of that year.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102008.jpg",
+      "credit": "Photo: Anefo, CC0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Face_detail,_Premier_Indira_Gandhi_(Congrespartij),_Bestanddeelnr_929-0811_(cropped).jpg",
+      "distractors": [
+        "Vijaya Lakshmi Pandit",
+        "Sucheta Kripalani",
+        "Nandini Satpathy"
+      ]
+    },
+    {
+      "id": "q1102009",
+      "topic": "general",
+      "question": "Who is this?",
+      "answer": "Rabindranath Tagore",
+      "accept": [
+        "tagore",
+        "rabindranath tagore",
+        "rabindranath thakur",
+        "gurudev",
+        "kabiguru"
+      ],
+      "explanation": "Rabindranath Tagore in a rare colour photograph, an autochrome taken at Boulogne near Paris in 1926.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102009.jpg",
+      "credit": "Photo: Georges Chevalier, CC BY 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1926_Rabindrath_Tagore.jpg",
+      "distractors": [
+        "Sri Aurobindo",
+        "Bankim Chandra Chattopadhyay",
+        "Kazi Nazrul Islam"
+      ]
+    },
+    {
+      "id": "q1102010",
+      "topic": "cricket",
+      "question": "Who is this?",
+      "answer": "Kapil Dev",
+      "accept": [
+        "kapil",
+        "kapil dev",
+        "kapil dev nikhanj",
+        "kapil paaji",
+        "haryana hurricane"
+      ],
+      "explanation": "Kapil Dev, who led India to the 1983 World Cup, photographed at a sports auction event.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102010.jpg",
+      "credit": "Photo: Bollywood Hungama, CC BY 3.0, via Wikimedia Commons, cropped",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kapil_Dev_at_Equation_sports_auction.jpg",
+      "distractors": [
+        "Sunil Gavaskar",
+        "Mohinder Amarnath",
+        "Ravi Shastri"
+      ]
+    },
+    {
+      "id": "q1102011",
+      "topic": "general",
+      "question": "Who is this?",
+      "answer": "C. V. Raman",
+      "accept": [
+        "raman",
+        "cv raman",
+        "c v raman",
+        "sir cv raman",
+        "sir c v raman",
+        "chandrasekhara venkata raman",
+        "c. v. raman"
+      ],
+      "explanation": "C. V. Raman's Nobel portrait from 1930, the year he won the Nobel Prize in Physics for the Raman effect.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102011.jpg",
+      "credit": "Photo: Nobel Foundation, Public domain, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sir_CV_Raman.JPG",
+      "distractors": [
+        "Jagadish Chandra Bose",
+        "Meghnad Saha",
+        "Prafulla Chandra Ray"
+      ]
+    },
+    {
+      "id": "q1102012",
+      "topic": "general",
+      "question": "Who is this?",
+      "answer": "Milkha Singh",
+      "accept": [
+        "milkha",
+        "milkha singh",
+        "flying sikh",
+        "the flying sikh"
+      ],
+      "explanation": "Milkha Singh, the Flying Sikh, at the Chandigarh Golf Club in 2012.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102012.jpg",
+      "credit": "Photo: Sanyam Bahga, CC BY-SA 3.0, via Wikimedia Commons, cropped",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Milkha_Singh.jpg",
+      "distractors": [
+        "Balbir Singh Senior",
+        "Gurbachan Singh Randhawa",
+        "Bishan Singh Bedi"
+      ]
+    },
+    {
+      "id": "q1102013",
+      "topic": "music",
+      "question": "Who is this?",
+      "answer": "M. S. Subbulakshmi",
+      "accept": [
+        "subbulakshmi",
+        "ms subbulakshmi",
+        "m s subbulakshmi",
+        "ms amma",
+        "madurai shanmukhavadivu subbulakshmi",
+        "m. s. subbulakshmi"
+      ],
+      "explanation": "M. S. Subbulakshmi, the Carnatic singer who became the first musician to receive the Bharat Ratna, in 1998.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102013.jpg",
+      "credit": "Photo: Saregama Carnatic, CC BY 3.0, via Wikimedia Commons, cropped",
+      "source_url": "https://commons.wikimedia.org/wiki/File:M._S._Subbulakshmi_(03).jpg",
+      "distractors": [
+        "D. K. Pattammal",
+        "M. L. Vasanthakumari",
+        "Kishori Amonkar"
+      ]
+    },
+    {
+      "id": "q1102014",
+      "topic": "cinema",
+      "question": "Who is this?",
+      "answer": "Sridevi",
+      "accept": [
+        "sridevi",
+        "sri devi",
+        "shridevi",
+        "sreedevi",
+        "sridevi kapoor"
+      ],
+      "explanation": "Sridevi, star of Mr India and Chandni, at a jewellery photo shoot in 2013.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102014.jpg",
+      "credit": "Photo: Bollywood Hungama, CC BY 3.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sridevi.jpg",
+      "distractors": [
+        "Madhuri Dixit",
+        "Rekha",
+        "Meenakshi Seshadri"
+      ]
+    },
+    {
+      "id": "q1102015",
+      "topic": "cinema",
+      "question": "He was a film director. Who is this?",
+      "answer": "Satyajit Ray",
+      "accept": [
+        "satyajit ray",
+        "satyajit",
+        "ray",
+        "satyajit roy",
+        "manik da"
+      ],
+      "explanation": "Satyajit Ray, director of Pather Panchali, photographed in New York in 1981.",
+      "difficulty": 3,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102015.jpg",
+      "credit": "Photo: Dinu Alam Newyork, CC BY-SA 4.0, via Wikimedia Commons, cropped",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Satyajit_Ray_in_New_York.jpg",
+      "distractors": [
+        "Mrinal Sen",
+        "Ritwik Ghatak",
+        "Tapan Sinha"
+      ]
+    },
+    {
+      "id": "q1102016",
+      "topic": "general",
+      "question": "He was a physicist. Who is this?",
+      "answer": "Homi J. Bhabha",
+      "accept": [
+        "homi bhabha",
+        "bhabha",
+        "homi j bhabha",
+        "homi jehangir bhabha",
+        "dr bhabha",
+        "homi j. bhabha"
+      ],
+      "explanation": "Homi J. Bhabha in the 1960s; he founded India's atomic energy programme, and the research centre at Trombay is named after him.",
+      "difficulty": 3,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102016.jpg",
+      "credit": "Photo: Unknown (Mondadori Publishers), Public domain, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Homi_Jehangir_Bhabha_1960s.jpg",
+      "distractors": [
+        "Vikram Sarabhai",
+        "Shanti Swarup Bhatnagar",
+        "Raja Ramanna"
+      ]
+    },
+    {
+      "id": "q1102017",
+      "topic": "history",
+      "question": "Which monument is this?",
+      "answer": "Taj Mahal",
+      "accept": [
+        "taj mahal",
+        "taj",
+        "the taj",
+        "taj mahal agra"
+      ],
+      "explanation": "The Taj Mahal in Agra, the white marble tomb Shah Jahan built for Mumtaz Mahal, seen across its long reflecting pool.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102017.jpg",
+      "credit": "Photo: Yann Forget, edited by Jim Carter, CC BY-SA 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg",
+      "distractors": [
+        "Bibi Ka Maqbara",
+        "Humayun's Tomb",
+        "Safdarjung's Tomb"
+      ]
+    },
+    {
+      "id": "q1102018",
+      "topic": "history",
+      "question": "Which place of worship is this?",
+      "answer": "Harmandir Sahib",
+      "accept": [
+        "harmandir sahib",
+        "golden temple",
+        "harimandir sahib",
+        "sri harmandir sahib",
+        "darbar sahib",
+        "golden temple amritsar"
+      ],
+      "explanation": "Sri Harmandir Sahib, the Golden Temple, in Amritsar, standing in the middle of the Amrit Sarovar, its holy tank.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102018.jpg",
+      "credit": "Photo: Shagil Kannur, CC BY-SA 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_Golden_Temple_of_Amrithsar_7.jpg",
+      "distractors": [
+        "Bangla Sahib",
+        "Hazur Sahib",
+        "Hemkund Sahib"
+      ]
+    },
+    {
+      "id": "q1102019",
+      "topic": "history",
+      "question": "Which monument is this?",
+      "answer": "Qutub Minar",
+      "accept": [
+        "qutub minar",
+        "qutb minar",
+        "qutab minar",
+        "kutub minar",
+        "qutub",
+        "qutb"
+      ],
+      "explanation": "The Qutub Minar in Delhi, a fluted sandstone tower begun by Qutbuddin Aibak around 1199.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102019.jpg",
+      "credit": "Photo: Wasir kasab, CC BY 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Qutb_Minar_2022.jpg",
+      "distractors": [
+        "Chand Minar",
+        "Vijay Stambh",
+        "Fateh Burj"
+      ]
+    },
+    {
+      "id": "q1102020",
+      "topic": "history",
+      "question": "Which palace is this?",
+      "answer": "Hawa Mahal",
+      "accept": [
+        "hawa mahal",
+        "palace of winds",
+        "palace of the winds",
+        "hawa mahal jaipur"
+      ],
+      "explanation": "The Hawa Mahal in Jaipur, whose honeycomb facade of 953 small windows let the women of the royal household watch the street unseen.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102020.jpg",
+      "credit": "Photo: Chainwit, CC BY-SA 4.0, via Wikimedia Commons, cropped",
+      "source_url": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg",
+      "distractors": [
+        "Jal Mahal",
+        "Sheesh Mahal",
+        "Badal Mahal"
+      ]
+    },
+    {
+      "id": "q1102021",
+      "topic": "history",
+      "question": "Which monument is this?",
+      "answer": "Gateway of India",
+      "accept": [
+        "gateway of india",
+        "gateway",
+        "the gateway"
+      ],
+      "explanation": "The Gateway of India on the Mumbai waterfront, built to mark the 1911 visit of King George V and Queen Mary and finished in 1924.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102021.jpg",
+      "credit": "Photo: Joe Ravi, CC BY-SA 3.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gateway_Of_India.jpg",
+      "distractors": [
+        "India Gate",
+        "Buland Darwaza",
+        "Rumi Darwaza"
+      ]
+    },
+    {
+      "id": "q1102022",
+      "topic": "history",
+      "question": "Which monument is this?",
+      "answer": "Charminar",
+      "accept": [
+        "charminar",
+        "char minar"
+      ],
+      "explanation": "The Charminar in Hyderabad, built in 1591 by Muhammad Quli Qutb Shah, its four minarets rising over the old city's bazaars.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102022.jpg",
+      "credit": "Photo: DidierTais, CC BY-SA 3.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Charminar_Hyderabad_1.jpg",
+      "distractors": [
+        "Mecca Masjid",
+        "Gol Gumbaz",
+        "Chand Minar"
+      ]
+    },
+    {
+      "id": "q1102023",
+      "topic": "geography",
+      "question": "Which bridge is this?",
+      "answer": "Howrah Bridge",
+      "accept": [
+        "howrah bridge",
+        "rabindra setu",
+        "howrah",
+        "haora bridge"
+      ],
+      "explanation": "The Howrah Bridge, also called Rabindra Setu, the great cantilever bridge over the Hooghly between Howrah and Kolkata, lit up at night.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102023.jpg",
+      "credit": "Photo: Apoorva Karlekar, CC BY-SA 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Howrah_bridge_at_night.jpg",
+      "distractors": [
+        "Vidyasagar Setu",
+        "Pamban Bridge",
+        "Bandra Worli Sea Link"
+      ]
+    },
+    {
+      "id": "q1102024",
+      "topic": "history",
+      "question": "Which building is this?",
+      "answer": "Victoria Memorial",
+      "accept": [
+        "victoria memorial",
+        "victoria memorial hall",
+        "victoria memorial kolkata"
+      ],
+      "explanation": "The Victoria Memorial in Kolkata, built of white Makrana marble between 1906 and 1921 in memory of Queen Victoria.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102024.jpg",
+      "credit": "Photo: Subhrajyoti07, CC BY-SA 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Victoria_Memorial_situated_in_Kolkata.jpg",
+      "distractors": [
+        "Rashtrapati Bhavan",
+        "Writers' Building",
+        "Salar Jung Museum"
+      ]
+    },
+    {
+      "id": "q1102025",
+      "topic": "history",
+      "question": "Which palace is this?",
+      "answer": "Mysore Palace",
+      "accept": [
+        "mysore palace",
+        "mysuru palace",
+        "amba vilas palace",
+        "amba vilas",
+        "mysore palace mysuru"
+      ],
+      "explanation": "The Mysore Palace, or Amba Vilas, seat of the Wadiyar kings, completed in 1912 and famous for its Dasara illuminations.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102025.jpg",
+      "credit": "Photo: Whistleraja, CC BY-SA 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mysore_Palace_-_Amba_Vilas_Palace.jpg",
+      "distractors": [
+        "Bangalore Palace",
+        "Umaid Bhawan Palace",
+        "Chowmahalla Palace"
+      ]
+    },
+    {
+      "id": "q1102026",
+      "topic": "history",
+      "question": "This towering gateway belongs to a famous temple in Tamil Nadu. Which temple is it?",
+      "answer": "Meenakshi Temple",
+      "accept": [
+        "meenakshi temple",
+        "meenakshi amman temple",
+        "meenakshi",
+        "madurai meenakshi temple",
+        "madurai meenakshi",
+        "meenakshi sundareswarar temple",
+        "madurai temple"
+      ],
+      "explanation": "One of the gopurams of the Meenakshi Amman Temple in Madurai, covered in painted stucco figures of gods, saints and characters from Hindu legend.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102026.jpg",
+      "credit": "Photo: Maddy lens, CC BY-SA 4.0, via Wikimedia Commons, cropped",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tower_of_Meenakshi_amman_temple.jpg",
+      "distractors": [
+        "Brihadeeswarar Temple",
+        "Ranganathaswamy Temple",
+        "Kapaleeshwarar Temple"
+      ]
+    },
+    {
+      "id": "q1102027",
+      "topic": "history",
+      "question": "Which temple is this?",
+      "answer": "Konark Sun Temple",
+      "accept": [
+        "konark sun temple",
+        "konark",
+        "konark temple",
+        "konarak",
+        "konarka",
+        "sun temple",
+        "sun temple konark",
+        "black pagoda"
+      ],
+      "explanation": "The Sun Temple at Konark in Odisha, built in the 13th century as a giant stone chariot for the sun god, with carved wheels along its base.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102027.jpg",
+      "credit": "Photo: Subham9423, CC BY-SA 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Konarka_Temple.jpg",
+      "distractors": [
+        "Lingaraj Temple",
+        "Jagannath Temple",
+        "Kandariya Mahadeva Temple"
+      ]
+    },
+    {
+      "id": "q1102028",
+      "topic": "geography",
+      "question": "This bridge was grown from the living roots of trees. In which state would you find it?",
+      "answer": "Meghalaya",
+      "accept": [
+        "meghalaya"
+      ],
+      "explanation": "The double-decker living root bridge at Nongriat in Meghalaya, trained by Khasi villagers from the aerial roots of rubber fig trees over many years.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102028.jpg",
+      "credit": "Photo: PJeganathan, CC BY-SA 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Living_root_bridges_of_Nongriat_village_in_East_Khasi_Hills_district,_Meghalaya_JEG7388.jpg",
+      "distractors": [
+        "Assam",
+        "Mizoram",
+        "Sikkim"
+      ]
+    },
+    {
+      "id": "q1102029",
+      "topic": "history",
+      "question": "This 1930 photo shows Gandhi leading which famous protest?",
+      "answer": "Salt March",
+      "accept": [
+        "salt march",
+        "dandi march",
+        "salt satyagraha",
+        "dandi satyagraha",
+        "dandi",
+        "dandi yatra",
+        "namak satyagraha"
+      ],
+      "explanation": "In March and April 1930 Gandhi walked nearly 390 kilometres from Sabarmati Ashram to Dandi to break the British salt law.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102029.jpg",
+      "credit": "Photo: Unknown author, scanned by Yann, Public domain, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Marche_sel.jpg",
+      "distractors": [
+        "Champaran Satyagraha",
+        "Quit India Movement",
+        "Non-Cooperation Movement"
+      ]
+    },
+    {
+      "id": "q1102030",
+      "topic": "history",
+      "question": "This photo from around 1900 shows which famous railway station?",
+      "answer": "Victoria Terminus",
+      "accept": [
+        "victoria terminus",
+        "vt",
+        "bombay vt",
+        "cst",
+        "csmt",
+        "chhatrapati shivaji terminus",
+        "chhatrapati shivaji maharaj terminus",
+        "bombay victoria terminus"
+      ],
+      "explanation": "Bombay's Victoria Terminus, opened in 1888 as the headquarters of the Great Indian Peninsula Railway, is now Chhatrapati Shivaji Maharaj Terminus and a World Heritage Site.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102030.jpg",
+      "credit": "Photo: Unknown author, Rijksmuseum Amsterdam, CC0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Exterieur_van_het_Victoria_Terminus_Station_te_Bombay,_RP-F-F01104-AG.jpg",
+      "distractors": [
+        "Howrah Junction",
+        "Madras Central",
+        "Churchgate"
+      ]
+    },
+    {
+      "id": "q1102031",
+      "topic": "history",
+      "question": "This 1929 portrait shows which young revolutionary?",
+      "answer": "Bhagat Singh",
+      "accept": [
+        "bhagat singh",
+        "bhagat",
+        "shaheed bhagat singh",
+        "shahid bhagat singh",
+        "shaheed-e-azam bhagat singh"
+      ],
+      "explanation": "Bhagat Singh, the young revolutionary of the freedom struggle, sat for this portrait at a Delhi studio, Ramnath Photographers, in April 1929, when he was 21.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102031.jpg",
+      "credit": "Photo: Unknown author, Ramnath Photographers Delhi, Public domain, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bhagat_Singh_1929.jpg",
+      "distractors": [
+        "Chandra Shekhar Azad",
+        "Sukhdev Thapar",
+        "Udham Singh"
+      ]
+    },
+    {
+      "id": "q1102032",
+      "topic": "history",
+      "question": "This 1893 photo shows which Indian monk?",
+      "answer": "Swami Vivekananda",
+      "accept": [
+        "swami vivekananda",
+        "vivekananda",
+        "narendranath datta",
+        "narendranath dutta",
+        "narendra nath datta"
+      ],
+      "explanation": "Swami Vivekananda was photographed in Chicago in September 1893, the month he addressed the Parliament of the World's Religions.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102032.jpg",
+      "credit": "Photo: Unknown author, Public domain, via Wikimedia Commons, retouched",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Swami_Vivekananda-1893-09-signed.jpg",
+      "distractors": [
+        "Ramakrishna Paramahamsa",
+        "Swami Dayananda Saraswati",
+        "Paramahansa Yogananda"
+      ]
+    },
+    {
+      "id": "q1102033",
+      "topic": "geography",
+      "question": "Which state is highlighted on this map?",
+      "answer": "Kerala",
+      "accept": [
+        "kerala",
+        "keralam"
+      ],
+      "explanation": "Kerala is the narrow strip along India's south-western Malabar coast, between the Western Ghats and the Arabian Sea.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102033.jpg",
+      "credit": "Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IN-KL.svg",
+      "distractors": [
+        "Tamil Nadu",
+        "Karnataka",
+        "Goa"
+      ]
+    },
+    {
+      "id": "q1102034",
+      "topic": "geography",
+      "question": "Which state is highlighted on this map?",
+      "answer": "Rajasthan",
+      "accept": [
+        "rajasthan"
+      ],
+      "explanation": "Rajasthan, India's largest state by area, takes in most of the Thar Desert in the north-west.",
+      "difficulty": 1,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102034.jpg",
+      "credit": "Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IN-RJ.svg",
+      "distractors": [
+        "Madhya Pradesh",
+        "Haryana",
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "id": "q1102035",
+      "topic": "geography",
+      "question": "Which Indian state has this outline?",
+      "answer": "Gujarat",
+      "accept": [
+        "gujarat",
+        "gujrat"
+      ],
+      "explanation": "Gujarat's outline is easy to spot by Kutch in the north-west and the Kathiawar peninsula, separated by the Gulf of Kutch.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102035.jpg",
+      "credit": "Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons, adapted: state cut out from the locator map",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IN-GJ.svg",
+      "distractors": [
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Tamil Nadu"
+      ]
+    },
+    {
+      "id": "q1102036",
+      "topic": "geography",
+      "question": "Which state is highlighted on this map?",
+      "answer": "West Bengal",
+      "accept": [
+        "west bengal",
+        "bengal",
+        "paschim banga",
+        "paschimbanga"
+      ],
+      "explanation": "West Bengal runs from the Bay of Bengal up a narrow neck to Darjeeling in the Himalayas, bordering Bangladesh to the east.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102036.jpg",
+      "credit": "Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IN-WB.svg",
+      "distractors": [
+        "Bihar",
+        "Jharkhand",
+        "Odisha"
+      ]
+    },
+    {
+      "id": "q1102037",
+      "topic": "geography",
+      "question": "Which state is highlighted on this map?",
+      "answer": "Odisha",
+      "accept": [
+        "odisha",
+        "orissa"
+      ],
+      "explanation": "Odisha lies on the Bay of Bengal coast between West Bengal and Andhra Pradesh.",
+      "difficulty": 2,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102037.jpg",
+      "credit": "Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IN-OD.svg",
+      "distractors": [
+        "Andhra Pradesh",
+        "Chhattisgarh",
+        "Jharkhand"
+      ]
+    },
+    {
+      "id": "q1102038",
+      "topic": "geography",
+      "question": "Which state is highlighted on this map? It was carved out of a larger state in 2000.",
+      "answer": "Chhattisgarh",
+      "accept": [
+        "chhattisgarh",
+        "chattisgarh",
+        "chhatisgarh",
+        "chattisgadh"
+      ],
+      "explanation": "Chhattisgarh was formed from the south-eastern districts of Madhya Pradesh on 1 November 2000.",
+      "difficulty": 3,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102038.jpg",
+      "credit": "Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IN-CT.svg",
+      "distractors": [
+        "Jharkhand",
+        "Uttarakhand",
+        "Telangana"
+      ]
+    },
+    {
+      "id": "q1102039",
+      "topic": "geography",
+      "question": "Which north-eastern state is highlighted on this map?",
+      "answer": "Tripura",
+      "accept": [
+        "tripura"
+      ],
+      "explanation": "Tripura is almost surrounded by Bangladesh, linked to the rest of India only through Assam and Mizoram.",
+      "difficulty": 3,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102039.jpg",
+      "credit": "Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IN-TR.svg",
+      "distractors": [
+        "Mizoram",
+        "Manipur",
+        "Meghalaya"
+      ]
+    },
+    {
+      "id": "q1102040",
+      "topic": "general",
+      "question": "He was a writer. Who is this?",
+      "answer": "Premchand",
+      "accept": [
+        "premchand",
+        "munshi premchand",
+        "prem chand",
+        "dhanpat rai",
+        "dhanpat rai srivastava"
+      ],
+      "explanation": "Munshi Premchand, author of Godaan and the story Idgah, in a photograph taken before his death in 1936.",
+      "difficulty": 3,
+      "created": "2026-11-02",
+      "themes": [
+        "picture_this"
+      ],
+      "image": "q1102040.jpg",
+      "credit": "Photo: Unknown author, Public domain, via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Photo_of_Premchand.webp",
+      "distractors": [
+        "Jaishankar Prasad",
+        "Maithili Sharan Gupt",
+        "Sarat Chandra Chattopadhyay"
+      ]
     }
   ]
 };

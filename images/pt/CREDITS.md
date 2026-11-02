@@ -1,0 +1,44 @@
+# Picture credits
+
+All pictures are from Wikimedia Commons under free licences.
+
+- `q1102001.jpg`: Photo: Unknown author, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Portrait_Gandhi_(cropped).jpg
+- `q1102002.jpg`: Photo: Blnguyen, CC BY-SA 3.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Sachin_Tendulkar_cropped.jpg
+- `q1102003.jpg`: Photo: Bollywood Hungama, CC BY 3.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Lata_Mangeshkar_-_still_29065_crop.jpg
+- `q1102004.jpg`: Photo: Harry Pot, CC0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Nehru_in_the_Netherlands,_1957.jpg
+- `q1102005.jpg`: Photo: Shrinivaskulkarni1388, derivative work by Junior Jumper, CC BY-SA 4.0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Indian_actor_Amitabh_Bachchan.jpg
+- `q1102006.jpg`: Photo: Lijesh K, CC BY-SA 3.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:A._P._J._Abdul_Kalam_in_2008.jpg
+- `q1102007.jpg`: Photo: Unknown (Netaji Research Bureau, Calcutta), Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Subhas_Chandra_Bose_NRB.jpg
+- `q1102008.jpg`: Photo: Anefo, CC0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Face_detail,_Premier_Indira_Gandhi_(Congrespartij),_Bestanddeelnr_929-0811_(cropped).jpg
+- `q1102009.jpg`: Photo: Georges Chevalier, CC BY 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:1926_Rabindrath_Tagore.jpg
+- `q1102010.jpg`: Photo: Bollywood Hungama, CC BY 3.0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Kapil_Dev_at_Equation_sports_auction.jpg
+- `q1102011.jpg`: Photo: Nobel Foundation, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Sir_CV_Raman.JPG
+- `q1102012.jpg`: Photo: Sanyam Bahga, CC BY-SA 3.0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Milkha_Singh.jpg
+- `q1102013.jpg`: Photo: Saregama Carnatic, CC BY 3.0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:M._S._Subbulakshmi_(03).jpg
+- `q1102014.jpg`: Photo: Bollywood Hungama, CC BY 3.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Sridevi.jpg
+- `q1102015.jpg`: Photo: Dinu Alam Newyork, CC BY-SA 4.0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Satyajit_Ray_in_New_York.jpg
+- `q1102016.jpg`: Photo: Unknown (Mondadori Publishers), Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Homi_Jehangir_Bhabha_1960s.jpg
+- `q1102017.jpg`: Photo: Yann Forget, edited by Jim Carter, CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg
+- `q1102018.jpg`: Photo: Shagil Kannur, CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:The_Golden_Temple_of_Amrithsar_7.jpg
+- `q1102019.jpg`: Photo: Wasir kasab, CC BY 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Qutb_Minar_2022.jpg
+- `q1102020.jpg`: Photo: Chainwit, CC BY-SA 4.0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg
+- `q1102021.jpg`: Photo: Joe Ravi, CC BY-SA 3.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Gateway_Of_India.jpg
+- `q1102022.jpg`: Photo: DidierTais, CC BY-SA 3.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Charminar_Hyderabad_1.jpg
+- `q1102023.jpg`: Photo: Apoorva Karlekar, CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Howrah_bridge_at_night.jpg
+- `q1102024.jpg`: Photo: Subhrajyoti07, CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Victoria_Memorial_situated_in_Kolkata.jpg
+- `q1102025.jpg`: Photo: Whistleraja, CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Mysore_Palace_-_Amba_Vilas_Palace.jpg
+- `q1102026.jpg`: Photo: Maddy lens, CC BY-SA 4.0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Tower_of_Meenakshi_amman_temple.jpg
+- `q1102027.jpg`: Photo: Subham9423, CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Konarka_Temple.jpg
+- `q1102028.jpg`: Photo: PJeganathan, CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Living_root_bridges_of_Nongriat_village_in_East_Khasi_Hills_district,_Meghalaya_JEG7388.jpg
+- `q1102029.jpg`: Photo: Unknown author, scanned by Yann, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Marche_sel.jpg
+- `q1102030.jpg`: Photo: Unknown author, Rijksmuseum Amsterdam, CC0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Exterieur_van_het_Victoria_Terminus_Station_te_Bombay,_RP-F-F01104-AG.jpg
+- `q1102031.jpg`: Photo: Unknown author, Ramnath Photographers Delhi, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Bhagat_Singh_1929.jpg
+- `q1102032.jpg`: Photo: Unknown author, Public domain, via Wikimedia Commons, retouched. Source: https://commons.wikimedia.org/wiki/File:Swami_Vivekananda-1893-09-signed.jpg
+- `q1102033.jpg`: Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:IN-KL.svg
+- `q1102034.jpg`: Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:IN-RJ.svg
+- `q1102035.jpg`: Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons, adapted: state cut out from the locator map. Source: https://commons.wikimedia.org/wiki/File:IN-GJ.svg
+- `q1102036.jpg`: Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:IN-WB.svg
+- `q1102037.jpg`: Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:IN-OD.svg
+- `q1102038.jpg`: Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:IN-CT.svg
+- `q1102039.jpg`: Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:IN-TR.svg
+- `q1102040.jpg`: Photo: Unknown author, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Photo_of_Premchand.webp

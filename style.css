@@ -408,6 +408,15 @@ button.pulse {
 .double-title { font-family: 'Yatra One', Georgia, serif; font-size: 2.6rem; color: var(--gold); }
 .double-sub { margin-top: 0.6rem; font-size: 1.25rem; }
 
+/* Picture This: the picture is the question, so it gets most of the screen */
+.picture-frame { text-align: center; margin: 1rem auto 0.5rem; }
+.picture-frame img {
+  max-width: 100%; max-height: 58vh; object-fit: contain;
+  border-radius: 10px; border: 1px solid var(--border); background: #fff;
+}
+.picture-frame.small img { max-height: 30vh; }
+.picture-credit { font-size: 0.8rem; color: var(--muted); text-align: center; margin-top: 0.5rem; }
+
 .theme-tag {
   display: inline-block;
   background: rgba(245, 176, 65, 0.15);

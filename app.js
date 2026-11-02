@@ -16,11 +16,23 @@ const THEME_OPTIONS = [
   { id: 'personalities',   label: 'Personalities' },
   { id: 'lost_in_translation', label: 'Lost in Translation' },
   { id: 'passbooks_floppies',  label: 'Passbooks and Floppy Disks' },
+  { id: 'picture_this',        label: 'Picture This' },
 ];
 
 // Questions in these themes only make sense inside their own Theme round (a song line
 // translated word for word; working life 1983-2010), so no other round draws them.
-const THEME_ONLY_TAGS = ['lost_in_translation', 'passbooks_floppies'];
+const THEME_ONLY_TAGS = ['lost_in_translation', 'passbooks_floppies', 'picture_this'];
+
+// Picture questions carry `image` (a file under images/pt/) and `credit` (the free-licence
+// attribution, shown after the reveal).
+const PICTURE_DIR = 'images/pt/';
+
+function pictureEl(q, small = false) {
+  if (!q || !q.image) return null;
+  return el('div', { class: 'picture-frame' + (small ? ' small' : '') }, [
+    el('img', { src: PICTURE_DIR + q.image, alt: 'Picture for this question' }),
+  ]);
+}
 
 function isThemeOnly(q) {
   return Array.isArray(q.themes) && q.themes.some(t => THEME_ONLY_TAGS.includes(t));
@@ -1411,6 +1423,8 @@ function renderQuestion(q, opts = {}) {
   main.appendChild(headerEl);
   if (opts.hotseat != null && hotseatInterval) renderHotSeatClock(hotseatLeft);
 
+  const pic = pictureEl(q);
+  if (pic) main.appendChild(pic);
   main.appendChild(el('div', { class: 'question-text' }, q.question));
 
   if (opt) {
@@ -1655,8 +1669,11 @@ async function reveal(outcome) {
              : outcome === 'wrong' ? '✗ Sorry — not quite.'
              : '— Passed.';
   main.appendChild(el('div', { class: 'player-up' }, head));
+  const revealPic = pictureEl(q, true);
+  if (revealPic) main.appendChild(revealPic);
   main.appendChild(el('div', { class: 'answer-reveal' }, q.answer));
   if (q.explanation) main.appendChild(el('div', { class: 'explanation' }, q.explanation));
+  if (q.credit) main.appendChild(el('div', { class: 'picture-credit' }, q.credit));
 
   // End of a Hot Seat run: show that player's net result for their four questions.
   const r = state.rounds[state.currentRoundIdx];
@@ -1719,6 +1736,8 @@ function startPounce() {
   const main = $('#game-main');
   main.innerHTML = '';
   main.appendChild(el('div', { class: 'player-up' }, '⚡ Who pounced?'));
+  const pp = pictureEl(state.currentQuestion, true);
+  if (pp) main.appendChild(pp);
   main.appendChild(el('div', { class: 'question-text' }, state.currentQuestion.question));
   const ctrls = el('div', { class: 'controls' });
   for (let i = 0; i < seatCount(); i++) {
@@ -1748,6 +1767,8 @@ function pounceAnswer(idx) {
   main.innerHTML = '';
   main.appendChild(el('div', { class: 'player-up' },
     `⚡ ${seatName(idx)} pounced — +${base} if right, −${base * 2} if wrong`));
+  const pa = pictureEl(state.currentQuestion, true);
+  if (pa) main.appendChild(pa);
   main.appendChild(el('div', { class: 'question-text' }, state.currentQuestion.question));
   const ctrls = el('div', { class: 'controls' });
   const o = state.options;
