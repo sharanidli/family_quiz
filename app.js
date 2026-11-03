@@ -21,7 +21,9 @@ const THEME_OPTIONS = [
 
 // Questions in these themes only make sense inside their own Theme round (a song line
 // translated word for word; working life 1983-2010), so no other round draws them.
-const THEME_ONLY_TAGS = ['lost_in_translation', 'passbooks_floppies', 'picture_this'];
+// Current Affairs joined on 2026-11-03 so a fresh batch is kept for its own round (and a
+// new current-affairs batch never becomes the "All new" set for Long and Bid rounds).
+const THEME_ONLY_TAGS = ['lost_in_translation', 'passbooks_floppies', 'picture_this', 'current_affairs'];
 
 // Picture questions carry `image` (a file under images/pt/) and `credit` (the free-licence
 // attribution, shown after the reveal).

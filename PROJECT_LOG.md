@@ -3,9 +3,9 @@
 ## Current state (2026-11-01)
 
 - **Live** at https://sharanidli.github.io/family_quiz/ (public repo `sharanidli/family_quiz`), commit `9f8a882`. Static HTML/JS; voice host (browser TTS); host judges answers.
-- **Bank: 2,654 questions** in `questions.json` (mirrored in `questions.js`), including 65 Connect sets (50 for normal games, 15 St. Louis) and 57 Long Tail callbacks. **All 2,492 eligible questions have KBC-style options** (`distractors`, plus `option_answer` display labels where needed).
+- **Bank: 2,694 questions** in `questions.json` (mirrored in `questions.js`), including 65 Connect sets (50 for normal games, 15 St. Louis) and 57 Long Tail callbacks. **All 2,492 eligible questions have KBC-style options** (`distractors`, plus `option_answer` display labels where needed).
 - **Round types:** Long, Theme, Bid, Connect, Hot Seat (4 in a row, wagers locked up front, 30/20/10/10 s clock, hard→easy). **Per-round tick boxes:** Pounce & Bounce (Long/Theme/Bid), Jodi random teams (Long/Theme), Options lifeline (Long/Theme/Bid/Hot Seat, on by default; 5 points or 50% of a wager; an MCQ caught on a bounce doesn't take the catcher's turn; Pounce still allowed with options showing, at +5 / −10); Double-points questions (Long/Theme, 10% chance each, 20 points, one shot, no pounce; on by default).
-- **Theme options** include three theme-only sets (never drawn by other rounds): Lost in Translation (40 Hindi songs), Passbooks and Floppy Disks (100, Indian working life 1983–2010) and **Picture This** (40 picture questions; images in `images/pt/`, credits in `images/pt/CREDITS.md`).
+- **Theme options** include three theme-only sets (never drawn by other rounds): Lost in Translation (40 Hindi songs), Passbooks and Floppy Disks (100, Indian working life 1983–2010) and **Picture This** (40 picture questions; images in `images/pt/`, credits in `images/pt/CREDITS.md`). **Current Affairs** is theme-only too since 2026-11-03 (71 questions).
 - **Modes:** St. Louis Mode (its 156-question batch, served only in that mode) and Iranian Mode.
 - **Default lineup (10 rounds):** Long, Cinema, Bid, Business, Lost in Translation, Long, Connect, Current Affairs, Bid, Hot Seat.
 - **Per-player seen history** lives in the playing browser's localStorage (`quiz_player_seen_<name>`); the regular group's history is in this laptop's Chrome on the live site. Supply for the regular four: about 104 unseen easy questions as of 2026-10-26 (about 10 games of Hot Seat) and 30 unseen Connect sets as of 2026-10-27 (about 10 games at 3 per game).
@@ -383,6 +383,15 @@ Sharan asked whether a picture round is possible. Constraint: the site and repo 
 - **Spares kept on file, not merged:** `TEMP_pl_13`, `TEMP_pl_14`. **Never merge `TEMP_pl_13`**: Sharan saw it in the demo screenshot.
 - **Bank: 2,614 → 2,654.** Backups `*.bak_before_pictures_2026-11-02`.
 - Headless test: 8 of 8 pictures loaded, credit on every reveal, picture shown on pounce screens, options work, no picture questions in a Long round; 0 errors.
+
+### Current Affairs refill (2026-11-03)
+
+Sharan: the regular four have run out of Current Affairs questions (only 31 existed, all from 2026-07-10; 4 per game in the default lineup).
+- **Current Affairs is now theme-only** (`THEME_ONLY_TAGS` gains `current_affairs`): its questions appear only in the Current Affairs round, so a fresh batch isn't used up by Long/Bid rounds and never becomes the "All new" set.
+- **New batch:** 40 (48 drafted) in three lanes (`new_batch_2026-11-03/current_affairs/CA_BRIEF.md`): India governance, economy, infrastructure and science; sport, films, music and culture; world events, technology and Indians abroad. Events 2020 to now, settled only, nothing partisan or grim; every question with three distractors. Independent checkers (`CA_CHECK.md`, extra care on 2025–26 events); `merge_ca.py` keeps 14/13/13, IDs `q1103NNN`.
+- **Result: 40 merged** (`q1103001`–`q1103040`; difficulty 18 / 20 / 2; all with options). 48 drafted, 0 dropped by checkers, 18 patched: an "upcoming launch" question rebuilt on a completed event, a disputed figure removed, invented distractors replaced, and a women's ODI chase record that was broken in April 2026 swapped for one that still stands. Merge dropped a spare that named another answer and a third 2023 G20 question. Spares on file: `TEMP_caa_16`, `TEMP_cab_14`–`16`, `TEMP_cac_15`–`16`.
+- **Bank: 2,654 → 2,694; current-affairs questions 31 → 71** (about 10 more games for the regular four). Backups `*.bak_before_ca_2026-11-03`.
+- Headless test: Current Affairs round served only current-affairs questions; none in Long/Bid; the question set stays on Full database (the theme-only batch doesn't trigger "All new"); 0 errors.
 
 ## Multiplayer "next level" idea (not yet built)
 

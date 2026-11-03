@@ -54539,6 +54539,919 @@
     "Maithili Sharan Gupt",
     "Sarat Chandra Chattopadhyay"
    ]
+  },
+  {
+   "id": "q1103001",
+   "topic": "general",
+   "question": "The triangular new Parliament building, inaugurated in May 2023, was designed by an Ahmedabad architect whose firm had earlier reshaped the Sabarmati Riverfront and the Kashi Vishwanath Dham corridor in Varanasi. Name him.",
+   "answer": "Bimal Patel",
+   "accept": [
+    "bimal patel",
+    "bimal hasmukh patel",
+    "patel"
+   ],
+   "explanation": "Bimal Patel of the Ahmedabad firm HCP designed the new Parliament House, which the Prime Minister inaugurated on 28 May 2023.",
+   "difficulty": 3,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "bid_eligible": true,
+   "distractors": [
+    "Hafeez Contractor",
+    "Charles Correa",
+    "Balkrishna Doshi"
+   ]
+  },
+  {
+   "id": "q1103002",
+   "topic": "polity",
+   "question": "On the first of July 2024, India's criminal law was overhauled, and the Indian Penal Code of 1860 gave way to a new code whose name means the Indian Justice Code. Name it.",
+   "answer": "Bharatiya Nyaya Sanhita",
+   "accept": [
+    "bharatiya nyaya sanhita",
+    "bhartiya nyaya sanhita",
+    "bns",
+    "nyaya sanhita"
+   ],
+   "explanation": "The Bharatiya Nyaya Sanhita, passed in December 2023, replaced the Indian Penal Code on 1 July 2024.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Bharatiya Nagarik Suraksha Sanhita",
+    "Bharatiya Sakshya Adhiniyam",
+    "Bharatiya Vayuyan Adhiniyam"
+   ]
+  },
+  {
+   "id": "q1103003",
+   "topic": "polity",
+   "question": "In May 2025 a judge from Amravati in Maharashtra was sworn in as India's 52nd Chief Justice, the first from the Buddhist community and only the second Dalit to hold the office after K G Balakrishnan. Name him.",
+   "answer": "B R Gavai",
+   "accept": [
+    "b r gavai",
+    "br gavai",
+    "gavai",
+    "bhushan gavai",
+    "bhushan ramkrishna gavai",
+    "justice gavai"
+   ],
+   "explanation": "Justice Bhushan Ramkrishna Gavai served as Chief Justice of India from 14 May to 23 November 2025.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "N V Ramana",
+    "U U Lalit",
+    "S A Bobde"
+   ]
+  },
+  {
+   "id": "q1103004",
+   "topic": "general",
+   "question": "In April 2023, United Nations estimates showed that India had become the world's most populous country for the first time since the UN began keeping such figures in 1950. Which country did it overtake?",
+   "answer": "China",
+   "accept": [
+    "china",
+    "people's republic of china",
+    "prc"
+   ],
+   "explanation": "UN data released on 19 April 2023 put India's mid-2023 population at about 1.4286 billion, just ahead of China's 1.4257 billion.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "United States",
+    "Indonesia",
+    "Pakistan"
+   ]
+  },
+  {
+   "id": "q1103005",
+   "topic": "general",
+   "question": "Built on the site of the old Hall of Nations at Delhi's Pragati Maidan and inaugurated in July 2023, this convention centre hosted world leaders for the G20 summit that September. Name it.",
+   "answer": "Bharat Mandapam",
+   "accept": [
+    "bharat mandapam",
+    "iecc",
+    "international exhibition cum convention centre"
+   ],
+   "explanation": "Bharat Mandapam, inaugurated on 26 July 2023, was the venue of the G20 Leaders' Summit on 9 and 10 September 2023.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Yashobhoomi",
+    "Vigyan Bhawan",
+    "Sushma Swaraj Bhawan"
+   ]
+  },
+  {
+   "id": "q1103006",
+   "topic": "business",
+   "question": "In May 2022 the government sold a three and a half per cent stake in this giant state-owned insurer, in what was then India's biggest-ever IPO. Name the company.",
+   "answer": "LIC",
+   "option_answer": "Life Insurance Corporation of India",
+   "accept": [
+    "lic",
+    "life insurance corporation",
+    "life insurance corporation of india"
+   ],
+   "explanation": "The LIC IPO ran from 4 to 9 May 2022 and the shares listed on 17 May 2022; it stayed India's largest IPO until Hyundai Motor India's in October 2024.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "New India Assurance Company",
+    "General Insurance Corporation of India",
+    "SBI Life Insurance Company"
+   ]
+  },
+  {
+   "id": "q1103007",
+   "topic": "business",
+   "question": "In February 2024 India's instant mobile payment system made its debut in France, and the first place where Indian tourists could use it to buy tickets was which Paris landmark?",
+   "answer": "Eiffel Tower",
+   "accept": [
+    "eiffel tower",
+    "eiffel",
+    "tour eiffel"
+   ],
+   "explanation": "On 2 February 2024 NPCI's international arm announced that UPI was accepted at the Eiffel Tower, its first merchant in France.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Louvre Museum",
+    "Arc de Triomphe",
+    "Notre-Dame Cathedral"
+   ]
+  },
+  {
+   "id": "q1103008",
+   "topic": "business",
+   "question": "In November 2024 this full-service airline, a joint venture of the Tata group and Singapore Airlines that had been flying since 2015, operated its last flights before merging into Air India. Name it.",
+   "answer": "Vistara",
+   "accept": [
+    "vistara",
+    "tata sia airlines"
+   ],
+   "explanation": "Vistara flew its final flights on 11 November 2024 and was folded into Air India the next day.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Jet Airways",
+    "Kingfisher Airlines",
+    "AirAsia India"
+   ]
+  },
+  {
+   "id": "q1103009",
+   "topic": "business",
+   "question": "In September 2022, Bloomberg calculations based on IMF figures showed that India had become the world's fifth largest economy, pushing one country down to sixth place. Which country was it?",
+   "answer": "United Kingdom",
+   "accept": [
+    "united kingdom",
+    "uk",
+    "britain",
+    "great britain",
+    "england"
+   ],
+   "explanation": "Bloomberg's calculations, published in September 2022, showed India's dollar GDP had passed the United Kingdom's, pushing Britain down to sixth place.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Germany",
+    "Japan",
+    "France"
+   ]
+  },
+  {
+   "id": "q1103010",
+   "topic": "geography",
+   "question": "In June 2025 the Prime Minister opened a steel arch bridge in Jammu and Kashmir's Reasi district that carries the new rail line to the Kashmir Valley 359 metres above the riverbed, the highest railway arch bridge in the world. Which river does it span?",
+   "answer": "Chenab",
+   "accept": [
+    "chenab",
+    "chenab river"
+   ],
+   "explanation": "The Chenab Rail Bridge, part of the Udhampur-Srinagar-Baramulla line, was inaugurated on 6 June 2025.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Jhelum",
+    "Tawi",
+    "Ravi"
+   ]
+  },
+  {
+   "id": "q1103011",
+   "topic": "geography",
+   "question": "In March 2024 Kolkata became home to India's first underwater metro, with trains running through a tunnel between Howrah Maidan and Esplanade. Under which arm of the Ganga does that tunnel pass?",
+   "answer": "Hooghly",
+   "accept": [
+    "hooghly",
+    "hugli",
+    "hoogly",
+    "bhagirathi hooghly"
+   ],
+   "explanation": "The Prime Minister inaugurated the Howrah Maidan to Esplanade stretch of the East-West Metro, which runs under the Hooghly, on 6 March 2024.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Damodar",
+    "Rupnarayan",
+    "Subarnarekha"
+   ]
+  },
+  {
+   "id": "q1103012",
+   "topic": "general",
+   "question": "Ayodhya's new airport, opened in December 2023 just weeks before the Ram temple consecration, was named not after Lord Ram as first proposed, but after the poet-sage who first told his story. Name the sage.",
+   "answer": "Maharishi Valmiki",
+   "accept": [
+    "valmiki",
+    "maharishi valmiki",
+    "rishi valmiki"
+   ],
+   "explanation": "The Prime Minister inaugurated Maharishi Valmiki International Airport, Ayodhya Dham, on 30 December 2023.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Maharishi Vashishtha",
+    "Maharishi Vishwamitra",
+    "Maharishi Bharadwaj"
+   ]
+  },
+  {
+   "id": "q1103013",
+   "topic": "geography",
+   "question": "In January 2023 the river cruiser Ganga Vilas set off from Varanasi on what was billed as the world's longest river cruise, about 3,200 kilometres by way of Bangladesh. In which Assam city did it end its voyage at the end of February?",
+   "answer": "Dibrugarh",
+   "accept": [
+    "dibrugarh"
+   ],
+   "explanation": "MV Ganga Vilas was flagged off from Varanasi on 13 January 2023 and reached Dibrugarh on 28 February 2023.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "bid_eligible": true,
+   "distractors": [
+    "Guwahati",
+    "Jorhat",
+    "Tezpur"
+   ]
+  },
+  {
+   "id": "q1103014",
+   "topic": "general",
+   "question": "Since 2024 India has marked National Space Day every year, to celebrate the day Chandrayaan-3's lander touched down near the Moon's south pole. On what date is it observed?",
+   "answer": "23 August",
+   "accept": [
+    "23 august",
+    "august 23",
+    "23rd august",
+    "august 23rd",
+    "twenty third august"
+   ],
+   "explanation": "Chandrayaan-3 landed on 23 August 2023, and India celebrated its first National Space Day on 23 August 2024.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "bid_eligible": true,
+   "distractors": [
+    "14 July",
+    "26 August",
+    "2 September"
+   ]
+  },
+  {
+   "id": "q1103015",
+   "topic": "music",
+   "question": "In January 2025, on their Music of the Spheres world tour, this British band played two record-breaking nights at Ahmedabad's Narendra Modi Stadium, the second on Republic Day, each before more than a lakh fans. Name the band.",
+   "answer": "Coldplay",
+   "accept": [
+    "coldplay",
+    "cold play"
+   ],
+   "explanation": "Coldplay played the Narendra Modi Stadium on 25 and 26 January 2025 to about 1.1 lakh fans each night, which Live Nation called the largest stadium shows of the 21st century.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Maroon 5",
+    "Imagine Dragons",
+    "Oasis"
+   ]
+  },
+  {
+   "id": "q1103016",
+   "topic": "cinema",
+   "question": "In 2025, more than three decades into his career, Shah Rukh Khan finally won his first National Film Award for Best Actor, sharing it with Vikrant Massey. For which 2023 action blockbuster, directed by Atlee, did he win it?",
+   "answer": "Jawan",
+   "accept": [
+    "jawan",
+    "jawaan"
+   ],
+   "explanation": "The 71st National Film Awards, announced on 1 August 2025, gave Best Actor jointly to Shah Rukh Khan for Jawan and Vikrant Massey for 12th Fail.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Pathaan",
+    "Dunki",
+    "Raees"
+   ]
+  },
+  {
+   "id": "q1103017",
+   "topic": "cinema",
+   "question": "Vicky Kaushal played Chhatrapati Sambhaji Maharaj, with Akshaye Khanna as Aurangzeb, in this 2025 blockbuster adapted from Shivaji Sawant's Marathi novel. Its one-word title means a lion's cub. Name the film.",
+   "answer": "Chhaava",
+   "accept": [
+    "chhaava",
+    "chhava",
+    "chaava",
+    "chava",
+    "chhawa",
+    "chhaawa"
+   ],
+   "explanation": "Chhaava, directed by Laxman Utekar, released on 14 February 2025 and became one of the year's biggest Hindi hits.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Tanhaji",
+    "Panipat",
+    "Bajirao Mastani"
+   ]
+  },
+  {
+   "id": "q1103018",
+   "topic": "cinema",
+   "question": "In this TVF web series, which began on Prime Video in April 2020, Jitendra Kumar plays Abhishek Tripathi, an engineering graduate who reluctantly takes a job as the village secretary of Phulera, alongside Neena Gupta and Raghubir Yadav. Name the series.",
+   "answer": "Panchayat",
+   "accept": [
+    "panchayat",
+    "panchayath"
+   ],
+   "explanation": "Panchayat premiered on Amazon Prime Video on 3 April 2020 and became one of India's best-loved streaming shows.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Gullak",
+    "Kota Factory",
+    "Aspirants"
+   ]
+  },
+  {
+   "id": "q1103019",
+   "topic": "cinema",
+   "question": "Directed by Hansal Mehta and released on SonyLIV in 2020, this series made a star of the Gujarati actor Pratik Gandhi, who played the Big Bull of Dalal Street, Harshad Mehta. Name the series.",
+   "answer": "Scam 1992",
+   "accept": [
+    "scam 1992",
+    "scam 92",
+    "scam nineteen ninety two",
+    "scam 1992 the harshad mehta story"
+   ],
+   "explanation": "Scam 1992: The Harshad Mehta Story premiered on SonyLIV on 9 October 2020, with Pratik Gandhi as Harshad Mehta.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Scam 2003",
+    "Rocket Boys",
+    "Paatal Lok"
+   ]
+  },
+  {
+   "id": "q1103020",
+   "topic": "cinema",
+   "question": "In 2023 Bobby Deol stormed back as the mute villain Abrar Haque, and his wedding-scene dance to Jamal Kudu, a reworked Iranian song, with a glass balanced on his head, went viral. Name this Ranbir Kapoor blockbuster directed by Sandeep Reddy Vanga.",
+   "answer": "Animal",
+   "accept": [
+    "animal"
+   ],
+   "explanation": "Animal released in December 2023; its Jamal Kudu entry scene for Bobby Deol became one of the year's biggest viral trends.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Pathaan",
+    "Gadar 2",
+    "Brahmastra"
+   ]
+  },
+  {
+   "id": "q1103021",
+   "topic": "general",
+   "question": "In May 2022 in Bangkok, India's men's badminton team, led by Lakshya Sen, Kidambi Srikanth and the doubles pair of Satwik and Chirag, swept defending champions Indonesia three-nil to win this world team trophy for the first time. Name the trophy.",
+   "answer": "Thomas Cup",
+   "accept": [
+    "thomas cup",
+    "thomas"
+   ],
+   "explanation": "India won its first Thomas Cup on 15 May 2022, sweeping Indonesia 3-0 in the final in Bangkok.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Uber Cup",
+    "Sudirman Cup",
+    "Davis Cup"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1103022",
+   "topic": "cricket",
+   "question": "In April 2025 a 14-year-old schoolboy from Samastipur in Bihar hammered a 35-ball hundred for Rajasthan Royals against Gujarat Titans at Jaipur, becoming the youngest player ever to score a century in men's T20 cricket. Name him.",
+   "answer": "Vaibhav Suryavanshi",
+   "accept": [
+    "vaibhav suryavanshi",
+    "suryavanshi",
+    "vaibhav sooryavanshi",
+    "sooryavanshi",
+    "vaibhav"
+   ],
+   "explanation": "Vaibhav Suryavanshi hit his 35-ball hundred on 28 April 2025, aged 14 years and 32 days, the youngest player to score a century in men's T20 cricket.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Ayush Mhatre",
+    "Priyansh Arya",
+    "Riyan Parag"
+   ]
+  },
+  {
+   "id": "q1103023",
+   "topic": "general",
+   "question": "In January 2024 this Karnataka tennis player won the Australian Open men's doubles with Australia's Matthew Ebden at the age of 43, becoming the oldest man in the Open Era to win a Grand Slam title. Name him.",
+   "answer": "Rohan Bopanna",
+   "accept": [
+    "rohan bopanna",
+    "bopanna",
+    "rohan"
+   ],
+   "explanation": "Rohan Bopanna and Matthew Ebden won the 2024 Australian Open men's doubles; at 43 he became the oldest man to win a major in the Open Era.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Leander Paes",
+    "Mahesh Bhupathi",
+    "Yuki Bhambri"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1103024",
+   "topic": "cricket",
+   "question": "In the semi-final of the 2025 Women's World Cup at Navi Mumbai, India chased down Australia's 338, the highest successful chase in Women's World Cup history, thanks to an unbeaten 127 from this Mumbai batter. Name her.",
+   "answer": "Jemimah Rodrigues",
+   "accept": [
+    "jemimah rodrigues",
+    "jemimah",
+    "rodrigues",
+    "jemima rodrigues",
+    "jemima"
+   ],
+   "explanation": "Jemimah Rodrigues made 127 not out on 30 October 2025 as India reached 341 for 5 to beat Australia by five wickets, the highest successful chase in a Women's World Cup match.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Smriti Mandhana",
+    "Shafali Verma",
+    "Richa Ghosh"
+   ]
+  },
+  {
+   "id": "q1103025",
+   "topic": "general",
+   "question": "In July 2025 at Batumi in Georgia, a 19-year-old from Nagpur beat Koneru Humpy in an all-Indian final to win the FIDE Women's World Cup, and with it the Grandmaster title. Name her.",
+   "answer": "Divya Deshmukh",
+   "accept": [
+    "divya deshmukh",
+    "deshmukh",
+    "divya"
+   ],
+   "explanation": "Divya Deshmukh beat Koneru Humpy in the tiebreaks on 28 July 2025 to become the first Indian winner of the Women's World Cup.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Vaishali Rameshbabu",
+    "Harika Dronavalli",
+    "Tania Sachdev"
+   ]
+  },
+  {
+   "id": "q1103026",
+   "topic": "general",
+   "question": "Born without arms, this young archer from Jammu and Kashmir holds her bow with her foot. She won a bronze with Rakesh Kumar at the Paris 2024 Paralympics and became world champion in 2025. Name her.",
+   "answer": "Sheetal Devi",
+   "accept": [
+    "sheetal devi",
+    "sheetal",
+    "shital devi"
+   ],
+   "explanation": "Sheetal Devi won mixed team compound bronze at Paris 2024 and the women's compound world title at Gwangju in September 2025.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Avani Lekhara",
+    "Jyothi Surekha Vennam",
+    "Pooja Jatyan"
+   ]
+  },
+  {
+   "id": "q1103027",
+   "topic": "general",
+   "question": "At the Asian Games held in 2023 in this eastern Chinese city, India crossed a hundred medals for the first time, finishing with 107, including 28 golds. Name the host city.",
+   "answer": "Hangzhou",
+   "accept": [
+    "hangzhou",
+    "hangchow",
+    "hang zhou"
+   ],
+   "explanation": "India won 107 medals, 28 of them gold, at the Hangzhou Asian Games in 2023, its first century of medals at the Games.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Guangzhou",
+    "Jakarta",
+    "Incheon"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1103028",
+   "topic": "world",
+   "question": "India's G20 presidency, which hosted the New Delhi summit in September 2023, ran under the theme One Earth, One Family, One Future, an English rendering of a Sanskrit phrase from the Maha Upanishad that means the world is one family. What is that phrase?",
+   "answer": "Vasudhaiva Kutumbakam",
+   "accept": [
+    "vasudhaiva kutumbakam",
+    "vasudhaiv kutumbakam",
+    "vasudaiva kutumbakam"
+   ],
+   "explanation": "India held the G20 presidency from 1 December 2022 to 30 November 2023 under the theme Vasudhaiva Kutumbakam, One Earth, One Family, One Future.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Sarve Bhavantu Sukhinah",
+    "Satyameva Jayate",
+    "Lokah Samastah Sukhino Bhavantu"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1103029",
+   "topic": "world",
+   "question": "In May 2025, white smoke over the Sistine Chapel announced the first pope from the United States, Chicago-born Cardinal Robert Prevost, who had spent years as a missionary in Peru. What papal name did he take?",
+   "answer": "Leo XIV",
+   "accept": [
+    "leo xiv",
+    "leo",
+    "leo 14",
+    "leo the fourteenth",
+    "pope leo",
+    "pope leo xiv"
+   ],
+   "explanation": "Robert Francis Prevost was elected the 267th pope on 8 May 2025 and took the name Leo XIV.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Pius XIII",
+    "John Paul III",
+    "Benedict XVII"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1103030",
+   "topic": "world",
+   "question": "Ahead of King Charles's coronation in May 2023, Buckingham Palace announced that Queen Camilla would be crowned with a crown made in 1911 rather than the one that holds a famous diamond, a choice widely seen as avoiding a row over a stone India has long asked Britain to return. Name that diamond.",
+   "answer": "Kohinoor",
+   "accept": [
+    "kohinoor",
+    "koh-i-noor",
+    "koh i noor",
+    "kohinoor diamond",
+    "koh-i-noor diamond",
+    "kuh-i-nur"
+   ],
+   "explanation": "Camilla was crowned on 6 May 2023 with Queen Mary's Crown, set with Cullinan diamonds and without the Koh-i-Noor, a choice Buckingham Palace announced in February 2023.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Cullinan",
+    "Hope",
+    "Darya-i-Noor"
+   ]
+  },
+  {
+   "id": "q1103031",
+   "topic": "general",
+   "question": "Launched on Christmas Day 2021 aboard a European Ariane rocket from French Guiana, this giant observatory, with a golden honeycomb of 18 mirror segments, now works about a million and a half kilometres from Earth, seeing further back in time than Hubble ever could. Name it.",
+   "answer": "James Webb Space Telescope",
+   "accept": [
+    "james webb space telescope",
+    "james webb",
+    "webb",
+    "jwst",
+    "james webb telescope",
+    "webb telescope"
+   ],
+   "explanation": "NASA's James Webb Space Telescope, built with the European and Canadian space agencies, was launched on an Ariane 5 from Kourou on 25 December 2021.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Kepler Space Telescope",
+    "Euclid Space Telescope",
+    "Spitzer Space Telescope"
+   ]
+  },
+  {
+   "id": "q1103032",
+   "topic": "business",
+   "question": "Released to the public on 30 November 2022, the chatbot ChatGPT was estimated to have reached 100 million users in about two months, then the fastest growth ever seen for a consumer app. Which company makes it?",
+   "answer": "OpenAI",
+   "accept": [
+    "openai",
+    "open ai"
+   ],
+   "explanation": "ChatGPT was launched by the San Francisco company OpenAI on 30 November 2022, and a UBS study estimated it had 100 million monthly users by January 2023.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Anthropic",
+    "DeepMind",
+    "Perplexity"
+   ]
+  },
+  {
+   "id": "q1103033",
+   "topic": "business",
+   "question": "On 24 July 2023, nine months after Elon Musk bought it for 44 billion dollars, this social network retired its famous blue bird logo and took a new name. What is the platform now called?",
+   "answer": "X",
+   "accept": [
+    "x",
+    "x.com",
+    "x corp"
+   ],
+   "explanation": "Twitter was rebranded as X in July 2023, after Musk completed his 44 billion dollar takeover in October 2022.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Threads",
+    "Bluesky",
+    "Mastodon"
+   ]
+  },
+  {
+   "id": "q1103034",
+   "topic": "business",
+   "question": "Google launched its answer to ChatGPT in 2023 under a name meaning a poet. In February 2024 it renamed the chatbot after its newest family of AI models, a name it shares with a sign of the zodiac. What is the chatbot now called?",
+   "answer": "Gemini",
+   "accept": [
+    "gemini",
+    "google gemini"
+   ],
+   "explanation": "Google renamed its Bard chatbot Gemini on 8 February 2024, after its Gemini AI models.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Copilot",
+    "Grok",
+    "Claude"
+   ]
+  },
+  {
+   "id": "q1103035",
+   "topic": "business",
+   "question": "In July 2025, this chipmaker, whose graphics processors became the engines of the AI boom, became the first company in history to be valued at four trillion dollars. Name the company, co-founded and led by Jensen Huang.",
+   "answer": "Nvidia",
+   "accept": [
+    "nvidia"
+   ],
+   "explanation": "Nvidia became the first company to pass a four trillion dollar market value on 9 July 2025, ahead of Microsoft and Apple.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "AMD",
+    "Intel",
+    "Broadcom"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1103036",
+   "topic": "business",
+   "question": "On 5 May 2025, after more than two decades, Microsoft switched off this pioneering internet calling service, on which countless Indian parents had video-chatted with children abroad, and moved its users to Teams. Name it.",
+   "answer": "Skype",
+   "accept": [
+    "skype"
+   ],
+   "explanation": "Microsoft, which bought Skype in 2011, shut it down on 5 May 2025 in favour of Microsoft Teams.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Hangouts",
+    "Viber",
+    "FaceTime"
+   ]
+  },
+  {
+   "id": "q1103037",
+   "topic": "general",
+   "question": "On 15 June 2022, Microsoft finally retired this web browser after 27 years. Around 2003 it was used by roughly 95 of every 100 people browsing the web, but it ended its days mocked as the slow program people opened only to download a better one. Name it.",
+   "answer": "Internet Explorer",
+   "accept": [
+    "internet explorer",
+    "ie",
+    "explorer",
+    "microsoft internet explorer"
+   ],
+   "explanation": "Microsoft ended support for Internet Explorer on 15 June 2022, 27 years after its 1995 launch, steering users to Edge.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Netscape Navigator",
+    "Microsoft Edge",
+    "Mozilla Firefox"
+   ]
+  },
+  {
+   "id": "q1103038",
+   "topic": "world",
+   "question": "On Diwali day in October 2022 he was chosen to lead Britain's ruling party unopposed, and the next day he became the country's first Prime Minister of Indian heritage and its first Hindu Prime Minister. Name him.",
+   "answer": "Rishi Sunak",
+   "accept": [
+    "rishi sunak",
+    "sunak",
+    "rishi"
+   ],
+   "explanation": "Rishi Sunak became Conservative leader on 24 October 2022, Diwali, and Prime Minister on 25 October 2022.",
+   "difficulty": 1,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Alok Sharma",
+    "Sajid Javid",
+    "Jeremy Hunt"
+   ]
+  },
+  {
+   "id": "q1103039",
+   "topic": "world",
+   "question": "In January 2025, a Yale-trained lawyer born in California to Telugu immigrant parents from Andhra Pradesh became the first Indian-American Second Lady of the United States. Name her.",
+   "answer": "Usha Vance",
+   "accept": [
+    "usha vance",
+    "usha",
+    "usha chilukuri vance",
+    "usha chilukuri"
+   ],
+   "explanation": "Usha Chilukuri Vance became Second Lady on 20 January 2025, when her husband JD Vance was sworn in as US Vice President.",
+   "difficulty": 2,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Padma Lakshmi",
+    "Reshma Saujani",
+    "Neera Tanden"
+   ]
+  },
+  {
+   "id": "q1103040",
+   "topic": "business",
+   "question": "In February 2023, when Susan Wojcicki stepped down after nine years at the top, her long-time product chief, an Indian-American who had gone to school in Lucknow, took over as chief executive of the world's biggest video-sharing site. Name him.",
+   "answer": "Neal Mohan",
+   "accept": [
+    "neal mohan",
+    "neil mohan",
+    "mohan"
+   ],
+   "explanation": "Neal Mohan, YouTube's chief product officer since 2015 and a former student of St Francis' College in Lucknow, succeeded Susan Wojcicki as YouTube's CEO in February 2023.",
+   "difficulty": 3,
+   "created": "2026-11-03",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Nikesh Arora",
+    "Raj Subramaniam",
+    "Sanjay Mehrotra"
+   ]
   }
  ]
 }
