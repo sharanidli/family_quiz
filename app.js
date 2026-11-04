@@ -64,6 +64,10 @@ const OPTION_ROUND_TYPES = ['long', 'theme', 'bid', 'hotseat'];
 // announced as a double just before it is asked: worth twice the points (20, or 10 with
 // options), one shot only (no bounce, no pounce).
 const DOUBLE_CHANCE = 0.1;
+
+// Long rounds mix in current affairs (Sharan, 2026-11-04): each Long question has this
+// chance of being drawn from the Current Affairs pool, if an unseen one is left.
+const CA_IN_LONG_SHARE = 0.2;
 const DOUBLE_ROUND_TYPES = ['long', 'theme'];
 
 // Untagged questions predate the 1/2/3 tiers and were written as standard (not hard).
@@ -511,6 +515,16 @@ function nextQuestion(opts = {}) {
       if (modeFilter && !modeFilter(q)) continue;
       state.used.add(q.id);
       return q;
+    }
+    // Pass 1b (Bid): out of unseen bid-eligible questions, an unseen ordinary question
+    // beats repeating a seen bid-eligible one.
+    if (bidEligible) {
+      for (const q of pool) {
+        if (state.used.has(q.id) || state.partySeen.has(q.id)) continue;
+        if (modeFilter && !modeFilter(q)) continue;
+        state.used.add(q.id);
+        return q;
+      }
     }
   }
   // Pass 2: unused this game (allow repeats from history if needed)
@@ -1165,7 +1179,7 @@ async function nextQuestionInRound() {
 
   const q = (r.type === 'theme')
     ? (nextQuestion({ topic: r.theme }) || nextQuestion({}))
-    : nextQuestion({});
+    : ((Math.random() < CA_IN_LONG_SHARE && pickUnseenFromTheme('current_affairs')) || nextQuestion({}));
   if (!q) { alert('Out of questions! Add more to questions.json.'); return endRound(); }
 
   state.currentQuestion = q;
@@ -1173,6 +1187,19 @@ async function nextQuestionInRound() {
   state.doubleQ = rollDouble(r);
   if (state.doubleQ) return announceDouble(q, r);
   askLiveQuestion(q, r);
+}
+
+// An unused question from a theme pool that nobody at the table has seen, or null (so a
+// Long round never repeats a seen current-affairs question just to fill its share).
+function pickUnseenFromTheme(key) {
+  const mf = modeFilterFn();
+  for (const q of poolForTheme(key)) {
+    if (state.used.has(q.id) || state.partySeen.has(q.id)) continue;
+    if (mf && !mf(q)) continue;
+    state.used.add(q.id);
+    return q;
+  }
+  return null;
 }
 
 // Each Long/Theme question independently has a DOUBLE_CHANCE of being a double.
@@ -1961,8 +1988,11 @@ async function startLongTailOrEnd() {
   if (state.iranianMode || state.stlMode) return endGame();
   const callbacks = state.questions.filter(q => q.callback && !state.used.has(q.id));
   if (!callbacks.length) return endGame();
+  // Prefer a callback nobody at the table has seen; repeat one only when all are seen.
+  const fresh = state.avoidRepeats ? callbacks.filter(q => !state.partySeen.has(q.id)) : [];
+  const from = fresh.length ? fresh : callbacks;
 
-  const q = callbacks[Math.floor(Math.random() * callbacks.length)];
+  const q = from[Math.floor(Math.random() * from.length)];
   state.used.add(q.id);
   state.currentQuestion = q;
   state.phase = 'long-tail-intro';

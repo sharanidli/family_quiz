@@ -400,6 +400,15 @@ Agent re-read the four players' seen history (Chrome Default profile, live site;
 - **Two app flaws found:** (1) Long Tail picks a random callback without checking seen history (about a 35% chance per game of a seen one); (2) Bid, once its unseen `bid_eligible` questions run out, repeats seen bid-eligible ones rather than using unseen ordinary questions.
 - At audit time `2bdfee5` (Current Affairs refill) was not yet pushed, so the live Current Affairs round would repeat; push pending Sharan's go-ahead.
 
+### Fixes, current affairs in Long rounds, three top-ups (2026-11-04) — IN PROGRESS
+
+Sharan: push the Current Affairs refill (done, `6739f29`), make both fixes, top up Lost in Translation, Connect and easy questions, and put some current affairs into the Long rounds.
+- **Long Tail fix:** prefers a callback nobody at the table has seen; repeats only when all are seen.
+- **Bid fix:** once unseen `bid_eligible` questions run out, takes an unseen ordinary question before repeating a seen bid-eligible one ("Pass 1b" in `nextQuestion`).
+- **Current affairs in Long rounds:** each Long question has a `CA_IN_LONG_SHARE` = 20% chance of coming from the Current Affairs pool, only if an unseen one is left (`pickUnseenFromTheme`); otherwise a normal Long question. This raises current-affairs use to about 7 per game (≈3 in Long + 4 in its round), so the 40 unseen last about 6 games.
+- Headless test (synthetic history): Long Tail 30 of 30 picks unseen; Bid with all 294 bid-eligible seen → 20 unseen ordinary picks; 100-question Long round → 20% current affairs, none seen; 0 errors.
+- **Top-ups in progress** (`new_batch_2026-11-04/`, briefs reused and updated): Lost in Translation 40 (2 writers + the 4 checked spares from 2026-10-22), Connect 30 (3 writers + 2 checked spares from 2026-10-27), easy 100 (5 writers, now with `distractors`).
+
 ## Multiplayer "next level" idea (not yet built)
 
 Everyone opens the page on their phone; only the active player can buzz / mark the answer; everyone sees the same question and live scores. Requires real-time state sync — static HTML alone can't do this. Cleanest path: **Firebase Realtime Database** (free tier; SDK runs in the browser; ~1-2 hours to wire). Adds: a room-code join flow, a per-device player identity, conditional UI (active player sees buttons, others see "waiting"). Decision deferred — revisit if the family-quiz format becomes a tradition.
