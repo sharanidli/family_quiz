@@ -393,6 +393,13 @@ Sharan: the regular four have run out of Current Affairs questions (only 31 exis
 - **Bank: 2,654 → 2,694; current-affairs questions 31 → 71** (about 10 more games for the regular four). Backups `*.bak_before_ca_2026-11-03`.
 - Headless test: Current Affairs round served only current-affairs questions; none in Long/Bid; the question set stays on Full database (the theme-only batch doesn't trigger "All new"); 0 errors.
 
+### Pool audit for the regular four (2026-11-03)
+
+Agent re-read the four players' seen history (Chrome Default profile, live site; read-only copy, deleted after; seen sets Ravi 578, Rita 575, Sharan 529, Apurva 684, union 829) and simulated default-lineup games (200 runs). Report: `new_batch_2026-11-03/pool_audit.md` (gitignored). **Reusable scripts: `new_batch_2026-11-03/pool_audit_scripts/`** (replaces the `hs/ldb_extract.py` scratchpad script referenced earlier, which was wiped).
+- **Runs out first (~7 games):** Lost in Translation (28 of 40 unseen), Connect (22 of 50), Hot Seat easy (67 of 130; falls back to medium, no repeats). **~10 games:** Current Affairs (40 of 71, once `2bdfee5` is live), Bid-eligible (99 of 264). Business ~17, Cinema ~18, Long pool and Hot Seat medium/hard ~40.
+- **Two app flaws found:** (1) Long Tail picks a random callback without checking seen history (about a 35% chance per game of a seen one); (2) Bid, once its unseen `bid_eligible` questions run out, repeats seen bid-eligible ones rather than using unseen ordinary questions.
+- At audit time `2bdfee5` (Current Affairs refill) was not yet pushed, so the live Current Affairs round would repeat; push pending Sharan's go-ahead.
+
 ## Multiplayer "next level" idea (not yet built)
 
 Everyone opens the page on their phone; only the active player can buzz / mark the answer; everyone sees the same question and live scores. Requires real-time state sync — static HTML alone can't do this. Cleanest path: **Firebase Realtime Database** (free tier; SDK runs in the browser; ~1-2 hours to wire). Adds: a room-code join flow, a per-device player identity, conditional UI (active player sees buttons, others see "waiting"). Decision deferred — revisit if the family-quiz format becomes a tradition.
@@ -408,6 +415,6 @@ Everyone opens the page on their phone; only the active player can buzz / mark t
 
 1. **Kashmir theme** (next, requested 2026-10-26): Sharan to decide whether the 1990 exodus is covered or left out; default is to leave it out and cover culture, food, places, language, festivals and famous Kashmiris.
 2. **Two minor give-away overlaps** left after the cleanup (listed in `new_batch_2026-10-27/cleanup/cleanup_E_checked.md`): a question asked earlier in a game can hint at another's answer; about a 1% chance per game.
-3. **Supply for the regular group**: easy Hot Seat questions (about 10 games from 2026-10-26) and Connect sets (about 10 games from 2026-10-27). Re-run the seen-history check (`hs/ldb_extract.py` method, see 2026-10-27) before topping up.
+3. **Supply for the regular group**: easy Hot Seat questions (about 10 games from 2026-10-26) and Connect sets (about 10 games from 2026-10-27). Re-run the seen-history check with `new_batch_2026-11-03/pool_audit_scripts/` before topping up.
 4. **Ideas discussed, not built:** closest-wins "What did it cost?" / "Which year?", Muhavare and Masala Dabba themes, Mythology and Golden Era music theme options, Antakshari, a family round, phone multiplayer (Firebase).
 5. `README.md` still describes v1; refresh it if anyone else will host or edit the game.
