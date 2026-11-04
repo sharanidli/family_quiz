@@ -1,14 +1,14 @@
 # Project Log: Not Such A Tough Quiz Also
 
-## Current state (2026-11-01)
+## Current state (2026-11-04)
 
-- **Live** at https://sharanidli.github.io/family_quiz/ (public repo `sharanidli/family_quiz`), commit `9f8a882`. Static HTML/JS; voice host (browser TTS); host judges answers.
-- **Bank: 2,859 questions** in `questions.json` (mirrored in `questions.js`), including 65 Connect sets (50 for normal games, 15 St. Louis) and 57 Long Tail callbacks. **All 2,492 eligible questions have KBC-style options** (`distractors`, plus `option_answer` display labels where needed).
+- **Live** at https://sharanidli.github.io/family_quiz/ (public repo `sharanidli/family_quiz`), commit `8c0aee7`. Static HTML/JS; voice host (browser TTS); host judges answers.
+- **Bank: 2,899 questions** in `questions.json` (mirrored in `questions.js`), including 95 Connect sets (80 for normal games, 15 St. Louis) and 57 Long Tail callbacks. **All 2,707 eligible questions have KBC-style options** (`distractors`, plus `option_answer` display labels where needed).
 - **Round types:** Long, Theme, Bid, Connect, Hot Seat (4 in a row, wagers locked up front, 30/20/10/10 s clock, hard→easy). **Per-round tick boxes:** Pounce & Bounce (Long/Theme/Bid), Jodi random teams (Long/Theme), Options lifeline (Long/Theme/Bid/Hot Seat, on by default; 5 points or 50% of a wager; an MCQ caught on a bounce doesn't take the catcher's turn; Pounce still allowed with options showing, at +5 / −10); Double-points questions (Long/Theme, 10% chance each, 20 points, one shot, no pounce; on by default).
-- **Theme options** include three theme-only sets (never drawn by other rounds): Lost in Translation (40 Hindi songs), Passbooks and Floppy Disks (100, Indian working life 1983–2010) and **Picture This** (40 picture questions; images in `images/pt/`, credits in `images/pt/CREDITS.md`). **Current Affairs** is theme-only too since 2026-11-03 (71 questions).
+- **Theme options** include three theme-only sets (never drawn by other rounds): Lost in Translation (40 Hindi songs), Passbooks and Floppy Disks (100, Indian working life 1983–2010) and **Picture This** (40 picture questions; images in `images/pt/`, credits in `images/pt/CREDITS.md`). **Current Affairs** is theme-only too since 2026-11-03 (111 questions), but Long rounds also draw about 1 in 5 of their questions from it, unseen ones only (2026-11-04).
 - **Modes:** St. Louis Mode (its 156-question batch, served only in that mode) and Iranian Mode.
 - **Default lineup (10 rounds):** Long, Cinema, Bid, Business, Lost in Translation, Long, Connect, Current Affairs, Bid, Hot Seat.
-- **Per-player seen history** lives in the playing browser's localStorage (`quiz_player_seen_<name>`); the regular group's history is in this laptop's Chrome on the live site. Supply for the regular four: about 104 unseen easy questions as of 2026-10-26 (about 10 games of Hot Seat) and 30 unseen Connect sets as of 2026-10-27 (about 10 games at 3 per game).
+- **Per-player seen history** lives in the playing browser's localStorage (`quiz_player_seen_<name>`); the regular group's history is in this laptop's Chrome on the live site. Supply for the regular four after the 2026-11-04 top-ups: easy ~162 (~16 games of Hot Seat), Connect ~52 (~17 games), Lost in Translation ~68 (~17 games), Current Affairs 80 (~11 games at ~7 per game).
 - **How new content is made** (see the dated sections): parallel writer agents with a brief, then independent fact-checker agents, then a merge script with mechanical checks (schema, banned answers, in-batch duplicates, cross-question spoiler scan), all in a gitignored `new_batch_<date>/` folder. **New questions must include `distractors`.** Questions are never shown to Sharan when he is playing.
 - **Next:** a Kashmir theme (decision pending on whether to cover the 1990 exodus; default is to leave it out). See "Open items" at the end.
 
@@ -412,6 +412,16 @@ Sharan: push the Current Affairs refill (done, `6739f29`), make both fixes, top 
 - **Supply for the regular four (audit numbers + new items):** Lost in Translation ~68 unseen (~17 games), Connect ~52 (~17 games), easy ~162 (~16 games under Full database), Current Affairs 40 (~6 games now that Long rounds take ~3 per game).
 - **Caveat:** the easy batch is dated 2026-11-04, so for two days the setup screen defaults to "All new", which makes Long/Bid draw the new easy questions (~20 per game in the headless test) as well as Hot Seat; choose Full database to save them for Hot Seat.
 - Headless default-lineup game: new songs in Lost in Translation, new Connect sets in Connect, new easy in Hot Seat Q3–Q4, current affairs in Long and its own round; end screen reached; 0 errors.
+
+### Current Affairs batch 2 (2026-11-04)
+
+- Top-ups pushed and live (`8c0aee7`, confirmed on the site 06:51).
+- Sharan kept Current Affairs at 20% of Long-round questions (two Long rounds × 8 questions with four players = 16, so ~3 per game, plus 4 in the Current Affairs round) and asked for 40 more.
+- `new_batch_2026-11-04/current_affairs/`: briefs `CA_BRIEF.md` / `CA_CHECK.md` (copied from 2026-11-03, now told to avoid all 71 existing current-affairs questions and to save every 3–4 questions), same three lanes as batch 1 under new names: `cad` India, `cae` sport/films/culture, `caf` world/tech/business; 16 drafts each. Merge with `merge_ca2.py` (quota 14/13/13, IDs `q1104a001`–`040`, also scans spoilers both ways against the existing 71).
+- Bank fix: `q0710067` said its astronaut was the "second Indian in space", which is disputed (an Indian citizen flew a suborbital tourist flight in May 2024); reworded to "first Indian aboard the ISS" and "first Indian government astronaut since 1984". Flagged by the `caf` writer.
+- Writers 3 × 16. Checkers: `cad` 16 kept (1 patched), `cae` 15 kept (6 patched, 1 dropped as a retold story), `caf` 16 kept (4 patched). Coordinator: dropped `TEMP_cad_07` (fourth UNESCO-listing question in one lane); fixed two explanation spoilers (`cad_03`, `cad_16`); whitelisted five incidental mentions in `merge_ca2.py` (`SPOILER_OK`, each with its reason); a scan against today's top-ups found one real hint (`cad_15` named the answer of easy `q1104e072`), removed.
+- **Merged 40 as `q1104a001`–`040`** (14/13/13; difficulty 17/19/4). Bank **2,899**; **111 current-affairs** questions (80 unseen by the regular four, ~11 games at ~7 per game). Six checked spares stay on file. Backups `*.bak_before_ca2_2026-11-04`.
+- Headless default game: the new questions are served in the Current Affairs round; Long rounds draw current affairs; end screen reached; 0 errors.
 
 ## Multiplayer "next level" idea (not yet built)
 

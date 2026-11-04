@@ -43284,14 +43284,14 @@
   {
    "id": "q0710067",
    "topic": "general",
-   "question": "In June 2025, forty-one years after Rakesh Sharma, an Indian went to space again, this time to the International Space Station, on the Axiom-4 mission. This IAF Group Captain thus became the second Indian in space and the first aboard the ISS. Name him.",
+   "question": "In June 2025, forty-one years after Rakesh Sharma's flight, an Indian Air Force Group Captain flew to the International Space Station on the Axiom-4 mission, becoming the first Indian ever aboard the ISS. Name him.",
    "answer": "Shubhanshu Shukla",
    "accept": [
     "shubhanshu shukla",
     "shukla",
     "shux"
    ],
-   "explanation": "Group Captain Shubhanshu Shukla flew on Axiom Mission 4 in 2025, becoming the second Indian in space after Rakesh Sharma and the first Indian on the ISS.",
+   "explanation": "Group Captain Shubhanshu Shukla flew on Axiom Mission 4 in June 2025, becoming the first Indian on the ISS and the first Indian government astronaut in space since Rakesh Sharma in 1984.",
    "difficulty": 2,
    "themes": [
     "personalities",
@@ -59050,6 +59050,934 @@
     "Shukrayaan"
    ],
    "themes": []
+  },
+  {
+   "id": "q1104a001",
+   "topic": "business",
+   "question": "In May 2023 the Reserve Bank announced it was withdrawing a magenta banknote from circulation, though it would stay legal tender. The note had been introduced in November 2016, just after demonetisation. What was its value?",
+   "answer": "2,000 rupees",
+   "accept": [
+    "2000",
+    "2,000",
+    "2000 rupees",
+    "two thousand",
+    "two thousand rupees",
+    "rs 2000",
+    "2000 rupee note",
+    "two thousand rupee note",
+    "2,000 rupees"
+   ],
+   "explanation": "The RBI announced the withdrawal of the 2,000 rupee note on 19 May 2023 under its clean note policy; the note, introduced in November 2016, remains legal tender.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "1,000 rupees",
+    "500 rupees",
+    "200 rupees"
+   ]
+  },
+  {
+   "id": "q1104a002",
+   "topic": "general",
+   "question": "In December 2025, when India hosted UNESCO's committee on intangible cultural heritage for the first time, at Delhi's Red Fort, which Indian festival was added to the list of humanity's intangible heritage?",
+   "answer": "Diwali",
+   "accept": [
+    "diwali",
+    "deepavali",
+    "deepawali",
+    "divali",
+    "dipavali",
+    "dipawali"
+   ],
+   "explanation": "Deepavali was inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity on 10 December 2025, at the committee's session held at the Red Fort.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Holi",
+    "Onam",
+    "Pongal"
+   ]
+  },
+  {
+   "id": "q1104a003",
+   "topic": "general",
+   "question": "From 2017 to 2023, this Madhya Pradesh city was named India's cleanest city in the government's annual Swachh Survekshan survey seven times in a row. Name the city.",
+   "answer": "Indore",
+   "accept": [
+    "indore"
+   ],
+   "explanation": "Indore topped every Swachh Survekshan from 2017 to 2023; its seventh straight title, shared with another city, was announced in January 2024.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "bid_eligible": true,
+   "distractors": [
+    "Bhopal",
+    "Ujjain",
+    "Jabalpur"
+   ]
+  },
+  {
+   "id": "q1104a004",
+   "topic": "business",
+   "question": "In February 2025, after Reliance and Disney merged their Indian television and streaming businesses, their two rival streaming apps were rolled into a single app. What is the merged app called?",
+   "answer": "JioHotstar",
+   "accept": [
+    "jiohotstar",
+    "jio hotstar",
+    "jio-hotstar"
+   ],
+   "explanation": "JioHotstar, combining JioCinema and Disney+ Hotstar, launched on 14 February 2025 under JioStar, the Reliance and Disney joint venture.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "JioCinema Plus",
+    "Disney Star Plus",
+    "StarJio Max"
+   ]
+  },
+  {
+   "id": "q1104a005",
+   "topic": "geography",
+   "question": "In December 2023 the Prime Minister opened a vast trading hub in Gujarat for the gem that this city cuts and polishes for most of the world. Spread over thirty-five acres, it overtook the Pentagon as the world's largest office building. In which city?",
+   "answer": "Surat",
+   "accept": [
+    "surat"
+   ],
+   "explanation": "The Surat Diamond Bourse, inaugurated on 17 December 2023, displaced the Pentagon, which had held the title for about 80 years, as the world's largest office building.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "bid_eligible": true,
+   "distractors": [
+    "Ahmedabad",
+    "Vadodara",
+    "Rajkot"
+   ]
+  },
+  {
+   "id": "q1104a006",
+   "topic": "general",
+   "question": "In September 2023 UNESCO added to its World Heritage list the West Bengal town where Rabindranath Tagore set up his open-air school, which grew into Visva-Bharati University. Name the town.",
+   "answer": "Santiniketan",
+   "accept": [
+    "santiniketan",
+    "shantiniketan",
+    "shanti niketan",
+    "santiniketan bolpur"
+   ],
+   "explanation": "Santiniketan, in Birbhum district, was inscribed on 17 September 2023 at the World Heritage Committee's session in Riyadh, becoming India's 41st World Heritage Site.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Bishnupur",
+    "Murshidabad",
+    "Krishnanagar"
+   ]
+  },
+  {
+   "id": "q1104a007",
+   "topic": "business",
+   "question": "In December 2024 a 1990-batch IAS officer of the Rajasthan cadre, trained at IIT Kanpur and Princeton, moved straight from the post of Revenue Secretary to become the 26th Governor of the Reserve Bank of India, succeeding Shaktikanta Das. Name him.",
+   "answer": "Sanjay Malhotra",
+   "accept": [
+    "sanjay malhotra",
+    "malhotra"
+   ],
+   "explanation": "Sanjay Malhotra took charge as the RBI's 26th Governor on 11 December 2024 for a three-year term.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Ajay Seth",
+    "Tuhin Kanta Pandey",
+    "T Rabi Sankar"
+   ]
+  },
+  {
+   "id": "q1104a008",
+   "topic": "general",
+   "question": "Seventy years after the cheetah was declared extinct in India, eight cheetahs flown in from Namibia were released into enclosures in a Madhya Pradesh national park in September 2022. Name the park.",
+   "answer": "Kuno National Park",
+   "accept": [
+    "kuno",
+    "kuno national park",
+    "kuno palpur",
+    "kuno-palpur",
+    "kuno palpur national park"
+   ],
+   "explanation": "The eight Namibian cheetahs were released at Kuno National Park in Sheopur district on 17 September 2022, starting Project Cheetah; India had declared the animal extinct in 1952.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "bid_eligible": true,
+   "distractors": [
+    "Kanha National Park",
+    "Bandhavgarh National Park",
+    "Panna National Park"
+   ]
+  },
+  {
+   "id": "q1104a009",
+   "topic": "general",
+   "question": "In February 2022 a 216-foot seated statue called the Statue of Equality was unveiled on the outskirts of Hyderabad. It honours an eleventh-century Vaishnava saint-philosopher from Sriperumbudur who taught that all are equal before God, whatever their caste. Name him.",
+   "answer": "Ramanujacharya",
+   "accept": [
+    "ramanujacharya",
+    "ramanuja",
+    "sri ramanuja",
+    "sri ramanujacharya",
+    "bhagavad ramanuja",
+    "ramanujar"
+   ],
+   "explanation": "The Statue of Equality at Muchintal near Hyderabad, unveiled on 5 February 2022, is among the tallest seated statues in the world.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Madhvacharya",
+    "Adi Shankaracharya",
+    "Vallabhacharya"
+   ]
+  },
+  {
+   "id": "q1104a010",
+   "topic": "business",
+   "question": "The headline announcement of Nirmala Sitharaman's Union Budget in February 2025 was that, under the new tax regime, there would be no income tax at all on annual income up to a certain amount. What was that amount?",
+   "answer": "12 lakh rupees",
+   "accept": [
+    "12 lakh",
+    "twelve lakh",
+    "12 lakh rupees",
+    "twelve lakh rupees",
+    "rs 12 lakh",
+    "12 lakhs",
+    "12.75 lakh",
+    "twelve lakh seventy five thousand"
+   ],
+   "explanation": "Budget 2025, presented on 1 February 2025, made income up to 12 lakh rupees tax-free under the new regime through a larger rebate; with the standard deduction, salaried taxpayers pay nothing up to 12.75 lakh.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "7 lakh rupees",
+    "10 lakh rupees",
+    "15 lakh rupees"
+   ]
+  },
+  {
+   "id": "q1104a011",
+   "topic": "general",
+   "question": "In August 2023 India's first 3D-printed post office opened, its concrete walls laid layer by layer by a robotic printer in about six weeks, with technical help from IIT Madras. In which city?",
+   "answer": "Bengaluru",
+   "accept": [
+    "bengaluru",
+    "bangalore",
+    "bengalooru"
+   ],
+   "explanation": "The 3D-printed post office in Cambridge Layout, Bengaluru, built by Larsen and Toubro, was inaugurated on 18 August 2023.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Chennai",
+    "Hyderabad",
+    "Pune"
+   ]
+  },
+  {
+   "id": "q1104a012",
+   "topic": "general",
+   "question": "In January 2025 two small ISRO satellites nicknamed Chaser and Target, launched together on a PSLV, made India only the fourth country, after the United States, Russia and China, to pull off a particular feat in orbit. What did the two satellites do?",
+   "answer": "They docked with each other",
+   "accept": [
+    "docking",
+    "docked",
+    "dock",
+    "space docking",
+    "they docked",
+    "docked with each other",
+    "joined together in orbit",
+    "linked up",
+    "they docked with each other"
+   ],
+   "explanation": "Under ISRO's SpaDeX, or Space Docking Experiment, the two satellites docked on 16 January 2025, making India the fourth nation to achieve space docking.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "option_answer": "Docked with each other",
+   "distractors": [
+    "Refuelled each other",
+    "Captured space debris",
+    "Beamed solar power to Earth"
+   ]
+  },
+  {
+   "id": "q1104a013",
+   "topic": "business",
+   "question": "In November 2022 a rocket called Vikram-S, named after the father of India's space programme, lifted off from Sriharikota to become the first rocket built by a private Indian company. Name this Hyderabad startup.",
+   "answer": "Skyroot Aerospace",
+   "accept": [
+    "skyroot",
+    "skyroot aerospace"
+   ],
+   "explanation": "Skyroot Aerospace's Vikram-S flew on 18 November 2022 in a suborbital mission called Prarambh, meaning the beginning.",
+   "difficulty": 3,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Agnikul Cosmos",
+    "Dhruva Space",
+    "Pixxel"
+   ]
+  },
+  {
+   "id": "q1104a014",
+   "topic": "general",
+   "question": "In July 2024 the moidams of Charaideo, earthen burial mounds of a royal dynasty that ruled the Brahmaputra valley for about six hundred years, became the first cultural World Heritage Site in the Northeast. Name the dynasty.",
+   "answer": "Ahom",
+   "accept": [
+    "ahom",
+    "ahoms",
+    "ahom dynasty",
+    "ahom kingdom",
+    "tai ahom",
+    "tai-ahom"
+   ],
+   "explanation": "The Moidams of Charaideo, the Ahom kings' first capital, were inscribed on 26 July 2024 at the World Heritage Committee's session in New Delhi as India's 43rd World Heritage Site.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Koch",
+    "Kachari",
+    "Varman"
+   ]
+  },
+  {
+   "id": "q1104a015",
+   "topic": "general",
+   "question": "On 26 July 2024, for the first time ever, a Summer Olympics opening ceremony was held outside a stadium, as the athletes sailed in boats along a six-kilometre stretch of water through the middle of Paris. Which river carried them?",
+   "answer": "Seine",
+   "accept": [
+    "seine",
+    "river seine",
+    "the seine"
+   ],
+   "explanation": "The Paris 2024 opening ceremony on 26 July 2024 sent the athletes about 6 km down the Seine by boat, the first Summer Games opening held outside a stadium.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Loire",
+    "Rhone",
+    "Garonne"
+   ]
+  },
+  {
+   "id": "q1104a016",
+   "topic": "general",
+   "question": "On 23 September 2022, at the Laver Cup in London, Roger Federer played the last match of his career, a doubles match that ended in defeat and tears. Which great rival partnered him that night and sat weeping beside him?",
+   "answer": "Rafael Nadal",
+   "accept": [
+    "rafael nadal",
+    "nadal",
+    "rafa nadal",
+    "rafa"
+   ],
+   "explanation": "Federer and Rafael Nadal lost to Frances Tiafoe and Jack Sock at London's O2 Arena on 23 September 2022, the final match of Federer's career.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Novak Djokovic",
+    "Andy Murray",
+    "Stan Wawrinka"
+   ]
+  },
+  {
+   "id": "q1104a017",
+   "topic": "cricket",
+   "question": "At the IPL mega auction in Jeddah in November 2024, Punjab Kings paid a record sum for Shreyas Iyer, only for Lucknow Super Giants to smash that record minutes later by buying this wicketkeeper-batter for 27 crore rupees. Name him.",
+   "answer": "Rishabh Pant",
+   "accept": [
+    "rishabh pant",
+    "pant",
+    "rishab pant"
+   ],
+   "explanation": "On 24 November 2024 in Jeddah, Lucknow Super Giants bought Rishabh Pant for 27 crore rupees, a new IPL auction record, minutes after Shreyas Iyer went to Punjab Kings for 26.75 crore.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "KL Rahul",
+    "Ishan Kishan",
+    "Dhruv Jurel"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1104a018",
+   "topic": "cricket",
+   "question": "In March 2026 at Ahmedabad, India became the first team to defend the men's T20 World Cup and the first to win it at home. Their wicketkeeper-opener from Kerala hammered 89 off 46 balls in the final, the highest individual score ever made in a T20 World Cup final, and was named Player of the Tournament. Name him.",
+   "answer": "Sanju Samson",
+   "accept": [
+    "sanju samson",
+    "samson",
+    "sanju",
+    "sanju viswanath samson"
+   ],
+   "explanation": "Sanju Samson made 89 as India beat New Zealand by 96 runs in the final at Ahmedabad on 8 March 2026, and his 321 runs earned him the Player of the Tournament award.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Ishan Kishan",
+    "Abhishek Sharma",
+    "Shubman Gill"
+   ]
+  },
+  {
+   "id": "q1104a019",
+   "topic": "world",
+   "question": "The 2026 FIFA World Cup, the first with 48 teams, was hosted jointly by the United States, Canada and Mexico. In the final in New Jersey on 19 July, a substitute's goal in extra time beat the defending champions Argentina one-nil. Which country lifted the trophy?",
+   "answer": "Spain",
+   "accept": [
+    "spain",
+    "espana"
+   ],
+   "explanation": "Ferran Torres scored in the 106th minute as Spain beat Argentina 1-0 after extra time at MetLife Stadium on 19 July 2026, Spain's second World Cup after 2010.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "France",
+    "England",
+    "Portugal"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1104a020",
+   "topic": "music",
+   "question": "In February 2023 this Indian composer, known for albums on environmental themes, won his third Grammy, for the immersive-audio edition of his album Divine Tides, made with Stewart Copeland, the drummer of the British rock band The Police. Name him.",
+   "answer": "Ricky Kej",
+   "accept": [
+    "ricky kej",
+    "kej",
+    "ricky"
+   ],
+   "explanation": "Ricky Kej and Stewart Copeland won Best Immersive Audio Album for Divine Tides at the Grammys on 5 February 2023, Kej's third Grammy after wins in 2015 and 2022.",
+   "difficulty": 3,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Shankar Mahadevan",
+    "Rakesh Chaurasia",
+    "Raghu Dixit"
+   ]
+  },
+  {
+   "id": "q1104a021",
+   "topic": "general",
+   "question": "In September 2024 Indian chess pulled off a historic double, as both the open team, with Gukesh and Arjun Erigaisi, and the women's team, with Harika Dronavalli and Vaishali, won gold at the Chess Olympiad. In which European capital, created in 1873 when the towns on the two banks of its river were united, was it held?",
+   "answer": "Budapest",
+   "accept": [
+    "budapest"
+   ],
+   "explanation": "India won both the open and the women's gold at the 45th Chess Olympiad in Budapest, Hungary, which ended on 22 September 2024.",
+   "difficulty": 3,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Vienna",
+    "Belgrade",
+    "Bratislava"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1104a022",
+   "topic": "general",
+   "question": "At the Paris Olympics in August 2024, a wrestler from Haryana who trained at Delhi's Chhatrasal Stadium won bronze in the 57 kilogram freestyle, and at 21 years and 24 days became India's youngest individual Olympic medallist. Name him.",
+   "answer": "Aman Sehrawat",
+   "accept": [
+    "aman sehrawat",
+    "aman",
+    "sehrawat",
+    "aman sherawat"
+   ],
+   "explanation": "Aman Sehrawat beat Puerto Rico's Darian Cruz 13-5 for bronze in the 57 kg freestyle on 9 August 2024, becoming India's youngest individual Olympic medallist.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Ravi Kumar Dahiya",
+    "Deepak Punia",
+    "Bajrang Punia"
+   ]
+  },
+  {
+   "id": "q1104a023",
+   "topic": "general",
+   "question": "In December 2021 a 21-year-old Punjabi woman from Chandigarh became only the third Indian woman to be crowned Miss Universe, twenty-one years after Lara Dutta. Name her.",
+   "answer": "Harnaaz Sandhu",
+   "accept": [
+    "harnaaz sandhu",
+    "harnaaz kaur sandhu",
+    "harnaaz",
+    "sandhu"
+   ],
+   "explanation": "Harnaaz Sandhu was crowned the 70th Miss Universe at Eilat in Israel in December 2021, ending a 21-year wait since Lara Dutta's win in 2000.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs",
+    "personalities"
+   ],
+   "distractors": [
+    "Manushi Chhillar",
+    "Adline Castelino",
+    "Sini Shetty"
+   ]
+  },
+  {
+   "id": "q1104a024",
+   "topic": "cinema",
+   "question": "In Nag Ashwin's 2024 science-fiction epic Kalki 2898 AD, Amitabh Bachchan plays a towering immortal from the Mahabharata, cursed by Krishna to roam the earth for thousands of years with a wound on his forehead. Name the character.",
+   "answer": "Ashwatthama",
+   "accept": [
+    "ashwatthama",
+    "ashwathama",
+    "aswathama",
+    "ashvatthama",
+    "ashwatthaama",
+    "aswatthama",
+    "ashwatama"
+   ],
+   "explanation": "Kalki 2898 AD, released on 27 June 2024, cast Amitabh Bachchan as Ashwatthama, the son of Dronacharya cursed with immortality, alongside Prabhas and Deepika Padukone.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Bhishma",
+    "Dronacharya",
+    "Parashurama"
+   ]
+  },
+  {
+   "id": "q1104a025",
+   "topic": "cinema",
+   "question": "In May 2024 Sanjay Leela Bhansali made his streaming debut with this lavish Netflix series about the courtesans of a famous quarter of old Lahore during the freedom struggle, starring Manisha Koirala, Sonakshi Sinha and Aditi Rao Hydari, whose slow gajagamini walk went viral. Name the series.",
+   "answer": "Heeramandi",
+   "accept": [
+    "heeramandi",
+    "heeramandi the diamond bazaar",
+    "hiramandi",
+    "heera mandi",
+    "hira mandi"
+   ],
+   "explanation": "Heeramandi: The Diamond Bazaar, Bhansali's first web series, premiered on Netflix on 1 May 2024.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Jubilee",
+    "Mirzapur",
+    "Paatal Lok"
+   ]
+  },
+  {
+   "id": "q1104a026",
+   "topic": "cinema",
+   "question": "In July 2025 two debutants, Ahaan Panday and Aneet Padda, starred in this Mohit Suri romance for Yash Raj Films about a hot-headed musician and a young writer who develops early-onset Alzheimer's. It became a runaway hit, and videos of young fans sobbing in cinema halls went viral. Name the film.",
+   "answer": "Saiyaara",
+   "accept": [
+    "saiyaara",
+    "saiyara",
+    "saiyaaraa",
+    "saiyyara"
+   ],
+   "explanation": "Saiyaara, released on 18 July 2025, grossed more than 560 crore rupees worldwide and became one of the year's biggest Hindi hits.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Dhadak 2",
+    "Metro In Dino",
+    "Tere Ishk Mein"
+   ]
+  },
+  {
+   "id": "q1104a027",
+   "topic": "cricket",
+   "question": "In June 2025 India and England began playing their Test series for a new trophy, named after England's highest Test wicket-taker and India's highest Test run-scorer, both of whom unveiled it. What is the trophy called?",
+   "answer": "Anderson-Tendulkar Trophy",
+   "accept": [
+    "anderson-tendulkar trophy",
+    "anderson tendulkar trophy",
+    "anderson-tendulkar",
+    "anderson tendulkar",
+    "tendulkar-anderson trophy",
+    "tendulkar anderson trophy"
+   ],
+   "explanation": "James Anderson and Sachin Tendulkar unveiled the Anderson-Tendulkar Trophy in June 2025; it replaced the Pataudi and Anthony de Mello trophies, and the first series ended 2-2.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Botham-Kapil Trophy",
+    "Cook-Gavaskar Trophy",
+    "Broad-Kumble Trophy"
+   ]
+  },
+  {
+   "id": "q1104a028",
+   "topic": "business",
+   "question": "In October 2021, as Mark Zuckerberg announced a big bet on virtual worlds, Facebook's parent company took a new corporate name, though the Facebook app itself kept its old one. What is the company now called?",
+   "answer": "Meta",
+   "accept": [
+    "meta",
+    "meta platforms"
+   ],
+   "explanation": "Facebook, Inc. renamed itself Meta Platforms on 28 October 2021, at its annual Connect conference, to signal its push into the metaverse.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Alphabet",
+    "Horizon",
+    "Oculus"
+   ]
+  },
+  {
+   "id": "q1104a029",
+   "topic": "general",
+   "question": "In September 2023, under a European Union rule requiring one common charger for phones, Apple dropped its own Lightning socket from the iPhone. Which type of charging port did the new iPhone 15 adopt instead?",
+   "answer": "USB-C",
+   "accept": [
+    "usb c",
+    "usb-c",
+    "usb type c",
+    "usb type-c",
+    "type c",
+    "type-c"
+   ],
+   "explanation": "The iPhone 15 range, unveiled on 12 September 2023, switched from Lightning to USB-C ahead of the EU's common-charger deadline at the end of 2024.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Micro-USB",
+    "Mini-USB",
+    "MagSafe"
+   ]
+  },
+  {
+   "id": "q1104a030",
+   "topic": "world",
+   "question": "In June 2022 Britain enjoyed a four-day holiday weekend of parades, street parties and a concert outside Buckingham Palace, marking Queen Elizabeth the Second's seventy years on the throne, a milestone no British monarch had reached before. What name was given to this celebration?",
+   "answer": "Platinum Jubilee",
+   "accept": [
+    "platinum jubilee",
+    "platinum",
+    "the platinum jubilee"
+   ],
+   "explanation": "The Platinum Jubilee weekend ran from 2 to 5 June 2022, marking 70 years since the Queen's accession on 6 February 1952.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Diamond Jubilee",
+    "Sapphire Jubilee",
+    "Golden Jubilee"
+   ]
+  },
+  {
+   "id": "q1104a031",
+   "topic": "business",
+   "question": "At the Paris Air Show in June 2023, an Indian airline signed up for 500 Airbus jets, the largest single aircraft order in the history of commercial aviation. Name the airline.",
+   "answer": "IndiGo",
+   "accept": [
+    "indigo",
+    "indigo airlines",
+    "interglobe aviation"
+   ],
+   "explanation": "IndiGo's firm order for 500 A320-family jets, announced on 19 June 2023 for delivery between 2030 and 2035, topped Air India's 470-plane order from earlier that year.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Air India",
+    "Akasa Air",
+    "SpiceJet"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1104a032",
+   "topic": "business",
+   "question": "In 2023 Reliance brought back a fizzy drink that many Indians grew up on: a cola launched in the late 1970s, after Coca-Cola left India, which Reliance had bought from the Pure Drinks group. Name the brand.",
+   "answer": "Campa Cola",
+   "accept": [
+    "campa",
+    "campa cola"
+   ],
+   "explanation": "Reliance Consumer Products bought Campa from the Pure Drinks group in 2022 for about 22 crore rupees and announced its relaunch on 9 March 2023.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Thums Up",
+    "Double Seven",
+    "Gold Spot"
+   ],
+   "option_answer": "Campa"
+  },
+  {
+   "id": "q1104a033",
+   "topic": "business",
+   "question": "In December 2021 Sony TV launched the Indian version of an American reality show in which entrepreneurs pitch for money to a panel of investors, among them boAt co-founder Aman Gupta, matrimonial-site founder Anupam Mittal and Sugar Cosmetics chief Vineeta Singh. Name the show.",
+   "answer": "Shark Tank India",
+   "accept": [
+    "shark tank",
+    "shark tank india"
+   ],
+   "explanation": "Shark Tank India premiered on Sony Entertainment Television and Sony LIV on 20 December 2021, with seven investors, or sharks, in its first season.",
+   "difficulty": 1,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Dragons' Den",
+    "The Apprentice",
+    "MasterChef"
+   ],
+   "option_answer": "Shark Tank"
+  },
+  {
+   "id": "q1104a034",
+   "topic": "general",
+   "question": "A software engineer in New York built this daily puzzle as a gift for his partner, Palak Shah: six tries to guess a hidden five-letter answer, with tiles turning green or yellow as clues. It became a worldwide craze, and in January 2022 the New York Times bought it. Name the game.",
+   "answer": "Wordle",
+   "accept": [
+    "wordle"
+   ],
+   "explanation": "Josh Wardle released Wordle to the public in October 2021, and the New York Times announced on 31 January 2022 that it had bought the game for a price in the low seven figures.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Quordle",
+    "Spelling Bee",
+    "Connections"
+   ]
+  },
+  {
+   "id": "q1104a035",
+   "topic": "world",
+   "question": "For six days in March 2021, world trade held its breath as a giant container ship lay wedged diagonally across the Suez Canal, until dredgers and tugboats finally pulled it free. Name the ship.",
+   "answer": "Ever Given",
+   "accept": [
+    "ever given",
+    "evergiven"
+   ],
+   "explanation": "The 400-metre Ever Given ran aground on 23 March 2021 and was refloated on 29 March, after blocking the canal for about six days.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Ever Ace",
+    "Ever Forward",
+    "MSC Oscar"
+   ]
+  },
+  {
+   "id": "q1104a036",
+   "topic": "world",
+   "question": "In January 2024, five months after India's own landing near the Moon's south pole, a small lander nicknamed the Moon Sniper touched down, making its country only the fifth ever to achieve a soft landing on the Moon. Which country?",
+   "answer": "Japan",
+   "accept": [
+    "japan"
+   ],
+   "explanation": "The space agency JAXA's SLIM lander touched down on 20 January 2024, Japan time, making Japan the fifth country to soft-land on the Moon, after India had become the fourth in August 2023.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Israel",
+    "South Korea",
+    "United Arab Emirates"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1104a037",
+   "topic": "business",
+   "question": "In January 2025 a little-known Chinese start-up released an AI chatbot that it said had been built for a fraction of what its American rivals spent. Its app shot to the top of Apple's App Store in the United States, and in a single day almost 600 billion dollars was wiped off the value of America's leading AI chipmaker. Name the start-up.",
+   "answer": "DeepSeek",
+   "accept": [
+    "deepseek",
+    "deep seek"
+   ],
+   "explanation": "DeepSeek, founded in 2023, released its R1 model on 20 January 2025, and on 27 January the chipmaker lost about 593 billion dollars in value, a record one-day loss for any company on Wall Street.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Alibaba",
+    "Zhipu AI",
+    "Baichuan"
+   ]
+  },
+  {
+   "id": "q1104a038",
+   "topic": "world",
+   "question": "At the COP26 climate summit in Glasgow in November 2021, India's Prime Minister set out a five-point plan he called the Panchamrit, and for the first time named a year by which India would reach net-zero carbon emissions. Which year?",
+   "answer": "2070",
+   "accept": [
+    "2070",
+    "twenty seventy",
+    "two thousand seventy",
+    "two thousand and seventy"
+   ],
+   "explanation": "On 1 November 2021 at COP26, India pledged to reach net zero by 2070, alongside 2030 goals such as 500 gigawatts of non-fossil power capacity.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "2047",
+    "2050",
+    "2060"
+   ],
+   "bid_eligible": true
+  },
+  {
+   "id": "q1104a039",
+   "topic": "world",
+   "question": "In April 2026 the four astronauts of NASA's Artemis II looped around the Moon and travelled further from Earth than any humans before them. The record they broke had stood since 1970, set by a crew whose planned Moon landing was called off after an oxygen tank exploded on the way out. Name that mission.",
+   "answer": "Apollo 13",
+   "accept": [
+    "apollo 13",
+    "apollo thirteen",
+    "apollo xiii"
+   ],
+   "explanation": "On 6 April 2026 Artemis II passed the record of about 400,171 kilometres from Earth set by Apollo 13 in April 1970, reaching about 406,771 kilometres on a mission that flew from 1 to 10 April.",
+   "difficulty": 2,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Apollo 8",
+    "Apollo 11",
+    "Apollo 17"
+   ]
+  },
+  {
+   "id": "q1104a040",
+   "topic": "business",
+   "question": "In July 2025 Bharti Airtel offered all its 360 million customers a free year of the paid version of this AI-powered answer engine, whose co-founder and chief executive, Aravind Srinivas, is an IIT Madras graduate from Chennai. Name it.",
+   "answer": "Perplexity",
+   "accept": [
+    "perplexity",
+    "perplexity ai",
+    "perplexity pro"
+   ],
+   "explanation": "Airtel announced on 17 July 2025 that its customers could claim 12 months of Perplexity Pro, worth about 17,000 rupees, at no cost; Perplexity was founded in 2022.",
+   "difficulty": 3,
+   "created": "2026-11-04",
+   "themes": [
+    "current_affairs"
+   ],
+   "distractors": [
+    "Gemini",
+    "Copilot",
+    "Claude"
+   ]
   }
  ]
 }
