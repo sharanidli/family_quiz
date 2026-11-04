@@ -55452,6 +55452,3604 @@ window.QUESTIONS_DATA = {
         "Raj Subramaniam",
         "Sanjay Mehrotra"
       ]
+    },
+    {
+      "id": "q1104l001",
+      "topic": "music",
+      "question": "Translated word for word: \"Stuck on the scarf, a stain; how do I hide it, how do I go home\". Name the song.",
+      "answer": "Laga Chunari Mein Daag",
+      "accept": [
+        "laga chunari mein daag",
+        "laaga chunari mein daag",
+        "lagi chunari mein daag",
+        "laga chunari me daag"
+      ],
+      "explanation": "Sung by Manna Dey, music by Roshan, lyrics by Sahir Ludhianvi, from Dil Hi To Hai, 1963.",
+      "difficulty": 3,
+      "created": "2026-10-22",
+      "distractors": [
+        "Poochho Na Kaise Maine Rain Bitayi",
+        "Jhanak Jhanak Tori Baaje Payaliya",
+        "Sur Na Saje"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l002",
+      "topic": "music",
+      "question": "Translated word for word: \"For whom they burn, the lamps of your eyes, I have searched and brought that very song for you\". Name the song.",
+      "answer": "Jalte Hain Jiske Liye",
+      "accept": [
+        "jalte hain jiske liye",
+        "jalte hai jiske liye",
+        "jalte hain jis ke liye",
+        "jalte hain jiske liye teri aankhon ke diye"
+      ],
+      "explanation": "Sung by Talat Mahmood, music by S.D. Burman, lyrics by Majrooh Sultanpuri, from Sujata, 1959.",
+      "difficulty": 3,
+      "created": "2026-10-22",
+      "distractors": [
+        "Jaayen To Jaayen Kahan",
+        "Phir Wohi Shaam Wohi Gham",
+        "Itna Na Mujhse Tu Pyar Badha"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l003",
+      "topic": "music",
+      "question": "Translated word for word: \"In your eyes are strange, strange charms. Which make the heart a kite, these breaths of yours are those winds\". Name the song.",
+      "answer": "Ajab Si",
+      "accept": [
+        "ajab si",
+        "aankhon mein teri",
+        "ankhon mein teri",
+        "aankhon mein teri ajab si",
+        "aankhon mein teri ajab si ajab si adayein hain",
+        "ankhon mein teri ajab si ajab si adayein hai"
+      ],
+      "explanation": "Sung by KK, music by Vishal-Shekhar, lyrics by Vishal Dadlani, from Om Shanti Om, 2007.",
+      "difficulty": 2,
+      "created": "2026-10-22",
+      "distractors": [
+        "Main Agar Kahoon",
+        "Kya Mujhe Pyar Hai",
+        "Jab Se Tere Naina"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l004",
+      "topic": "music",
+      "question": "Translated word for word: \"O beauty, the one with tresses, life of the world; the infidel eyes search for whose trace\". Name the song.",
+      "answer": "O Haseena Zulfon Wali",
+      "accept": [
+        "o haseena zulfon wali",
+        "o haseena zulfonwali",
+        "o hasina zulfon wali",
+        "o haseena zulfon wali jaane jahan",
+        "o haseena zulfonwali jane jahan",
+        "haseena zulfon wali"
+      ],
+      "explanation": "Sung by Mohammed Rafi and Asha Bhosle, music by R.D. Burman, lyrics by Majrooh Sultanpuri, from Teesri Manzil, 1966.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Deewana Hua Badal",
+        "Teri Pyari Pyari Surat Ko",
+        "Aaja Aaja Main Hoon Pyar Tera"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l005",
+      "topic": "music",
+      "question": "Translated word for word: \"Even if someone calls me a savage, let them say, sir, let them keep saying; we are surrounded by storms of love, what can we do\". Name the song.",
+      "answer": "Chahe Koi Mujhe Junglee Kahe",
+      "accept": [
+        "chahe koi mujhe junglee kahe",
+        "chahe koi mujhe jungli kahe",
+        "yahoo chahe koi mujhe junglee kahe",
+        "yahoo chahe koi mujhe jungli kahe",
+        "yahoo",
+        "chahe koi mujhe junglee",
+        "chahe koi mujhe jungli"
+      ],
+      "explanation": "Sung by Mohammed Rafi, music by Shankar-Jaikishan, lyrics by Shailendra, from Junglee, 1961. The famous Yahoo shout is not Rafi's voice.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Ehsan Tera Hoga Mujh Par",
+        "Badan Pe Sitare Lapete Hue",
+        "Tumse Achha Kaun Hai"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l006",
+      "topic": "music",
+      "question": "Translated word for word: \"With foreigners do not let the little eyes meet; foreigners have to go away one day\". Name the song.",
+      "answer": "Pardesiyon Se Na Ankhiyan Milana",
+      "accept": [
+        "pardesiyon se na ankhiyan milana",
+        "pardesiyon se na akhiyan milana",
+        "pardesiyon se na ankhiyaan milana",
+        "pardesiyon se na",
+        "pardesiyon se"
+      ],
+      "explanation": "Sung by Mohammed Rafi, and in a separate version by Lata Mangeshkar, music by Kalyanji-Anandji, lyrics by Anand Bakshi, from Jab Jab Phool Khile, 1965.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Aaja Re Pardesi",
+        "Na Na Karte Pyar Tumhi Se Kar Baithe",
+        "Akele Akele Kahan Ja Rahe Ho"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l007",
+      "topic": "music",
+      "question": "Translated word for word: \"The dangling earring fell, oh, in the market of Bareilly, the dangling earring fell, oh\". Name the song.",
+      "answer": "Jhumka Gira Re",
+      "accept": [
+        "jhumka gira re",
+        "jhoomka gira re",
+        "jhumka gira re bareli ke bazaar mein",
+        "jhumka gira"
+      ],
+      "explanation": "Sung by Asha Bhosle, music by Madan Mohan, lyrics by Raja Mehdi Ali Khan, from Mera Saaya, 1966.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Inhi Logon Ne Le Liya Dupatta Mera",
+        "Mera Naam Chin Chin Chu",
+        "Thandi Hawa Kali Ghata"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l008",
+      "topic": "music",
+      "question": "Translated word for word: \"This evening intoxicated keeps making me senseless; some string pulls me, keeps taking me towards you\". Name the song.",
+      "answer": "Yeh Shaam Mastani",
+      "accept": [
+        "yeh shaam mastani",
+        "ye shaam mastani",
+        "yeh sham mastani",
+        "ye sham mastani",
+        "yeh shaam mastani madhosh kiye jaaye"
+      ],
+      "explanation": "Sung by Kishore Kumar, music by R.D. Burman, lyrics by Anand Bakshi, from Kati Patang, 1970.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Pyar Deewana Hota Hai",
+        "Roop Tera Mastana",
+        "Raat Kali Ek Khwab Mein Aayi"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l009",
+      "topic": "music",
+      "question": "Translated word for word: \"O brother, walk a little looking; not only in front but behind also, not only right but left also, not only up but down also\". Name the song.",
+      "answer": "Ae Bhai Zara Dekh Ke Chalo",
+      "accept": [
+        "ae bhai zara dekh ke chalo",
+        "aye bhai zara dekh ke chalo",
+        "ai bhai zara dekh ke chalo",
+        "ae bhai",
+        "zara dekh ke chalo",
+        "ae bhai zara dekh kar chalo"
+      ],
+      "explanation": "Sung by Manna Dey, music by Shankar-Jaikishan, lyrics by Gopaldas Neeraj, from Mera Naam Joker, 1970.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Jeena Yahan Marna Yahan",
+        "Jaane Kahan Gaye Woh Din",
+        "Dost Dost Na Raha"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l010",
+      "topic": "music",
+      "question": "Translated word for word: \"Something surely people will say; the work of people is to say\". Name the song.",
+      "answer": "Kuch To Log Kahenge",
+      "accept": [
+        "kuch to log kahenge",
+        "kuch toh log kahenge",
+        "kuchh to log kahenge",
+        "kuch to log kahenge logon ka kaam hai kehna"
+      ],
+      "explanation": "Sung by Kishore Kumar, music by R.D. Burman, lyrics by Anand Bakshi, from Amar Prem.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Chingari Koi Bhadke",
+        "Yeh Kya Hua",
+        "Zindagi Kaisi Hai Paheli"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l011",
+      "topic": "music",
+      "question": "Translated word for word: \"On someone's smiles be sacrificed; someone's pain, if you can get it, take on loan\". Name the song.",
+      "answer": "Kisi Ki Muskurahaton Pe Ho Nisar",
+      "accept": [
+        "kisi ki muskurahaton pe ho nisar",
+        "kisi ki muskurahaton pe ho nisaar",
+        "kisi ki muskurahaton pe",
+        "kisi ki muskurahaton",
+        "jeena isi ka naam hai"
+      ],
+      "explanation": "Sung by Mukesh, music by Shankar-Jaikishan, lyrics by Shailendra, from Anari, 1959.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Sab Kuch Seekha Humne",
+        "Hothon Pe Sachai Rehti Hai",
+        "Ae Mere Dil Kahin Aur Chal"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l012",
+      "topic": "music",
+      "question": "Translated word for word: \"We are departing, having sacrificed life and body, companions; now in your custody is the homeland, companions\". Name the song.",
+      "answer": "Kar Chale Hum Fida",
+      "accept": [
+        "kar chale hum fida",
+        "kar chale ham fida",
+        "ab tumhare hawale watan saathiyon",
+        "ab tumhare hawale watan sathiyon",
+        "kar chale hum fida jaan o tan saathiyon"
+      ],
+      "explanation": "Sung by Mohammed Rafi, music by Madan Mohan, lyrics by Kaifi Azmi, from Haqeeqat, 1964.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Ae Mere Pyare Watan",
+        "Mere Rang De Basanti Chola",
+        "Jahan Daal Daal Par Sone Ki Chidiya"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l013",
+      "topic": "music",
+      "question": "Translated word for word: \"Dear one, do not speak lies, to God's presence one has to go; there is no elephant, there is no horse, there one has to go on foot only\". Name the song.",
+      "answer": "Sajan Re Jhoot Mat Bolo",
+      "accept": [
+        "sajan re jhoot mat bolo",
+        "sajan re jhooth mat bolo",
+        "sajan re jhut mat bolo",
+        "sajan re jhoot mat bolo khuda ke paas jaana hai",
+        "sajan re"
+      ],
+      "explanation": "Sung by Mukesh, music by Shankar-Jaikishan, lyrics by Shailendra, from Teesri Kasam, 1966.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Duniya Banane Wale",
+        "Chal Akela Chal Akela",
+        "Dil Ka Haal Sune Dilwala"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l014",
+      "topic": "music",
+      "question": "Translated word for word: \"Let go of the sari's end, the world, what will it say\". Name the song.",
+      "answer": "Chhod Do Aanchal Zamana Kya Kahega",
+      "accept": [
+        "chhod do aanchal zamana kya kahega",
+        "chod do aanchal zamana kya kahega",
+        "chhod do aanchal",
+        "chod do aanchal",
+        "chhod do anchal zamana kya kahega"
+      ],
+      "explanation": "Sung by Asha Bhosle and Kishore Kumar, music by S.D. Burman, lyrics by Majrooh Sultanpuri, from Paying Guest, 1957.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Achha Ji Main Haari Chalo Maan Jao Na",
+        "Aankhon Mein Kya Ji",
+        "Hum Hain Rahi Pyar Ke"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l015",
+      "topic": "music",
+      "question": "Translated word for word: \"Of father the blessings take and go; go, may you find a happy world\". Name the song.",
+      "answer": "Babul Ki Duayen Leti Ja",
+      "accept": [
+        "babul ki duayen leti ja",
+        "babul ki duaen leti ja",
+        "baabul ki duaayein leti jaa",
+        "babul ki duayein leti ja",
+        "babul ki duayen"
+      ],
+      "explanation": "Sung by Mohammed Rafi, music by Ravi, lyrics by Sahir Ludhianvi, from Neel Kamal, 1968.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Bachche Man Ke Sachche",
+        "Yaad Na Jaye Beete Dinon Ki",
+        "Ghar Aaya Mera Pardesi"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l016",
+      "topic": "music",
+      "question": "Translated word for word: \"Heart and whatnot, love and whatnot, what do I know, oh\". Name the song.",
+      "answer": "Dil Vil Pyar Vyar",
+      "accept": [
+        "dil vil pyar vyar",
+        "dil wil pyar wyar",
+        "dil vil pyaar vyaar",
+        "dil vil pyar vyar main kya jaanu re",
+        "dil vil pyar vyar main kya jaanoon re"
+      ],
+      "explanation": "Music by Laxmikant-Pyarelal, lyrics by Majrooh Sultanpuri, from Shagird, 1967.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Bindiya Chamkegi",
+        "Aaj Kal Tere Mere Pyar Ke Charche",
+        "Raat Akeli Hai Bujh Gaye Diye"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l017",
+      "topic": "music",
+      "question": "Translated word for word: \"Kohl of the love kind, in the little eyes such was applied, the kohl took my life away\". Name the song.",
+      "answer": "Kajra Mohabbat Wala",
+      "accept": [
+        "kajra mohabbat wala",
+        "kajra muhabbat wala",
+        "kajra mohabbat wala ankhiyon mein aisa dala",
+        "kajra mohabbat"
+      ],
+      "explanation": "Sung by Asha Bhosle and Shamshad Begum, music by O.P. Nayyar, lyrics by S.H. Bihari, from Kismat, 1968.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Leke Pehla Pehla Pyar",
+        "Kabhi Aar Kabhi Paar",
+        "Aaiye Meherbaan"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l018",
+      "topic": "music",
+      "question": "Translated word for word: \"Again and again look, a thousand times look, this is a thing worth looking at, our heart-stealer\". Name the song.",
+      "answer": "Baar Baar Dekho",
+      "accept": [
+        "baar baar dekho",
+        "bar bar dekho",
+        "baar baar dekho hazaar baar dekho",
+        "baar baar dekho hazar baar dekho"
+      ],
+      "explanation": "Sung by Mohammed Rafi, music by Ravi, lyrics by Majrooh Sultanpuri, from China Town, 1962.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Pukarta Chala Hoon Main",
+        "Deewana Mastana Hua Dil",
+        "Aasman Se Aaya Farishta"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l019",
+      "topic": "music",
+      "question": "Translated word for word: \"This life is, of this life this indeed is the colour and form\". Name the song.",
+      "answer": "Yeh Jeevan Hai",
+      "accept": [
+        "yeh jeevan hai",
+        "ye jeevan hai",
+        "yeh jivan hai",
+        "ye jivan hai",
+        "yeh jeevan hai is jeevan ka"
+      ],
+      "explanation": "Sung by Kishore Kumar, music by Laxmikant-Pyarelal, lyrics by Anand Bakshi, from Piya Ka Ghar, 1972.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Kora Kagaz Tha Yeh Man Mera",
+        "Yeh Jo Mohabbat Hai",
+        "Khilona Jaan Kar Tum To"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l020",
+      "topic": "music",
+      "question": "Translated word for word: \"That morning, some time, surely will come; when from the head of these black centuries the veil of night will slip\". Name the song.",
+      "answer": "Woh Subah Kabhi To Aayegi",
+      "accept": [
+        "woh subah kabhi to aayegi",
+        "wo subah kabhi to aayegi",
+        "woh subah kabhi toh aayegi",
+        "wo subah kabhi to aaegi",
+        "woh subah"
+      ],
+      "explanation": "Sung by Mukesh and Asha Bhosle, music by Khayyam, lyrics by Sahir Ludhianvi, from Phir Subah Hogi, 1958.",
+      "difficulty": 3,
+      "created": "2026-11-04",
+      "distractors": [
+        "Jaane Woh Kaise Log The",
+        "Aasman Pe Hai Khuda Aur Zameen Pe Hum",
+        "Yeh Duniya Agar Mil Bhi Jaaye To Kya Hai"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l021",
+      "topic": "music",
+      "question": "Translated word for word: \"You are the wave of the Ganges, I am the stream of the Yamuna; oh, the union will remain, this one of ours and yours\". Name the song.",
+      "answer": "Tu Ganga Ki Mauj",
+      "accept": [
+        "tu ganga ki mauj",
+        "tu ganga ki mauj main jamuna ki dhara",
+        "tu ganga ki mauj mein jamuna ka dhara",
+        "tu ganga ki mauj main jamuna ka dhara"
+      ],
+      "explanation": "Sung by Mohammed Rafi and Lata Mangeshkar, music by Naushad, lyrics by Shakeel Badayuni, from Baiju Bawra, 1952.",
+      "difficulty": 3,
+      "created": "2026-11-04",
+      "distractors": [
+        "O Duniya Ke Rakhwale",
+        "Man Tarpat Hari Darshan Ko Aaj",
+        "Suhani Raat Dhal Chuki"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l022",
+      "topic": "music",
+      "question": "Translated word for word: \"This life is only that one's, who became someone's, who got lost in love itself\". Name the song.",
+      "answer": "Yeh Zindagi Usi Ki Hai",
+      "accept": [
+        "yeh zindagi usi ki hai",
+        "ye zindagi usi ki hai",
+        "yeh zindagi usiki hai",
+        "ye zindagi usiki hai",
+        "yeh zindagi usi ki hai jo kisi ka ho gaya"
+      ],
+      "explanation": "Sung by Lata Mangeshkar, music by C. Ramchandra, lyrics by Rajendra Krishan, from Anarkali, 1953.",
+      "difficulty": 3,
+      "created": "2026-11-04",
+      "distractors": [
+        "Ye Raat Ye Chandni Phir Kahan",
+        "Shola Jo Bhadke",
+        "Ae Dil Mujhe Bata De"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l023",
+      "topic": "music",
+      "question": "Translated word for word: \"Stolen have you the heart, so the gaze do not steal, beloved\". Name the song.",
+      "answer": "Chura Liya Hai Tumne Jo Dil Ko",
+      "accept": [
+        "chura liya hai tumne jo dil ko",
+        "chura liya hai tumne",
+        "chura liya",
+        "churaa liya hai tumne",
+        "chura liya hai tumne jo dilko",
+        "chura liya hai"
+      ],
+      "explanation": "Sung by Asha Bhosle and Mohammed Rafi, music by R. D. Burman, lyrics by Majrooh Sultanpuri, from Yaadon Ki Baaraat, 1973.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Yeh Ladka Haye Allah",
+        "Bachna Ae Haseeno",
+        "Hum Dono Do Premi"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l024",
+      "topic": "music",
+      "question": "Translated word for word: \"With one stranger beauty, like this, a meeting happened; then what happened, this do not ask, some such thing happened\". Name the song.",
+      "answer": "Ek Ajnabee Haseena Se",
+      "accept": [
+        "ek ajnabee haseena se",
+        "ek ajnabi haseena se",
+        "ek ajnabee hasina se",
+        "ek ajnabi hasina se",
+        "ek ajnabee haseena se yun mulaqat ho gayi",
+        "ek ajnabi haseena se yoon mulaqat ho gayi"
+      ],
+      "explanation": "Sung by Kishore Kumar, music by R. D. Burman, lyrics by Anand Bakshi, from Ajanabee, 1974.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Ek Main Aur Ek Tu",
+        "Mere Dil Mein Aaj Kya Hai",
+        "Rimjhim Gire Sawan"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l025",
+      "topic": "music",
+      "question": "Translated word for word: \"O tambourine fellow, play the tambourine; my ankle bells are calling, come; I dance, you make me dance\". Name the song.",
+      "answer": "Dafli Wale Dafli Baja",
+      "accept": [
+        "dafli wale dafli baja",
+        "dafli wale",
+        "dafliwale",
+        "dafli waale dafli baja",
+        "dafli wale dafli bajaa",
+        "dafali wale dafali baja"
+      ],
+      "explanation": "Sung by Lata Mangeshkar and Mohammed Rafi, music by Laxmikant-Pyarelal, lyrics by Anand Bakshi, from Sargam, 1979.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Kya Khoob Lagti Ho",
+        "Parda Hai Parda",
+        "Jhoot Bole Kauwa Kaate"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l026",
+      "topic": "music",
+      "question": "Translated word for word: \"Night fragrance flowers of yours, may they smell sweet just like this in life\". Name the song.",
+      "answer": "Rajnigandha Phool Tumhare",
+      "accept": [
+        "rajnigandha phool tumhare",
+        "rajnigandha phool tumhaare",
+        "rajnigandha",
+        "rajanigandha phool tumhare",
+        "rajnigandha phool"
+      ],
+      "explanation": "Sung by Lata Mangeshkar, music by Salil Chowdhury, lyrics by Yogesh, from Rajnigandha, 1974.",
+      "difficulty": 3,
+      "created": "2026-11-04",
+      "distractors": [
+        "Kai Baar Yunhi Dekha Hai",
+        "Tere Bina Zindagi Se",
+        "Badi Sooni Sooni Hai"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l027",
+      "topic": "music",
+      "question": "Translated word for word: \"You who have been found, so this seems, that the world has been found; to one strayed traveller a caravan has been found\". Name the song.",
+      "answer": "Tum Jo Mil Gaye Ho",
+      "accept": [
+        "tum jo mil gaye ho",
+        "tum jo mil gaye ho to yeh lagta hai",
+        "tum jo mil gaye ho to ye lagta hai",
+        "tum jo mil gaye"
+      ],
+      "explanation": "Sung by Mohammed Rafi and Lata Mangeshkar, music by Madan Mohan, lyrics by Kaifi Azmi, from Hanste Zakhm, 1973.",
+      "difficulty": 3,
+      "created": "2026-11-04",
+      "distractors": [
+        "Tum Aa Gaye Ho Noor Aa Gaya Hai",
+        "Aap Ki Aankhon Mein Kuch",
+        "Main Pal Do Pal Ka Shayar Hoon"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l028",
+      "topic": "music",
+      "question": "Translated word for word: \"Like you a friend where, where such a friendship; will remember the world, your my tale\". Name the song.",
+      "answer": "Tere Jaisa Yaar Kahan",
+      "accept": [
+        "tere jaisa yaar kahan",
+        "tere jaisa yaar kahaan",
+        "tera jaisa yaar kahan",
+        "tere jaisa yaar",
+        "tere jaisa yaar kahan kahan aisa yaarana"
+      ],
+      "explanation": "Sung by Kishore Kumar, music by Rajesh Roshan, lyrics by Anjaan, from Yaarana, 1981.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Yeh Dosti Hum Nahin Todenge",
+        "Diye Jalte Hain",
+        "Chhookar Mere Man Ko"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l029",
+      "topic": "music",
+      "question": "Translated word for word: \"In my courtyard, your what work is\". Name the song.",
+      "answer": "Mere Angne Mein",
+      "accept": [
+        "mere angne mein",
+        "mere angne mein tumhara kya kaam hai",
+        "mere angane mein",
+        "mere angne me",
+        "mere angne main"
+      ],
+      "explanation": "Sung by Amitabh Bachchan, with a female version by Alka Yagnik, music by Kalyanji-Anandji, from Laawaris, 1981.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Khaike Paan Banaraswala",
+        "Jahan Teri Yeh Nazar Hai",
+        "Pag Ghungroo Baandh Meera Naachi Thi"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l030",
+      "topic": "music",
+      "question": "Translated word for word: \"Ocean shore, heart this calls out; you if not, then mine no one is\". Name the song.",
+      "answer": "Saagar Kinare",
+      "accept": [
+        "saagar kinare",
+        "sagar kinare",
+        "saagar kinaare",
+        "sagar kinaare",
+        "saagar kinare dil yeh pukare",
+        "sagar kinare dil ye pukare"
+      ],
+      "explanation": "Sung by Kishore Kumar and Lata Mangeshkar, music by R. D. Burman, lyrics by Javed Akhtar, from Saagar, 1985.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Tere Mere Beech Mein",
+        "Jab Hum Jawan Honge",
+        "Dekha Ek Khwab"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l031",
+      "topic": "music",
+      "question": "Translated word for word: \"O life, take me to your neck; we too, every single sorrow of yours, to the neck have attached, is it not\". Name the song.",
+      "answer": "Ae Zindagi Gale Laga Le",
+      "accept": [
+        "ae zindagi gale laga le",
+        "aye zindagi gale laga le",
+        "ai zindagi gale laga le",
+        "ae zindagi gale lagaa le",
+        "ae zindagi",
+        "zindagi gale laga le"
+      ],
+      "explanation": "Sung by Suresh Wadkar, music by Ilaiyaraaja, lyrics by Gulzar, from Sadma, 1983.",
+      "difficulty": 3,
+      "created": "2026-11-04",
+      "distractors": [
+        "Tujhse Naraz Nahin Zindagi",
+        "Zindagi Ki Na Toote Ladi",
+        "Zindagi Pyar Ka Geet Hai"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l032",
+      "topic": "music",
+      "question": "Translated word for word: \"In my hands nine nine bangles are; a little wait, beloved, compulsions are\". Name the song.",
+      "answer": "Mere Haathon Mein Nau Nau Chooriyan",
+      "accept": [
+        "mere haathon mein nau nau chooriyan",
+        "mere haathon mein nau nau chudiyan",
+        "mere hathon mein nau nau chudiyan",
+        "mere haathon mein",
+        "nau nau chudiyan",
+        "nau nau chooriyan",
+        "mere haathon mein nau nau choodiyan hain"
+      ],
+      "explanation": "Sung by Lata Mangeshkar, music by Shiv-Hari, lyrics by Anand Bakshi, from Chandni, 1989.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Chandni O Meri Chandni",
+        "Hawa Hawaii",
+        "Kate Nahin Kat Te"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l033",
+      "topic": "music",
+      "question": "Translated word for word: \"To me sleep does not come, to me peace does not come; someone go, a little search and bring, who knows where the heart got lost\". Name the song.",
+      "answer": "Mujhe Neend Na Aaye",
+      "accept": [
+        "mujhe neend na aaye",
+        "mujhe neend na aye",
+        "mujhe neend naa aaye",
+        "mujhe nind na aaye",
+        "mujhe neend"
+      ],
+      "explanation": "Sung by Udit Narayan and Anuradha Paudwal, music by Anand-Milind, lyrics by Sameer, from Dil, 1990.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Dil Hai Ke Manta Nahin",
+        "Mera Dil Bhi Kitna Pagal Hai",
+        "Hum Pyar Karne Wale"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l034",
+      "topic": "music",
+      "question": "Translated word for word: \"These black black eyes, these fair fair cheeks, these sharp sharp glances, this doe like walk\". Name the song.",
+      "answer": "Yeh Kaali Kaali Aankhen",
+      "accept": [
+        "yeh kaali kaali aankhen",
+        "ye kaali kaali aankhen",
+        "yeh kali kali aankhen",
+        "ye kali kali ankhen",
+        "kaali kaali aankhen",
+        "yeh kaali kaali aankhein"
+      ],
+      "explanation": "Sung by Kumar Sanu and Anu Malik, music by Anu Malik, from Baazigar, 1993.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Chura Ke Dil Mera",
+        "Kitaben Bahut Si",
+        "Tujhe Dekha To"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l035",
+      "topic": "music",
+      "question": "Translated word for word: \"Moon stars break and bring, over the whole world I spread; just this much a dream it is\". Name the song.",
+      "answer": "Chaand Taare",
+      "accept": [
+        "chaand taare",
+        "chand taare",
+        "chand tare",
+        "chaand taare tod laoon",
+        "chand taare tod laun"
+      ],
+      "explanation": "Sung by Abhijeet, music by Jatin-Lalit, lyrics by Javed Akhtar, from Yes Boss, 1997.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Main Koi Aisa Geet Gaoon",
+        "Yeh Dil Deewana",
+        "Jo Haal Dil Ka"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l036",
+      "topic": "music",
+      "question": "Translated word for word: \"Moon hid in the cloud, shyly, my darling; to the chest cling you, swaying, my darling\". Name the song.",
+      "answer": "Chand Chhupa Badal Mein",
+      "accept": [
+        "chand chhupa badal mein",
+        "chaand chhupa baadal mein",
+        "chand chupa badal mein",
+        "chand chhupa",
+        "chaand chupa badal mein"
+      ],
+      "explanation": "Sung by Udit Narayan and Alka Yagnik, music by Ismail Darbar, lyrics by Mehboob, from Hum Dil De Chuke Sanam, 1999.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Aankhon Ki Gustakhiyan",
+        "Dola Re Dola",
+        "Chand Sifarish"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l037",
+      "topic": "music",
+      "question": "Translated word for word: \"Ten excuses making, they took away the heart\". Name the song.",
+      "answer": "Dus Bahane",
+      "accept": [
+        "dus bahane",
+        "dus bahaane",
+        "das bahane",
+        "dus bahane karke le gaye dil",
+        "dus bahane karke"
+      ],
+      "explanation": "Sung by KK and Shaan, music by Vishal-Shekhar, lyrics by Panchhi Jalonvi, from Dus, 2005.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Ya Ali",
+        "Aashiq Banaya Aapne",
+        "Dhoom Machale"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l038",
+      "topic": "music",
+      "question": "Translated word for word: \"In your name we have made our whole life, beloved\". Name the song.",
+      "answer": "Tere Naam",
+      "accept": [
+        "tere naam",
+        "tere naam humne kiya hai",
+        "tere naam hamne kiya hai",
+        "tere naam humne kiya"
+      ],
+      "explanation": "Sung by Udit Narayan and Alka Yagnik, music by Himesh Reshammiya, lyrics by Sameer, from Tere Naam, 2003.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Tere Liye",
+        "Suraj Hua Maddham",
+        "Tumse Milke Dil Ka Jo Haal"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l039",
+      "topic": "music",
+      "question": "Translated word for word: \"This which country is yours, homeland is yours, you it has called\". Name the song.",
+      "answer": "Yeh Jo Des Hai Tera",
+      "accept": [
+        "yeh jo des hai tera",
+        "ye jo des hai tera",
+        "yeh jo desh hai tera",
+        "ye jo desh hai tera",
+        "yeh jo des hai",
+        "swades hai tera"
+      ],
+      "explanation": "Sung and composed by A. R. Rahman, lyrics by Javed Akhtar, from Swades, 2004.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Mera Rang De Basanti Chola",
+        "Kandhon Se Milte Hain Kandhe",
+        "Des Rangila"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104l040",
+      "topic": "music",
+      "question": "Translated word for word: \"In the first glance what magic you did, yours has become my heart\". Name the song.",
+      "answer": "Pehli Nazar Mein",
+      "accept": [
+        "pehli nazar mein",
+        "pehli nazar main",
+        "pehli nazar me",
+        "pehli nazar mein kaisa jaadu kar diya",
+        "pehli nazar"
+      ],
+      "explanation": "Sung by Atif Aslam, music by Pritam, lyrics by Sameer, from Race, 2008.",
+      "difficulty": 2,
+      "created": "2026-11-04",
+      "distractors": [
+        "Zara Sa",
+        "Tu Jaane Na",
+        "Bheegi Bheegi"
+      ],
+      "themes": [
+        "lost_in_translation"
+      ]
+    },
+    {
+      "id": "q1104c001",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "After an honest police officer stops the mass copying in his exam hall, a boy from the Chambal region decides to become an officer just like him.",
+        "In Delhi's coaching hub of Mukherjee Nagar he works in a flour mill to pay for his civil services preparation, and a veteran aspirant's tea stall named Restart keeps him going.",
+        "Vidhu Vinod Chopra's 2023 film, winner of the National Award for Best Feature Film, stars Vikrant Massey as the real IPS officer Manoj Kumar Sharma."
+      ],
+      "answer": "12th Fail",
+      "accept": [
+        "12th fail",
+        "twelfth fail",
+        "12 fail",
+        "twelve fail",
+        "barahvi fail"
+      ],
+      "explanation": "12th Fail tells how Manoj Kumar Sharma failed his Class 12 exams when cheating was stopped, then worked in a Delhi flour mill on his way to the IPS.",
+      "created": "2026-10-27"
+    },
+    {
+      "id": "q1104c002",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "The traveller Ibn Battuta described being served it at the court of Muhammad bin Tughlaq: a small pastry stuffed with minced meat, almonds and pistachios.",
+        "It came to India centuries before its most familiar filling did, because potatoes are from South America and arrived only with European traders.",
+        "This fried triangle is the classic partner to a cup of chai, served with green and tamarind chutney."
+      ],
+      "answer": "Samosa",
+      "accept": [
+        "samosa",
+        "samosas",
+        "sambusa",
+        "sambusak",
+        "singara",
+        "shingara"
+      ],
+      "explanation": "The samosa came to India as a meat-and-nut court pastry long before potatoes took over its filling.",
+      "created": "2026-10-27"
+    },
+    {
+      "id": "q1104c003",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "The snake charmer's tune in this 1950s film song was not played on a real been, but on an early electronic keyboard called the clavioline.",
+        "Kalyanji, who later formed a famous composer duo with his brother Anandji, played that tune for music director Hemant Kumar in the 1954 film Nagin.",
+        "Lata Mangeshkar sang it for Vyjayanthimala, and its title means my heart sways, my body sways."
+      ],
+      "answer": "Man Dole Mera Tan Dole",
+      "accept": [
+        "man dole mera tan dole",
+        "mann dole mera tann dole",
+        "man dole",
+        "man dole tan dole",
+        "man dole mera tan dole mere dil ka gaya qarar",
+        "mann dole",
+        "mann dole mera tan dole"
+      ],
+      "explanation": "Man Dole Mera Tan Dole, from Nagin (1954), was composed by Hemant Kumar and sung by Lata Mangeshkar; its famous been melody was played by Kalyanji on the clavioline, with Ravi on harmonium.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c004",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "A botany professor takes a job as a driver who speaks only pure, Sanskrit-heavy Hindi, to play a prank on his wife's brother-in-law, whom she idolises as a great intellectual.",
+        "Hrishikesh Mukherjee made this 1975 comedy, a remake of the Bengali film Chhadmabeshi, with Amitabh Bachchan as an English professor pretending to be the botanist.",
+        "Dharmendra plays Professor Parimal Tripathi, alias the driver Pyare Mohan, in this comedy whose title means quietly, quietly."
+      ],
+      "answer": "Chupke Chupke",
+      "accept": [
+        "chupke chupke",
+        "chupke-chupke"
+      ],
+      "explanation": "In Hrishikesh Mukherjee's Chupke Chupke (1975), Dharmendra's botany professor Parimal poses as the shuddh-Hindi-speaking driver Pyare Mohan, while Amitabh Bachchan's English professor Sukumar stands in for Parimal.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c005",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "In 1975, the year of Sholay, a low-budget devotional film with little-known actors became a giant hit, and devotees took off their footwear before entering the cinema hall, as they would at a temple.",
+        "It made a little-known goddess a household name, and spread a fast kept on sixteen Fridays, during which nothing sour may be eaten or served.",
+        "Usha Mangeshkar sang its best-known song, the aarti Main To Aarti Utaru, in this film named after the goddess of contentment."
+      ],
+      "answer": "Jai Santoshi Maa",
+      "accept": [
+        "jai santoshi maa",
+        "jai santoshi ma",
+        "jai santoshi mata",
+        "santoshi maa",
+        "santoshi mata"
+      ],
+      "explanation": "Jai Santoshi Maa (1975), made for about 25 lakh rupees with unknown actors, became one of the most profitable films of the Sholay year; audiences entered cinemas barefoot as if at a temple, the sixteen-Friday Santoshi Mata vrat spread, and Usha Mangeshkar's Main To Aarti Utaru, composed by C. Arjun, earned her a Filmfare nomination.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c006",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "In Pyaasa, Guru Dutt played a struggling poet with this name, which means victory.",
+        "The writers Salim and Javed later gave the same name to Amitabh Bachchan's angry young men in Zanjeer, Deewaar and Trishul.",
+        "Amitabh played characters with this first name in about twenty films, including Agneepath, where his full name is this name followed by Deenanath Chauhan."
+      ],
+      "answer": "Vijay",
+      "accept": [
+        "vijay",
+        "vijay deenanath chauhan",
+        "vijay dinanath chauhan"
+      ],
+      "explanation": "Vijay is the poet in Pyaasa and the name of Amitabh Bachchan's character in Zanjeer, Deewaar, Trishul, Agneepath and around twenty films in all.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c007",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Its emblem shows a man holding a violin in one hand and a swooning woman in the other arm, a pose taken from the 1949 hit Barsaat.",
+        "Founded in 1948, this banner made Aag as its very first film, and its studio in Chembur, Bombay, became famous for its Holi and Ganpati celebrations.",
+        "It is the Kapoor family's banner and studio, named after the initials of the showman who made Awara, Shree 420 and Mera Naam Joker."
+      ],
+      "answer": "RK Films",
+      "accept": [
+        "rk films",
+        "r k films",
+        "rk studios",
+        "rk studio",
+        "r k studios",
+        "r k studio",
+        "rk banner",
+        "rk",
+        "raj kapoor films",
+        "raj kapoor studios"
+      ],
+      "explanation": "Raj Kapoor founded R. K. Films in 1948 with Aag; its Chembur studio, built in the early 1950s, hosted the Kapoors' Holi and Ganpati celebrations, and its logo comes from the Barsaat poster of Raj Kapoor holding a violin and Nargis.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c008",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "While teaching civil engineering at a Bombay college, he acted in a stage play that so impressed Dilip Kumar that he signed him up for films.",
+        "He went on to write the dialogues for many Amitabh Bachchan hits, including Muqaddar Ka Sikandar, Coolie and Agneepath.",
+        "In the 1990s he was Govinda's comic sparring partner in films like Coolie Number One and Dulhe Raja."
+      ],
+      "answer": "Kader Khan",
+      "accept": [
+        "kader khan",
+        "kadar khan",
+        "kader",
+        "qadir khan"
+      ],
+      "explanation": "Kader Khan taught civil engineering at M. H. Saboo Siddik College, was spotted by Dilip Kumar in the play Taash Ke Patte, wrote dialogue for more than 200 films, and acted in over 300, many of them comedies with Govinda.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c009",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "In the 1950s she played Parvati and other goddesses so often that fans came to her home to seek her blessings.",
+        "She later became Hindi cinema's best-known long-suffering mother, and in Amar Akbar Anthony she receives blood from all three of her lost sons at once.",
+        "She is the mother in Deewaar, the Maa in Shashi Kapoor's famous line, Mere paas Maa hai."
+      ],
+      "answer": "Nirupa Roy",
+      "accept": [
+        "nirupa roy",
+        "nirupa"
+      ],
+      "explanation": "Nirupa Roy rose playing Parvati in Har Har Mahadev (1950) and other mythologicals, then became the screen mother of Amitabh Bachchan and Shashi Kapoor in Deewaar and of Amar, Akbar and Anthony.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c010",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Its heroes, Amar and Prem, are two daydreamers who each try to woo a millionaire's daughter for her money.",
+        "Directed by Rajkumar Santoshi, it flopped in theatres in 1994 but became a cult comedy on television and video.",
+        "It is the only film in which Aamir Khan and Salman Khan star together, and its line Teja main hoon, mark idhar hai is still quoted."
+      ],
+      "answer": "Andaz Apna Apna",
+      "accept": [
+        "andaz apna apna",
+        "andaaz apna apna"
+      ],
+      "explanation": "Andaz Apna Apna (1994), Rajkumar Santoshi's box-office flop turned cult classic, has Aamir Khan as Amar and Salman Khan as Prem chasing Raveena, daughter of Paresh Rawal's millionaire Ram Gopal Bajaj.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c011",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "An eight-year-old who would rather paint than study is packed off to boarding school, where a new art teacher realises that letters dance before the boy's eyes.",
+        "The art teacher is Ram Shankar Nikumbh, and the boy, Ishaan Awasthi, is played by Darsheel Safary.",
+        "Aamir Khan made his debut as a director with this 2007 film about dyslexia, whose title means stars on earth."
+      ],
+      "answer": "Taare Zameen Par",
+      "accept": [
+        "taare zameen par",
+        "tare zameen par",
+        "like stars on earth",
+        "taare zameen pe",
+        "tare zameen pe"
+      ],
+      "explanation": "Taare Zameen Par (2007), Aamir Khan's directorial debut, follows the dyslexic Ishaan Awasthi, played by Darsheel Safary, and his art teacher Ram Shankar Nikumbh, played by Aamir.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c012",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "When first given out in March 1954, at a Bombay cinema, they were called the Clare Awards, after Clare Mendonca of The Times of India.",
+        "The first winners included Dilip Kumar for Daag, Meena Kumari for Baiju Bawra, and Do Bigha Zamin as best film.",
+        "Their trophy, a slender woman with her arms raised, is nicknamed the Black Lady, and they take their name from a film magazine."
+      ],
+      "answer": "Filmfare Awards",
+      "accept": [
+        "filmfare awards",
+        "filmfare award",
+        "filmfare",
+        "filmfare awards trophy"
+      ],
+      "explanation": "The Filmfare Awards, run by The Times Group's Filmfare magazine, began on 21 March 1954 at Bombay's Metro cinema as the Clare Awards; the statuette is the Black Lady.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c013",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Founded in north Calcutta in 1889, it took its name from a villa and garden belonging to the Mitra family.",
+        "On 29 July 1911, its mostly barefoot players beat the booted East Yorkshire Regiment by two goals to one to win the IFA Shield, the first Indian team to lift it.",
+        "Kolkata's green and maroon football club, whose derby against East Bengal is the biggest rivalry in Indian football."
+      ],
+      "answer": "Mohun Bagan",
+      "accept": [
+        "mohun bagan",
+        "mohan bagan",
+        "mohun bagan ac",
+        "mohun bagan athletic club",
+        "mohun bagan club",
+        "mohun bagan super giant",
+        "bagan",
+        "atk mohun bagan",
+        "mohun bagan sg"
+      ],
+      "explanation": "Mohun Bagan was named after the Mohun Bagan Villa where it began in 1889, won the 1911 IFA Shield with mostly barefoot players against a British regiment, and plays East Bengal in the Kolkata derby.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c014",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Its name is Latin for I play, and a version of an old Indian board game was sold under this name in England from 1896.",
+        "Legend says Akbar played its Indian ancestor, pachisi, in a palace courtyard, with young people dressed in the players' colours serving as the pieces.",
+        "Four players race four tokens each in red, green, yellow and blue, and you need to throw a six to bring a token out."
+      ],
+      "answer": "Ludo",
+      "accept": [
+        "ludo",
+        "ludo king",
+        "the game of ludo"
+      ],
+      "explanation": "Ludo, Latin for I play, is the English form of India's pachisi, which legend says Akbar played with living pieces, and it needs a six to bring a token out.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c015",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "An English cricketer, Bernard Bosanquet, is credited with inventing it around 1900, and for years Australians nicknamed it after him.",
+        "Outside cricket, its name is used for a tricky question that catches you off guard, as when an interviewer bowls someone one.",
+        "It is the leg-spinner's disguised ball that turns the opposite way from his normal leg break, fooling the batsman."
+      ],
+      "answer": "Googly",
+      "accept": [
+        "googly",
+        "the googly",
+        "googlie",
+        "wrong'un",
+        "wrong un",
+        "wrongun",
+        "bosie",
+        "bosey"
+      ],
+      "explanation": "The googly, invented by Bernard Bosanquet and once nicknamed the Bosie, is the leg-spinner's ball that turns the wrong way, and the word now means any tricky question.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c016",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "South Africa's Karl Liebenberg was the first man to do this job in a Test match, at Durban in November 1992.",
+        "In that match Sachin Tendulkar became the first batsman given out this way, run out from a Jonty Rhodes throw after the official at square leg asked for help.",
+        "This match official sits off the field watching television replays, and rules on close run outs and stumpings when the umpires on the field refer them."
+      ],
+      "answer": "Third umpire",
+      "accept": [
+        "third umpire",
+        "3rd umpire",
+        "the third umpire",
+        "tv umpire",
+        "television umpire",
+        "video umpire"
+      ],
+      "explanation": "The third umpire made his Test debut at Durban in 1992, when Karl Liebenberg gave Sachin Tendulkar run out on a TV replay, and now rules on referred run outs and stumpings.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c017",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Margaret Bourke-White's famous 1946 photograph for Life magazine shows Gandhi reading newspaper clippings, with one of these in the foreground.",
+        "It sat at the centre of the Congress tricolour adopted in 1931, and the Constituent Assembly replaced it with the Ashoka Chakra when it adopted the national flag in July 1947.",
+        "Gandhi spun yarn on it every day and urged every Indian to spin their own thread for khadi."
+      ],
+      "answer": "Charkha",
+      "accept": [
+        "charkha",
+        "charka",
+        "spinning wheel",
+        "gandhi's charkha",
+        "gandhis charkha",
+        "gandhi's spinning wheel",
+        "gandhis spinning wheel"
+      ],
+      "explanation": "The charkha sits beside Gandhi in Bourke-White's 1946 photograph, stood at the centre of the 1931 Congress flag before the Ashoka Chakra replaced it, and was Gandhi's daily tool for spinning khadi.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c018",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "The first postage stamp of independent India, issued in November 1947 with a picture of the national flag, carried these words in Devanagari at the top.",
+        "Netaji Subhas Chandra Bose's Indian National Army used it as a greeting and slogan, and in 2019 Air India told its crew to end every announcement with it.",
+        "These two words, meaning Victory to India, close countless patriotic speeches and are a common greeting in the Indian Army."
+      ],
+      "answer": "Jai Hind",
+      "accept": [
+        "jai hind",
+        "jaihind",
+        "jay hind",
+        "jai hindh"
+      ],
+      "explanation": "Jai Hind was printed on independent India's first stamp, was the INA's greeting under Netaji, and is the two-word cry of Victory to India that ends speeches and Air India announcements.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c019",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Often ranked among the greatest speeches of the twentieth century, it was delivered in English to the Constituent Assembly in Parliament House, New Delhi.",
+        "Its best-known line says that at the stroke of the midnight hour, when the world sleeps, India will awake to life and freedom.",
+        "Jawaharlal Nehru gave this speech on the night of 14 August 1947, and its name comes from its opening line about a promise India made long years ago."
+      ],
+      "answer": "Tryst with Destiny",
+      "accept": [
+        "tryst with destiny",
+        "tryst with destiny speech",
+        "the tryst with destiny speech",
+        "nehru's tryst with destiny",
+        "nehrus tryst with destiny",
+        "tryst",
+        "nehru's midnight speech",
+        "nehrus midnight speech",
+        "midnight speech"
+      ],
+      "explanation": "Tryst with Destiny is Nehru's English speech to the Constituent Assembly on the night of 14 August 1947, famous for its line about India awaking at the stroke of the midnight hour.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c020",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "A Sikh gurudwara, a Jain temple with a bird hospital, a Baptist church built in 1814 and a Mughal-era mosque all stand along this one street.",
+        "Shah Jahan's daughter Jahanara is credited with laying it out in 1650, with a canal down its middle and a pool that shimmered in the moonlight.",
+        "This crowded Old Delhi market runs from the Red Fort to the Fatehpuri Masjid, and its Paranthe Wali Gali is famous for fried parathas."
+      ],
+      "answer": "Chandni Chowk",
+      "accept": [
+        "chandni chowk",
+        "chandini chowk",
+        "chandni chouk",
+        "chandni chawk"
+      ],
+      "explanation": "Chandni Chowk, laid out by Jahanara in 1650 and named for its moonlit pool, runs from the Red Fort past the Sis Ganj gurudwara and the Jain bird hospital to the Fatehpuri Masjid.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c021",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "India's first biennale of contemporary art opened here in 2012, and in 2015 its airport was hailed as the world's first to run fully on solar power.",
+        "Vasco da Gama died here in 1524 and lay buried in its Saint Francis Church for about fourteen years, until his remains were taken back to Portugal.",
+        "This Kerala port city, home to the Mattancherry Palace and the Paradesi Synagogue, is famous for the giant Chinese fishing nets along its shore."
+      ],
+      "answer": "Kochi",
+      "accept": [
+        "kochi",
+        "cochin",
+        "fort kochi",
+        "fort cochin",
+        "ernakulam",
+        "kochi kerala"
+      ],
+      "explanation": "Kochi hosts the Kochi-Muziris Biennale and the solar-powered Cochin airport, was where Vasco da Gama died and was first buried, and is known for its Chinese fishing nets.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c022",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Statues of Kannagi, of Gandhi striding on his salt march, and of four workers heaving a rock in the Triumph of Labour stand along it.",
+        "Its promenade was laid out in 1884 by Governor Grant Duff, and Presidency College and the University of Madras face it across the road, with the Chepauk cricket stadium close by.",
+        "This long sandy stretch on the Bay of Bengal in Chennai is often called the longest natural urban beach in India."
+      ],
+      "answer": "Marina Beach",
+      "accept": [
+        "marina beach",
+        "marina",
+        "the marina",
+        "chennai marina",
+        "madras marina",
+        "marina beach chennai"
+      ],
+      "explanation": "Marina Beach in Chennai, laid out as a promenade by Grant Duff in 1884, is lined with statues such as Kannagi and the Triumph of Labour and is India's longest natural urban beach.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c023",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Tradition holds that Porbandar, Gandhi's birthplace, was his birthplace too, and the town has a temple dedicated to him.",
+        "At Guruvayur in Kerala, devotees offer beaten rice to Krishna on a December Wednesday named after him.",
+        "A poor Brahmin who had studied with Krishna at Sandipani's ashram, he walked to Dwarka with only a handful of beaten rice as a gift for his old friend."
+      ],
+      "answer": "Sudama",
+      "accept": [
+        "sudama",
+        "sudaama",
+        "sudhama",
+        "kuchela",
+        "kuchelan"
+      ],
+      "explanation": "Sudama, Krishna's poor school friend, is Kuchela in the South, honoured with beaten-rice offerings at Guruvayur and with a temple in Porbandar.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c024",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Legend says Lord Venkateswara borrowed a fortune from him to pay for his wedding to Padmavati, and devotees' offerings at Tirumala are said to help repay the debt.",
+        "He ruled the golden city of Lanka until his half-brother Ravana took it from him, and he moved to Alaka in the Himalayas.",
+        "He is the big-bellied god of wealth, treasurer of the gods and guardian of the north."
+      ],
+      "answer": "Kubera",
+      "accept": [
+        "kubera",
+        "kuber",
+        "kuvera",
+        "kuberan",
+        "kuberudu"
+      ],
+      "explanation": "Kubera, god of wealth, lent money for Venkateswara's wedding and lost Lanka to his half-brother Ravana.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c025",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "His story is missing from the old Arabic manuscripts of a famous collection. A French translator added it in the 1700s after hearing it from a storyteller from Aleppo in Syria.",
+        "Jack Ma named his Chinese e-commerce giant after him, after finding that people from many countries all knew his story.",
+        "A poor woodcutter overhears a gang of forty thieves say the words Open Sesame, and finds their treasure cave."
+      ],
+      "answer": "Ali Baba",
+      "accept": [
+        "ali baba",
+        "alibaba",
+        "ali baba and the forty thieves",
+        "alibaba and the forty thieves"
+      ],
+      "explanation": "Ali Baba of Open Sesame fame was added to the Arabian Nights by Antoine Galland from Hanna Diyab's telling, and lends his name to Alibaba.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c026",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Cub Scout leaders in many countries are still called Akela, a name Baden-Powell borrowed from this book when he set up the Wolf Cubs in 1916.",
+        "Its author was born in Bombay in 1865 and became the first English-language writer to win the Nobel Prize in Literature.",
+        "In the early 1990s, a Hindi-dubbed Japanese cartoon of it brought Mowgli into Indian homes. Gulzar wrote its title song, with the line Chaddi pehen ke phool khila hai."
+      ],
+      "answer": "The Jungle Book",
+      "accept": [
+        "the jungle book",
+        "jungle book",
+        "jungle book shonen mowgli"
+      ],
+      "explanation": "Rudyard Kipling's The Jungle Book gave the Cub Scouts their Akela and gave 1990s Indian TV Mowgli, with Gulzar's Chaddi pehen ke phool khila hai.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c027",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "For decades it came in a yellow tin with a green palm tree on it, until a 2009 makeover replaced the tree with a mother and child.",
+        "Lever launched it in 1937, joining the name of an importer called Dada with an L for Lever.",
+        "Its name became the everyday word for vanaspati, the cheap substitute for desi ghee in Indian kitchens."
+      ],
+      "answer": "Dalda",
+      "accept": [
+        "dalda",
+        "dalda vanaspati",
+        "dalda ghee"
+      ],
+      "explanation": "Dalda, Dada plus an L for Lever, was the palm-tree tin of vanaspati that became a generic word for it.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c028",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "After Partition, one of its creator's sons kept making it in Delhi while the other began making it in Karachi, and it is still made in India, Pakistan and Bangladesh.",
+        "A Unani physician in Old Delhi created it more than a century ago from herbs, fruits and flowers such as rose and kewra. Its name means refresher of the soul.",
+        "Hamdard's ruby red sharbat, stirred into cold milk or water and a fixture at iftar during Ramzan."
+      ],
+      "answer": "Rooh Afza",
+      "accept": [
+        "rooh afza",
+        "ruh afza",
+        "roohafza",
+        "rooh-afza",
+        "ruhafza"
+      ],
+      "explanation": "Rooh Afza, created by Hakim Hafiz Abdul Majeed in Old Delhi in the early 1900s, split between his sons at Partition and is now made by Hamdard in India, Pakistan and Bangladesh.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c029",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Mark Twain was born when it appeared in 1835, said he expected to go out with it, and died in 1910 the day after it swung closest to the Sun.",
+        "In 1986 a European space probe, named after the Italian painter Giotto, flew within about 600 kilometres of its icy core.",
+        "Named after the English astronomer who predicted its return, it comes back roughly every 75 to 76 years. It last visited in 1986 and is next due in 2061."
+      ],
+      "answer": "Halley's Comet",
+      "accept": [
+        "halley's comet",
+        "halleys comet",
+        "halley",
+        "comet halley",
+        "halley comet",
+        "haley's comet",
+        "haleys comet"
+      ],
+      "explanation": "Halley's Comet bracketed Mark Twain's life, was visited in 1986 by ESA's Giotto probe, and returns every 75 to 76 years.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104c030",
+      "topic": "connect",
+      "connect": true,
+      "clues": [
+        "Kolkata's version, usually traced to the kitchens of the exiled Wajid Ali Shah of Awadh, is famous for the potato hidden in it.",
+        "Hyderabad's kacchi style layers raw marinated meat under rice and cooks it on dum, in a pot sealed with dough.",
+        "Year after year, it is the dish Indians order most on Swiggy."
+      ],
+      "answer": "Biryani",
+      "accept": [
+        "biryani",
+        "biriyani",
+        "biriani",
+        "briyani",
+        "biryani rice"
+      ],
+      "explanation": "Biryani, from Kolkata's potato version to Hyderabad's kacchi dum, is India's most-ordered dish on Swiggy.",
+      "created": "2026-11-04"
+    },
+    {
+      "id": "q1104e001",
+      "topic": "cricket",
+      "question": "MS Dhoni's trademark stroke whips a full ball over the leg side, with the bat whirling round above his head at the finish. What is the shot called?",
+      "answer": "Helicopter shot",
+      "accept": [
+        "helicopter shot",
+        "helicopter",
+        "the helicopter shot",
+        "helicopter shots"
+      ],
+      "explanation": "Dhoni's helicopter shot flicks yorkers and full balls over midwicket or long-on, the bat twirling over his head like rotor blades in the follow-through.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Scoop shot",
+        "Switch hit",
+        "Reverse sweep"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e002",
+      "topic": "cricket",
+      "question": "When a batter is out without scoring a single run, the scorers say he made a score named after which bird?",
+      "answer": "Duck",
+      "accept": [
+        "duck",
+        "a duck",
+        "golden duck",
+        "duck's egg",
+        "ducks egg"
+      ],
+      "explanation": "Duck is short for duck's egg, from the oval shape of a nought in the scorebook; out first ball is a golden duck.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Crow",
+        "Parrot",
+        "Pigeon"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e003",
+      "topic": "cricket",
+      "question": "Harbhajan Singh, Irfan Pathan and Kuldeep Yadav have all taken three wickets off three consecutive balls for India. What is this feat called?",
+      "answer": "Hat-trick",
+      "accept": [
+        "hat-trick",
+        "hat trick",
+        "hattrick",
+        "a hat-trick",
+        "a hat trick"
+      ],
+      "explanation": "The word dates to 1858, when fans bought HH Stephenson a hat after he took three wickets in three balls; Harbhajan took India's first Test hat-trick in 2001.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Five-wicket haul",
+        "Maiden over",
+        "Golden duck"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e004",
+      "topic": "cricket",
+      "question": "Every IPL season, the top wicket-taker wears a purple cap. What colour is the cap worn by the batter with the most runs?",
+      "answer": "Orange",
+      "accept": [
+        "orange",
+        "orange cap",
+        "the orange cap"
+      ],
+      "explanation": "The Orange Cap for the season's leading run-scorer was introduced in the first IPL season in 2008, alongside the Purple Cap for the leading wicket-taker.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Green",
+        "Blue",
+        "Yellow"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e005",
+      "topic": "cricket",
+      "question": "A tennis ball, a narrow lane, one tip one hand is out, and hitting the ball into a neighbour's house is out too. What do we call this kind of cricket?",
+      "answer": "Gully cricket",
+      "accept": [
+        "gully cricket",
+        "gali cricket",
+        "galli cricket",
+        "gully",
+        "gali",
+        "street cricket"
+      ],
+      "explanation": "Gully cricket, played in lanes and backstreets with house rules like one tip one hand, is where most Indian cricketers first picked up a bat.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Box cricket",
+        "Beach cricket",
+        "Indoor cricket"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e006",
+      "topic": "cricket",
+      "question": "Bangalore, 1996 World Cup quarter-final. Aamir Sohail hits a four and points his bat at the boundary to taunt the bowler, who knocks back his off stump the very next ball. Name the Indian bowler.",
+      "answer": "Venkatesh Prasad",
+      "accept": [
+        "venkatesh prasad",
+        "prasad",
+        "venky",
+        "venkatesh",
+        "bk venkatesh prasad"
+      ],
+      "explanation": "Venkatesh Prasad bowled Aamir Sohail next ball in the 1996 quarter-final at Bangalore, and India went on to beat Pakistan by 39 runs.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Javagal Srinath",
+        "Manoj Prabhakar",
+        "Anil Kumble"
+      ],
+      "themes": [
+        "personalities",
+        "south_india"
+      ],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e007",
+      "topic": "cricket",
+      "question": "This Punjab opener was nicknamed Sixer for his big hitting, became famous for flowery one-liners in the commentary box, and later laughed his way through Kapil Sharma's comedy shows. Name him.",
+      "answer": "Navjot Singh Sidhu",
+      "accept": [
+        "navjot singh sidhu",
+        "navjot sidhu",
+        "sidhu",
+        "sixer sidhu",
+        "sherry",
+        "sherry paaji"
+      ],
+      "explanation": "Navjot Singh Sidhu, known as Sixer Sidhu, turned commentator in 2001 with his trademark Sidhuisms and was a regular on Kapil Sharma's shows from 2013 to 2019.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Kris Srikkanth",
+        "Kirti Azad",
+        "Maninder Singh"
+      ],
+      "themes": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "q1104e008",
+      "topic": "cricket",
+      "question": "As a schoolboy, MS Dhoni kept goal in football before a coach turned him into a wicketkeeper. In which city, the capital of Jharkhand, did he grow up?",
+      "answer": "Ranchi",
+      "accept": [
+        "ranchi"
+      ],
+      "explanation": "Dhoni grew up in Ranchi, where his sports teacher at DAV Jawahar Vidya Mandir spotted him in goal and put him behind the stumps.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Jamshedpur",
+        "Dhanbad",
+        "Bokaro"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e009",
+      "topic": "cricket",
+      "question": "Which Australian fast bowler delighted Indian fans by recording a love song duet with Asha Bhosle, called You're the One for Me?",
+      "answer": "Brett Lee",
+      "accept": [
+        "brett lee",
+        "lee",
+        "binga"
+      ],
+      "explanation": "Brett Lee wrote You're the One for Me while in India for the 2006 Champions Trophy and recorded it with Asha Bhosle; it climbed to number two on the Indian charts.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Glenn McGrath",
+        "Jason Gillespie",
+        "Mitchell Johnson"
+      ],
+      "themes": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "q1104e010",
+      "topic": "cricket",
+      "question": "The World Cup that Kapil Dev's team lifted in 1983 carried the name of its sponsor, a British insurance company. What was the tournament called?",
+      "answer": "Prudential Cup",
+      "accept": [
+        "prudential cup",
+        "prudential",
+        "prudential world cup",
+        "the prudential cup"
+      ],
+      "explanation": "Prudential sponsored the first three World Cups in 1975, 1979 and 1983; the 1987 edition in India and Pakistan became the Reliance Cup.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Reliance Cup",
+        "Wills Cup",
+        "Benson and Hedges Cup"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e011",
+      "topic": "cricket",
+      "question": "In the 2011 World Cup semi-final, India beat Pakistan while the two prime ministers, Manmohan Singh and Yousuf Raza Gilani, watched together from the stands. Which Punjab town hosted the match?",
+      "answer": "Mohali",
+      "accept": [
+        "mohali",
+        "sas nagar",
+        "sahibzada ajit singh nagar"
+      ],
+      "explanation": "The semi-final on 30 March 2011 was played at the Punjab Cricket Association Stadium in Mohali, and India won by 29 runs to reach the final.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Ludhiana",
+        "Jalandhar",
+        "Amritsar"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e012",
+      "topic": "cricket",
+      "question": "2007 T20 World Cup final. Misbah scoops Joginder Sharma high towards short fine leg, and India are world champions when which Kerala fast bowler holds the catch?",
+      "answer": "Sreesanth",
+      "accept": [
+        "sreesanth",
+        "s sreesanth",
+        "shanthakumaran sreesanth",
+        "sree"
+      ],
+      "explanation": "Sreesanth caught Misbah-ul-Haq at short fine leg off Joginder Sharma's last over, and India beat Pakistan by five runs at Johannesburg.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "R P Singh",
+        "Irfan Pathan",
+        "Harbhajan Singh"
+      ],
+      "themes": [
+        "personalities",
+        "south_india"
+      ]
+    },
+    {
+      "id": "q1104e013",
+      "topic": "cricket",
+      "question": "At the 2003 World Cup in Centurion, Sachin Tendulkar upper-cut the Rawalpindi Express for a six that every Indian fan remembers. Name the bowler.",
+      "answer": "Shoaib Akhtar",
+      "accept": [
+        "shoaib akhtar",
+        "shoaib",
+        "akhtar"
+      ],
+      "explanation": "Tendulkar's upper-cut six off Shoaib Akhtar came during his 98 off 75 balls at Centurion, as India beat Pakistan by six wickets.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Wasim Akram",
+        "Waqar Younis",
+        "Abdul Razzaq"
+      ],
+      "themes": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "q1104e014",
+      "topic": "cricket",
+      "question": "After Sachin Tendulkar hammered him in 1998, which Australian leg-spinner joked that he would have nightmares of Sachin dancing down the track and hitting him for six?",
+      "answer": "Shane Warne",
+      "accept": [
+        "shane warne",
+        "warne",
+        "warnie"
+      ],
+      "explanation": "Shane Warne made the nightmares remark after Tendulkar's assault in the 1998 Sharjah series, though he later called it a throwaway line.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Stuart MacGill",
+        "Brad Hogg",
+        "Nathan Lyon"
+      ],
+      "themes": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "q1104e015",
+      "topic": "general",
+      "question": "Nine white pieces, nine black pieces, one red queen, and a striker flicked with the finger towards four corner pockets. Name the game.",
+      "answer": "Carrom",
+      "accept": [
+        "carrom",
+        "carrom board",
+        "carom",
+        "karom",
+        "carroms"
+      ],
+      "explanation": "Carrom is played with nine white and nine black men and a red queen, which must be covered by pocketing one of your own pieces straight after it.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Snooker",
+        "Billiards",
+        "Pool"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e016",
+      "topic": "general",
+      "question": "In the old Indian board game Moksha Patam, good deeds carry you up the board and sins drag you back down. What do we call this game today?",
+      "answer": "Snakes and Ladders",
+      "accept": [
+        "snakes and ladders",
+        "snake and ladder",
+        "snakes and ladder",
+        "snake and ladders",
+        "saanp seedhi",
+        "saap seedhi",
+        "sanp sidi",
+        "chutes and ladders"
+      ],
+      "explanation": "Snakes and Ladders grew out of Moksha Patam, also called Gyan Chaupar, in which ladders stood for virtues and snakes for vices; British families took it to England in the 1890s.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Ludo",
+        "Chinese Checkers",
+        "Business"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e017",
+      "topic": "general",
+      "question": "One long stick and one small wooden piece tapered at both ends: you tap it into the air and whack it as far as you can. Name this street game played all over India.",
+      "answer": "Gilli danda",
+      "accept": [
+        "gilli danda",
+        "gilli-danda",
+        "gulli danda",
+        "guli danda",
+        "gilli",
+        "gulli",
+        "vitti dandu",
+        "viti dandu",
+        "kitti pul",
+        "kitti pullu",
+        "chinni kolu"
+      ],
+      "explanation": "Gilli danda is played with a short tapered gilli and a longer danda, and goes by many regional names, such as vitti dandu in Marathi, kitti pul in Tamil and chinni kolu in Kannada.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Kancha",
+        "Pitthu",
+        "Langdi"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e018",
+      "topic": "general",
+      "question": "India's national award for sports coaches is named after the guru who taught archery to Arjuna. What is the award called?",
+      "answer": "Dronacharya Award",
+      "accept": [
+        "dronacharya award",
+        "dronacharya",
+        "drona",
+        "dronacharya puraskar",
+        "drona award"
+      ],
+      "explanation": "The Dronacharya Award for outstanding coaches was instituted in 1985, a fitting partner to the Arjuna Award for sportspersons.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Arjuna Award",
+        "Eklavya Award",
+        "Khel Ratna Award"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e019",
+      "topic": "general",
+      "question": "In the 1983 James Bond film Octopussy, Roger Moore's ally in Rajasthan is a spy who works as a tennis coach and swats villains with his racket. Which Indian tennis star played him?",
+      "answer": "Vijay Amritraj",
+      "accept": [
+        "vijay amritraj",
+        "amritraj"
+      ],
+      "explanation": "Amritraj made his film debut in Octopussy as an MI6 agent with a part-time job as a tennis pro, and fights off Kamal Khan's men with a racket during the auto rickshaw chase.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Ramesh Krishnan",
+        "Ramanathan Krishnan",
+        "Jaidip Mukerjea"
+      ],
+      "themes": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "q1104e020",
+      "topic": "general",
+      "question": "On 29 May 1953, Edmund Hillary and a Sherpa who had made his home in Darjeeling became the first climbers to stand on top of Mount Everest. Name the Sherpa.",
+      "answer": "Tenzing Norgay",
+      "accept": [
+        "tenzing norgay",
+        "tenzing",
+        "sherpa tenzing",
+        "tenzing norkay",
+        "tenzing norgay sherpa"
+      ],
+      "explanation": "Tenzing Norgay and the New Zealander Edmund Hillary reached the summit on 29 May 1953 as part of the British expedition led by John Hunt.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Nawang Gombu",
+        "Apa Sherpa",
+        "Pasang Dawa Lama"
+      ],
+      "themes": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "q1104e021",
+      "topic": "cinema",
+      "question": "In Sholay, Hema Malini plays a chatterbox from Ramgarh who drives a tonga pulled by her mare Dhanno. What is her name?",
+      "answer": "Basanti",
+      "accept": [
+        "basanti"
+      ],
+      "explanation": "Basanti, the talkative tangewali of Ramgarh, urges her mare on with Chal Dhanno in Ramesh Sippy's 1975 classic Sholay.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Radha",
+        "Geeta",
+        "Reshma"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e022",
+      "topic": "cinema",
+      "question": "In Dabangg, Salman Khan plays a swaggering small-town cop in Uttar Pradesh who likes to call himself Robin Hood. Name the character.",
+      "answer": "Chulbul Pandey",
+      "accept": [
+        "chulbul pandey",
+        "chulbul",
+        "robin hood pandey"
+      ],
+      "explanation": "Salman Khan's Inspector Chulbul Pandey of Lalganj, who styles himself Robin Hood Pandey, has carried the Dabangg series since 2010.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Bajirao Singham",
+        "Sangram Bhalerao",
+        "Rajveer Shekhawat"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e023",
+      "topic": "cinema",
+      "question": "In Raj Kapoor's Bobby, this villain's single line, announcing his own name, became his catchphrase for life. Name the actor.",
+      "answer": "Prem Chopra",
+      "accept": [
+        "prem chopra",
+        "chopra"
+      ],
+      "explanation": "Prem Chopra had only a small role as a local goon in Bobby in 1973, but his line Prem naam hai mera, Prem Chopra became his trademark.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Ranjeet",
+        "Shakti Kapoor",
+        "Amrish Puri"
+      ],
+      "themes": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "q1104e024",
+      "topic": "cinema",
+      "question": "Called Bihari Babu, this Patna-born star made the thundering one-word order Khamosh his trademark, and his daughter Sonakshi followed him into films. Name him.",
+      "answer": "Shatrughan Sinha",
+      "accept": [
+        "shatrughan sinha",
+        "shatrughan",
+        "sinha",
+        "shotgun"
+      ],
+      "explanation": "Shatrughan Sinha, born in Patna and nicknamed Bihari Babu and Shotgun, is the father of actress Sonakshi Sinha, and his biography is titled Anything But Khamosh.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Raaj Kumar",
+        "Vinod Khanna",
+        "Sunil Dutt"
+      ],
+      "themes": [
+        "personalities"
+      ],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e025",
+      "topic": "cinema",
+      "question": "In this 1971 hit, Rajesh Khanna plays an orphan who grows up among elephants, with one called Ramu as his best friend. Name the film.",
+      "answer": "Haathi Mere Saathi",
+      "accept": [
+        "haathi mere saathi",
+        "hathi mere sathi",
+        "haathi mere sathi"
+      ],
+      "explanation": "Haathi Mere Saathi, produced by Sandow M M A Chinnappa Thevar and written by Salim-Javed, starred Rajesh Khanna and Tanuja and was a huge hit of 1971.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Kati Patang",
+        "Sachaa Jhutha",
+        "Dushman"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e026",
+      "topic": "cinema",
+      "question": "Aamir Khan plays a small-town taxi driver who falls for a rich girl played by Karisma Kapoor in this 1996 blockbuster, famous for the song Pardesi Pardesi. Name the film.",
+      "answer": "Raja Hindustani",
+      "accept": [
+        "raja hindustani"
+      ],
+      "explanation": "Dharmesh Darshan's Raja Hindustani, with music by Nadeem-Shravan, was the highest-grossing Hindi film of 1996.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Rangeela",
+        "Akele Hum Akele Tum",
+        "Ishq"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e027",
+      "topic": "cinema",
+      "question": "In 2000, director Rakesh Roshan launched his son Hrithik in a double role opposite newcomer Ameesha Patel, and a superstar was born overnight. Name the film.",
+      "answer": "Kaho Naa Pyaar Hai",
+      "accept": [
+        "kaho naa pyaar hai",
+        "kaho na pyar hai",
+        "kaho naa... pyaar hai",
+        "kaho na pyaar hai"
+      ],
+      "explanation": "Kaho Naa... Pyaar Hai, released in January 2000, launched Hrithik Roshan as Rohit and Raj, and Ameesha Patel as Sonia.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Kya Kehna",
+        "Mission Kashmir",
+        "Mujhse Dosti Karoge"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e028",
+      "topic": "cinema",
+      "question": "Aamir Khan plays a Haryana wrestler who trains his daughters Geeta and Babita to take on the boys in this 2016 film. Name it.",
+      "answer": "Dangal",
+      "accept": [
+        "dangal"
+      ],
+      "explanation": "Dangal tells the story of Mahavir Singh Phogat and his wrestler daughters Geeta and Babita, and became a giant hit in India and China.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Sultan",
+        "Lagaan",
+        "Bhaag Milkha Bhaag"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e029",
+      "topic": "cinema",
+      "question": "This 1999 film, with Amitabh Bachchan as both a stern Thakur and his son Heera, flopped in cinemas but became a legend through endless reruns on Set Max. Name it.",
+      "answer": "Sooryavansham",
+      "accept": [
+        "sooryavansham",
+        "suryavansham",
+        "suryavansam"
+      ],
+      "explanation": "Sooryavansham, with Amitabh as Thakur Bhanu Pratap Singh and his son Heera, did poorly at the box office but won a cult following through countless Set Max screenings.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Major Saab",
+        "Hindustan Ki Kasam",
+        "Lal Baadshah"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e030",
+      "topic": "cinema",
+      "question": "Salman Khan plays Pawan, a simple Hanuman devotee who crosses the border to take a lost mute Pakistani girl called Munni home. Name the 2015 film.",
+      "answer": "Bajrangi Bhaijaan",
+      "accept": [
+        "bajrangi bhaijaan",
+        "bajrangi bhaijan",
+        "bajrangi"
+      ],
+      "explanation": "Kabir Khan's Bajrangi Bhaijaan cast Harshaali Malhotra as Shahida, nicknamed Munni, whom Pawan takes back to her village across the border.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Ek Tha Tiger",
+        "Tubelight",
+        "Prem Ratan Dhan Payo"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e031",
+      "topic": "music",
+      "question": "Raj Kapoor's title song from his 1951 film, sung by Mukesh, became a craze as far away as the Soviet Union, China and Turkey. Name the song.",
+      "answer": "Awara Hoon",
+      "accept": [
+        "awara hoon",
+        "awaara hoon",
+        "awara hun",
+        "awaara"
+      ],
+      "explanation": "Awara Hoon from Awaara, written by Shailendra and composed by Shankar-Jaikishan, became hugely popular in the Soviet Union, China and Turkey.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Mera Joota Hai Japani",
+        "Jeena Yahan Marna Yahan",
+        "Dost Dost Na Raha"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e032",
+      "topic": "music",
+      "question": "Indian birthday parties have played this Mohammed Rafi song from the 1967 film Farz for decades, because it breaks into Happy Birthday to You. Name the song.",
+      "answer": "Baar Baar Din Yeh Aaye",
+      "accept": [
+        "baar baar din yeh aaye",
+        "baar baar din ye aaye",
+        "bar bar din ye aaye",
+        "tum jiyo hazaaron saal"
+      ],
+      "explanation": "Baar Baar Din Yeh Aaye, composed by Laxmikant-Pyarelal with lyrics by Anand Bakshi, comes from the Jeetendra and Babita film Farz.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Mast Baharon Ka Main Aashiq",
+        "Aane Se Uske Aaye Bahar",
+        "Dil Ke Jharokhe Mein"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e033",
+      "topic": "music",
+      "question": "Which Mohammed Rafi song from the 1977 film Aadmi Sadak Ka has become the anthem every baraat band plays while the groom's friends dance?",
+      "answer": "Aaj Mere Yaar Ki Shaadi Hai",
+      "accept": [
+        "aaj mere yaar ki shaadi hai",
+        "mere yaar ki shaadi hai",
+        "yaar ki shaadi hai"
+      ],
+      "explanation": "Aaj Mere Yaar Ki Shaadi Hai, sung by Mohammed Rafi for Aadmi Sadak Ka, was composed by Ravi with lyrics by Verma Malik, and has been a baraat favourite ever since.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Yeh Desh Hai Veer Jawanon Ka",
+        "Baharon Phool Barsao",
+        "Babul Ki Duaayen Leti Ja"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e034",
+      "topic": "music",
+      "question": "In Shekhar Kapur's 1983 film Masoom, the children sing a Gulzar nursery rhyme about a horse that is still sung in Indian homes. Name the song.",
+      "answer": "Lakdi Ki Kaathi",
+      "accept": [
+        "lakdi ki kaathi",
+        "lakdi ki kathi",
+        "lakadi ki kathi",
+        "lakdi ki kaathi kaathi pe ghoda"
+      ],
+      "explanation": "Lakdi Ki Kaathi, composed by RD Burman and sung by Vanita Mishra, Gauri Bapat and Gurpreet Kaur, was picturised on Jugal Hansraj and Urmila Matondkar.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Chanda Mama Door Ke",
+        "Nanha Munna Rahi Hoon",
+        "Bachche Man Ke Sachche"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e035",
+      "topic": "music",
+      "question": "In Mr India, Sridevi dances to a Kavita Krishnamurthy song whose title became her nickname. Name the song.",
+      "answer": "Hawa Hawai",
+      "accept": [
+        "hawa hawai",
+        "hawa hawaii",
+        "hawa hawaai"
+      ],
+      "explanation": "Hawa Hawai, composed by Laxmikant-Pyarelal with lyrics by Javed Akhtar and choreography by Saroj Khan, gave Sridevi a lasting nickname.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Mere Haathon Mein",
+        "Main Teri Dushman",
+        "Naino Mein Sapna"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e036",
+      "topic": "music",
+      "question": "In Maine Pyar Kiya, Bhagyashree sends her love letter to Salman Khan with a feathered messenger, in a duet by Lata Mangeshkar and SP Balasubrahmanyam. Name the song.",
+      "answer": "Kabootar Ja Ja Ja",
+      "accept": [
+        "kabootar ja ja ja",
+        "kabutar ja ja ja",
+        "kabootar ja"
+      ],
+      "explanation": "Kabootar Ja Ja Ja, composed by Raamlaxman, is from Sooraj Barjatya's 1989 blockbuster Maine Pyar Kiya.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Dil Deewana",
+        "Aate Jaate",
+        "Mere Rang Mein"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e037",
+      "topic": "music",
+      "question": "In Dilwale Dulhania Le Jayenge, Shah Rukh Khan and Kajol meet among yellow mustard fields in a Lata Mangeshkar and Kumar Sanu duet. Name the song.",
+      "answer": "Tujhe Dekha To",
+      "accept": [
+        "tujhe dekha to",
+        "tujhe dekha toh",
+        "tujhe dekha to yeh jaana sanam",
+        "tujhe dekha toh ye jaana sanam"
+      ],
+      "explanation": "Tujhe Dekha To, composed by Jatin-Lalit with lyrics by Anand Bakshi, was shot in mustard fields near Gurgaon.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Mehndi Laga Ke Rakhna",
+        "Ho Gaya Hai Tujhko",
+        "Mere Khwabon Mein"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e038",
+      "topic": "history",
+      "question": "Akbar's grandfather, a prince born in the Fergana valley of Central Asia, founded the Mughal empire in India. Name him.",
+      "answer": "Babur",
+      "accept": [
+        "babur",
+        "babar",
+        "zahir ud din muhammad babur",
+        "zahiruddin babur"
+      ],
+      "explanation": "Babur, born in Andijan in the Fergana valley, founded the Mughal empire after defeating Ibrahim Lodi at Panipat in 1526; Humayun was his son and Akbar his grandson.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Humayun",
+        "Timur",
+        "Bairam Khan"
+      ],
+      "themes": [
+        "personalities"
+      ],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e039",
+      "topic": "history",
+      "question": "A bronze figure only about four inches tall, a young woman with one arm covered in bangles, was dug up at Mohenjo-daro. By what two-word name is she known?",
+      "answer": "Dancing Girl",
+      "accept": [
+        "dancing girl",
+        "the dancing girl",
+        "dancing girl of mohenjo daro",
+        "dancing girl of mohenjo-daro"
+      ],
+      "explanation": "The Dancing Girl, a bronze statuette about 10.5 centimetres tall with some two dozen bangles on her left arm, is one of the best-known finds from Mohenjo-daro and is kept at the National Museum in New Delhi.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Priest King",
+        "Mother Goddess",
+        "Pashupati Seal"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e040",
+      "topic": "history",
+      "question": "Kalidasa's plays, Aryabhata's astronomy and the rust-resistant iron pillar in Delhi all come from an age often called India's golden age. Which dynasty ruled then?",
+      "answer": "Gupta",
+      "accept": [
+        "gupta",
+        "guptas",
+        "gupta dynasty",
+        "gupta empire",
+        "the guptas"
+      ],
+      "explanation": "The Gupta period, roughly the fourth to sixth centuries, is often called India's golden age; the iron pillar was raised under Chandragupta II and Aryabhata wrote the Aryabhatiya in this era.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Maurya",
+        "Kushan",
+        "Satavahana"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e041",
+      "topic": "history",
+      "question": "The Peshwa Bajirao, hero of the film Bajirao Mastani, built a fortified palace in Pune whose name begins with the word for Saturday. What is it called?",
+      "answer": "Shaniwar Wada",
+      "accept": [
+        "shaniwar wada",
+        "shaniwarwada",
+        "shanivar wada",
+        "shaniwar wada fort"
+      ],
+      "explanation": "Bajirao I laid the foundation of Shaniwar Wada in Pune in January 1730 and it stayed the seat of the Peshwas until 1818; Shaniwar is Marathi for Saturday and wada means a mansion.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Lal Mahal",
+        "Nana Wada",
+        "Vishrambaug Wada"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e042",
+      "topic": "history",
+      "question": "Chanakya is said to have taught at which great ancient seat of learning, whose ruins now lie near Rawalpindi in Pakistan?",
+      "answer": "Takshashila",
+      "accept": [
+        "takshashila",
+        "taxila",
+        "takshila",
+        "takshasila"
+      ],
+      "explanation": "Takshashila, or Taxila, about 35 kilometres from Rawalpindi, is traditionally where Chanakya taught; its ruins became a UNESCO World Heritage Site in 1980.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Nalanda",
+        "Vikramashila",
+        "Valabhi"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e043",
+      "topic": "history",
+      "question": "Shivaji grew up in Pune hearing tales of the Ramayana and Mahabharata from his mother, who shaped his dream of swaraj. Name her.",
+      "answer": "Jijabai",
+      "accept": [
+        "jijabai",
+        "jijau",
+        "jijamata",
+        "rajmata jijabai",
+        "jija bai"
+      ],
+      "explanation": "Jijabai, also called Rajmata Jijau, raised Shivaji at Pune while his father Shahaji served elsewhere, and is remembered for bringing him up on the epics.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Tarabai",
+        "Yesubai",
+        "Ahilyabai"
+      ],
+      "themes": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "q1104e044",
+      "topic": "history",
+      "question": "Tantia Tope, Kunwar Singh, Begum Hazrat Mahal and Mangal Pandey all rose against the Company in the great uprising of which year?",
+      "answer": "1857",
+      "accept": [
+        "1857",
+        "eighteen fifty seven",
+        "eighteen fifty-seven"
+      ],
+      "explanation": "The Revolt of 1857, which began with sepoy mutinies at Barrackpore and Meerut, drew in leaders like Tantia Tope, Kunwar Singh and Begum Hazrat Mahal.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "1757",
+        "1847",
+        "1867"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e045",
+      "topic": "history",
+      "question": "Subhadra Kumari Chauhan's Hindi poem, with its famous refrain Khoob ladi mardani, honours a queen who fought the British on horseback. Which city did she rule?",
+      "answer": "Jhansi",
+      "accept": [
+        "jhansi"
+      ],
+      "explanation": "Subhadra Kumari Chauhan's poem Jhansi Ki Rani celebrates Rani Lakshmibai, and each stanza ends with the refrain Khoob ladi mardani, woh toh Jhansi wali rani thi.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Kittur",
+        "Gwalior",
+        "Lucknow"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e046",
+      "topic": "history",
+      "question": "When a British commission with no Indian members landed in Bombay in 1928, crowds across India met it with black flags and which slogan?",
+      "answer": "Simon Go Back",
+      "accept": [
+        "simon go back",
+        "simon, go back"
+      ],
+      "explanation": "The Simon Commission of 1927 to 1928 had no Indian member, so it was boycotted and greeted everywhere with black flags reading Simon Go Back.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Quit India",
+        "Do or Die",
+        "Purna Swaraj"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e047",
+      "topic": "history",
+      "question": "In London in 1931, Gandhi met a silent-film star famous as the little Tramp with a bowler hat and cane. Name him.",
+      "answer": "Charlie Chaplin",
+      "accept": [
+        "charlie chaplin",
+        "chaplin",
+        "charles chaplin"
+      ],
+      "explanation": "Gandhi, in London for the Round Table Conference, met Charlie Chaplin on 22 September 1931 at a house in Canning Town in the East End.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Buster Keaton",
+        "Harold Lloyd",
+        "Stan Laurel"
+      ],
+      "themes": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "q1104e048",
+      "topic": "history",
+      "question": "In Singapore in 1943, Netaji gave his Indian National Army a two-word battle cry telling them to march on the capital. What was it?",
+      "answer": "Dilli Chalo",
+      "accept": [
+        "dilli chalo",
+        "chalo dilli",
+        "delhi chalo",
+        "chalo delhi"
+      ],
+      "explanation": "Subhas Chandra Bose gave the call Dilli Chalo to the Indian National Army in Singapore in July 1943, and it became the army's battle cry.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Jai Hind",
+        "Inquilab Zindabad",
+        "Karo ya Maro"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e049",
+      "topic": "history",
+      "question": "India's highest wartime gallantry medal, instituted in 1950, was designed by Savitri Khanolkar, a Swiss-born woman married to an Indian Army officer. Name the medal.",
+      "answer": "Param Vir Chakra",
+      "accept": [
+        "param vir chakra",
+        "paramvir chakra",
+        "param veer chakra",
+        "pvc"
+      ],
+      "explanation": "Savitri Khanolkar, born Eve Yvonne Maday de Maros in Switzerland, designed the Param Vir Chakra, India's highest military award for gallantry in war, instituted on 26 January 1950.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Maha Vir Chakra",
+        "Ashoka Chakra",
+        "Vir Chakra"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e050",
+      "topic": "polity",
+      "question": "In 1972 she became the first woman to join the Indian Police Service, and she later ran Tihar Jail. Name her.",
+      "answer": "Kiran Bedi",
+      "accept": [
+        "kiran bedi",
+        "bedi",
+        "crane bedi"
+      ],
+      "explanation": "Kiran Bedi joined the Indian Police Service in 1972 as its first woman officer and later served as Inspector General of Prisons at Tihar.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Anna Rajam Malhotra",
+        "Sucheta Kripalani",
+        "Kanchan Chaudhary Bhattacharya"
+      ],
+      "themes": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "q1104e051",
+      "topic": "polity",
+      "question": "On 2 June 2014, a new state was carved out of Andhra Pradesh, with Hyderabad as its capital. Name it.",
+      "answer": "Telangana",
+      "accept": [
+        "telangana"
+      ],
+      "explanation": "Telangana became India's twenty-ninth state on 2 June 2014, carved out of Andhra Pradesh, with Hyderabad as its capital.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Uttarakhand",
+        "Jharkhand",
+        "Chhattisgarh"
+      ],
+      "themes": [
+        "south_india"
+      ],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e052",
+      "topic": "polity",
+      "question": "The Vice President of India has a second job: chairing which house of Parliament?",
+      "answer": "Rajya Sabha",
+      "accept": [
+        "rajya sabha",
+        "council of states"
+      ],
+      "explanation": "Under the Constitution the Vice President is the ex officio Chairman of the Rajya Sabha, the Council of States.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Lok Sabha",
+        "Vidhan Sabha",
+        "Vidhan Parishad"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e053",
+      "topic": "polity",
+      "question": "In the Lok Sabha, members never address one another directly; every remark goes to the presiding officer in the high chair. What is that post called?",
+      "answer": "Speaker",
+      "accept": [
+        "speaker",
+        "the speaker",
+        "speaker of the lok sabha"
+      ],
+      "explanation": "Members of the Lok Sabha address the Speaker, who presides over the house, rather than speaking to each other directly.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Secretary General",
+        "Chief Whip",
+        "Leader of the House"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e054",
+      "topic": "polity",
+      "question": "Since 2013, the last button on every Indian voting machine lets a voter reject all the candidates. What is it called?",
+      "answer": "NOTA",
+      "accept": [
+        "nota",
+        "none of the above"
+      ],
+      "explanation": "After the Supreme Court's 2013 ruling in the PUCL case, the Election Commission added the None of the Above, or NOTA, button to voting machines.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "VVPAT",
+        "EPIC",
+        "EVM"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e055",
+      "topic": "polity",
+      "question": "At a Lok Sabha polling booth, before you vote, an official marks you with indelible ink. On which finger of which hand?",
+      "answer": "Left index finger",
+      "accept": [
+        "left index finger",
+        "left forefinger",
+        "left index",
+        "index finger of the left hand",
+        "forefinger of the left hand"
+      ],
+      "explanation": "Rule 49K of the Conduct of Elections Rules, 1961 requires the indelible ink mark on the voter's left forefinger.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Right index finger",
+        "Left thumb",
+        "Left little finger"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e056",
+      "topic": "polity",
+      "question": "Played in full, India's national anthem officially takes about how many seconds?",
+      "answer": "52",
+      "accept": [
+        "52",
+        "fifty two",
+        "fifty-two",
+        "52 seconds"
+      ],
+      "explanation": "The official playing time of the full Jana Gana Mana is approximately 52 seconds; the short version of its first and last lines takes about 20 seconds.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "20",
+        "45",
+        "75"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e057",
+      "topic": "general",
+      "question": "In Bihar, devotees fast without even a sip of water and stand waist-deep in rivers to offer prayers to the setting sun and then the rising sun. Name the festival.",
+      "answer": "Chhath",
+      "accept": [
+        "chhath",
+        "chhath puja",
+        "chhath parv",
+        "chhat",
+        "chath",
+        "chhath pooja"
+      ],
+      "explanation": "Chhath falls six days after Diwali, and ends with offerings to the setting sun one evening and the rising sun the next morning.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Teej",
+        "Jitiya",
+        "Karwa Chauth"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e058",
+      "topic": "general",
+      "question": "Around 13 April, Punjab's farmers celebrate the wheat harvest, and Sikhs remember the day in 1699 when Guru Gobind Singh founded the Khalsa. Name the festival.",
+      "answer": "Baisakhi",
+      "accept": [
+        "baisakhi",
+        "vaisakhi",
+        "visakhi",
+        "besakhi",
+        "vaishakhi"
+      ],
+      "explanation": "Baisakhi, usually on 13 or 14 April, marks the rabi harvest in Punjab and the founding of the Khalsa at Anandpur Sahib in 1699.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Lohri",
+        "Hola Mohalla",
+        "Maghi"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e059",
+      "topic": "general",
+      "question": "On this autumn evening, towering effigies of Ravana, Kumbhakarna and Meghnad, stuffed with firecrackers, go up in flames at Ramlila grounds across North India. Name the festival.",
+      "answer": "Dussehra",
+      "accept": [
+        "dussehra",
+        "dasara",
+        "dussera",
+        "dasera",
+        "dashera",
+        "vijayadashami",
+        "vijaya dashami",
+        "vijayadasami"
+      ],
+      "explanation": "Dussehra, or Vijayadashami, marks Rama's victory over Ravana and falls on the day after the nine nights of Navratri.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Diwali",
+        "Holi",
+        "Ram Navami"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e060",
+      "topic": "general",
+      "question": "During Pongal in Tamil Nadu, young men try to cling to the hump of a charging bull in this age-old sport, most famously at Alanganallur near Madurai. Name the sport.",
+      "answer": "Jallikattu",
+      "accept": [
+        "jallikattu",
+        "jalli kattu",
+        "jallikkattu",
+        "eru thazhuvuthal",
+        "manju virattu"
+      ],
+      "explanation": "Jallikattu is held during Pongal in January, and the Alanganallur event near Madurai is the most famous.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Kambala",
+        "Silambam",
+        "Rekla race"
+      ],
+      "themes": [
+        "south_india"
+      ]
+    },
+    {
+      "id": "q1104e061",
+      "topic": "general",
+      "question": "During Ganeshotsav, Maharashtrian homes steam little rice-flour dumplings stuffed with coconut and jaggery, said to be Lord Ganesha's favourite sweet. Name them.",
+      "answer": "Modak",
+      "accept": [
+        "modak",
+        "modaks",
+        "ukadiche modak",
+        "modakam",
+        "kozhukattai"
+      ],
+      "explanation": "Ukadiche modak, steamed rice-flour dumplings filled with coconut and jaggery, are offered to Ganesha, traditionally twenty-one at a time.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Puran poli",
+        "Karanji",
+        "Shankarpali"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e062",
+      "topic": "general",
+      "question": "Gujarat's favourite snack is a soft, spongy, yellow cake of fermented batter, steamed and topped with mustard seeds and green chillies. Name it.",
+      "answer": "Dhokla",
+      "accept": [
+        "dhokla",
+        "khaman",
+        "khaman dhokla",
+        "dhokala"
+      ],
+      "explanation": "Dhokla is steamed from a fermented batter of rice and gram flour, and the softer all gram flour version is called khaman.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Khandvi",
+        "Fafda",
+        "Thepla"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e063",
+      "topic": "general",
+      "question": "On Juhu Beach, vendors mash potatoes, peas and tomatoes with heaps of butter on a giant flat griddle, and serve it with soft toasted bread rolls. Name the dish.",
+      "answer": "Pav bhaji",
+      "accept": [
+        "pav bhaji",
+        "pao bhaji",
+        "paav bhaji",
+        "pav bhaaji"
+      ],
+      "explanation": "Pav bhaji, a buttery mash of vegetables served with toasted pav, is one of Mumbai's best-loved street foods.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Misal pav",
+        "Ragda pattice",
+        "Bhel puri"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e064",
+      "topic": "general",
+      "question": "This aromatic, deep red lamb curry, cooked with mild Kashmiri chillies, is a star of the grand Kashmiri wedding feast. Name it.",
+      "answer": "Rogan josh",
+      "accept": [
+        "rogan josh",
+        "roghan josh",
+        "rogan gosht",
+        "roghan gosht",
+        "rogan josht"
+      ],
+      "explanation": "Rogan josh, a slow-cooked red lamb curry, is one of the main dishes of the wazwan, the multi-course Kashmiri feast served at weddings.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Laal maas",
+        "Yakhni",
+        "Nihari"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e065",
+      "topic": "general",
+      "question": "Bengal's favourite way to end a meal is thick, caramel-sweet yoghurt set in small earthen pots. What is it called in Bengali?",
+      "answer": "Mishti doi",
+      "accept": [
+        "mishti doi",
+        "misti doi",
+        "mishti dohi",
+        "mishti dahi",
+        "misthi doi",
+        "mishti doy"
+      ],
+      "explanation": "Mishti doi is made by setting milk sweetened with sugar or date-palm jaggery in earthen pots, which soak up the excess moisture.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Sandesh",
+        "Payesh",
+        "Chom chom"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e066",
+      "topic": "general",
+      "question": "Punjab's classic winter meal is slow-cooked mustard leaves, eaten with makki di roti and a big dollop of white butter. Name the dish.",
+      "answer": "Sarson da saag",
+      "accept": [
+        "sarson da saag",
+        "sarson ka saag",
+        "sarson saag",
+        "saag",
+        "sarson da sag"
+      ],
+      "explanation": "Sarson da saag, made from mustard greens, is traditionally eaten with makki di roti, a flatbread of maize flour.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Palak paneer",
+        "Aloo methi",
+        "Baingan bharta"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e067",
+      "topic": "general",
+      "question": "Indore's favourite breakfast is a plate of flattened rice cooked with onions and turmeric, topped with crunchy sev and eaten with hot jalebis. Name it.",
+      "answer": "Poha",
+      "accept": [
+        "poha",
+        "pohe",
+        "poha jalebi",
+        "aval",
+        "avalakki"
+      ],
+      "explanation": "Poha, or flattened rice, is the breakfast of choice across Madhya Pradesh and Maharashtra, and Indore serves it with sev and jalebi.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Upma",
+        "Dalia",
+        "Sabudana khichdi"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e068",
+      "topic": "general",
+      "question": "South Indian homes make these soft, round, steamed cakes of fermented rice and urad dal batter in a special stand with dimpled moulds. Name them.",
+      "answer": "Idli",
+      "accept": [
+        "idli",
+        "idly",
+        "iddli",
+        "idlis",
+        "idlies",
+        "idli sambar"
+      ],
+      "explanation": "Idlis are steamed from a fermented batter of rice and urad dal and are usually eaten with sambar and coconut chutney.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Dosa",
+        "Appam",
+        "Uttapam"
+      ],
+      "themes": [
+        "south_india"
+      ]
+    },
+    {
+      "id": "q1104e069",
+      "topic": "geography",
+      "question": "Rajasthan's famous crunchy bhujia is named after this desert city, which is also close to the Karni Mata temple and its thousands of rats. Name the city.",
+      "answer": "Bikaner",
+      "accept": [
+        "bikaner",
+        "bikaneri"
+      ],
+      "explanation": "Bikaneri bhujia carries a Geographical Indication tag, and the Karni Mata temple at Deshnoke lies about 30 kilometres south of Bikaner.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Jaisalmer",
+        "Barmer",
+        "Nagaur"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e070",
+      "topic": "geography",
+      "question": "The white marble Lake Palace seems to float in the middle of Lake Pichola, and it starred in the James Bond film Octopussy. Which Rajasthan city is this?",
+      "answer": "Udaipur",
+      "accept": [
+        "udaipur"
+      ],
+      "explanation": "Udaipur, the old capital of Mewar, is called the City of Lakes, and Octopussy was shot there in 1983.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Jaipur",
+        "Jodhpur",
+        "Ajmer"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e071",
+      "topic": "geography",
+      "question": "With its pine-covered hills, cool mists and rolling golf course, this northeastern hill capital is nicknamed the Scotland of the East. Name the city.",
+      "answer": "Shillong",
+      "accept": [
+        "shillong"
+      ],
+      "explanation": "Shillong, the capital of Meghalaya, sits at about 1,500 metres in the Khasi Hills.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Gangtok",
+        "Aizawl",
+        "Kohima"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e072",
+      "topic": "geography",
+      "question": "The mighty Brahmaputra flows through this state, which grows about half of India's tea and gives its name to a strong, malty breakfast brew. Name the state.",
+      "answer": "Assam",
+      "accept": [
+        "assam"
+      ],
+      "explanation": "Assam produces roughly half of India's tea, mostly in the Brahmaputra valley.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "West Bengal",
+        "Kerala",
+        "Tamil Nadu"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e073",
+      "topic": "geography",
+      "question": "India's smallest union territory is a cluster of coral islands and lagoons in the Arabian Sea, off the coast of Kerala. Name it.",
+      "answer": "Lakshadweep",
+      "accept": [
+        "lakshadweep",
+        "laccadives",
+        "laccadive islands",
+        "lakshadeep",
+        "lakshadwip"
+      ],
+      "explanation": "Lakshadweep's islands cover only about 32 square kilometres of land, and its capital is Kavaratti.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Andaman and Nicobar Islands",
+        "Puducherry",
+        "Daman and Diu"
+      ],
+      "themes": [
+        "south_india"
+      ],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e074",
+      "topic": "geography",
+      "question": "Delhi's Bahai House of Worship is built of white marble petals arranged like a flower in bloom. What is it popularly called?",
+      "answer": "Lotus Temple",
+      "accept": [
+        "lotus temple",
+        "the lotus temple",
+        "lotus mandir",
+        "kamal mandir"
+      ],
+      "explanation": "The Lotus Temple, dedicated in December 1986, has 27 free-standing marble-clad petals arranged in clusters of three.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Akshardham",
+        "ISKCON Temple",
+        "Birla Mandir"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e075",
+      "topic": "geography",
+      "question": "Handcrafted leather chappals carry the name of this Maharashtra city, which is also famous for its fiery red mutton curry, tambda rassa. Name the city.",
+      "answer": "Kolhapur",
+      "accept": [
+        "kolhapur",
+        "kolhapuri"
+      ],
+      "explanation": "Kolhapuri chappals received a Geographical Indication tag in 2019, and Kolhapur's red tambda rassa and white pandhra rassa are local favourites.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Pune",
+        "Nashik",
+        "Ratnagiri"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e076",
+      "topic": "general",
+      "question": "Bright folk paintings of fish, peacocks and gods, first drawn by women of north Bihar on the mud walls of their homes, take their name from a district. Name the art.",
+      "answer": "Madhubani",
+      "accept": [
+        "madhubani",
+        "madhubani painting",
+        "madhubani art",
+        "mithila painting",
+        "mithila art"
+      ],
+      "explanation": "Madhubani or Mithila painting comes from the Mithila region of Bihar and Nepal and was traditionally painted on walls for weddings and festivals.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Warli",
+        "Pattachitra",
+        "Kalamkari"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e077",
+      "topic": "mythology",
+      "question": "This wandering sage carries a veena, roams between heaven and earth chanting Narayana Narayana, and loves to stir up a little trouble among the gods. Name him.",
+      "answer": "Narada",
+      "accept": [
+        "narada",
+        "narad",
+        "narad muni",
+        "narada muni",
+        "naradar"
+      ],
+      "explanation": "Narada, the travelling sage devoted to Vishnu, is known for his veena, his chant and his mischievous carrying of news between the worlds.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Durvasa",
+        "Vashishtha",
+        "Agastya"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e078",
+      "topic": "mythology",
+      "question": "In almost every Shiva temple, a stone bull sits facing the inner shrine, gazing at his lord. Name the bull.",
+      "answer": "Nandi",
+      "accept": [
+        "nandi",
+        "nandikeshwara",
+        "nandeeshwara",
+        "nandi bull"
+      ],
+      "explanation": "Nandi is Shiva's bull, his mount and gatekeeper, which is why his statue faces the sanctum in Shiva temples.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Garuda",
+        "Airavata",
+        "Kamadhenu"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e079",
+      "topic": "mythology",
+      "question": "In the Ramayana, this hunchbacked maid poisoned Queen Kaikeyi's mind and set Rama's exile in motion. Name her.",
+      "answer": "Manthara",
+      "accept": [
+        "manthara",
+        "manthra"
+      ],
+      "explanation": "Manthara, Kaikeyi's old maid, persuaded her to demand Bharata's coronation and Rama's fourteen-year exile from Dasharatha.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Surpanakha",
+        "Mandodari",
+        "Trijata"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e080",
+      "topic": "mythology",
+      "question": "Rama and Sita's twin sons grew up in Valmiki's ashram, learned the Ramayana from the sage, and sang it before their own father. Name the twins.",
+      "answer": "Luv and Kush",
+      "accept": [
+        "luv and kush",
+        "lava and kusha",
+        "lav and kush",
+        "luv kush",
+        "lav kush",
+        "lava kusha",
+        "kush and luv",
+        "kusha and lava"
+      ],
+      "explanation": "In Valmiki's Ramayana, Lava and Kusha were born in the sage's ashram and sang the epic in Rama's presence at his Ashwamedha sacrifice; the popular telling adds that they captured his sacrificial horse.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Nakula and Sahadeva",
+        "Lakshmana and Shatrughna",
+        "Vali and Sugriva"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e081",
+      "topic": "mythology",
+      "question": "Savitri followed this god all the way to win back the life of her husband Satyavan. He rides a buffalo. Name him.",
+      "answer": "Yama",
+      "accept": [
+        "yama",
+        "yamraj",
+        "yamaraj",
+        "yamaraja",
+        "yamadharma",
+        "yama dharmaraja",
+        "yamdev"
+      ],
+      "explanation": "Yama, the god of death who rides a buffalo, was so moved by Savitri's devotion that he returned Satyavan's life.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Indra",
+        "Shani",
+        "Varuna"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e082",
+      "topic": "books",
+      "question": "Uncle Pai started this comic series after a television quiz in which contestants could answer questions on Greek gods but could not name Rama's mother. Name the series.",
+      "answer": "Amar Chitra Katha",
+      "accept": [
+        "amar chitra katha",
+        "ack",
+        "amar chitra kathas"
+      ],
+      "explanation": "Anant Pai founded Amar Chitra Katha, which retold Indian myths, legends and history in comics for generations of children.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Tinkle",
+        "Indrajal Comics",
+        "Raj Comics"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e083",
+      "topic": "books",
+      "question": "Launched in 1947 by Nagi Reddi and Chakrapani, this children's monthly ran Vikram and Betaal stories for decades, and its name means Uncle Moon. Name it.",
+      "answer": "Chandamama",
+      "accept": [
+        "chandamama",
+        "chanda mama",
+        "ambulimama"
+      ],
+      "explanation": "Chandamama, first published in July 1947 in Telugu and Tamil, became famous for its Vikram and Betaal series and ran until 2013.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Champak",
+        "Balarama",
+        "Nandan"
+      ],
+      "themes": [
+        "south_india"
+      ]
+    },
+    {
+      "id": "q1104e084",
+      "topic": "books",
+      "question": "In Tinkle comics, this lovable village simpleton follows his master's orders far too literally, with hilarious results. Name him.",
+      "answer": "Suppandi",
+      "accept": [
+        "suppandi"
+      ],
+      "explanation": "Suppandi, first drawn by Ram Waeerkar in 1983 and based on the Tamil folk character Chappandi, is one of Tinkle's best-loved characters.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Shikari Shambu",
+        "Tantri the Mantri",
+        "Kalia the Crow"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e085",
+      "topic": "business",
+      "question": "Nestle brought these noodles to India in the early 1980s with a promise every hungry child remembers, ready in just two minutes. Name the brand.",
+      "answer": "Maggi",
+      "accept": [
+        "maggi",
+        "maggi noodles",
+        "maggie",
+        "maggi 2 minute noodles"
+      ],
+      "explanation": "Nestle launched Maggi 2-Minute Noodles in India in the early 1980s, and it grew into the country's best-known instant noodle brand.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Top Ramen",
+        "Yippee",
+        "Wai Wai"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e086",
+      "topic": "business",
+      "question": "In the 1980s a little girl's cry of I love you, followed by this brand's name, sold soft drink concentrate packets to homes across India. Name the brand.",
+      "answer": "Rasna",
+      "accept": [
+        "rasna"
+      ],
+      "explanation": "Areez Khambatta's Ahmedabad-based Rasna became a household name with its 'I love you Rasna' ads starring a little girl.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Tang",
+        "Frooti",
+        "Rooh Afza"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e087",
+      "topic": "business",
+      "question": "Kapil Dev in the 1980s, and later Sachin Tendulkar, looked into the camera and called this malted drink the secret of their energy. Name it.",
+      "answer": "Boost",
+      "accept": [
+        "boost"
+      ],
+      "explanation": "The line 'Boost is the secret of my energy' began with Kapil Dev in the mid-1980s and passed to Sachin Tendulkar in the 1990s.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Bournvita",
+        "Horlicks",
+        "Complan"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e088",
+      "topic": "business",
+      "question": "An old Doordarshan jingle told Indians to suck on this brand's goli to clear the khich khich in their throat. Name the brand.",
+      "answer": "Vicks",
+      "accept": [
+        "vicks",
+        "vicks cough drops",
+        "vicks ki goli"
+      ],
+      "explanation": "The 'Vicks ki goli lo, khich khich door karo' jingle has sold Vicks cough drops on Indian television since the 1980s.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Halls",
+        "Strepsils",
+        "Hajmola"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e089",
+      "topic": "business",
+      "question": "In a famous 1970s ad, a girl in a bikini laughed and splashed under a waterfall to sell this lime-fresh soap. Name it.",
+      "answer": "Liril",
+      "accept": [
+        "liril",
+        "liril soap"
+      ],
+      "explanation": "Karen Lunel's Liril waterfall ad, shot at Pambar Falls in Kodaikanal in the 1970s, made the lime soap a sensation.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Lux",
+        "Rexona",
+        "Hamam"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e090",
+      "topic": "business",
+      "question": "A Karnataka government company has made this famous chandan soap for over a hundred years, since the days of the Wadiyar Maharaja and his Diwan Visvesvaraya. Name it.",
+      "answer": "Mysore Sandal Soap",
+      "accept": [
+        "mysore sandal soap",
+        "mysore sandal",
+        "mysore sandalwood soap"
+      ],
+      "explanation": "Mysore Sandal Soap goes back to 1916, when Krishna Raja Wadiyar IV and Diwan M Visvesvaraya set up the Government Soap Factory in Bangalore; Karnataka Soaps and Detergents Limited, owned by the state government, makes it today.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Santoor",
+        "Chandrika",
+        "Medimix"
+      ],
+      "themes": [
+        "south_india"
+      ],
+      "option_answer": "Mysore Sandal"
+    },
+    {
+      "id": "q1104e091",
+      "topic": "general",
+      "question": "Amitabh Bachchan's Do Boond Zindagi Ki campaign urged parents to bring every child for two drops against which disease?",
+      "answer": "Polio",
+      "accept": [
+        "polio",
+        "poliomyelitis"
+      ],
+      "explanation": "The Pulse Polio drive, with Amitabh Bachchan as its face, helped India get certified polio-free in 2014.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Measles",
+        "Smallpox",
+        "Tuberculosis"
+      ],
+      "themes": [],
+      "bid_eligible": true
+    },
+    {
+      "id": "q1104e092",
+      "topic": "general",
+      "question": "Among the nine grahas of Indian astrology, Shani is the one many people fear most. Which planet, famous for its rings, is Shani?",
+      "answer": "Saturn",
+      "accept": [
+        "saturn"
+      ],
+      "explanation": "Shani is Saturn, the ringed planet, and Shanivar is named after it.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Jupiter",
+        "Mars",
+        "Venus"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e093",
+      "topic": "general",
+      "question": "A famous black and white photograph from India's early rocket days at Thumba near Thiruvananthapuram shows a rocket's nose cone being taken to the launch site on something very ordinary. What?",
+      "answer": "Bicycle",
+      "accept": [
+        "bicycle",
+        "cycle",
+        "a bicycle",
+        "a cycle"
+      ],
+      "explanation": "The well-known Thumba photograph shows a rocket nose cone being carried on a bicycle; India's first rocket, a Nike-Apache, lifted off from Thumba on 21 November 1963.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Scooter",
+        "Tonga",
+        "Tractor"
+      ],
+      "themes": [
+        "south_india"
+      ]
+    },
+    {
+      "id": "q1104e094",
+      "topic": "general",
+      "question": "India and Russia jointly built this supersonic cruise missile and named it by joining the names of a river from each country. Name it.",
+      "answer": "BrahMos",
+      "accept": [
+        "brahmos",
+        "brahmos missile",
+        "brahmos cruise missile"
+      ],
+      "explanation": "BrahMos joins the Brahmaputra and the Moskva, and is built by a joint venture of DRDO and Russia's NPO Mashinostroyeniya.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Agni",
+        "Prithvi",
+        "Akash"
+      ],
+      "themes": []
+    },
+    {
+      "id": "q1104e095",
+      "topic": "general",
+      "question": "In February 2024, four Indian Air Force test pilots were introduced as the astronauts training for India's own human spaceflight programme, whose Sanskrit name means sky vehicle. Name the programme.",
+      "answer": "Gaganyaan",
+      "accept": [
+        "gaganyaan",
+        "gaganyan",
+        "gagan yaan",
+        "gaganyaan mission"
+      ],
+      "explanation": "Gaganyaan is ISRO's human spaceflight programme; its four astronaut-designates, Prasanth Nair, Ajit Krishnan, Angad Pratap and Shubhanshu Shukla, were introduced at the Vikram Sarabhai Space Centre on 27 February 2024.",
+      "difficulty": 1,
+      "created": "2026-11-04",
+      "distractors": [
+        "Chandrayaan",
+        "Mangalyaan",
+        "Shukrayaan"
+      ],
+      "themes": []
     }
   ]
 };

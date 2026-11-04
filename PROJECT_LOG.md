@@ -3,7 +3,7 @@
 ## Current state (2026-11-01)
 
 - **Live** at https://sharanidli.github.io/family_quiz/ (public repo `sharanidli/family_quiz`), commit `9f8a882`. Static HTML/JS; voice host (browser TTS); host judges answers.
-- **Bank: 2,694 questions** in `questions.json` (mirrored in `questions.js`), including 65 Connect sets (50 for normal games, 15 St. Louis) and 57 Long Tail callbacks. **All 2,492 eligible questions have KBC-style options** (`distractors`, plus `option_answer` display labels where needed).
+- **Bank: 2,859 questions** in `questions.json` (mirrored in `questions.js`), including 65 Connect sets (50 for normal games, 15 St. Louis) and 57 Long Tail callbacks. **All 2,492 eligible questions have KBC-style options** (`distractors`, plus `option_answer` display labels where needed).
 - **Round types:** Long, Theme, Bid, Connect, Hot Seat (4 in a row, wagers locked up front, 30/20/10/10 s clock, hard→easy). **Per-round tick boxes:** Pounce & Bounce (Long/Theme/Bid), Jodi random teams (Long/Theme), Options lifeline (Long/Theme/Bid/Hot Seat, on by default; 5 points or 50% of a wager; an MCQ caught on a bounce doesn't take the catcher's turn; Pounce still allowed with options showing, at +5 / −10); Double-points questions (Long/Theme, 10% chance each, 20 points, one shot, no pounce; on by default).
 - **Theme options** include three theme-only sets (never drawn by other rounds): Lost in Translation (40 Hindi songs), Passbooks and Floppy Disks (100, Indian working life 1983–2010) and **Picture This** (40 picture questions; images in `images/pt/`, credits in `images/pt/CREDITS.md`). **Current Affairs** is theme-only too since 2026-11-03 (71 questions).
 - **Modes:** St. Louis Mode (its 156-question batch, served only in that mode) and Iranian Mode.
@@ -400,14 +400,18 @@ Agent re-read the four players' seen history (Chrome Default profile, live site;
 - **Two app flaws found:** (1) Long Tail picks a random callback without checking seen history (about a 35% chance per game of a seen one); (2) Bid, once its unseen `bid_eligible` questions run out, repeats seen bid-eligible ones rather than using unseen ordinary questions.
 - At audit time `2bdfee5` (Current Affairs refill) was not yet pushed, so the live Current Affairs round would repeat; push pending Sharan's go-ahead.
 
-### Fixes, current affairs in Long rounds, three top-ups (2026-11-04) — IN PROGRESS
+### Fixes, current affairs in Long rounds, three top-ups (2026-11-04)
 
 Sharan: push the Current Affairs refill (done, `6739f29`), make both fixes, top up Lost in Translation, Connect and easy questions, and put some current affairs into the Long rounds.
 - **Long Tail fix:** prefers a callback nobody at the table has seen; repeats only when all are seen.
 - **Bid fix:** once unseen `bid_eligible` questions run out, takes an unseen ordinary question before repeating a seen bid-eligible one ("Pass 1b" in `nextQuestion`).
 - **Current affairs in Long rounds:** each Long question has a `CA_IN_LONG_SHARE` = 20% chance of coming from the Current Affairs pool, only if an unseen one is left (`pickUnseenFromTheme`); otherwise a normal Long question. This raises current-affairs use to about 7 per game (≈3 in Long + 4 in its round), so the 40 unseen last about 6 games.
 - Headless test (synthetic history): Long Tail 30 of 30 picks unseen; Bid with all 294 bid-eligible seen → 20 unseen ordinary picks; 100-question Long round → 20% current affairs, none seen; 0 errors.
-- **Top-ups in progress** (`new_batch_2026-11-04/`, briefs reused and updated): Lost in Translation 40 (2 writers + the 4 checked spares from 2026-10-22), Connect 30 (3 writers + 2 checked spares from 2026-10-27), easy 100 (5 writers, now with `distractors`).
+- **Top-ups merged** (`new_batch_2026-11-04/`, briefs reused and updated; `merge_topups.py`): **Lost in Translation +40** (`q1104l001`–`040`: 37 new + 3 spares from 2026-10-22, all with options; difficulty 14/18/8), **Connect +30** (`q1104c001`–`030`: 28 new + 2 spares from 2026-10-27), **easy +95** (`q1104e001`–`095`, all with options; short of 100 because 10 were dropped as duplicates of, or spoilers for, the new Connect sets). Checkers patched ~45 and dropped 4. Several checker agents stalled ("no progress for 600s") after Sharan went offline; those that had written complete files were verified (ids, clue counts, review lines) and the rest were re-run with incremental saving. The merge now also checks duplicates and spoilers ACROSS the three top-ups (Connect beats songs beats easy); 10 drops resolved them. A lane-prefix bug in the merge (song IDs like `TEMP_lit_A01` have no underscore before the number) was caught in the dry run and fixed.
+- **Bank: 2,694 → 2,859.** Backups `*.bak_before_topups_2026-11-04`.
+- **Supply for the regular four (audit numbers + new items):** Lost in Translation ~68 unseen (~17 games), Connect ~52 (~17 games), easy ~162 (~16 games under Full database), Current Affairs 40 (~6 games now that Long rounds take ~3 per game).
+- **Caveat:** the easy batch is dated 2026-11-04, so for two days the setup screen defaults to "All new", which makes Long/Bid draw the new easy questions (~20 per game in the headless test) as well as Hot Seat; choose Full database to save them for Hot Seat.
+- Headless default-lineup game: new songs in Lost in Translation, new Connect sets in Connect, new easy in Hot Seat Q3–Q4, current affairs in Long and its own round; end screen reached; 0 errors.
 
 ## Multiplayer "next level" idea (not yet built)
 
