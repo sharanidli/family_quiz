@@ -131,7 +131,10 @@ label.block .label-text { display: block; margin-bottom: 0.3rem; color: var(--mu
 .player-row {
   display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;
 }
-.player-row input { flex: 1; }
+.player-row input[type=text] { flex: 1; }
+.player-row label.extra-time {
+  margin: 0; gap: 0.3rem; white-space: nowrap; font-size: 0.85rem; color: var(--muted);
+}
 
 .remove {
   background: transparent;

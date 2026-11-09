@@ -1,10 +1,10 @@
 # Project Log: Not Such A Tough Quiz Also
 
-## Current state (2026-11-04)
+## Current state (2026-11-09)
 
 - **Live** at https://sharanidli.github.io/family_quiz/ (public repo `sharanidli/family_quiz`), commit `8c0aee7`. Static HTML/JS; voice host (browser TTS); host judges answers.
 - **Bank: 2,899 questions** in `questions.json` (mirrored in `questions.js`), including 95 Connect sets (80 for normal games, 15 St. Louis) and 57 Long Tail callbacks. **All 2,707 eligible questions have KBC-style options** (`distractors`, plus `option_answer` display labels where needed).
-- **Round types:** Long, Theme, Bid, Connect, Hot Seat (4 in a row, wagers locked up front, 30/20/10/10 s clock, hard→easy). **Per-round tick boxes:** Pounce & Bounce (Long/Theme/Bid), Jodi random teams (Long/Theme), Options lifeline (Long/Theme/Bid/Hot Seat, on by default; 5 points or 50% of a wager; an MCQ caught on a bounce doesn't take the catcher's turn; Pounce still allowed with options showing, at +5 / −10); Double-points questions (Long/Theme, 10% chance each, 20 points, one shot, no pounce; on by default).
+- **Round types:** Long, Theme, Bid, Connect, Hot Seat (4 in a row, wagers locked up front, 30/20/10/10 s clock, doubled for players ticked "2× time" on the setup screen, hard→easy). **Per-round tick boxes:** Pounce & Bounce (Long/Theme/Bid), Jodi random teams (Long/Theme), Options lifeline (Long/Theme/Bid/Hot Seat, on by default; 5 points or 50% of a wager; an MCQ caught on a bounce doesn't take the catcher's turn; Pounce still allowed with options showing, at +5 / −10); Double-points questions (Long/Theme, 10% chance each, 20 points, one shot, no pounce; on by default).
 - **Theme options** include three theme-only sets (never drawn by other rounds): Lost in Translation (40 Hindi songs), Passbooks and Floppy Disks (100, Indian working life 1983–2010) and **Picture This** (40 picture questions; images in `images/pt/`, credits in `images/pt/CREDITS.md`). **Current Affairs** is theme-only too since 2026-11-03 (111 questions), but Long rounds also draw about 1 in 5 of their questions from it, unseen ones only (2026-11-04).
 - **Modes:** St. Louis Mode (its 156-question batch, served only in that mode) and Iranian Mode.
 - **Default lineup (10 rounds):** Long, Cinema, Bid, Business, Lost in Translation, Long, Connect, Current Affairs, Bid, Hot Seat.
@@ -422,6 +422,12 @@ Sharan: push the Current Affairs refill (done, `6739f29`), make both fixes, top 
 - Writers 3 × 16. Checkers: `cad` 16 kept (1 patched), `cae` 15 kept (6 patched, 1 dropped as a retold story), `caf` 16 kept (4 patched). Coordinator: dropped `TEMP_cad_07` (fourth UNESCO-listing question in one lane); fixed two explanation spoilers (`cad_03`, `cad_16`); whitelisted five incidental mentions in `merge_ca2.py` (`SPOILER_OK`, each with its reason); a scan against today's top-ups found one real hint (`cad_15` named the answer of easy `q1104e072`), removed.
 - **Merged 40 as `q1104a001`–`040`** (14/13/13; difficulty 17/19/4). Bank **2,899**; **111 current-affairs** questions (80 unseen by the regular four, ~11 games at ~7 per game). Six checked spares stay on file. Backups `*.bak_before_ca2_2026-11-04`.
 - Headless default game: the new questions are served in the Current Affairs round; Long rounds draw current affairs; end screen reached; 0 errors.
+
+### Hot Seat 2× time (2026-11-09)
+
+- Sharan: older players need more time on the Hot Seat clock. Each player row on the setup screen now has a **"2× time"** tick box. A ticked player gets 60/40/20/20 s instead of 30/20/10/10 s, shown on their wager screen and their clock. Points, questions and the beeps are unchanged, and the voice says nothing about it (Sharan's choice: no one singled out).
+- Remembered by name on the device: localStorage `quiz_extra_time` (a JSON list of lowercase names), separate from the seen-history keys. Code: `loadExtraTime` / `hasExtraTime` / `setExtraTime` / `hotSeatSeconds(k, player)` in `app.js`.
+- Headless test: ticked B, reloaded and retyped the names, and B's box came back ticked; B's labels and clocks were 60/40/20/20 and A, C and D stayed 30/20/10/10; end screen reached; 0 errors.
 
 ## Multiplayer "next level" idea (not yet built)
 

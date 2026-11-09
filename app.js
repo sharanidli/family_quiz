@@ -219,11 +219,17 @@ function renderPlayers() {
   const list = $('#player-list');
   list.innerHTML = '';
   state.players.forEach((p, i) => {
+    // "2× time" doubles this player's Hot Seat clock; remembered by name on this device.
+    const extra = el('input', {
+      type: 'checkbox', checked: hasExtraTime(p.name),
+      onchange: (e) => setExtraTime(p.name, e.target.checked),
+    });
     const row = el('div', { class: 'player-row' }, [
       el('input', {
         type: 'text', value: p.name, placeholder: 'Player ' + (i + 1),
-        oninput: (e) => { p.name = e.target.value; updatePartyHint(); },
+        oninput: (e) => { p.name = e.target.value; extra.checked = hasExtraTime(p.name); updatePartyHint(); },
       }),
+      el('label', { class: 'extra-time', title: 'Double time on the Hot Seat clock' }, [extra, '2× time']),
       el('button', {
         class: 'remove',
         title: 'Remove',
@@ -238,7 +244,7 @@ function renderPlayers() {
 function addPlayer() {
   state.players.push({ id: Date.now() + Math.random(), name: '', score: 0, log: [] });
   renderPlayers();
-  const inputs = $$('#player-list input');
+  const inputs = $$('#player-list input[type=text]');
   if (inputs.length) inputs[inputs.length - 1].focus();
 }
 
@@ -605,6 +611,32 @@ function persistSessionToPlayers() {
     newQs.forEach(qid => set.add(qid));
     savePlayerSeenSet(name, set);
   });
+}
+
+// Players who get double time on the Hot Seat clock, stored as a list of lowercase names.
+const EXTRA_TIME_KEY = 'quiz_extra_time';
+
+function loadExtraTime() {
+  try { return new Set(JSON.parse(localStorage.getItem(EXTRA_TIME_KEY) || '[]')); }
+  catch (e) { return new Set(); }
+}
+
+function hasExtraTime(name) {
+  const norm = (name || '').trim().toLowerCase();
+  return !!norm && loadExtraTime().has(norm);
+}
+
+function setExtraTime(name, on) {
+  const norm = (name || '').trim().toLowerCase();
+  if (!norm) return;
+  const set = loadExtraTime();
+  if (on) set.add(norm); else set.delete(norm);
+  try { localStorage.setItem(EXTRA_TIME_KEY, JSON.stringify([...set])); } catch (e) {}
+}
+
+// Seconds on the clock for Hot Seat question k for this player.
+function hotSeatSeconds(k, player) {
+  return HOTSEAT_SECONDS[k] * (player && hasExtraTime(player.name) ? 2 : 1);
 }
 
 function resetPlayerSeen(name) {
@@ -1302,7 +1334,7 @@ function askHotSeatWagers() {
       btns.appendChild(b);
     });
     main.appendChild(el('div', { class: 'hotseat-row' }, [
-      el('span', { class: 'hotseat-label' }, `Q${k + 1} · ${secs}s`),
+      el('span', { class: 'hotseat-label' }, `Q${k + 1} · ${hotSeatSeconds(k, player)}s`),
       btns,
     ]));
   });
@@ -1344,7 +1376,7 @@ async function askHotSeatQuestion(k) {
   await speak(q.question);
   // The host may have marked it while it was still being read.
   if (state.phase !== 'question' || state.currentQuestion !== q) return;
-  startHotSeatClock(HOTSEAT_SECONDS[k]);
+  startHotSeatClock(hotSeatSeconds(k, state.players[state.currentPlayerIdx]));
   startListening();
 }
 
@@ -1445,7 +1477,7 @@ function renderQuestion(q, opts = {}) {
   if (opts.hotseat != null) {
     // Hot Seat runs its own clock, which starts once the question has been read.
     headerEl.appendChild(el('span', { id: 'hotseat-clock', class: 'timer-chip' },
-      `⏱ ${HOTSEAT_SECONDS[opts.hotseat]}s`));
+      `⏱ ${hotSeatSeconds(opts.hotseat, state.players[state.currentPlayerIdx])}s`));
   } else if (state.timerEnabled) {
     headerEl.appendChild(el('span', { id: 'timer', class: 'timer-chip' }, '⏱ 2:00'));
   }
