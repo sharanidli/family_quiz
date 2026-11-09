@@ -60657,6 +60657,2926 @@ window.QUESTIONS_DATA = {
       ],
       "explanation": "The Phantom, Lee Falk's Ghost Who Walks, starred in Indrajal Comics from its first issue, The Phantom's Belt, in 1964, and Hindi readers called him Vetaal.",
       "created": "2026-11-09"
+    },
+    {
+      "id": "q1109k001",
+      "topic": "general",
+      "question": "In a Kashmiri home, tea is brewed and kept piping hot in a tall copper or brass urn with a chimney running down its middle, packed with live coals. The vessel shares its name with the famous Russian tea urn. What is it called?",
+      "answer": "Samovar",
+      "accept": [
+        "samovar",
+        "samavar",
+        "samawar",
+        "samavaar",
+        "samovaar"
+      ],
+      "explanation": "The Kashmiri samovar, or samavar, holds burning coals in a central fire chamber, with the tea in the space around it.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Trami",
+        "Degchi",
+        "Surahi"
+      ]
+    },
+    {
+      "id": "q1109k002",
+      "topic": "general",
+      "question": "Kashmir's everyday tea is a pink, savoury brew, drunk several times a day with bread from the neighbourhood baker. It is called noon chai. In Kashmiri, as in several other Indian languages, what does the word noon mean?",
+      "answer": "Salt",
+      "accept": [
+        "salt",
+        "namak",
+        "salty",
+        "salted"
+      ],
+      "explanation": "Noon means salt, and noon chai is salted, with a pinch of baking soda giving the brew its famous pink colour.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Sugar",
+        "Butter",
+        "Rose"
+      ]
+    },
+    {
+      "id": "q1109k003",
+      "topic": "general",
+      "question": "Kashmiri Pandit cooking traditionally does without onion and garlic. Its deep flavours come instead from fennel powder, dried ginger powder and a pinch of a pungent gum resin that stands in for the missing onion and garlic. Name that resin.",
+      "answer": "Asafoetida",
+      "accept": [
+        "asafoetida",
+        "asafetida",
+        "asafoetida resin",
+        "hing",
+        "heeng"
+      ],
+      "explanation": "Asafoetida, or hing, joins fennel and dried ginger as the backbone of Kashmiri Pandit cooking, which traditionally avoids onion and garlic.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Saffron",
+        "Cloves",
+        "Ajwain"
+      ]
+    },
+    {
+      "id": "q1109k004",
+      "topic": "general",
+      "question": "Nadru, sliced into rings that show a lacy pattern of holes, is cooked in a yogurt gravy as nadru yakhni or fried into crisp fritters. It is pulled from the mud of the lakes around Srinagar. What is it called in English?",
+      "answer": "Lotus stem",
+      "accept": [
+        "lotus stem",
+        "lotus stems",
+        "lotus root",
+        "lotus roots",
+        "lotus rhizome",
+        "kamal kakdi",
+        "kamal kakri",
+        "bhein",
+        "bhe"
+      ],
+      "explanation": "Nadru is the lotus stem, harvested from the Dal, Anchar and Wular lakes and loved in both yakhni and fritters.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Water chestnut",
+        "Colocasia root",
+        "Bamboo shoot"
+      ]
+    },
+    {
+      "id": "q1109k005",
+      "topic": "general",
+      "question": "Kashmiri Pandits keep Herath, their Shivratri, a day earlier than most of India, on the thirteenth day of the dark half of Phalgun. A pitcher of water representing Vatuk Bhairav is filled with which nuts, which are soaked for days and then shared out among family and friends as prasad?",
+      "answer": "Walnuts",
+      "accept": [
+        "walnuts",
+        "walnut",
+        "akhrot",
+        "doon",
+        "dun",
+        "doonn"
+      ],
+      "explanation": "In the vatuk barun ritual, walnuts are soaked in the pitcher representing Vatuk Bhairav and later distributed as naivedya.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Almonds",
+        "Chestnuts",
+        "Pine nuts"
+      ]
+    },
+    {
+      "id": "q1109k006",
+      "topic": "general",
+      "question": "On its eve, a thali is laid out with rice, a bread, curd, flowers, a coin, a pen and the new almanac, so that it is the very first thing the family sees on waking. The day itself is the first of the bright half of Chaitra. Name this Kashmiri Pandit festival.",
+      "answer": "Navreh",
+      "accept": [
+        "navreh",
+        "navre",
+        "navreh festival",
+        "nav varsha",
+        "navvarsha",
+        "nava varsha"
+      ],
+      "explanation": "Navreh, from the Sanskrit nava varsha, is the Kashmiri Pandit new year, greeted each morning with a first look at the thali prepared the night before.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Herath",
+        "Pann",
+        "Gaad Batt"
+      ]
+    },
+    {
+      "id": "q1109k007",
+      "topic": "general",
+      "question": "On the new moon night of Paush, in the depth of winter, Kashmiri Pandit families leave a plate of one particular dish on the outer wall of the house for the Yaksha, a wealth-bringing sprite who wears a little cap. Snatch his cap, the story goes, and riches follow. Which dish is set out for him?",
+      "answer": "Khichdi",
+      "accept": [
+        "khichdi",
+        "khichri",
+        "khichari",
+        "khichadi",
+        "khetsir",
+        "khetsri",
+        "khechri"
+      ],
+      "explanation": "On Khetsimavas, the Paush new moon, khichdi is offered to Kubera and a portion is left on the outer wall for the Yaksha.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Halwa",
+        "Pulao",
+        "Phirni"
+      ]
+    },
+    {
+      "id": "q1109k008",
+      "topic": "general",
+      "question": "At the close of a Kashmiri Pandit wedding, the bride and groom sit side by side under a red cloth, honoured as Shiva and Parvati, while the priest recites Vedic mantras. In the ritual called posh puja, what do the family and guests shower on the couple?",
+      "answer": "Flowers",
+      "accept": [
+        "flowers",
+        "flower",
+        "flower petals",
+        "petals",
+        "rose petals"
+      ],
+      "explanation": "Posh is Kashmiri for flower, and posh puja, the shower of flowers on the newlyweds, formally closes the wedding.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Coins",
+        "Rose water",
+        "Sugar candy"
+      ]
+    },
+    {
+      "id": "q1109k009",
+      "topic": "general",
+      "question": "In the days before a Kashmiri Pandit wedding comes Maenziraat, a night of singing and feasting in both homes. What is applied to the hands and feet that night, giving the night its name?",
+      "answer": "Henna",
+      "accept": [
+        "henna",
+        "mehndi",
+        "mehendi",
+        "menhdi",
+        "maenz",
+        "menz",
+        "mehandi"
+      ],
+      "explanation": "Maenziraat is the henna night, when the bride's hands and feet are decorated with maenz, the Kashmiri word for henna.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Turmeric",
+        "Sandalwood",
+        "Vermilion"
+      ]
+    },
+    {
+      "id": "q1109k010",
+      "topic": "general",
+      "question": "On the eve of her wedding, a Kashmiri Pandit bride receives from her own family a pair of hexagonal gold ornaments, hung on a red thread through the upper part of the ear. Her in-laws later replace the thread with a gold chain, and she wears them as the mark of a married woman. Name these ornaments.",
+      "answer": "Dejhoor",
+      "accept": [
+        "dejhoor",
+        "dejhor",
+        "dejhoru",
+        "dejharu",
+        "dejihor",
+        "deji hor",
+        "dejor",
+        "dijhor",
+        "dejaharu",
+        "dejhur",
+        "dejhoors"
+      ],
+      "explanation": "The hexagonal dejhoor, said to be a Shiva and Shakti yantra, is the Kashmiri Pandit counterpart of the mangalsutra.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Halqaband",
+        "Jigni",
+        "Jhumka"
+      ]
+    },
+    {
+      "id": "q1109k011",
+      "topic": "general",
+      "question": "Every autumn, Kashmiri rooftops and verandas fill with slices of brinjal, turnip, bottle gourd and tomato drying in the sun, to be stored for the long snowbound winter. What is the Kashmiri name for these sun-dried vegetables, which literally means dry vegetables?",
+      "answer": "Hokh syun",
+      "accept": [
+        "hokh syun",
+        "hoakh syun",
+        "hokhe syun",
+        "hokh suen",
+        "hokh siun",
+        "hok syun",
+        "hokh syoon",
+        "hoakh syoon",
+        "hokh sion",
+        "hokh",
+        "hokh syeun",
+        "hukh syun"
+      ],
+      "explanation": "Hokh syun, from hokh meaning dry and syun meaning vegetable, carried Kashmiri kitchens through the winter months.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Haakh batt",
+        "Gaad batt",
+        "Tsok wangun"
+      ]
+    },
+    {
+      "id": "q1109k012",
+      "topic": "general",
+      "question": "The kandur, Kashmir's neighbourhood baker, turns out a small ring-shaped bread, a little like a bagel, called tsochwor, which is eaten with the morning or evening tea. Which seeds are scattered over its top?",
+      "answer": "Sesame seeds",
+      "accept": [
+        "sesame",
+        "sesame seeds",
+        "sesame seed",
+        "til",
+        "til seeds",
+        "white sesame"
+      ],
+      "explanation": "Tsochwor, also called telvor, is a crisp ring of bread topped with sesame seeds and usually eaten with noon chai.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Nigella seeds",
+        "Fennel seeds",
+        "Cumin seeds"
+      ]
+    },
+    {
+      "id": "q1109k013",
+      "topic": "general",
+      "question": "Kabargah, a favourite of Kashmiri Pandit feasts, is lamb ribs fried golden in ghee. Before the frying, though, the ribs are simmered slowly with whole spices until tender in which liquid?",
+      "answer": "Milk",
+      "accept": [
+        "milk",
+        "spiced milk",
+        "doodh",
+        "dodh"
+      ],
+      "explanation": "For kabargah the ribs are first cooked gently in spiced milk until it is absorbed, and only then fried in ghee.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Mutton stock",
+        "Tamarind water",
+        "Rose water"
+      ],
+      "option_answer": "Spiced milk"
+    },
+    {
+      "id": "q1109k014",
+      "topic": "general",
+      "question": "Around Ganesh Chaturthi, Kashmiri Pandit families perform the Pann puja, once tied to spinning the new season's cotton. For it they make a thick, round, sweet bread of flour, ghee and sugar, scattered with poppy seeds, which is offered and then shared with family and friends. Name this bread.",
+      "answer": "Roth",
+      "accept": [
+        "roth",
+        "roath",
+        "rot",
+        "rotth",
+        "pann roth",
+        "roat"
+      ],
+      "explanation": "Roth is the sweet bread of Pann, offered in the puja and then shared out as prasad among family and friends.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Sheermal",
+        "Bakarkhani",
+        "Girda"
+      ]
+    },
+    {
+      "id": "q1109k015",
+      "topic": "general",
+      "question": "On the full moon of Magh, Kashmiri Pandit children set out yellow rice on a little ladle made of two crossed sticks and woven grass, and sing an old rhyme calling a particular bird to come and feast. Which bird?",
+      "answer": "Crow",
+      "accept": [
+        "crow",
+        "crows",
+        "kaw",
+        "kav",
+        "kauwa",
+        "kaua",
+        "kawa"
+      ],
+      "explanation": "The festival is Kaw Punim, the crows' full moon, when children chant a rhyme inviting the crows to eat the yellow rice.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Myna",
+        "Sparrow",
+        "Pigeon"
+      ]
+    },
+    {
+      "id": "q1109k016",
+      "topic": "general",
+      "question": "After a birth in a Kashmiri Pandit family, the household keeps away from religious ceremonies until a purification rite with a havan, called the Kahnethar. Its name begins with the Kashmiri word for the number of the day on which it falls. On which day after the birth is it held?",
+      "answer": "The eleventh day",
+      "accept": [
+        "11",
+        "11th",
+        "eleven",
+        "eleventh",
+        "eleventh day",
+        "11th day",
+        "the eleventh day",
+        "11 days",
+        "day 11"
+      ],
+      "explanation": "Kah is Kashmiri for eleven, and the Kahnethar purification ceremony is held on the eleventh day after a birth.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "The seventh day",
+        "The ninth day",
+        "The twelfth day"
+      ]
+    },
+    {
+      "id": "q1109k017",
+      "topic": "music",
+      "question": "At Kashmiri Pandit weddings and sacred thread ceremonies, the women of the family sit together in two groups and sing traditional verses of blessing in turn, one group answering the other. What is this style of singing called?",
+      "answer": "Wanvun",
+      "accept": [
+        "wanvun",
+        "vanvun",
+        "wanwun",
+        "vanwun",
+        "wanwan",
+        "wanvan",
+        "vanvan"
+      ],
+      "explanation": "Wanvun, literally chorus, is the call-and-response singing of Kashmiri women at weddings and yagnopavit ceremonies.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Ghazal",
+        "Thumri",
+        "Kajri"
+      ]
+    },
+    {
+      "id": "q1109k018",
+      "topic": "general",
+      "question": "Until about the late 1960s, Kashmiri Pandit women wore an elaborate headdress, built up from layers of cloth wound over the forehead, with a scarf falling down the back. Today it is worn mainly by brides on their wedding day. What is it called?",
+      "answer": "Taranga",
+      "accept": [
+        "taranga",
+        "tarang",
+        "tarange",
+        "taragei",
+        "targa",
+        "tarangaa",
+        "taraga",
+        "tarangi"
+      ],
+      "explanation": "The taranga, built from the kalpush band and the zoojh scarf, was everyday wear for Kashmiri Pandit women and survives as bridal headgear.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Kasaba",
+        "Dastar",
+        "Pagdi"
+      ]
+    },
+    {
+      "id": "q1109k019",
+      "topic": "general",
+      "question": "In a Kashmiri kitchen hangs a dark cake of ground spices bound with oil, shaped like a ring with a hole in the middle so that it can be dried and strung up to last the year. The cook breaks off a pinch to finish a dish. What is this spice cake called?",
+      "answer": "Ver",
+      "accept": [
+        "ver",
+        "vaer",
+        "veri",
+        "vari",
+        "vaar",
+        "verr",
+        "ver masala",
+        "vaer masala",
+        "veri masala"
+      ],
+      "explanation": "Ver, or vaer, is the Kashmiri spice cake, dried and kept for months and crumbled into curries as needed.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Mawal",
+        "Kong",
+        "Praan"
+      ]
+    },
+    {
+      "id": "q1109k020",
+      "topic": "general",
+      "question": "Under a woollen pheran, Kashmiris traditionally wore a second pheran of the same cut in lighter cloth. It added a layer of warmth and shielded the outer garment from scorch marks. What is this inner pheran called?",
+      "answer": "Poots",
+      "accept": [
+        "poots",
+        "puts",
+        "pooch",
+        "pootsh",
+        "putsh",
+        "poots pheran",
+        "pots"
+      ],
+      "explanation": "The poots is the lighter inner pheran, worn beneath the outer one for warmth and to protect it from burns.",
+      "difficulty": 3,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Loch",
+        "Suthan",
+        "Angarkha"
+      ]
+    },
+    {
+      "id": "q1109k021",
+      "topic": "geography",
+      "question": "Kashmiris call it bouin. The Mughals planted it lavishly in their gardens around the Dal, and every autumn its broad, hand-shaped leaves turn the colour of flame. Name the tree.",
+      "answer": "Chinar",
+      "accept": [
+        "chinar",
+        "chinaar",
+        "chenar",
+        "bouin",
+        "boonyi",
+        "buin",
+        "boin",
+        "oriental plane",
+        "plane tree",
+        "plane",
+        "platanus orientalis"
+      ],
+      "explanation": "The chinar, or oriental plane, called bouin in Kashmiri, was planted widely in Mughal gardens and is famous for its blazing red and amber autumn leaves.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Deodar",
+        "Poplar",
+        "Willow"
+      ]
+    },
+    {
+      "id": "q1109k022",
+      "topic": "geography",
+      "question": "From late October each year, the karewa plateaus around this town on the Jhelum, a short drive south-east of Srinagar, turn purple with crocuses, and whole families pluck the blooms for their precious crimson threads. Name the town.",
+      "answer": "Pampore",
+      "accept": [
+        "pampore",
+        "pampur",
+        "pampor",
+        "padmapura",
+        "padmapur"
+      ],
+      "explanation": "Pampore, known in antiquity as Padmapura, is Kashmir's saffron town; its crocus fields bloom for about two weeks in late October and early November.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Bijbehara",
+        "Ganderbal",
+        "Bandipora"
+      ]
+    },
+    {
+      "id": "q1109k023",
+      "topic": "general",
+      "question": "An old Kashmiri saying goes: what Laila was to Majnun, this is to a Kashmiri. It is a small earthen bowl of glowing embers set inside a woven wicker basket, carried close to the body under a loose woollen gown all winter. Name it.",
+      "answer": "Kangri",
+      "accept": [
+        "kangri",
+        "kanger",
+        "kangir",
+        "kangid",
+        "kangiri",
+        "kangdi",
+        "kangar"
+      ],
+      "explanation": "The kangri, or kanger, is the wicker-cased fire pot that Kashmiris keep under the pheran through the winter, and the Laila and Majnun line is a well-known Kashmiri proverb about it.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Bukhari",
+        "Angithi",
+        "Sigri"
+      ]
+    },
+    {
+      "id": "q1109k024",
+      "topic": "history",
+      "question": "The story goes that in the 1880s, after his wooden shop in Srinagar burnt down, a trader named Pandit Narain Das moved his goods onto a boat and kept improving it until a European bought it from him. Locals nicknamed him Naav Narain. What had he built, said to be the first of its kind in Kashmir?",
+      "answer": "Houseboat",
+      "accept": [
+        "houseboat",
+        "house boat",
+        "houseboats",
+        "a houseboat"
+      ],
+      "explanation": "Narain Das's boat, the Kashmir Princess, is often called the first Kashmiri houseboat, and houseboats soon became the favourite lodging of visitors to Srinagar.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Shikara",
+        "Ferry",
+        "Barge"
+      ]
+    },
+    {
+      "id": "q1109k025",
+      "topic": "geography",
+      "question": "The twelfth-century chronicler Kalhana called it Gopadri. A thousand feet above the valley floor, a stone Shiva temple on its summit, reached by about two hundred and forty steps, looks down on the Dal and the whole of Srinagar. By what name is this hill best known today?",
+      "answer": "Shankaracharya Hill",
+      "accept": [
+        "shankaracharya",
+        "shankaracharya hill",
+        "shankaracharya temple",
+        "shankaracharya parbat",
+        "shankracharya",
+        "takht-e-sulaiman",
+        "takht e sulaiman",
+        "takht-i-sulaiman",
+        "takht-e-suleiman",
+        "takht hill"
+      ],
+      "explanation": "The Shankaracharya Temple, dedicated to Shiva and traditionally counted among the oldest in Kashmir, crowns the hill Kalhana called Gopadri; the hill takes its popular name from the tradition that Adi Shankara visited it.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Mahadev",
+        "Harmukh",
+        "Pir Panjal"
+      ],
+      "option_answer": "Shankaracharya"
+    },
+    {
+      "id": "q1109k026",
+      "topic": "mythology",
+      "question": "Legend says a demon named Jalodbhava troubled the people here until the goddess took the form of a myna bird and dropped a pebble on him. The pebble grew into a hill in Srinagar, on whose western slope she is worshipped as Sharika. Name the hill.",
+      "answer": "Hari Parbat",
+      "accept": [
+        "hari parbat",
+        "hari parvat",
+        "hari parbath",
+        "hariparbat",
+        "haer parbat",
+        "hari parvata",
+        "koh-i-maran",
+        "koh e maran",
+        "koh-e-maran",
+        "kohimaran",
+        "koh i maran"
+      ],
+      "explanation": "Hari Parbat, also called Koh-i-Maran, is revered as the pebble of the legend, and the temple of Sharika sits on its western slope.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Harmukh",
+        "Mahadev",
+        "Kolahoi"
+      ]
+    },
+    {
+      "id": "q1109k027",
+      "topic": "mythology",
+      "question": "Every year on Jyeshtha Ashtami, devotees throng a sacred spring at Tulmul village near Ganderbal, where a small white marble shrine to the goddess Ragnya stands on an island in the water. By what name is this shrine popularly known?",
+      "answer": "Kheer Bhawani",
+      "accept": [
+        "kheer bhawani",
+        "kheer bhavani",
+        "khir bhawani",
+        "khir bhavani",
+        "ksheer bhawani",
+        "ksheer bhavani",
+        "kshir bhavani",
+        "kshir bhawani",
+        "mata kheer bhawani"
+      ],
+      "explanation": "The Kheer Bhawani temple at Tulmul takes its name from the kheer, a rice pudding, offered to the goddess Ragnya, and its great annual mela falls on Jyeshtha Ashtami.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Sharika Devi",
+        "Jwalamukhi",
+        "Vaishno Devi"
+      ]
+    },
+    {
+      "id": "q1109k028",
+      "topic": "geography",
+      "question": "Kashmir's harshest stretch of winter begins around the twenty-first of December and lasts forty days, when taps freeze and the Dal can ice over. A twenty-day spell and then a ten-day spell follow it. What is the forty-day period called?",
+      "answer": "Chillai Kalan",
+      "accept": [
+        "chillai kalan",
+        "chilai kalan",
+        "chilla-i-kalan",
+        "chilla i kalan",
+        "chillai-kalan",
+        "chilla kalan",
+        "chillay kalan",
+        "chilla-e-kalan",
+        "chilla e kalan",
+        "chille kalan"
+      ],
+      "explanation": "Chillai Kalan, the great cold, runs roughly from 21 December to the end of January, and is followed by the twenty days of Chillai Khurd and the ten days of Chillai Bachha.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Chillai Khurd",
+        "Chillai Bachha",
+        "Harud"
+      ]
+    },
+    {
+      "id": "q1109k029",
+      "topic": "general",
+      "question": "For about a hundred years, clefts of willow grown along the Valley's streams have been seasoned and shaped in workshops at Halmulla, Bijbehara and Sangam in Anantnag district. Name the sporting item they make.",
+      "answer": "Cricket bat",
+      "accept": [
+        "cricket bat",
+        "cricket bats",
+        "bat",
+        "bats",
+        "kashmir willow bat",
+        "kashmir willow bats",
+        "willow bat",
+        "willow bats"
+      ],
+      "explanation": "Kashmir willow cricket bats are made mainly in the Bijbehara, Halmulla and Sangam belt of Anantnag district, an industry that dates back about a century.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Hockey stick",
+        "Tennis racket",
+        "Badminton racket"
+      ]
+    },
+    {
+      "id": "q1109k030",
+      "topic": "general",
+      "question": "Kashmiri weavers called this teardrop-shaped motif the buta. When Kashmir shawls became the rage in early nineteenth-century Europe, mills in one Scottish town copied them so prolifically that the motif now carries that town's name around the world. Name it.",
+      "answer": "Paisley",
+      "accept": [
+        "paisley",
+        "paisley pattern",
+        "paisley motif",
+        "paisley design"
+      ],
+      "explanation": "Weavers in Paisley, near Glasgow, led the trade in imitation Kashmir shawls from about 1800 to 1850, and the buta, or boteh, motif took the town's name.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Argyle",
+        "Damask",
+        "Tweed"
+      ]
+    },
+    {
+      "id": "q1109k031",
+      "topic": "geography",
+      "question": "Old Srinagar was strung along the Jhelum by a chain of wooden bridges called kadals, from Amira Kadal downstream to Safa Kadal, with Fateh Kadal and Zaina Kadal among those in between. How many of these historic kadals were there?",
+      "answer": "Seven",
+      "accept": [
+        "seven",
+        "7",
+        "saat",
+        "sath",
+        "seven bridges"
+      ],
+      "explanation": "The seven historic kadals, from Amira Kadal down to Safa Kadal, were wooden bridges built between the fifteenth and eighteenth centuries.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Five",
+        "Nine",
+        "Twelve"
+      ]
+    },
+    {
+      "id": "q1109k032",
+      "topic": "history",
+      "question": "In 1620 the Mughal emperor Jahangir enclosed a deep blue spring at the southern end of the Valley in an octagonal stone tank with an arched arcade, and had inscriptions in its praise carved in Persian on its walls. The spring is traditionally regarded as the source of the Jhelum. Name it.",
+      "answer": "Verinag",
+      "accept": [
+        "verinag",
+        "vernag",
+        "verinaag",
+        "veernag",
+        "vernaag",
+        "verinag spring"
+      ],
+      "explanation": "Jahangir built the octagonal tank at Verinag in 1620, and the spring is traditionally taken as the source of the Jhelum.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Achabal",
+        "Kokernag",
+        "Anantnag"
+      ]
+    },
+    {
+      "id": "q1109k033",
+      "topic": "history",
+      "question": "Built in 1633 not by an emperor but by Nur Jahan's elder brother Asif Khan, this Mughal garden on the eastern shore of the Dal climbs towards the Zabarwan hills in twelve terraces, said to stand for the twelve signs of the zodiac. Name the garden.",
+      "answer": "Nishat Bagh",
+      "accept": [
+        "nishat bagh",
+        "nishat",
+        "nishat garden",
+        "nishat gardens",
+        "nishaat bagh",
+        "bagh-e-nishat",
+        "bagh e nishat"
+      ],
+      "explanation": "Nishat Bagh, the garden of joy, was laid out by Asif Khan in 1633, with twelve terraces rising from the Dal towards the Zabarwan range.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Shalimar Bagh",
+        "Chashme Shahi",
+        "Naseem Bagh"
+      ]
+    },
+    {
+      "id": "q1109k034",
+      "topic": "history",
+      "question": "Kalhana's twelfth-century chronicle credits King Lalitaditya Muktapida with this eighth-century temple to the Sun god, built of massive dressed stone on a plateau above Mattan near Anantnag, its courtyard ringed by eighty-four small shrines. Name the temple.",
+      "answer": "Martand",
+      "accept": [
+        "martand",
+        "martand sun temple",
+        "martand temple",
+        "martanda",
+        "martand surya temple",
+        "martanda sun temple"
+      ],
+      "explanation": "Kalhana credits Lalitaditya Muktapida with the Martand Sun Temple at Mattan, whose courtyard is surrounded by 84 smaller shrines.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Buniyar Temple",
+        "Pandrethan Temple",
+        "Payar Temple"
+      ],
+      "option_answer": "Martand Temple"
+    },
+    {
+      "id": "q1109k035",
+      "topic": "geography",
+      "question": "Kashmir's own red deer now survives almost entirely in Dachigam National Park, in the mountains a short drive from Srinagar. Its stags carry great branching antlers, and it is critically endangered. What is this deer called in Kashmir?",
+      "answer": "Hangul",
+      "accept": [
+        "hangul",
+        "kashmir stag",
+        "kashmiri stag",
+        "hangal"
+      ],
+      "explanation": "The hangul, or Kashmir stag, is a critically endangered red deer whose only viable population lives in and around Dachigam National Park.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Chital",
+        "Markhor",
+        "Sambar"
+      ]
+    },
+    {
+      "id": "q1109k036",
+      "topic": "general",
+      "question": "This shawl is woven not with a shuttle but with hundreds of small, eyeless wooden spools, each carrying a different colour, which the weaver works by following a coded pattern. It takes its name from the Kashmiri word for those spools. Name this kind of shawl.",
+      "answer": "Kani",
+      "accept": [
+        "kani",
+        "kani shawl",
+        "kaani",
+        "kani pashmina",
+        "kanikar",
+        "kani jamawar"
+      ],
+      "explanation": "Kani shawls are woven with small wooden spools called kanis, a craft centred on Kanihama near Srinagar.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Sozni",
+        "Shahtoosh",
+        "Tilla"
+      ]
+    },
+    {
+      "id": "q1109k037",
+      "topic": "general",
+      "question": "Kashmiris long called this craft kar-i-qalamdani, pen-case work, after the first objects its artisans decorated. Today its brightly painted boxes, vases and Christmas baubles go out to the world under a French name. Name the craft.",
+      "answer": "Papier-mache",
+      "accept": [
+        "papier-mache",
+        "papier mache",
+        "papier-mâché",
+        "papier mâché",
+        "papiermache",
+        "paper mache",
+        "paper-mache",
+        "paper machie"
+      ],
+      "explanation": "Kashmiri papier-mache, made from paper pulp and painted in layers, began with the decoration of qalamdans, or pen cases, and is traditionally traced to artisans from Persia and Central Asia.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Decoupage",
+        "Cloisonne",
+        "Marquetry"
+      ]
+    },
+    {
+      "id": "q1109k038",
+      "topic": "geography",
+      "question": "An early consignment of eggs from Britain died on the long journey to Srinagar, but a second batch in 1900 survived, and in 1901 a carpet-factory owner named Frank Mitchell set up a hatchery at Harwan. Anglers have fished for it in the Valley's cold streams ever since. Name the fish.",
+      "answer": "Trout",
+      "accept": [
+        "trout",
+        "brown trout",
+        "rainbow trout",
+        "trouts"
+      ],
+      "explanation": "Brown trout reached Kashmir from Britain around 1900, and Mitchell's Harwan hatchery of 1901 stocked the Valley's streams; rainbow trout followed later.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Mahseer",
+        "Carp",
+        "Eel"
+      ]
+    },
+    {
+      "id": "q1109k039",
+      "topic": "geography",
+      "question": "Joined to the Dal by a narrow channel, this smaller and quieter lake in north Srinagar is ringed by willows and poplars and is deep enough for swimming. Its name is said to mean a jewel set in a ring. Name the lake.",
+      "answer": "Nigeen Lake",
+      "accept": [
+        "nigeen",
+        "nigeen lake",
+        "nageen",
+        "nageen lake",
+        "nagin",
+        "nagin lake",
+        "nigin",
+        "nigin lake",
+        "nageena"
+      ],
+      "explanation": "Nigeen Lake, often treated as an arm of the Dal and linked to it by a narrow strait, takes its name from nageena, the jewel set in a ring.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Manasbal Lake",
+        "Anchar Lake",
+        "Wular Lake"
+      ]
+    },
+    {
+      "id": "q1109k040",
+      "topic": "general",
+      "question": "Kashmiri carpenters fit hundreds of small, geometrically cut pieces of deodar or pine together like a jigsaw, with hardly a nail, to build up star patterns across a room's ceiling. What is this ceiling craft called?",
+      "answer": "Khatamband",
+      "accept": [
+        "khatamband",
+        "khatambandh",
+        "khatumband",
+        "khatambandi",
+        "khatam band",
+        "khatambund",
+        "khatam bandh"
+      ],
+      "explanation": "Khatamband ceilings of interlocking wooden panels in geometric patterns are a hallmark of old Kashmiri houses and shrines.",
+      "difficulty": 3,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Pinjrakari",
+        "Tarkashi",
+        "Naqashi"
+      ]
+    },
+    {
+      "id": "q1109k041",
+      "topic": "books",
+      "question": "In the fourteenth century a Kashmiri woman of the Shaiva tradition took the guru Sed Bayu, left home and wandered the Valley speaking short verses called vakh, among the earliest poems in the Kashmiri language. Who was this poet-saint, whose sayings are still quoted in Kashmiri homes?",
+      "answer": "Lal Ded",
+      "accept": [
+        "lal ded",
+        "lal dyad",
+        "lal deddi",
+        "lalla",
+        "lalla ded",
+        "lalleshwari",
+        "lalleshvari",
+        "lal diddi",
+        "lalla arifa",
+        "lal arifa",
+        "lalla yogeshwari"
+      ],
+      "explanation": "Lal Ded, also called Lalleshwari or Lalla, was a 14th-century Shaiva mystic whose vakhs are among the oldest works in Kashmiri.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Rupa Bhawani",
+        "Akka Mahadevi",
+        "Mirabai"
+      ]
+    },
+    {
+      "id": "q1109k042",
+      "topic": "cinema",
+      "question": "In this 1965 hit, Shashi Kapoor plays Raja, a Kashmiri boatman who falls for a rich young tourist played by Nanda, and Kalyanji Anandji's songs float across the Dal Lake. Name the film.",
+      "answer": "Jab Jab Phool Khile",
+      "accept": [
+        "jab jab phool khile",
+        "jab jab phool khiley"
+      ],
+      "explanation": "Jab Jab Phool Khile, directed by Suraj Prakash, was the second-highest-grossing Hindi film of 1965.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Kashmir Ki Kali",
+        "Mere Sanam",
+        "Phir Wohi Dil Laya Hoon"
+      ]
+    },
+    {
+      "id": "q1109k043",
+      "topic": "general",
+      "question": "Named after the goddess of learning, this script grew out of Brahmi and was used across Kashmir from about the eighth century. Kashmiri Pandit priests kept writing horoscopes in it well into the twentieth century. Name the script.",
+      "answer": "Sharada",
+      "accept": [
+        "sharada",
+        "sharda",
+        "sarada",
+        "shaarda",
+        "sharada lipi",
+        "sharda lipi"
+      ],
+      "explanation": "The Sharada script, named after the goddess Sharada, is the ancestor of Takri and survives in Kashmiri Pandit ritual use.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Takri",
+        "Devanagari",
+        "Landa"
+      ]
+    },
+    {
+      "id": "q1109k044",
+      "topic": "mythology",
+      "question": "According to the Nilamata Purana, the whole Valley was once a vast lake where a water demon lived, until the gods drained it at the plea of the sage Kashyapa, after whom, it is said, the land is named. What do the old texts call this primeval lake?",
+      "answer": "Satisar",
+      "accept": [
+        "satisar",
+        "sati sar",
+        "satisaras",
+        "satisara",
+        "sati saras"
+      ],
+      "explanation": "The Nilamata Purana and Kalhana both tell of Satisar, the lake that once filled the Valley and was drained at the sage Kashyapa's plea.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Manasarovar",
+        "Gangabal",
+        "Kausarnag"
+      ]
+    },
+    {
+      "id": "q1109k045",
+      "topic": "music",
+      "question": "Born in Srinagar in 1948 into a family that had played the santoor for six generations, this maestro, whose family name points to a town in Baramulla district, was hailed as the Saint of the Santoor. Name him.",
+      "answer": "Bhajan Sopori",
+      "accept": [
+        "bhajan sopori",
+        "sopori",
+        "pandit bhajan sopori",
+        "bhajan sopory"
+      ],
+      "explanation": "Pandit Bhajan Sopori, Padma Shri 2004, came from a Kashmiri Pandit santoor family whose name traces to Sopore.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Shivkumar Sharma",
+        "Rahul Sharma",
+        "Tarun Bhattacharya"
+      ]
+    },
+    {
+      "id": "q1109k046",
+      "topic": "history",
+      "question": "Written in Sanskrit verse around 1148 by the poet Kalhana, this chronicle traces the kings of Kashmir through eight books. What is the work called, a title meaning River of Kings?",
+      "answer": "Rajatarangini",
+      "accept": [
+        "rajatarangini",
+        "raj tarangini",
+        "rajtarangini",
+        "raja tarangini",
+        "rajatarangani",
+        "rajtarangani"
+      ],
+      "explanation": "Kalhana's Rajatarangini, finished around 1149, runs to some 7,800 verses in eight books.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Harshacharita",
+        "Nilamata Purana",
+        "Mudrarakshasa"
+      ]
+    },
+    {
+      "id": "q1109k047",
+      "topic": "cinema",
+      "question": "Born Omkar Nath Dhar in Srinagar in 1915, this actor played the sage Narad in dozens of mythological films before becoming one of Hindi cinema's familiar villains, and his son Kiran Kumar followed him into the trade. By what one-word screen name was he known?",
+      "answer": "Jeevan",
+      "accept": [
+        "jeevan",
+        "jivan"
+      ],
+      "explanation": "Jeevan, born Omkar Nath Dhar into a Kashmiri Pandit family, played Narad Muni dozens of times and later villains through the 1960s to 80s.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Pran",
+        "Ajit",
+        "Ranjeet"
+      ]
+    },
+    {
+      "id": "q1109k048",
+      "topic": "music",
+      "question": "Shaped like a goblet out of fired clay, with a skin stretched over its wide mouth, this drum is played by women at Kashmiri weddings, above all on the night of singing and celebration a few days before the wedding. Name it.",
+      "answer": "Tumbaknari",
+      "accept": [
+        "tumbaknari",
+        "tumbakhnari",
+        "tumbaknaer",
+        "tumbaknar",
+        "tumbakhnaer",
+        "tumbaknaar",
+        "tumbak nari",
+        "tumbaknaari"
+      ],
+      "explanation": "The tumbaknari is a clay goblet drum made by Kashmiri potters, a fixture of the singing nights before a Kashmiri wedding.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Ghatam",
+        "Dholak",
+        "Nagara"
+      ]
+    },
+    {
+      "id": "q1109k049",
+      "topic": "books",
+      "question": "Around the year 1000, a Kashmiri philosopher wrote the Tantraloka, an encyclopaedia of Kashmir Shaivism, and the classic commentary on Bharata's Natyashastra that shaped Indian thinking on rasa. Legend says he walked into a cave with twelve hundred disciples and was never seen again. Name him.",
+      "answer": "Abhinavagupta",
+      "accept": [
+        "abhinavagupta",
+        "abhinava gupta",
+        "abhinav gupta",
+        "acharya abhinavagupta"
+      ],
+      "explanation": "Abhinavagupta, about 950 to 1016, wrote the Tantraloka and the Abhinavabharati commentary on the Natyashastra.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Anandavardhana",
+        "Kshemendra",
+        "Utpaladeva"
+      ]
+    },
+    {
+      "id": "q1109k050",
+      "topic": "general",
+      "question": "Its oldest poems go back some seven centuries, and millions of people in the Valley speak it at home. In English it is simply called Kashmiri. What do its own speakers call the language?",
+      "answer": "Koshur",
+      "accept": [
+        "koshur",
+        "kashur",
+        "kooshur",
+        "koshor",
+        "kosher"
+      ],
+      "explanation": "Kashmiri speakers call their language Koshur, spoken by about seven million people.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Dogri",
+        "Shina",
+        "Pahari"
+      ]
+    },
+    {
+      "id": "q1109k051",
+      "topic": "books",
+      "question": "Tradition says she was born a village girl named Zoon, which means moon, in a saffron-growing village south-east of Srinagar in the sixteenth century. She is remembered as a queen and as a poet whose love songs are still sung across the Valley. By what name is this Nightingale of Kashmir remembered?",
+      "answer": "Habba Khatoon",
+      "accept": [
+        "habba khatoon",
+        "habba khatun",
+        "habba khatoun",
+        "habba khotun",
+        "habba",
+        "khatoon"
+      ],
+      "explanation": "Habba Khatoon, born Zoon, by tradition in the village of Chandhara in 1554, is known as the Nightingale of Kashmir.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Arnimal",
+        "Rupa Bhawani",
+        "Zebunnisa"
+      ]
+    },
+    {
+      "id": "q1109k052",
+      "topic": "general",
+      "question": "In this folk theatre of Kashmir, hereditary troupes from villages such as Akingam mix music, dance and sharp social satire, all to the piping of the surnai. Name the form.",
+      "answer": "Bhand Pather",
+      "accept": [
+        "bhand pather",
+        "bhand pathar",
+        "bhand paether",
+        "bhand paathar",
+        "bhand paather",
+        "pather",
+        "bhand"
+      ],
+      "explanation": "Bhand Pather is Kashmir's satirical folk theatre, performed by hereditary Bhand families to the music of the surnai.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Nautanki",
+        "Swang",
+        "Chakri"
+      ]
+    },
+    {
+      "id": "q1109k053",
+      "topic": "cinema",
+      "question": "A valley a short drive from Pahalgam, once called Hagan, now carries the name of a 1983 film shot there, the film that launched both Sunny Deol and Amrita Singh. Name the film.",
+      "answer": "Betaab",
+      "accept": [
+        "betaab",
+        "betab"
+      ],
+      "explanation": "Betaab Valley near Pahalgam is named after Rahul Rawail's 1983 film Betaab, the debut of Sunny Deol and Amrita Singh.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Hero",
+        "Love Story",
+        "Coolie"
+      ]
+    },
+    {
+      "id": "q1109k054",
+      "topic": "history",
+      "question": "In the ninth century, the founder of the Utpala dynasty built a town on the Jhelum named after himself, with stone temples to Vishnu and Shiva that travellers still stop to see on the road from Srinagar to Anantnag. His engineer Suyya tamed the river's floods. Name the king.",
+      "answer": "Avantivarman",
+      "accept": [
+        "avantivarman",
+        "avanti varman",
+        "avantivarma",
+        "avantiverman"
+      ],
+      "explanation": "Avantivarman, who ruled from 855 to 883, founded Avantipur with the Avantiswami and Avantiswara temples, while his engineer Suyya embanked the Jhelum.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Lalitaditya",
+        "Jayapida",
+        "Shankaravarman"
+      ]
+    },
+    {
+      "id": "q1109k055",
+      "topic": "music",
+      "question": "Kashmir's own classical music is sung by a seated ensemble in modes called maqams rather than ragas, led on the santoor, with the Kashmiri sehtar and a drum keeping time. What is this tradition called?",
+      "answer": "Sufiana Kalam",
+      "accept": [
+        "sufiana kalam",
+        "sufiana mausiqi",
+        "sufiyana kalam",
+        "sufiyana mousiqi",
+        "sufiana musiqi",
+        "sufiana",
+        "sufiyana",
+        "sufiana music"
+      ],
+      "explanation": "Sufiana Kalam, or Sufiana Mausiqi, is the classical music of Kashmir, built on Persian-derived maqams and led on the santoor.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Chakri",
+        "Rouf",
+        "Qawwali"
+      ],
+      "option_answer": "Sufiana"
+    },
+    {
+      "id": "q1109k056",
+      "topic": "books",
+      "question": "Nearly a thousand years ago the Kashmiri poet Somadeva retold an older storybook in Sanskrit verse for the queen of Kashmir. Its eighteen books include the tales a vetal tells a king who carries him down from a tree, stories later loved as Vikram and Betaal. Name Somadeva's great collection.",
+      "answer": "Kathasaritsagara",
+      "accept": [
+        "kathasaritsagara",
+        "katha sarit sagara",
+        "kathasaritsagar",
+        "katha saritsagar",
+        "kathasarit sagara",
+        "katha sarit sagar",
+        "katha saritsagara"
+      ],
+      "explanation": "Somadeva's Kathasaritsagara, the Ocean of the Streams of Stories, was composed in Kashmir in the 11th century and contains the Vetala tales.",
+      "difficulty": 3,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Panchatantra",
+        "Hitopadesha",
+        "Singhasan Battisi"
+      ]
+    },
+    {
+      "id": "q1109k057",
+      "topic": "cinema",
+      "question": "Born in Shimla in 1955 to a Kashmiri Pandit family, this actor made his film debut in Mahesh Bhatt's Saaransh, playing a retired schoolteacher in his sixties while he himself was still in his twenties. Name him.",
+      "answer": "Anupam Kher",
+      "accept": [
+        "anupam kher",
+        "kher"
+      ],
+      "explanation": "Anupam Kher was about 28 when he played the 65-year-old B. V. Pradhan in Saaransh, released in 1984.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Paresh Rawal",
+        "Om Puri",
+        "Pankaj Kapur"
+      ]
+    },
+    {
+      "id": "q1109k058",
+      "topic": "books",
+      "question": "Born around 1377, this saint founded Kashmir's own order of ascetic mystics and spoke short verses called shruks. One of the best known, ann poshi teli yeli wan poshi, warns that food will last only as long as the forests do. Name him.",
+      "answer": "Nund Rishi",
+      "accept": [
+        "nund rishi",
+        "nund reshi",
+        "nunda rishi",
+        "nund ryosh",
+        "sheikh noor ud din",
+        "sheikh nooruddin",
+        "sheikh noor-ud-din",
+        "sheikh noor ud din wali",
+        "nooruddin noorani",
+        "nooruddin rishi",
+        "sheikh ul alam",
+        "sheikh-ul-alam",
+        "alamdar e kashmir",
+        "alamdar-e-kashmir",
+        "sahajanand",
+        "sahajananda"
+      ],
+      "explanation": "Nund Rishi, Sheikh Noor-ud-din, founded the Rishi order; Hindus call him Sahajanand, and his shruk on food and forests is still widely quoted.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Makhdoom Sahib",
+        "Shams Faqir",
+        "Parmanand"
+      ]
+    },
+    {
+      "id": "q1109k059",
+      "topic": "music",
+      "question": "Wandering from village to village, this Kashmiri folk balladeer sang witty songs about the follies of the day, keeping time by shaking iron rings on a metal rod called a dhukar. By what name are both the singer and his satirical song known?",
+      "answer": "Ladishah",
+      "accept": [
+        "ladishah",
+        "ladi shah",
+        "laddi shah",
+        "laddishah",
+        "laadishah",
+        "ladeshah"
+      ],
+      "explanation": "Ladishah is Kashmir's satirical ballad form, sung to the jingle of the dhukar; the singer is called a ladishah too.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Baul",
+        "Dastango",
+        "Alha"
+      ]
+    },
+    {
+      "id": "q1109k060",
+      "topic": "cinema",
+      "question": "In Ramanand Sagar's 1965 film, Rajendra Kumar plays a skiing champion who holidays in Kashmir under a false name and falls for Sadhana, while Mohammed Rafi sings Ae Phoolon Ki Rani. Name the film.",
+      "answer": "Arzoo",
+      "accept": [
+        "arzoo",
+        "aarzoo",
+        "arzu",
+        "aarzu"
+      ],
+      "explanation": "Arzoo, set largely in snowy Kashmir, had music by Shankar Jaikishan and lyrics by Hasrat Jaipuri.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "kashmir"
+      ],
+      "distractors": [
+        "Mere Mehboob",
+        "Sangam",
+        "Aaye Din Bahar Ke"
+      ]
+    },
+    {
+      "id": "q1109s001",
+      "topic": "general",
+      "question": "In 1968 an orthopaedic surgeon at Sawai Man Singh Hospital, P. K. Sethi, and a craftsman, Ram Chandra Sharma, made a cheap rubber artificial foot that let its wearer squat and sit cross-legged, as daily life in India demands. The dancer Sudha Chandran returned to the stage on one. By what name, taken from its home city, is it known around the world?",
+      "answer": "Jaipur Foot",
+      "accept": [
+        "jaipur foot",
+        "jaipur leg",
+        "jaipur limb",
+        "the jaipur foot",
+        "jaipur"
+      ],
+      "explanation": "The Jaipur Foot was designed in 1968 by surgeon P. K. Sethi and craftsman Ram Chandra Sharma, and Sudha Chandran danced again on one.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Bombay Foot",
+        "Lucknow Foot",
+        "Pune Foot"
+      ]
+    },
+    {
+      "id": "q1109s002",
+      "topic": "general",
+      "question": "A school dropout from Coimbatore, Arunachalam Muruganantham, spent years building a simple, low-cost machine so that village women could make an everyday product for themselves. Time magazine named him among the world's most influential people in 2014, and Akshay Kumar played him on screen in 2018. What does his machine make?",
+      "answer": "Sanitary pads",
+      "accept": [
+        "sanitary pads",
+        "sanitary pad",
+        "sanitary napkins",
+        "sanitary napkin",
+        "pads",
+        "napkins",
+        "menstrual pads"
+      ],
+      "explanation": "Arunachalam Muruganantham invented a low-cost sanitary pad-making machine, and the 2018 film Pad Man starring Akshay Kumar is based on his life.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Paper cups",
+        "Incense sticks",
+        "Soap bars"
+      ]
+    },
+    {
+      "id": "q1109s003",
+      "topic": "business",
+      "question": "For more than 45 years he taught at the Massachusetts Institute of Technology. Born in Philadelphia to a Bengali independence activist who had fled the British police, he founded an audio company in 1964 that is now famous for its speakers and noise-cancelling headphones. The company carries his family name. Name it.",
+      "answer": "Bose",
+      "accept": [
+        "bose",
+        "bose corporation",
+        "amar bose"
+      ],
+      "explanation": "Amar Bose, son of the Bengali activist Noni Gopal Bose, taught at MIT for over 45 years and founded Bose Corporation in 1964.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Sennheiser",
+        "Harman Kardon",
+        "JBL"
+      ]
+    },
+    {
+      "id": "q1109s004",
+      "topic": "history",
+      "question": "India's first satellite, named after the great astronomer who wrote the Aryabhatiya, was built by ISRO and went up on 19 April 1975, and its picture later appeared on the back of the two-rupee note. But the launcher that carried it belonged to another country, and lifted off from that country's soil. Which country?",
+      "answer": "Soviet Union",
+      "accept": [
+        "soviet union",
+        "the soviet union",
+        "ussr",
+        "u.s.s.r.",
+        "russia",
+        "soviet russia"
+      ],
+      "explanation": "The Aryabhata satellite was launched on 19 April 1975 on a Soviet Kosmos-3M launcher from Kapustin Yar.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "United States",
+        "France",
+        "Japan"
+      ]
+    },
+    {
+      "id": "q1109s005",
+      "topic": "history",
+      "question": "In 1893 two Indians met by chance on a steamer sailing from Japan towards North America. One was the industrialist Jamsetji Tata. The other was a young monk on his way to speak at a parliament of religions in Chicago. Five years later Tata wrote to remind him of that voyage as he laid plans for what became the Indian Institute of Science. Name the monk.",
+      "answer": "Swami Vivekananda",
+      "accept": [
+        "swami vivekananda",
+        "vivekananda",
+        "narendranath datta",
+        "narendranath dutta"
+      ],
+      "explanation": "Jamsetji Tata met Swami Vivekananda on a ship in 1893 and wrote to him in 1898 about his plan for a research institute, which opened as IISc in 1909.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Swami Dayananda Saraswati",
+        "Paramahansa Yogananda",
+        "Swami Rama Tirtha"
+      ]
+    },
+    {
+      "id": "q1109s006",
+      "topic": "general",
+      "question": "This prized mango of Ratnagiri and Devgad is grown from grafts, a technique Portuguese Jesuits are credited with bringing to the mango orchards of Goa. Its English name is usually traced to a Portuguese general who governed Portuguese India in the early 1500s. Name the mango.",
+      "answer": "Alphonso",
+      "accept": [
+        "alphonso",
+        "alphonso mango",
+        "alfonso",
+        "hapus",
+        "hapoos",
+        "aphoos",
+        "aapoos"
+      ],
+      "explanation": "The Alphonso, or Hapus, is usually said to be named after Afonso de Albuquerque, who governed Portuguese India from 1509 to 1515, and Jesuits in Goa are credited with introducing the grafting by which it is propagated.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Kesar",
+        "Langra",
+        "Totapuri"
+      ]
+    },
+    {
+      "id": "q1109s007",
+      "topic": "geography",
+      "question": "For well over a thousand years, until finds in Brazil in the 1720s, India was the world's only known source of this gem, dug from river gravels along the Krishna and sold in the markets of Golconda. Chemically, it is almost pure carbon. Name it.",
+      "answer": "Diamond",
+      "accept": [
+        "diamond",
+        "diamonds",
+        "heera",
+        "hira"
+      ],
+      "explanation": "Until diamonds were found in Brazil in the 1720s, India's Krishna valley deposits, traded through Golconda, were the world's only known source.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Ruby",
+        "Emerald",
+        "Sapphire"
+      ]
+    },
+    {
+      "id": "q1109s008",
+      "topic": "history",
+      "question": "On 14 November 2008, a small probe released from Chandrayaan-1 crash-landed near the Moon's south pole, with pictures of the Indian flag fixed to its sides. Because of the date, the impact site was named after the man who had been born on that day in 1889. Who was he?",
+      "answer": "Jawaharlal Nehru",
+      "accept": [
+        "jawaharlal nehru",
+        "nehru",
+        "pandit nehru",
+        "chacha nehru",
+        "pandit jawaharlal nehru"
+      ],
+      "explanation": "Chandrayaan-1's Moon Impact Probe hit the Moon on Nehru's birth anniversary, so the spot was named Jawahar Sthal, a name suggested by A. P. J. Abdul Kalam.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Vikram Sarabhai",
+        "Mahatma Gandhi",
+        "Rajendra Prasad"
+      ]
+    },
+    {
+      "id": "q1109s009",
+      "topic": "general",
+      "question": "A potter from Gujarat, Mansukhbhai Prajapati, designed a cooling cabinet made entirely of clay that keeps food fresh with no electricity at all. Water from a tank at the top seeps down through its walls, and the food inside stays cool by the same process that keeps water cold in an earthen matka. Name the process.",
+      "answer": "Evaporation",
+      "accept": [
+        "evaporation",
+        "evaporative cooling",
+        "evaporating",
+        "evaporative"
+      ],
+      "explanation": "Mansukhbhai Prajapati's Mitticool clay cooler works by evaporation: water seeping through the clay walls evaporates and draws heat from the chambers inside.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Condensation",
+        "Convection",
+        "Conduction"
+      ]
+    },
+    {
+      "id": "q1109s010",
+      "topic": "general",
+      "question": "Born in Moga in Punjab in 1926, Narinder Singh Kapany worked at Imperial College London on sending images through bundles of fine glass threads, and in a 1960 Scientific American article he coined the name of this technology. Today such threads carry phone and internet signals as pulses of light, even under the oceans. Name the technology.",
+      "answer": "Fibre optics",
+      "accept": [
+        "fibre optics",
+        "fiber optics",
+        "optical fibre",
+        "optical fiber",
+        "optical fibres",
+        "optical fibers",
+        "fibre optic",
+        "fiber optic",
+        "fibre optic cable",
+        "optical fibre cable",
+        "fibre",
+        "fiber"
+      ],
+      "explanation": "Narinder Singh Kapany, often called the father of fibre optics, coined the term fiber optics in Scientific American in 1960.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Laser",
+        "Holography",
+        "Coaxial cable"
+      ]
+    },
+    {
+      "id": "q1109s011",
+      "topic": "general",
+      "question": "More than two thousand years ago the scholar Pingala, studying the rhythm of Sanskrit verse, listed every possible pattern of light and heavy syllables for a line of a given length. Write a light syllable as one symbol and a heavy one as another, and his lists match the two-symbol number system on which every computer runs. Name that number system.",
+      "answer": "Binary",
+      "accept": [
+        "binary",
+        "binary system",
+        "binary numbers",
+        "binary number system",
+        "base two",
+        "base 2"
+      ],
+      "explanation": "Pingala's Chandahshastra enumerates all combinations of light and heavy syllables, which can be written as binary sequences.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Decimal",
+        "Hexadecimal",
+        "Octal"
+      ]
+    },
+    {
+      "id": "q1109s012",
+      "topic": "general",
+      "question": "In 1981 ISRO engineers, short of a proper test range, wheeled an experimental communication satellite out on a bullock cart, so that no metal nearby would spoil the tests on its antenna. It was launched that June on a European Ariane launcher, and its name, an acronym, was also the name of a fruit. What was it called?",
+      "answer": "APPLE",
+      "accept": [
+        "apple",
+        "apple satellite",
+        "ariane passenger payload experiment"
+      ],
+      "explanation": "APPLE, the Ariane Passenger Payload Experiment, was launched on 19 June 1981, and the photograph of it on a bullock cart became an icon of ISRO's frugal early years.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Mango",
+        "Orange",
+        "Cherry"
+      ],
+      "option_answer": "Apple"
+    },
+    {
+      "id": "q1109s013",
+      "topic": "general",
+      "question": "In 1933 a young Bombay chemistry graduate, Kamala Sohonie, applied for a research fellowship at the Indian Institute of Science. The institute's director, a Nobel laureate, turned her down, reportedly because he doubted women were fit for research, and let her in only on probation after she protested. She went on to earn a PhD at Cambridge in 1939. Who was that director?",
+      "answer": "C. V. Raman",
+      "accept": [
+        "c. v. raman",
+        "c v raman",
+        "cv raman",
+        "raman",
+        "sir c v raman",
+        "chandrasekhara venkata raman",
+        "sir c. v. raman"
+      ],
+      "explanation": "C. V. Raman, then Director of IISc, first rejected Kamala Sohonie and admitted her on probation; she went on to a Cambridge PhD in 1939.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "M. N. Saha",
+        "H. J. Bhabha",
+        "P. C. Ray"
+      ]
+    },
+    {
+      "id": "q1109s014",
+      "topic": "geography",
+      "question": "In the 1860s Tibet was closed to Europeans, so British surveyors trained Nain Singh Rawat, from Milam village in Kumaon, to walk to Lhasa in disguise and measure the route by keeping a perfectly even stride and counting every step. To keep count he carried a religious object, altered to hold 100 pieces instead of the usual 108, and moved one piece along every hundred paces. What was it?",
+      "answer": "Prayer beads",
+      "accept": [
+        "prayer beads",
+        "rosary",
+        "mala",
+        "japa mala",
+        "japamala",
+        "rudraksha mala",
+        "beads",
+        "rosary beads",
+        "buddhist rosary"
+      ],
+      "explanation": "Nain Singh Rawat used a string of prayer beads cut from 108 to 100, slipping one bead every hundred paces, to measure distances across Tibet.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Begging bowl",
+        "Walking staff",
+        "Prayer flag"
+      ]
+    },
+    {
+      "id": "q1109s015",
+      "topic": "world",
+      "question": "In 1966 India placed one of the largest seed orders the world had seen: about 18,000 tonnes of short-stemmed wheat bred by Norman Borlaug, with names like Sonora 64 and Lerma Rojo. Sown across the fields of north India, it helped launch the Green Revolution. From which country did the seed come?",
+      "answer": "Mexico",
+      "accept": [
+        "mexico"
+      ],
+      "explanation": "India imported about 18,000 tonnes of Borlaug's semi-dwarf Mexican wheat, Sonora 64 and Lerma Rojo, for the 1966 to 1967 season.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "United States",
+        "Australia",
+        "Argentina"
+      ]
+    },
+    {
+      "id": "q1109s016",
+      "topic": "geography",
+      "question": "India's first scientific base in Antarctica was set up during the third Indian expedition, in the Antarctic summer of 1983 to 1984. Within a few years it was buried under snow and ice, and was replaced by a new station called Maitri. Its name joined the Sanskrit word for south to the name of the Himalayan glacier where the Ganga begins. Name the base.",
+      "answer": "Dakshin Gangotri",
+      "accept": [
+        "dakshin gangotri",
+        "dakshin gangothri",
+        "dakshina gangotri",
+        "dakshin gangotri station"
+      ],
+      "explanation": "Dakshin Gangotri, India's first Antarctic base, was set up in 1983 to 1984, was buried in ice and abandoned, and was officially decommissioned in 1990 after Maitri took over.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Dakshin Yamunotri",
+        "Dakshin Kailash",
+        "Himadri"
+      ]
+    },
+    {
+      "id": "q1109s017",
+      "topic": "general",
+      "question": "As a boy in Bombay, Salim Ali shot a small bird with his toy air gun. W. S. Millard of the Bombay Natural History Society identified it for him as a yellow-throated species and showed him the Society's collection of birds, and the boy went on to become the Birdman of India. He later named his autobiography after this bird's fall. What kind of bird was it?",
+      "answer": "Sparrow",
+      "accept": [
+        "sparrow",
+        "yellow-throated sparrow",
+        "yellow throated sparrow",
+        "a sparrow",
+        "gauraiya",
+        "goraiya"
+      ],
+      "explanation": "Salim Ali's yellow-throated sparrow, identified by W. S. Millard of the BNHS, set him on the path to ornithology, and his autobiography is The Fall of a Sparrow.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Bulbul",
+        "Myna",
+        "Kingfisher"
+      ]
+    },
+    {
+      "id": "q1109s018",
+      "topic": "geography",
+      "question": "Around 1400, the astronomer Madhava of Sangamagrama and the scholars who followed him found endless series for pi and for the sine of an angle, results Europe reached only in the late 1600s with James Gregory and Leibniz. Historians name this school of mathematics after the region where they lived and wrote. Which present-day Indian state?",
+      "answer": "Kerala",
+      "accept": [
+        "kerala",
+        "kerala school"
+      ],
+      "explanation": "Madhava of Sangamagrama founded the Kerala school of astronomy and mathematics, whose infinite series for pi and trigonometric functions came centuries before Europe's.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Tamil Nadu",
+        "Karnataka",
+        "Odisha"
+      ]
+    },
+    {
+      "id": "q1109s019",
+      "topic": "general",
+      "question": "At Zawar in Rajasthan, miners were digging ore more than two thousand years ago, and by medieval times they were producing a metal in small clay retorts, catching its vapour and cooling it back into pure metal. In Europe, a way to make it was patented only in 1738. Today it is used above all to coat steel against rust, and it is one of the two metals in brass. Name the metal.",
+      "answer": "Zinc",
+      "accept": [
+        "zinc",
+        "jast",
+        "jasta",
+        "jasat"
+      ],
+      "explanation": "Zawar's medieval furnaces distilled zinc in clay retorts centuries before William Champion's 1738 patent in England.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Tin",
+        "Lead",
+        "Nickel"
+      ]
+    },
+    {
+      "id": "q1109s020",
+      "topic": "general",
+      "question": "Take any four-digit number whose digits are not all the same. Arrange its digits from largest to smallest, then from smallest to largest, subtract the smaller number from the larger, and repeat. Within seven rounds you always reach 6174, which then repeats for ever. This constant is named after a schoolteacher who taught in Devlali in Maharashtra. Name him.",
+      "answer": "D. R. Kaprekar",
+      "accept": [
+        "d. r. kaprekar",
+        "d r kaprekar",
+        "dr kaprekar",
+        "kaprekar",
+        "dattatreya ramchandra kaprekar",
+        "dattatreya kaprekar"
+      ],
+      "explanation": "D. R. Kaprekar, who taught at a school in Devlali, found that this routine always reaches 6174, now called Kaprekar's constant.",
+      "difficulty": 3,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "S. S. Pillai",
+        "D. D. Kosambi",
+        "T. Vijayaraghavan"
+      ]
+    },
+    {
+      "id": "q1109s021",
+      "topic": "history",
+      "question": "In January 1922, at Toronto General Hospital, a gravely ill teenager named Leonard Thompson became the first person to be treated with a new extract from the pancreas. The next year its discoverers, among them Frederick Banting, signed the patent over to the University of Toronto for one dollar. What hormone had they isolated?",
+      "answer": "Insulin",
+      "accept": [
+        "insulin"
+      ],
+      "explanation": "Banting, Charles Best and James Collip signed the insulin patent over to the University of Toronto for one dollar in 1923, the year Banting and John Macleod won the Nobel Prize.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Adrenaline",
+        "Thyroxine",
+        "Cortisone"
+      ]
+    },
+    {
+      "id": "q1109s022",
+      "topic": "history",
+      "question": "In 1747, aboard the warship HMS Salisbury, the Scottish naval surgeon James Lind split twelve sick sailors into pairs and gave each pair a different remedy, from cider to seawater. The pair given oranges and lemons recovered fastest. Which disease of bleeding gums and loosening teeth was he treating?",
+      "answer": "Scurvy",
+      "accept": [
+        "scurvy"
+      ],
+      "explanation": "Lind's trial pointed to citrus as the cure for scurvy, which is caused by a lack of vitamin C; the Royal Navy's later lemon and lime rations earned British sailors the nickname limeys.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Rickets",
+        "Beriberi",
+        "Pellagra"
+      ]
+    },
+    {
+      "id": "q1109s023",
+      "topic": "history",
+      "question": "In 1864, on a summer holiday in the wine town of Arbois, a French chemist showed that gently heating young wine killed the microbes that turned it sour, without ruining its taste. Today packets of milk all over India carry his name, in the word for that heat treatment. Name him.",
+      "answer": "Louis Pasteur",
+      "accept": [
+        "louis pasteur",
+        "pasteur"
+      ],
+      "explanation": "Louis Pasteur developed gentle heating to stop wine spoiling in 1864, and the process, pasteurisation, was later applied to milk.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Robert Koch",
+        "Antoine Lavoisier",
+        "Claude Bernard"
+      ]
+    },
+    {
+      "id": "q1109s024",
+      "topic": "history",
+      "question": "This Augustinian friar twice failed the exam to become a schoolteacher. Instead, between 1856 and 1863, he grew and tested about twenty-eight thousand plants, most of them peas, in his monastery garden in Brno, and worked out the basic rules of heredity. His paper lay largely ignored until 1900. Name this father of genetics.",
+      "answer": "Gregor Mendel",
+      "accept": [
+        "gregor mendel",
+        "mendel",
+        "gregor johann mendel"
+      ],
+      "explanation": "Gregor Mendel's pea experiments at St Thomas's Abbey in Brno were published in 1866 and rediscovered in 1900.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Carl Linnaeus",
+        "Hugo de Vries",
+        "Jean-Baptiste Lamarck"
+      ]
+    },
+    {
+      "id": "q1109s025",
+      "topic": "general",
+      "question": "Born on 5 July 1996 at the Roslin Institute near Edinburgh, she was the first mammal cloned from a cell taken from an adult. That cell came from a mammary gland, so the scientists named her, with a wink, after the American country singer famous for Jolene. What was this famous sheep called?",
+      "answer": "Dolly",
+      "accept": [
+        "dolly",
+        "dolly the sheep"
+      ],
+      "explanation": "Dolly was cloned from an adult mammary-gland cell, and Ian Wilmut's team named her after the singer Dolly Parton.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Daisy",
+        "Bella",
+        "Rosie"
+      ]
+    },
+    {
+      "id": "q1109s026",
+      "topic": "general",
+      "question": "In Greek myth, Zeus punished Prometheus for stealing fire by chaining him to a mountain, where an eagle came every day to feed on this organ, and every night it grew back. Remarkably, the real organ can also regrow much of what it loses, which is why a living donor can give part of it to a patient. Which organ?",
+      "answer": "Liver",
+      "accept": [
+        "liver"
+      ],
+      "explanation": "The liver regenerates after part of it is removed, so living donors can give a portion of theirs, much as Prometheus's liver grew back in the myth.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Heart",
+        "Kidney",
+        "Spleen"
+      ]
+    },
+    {
+      "id": "q1109s027",
+      "topic": "general",
+      "question": "Legend says the Ashvin twins, physicians to the gods, cooked up a herbal jam to restore the youth of an aged sage, and the jam still carries his name. The fruit at the heart of chyawanprash is a sour, pale green berry packed with vitamin C. Name this fruit.",
+      "answer": "Amla",
+      "accept": [
+        "amla",
+        "amalaki",
+        "amlaki",
+        "amloki",
+        "awla",
+        "aonla",
+        "nellikai",
+        "nellikkai",
+        "usirikaya",
+        "indian gooseberry"
+      ],
+      "explanation": "Amla, the Indian gooseberry, is the main ingredient of chyawanprash, named after the sage Chyavana.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Jamun",
+        "Ber",
+        "Kokum"
+      ]
+    },
+    {
+      "id": "q1109s028",
+      "topic": "general",
+      "question": "A camel can go a week or more without drinking, and when it goes hungry for long, its hump shrinks and flops to one side as the body uses up what is stored inside. What does the hump actually hold?",
+      "answer": "Fat",
+      "accept": [
+        "fat",
+        "body fat",
+        "fat tissue",
+        "fatty tissue"
+      ],
+      "explanation": "A camel's hump stores fat, not water, which the body draws on when food is scarce.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Water",
+        "Muscle",
+        "Cartilage"
+      ]
+    },
+    {
+      "id": "q1109s029",
+      "topic": "history",
+      "question": "In 1679 the French physicist Denis Papin showed the Royal Society in London his steam digester, a sealed pot in which trapped steam let water get far hotter than its usual boiling point, hot enough to soften bones. To stop it bursting, he fitted it with a safety valve. What is its descendant, found today in nearly every Indian kitchen?",
+      "answer": "Pressure cooker",
+      "accept": [
+        "pressure cooker",
+        "cooker"
+      ],
+      "explanation": "Papin's steam digester, with its safety valve, is the forerunner of the pressure cooker, which cooks faster because pressure raises the boiling point of water.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Thermos flask",
+        "Idli steamer",
+        "Electric kettle"
+      ]
+    },
+    {
+      "id": "q1109s030",
+      "topic": "history",
+      "question": "In 1984 an Australian doctor, Barry Marshall, frustrated that colleagues would not believe him, drank a broth of a spiral-shaped bacterium he had grown from a patient, and within days he fell ill. He and Robin Warren won the 2005 Nobel Prize for showing that this germ, not stress or spicy food, causes most cases of which painful condition?",
+      "answer": "Stomach ulcers",
+      "accept": [
+        "stomach ulcers",
+        "stomach ulcer",
+        "ulcers",
+        "ulcer",
+        "peptic ulcer",
+        "peptic ulcers",
+        "gastric ulcer",
+        "gastric ulcers",
+        "duodenal ulcer",
+        "duodenal ulcers",
+        "gastritis"
+      ],
+      "explanation": "Marshall and Warren showed that the bacterium Helicobacter pylori causes gastritis and most peptic ulcers, winning the 2005 Nobel Prize in Physiology or Medicine.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Gallstones",
+        "Acid reflux",
+        "Appendicitis"
+      ]
+    },
+    {
+      "id": "q1109s031",
+      "topic": "history",
+      "question": "In 1901 a Viennese doctor mixed red cells and serum taken from his colleagues and saw that some combinations clumped together while others did not. His finding paved the way for safe transfusions, won Karl Landsteiner the 1930 Nobel Prize, and is why World Blood Donor Day falls on his birthday, 14 June. What had he discovered?",
+      "answer": "Blood groups",
+      "accept": [
+        "blood groups",
+        "blood group",
+        "blood types",
+        "blood type",
+        "abo blood groups",
+        "abo blood group",
+        "abo blood group system",
+        "abo system",
+        "abo"
+      ],
+      "explanation": "Karl Landsteiner identified the A, B and O blood groups in 1901 and won the 1930 Nobel Prize; World Blood Donor Day marks his birthday.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Blood plasma",
+        "Platelets",
+        "Anticoagulants"
+      ]
+    },
+    {
+      "id": "q1109s032",
+      "topic": "history",
+      "question": "In 1922 Upendranath Brahmachari, a physician in Calcutta, created a drug called urea stibamine that sharply cut deaths in eastern India from a fever spread by sandflies, and it earned him a Nobel nomination in 1929. Today most of India's remaining cases are in Bihar. The disease's Hindustani name means black fever. What is it?",
+      "answer": "Kala-azar",
+      "accept": [
+        "kala-azar",
+        "kala azar",
+        "kalazar",
+        "kala-ajar",
+        "visceral leishmaniasis",
+        "leishmaniasis",
+        "dumdum fever",
+        "dum dum fever",
+        "assam fever"
+      ],
+      "explanation": "Upendranath Brahmachari's urea stibamine, made in 1922, sharply cut deaths from kala-azar, also called visceral leishmaniasis.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Kali khansi",
+        "Motijhara",
+        "Haiza"
+      ]
+    },
+    {
+      "id": "q1109s033",
+      "topic": "general",
+      "question": "The three tiny bones of the middle ear are named after objects their shapes suggest: the malleus is the hammer and the incus is the anvil. The third, the stapes, is the smallest bone in the human body. Which piece of horse-riding gear is it named after?",
+      "answer": "Stirrup",
+      "accept": [
+        "stirrup",
+        "stirrups"
+      ],
+      "explanation": "Stapes is Latin for stirrup; at roughly three millimetres it is the smallest and lightest bone in the body.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Saddle",
+        "Spur",
+        "Bridle"
+      ]
+    },
+    {
+      "id": "q1109s034",
+      "topic": "general",
+      "question": "Guinness lists an American, Charles Osborne, as having the longest attack of hiccups ever, from 1922 to 1990, about 68 years. Each hiccup starts with an involuntary jerk of the dome-shaped sheet of muscle beneath the lungs that powers our breathing, and then the vocal cords snap shut. Name that muscle.",
+      "answer": "Diaphragm",
+      "accept": [
+        "diaphragm"
+      ],
+      "explanation": "A hiccup is a sudden contraction of the diaphragm followed by closure of the glottis, which makes the hic sound.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Pleura",
+        "Epiglottis",
+        "Oesophagus"
+      ]
+    },
+    {
+      "id": "q1109s035",
+      "topic": "history",
+      "question": "In 1929 the Danish scientist Henrik Dam noticed that chickens kept on a diet stripped of cholesterol began to bleed easily. The missing nutrient, plentiful in spinach and other leafy greens, takes its letter from the German spelling of the word for blood clotting. Which vitamin?",
+      "answer": "Vitamin K",
+      "accept": [
+        "vitamin k",
+        "k",
+        "vitamin k1",
+        "phylloquinone"
+      ],
+      "explanation": "Vitamin K takes its letter from the German Koagulation; Henrik Dam shared the 1943 Nobel Prize for discovering it.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Vitamin C",
+        "Vitamin E",
+        "Vitamin D"
+      ]
+    },
+    {
+      "id": "q1109s036",
+      "topic": "general",
+      "question": "Its feathery leaves fold up within seconds of being touched and they also close at night. Botanists call it Mimosa pudica, from the Latin for bashful, and in English it is the touch-me-not. What do Hindi speakers call it, a name also used for a delicate, easily hurt person?",
+      "answer": "Chhui mui",
+      "accept": [
+        "chhui mui",
+        "chhuimui",
+        "chui mui",
+        "chuimui",
+        "chhui-mui",
+        "chui-mui",
+        "lajwanti",
+        "lajvanti",
+        "lajjavati",
+        "lajwanti plant"
+      ],
+      "explanation": "Mimosa pudica, the sensitive plant, is chhui mui in Hindi and is also called lajwanti.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Raat ki rani",
+        "Harsingar",
+        "Amarbel"
+      ]
+    },
+    {
+      "id": "q1109s037",
+      "topic": "general",
+      "question": "In 1908 the Tokyo chemist Kikunae Ikeda traced the savoury richness of a broth made from kombu seaweed to glutamate, and turned it into a seasoning sold as Ajinomoto. He also named what is now counted as a fifth basic taste, alongside sweet, sour, salty and bitter. What is that taste called?",
+      "answer": "Umami",
+      "accept": [
+        "umami"
+      ],
+      "explanation": "Ikeda isolated glutamate from kombu in 1908, named its taste umami, and patented a way to make monosodium glutamate, sold as Ajinomoto.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Kokumi",
+        "Shibumi",
+        "Mirin"
+      ]
+    },
+    {
+      "id": "q1109s038",
+      "topic": "general",
+      "question": "Cooking gas has almost no smell of its own, so a strong-smelling compound is added to it on purpose, to make any leak obvious at once. That warning smell, the stench of rotten eggs and the tear-jerking vapour of a freshly cut onion all owe their punch to compounds of one yellow element. Which one?",
+      "answer": "Sulphur",
+      "accept": [
+        "sulphur",
+        "sulfur"
+      ],
+      "explanation": "LPG is odourised with ethyl mercaptan, a sulphur compound; rotten eggs smell of hydrogen sulphide, and the onion's tear gas is a sulphur compound too.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Phosphorus",
+        "Chlorine",
+        "Nitrogen"
+      ]
+    },
+    {
+      "id": "q1109s039",
+      "topic": "general",
+      "question": "An octopus has three hearts and bluish blood. Our blood is red because the protein that carries oxygen in it is built around iron. The octopus carries oxygen with a different protein, built around another metal, which gives its blood that blue tint. Which metal?",
+      "answer": "Copper",
+      "accept": [
+        "copper",
+        "cu"
+      ],
+      "explanation": "Octopus blood carries oxygen with haemocyanin, a copper-based protein that looks blue, rather than the iron-based haemoglobin in ours.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Cobalt",
+        "Nickel",
+        "Magnesium"
+      ]
+    },
+    {
+      "id": "q1109s040",
+      "topic": "history",
+      "question": "In the 1850s this metal cost more than gold, and Napoleon the Third reputedly gave his most honoured guests cutlery made of it while the rest made do with gold. Its price crashed after a cheap electrical way of extracting it was found in 1886, which seems only fair for the most abundant metal in the Earth's crust. Which metal?",
+      "answer": "Aluminium",
+      "accept": [
+        "aluminium",
+        "aluminum"
+      ],
+      "explanation": "Aluminium was costlier than gold until the Hall and Heroult electrolytic process of 1886 made it cheap, even though it is the most abundant metal in the Earth's crust.",
+      "difficulty": 3,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Platinum",
+        "Titanium",
+        "Magnesium"
+      ]
+    },
+    {
+      "id": "q1109s041",
+      "topic": "general",
+      "question": "In 1941 a Swiss engineer came back from a hunting trip to find burrs clinging to his clothes and to his dog's coat. Under a microscope he saw that each burr was covered in tiny hooks. He copied the idea, and named his fastener by joining the French words for velvet and hook. What is it called?",
+      "answer": "Velcro",
+      "accept": [
+        "velcro",
+        "hook and loop",
+        "hook and loop fastener",
+        "hook-and-loop fastener"
+      ],
+      "explanation": "George de Mestral studied burdock burrs under a microscope and patented his hook-and-loop fastener in the 1950s; Velcro joins the French velours and crochet.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Zip",
+        "Press stud",
+        "Toggle"
+      ]
+    },
+    {
+      "id": "q1109s042",
+      "topic": "general",
+      "question": "Legend says a chocolate bar melted in the pocket of an American engineer, Percy Spencer, as he stood beside a powered-up radar tube in the mid-1940s. Curious, he held some popcorn kernels near the tube, and they popped. Which kitchen appliance grew out of his discovery?",
+      "answer": "Microwave oven",
+      "accept": [
+        "microwave oven",
+        "microwave"
+      ],
+      "explanation": "Spencer, who worked on magnetrons at Raytheon, noticed their microwaves heated food, and Raytheon filed the patent for microwave cooking in October 1945.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Popcorn maker",
+        "Induction cooktop",
+        "Electric toaster"
+      ]
+    },
+    {
+      "id": "q1109s043",
+      "topic": "general",
+      "question": "Isaac Newton insisted that sunlight split by a prism showed seven colours, so that they would match the seven notes of a musical scale. One of his seven takes its name from a dye that Europe imported from India. Which colour?",
+      "answer": "Indigo",
+      "accept": [
+        "indigo"
+      ],
+      "explanation": "Newton linked his seven prismatic colours to the seven notes of a scale, and indigo comes from the Latin indicum, meaning Indian, after the dye exported from India.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Violet",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    {
+      "id": "q1109s044",
+      "topic": "general",
+      "question": "On 18 August 1868 the French astronomer Jules Janssen watched a total solar eclipse from Guntur, in today's Andhra Pradesh. In the light from the Sun he saw a bright yellow line that did not match any known substance. The new element was named after the Greek word for the Sun, and was isolated on Earth only in 1895. Name it.",
+      "answer": "Helium",
+      "accept": [
+        "helium"
+      ],
+      "explanation": "Janssen saw the yellow line from Guntur, Norman Lockyer saw it independently in England that October and named the element after the Greek helios, and William Ramsay isolated it on Earth in 1895.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Neon",
+        "Argon",
+        "Hydrogen"
+      ]
+    },
+    {
+      "id": "q1109s045",
+      "topic": "general",
+      "question": "On 13 March 1781 a German-born musician living in Bath spotted a faint moving object through his homemade telescope. It was the first planet ever found with a telescope. William Herschel wanted to call it George's Star, after King George the Third, but astronomers abroad preferred a god from Greek myth. Which planet is it?",
+      "answer": "Uranus",
+      "accept": [
+        "uranus"
+      ],
+      "explanation": "Herschel proposed Georgium Sidus, but Johann Bode's suggestion of Uranus, the Greek god of the sky, won out, and even Britain had switched by about 1850.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Neptune",
+        "Saturn",
+        "Jupiter"
+      ]
+    },
+    {
+      "id": "q1109s046",
+      "topic": "general",
+      "question": "This physicist was born on 8 January 1942, exactly 300 years after Galileo died, and he died on 14 March 2018, Albert Einstein's birthday. In between, he wrote the bestseller A Brief History of Time. Name him.",
+      "answer": "Stephen Hawking",
+      "accept": [
+        "stephen hawking",
+        "hawking"
+      ],
+      "explanation": "Hawking was born on the 300th anniversary of Galileo's death and died on the anniversary of Einstein's birth in 1879.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Roger Penrose",
+        "Carl Sagan",
+        "Richard Feynman"
+      ]
+    },
+    {
+      "id": "q1109s047",
+      "topic": "general",
+      "question": "In July 1969 he followed Neil Armstrong down the ladder of the lunar module to become the second man to walk on the Moon. Born Edwin, he made his childhood nickname his legal first name in 1988, and Pixar borrowed that nickname for the toy space ranger in Toy Story. Name him.",
+      "answer": "Buzz Aldrin",
+      "accept": [
+        "buzz aldrin",
+        "aldrin",
+        "edwin aldrin"
+      ],
+      "explanation": "Edwin Aldrin's sister mispronounced brother as buzzer, which gave him the nickname Buzz; he adopted it legally in 1988, and Pixar named the space ranger in Toy Story after him.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Michael Collins",
+        "Pete Conrad",
+        "John Glenn"
+      ]
+    },
+    {
+      "id": "q1109s048",
+      "topic": "general",
+      "question": "In June 1963 a 26-year-old former textile mill worker and keen amateur parachutist orbited the Earth 48 times aboard Vostok 6. Her radio call sign was Chaika, Russian for seagull. Name the first woman in space.",
+      "answer": "Valentina Tereshkova",
+      "accept": [
+        "valentina tereshkova",
+        "tereshkova"
+      ],
+      "explanation": "Tereshkova flew Vostok 6 from 16 to 19 June 1963 and remains the only woman to have flown a solo space mission.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Svetlana Savitskaya",
+        "Irina Solovyova",
+        "Sally Ride"
+      ]
+    },
+    {
+      "id": "q1109s049",
+      "topic": "general",
+      "question": "In 1742 a Swedish astronomer at Uppsala proposed a temperature scale with a hundred degrees between the freezing and boiling points of water. Oddly, he put boiling at zero and freezing at one hundred. Soon after his death the scale was turned the right way up, but it still carries his name. Name him.",
+      "answer": "Anders Celsius",
+      "accept": [
+        "anders celsius",
+        "celsius"
+      ],
+      "explanation": "Celsius's original 1742 scale ran backwards, and it was inverted to the familiar form around 1744 to 1745, shortly after his death.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Daniel Fahrenheit",
+        "René Réaumur",
+        "Lord Kelvin"
+      ]
+    },
+    {
+      "id": "q1109s050",
+      "topic": "general",
+      "question": "In 1845 a Dutch scientist put trumpeters on an open railway wagon near Utrecht while musicians stood listening beside the track. The note sounded higher as the train came closer and lower as it moved away, just as an Austrian physicist had predicted in 1842. The same effect explains the changing pitch of a passing ambulance siren. What is it called?",
+      "answer": "Doppler effect",
+      "accept": [
+        "doppler effect",
+        "doppler",
+        "doppler shift"
+      ],
+      "explanation": "Christian Doppler proposed the effect in 1842, and C. H. D. Buys Ballot confirmed it for sound with his trumpeters on a train in 1845; it is also the basis of weather radar and police speed guns.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Greenhouse effect",
+        "Butterfly effect",
+        "Tyndall effect"
+      ]
+    },
+    {
+      "id": "q1109s051",
+      "topic": "general",
+      "question": "In a BBC radio talk in March 1949, the British astronomer Fred Hoyle, who believed the universe had always existed, gave a vivid two-word name to the rival idea that everything began in a single hot, dense instant. The name stuck, and decades later it gave an American sitcom its title. What was it?",
+      "answer": "Big Bang",
+      "accept": [
+        "big bang",
+        "the big bang",
+        "big bang theory"
+      ],
+      "explanation": "Hoyle, a champion of the steady state theory, coined the phrase Big Bang on BBC radio on 28 March 1949.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Steady State",
+        "Big Crunch",
+        "Primeval Atom"
+      ]
+    },
+    {
+      "id": "q1109s052",
+      "topic": "history",
+      "question": "In 1854 at the Crystal Palace exhibition in New York, an American mechanic rode an open platform high into the air and then had the hoisting rope cut. The platform dropped only a few inches before his safety brake caught it. His invention made tall buildings practical, and his surname is still seen in lifts across India. Name him.",
+      "answer": "Elisha Otis",
+      "accept": [
+        "elisha otis",
+        "otis",
+        "elisha graves otis"
+      ],
+      "explanation": "Otis did not invent the lift itself; his safety brake, demonstrated in 1854, made passenger lifts safe, and the first passenger safety lift went into a New York store in 1857.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Linus Yale",
+        "Isaac Singer",
+        "Henry Bessemer"
+      ]
+    },
+    {
+      "id": "q1109s053",
+      "topic": "history",
+      "question": "On 4 October 1957 a polished metal ball, about the size of a beach ball and trailing four long antennae, was launched into orbit from Baikonur. For three weeks radio amateurs around the world could hear its steady beep, beep. It was the first artificial satellite, and its Russian name means travelling companion. What was it called?",
+      "answer": "Sputnik 1",
+      "accept": [
+        "sputnik 1",
+        "sputnik",
+        "sputnik one"
+      ],
+      "explanation": "Sputnik 1, a 58-centimetre sphere, broadcast its radio beeps for about 21 days after launch and began the space age.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Vostok 1",
+        "Explorer 1",
+        "Luna 1"
+      ]
+    },
+    {
+      "id": "q1109s054",
+      "topic": "history",
+      "question": "In October 1829, at the Rainhill Trials near Liverpool, a locomotive designed by George Stephenson and his son Robert was the only entrant to complete the course, and it won the contract for the new Liverpool and Manchester Railway, often called the world's first inter-city line. Its name today sounds more at home at Sriharikota. What was the locomotive called?",
+      "answer": "Rocket",
+      "accept": [
+        "rocket",
+        "the rocket",
+        "stephenson's rocket"
+      ],
+      "explanation": "Stephenson's Rocket won the 1829 Rainhill Trials and worked the Liverpool and Manchester Railway, which opened in 1830.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Novelty",
+        "Sans Pareil",
+        "Perseverance"
+      ]
+    },
+    {
+      "id": "q1109s055",
+      "topic": "general",
+      "question": "On Valentine's Day 1990, at Carl Sagan's urging, the Voyager 1 probe turned its camera back towards home from about six billion kilometres away. Earth showed up as a speck no bigger than a single pixel. Sagan described it with a three-word phrase that became the title of his 1994 book. What was the phrase?",
+      "answer": "Pale Blue Dot",
+      "accept": [
+        "pale blue dot",
+        "a pale blue dot",
+        "the pale blue dot"
+      ],
+      "explanation": "Voyager 1 took the Pale Blue Dot image on 14 February 1990 as part of its family portrait of the solar system, and Sagan's book Pale Blue Dot followed in 1994.",
+      "difficulty": 2,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "The Blue Marble",
+        "Small Blue Speck",
+        "Lonely Blue Planet"
+      ]
+    },
+    {
+      "id": "q1109s056",
+      "topic": "general",
+      "question": "In 1930 the physicist behind the theory of relativity and his former student Leo Szilard were granted an American patent for a household appliance that had no moving parts and needed only a source of heat to run. It never reached the shops. Which appliance was it?",
+      "answer": "Refrigerator",
+      "accept": [
+        "refrigerator",
+        "fridge",
+        "einstein refrigerator",
+        "einstein fridge"
+      ],
+      "explanation": "The Einstein refrigerator, an absorption design, received United States patent 1,781,541 on 11 November 1930, but it was never sold commercially.",
+      "difficulty": 3,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Electric kettle",
+        "Room heater",
+        "Electric iron"
+      ]
+    },
+    {
+      "id": "q1109s057",
+      "topic": "general",
+      "question": "In 1824 a Leeds bricklayer, Joseph Aspdin, patented a new kind of cement. Once set, it resembled a prized building stone quarried on an isle off England's Dorset coast, so he named it after that place. The name still appears on cement bags across India. What is it?",
+      "answer": "Portland",
+      "accept": [
+        "portland",
+        "portland cement",
+        "ordinary portland cement",
+        "isle of portland",
+        "opc"
+      ],
+      "explanation": "Aspdin named Portland cement after Portland stone from the Isle of Portland, and Indian bags still read Ordinary Portland Cement or Portland Pozzolana Cement.",
+      "difficulty": 3,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Purbeck",
+        "Bath",
+        "Cotswold"
+      ]
+    },
+    {
+      "id": "q1109s058",
+      "topic": "general",
+      "question": "In 1877 Thomas Edison tested his new tinfoil phonograph by shouting a nursery rhyme into it and then turning the handle to play it back. The machine spoke the words back to him, and he said he was never so taken aback in his life. Which nursery rhyme did he recite?",
+      "answer": "Mary Had a Little Lamb",
+      "accept": [
+        "mary had a little lamb",
+        "mary had a little lamb whose fleece was white as snow"
+      ],
+      "explanation": "Edison recalled shouting Mary had a little lamb into the tinfoil phonograph, which reproduced it perfectly; he filed his patent on 24 December 1877.",
+      "difficulty": 3,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Baa Baa Black Sheep",
+        "Twinkle Twinkle Little Star",
+        "Humpty Dumpty"
+      ]
+    },
+    {
+      "id": "q1109s059",
+      "topic": "general",
+      "question": "According to a story told by the Roman writer Vitruvius about two centuries later, a Greek thinker in Syracuse was puzzling over whether a king's golden crown had been mixed with cheaper silver. As he stepped into his bath and saw the water spill over the side, the answer came to him, and he ran home through the streets without his clothes, shouting one word. What was it?",
+      "answer": "Eureka",
+      "accept": [
+        "eureka",
+        "heureka",
+        "eureka eureka"
+      ],
+      "explanation": "Vitruvius says Archimedes shouted Eureka, Greek for I have found it; historians doubt the bath story, but Archimedes' principle of buoyancy is real.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Bravo",
+        "Hallelujah",
+        "Voila"
+      ]
+    },
+    {
+      "id": "q1109s060",
+      "topic": "general",
+      "question": "The nearest star beyond the Sun, Proxima Centauri, is a little over four of these units away from us. Despite sounding like a measure of time, this unit is a measure of distance. Name it.",
+      "answer": "Light-year",
+      "accept": [
+        "light-year",
+        "light year",
+        "light years",
+        "light-years",
+        "lightyear"
+      ],
+      "explanation": "A light-year is the distance light travels in a year, about 9.5 trillion kilometres, and Proxima Centauri is about 4.2 light-years away.",
+      "difficulty": 1,
+      "created": "2026-11-09",
+      "themes": [
+        "science_tech"
+      ],
+      "distractors": [
+        "Parsec",
+        "Astronomical unit",
+        "Light-second"
+      ]
     }
   ]
 };
