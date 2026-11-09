@@ -59978,6 +59978,685 @@
     "Copilot",
     "Claude"
    ]
+  },
+  {
+   "id": "q1109c001",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Its star made this 1958 comedy as his own home production and reportedly hoped it would flop, so that he could show a loss to the income tax department, but it became the second biggest hit of the year.",
+    "Three real-life brothers play three brothers who run a motor garage, and one of them falls for a young woman who brings in her broken-down car on a rainy night.",
+    "Kishore Kumar sings Ek Ladki Bheegi Bhaagi Si as he repairs Madhubala's car, in this comedy named after a saying that anything that runs is a vehicle."
+   ],
+   "answer": "Chalti Ka Naam Gaadi",
+   "accept": [
+    "chalti ka naam gaadi",
+    "chalti ka naam gadi",
+    "chalti ka nam gaadi",
+    "chalti ka nam gadi",
+    "chalti ka naam gaari",
+    "chalti ka naam gaddi"
+   ],
+   "explanation": "Chalti Ka Naam Gaadi (1958) cast the brothers Ashok, Kishore and Anoop Kumar as garage-owning brothers; Kishore reportedly hoped it would flop for tax reasons, and he sings Ek Ladki Bheegi Bhaagi Si while fixing Madhubala's car.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c002",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Rajinikanth starred in its 1981 Tamil remake, Thillu Mullu, and Shivarajkumar in a Kannada remake whose title plays on the Kannada word for moustache.",
+    "Caught bunking work at a hockey match, a young accountant claims it was his clean-shaven twin, and then has to shave off his moustache and wear a fake one to keep his job.",
+    "Hrishikesh Mukherjee's 1979 comedy stars Amol Palekar as Ram Prasad and his invented twin Lakshman Prasad, with Utpal Dutt as the moustache-loving boss Bhavani Shankar."
+   ],
+   "answer": "Gol Maal",
+   "accept": [
+    "gol maal",
+    "golmaal",
+    "golmal",
+    "gol mal",
+    "golmaal 1979",
+    "gol maal 1979",
+    "gol maal hai"
+   ],
+   "explanation": "Hrishikesh Mukherjee's Gol Maal (1979), remade in Tamil as Thillu Mullu with Rajinikanth and in Kannada as Aasegobba Meesegobba, has Amol Palekar shave his moustache to play his own made-up twin for Utpal Dutt's Bhavani Shankar.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c003",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "He gave a young Amitabh Bachchan the hero's role in the 1972 road comedy Bombay to Goa, which he co-produced, and he played the bus conductor himself.",
+    "In Padosan he played the South Indian music teacher Master Pillai, and Manna Dey sang for him in the Ek Chatur Naar duel against Kishore Kumar.",
+    "In Gumnaam he danced with Helen to Hum Kaale Hain To Kya Hua Dilwale Hain, and he is the father of the singer Lucky Ali. Name this great comedian."
+   ],
+   "answer": "Mehmood",
+   "accept": [
+    "mehmood",
+    "mehmood ali",
+    "mahmood",
+    "mehmud",
+    "mahmud",
+    "mehmood ali khan"
+   ],
+   "explanation": "Mehmood, the leading comedian of the 1960s and 70s, co-produced Bombay to Goa with Amitabh as hero, played Master Pillai in Padosan, sang on screen to Hum Kaale Hain To Kya Hua in Gumnaam, and is Lucky Ali's father.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c004",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "In 1942, on the set of Jung-e-Azadi, a co-star's slap in a scene landed so hard that it left her face partly paralysed and her left eye damaged, ending her days as a heroine.",
+    "She turned to character roles, became Hindi cinema's most feared mother-in-law, and won a Filmfare award as the strict but kind landlady Mrs D'Sa in Raj Kapoor's Anari.",
+    "In Ramanand Sagar's Ramayan on Doordarshan, she played the hunchbacked maid who turns Queen Kaikeyi against Rama."
+   ],
+   "answer": "Lalita Pawar",
+   "accept": [
+    "lalita pawar",
+    "lalita powar",
+    "lalitha pawar",
+    "lalita",
+    "lalitha",
+    "lalita pavar"
+   ],
+   "explanation": "Lalita Pawar lost her heroine career to an accidental slap by Bhagwan Dada in 1942, became the screen's dreaded mother-in-law, won a Filmfare award for Anari, and played Kaikeyi's scheming maid in Ramayan.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c005",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "In 2004 one of its episodes, The Inheritance, ran for 111 minutes without a single cut, a feat recorded in both the Limca and Guinness record books.",
+    "Created by B. P. Singh, this Sony TV crime show began in January 1998 and ran for over twenty years, with Shivaji Satam leading a team of Mumbai detectives.",
+    "Its ACP Pradyuman mutters Kuch toh gadbad hai, and orders Inspector Daya to break the door down."
+   ],
+   "answer": "CID",
+   "accept": [
+    "cid",
+    "c i d",
+    "c.i.d.",
+    "c.i.d",
+    "crime investigation department",
+    "cid sony",
+    "cid tv show",
+    "cid serial",
+    "criminal investigation department"
+   ],
+   "explanation": "CID, B. P. Singh's Sony TV show from 1998, shot a 111-minute episode in one take, and gave India ACP Pradyuman's Kuch toh gadbad hai and Daya breaking down doors.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c006",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "In the 1989 Malayalam original, Ramji Rao Speaking, his counterpart is Mannar Mathai, the hard-up owner of a drama troupe, played by the comic actor Innocent.",
+    "A misprint in the phone book sends a gangster's ransom calls, meant for the owner of Star Fisheries, to this man's Star Garage, where his two broke tenants pick up the phone.",
+    "Paresh Rawal plays this near-sighted Marathi landlord in Hera Pheri, and his lines are the stuff of endless internet memes."
+   ],
+   "answer": "Baburao Ganpatrao Apte",
+   "accept": [
+    "baburao ganpatrao apte",
+    "baburao",
+    "babu rao",
+    "babu bhaiya",
+    "babu bhaiyya",
+    "baburao apte",
+    "babu rao apte",
+    "babu rao ganpatrao apte",
+    "babu bhai",
+    "baburao ganpat rao apte"
+   ],
+   "explanation": "Baburao Ganpatrao Apte, Paresh Rawal's landlord of Star Garage in Hera Pheri, is the Hindi version of Innocent's Mannar Mathai in Ramji Rao Speaking.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c007",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "At seventeen he was an assistant director on Phool Aur Kaante, the 1991 film in which Ajay Devgn made his debut standing astride two moving motorcycles.",
+    "His father, known as Fighter Shetty, was a bald stuntman and fight master of 1970s Hindi films, and by his own count his films have blown up more than two hundred vehicles.",
+    "He directed Singham, Chennai Express and Simmba, and hosts the stunt reality show Khatron Ke Khiladi."
+   ],
+   "answer": "Rohit Shetty",
+   "accept": [
+    "rohit shetty",
+    "shetty",
+    "rohit",
+    "rohit shetti"
+   ],
+   "explanation": "Rohit Shetty, son of fight master M. B. Shetty, assisted on Ajay Devgn's debut Phool Aur Kaante, then made car-smashing hits such as Singham, Chennai Express and Simmba, and hosts Khatron Ke Khiladi.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c008",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "A 2019 Chinese thriller, Sheep Without a Shepherd, was an official remake of this 2013 Malayalam film, which had already been remade in Kannada, Telugu, Tamil, Hindi and Sinhala.",
+    "Its hero is a fourth-grade dropout who runs a cable TV business and is obsessed with watching films, and he builds a watertight alibi to shield his family from the police.",
+    "In the 2015 Hindi version, Ajay Devgn's character makes his family memorise a trip to a satsang in Panaji on the second of October."
+   ],
+   "answer": "Drishyam",
+   "accept": [
+    "drishyam",
+    "drishyam 2015",
+    "drishyam 2013",
+    "drishya",
+    "drushyam",
+    "dhrishyam",
+    "drishyam film"
+   ],
+   "explanation": "Drishyam, Jeethu Joseph's 2013 Malayalam thriller with Mohanlal, was remade across India, in Sinhala and in Chinese, and in Hindi with Ajay Devgn's famous 2 October satsang alibi.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c009",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "After it became the most searched video on YouTube in India in late 2011, its singer was invited to a dinner with the Prime Minister and the visiting Prime Minister of Japan.",
+    "Anirudh Ravichander composed its tune in about ten minutes for the Tamil film called 3, and its singer wrote the broken-English lyrics in about twenty.",
+    "Dhanush sings this Tanglish soup song for the heartbroken, whose title asks a girl why she is in such a murderous rage."
+   ],
+   "answer": "Why This Kolaveri Di",
+   "accept": [
+    "why this kolaveri di",
+    "kolaveri di",
+    "kolaveri",
+    "why this kolaveri",
+    "why this kolaveri d",
+    "kolaveri song",
+    "why this kolaveri dee",
+    "kolaveri dee"
+   ],
+   "explanation": "Why This Kolaveri Di, Anirudh Ravichander's debut tune for the Tamil film 3, written and sung by Dhanush, went viral in 2011 and won its singer a dinner invitation from the Prime Minister.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c010",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Before she became a film heroine, a teenage Riya Sen starred in the 1998 video for the title song of this singer's first album, a song about a girl who has begun to miss her beloved.",
+    "A young Ayesha Takia appeared in the video for her hit Meri Chunar Udd Udd Jaye, and her other Indipop hits include Maine Payal Hai Chhankai.",
+    "Known as the Dandiya Queen, she draws huge crowds every Navratri with her garba and dandiya songs."
+   ],
+   "answer": "Falguni Pathak",
+   "accept": [
+    "falguni pathak",
+    "falguni",
+    "falguni pathaak",
+    "phalguni pathak",
+    "falgunni pathak"
+   ],
+   "explanation": "Falguni Pathak's Indipop videos, Yaad Piya Ki Aane Lagi with Riya Sen and Meri Chunar Udd Udd Jaye with Ayesha Takia, made her a star, and she is the Dandiya Queen of every Navratri.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c011",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "A sixteenth-century Chinese novel, Journey to the West, turns his real trip into a fantasy in which a magical Monkey King guards a monk travelling to India to bring back Buddhist scriptures.",
+    "Defying a ban on foreign travel, he left China in 629, studied for years at a great monastic university in Bihar, and went home with more than 650 Buddhist texts, which a pagoda in Xi'an was built to hold.",
+    "This Chinese Buddhist pilgrim visited the court of King Harshavardhana in the seventh century, and Indian history books still quote his account of the country."
+   ],
+   "answer": "Hiuen Tsang",
+   "accept": [
+    "hiuen tsang",
+    "xuanzang",
+    "xuan zang",
+    "huen tsang",
+    "hsuan tsang",
+    "hieun tsang",
+    "yuan chwang",
+    "hiuen-tsang",
+    "hiuen sang",
+    "huen sang",
+    "hiuen tsiang",
+    "hsuan-tsang",
+    "xuan-zang"
+   ],
+   "explanation": "Hiuen Tsang, or Xuanzang, travelled to India from 629, studied at a great monastic university in Bihar, carried home some 657 texts later housed in Xi'an's Big Wild Goose Pagoda, met Harsha, and inspired the novel Journey to the West.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c012",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "In 1905 a librarian in Mysore, R. Shamasastry, identified a palm-leaf manuscript as this ancient Sanskrit text, which scholars had long believed was lost.",
+    "It is a manual for kings on taxes, spies, treaties and war, and the German thinker Max Weber said that next to it, Machiavelli's The Prince is harmless.",
+    "Its author calls himself Kautilya, and tradition identifies him with Chanakya, the shrewd adviser of Chandragupta Maurya."
+   ],
+   "answer": "Arthashastra",
+   "accept": [
+    "arthashastra",
+    "arthasastra",
+    "artha shastra",
+    "arthshastra",
+    "kautilya's arthashastra",
+    "kautilya arthashastra",
+    "chanakya's arthashastra",
+    "artha sastra",
+    "kautilyas arthashastra"
+   ],
+   "explanation": "Kautilya's Arthashastra, the treatise on statecraft traditionally credited to Chanakya, was identified by R. Shamasastry in Mysore in 1905, and Max Weber called Machiavelli's Prince harmless by comparison.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c013",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "In Jain tradition, after beating his elder brother Bharata in three contests, he gave up his kingdom and stood meditating so long and so still that creepers grew up his legs.",
+    "Every twelve years, at the Mahamastakabhisheka, devotees on scaffolding pour milk, sugarcane juice and saffron over the head of his giant granite statue on a hill in Karnataka.",
+    "His 57-foot statue at Shravanabelagola was carved from a single block of granite around 983, and he shares his name with the hero of S. S. Rajamouli's blockbusters."
+   ],
+   "answer": "Gommateshwara",
+   "accept": [
+    "gommateshwara",
+    "gomateshwara",
+    "gommateshvara",
+    "gomateshvara",
+    "bahubali",
+    "baahubali",
+    "bahubali statue",
+    "gommateshwara statue",
+    "statue of gommateshwara",
+    "shravanabelagola statue",
+    "gommata"
+   ],
+   "explanation": "Bahubali, son of the first tirthankara, meditated until creepers covered his legs; as Gommateshwara his 57-foot monolith at Shravanabelagola is anointed every twelve years, and his name was borrowed for Rajamouli's Baahubali.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c014",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "A huge sculpture of this scene, a tug of war between two teams of giant figures, greets travellers at Bangkok's Suvarnabhumi airport, and a stone relief of it nearly fifty metres long fills a gallery at Angkor Wat.",
+    "Out of it came the goddess Lakshmi, the wish-granting cow Kamadhenu, the white elephant Airavata, and a deadly poison that Shiva drank and held in his throat.",
+    "Vishnu became a tortoise to hold up Mount Mandara on his back, while the gods and demons pulled on the serpent Vasuki to win the nectar of immortality."
+   ],
+   "answer": "Samudra Manthan",
+   "accept": [
+    "samudra manthan",
+    "samudra manthana",
+    "samudra mathan",
+    "sagar manthan",
+    "sagar mathan",
+    "churning of the ocean",
+    "churning of the ocean of milk",
+    "churning of the milky ocean",
+    "churning of the sea of milk",
+    "ksheer sagar manthan",
+    "kshirsagar manthan",
+    "amrit manthan",
+    "amrut manthan",
+    "samudramanthan",
+    "churning of the milk ocean",
+    "ocean churning"
+   ],
+   "explanation": "The Samudra Manthan, a tug of war shown at Bangkok's airport and on Angkor Wat's 49-metre relief, brought up Lakshmi, Kamadhenu, Airavata and the halahala poison, with Vishnu as Kurma bearing Mount Mandara and Vasuki as the rope.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c015",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "As a boy, Gandhi saw a play about this king, and wrote that it captured his heart and that he asked himself day and night why everyone could not be as truthful as him.",
+    "To keep a promise to the sage Vishwamitra, he gave away his kingdom, sold his wife and son, and ended up as a worker at a cremation ground in Kashi, where a ghat still carries his name.",
+    "Dadasaheb Phalke's silent film about this truthful king, released in 1913, is counted as India's first full-length feature film."
+   ],
+   "answer": "Raja Harishchandra",
+   "accept": [
+    "harishchandra",
+    "raja harishchandra",
+    "king harishchandra",
+    "harish chandra",
+    "harischandra",
+    "raja harischandra",
+    "satyavadi harishchandra",
+    "satya harishchandra"
+   ],
+   "explanation": "King Harishchandra's story of truth moved the young Gandhi, took the king to work at the Kashi cremation ground now called Harishchandra Ghat, and became Phalke's Raja Harishchandra of 1913, India's first full-length feature.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c016",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "A new crown with more than 6,000 diamonds was made for this event, because by tradition the British Crown Jewels stay in Britain, and it has not been worn since.",
+    "It was the only one of three such imperial gatherings that a reigning British monarch attended in person, and it also announced that the Partition of Bengal would be undone.",
+    "At this grand ceremony in December 1911, on the ground now called Coronation Park, King George the Fifth announced that the capital of India would move from Calcutta to Delhi."
+   ],
+   "answer": "Delhi Durbar of 1911",
+   "accept": [
+    "delhi durbar",
+    "1911 delhi durbar",
+    "delhi durbar 1911",
+    "delhi darbar",
+    "durbar",
+    "darbar",
+    "coronation durbar",
+    "imperial durbar",
+    "1911 durbar",
+    "delhi durbar of 1911"
+   ],
+   "explanation": "At the 1911 Delhi Durbar, held at Coronation Park, George V wore the new Imperial Crown of India, annulled the Partition of Bengal and announced the move of the capital from Calcutta to Delhi.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c017",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "He wrote the words of Kurai Onrum Illai, the Tamil devotional song whose title means I have no complaints, made famous by M. S. Subbulakshmi.",
+    "His daughter Lakshmi married Gandhi's son Devdas, and in 1930 he led a salt march to Vedaranyam on the Tamil coast, echoing the march to Dandi.",
+    "In 1948 he succeeded Lord Mountbatten as Governor-General, the only Indian ever to hold that post, and in 1954 he was among the first three people awarded the Bharat Ratna."
+   ],
+   "answer": "C. Rajagopalachari",
+   "accept": [
+    "rajaji",
+    "rajagopalachari",
+    "c rajagopalachari",
+    "c. rajagopalachari",
+    "chakravarti rajagopalachari",
+    "rajagopalachariar",
+    "crr",
+    "c.r."
+   ],
+   "explanation": "Rajaji wrote Kurai Onrum Illai, was Devdas Gandhi's father-in-law, led the Vedaranyam salt march, and was the only Indian Governor-General of India, and in 1954 was among the first three Bharat Ratnas.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c018",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Designed to last just six months, this spacecraft kept working in orbit for about seven and a half years, until contact was lost in April 2022.",
+    "Launched from Sriharikota in November 2013, it made India the first Asian country to reach its target, and it is pictured on the back of the 2,000 rupee note.",
+    "This ISRO mission to the red planet famously cost about 450 crore rupees, less than the budget of the Hollywood space film Gravity."
+   ],
+   "answer": "Mangalyaan",
+   "accept": [
+    "mangalyaan",
+    "mangalyan",
+    "mangal yaan",
+    "mars orbiter mission",
+    "mom",
+    "mars orbiter",
+    "india's mars mission",
+    "mars mission",
+    "mars orbiter mission mom",
+    "mangalyaan 1",
+    "isro mars mission"
+   ],
+   "explanation": "Mangalyaan, ISRO's Mars Orbiter Mission, was built for six months but worked for about seven and a half years, made India the first Asian country in Mars orbit, appears on the 2,000 rupee note, and cost about 450 crore rupees, less than the film Gravity.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c019",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Calcutta held out against it until 1948, and Bombay, which preferred to keep its own clocks, did not give in until 1955.",
+    "The tea gardens of the Northeast have long kept an unofficial chaibagan time that runs an hour ahead of it, and the National Physical Laboratory in Delhi is its official keeper.",
+    "It is reckoned from the meridian at 82 and a half degrees east, near Mirzapur, and runs five and a half hours ahead of Greenwich."
+   ],
+   "answer": "Indian Standard Time",
+   "accept": [
+    "indian standard time",
+    "ist",
+    "india standard time",
+    "indian time"
+   ],
+   "explanation": "Indian Standard Time, reckoned from 82.5 degrees east near Mirzapur and five and a half hours ahead of GMT, displaced Calcutta time in 1948 and Bombay time in 1955, while the Northeast's tea gardens keep chaibagan time an hour ahead.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c020",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Its name comes from the Sanskrit word for a lotus, which a god is said to have dropped here to create its sacred lake, now ringed by 52 ghats.",
+    "Every year around Kartik Purnima, thousands of camels, horses and cattle are traded at its fair, which also holds a contest for the longest moustache.",
+    "This holy town near Ajmer in Rajasthan has one of the very few temples in the world dedicated to Brahma."
+   ],
+   "answer": "Pushkar",
+   "accept": [
+    "pushkar",
+    "pushkar ji",
+    "pushkarji"
+   ],
+   "explanation": "Pushkar, named for the lotus Brahma dropped to form its 52-ghat lake, hosts the Kartik Purnima camel fair and one of the very few Brahma temples.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c021",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "The British in India turned this dish into kedgeree, a breakfast of rice with flaked smoked fish and boiled eggs.",
+    "The traveller Ibn Battuta saw it eaten every morning, mung beans boiled with rice and buttered, and in Uttar Pradesh Makar Sankranti is often called by its name.",
+    "In an Akbar and Birbal tale, Birbal hangs a pot of it far above a tiny fire. Rice and dal cooked together, it is what Indian homes make for anyone who is unwell."
+   ],
+   "answer": "Khichdi",
+   "accept": [
+    "khichdi",
+    "khichri",
+    "khichadi",
+    "khichdee",
+    "kichdi",
+    "kichri",
+    "khichuri",
+    "khichari",
+    "kitchari",
+    "khichdi rice",
+    "dal khichdi"
+   ],
+   "explanation": "Khichdi, rice and dal cooked together, became the Anglo-Indian kedgeree, was described by Ibn Battuta as a daily breakfast, gives Makar Sankranti its other name in Uttar Pradesh, and is the dish in the tale of Birbal's khichdi.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c022",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "This television detective of 1985 shared his name with Mahatma Gandhi's father. Alok Nath played him in the pilot, but lost the part after a falling out with the director.",
+    "He munched carrots while he worked on his cases and played chess with Inspector Khan, and the adman Alyque Padamsee co-produced his Doordarshan show.",
+    "Played by Pankaj Kapur, this Doordarshan sleuth was forever telling his assistant Kitty to shut up, and she would reply that he was a genius."
+   ],
+   "answer": "Karamchand",
+   "accept": [
+    "karamchand",
+    "detective karamchand",
+    "karam chand",
+    "karamchand jasoos",
+    "karamchand the detective"
+   ],
+   "explanation": "Karamchand, who shares his name with Gandhi's father Karamchand Gandhi, was Pankaj Kapur's carrot-munching Doordarshan detective from 1985, famous for Shut up, Kitty and her reply, Sir, you are a genius.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c023",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "In June 2023 it became the first company on the Indian stock market whose share price reached one lakh rupees.",
+    "It started in 1946 as a toy balloon maker in Madras, and in 1987 it set up a pace foundation in Chennai, with Dennis Lillee, to train fast bowlers.",
+    "Sachin Tendulkar and Virat Kohli both carried this tyre maker's three-letter name on their bats."
+   ],
+   "answer": "MRF",
+   "accept": [
+    "mrf",
+    "m r f",
+    "mrf tyres",
+    "mrf tires",
+    "madras rubber factory",
+    "mrf limited"
+   ],
+   "explanation": "MRF, once the Madras Rubber Factory making toy balloons, runs the MRF Pace Foundation, has sponsored the bats of Tendulkar and Kohli, and in 2023 became India's first stock to reach one lakh rupees.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c024",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "In 2012, at this event in Thane, a Mumbai troupe set a world record by building a human tower nine tiers high, nearly 44 feet tall.",
+    "In the 1963 film Bluff Master, Shammi Kapoor leads a crowd through the streets in Mohammed Rafi's Govinda Aala Re, a song about this event.",
+    "On Janmashtami, young men called Govindas climb on one another's shoulders to break a clay pot of curd hung high above the street, as the child Krishna did to steal butter."
+   ],
+   "answer": "Dahi Handi",
+   "accept": [
+    "dahi handi",
+    "dahi-handi",
+    "dahihandi",
+    "dahi handi utsav",
+    "matki phod",
+    "matki phod utsav",
+    "handi phod",
+    "gopal kala",
+    "gopalkala"
+   ],
+   "explanation": "Dahi Handi, the Janmashtami pot-breaking contest of Maharashtra, produced a nine-tier world-record human pyramid in Thane in 2012 and Shammi Kapoor's Govinda Aala Re in Bluff Master.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c025",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Mumbai's J. J. School of Art turned him down, saying his drawings lacked the talent to qualify, yet in 1954 he created Gattu, the cheeky boy mascot of Asian Paints.",
+    "His elder brother was the novelist R. K. Narayan, whose stories he illustrated, and he drew the sketches used in the Malgudi Days television series.",
+    "His Common Man, a silent figure in a dhoti and checked jacket, looked on at Indian life in his cartoon You Said It in the Times of India for more than fifty years."
+   ],
+   "answer": "R. K. Laxman",
+   "accept": [
+    "r k laxman",
+    "rk laxman",
+    "r.k. laxman",
+    "r. k. laxman",
+    "laxman",
+    "r k lakshman",
+    "rk lakshman",
+    "rasipuram krishnaswami laxman",
+    "r k laxman cartoonist"
+   ],
+   "explanation": "R. K. Laxman, rejected by the J. J. School of Art, created Asian Paints' Gattu, illustrated his brother R. K. Narayan's Malgudi, and drew the Common Man in You Said It from 1951.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c026",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "A Calcutta confectioner, Bhim Chandra Nag, is said to have created a version of this sweet for Lady Canning, wife of the first Viceroy, and Bengalis still call that version ledikeni.",
+    "Its name joins the Persian words for flower and water, meaning rose water, with the name of a dark purple Indian fruit of about the same size and shape.",
+    "Balls of khoya are deep-fried until dark brown and soaked in sugar syrup, and this sweet is served warm at weddings and festivals."
+   ],
+   "answer": "Gulab jamun",
+   "accept": [
+    "gulab jamun",
+    "gulab jamuns",
+    "gulabjamun",
+    "gulab jamoon",
+    "gulab jaman",
+    "gulab jambu",
+    "gulaab jamun"
+   ],
+   "explanation": "Gulab jamun is named for rose water and the jamun fruit, is made of fried khoya in syrup, and its Bengali cousin ledikeni was named after Lady Canning.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c027",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Published in 1888 and often called the first Hindi bestseller, this tale of magical mazes and spies in disguise is said to have made thousands of readers learn the Devanagari script.",
+    "Its princess of Vijaygarh is loved by Prince Virendra of the rival kingdom of Naugarh, and in its 1990s television version a young Irrfan Khan played twin brothers.",
+    "This Doordarshan fantasy serial of the mid-1990s, named after its princess and based on Devaki Nandan Khatri's novel, gave children the villain Kroor Singh and his cry of Yakku."
+   ],
+   "answer": "Chandrakanta",
+   "accept": [
+    "chandrakanta",
+    "chandrakantha",
+    "chandra kanta",
+    "chandrakanta serial",
+    "chandrakanta novel",
+    "princess chandrakanta"
+   ],
+   "explanation": "Chandrakanta, Devaki Nandan Khatri's 1888 bestseller of tilism and aiyaars, became the 1994 Doordarshan serial with Shikha Swaroop as the princess, Irrfan Khan in a double role, and Kroor Singh's Yakku.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c028",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "Its logo shows two elephants pulling in opposite directions, a boast that not even they could break the bond it makes.",
+    "Its ad of an overloaded bus bouncing across the Rajasthan desert, with nobody falling off, won a Silver Lion at Cannes in 2002.",
+    "Kareena Kapoor danced to a Dabangg 2 song named after this brand, whose name most Indians use as the word for white glue."
+   ],
+   "answer": "Fevicol",
+   "accept": [
+    "fevicol",
+    "fevicol glue",
+    "fevicol sh",
+    "fevicol mr"
+   ],
+   "explanation": "Fevicol's logo of two elephants pulling against each other boasts of an unbreakable bond, its Jaisalmer bus ad won a Silver Lion at Cannes in 2002, and Dabangg 2's Fevicol Se made it a song title.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c029",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "In May 1984 an avalanche buried her team's tents one night at about 24,000 feet, yet a week later she reached her goal, a day before her thirtieth birthday.",
+    "Born in Nakuri in Uttarkashi district, she led a women's expedition back to the same peak in 1993, and later trained the amputee climber Arunima Sinha.",
+    "She was the first Indian woman to stand on the summit of Mount Everest."
+   ],
+   "answer": "Bachendri Pal",
+   "accept": [
+    "bachendri pal",
+    "bachendri",
+    "bachhendri pal",
+    "bachendri paul",
+    "bachendri pall"
+   ],
+   "explanation": "Bachendri Pal survived an avalanche at Camp III and became the first Indian woman on top of Everest on 23 May 1984, the day before her 30th birthday, and later mentored Arunima Sinha.",
+   "created": "2026-11-09"
+  },
+  {
+   "id": "q1109c030",
+   "topic": "connect",
+   "connect": true,
+   "clues": [
+    "The very first Indrajal Comics, in March 1964, was a story about this hero's belt, and Hindi readers knew him as Vetaal.",
+    "He is the twenty-first of his line, lives in the Skull Cave in the jungles of Bangalla, and rides a horse called Hero with a wolf called Devil at his side.",
+    "Lee Falk's masked hero in a purple bodysuit is known as the Ghost Who Walks."
+   ],
+   "answer": "The Phantom",
+   "accept": [
+    "the phantom",
+    "phantom",
+    "kit walker",
+    "phantom comics",
+    "the phantom comics",
+    "phantom indrajal"
+   ],
+   "explanation": "The Phantom, Lee Falk's Ghost Who Walks, starred in Indrajal Comics from its first issue, The Phantom's Belt, in 1964, and Hindi readers called him Vetaal.",
+   "created": "2026-11-09"
   }
  ]
 }
