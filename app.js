@@ -17,6 +17,7 @@ const THEME_OPTIONS = [
   { id: 'lost_in_translation', label: 'Lost in Translation' },
   { id: 'passbooks_floppies',  label: 'Passbooks and Floppy Disks' },
   { id: 'picture_this',        label: 'Picture This' },
+  { id: 'picture_this_hard',   label: 'Picture This: Harder' },
   { id: 'kashmir',             label: 'Kashmir' },
   { id: 'science_tech',        label: 'Science & Technology' },
 ];
@@ -26,8 +27,9 @@ const THEME_OPTIONS = [
 // Current Affairs joined on 2026-11-03 so a fresh batch is kept for its own round (and a
 // new current-affairs batch never becomes the "All new" set for Long and Bid rounds).
 // Kashmir and Science & Technology joined on 2026-11-09 as sets made for their own round.
+// Picture This: Harder joined on 2026-11-18 (famous names, unfamiliar pictures).
 const THEME_ONLY_TAGS = ['lost_in_translation', 'passbooks_floppies', 'picture_this', 'current_affairs',
-                         'kashmir', 'science_tech'];
+                         'kashmir', 'science_tech', 'picture_this_hard'];
 
 // Picture questions carry `image` (a file under images/pt/) and `credit` (the free-licence
 // attribution, shown after the reveal).

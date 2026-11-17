@@ -42,3 +42,36 @@ All pictures are from Wikimedia Commons under free licences.
 - `q1102038.jpg`: Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:IN-CT.svg
 - `q1102039.jpg`: Map: फ़िलप्रो (Filpro), CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:IN-TR.svg
 - `q1102040.jpg`: Photo: Unknown author, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Photo_of_Premchand.webp
+
+## Picture This: Harder (2026-11-18)
+
+- `q1118001.jpg`: Photo: Satyen K. Bordoloi, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Shyam_Benegal.jpg
+- `q1118002.jpg`: Photo: Unknown author, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Ravi_Varma.jpg
+- `q1118003.jpg`: Photo: Frederick Noronha, CC BY 3.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Miranda_de_Miranda_crop.jpg
+- `q1118004.jpg`: Photo: Ministry of Information and Broadcasting, GODL-India, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Mahendra_Kapoor.jpg
+- `q1118005.jpg`: Photo: Unknown author, printed in Sibnath Sastri's Ramtanu Lahiri, 1907, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Bankim_Chattapadhyay.jpg
+- `q1118006.jpg`: Photo: Ministry of Information and Broadcasting, GODL-India, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Uttam_Kumar.jpg
+- `q1118007.jpg`: Photo: Sudhanwa, CC BY-SA 3.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Pandit_Birju_Maharaj.jpg
+- `q1118008.jpg`: Photo: Ministry of Information and Broadcasting, GODL-India, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Nargis,_Best_Actress_for_Raat_Aur_Din.jpg
+- `q1118009.jpg`: Photo: Markgoff2972, CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Ravi_Shankar.jpg
+- `q1118010.jpg`: Photo: Fotoburo De Boer, Noord-Hollands Archief, CC0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:ChessHoogovens1990-3.jpg
+- `q1118011.jpg`: Photo: NASA, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Kalpana_Chawla_and_husband.jpg
+- `q1118012.jpg`: Photo: Bain News Service, Library of Congress, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:J._Krishnamurti_LCCN2014719002.jpg
+- `q1118013.jpg`: Photo: Unknown author, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Annie_Besant,_1888.jpg
+- `q1118014.jpg`: Photo: Horowhenua Historical Society Inc., via Kete Horowhenua, CC BY-SA 3.0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Tenzing_Norgay_in_1970s_New_Zealand,_from-_Edmund_Hillary_%26_Sherpa_Tenzing_(cropped).jpg
+- `q1118015.jpg`: Photo: Ministry of Youth Affairs and Sports, Government of India, GODL-India, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:The_former_Tennis_player,_Shri_Vijay_Amritraj_calling_on_the_Minister_of_State_for_Youth_Affairs_and_Sports_(IC),_Water_Resources,_River_Development_and_Ganga_Rejuvenation,_Shri_Vijay_Goel,_in_New_Delhi_on_April_11,_2017_(cropped).jpg
+- `q1118016.jpg`: Photo: Augustus Binu, CC BY-SA 3.0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Syed_Mujtaba_Hussain_Kirmani.jpg
+- `q1118017.jpg`: Photo: Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Jayant_Vishnu_Narlikar_-_Kolkata_2007-03-20_07324.jpg
+- `q1118018.jpg`: Photo: President's Secretariat, Government of India, GODL-India, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Padma_Bhushan_Bachendri_Pal.jpg
+- `q1118019.jpg`: Photo: Unknown author, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Gangaram.jpg
+- `q1118020.jpg`: Photo: Felice Beato, J. Paul Getty Museum, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Felice_Beato_(British,_born_Italy_-_(Old_Observatory_near_Delhi)_-_Google_Art_Project.jpg
+- `q1118021.jpg`: Photo: Henry Cousens, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Kailas_fr._hill_N.W._corner_View_of_Hindu_rock-cut_temple,_Cave_XVI_Kailasanatha,_from_the_north-west_corner,_Ellora.,_a_photo_by_Henry_Cousens,_1870's.jpg
+- `q1118022.jpg`: Photo: unknown photographer, Metropolitan Museum of Art, CC0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:-Rumi_Darwaza,_Lucknow,_India-_MET_DP72038.jpg
+- `q1118023.jpg`: Photo: Bourne and Shepherd, Public domain, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Bodh_Gaya_1899.jpg
+- `q1118024.jpg`: Photo: Rijksmuseum, CC0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Trein_op_de_Darjeeling-Himalayan_Railway_in_de_lus_bij_Tindharia,_RP-F-F00530.jpg
+- `q1118025.jpg`: Photo: Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Golconda_Fort_001.jpg
+- `q1118026.jpg`: Photo: Rijksmuseum, CC0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Gezicht_opde_Gol_Gumbaz,_graftombe_van_Mohammed_Adil_Shah_in_Bijapur_Bijapur-Mahmoeds_Tomb_(titel_op_object),_RP-F-F02469.jpg
+- `q1118027.jpg`: Photo: Devkmaravi, CC BY-SA 4.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:Kamakhya_Temple_-_DEV_8829.jpg
+- `q1118028.jpg`: Photo: Güldem Üstün, CC BY 2.0, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:India-Rani_Ki_Vav-Magnificient_stepwell_(39311611660).jpg
+- `q1118029.jpg`: Photo: Rijksmuseum, CC0, via Wikimedia Commons, cropped. Source: https://commons.wikimedia.org/wiki/File:Gezicht_op_de_Panch_Mahal_om_Fatehpur_Sikri_Agra-Futtehpur-Sigri-Binch_Mahal(Childrens_home)_(titel_op_object),_RP-F-F02418.jpg
+- `q1118030.jpg`: Photo: Unknown author, Public domain, via Wikimedia Commons. Source: https://commons.wikimedia.org/wiki/File:The_Indian_Wrestler_Gama.jpg

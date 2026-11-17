@@ -63577,6 +63577,837 @@
     "Astronomical unit",
     "Light-second"
    ]
+  },
+  {
+   "id": "q1118001",
+   "topic": "cinema",
+   "question": "Who is this? One of his films was paid for by half a million dairy farmers, who chipped in two rupees each.",
+   "answer": "Shyam Benegal",
+   "accept": [
+    "shyam benegal",
+    "benegal",
+    "shyam babu"
+   ],
+   "explanation": "Shyam Benegal, director of Ankur, Nishant, Bhumika and Manthan, the dairy-cooperative film the farmers paid for, in his office in 2010.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118001.jpg",
+   "credit": "Photo: Satyen K. Bordoloi, Public domain, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Shyam_Benegal.jpg",
+   "distractors": [
+    "Govind Nihalani",
+    "Mrinal Sen",
+    "Basu Chatterjee"
+   ]
+  },
+  {
+   "id": "q1118002",
+   "topic": "general",
+   "question": "Who is this? His paintings of gods and goddesses, printed as cheap lithographs, hung in millions of Indian homes.",
+   "answer": "Raja Ravi Varma",
+   "accept": [
+    "raja ravi varma",
+    "ravi varma",
+    "raja ravi verma",
+    "ravi verma",
+    "varma"
+   ],
+   "explanation": "Raja Ravi Varma, the painter from Kilimanoor in Travancore, in a portrait published in The Modern Review in 1907, the year after his death.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118002.jpg",
+   "credit": "Photo: Unknown author, Public domain, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ravi_Varma.jpg",
+   "distractors": [
+    "Abanindranath Tagore",
+    "Jamini Roy",
+    "Nandalal Bose"
+   ]
+  },
+  {
+   "id": "q1118003",
+   "topic": "general",
+   "question": "Who is this? His crowded, cheerful cartoons cover the walls of Cafe Mondegar in Colaba.",
+   "answer": "Mario Miranda",
+   "accept": [
+    "mario miranda",
+    "mario de miranda",
+    "mario",
+    "miranda"
+   ],
+   "explanation": "Mario Miranda, the Goan cartoonist of the Times of India and the Illustrated Weekly, photographed in 2008 at the age of 82.",
+   "difficulty": 3,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118003.jpg",
+   "credit": "Photo: Frederick Noronha, CC BY 3.0, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Miranda_de_Miranda_crop.jpg",
+   "distractors": [
+    "Abu Abraham",
+    "Sudhir Dar",
+    "Ajit Ninan"
+   ]
+  },
+  {
+   "id": "q1118004",
+   "topic": "music",
+   "question": "Who is this? He sang Chalo Ek Baar Phir Se Ajnabi Ban Jayen Hum Dono.",
+   "answer": "Mahendra Kapoor",
+   "accept": [
+    "mahendra kapoor",
+    "mahender kapoor",
+    "mahendra kapur"
+   ],
+   "explanation": "Playback singer Mahendra Kapoor, pictured in the catalogue of the 15th National Film Awards, where he won Best Male Playback Singer for a patriotic song from Upkar.",
+   "difficulty": 3,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118004.jpg",
+   "credit": "Photo: Ministry of Information and Broadcasting, GODL-India, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mahendra_Kapoor.jpg",
+   "distractors": [
+    "Talat Mahmood",
+    "Mohammed Rafi",
+    "Kishore Kumar"
+   ]
+  },
+  {
+   "id": "q1118005",
+   "topic": "general",
+   "question": "Who is this? A deputy magistrate under the British, he wrote the novel that gave India its National Song.",
+   "answer": "Bankim Chandra Chattopadhyay",
+   "accept": [
+    "bankim chandra chattopadhyay",
+    "bankim chandra chatterjee",
+    "bankim chandra",
+    "bankimchandra",
+    "bankim",
+    "bankim chatterjee",
+    "bankim chandra chattopadhyaya",
+    "rishi bankim"
+   ],
+   "explanation": "Bankim Chandra Chattopadhyay, the Bengali novelist whose 1882 novel carried the song that became India's National Song, in a portrait printed in a 1907 history of the Bengal Renaissance.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118005.jpg",
+   "credit": "Photo: Unknown author, printed in Sibnath Sastri's Ramtanu Lahiri, 1907, Public domain, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bankim_Chattapadhyay.jpg",
+   "distractors": [
+    "Michael Madhusudan Dutt",
+    "Dinabandhu Mitra",
+    "Romesh Chunder Dutt"
+   ]
+  },
+  {
+   "id": "q1118006",
+   "topic": "cinema",
+   "question": "Who is this? He was Bengali cinema's Mahanayak, and his Hindi films included Amanush.",
+   "answer": "Uttam Kumar",
+   "accept": [
+    "uttam kumar",
+    "uttam",
+    "arun kumar chattopadhyay",
+    "mahanayak uttam kumar"
+   ],
+   "explanation": "Uttam Kumar, pictured in the catalogue of the 15th National Film Awards, where he was named Best Actor for Antony Firingee and Chiriyakhana.",
+   "difficulty": 3,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118006.jpg",
+   "credit": "Photo: Ministry of Information and Broadcasting, GODL-India, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Uttam_Kumar.jpg",
+   "distractors": [
+    "Soumitra Chatterjee",
+    "Pradeep Kumar",
+    "Bharat Bhushan"
+   ]
+  },
+  {
+   "id": "q1118007",
+   "topic": "music",
+   "question": "Who is this? This Kathak maestro was still choreographing Hindi film songs in his late seventies.",
+   "answer": "Birju Maharaj",
+   "accept": [
+    "birju maharaj",
+    "pandit birju maharaj",
+    "pt birju maharaj",
+    "brijmohan nath mishra",
+    "brij mohan mishra",
+    "birju maharaj ji",
+    "maharaj ji"
+   ],
+   "explanation": "Pandit Birju Maharaj performing in Pune in 2012, aged 74; his film work ran from Shatranj Ke Khilari in 1977 to Bajirao Mastani in 2015.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118007.jpg",
+   "credit": "Photo: Sudhanwa, CC BY-SA 3.0, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pandit_Birju_Maharaj.jpg",
+   "distractors": [
+    "Gopi Krishna",
+    "Kelucharan Mohapatra",
+    "Uday Shankar"
+   ]
+  },
+  {
+   "id": "q1118008",
+   "topic": "cinema",
+   "question": "Who is this? She married the actor who had played her son in her most famous film.",
+   "answer": "Nargis",
+   "accept": [
+    "nargis",
+    "nargis dutt",
+    "fatima rashid",
+    "nargis ji"
+   ],
+   "explanation": "Nargis, pictured in the catalogue of the 15th National Film Awards, where she became the first winner of the Best Actress award, for Raat Aur Din; in 1958 she had married Sunil Dutt, who played her son in her most famous film.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118008.jpg",
+   "credit": "Photo: Ministry of Information and Broadcasting, GODL-India, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Nargis,_Best_Actress_for_Raat_Aur_Din.jpg",
+   "distractors": [
+    "Meena Kumari",
+    "Nutan",
+    "Waheeda Rehman"
+   ]
+  },
+  {
+   "id": "q1118009",
+   "topic": "music",
+   "question": "Who is this? This photograph was taken in America in 1969, when he was 49.",
+   "answer": "Ravi Shankar",
+   "accept": [
+    "ravi shankar",
+    "pandit ravi shankar",
+    "pt ravi shankar",
+    "robindro shaunkor",
+    "ravi shanker"
+   ],
+   "explanation": "Pandit Ravi Shankar, aged 49, on stage at Woodstock in August 1969, two years after his Monterey performance made him a star of the American counterculture.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118009.jpg",
+   "credit": "Photo: Markgoff2972, CC BY-SA 4.0, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ravi_Shankar.jpg",
+   "distractors": [
+    "Vilayat Khan",
+    "Nikhil Banerjee",
+    "Ali Akbar Khan"
+   ]
+  },
+  {
+   "id": "q1118010",
+   "topic": "general",
+   "question": "Who is this? He was twenty when this photo was taken at a tournament in the Netherlands in 1990.",
+   "answer": "Viswanathan Anand",
+   "accept": [
+    "viswanathan anand",
+    "vishwanathan anand",
+    "vishy anand",
+    "vishy",
+    "anand",
+    "v anand"
+   ],
+   "explanation": "Viswanathan Anand, India's first chess grandmaster and later a five-time world champion, at the Hoogovens tournament in Wijk aan Zee in 1990.",
+   "difficulty": 3,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118010.jpg",
+   "credit": "Photo: Fotoburo De Boer, Noord-Hollands Archief, CC0, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:ChessHoogovens1990-3.jpg",
+   "distractors": [
+    "Pravin Thipsay",
+    "Dibyendu Barua",
+    "Pentala Harikrishna"
+   ]
+  },
+  {
+   "id": "q1118011",
+   "topic": "general",
+   "question": "Who is this? She studied aeronautical engineering at Punjab Engineering College before moving to the United States.",
+   "answer": "Kalpana Chawla",
+   "accept": [
+    "kalpana chawla",
+    "kalpana",
+    "chawla"
+   ],
+   "explanation": "Kalpana Chawla at Launch Pad 39B of the Kennedy Space Center on 18 November 1997, the day before her first spaceflight made her the first woman of Indian origin in space.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118011.jpg",
+   "credit": "Photo: NASA, Public domain, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Kalpana_Chawla_and_husband.jpg",
+   "distractors": [
+    "Sunita Williams",
+    "Tessy Thomas",
+    "Ritu Karidhal"
+   ]
+  },
+  {
+   "id": "q1118012",
+   "topic": "history",
+   "question": "Who is this? As a boy he was groomed by the Theosophists as a coming World Teacher, a role he gave up in 1929.",
+   "answer": "Jiddu Krishnamurti",
+   "accept": [
+    "jiddu krishnamurti",
+    "j krishnamurti",
+    "krishnamurti",
+    "jk"
+   ],
+   "explanation": "Jiddu Krishnamurti, the philosopher who dissolved the Order of the Star in the East in 1929 and founded Rishi Valley School, in a studio portrait from the Bain News Service collection, taken when he was a young man.",
+   "difficulty": 3,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118012.jpg",
+   "credit": "Photo: Bain News Service, Library of Congress, Public domain, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:J._Krishnamurti_LCCN2014719002.jpg",
+   "distractors": [
+    "Meher Baba",
+    "Paramahansa Yogananda",
+    "Sri Aurobindo"
+   ]
+  },
+  {
+   "id": "q1118013",
+   "topic": "history",
+   "question": "Who is this? She championed striking London match-factory girls in 1888, years before making India her home.",
+   "answer": "Annie Besant",
+   "accept": [
+    "annie besant",
+    "besant",
+    "dr annie besant",
+    "mrs besant"
+   ],
+   "explanation": "Annie Besant in 1888, the year she took up the cause of the Bryant and May match workers in London; she settled in India in 1893 and in 1917 became the first woman president of the Indian National Congress.",
+   "difficulty": 3,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118013.jpg",
+   "credit": "Photo: Unknown author, Public domain, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Annie_Besant,_1888.jpg",
+   "distractors": [
+    "Sister Nivedita",
+    "Mira Behn",
+    "Mother Teresa"
+   ]
+  },
+  {
+   "id": "q1118014",
+   "topic": "general",
+   "question": "Who is this? In 1953 he and a New Zealand beekeeper made history together.",
+   "answer": "Tenzing Norgay",
+   "accept": [
+    "tenzing norgay",
+    "tenzing",
+    "sherpa tenzing",
+    "tenzing norkay",
+    "tensing norgay",
+    "tensing"
+   ],
+   "explanation": "Tenzing Norgay, who with Edmund Hillary made the first ascent of the world's highest mountain on 29 May 1953, in a photo from about 1971 held by a historical society in New Zealand.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118014.jpg",
+   "credit": "Photo: Horowhenua Historical Society Inc., via Kete Horowhenua, CC BY-SA 3.0, via Wikimedia Commons, cropped",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Tenzing_Norgay_in_1970s_New_Zealand,_from-_Edmund_Hillary_%26_Sherpa_Tenzing_(cropped).jpg",
+   "distractors": [
+    "Nawang Gombu",
+    "Ang Rita Sherpa",
+    "Apa Sherpa"
+   ]
+  },
+  {
+   "id": "q1118015",
+   "topic": "general",
+   "question": "Who is this? He also played an ally of James Bond in the 1983 film Octopussy.",
+   "answer": "Vijay Amritraj",
+   "accept": [
+    "vijay amritraj",
+    "amritraj",
+    "vijay amirtharaj"
+   ],
+   "explanation": "Vijay Amritraj, India's leading tennis player of the 1970s and 1980s, in New Delhi in April 2017; in Octopussy he played Vijay, an MI6 agent who helps Bond in India.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118015.jpg",
+   "credit": "Photo: Ministry of Youth Affairs and Sports, Government of India, GODL-India, via Wikimedia Commons, cropped",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_former_Tennis_player,_Shri_Vijay_Amritraj_calling_on_the_Minister_of_State_for_Youth_Affairs_and_Sports_(IC),_Water_Resources,_River_Development_and_Ganga_Rejuvenation,_Shri_Vijay_Goel,_in_New_Delhi_on_April_11,_2017_(cropped).jpg",
+   "distractors": [
+    "Ramesh Krishnan",
+    "Ramanathan Krishnan",
+    "Jaidip Mukerjea"
+   ]
+  },
+  {
+   "id": "q1118016",
+   "topic": "cricket",
+   "question": "Who is this? He was part of the Indian team that won the World Cup in 1983.",
+   "answer": "Syed Kirmani",
+   "accept": [
+    "syed kirmani",
+    "kirmani",
+    "syed mujtaba hussain kirmani",
+    "s m h kirmani",
+    "kiri"
+   ],
+   "explanation": "Syed Kirmani, India's wicketkeeper in the 1983 World Cup triumph, photographed in 2015.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118016.jpg",
+   "credit": "Photo: Augustus Binu, CC BY-SA 3.0, via Wikimedia Commons, cropped",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Syed_Mujtaba_Hussain_Kirmani.jpg",
+   "distractors": [
+    "Madan Lal",
+    "Mohinder Amarnath",
+    "Sandeep Patil"
+   ]
+  },
+  {
+   "id": "q1118017",
+   "topic": "general",
+   "question": "Who is this? This astrophysicist worked with Fred Hoyle at Cambridge, and later wrote much-loved science fiction in his mother tongue.",
+   "answer": "Jayant Narlikar",
+   "accept": [
+    "jayant narlikar",
+    "narlikar",
+    "jayant vishnu narlikar",
+    "j v narlikar"
+   ],
+   "explanation": "Jayant Narlikar, co-author of the Hoyle-Narlikar theory of gravity and founding director of IUCAA in Pune, photographed in 2007.",
+   "difficulty": 3,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118017.jpg",
+   "credit": "Photo: Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons, cropped",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Jayant_Vishnu_Narlikar_-_Kolkata_2007-03-20_07324.jpg",
+   "distractors": [
+    "Yash Pal",
+    "Raja Ramanna",
+    "M. G. K. Menon"
+   ]
+  },
+  {
+   "id": "q1118018",
+   "topic": "general",
+   "question": "Who is this? In 1984 she became the first Indian woman to reach the summit of the world's highest mountain.",
+   "answer": "Bachendri Pal",
+   "accept": [
+    "bachendri pal",
+    "bachendri",
+    "bachendri paal"
+   ],
+   "explanation": "Bachendri Pal, who stood on top of the world's highest mountain on 23 May 1984, receiving the Padma Bhushan from the President in March 2019.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118018.jpg",
+   "credit": "Photo: President's Secretariat, Government of India, GODL-India, via Wikimedia Commons, cropped",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Padma_Bhushan_Bachendri_Pal.jpg",
+   "distractors": [
+    "Santosh Yadav",
+    "Premlata Agarwal",
+    "Arunima Sinha"
+   ]
+  },
+  {
+   "id": "q1118019",
+   "topic": "history",
+   "question": "Who is this? A big hospital in the capital is named after this engineer, who also designed many of the grand buildings of Lahore.",
+   "answer": "Sir Ganga Ram",
+   "accept": [
+    "ganga ram",
+    "sir ganga ram",
+    "gangaram",
+    "sir gangaram",
+    "rai bahadur ganga ram"
+   ],
+   "explanation": "Sir Ganga Ram, the civil engineer and philanthropist who shaped much of modern Lahore and after whom Sir Ganga Ram Hospital in New Delhi is named, in a portrait printed in The Modern Review in August 1927, a month after his death.",
+   "difficulty": 3,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118019.jpg",
+   "credit": "Photo: Unknown author, Public domain, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Gangaram.jpg",
+   "distractors": [
+    "Sir Sobha Singh",
+    "Sir Chhotu Ram",
+    "Dyal Singh Majithia"
+   ]
+  },
+  {
+   "id": "q1118020",
+   "topic": "history",
+   "question": "Which place is this? When this was photographed in 1858, the new capital city that now surrounds it had not yet been built.",
+   "answer": "Jantar Mantar",
+   "accept": [
+    "jantar mantar",
+    "jantar mantar delhi",
+    "jantar mantar new delhi",
+    "delhi jantar mantar",
+    "jantar mantar observatory",
+    "samrat yantra",
+    "delhi observatory"
+   ],
+   "explanation": "Jantar Mantar in Delhi, the observatory Sawai Jai Singh II completed in 1724, photographed by Felice Beato in 1858: a man climbs the stairway of the giant Samrat Yantra sundial, on open ground long before New Delhi was built around it.",
+   "difficulty": 3,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118020.jpg",
+   "credit": "Photo: Felice Beato, J. Paul Getty Museum, Public domain, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Felice_Beato_(British,_born_Italy_-_(Old_Observatory_near_Delhi)_-_Google_Art_Project.jpg",
+   "distractors": [
+    "Purana Qila",
+    "Agrasen ki Baoli",
+    "Feroz Shah Kotla"
+   ]
+  },
+  {
+   "id": "q1118021",
+   "topic": "history",
+   "question": "Which place is this? This temple was cut out of a hillside of rock in the 8th century under the Rashtrakuta kings.",
+   "answer": "Ellora Caves",
+   "accept": [
+    "ellora caves",
+    "ellora",
+    "kailasa temple",
+    "kailash temple",
+    "kailasa temple ellora",
+    "kailasanatha temple",
+    "kailash mandir",
+    "ellora cave 16",
+    "verul"
+   ],
+   "explanation": "The Kailasa temple, Cave 16 at Ellora, in an early photograph by Henry Cousens of the Archaeological Survey of India; its carvers began at the top of the rock and worked downward, and it is the largest of the 34 Ellora caves.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118021.jpg",
+   "credit": "Photo: Henry Cousens, Public domain, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Kailas_fr._hill_N.W._corner_View_of_Hindu_rock-cut_temple,_Cave_XVI_Kailasanatha,_from_the_north-west_corner,_Ellora.,_a_photo_by_Henry_Cousens,_1870's.jpg",
+   "distractors": [
+    "Ajanta Caves",
+    "Elephanta Caves",
+    "Badami Caves"
+   ]
+  },
+  {
+   "id": "q1118022",
+   "topic": "history",
+   "question": "Which city is this? This sixty-foot gateway, built in 1784, is sometimes called the Turkish Gate.",
+   "answer": "Lucknow",
+   "accept": [
+    "lucknow",
+    "lakhnau",
+    "lucknow rumi darwaza",
+    "rumi darwaza",
+    "rumi darwaza lucknow",
+    "rumi gate",
+    "turkish gate lucknow"
+   ],
+   "explanation": "The Rumi Darwaza in Lucknow, the sixty-foot gateway built by Nawab Asaf-ud-Daula in 1784, in an albumen print from the 1860s or 70s.",
+   "difficulty": 3,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118022.jpg",
+   "credit": "Photo: unknown photographer, Metropolitan Museum of Art, CC0, via Wikimedia Commons, cropped",
+   "source_url": "https://commons.wikimedia.org/wiki/File:-Rumi_Darwaza,_Lucknow,_India-_MET_DP72038.jpg",
+   "distractors": [
+    "Bhopal",
+    "Murshidabad",
+    "Rampur"
+   ]
+  },
+  {
+   "id": "q1118023",
+   "topic": "history",
+   "question": "Which place is this? This photograph, published in 1899, shows a temple that pilgrims from all over Asia come to visit.",
+   "answer": "Mahabodhi Temple, Bodh Gaya",
+   "accept": [
+    "mahabodhi temple",
+    "mahabodhi",
+    "maha bodhi temple",
+    "bodh gaya",
+    "bodhgaya",
+    "buddh gaya",
+    "buddha gaya",
+    "bodh gaya temple",
+    "mahabodhi temple, bodh gaya"
+   ],
+   "explanation": "The Mahabodhi Temple at Bodh Gaya in Bihar, in a Bourne and Shepherd photograph published in 1899, not long after British archaeologists restored it in the 1880s.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118023.jpg",
+   "credit": "Photo: Bourne and Shepherd, Public domain, via Wikimedia Commons, cropped",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bodh_Gaya_1899.jpg",
+   "distractors": [
+    "Lingaraj Temple, Bhubaneswar",
+    "Kandariya Mahadeva Temple, Khajuraho",
+    "Brihadeeswarar Temple, Thanjavur"
+   ]
+  },
+  {
+   "id": "q1118024",
+   "topic": "geography",
+   "question": "Which railway is this? A famous song in the film Aradhana is set along this line.",
+   "answer": "Darjeeling Himalayan Railway",
+   "accept": [
+    "darjeeling himalayan railway",
+    "darjeeling railway",
+    "darjeeling hill railway",
+    "darjeeling toy train",
+    "darjeeling mountain railway",
+    "dhr",
+    "darjeeling"
+   ],
+   "explanation": "The Darjeeling Himalayan Railway, opened in 1881, in an early albumen print: below Tindharia the line loops round a hill and passes under itself to gain height.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118024.jpg",
+   "credit": "Photo: Rijksmuseum, CC0, via Wikimedia Commons, cropped",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Trein_op_de_Darjeeling-Himalayan_Railway_in_de_lus_bij_Tindharia,_RP-F-F00530.jpg",
+   "distractors": [
+    "Kalka-Shimla Railway",
+    "Nilgiri Mountain Railway",
+    "Matheran Hill Railway"
+   ]
+  },
+  {
+   "id": "q1118025",
+   "topic": "history",
+   "question": "Which fort is this? A handclap below the dome at its entrance can be heard at this hilltop pavilion, almost a kilometre away.",
+   "answer": "Golconda Fort",
+   "accept": [
+    "golconda fort",
+    "golconda",
+    "golkonda",
+    "golkonda fort",
+    "golconda qila",
+    "golconda hyderabad",
+    "bala hissar golconda"
+   ],
+   "explanation": "The Bala Hissar pavilion on the summit of Golconda Fort, capital of the Qutb Shahi sultans until 1590; the entrance acoustics served as an early warning against attack.",
+   "difficulty": 3,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118025.jpg",
+   "credit": "Photo: Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons, cropped",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Golconda_Fort_001.jpg",
+   "distractors": [
+    "Bidar Fort",
+    "Gulbarga Fort",
+    "Daulatabad Fort"
+   ]
+  },
+  {
+   "id": "q1118026",
+   "topic": "history",
+   "question": "Which monument is this? This sultan's tomb, dated to 1656, has one of the largest domes ever built in India.",
+   "answer": "Gol Gumbaz",
+   "accept": [
+    "gol gumbaz",
+    "gol gumbad",
+    "gol gumbaj",
+    "gol gombaz",
+    "gol gumbaz bijapur",
+    "gola gummata"
+   ],
+   "explanation": "The Gol Gumbaz in Bijapur, now Vijayapura, tomb of Sultan Mohammed Adil Shah, in a nineteenth-century albumen print; its whispering gallery is famous for echoes, a single handclap coming back many times.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118026.jpg",
+   "credit": "Photo: Rijksmuseum, CC0, via Wikimedia Commons, cropped",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Gezicht_opde_Gol_Gumbaz,_graftombe_van_Mohammed_Adil_Shah_in_Bijapur_Bijapur-Mahmoeds_Tomb_(titel_op_object),_RP-F-F02469.jpg",
+   "distractors": [
+    "Ibrahim Rauza",
+    "Bibi Ka Maqbara",
+    "Humayun's Tomb"
+   ]
+  },
+  {
+   "id": "q1118027",
+   "topic": "geography",
+   "question": "Which temple is this? It stands on a hill and is one of the oldest and most revered seats of the mother goddess.",
+   "answer": "Kamakhya Temple",
+   "accept": [
+    "kamakhya temple",
+    "kamakhya",
+    "kamakhya devi temple",
+    "maa kamakhya",
+    "kamakhya mandir",
+    "kamakhya guwahati",
+    "kamakhya temple guwahati"
+   ],
+   "explanation": "The Kamakhya Temple on Nilachal hill in Guwahati, one of the oldest of the Shakta pithas; its polygonal, beehive-like dome is typical of the local Nilachal style.",
+   "difficulty": 3,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118027.jpg",
+   "credit": "Photo: Devkmaravi, CC BY-SA 4.0, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Kamakhya_Temple_-_DEV_8829.jpg",
+   "distractors": [
+    "Kalighat Kali Temple",
+    "Jwalamukhi Temple",
+    "Chamundeshwari Temple"
+   ]
+  },
+  {
+   "id": "q1118028",
+   "topic": "history",
+   "question": "Which stepwell is this? It is pictured on the back of the lavender banknote issued in 2018.",
+   "answer": "Rani ki Vav",
+   "accept": [
+    "rani ki vav",
+    "rani ki vaav",
+    "rani ni vav",
+    "rani ki vav patan",
+    "rani ki bav",
+    "rani ki baori",
+    "queen's stepwell",
+    "queens stepwell",
+    "patan stepwell"
+   ],
+   "explanation": "Rani ki Vav, the eleventh-century Queen's Stepwell at Patan, seen from the well end looking back up its stairs; a UNESCO World Heritage Site, it is pictured on the reverse of the 2018 hundred-rupee note.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118028.jpg",
+   "credit": "Photo: Güldem Üstün, CC BY 2.0, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:India-Rani_Ki_Vav-Magnificient_stepwell_(39311611660).jpg",
+   "distractors": [
+    "Chand Baori",
+    "Adalaj Stepwell",
+    "Agrasen ki Baoli"
+   ]
+  },
+  {
+   "id": "q1118029",
+   "topic": "history",
+   "question": "Which place is this? This tiered pavilion stands in a sandstone city that a Mughal emperor built as his capital.",
+   "answer": "Fatehpur Sikri",
+   "accept": [
+    "fatehpur sikri",
+    "fatehpur",
+    "fatehpur sikri panch mahal",
+    "panch mahal",
+    "fatehpur seekri",
+    "fatehpur sikri agra"
+   ],
+   "explanation": "The Panch Mahal, a five-storeyed pavilion at Fatehpur Sikri, in a nineteenth-century albumen print; Akbar founded the city as his capital in 1571 and left it in 1585.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118029.jpg",
+   "credit": "Photo: Rijksmuseum, CC0, via Wikimedia Commons, cropped",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Gezicht_op_de_Panch_Mahal_om_Fatehpur_Sikri_Agra-Futtehpur-Sigri-Binch_Mahal(Childrens_home)_(titel_op_object),_RP-F-F02418.jpg",
+   "distractors": [
+    "Agra Fort",
+    "Orchha",
+    "Mandu"
+   ]
+  },
+  {
+   "id": "q1118030",
+   "topic": "general",
+   "question": "Who is this? He was said to be undefeated across a wrestling career of more than fifty years.",
+   "answer": "The Great Gama",
+   "accept": [
+    "gama",
+    "the great gama",
+    "great gama",
+    "gama pehlwan",
+    "gama pahalwan",
+    "gama pehelwan",
+    "gama pahelwan",
+    "ghulam mohammad",
+    "ghulam muhammad",
+    "rustam e hind",
+    "rustam-e-hind"
+   ],
+   "explanation": "The Great Gama, the Punjabi wrestler famed for never losing a bout, in a photo printed in The Modern Review in November 1910, the year he won a world heavyweight title in London.",
+   "difficulty": 2,
+   "created": "2026-11-18",
+   "themes": [
+    "picture_this_hard"
+   ],
+   "image": "q1118030.jpg",
+   "credit": "Photo: Unknown author, Public domain, via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_Indian_Wrestler_Gama.jpg",
+   "distractors": [
+    "Dara Singh",
+    "Khashaba Jadhav",
+    "Guru Hanuman"
+   ]
   }
  ]
 }
